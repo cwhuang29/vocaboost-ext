@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es2017",
+    "checkJs": true,
+    "jsx": "react",
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@pages/*": ["pages/*"],
+      "@components/*": ["components/*"],
+      "@shared/*": ["shared/*"],
+      "@actions/*": ["shared/actions/*"],
+      "@constants/*": ["shared/constants/*"],
+      "@hooks/*": ["shared/hooks/*"],
+      "@reducers/*": ["shared/reducers/*"],
+      "@selectors/*": ["shared/selectors/*"],
+      "@services/*": ["shared/services/*"],
+      "@utils/*": ["shared/utils/*"],
+      "@popup/*": ["popup/*"],
+      "@home": ["pages/Home/index.jsx"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "**/node_modules/*"]
+}

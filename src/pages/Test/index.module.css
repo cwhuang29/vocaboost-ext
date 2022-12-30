@@ -1,0 +1,45 @@
+.text-memo-blue-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 1 1 30%;
+  margin: auto;
+  font-family: Menlo, Monaco;
+  background: #066ace;
+  color: white;
+  border-radius: 5px;
+  max-width: 600px;
+  padding: 20px;
+  gap: 1em;
+}
+
+input {
+  flex: 1 0 100%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.update {
+  flex: 1 0 100%;
+  text-align: center;
+  margin: 0px auto;
+  color: yellow;
+}
+
+.tile {
+  flex: 0 0 40%;
+  text-align: center;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin: auto;
+  background: #202020;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.update {
+  margin: auto;
+}

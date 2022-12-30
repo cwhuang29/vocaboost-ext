@@ -1,0 +1,7 @@
+build
+node_modules
+.gitignore
+.dockerignore
+yarn-error.log
+npm-debug.log
+.DS_Store
