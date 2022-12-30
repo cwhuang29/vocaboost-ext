@@ -11,15 +11,6 @@ export const GLOBAL_MESSAGE_SERVERITY = {
 
 export const GLOBAL_MESSAGE_DISPLAY_PERIOD = 1000 * 30;
 
-export const HIGHLIGHTER_BG_COLORS = {
-  PINK: 'PINK',
-  ORANGE: 'ORANGE',
-  YELLOW: 'YELLOW',
-  GREEN: 'GREEN',
-  BLUE: 'BLUE',
-  PURPLE: 'PURPLE',
-};
-
 export const HIGHLIGHTER_BG_COLORS_CODE = {
   PINK: ' rgb(246 155 241 / 80%)',
   ORANGE: 'rgb(255 193 115 / 80%)',

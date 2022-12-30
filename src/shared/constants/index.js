@@ -44,3 +44,19 @@ export const HIGHLIGHTER_FONT_SIZE = {
   MEDIUM: 'MEDIUM',
   LARGE: 'LARGE',
 };
+
+export const HIGHLIGHTER_BG_COLORS = {
+  PINK: 'PINK',
+  ORANGE: 'ORANGE',
+  YELLOW: 'YELLOW',
+  GREEN: 'GREEN',
+  BLUE: 'BLUE',
+  PURPLE: 'PURPLE',
+};
+
+export const LANGS = {
+  en: 'en',
+  es: 'es',
+  zh_TW: 'zh_TW',
+  zh_CN: 'zh_CN',
+};

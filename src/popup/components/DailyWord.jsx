@@ -5,10 +5,10 @@ import {
   HIGHLIGHTER_DETAIL_ITEM_CLASS,
   HIGHLIGHTER_POS_CLASS,
   HIGHLIGHTER_TARGET_WORD_CLASS,
+  LANGS,
   ONLINE_DIC_URL,
   PARTS_OF_SPEECH_SHORTHAND,
 } from '@shared/constants';
-import { LANGS } from '@shared/constants/i18n';
 import { constructWordExample } from '@shared/utils/highlight';
 
 import MenuBookIcon from '@mui/icons-material/MenuBook';

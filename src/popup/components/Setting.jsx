@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { popupSettingActionType } from '@popup/helpers/action';
-import { HIGHLIGHTER_FONT_SIZE } from '@shared/constants';
-import { LANGS, LANGS_DISPLAY } from '@shared/constants/i18n';
+import { HIGHLIGHTER_FONT_SIZE, LANGS } from '@shared/constants';
+import { LANGS_DISPLAY } from '@shared/constants/i18n';
 import { toCapitalize } from '@shared/utils/stringHelpers';
 
 import { Box, Checkbox, FormControlLabel, MenuItem, TextField } from '@mui/material';

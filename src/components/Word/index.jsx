@@ -1,1 +1,0 @@
-import HighlightWord from './HighlightWord';

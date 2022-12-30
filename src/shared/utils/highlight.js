@@ -11,8 +11,8 @@ import {
   HIGHLIGHTER_TARGET_WORD_CLASS,
   ONLINE_DIC_URL,
   PARTS_OF_SPEECH_SHORTHAND,
+  LANGS,
 } from '@shared/constants';
-import { LANGS } from '@shared/constants/i18n';
 
 import { toCapitalize } from './stringHelpers';
 

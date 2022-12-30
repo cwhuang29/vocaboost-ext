@@ -1,6 +1,4 @@
-import { HIGHLIGHTER_FONT_SIZE } from '@shared/constants';
-import { LANGS } from '@shared/constants/i18n';
-import { HIGHLIGHTER_BG_COLORS } from '@shared/constants/styles';
+import { HIGHLIGHTER_BG_COLORS, HIGHLIGHTER_FONT_SIZE, LANGS } from '@shared/constants';
 
 export const isConfigEqual = (c1, c2) => {
   const cond1 = Object.keys(c1).filter(key => c1[key] !== c2[key]).length === 0;
