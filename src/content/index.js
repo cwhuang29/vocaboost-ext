@@ -1,6 +1,7 @@
 import {
   EXT_CHECK_INTERVAL,
   HIGHLIGHTER_BG_COLOR_CLASS,
+  HIGHLIGHTER_CLASS,
   HIGHLIGHTER_DETAIL_CLASS,
   HIGHLIGHTER_DETAIL_HIDDEN_CLASS,
   HIGHLIGHTER_DETAIL_ITEM_CLASS,
@@ -92,6 +93,7 @@ const shouldInsertHighlight = node =>
   node.parentNode.tagName !== 'STYLE' &&
   node.parentNode.tagName !== 'SCRIPT' &&
   node.parentNode.tagName !== 'NOSCRIPT' &&
+  !node.parentNode.classList.contains(HIGHLIGHTER_CLASS) && // This is for text in the popup page
   !node.parentNode.classList.contains(HIGHLIGHTER_ORG_WORD_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_TARGET_WORD_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_DETAIL_ITEM_CLASS) &&

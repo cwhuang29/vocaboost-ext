@@ -1,14 +1,7 @@
 import React from 'react';
 
 import { useExtensionMessageContext } from '@hooks/useExtensionMessageContext';
-import {
-  HIGHLIGHTER_DETAIL_ITEM_CLASS,
-  HIGHLIGHTER_POS_CLASS,
-  HIGHLIGHTER_TARGET_WORD_CLASS,
-  LANGS,
-  ONLINE_DIC_URL,
-  PARTS_OF_SPEECH_SHORTHAND,
-} from '@shared/constants';
+import { HIGHLIGHTER_CLASS, HIGHLIGHTER_POS_CLASS, LANGS, ONLINE_DIC_URL, PARTS_OF_SPEECH_SHORTHAND } from '@shared/constants';
 import { constructWordExample } from '@shared/utils/highlight';
 
 import MenuBookIcon from '@mui/icons-material/MenuBook';
@@ -28,7 +21,7 @@ const DailyWord = ({ language }) => {
   return word ? (
     <Box style={{ color: 'rgb(27 31 50)' }}>
       <Box style={{ display: 'flex', alignItems: 'center' }}>
-        <Typography variant='h4' component='div' className={HIGHLIGHTER_TARGET_WORD_CLASS} style={{ textTransform: 'capitalize' }}>
+        <Typography variant='h4' component='div' className={HIGHLIGHTER_CLASS} style={{ textTransform: 'capitalize' }}>
           {word}
         </Typography>
         <Box style={{ width: '22px' }} />
@@ -37,11 +30,11 @@ const DailyWord = ({ language }) => {
       <Divider />
       {detail.map(({ meaning, partsOfSpeech, example }) => (
         <>
-          <Typography variant='body1' component='div' className={HIGHLIGHTER_DETAIL_ITEM_CLASS} style={{ fontWeight: 'normal', marginBottom: '5px' }}>
+          <Typography variant='body1' component='div' className={HIGHLIGHTER_CLASS} style={{ fontWeight: 'normal', marginBottom: '5px' }}>
             <span className={HIGHLIGHTER_POS_CLASS}>{PARTS_OF_SPEECH_SHORTHAND[partsOfSpeech]}&nbsp;&nbsp;</span>
             {meaning[LANGS.en]} {/* for now only english explanation is supported */}
           </Typography>
-          <Typography variant='body1' component='div' className={HIGHLIGHTER_DETAIL_ITEM_CLASS} style={{ fontWeight: 'normal', marginBottom: '5px' }}>
+          <Typography variant='body1' component='div' className={HIGHLIGHTER_CLASS} style={{ fontWeight: 'normal', marginBottom: '5px' }}>
             {constructWordExample(example)}
           </Typography>
           {/* <Link href={link} target='_blank' rel='noopener noreferrer' style={{}}> Check out on dictionary </Link> */}
