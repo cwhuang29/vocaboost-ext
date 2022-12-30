@@ -9,9 +9,9 @@ import {
   HIGHLIGHTER_ORG_WORD_CLASS,
   HIGHLIGHTER_POS_CLASS,
   HIGHLIGHTER_TARGET_WORD_CLASS,
+  LANGS,
   ONLINE_DIC_URL,
   PARTS_OF_SPEECH_SHORTHAND,
-  LANGS,
 } from '@shared/constants';
 
 import { toCapitalize } from './stringHelpers';
