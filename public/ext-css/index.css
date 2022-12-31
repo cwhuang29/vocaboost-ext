@@ -33,7 +33,7 @@
   visibility: hidden !important;
   position: absolute !important;
   min-width: 100px !important;
-  max-width: 420px !important;
+  max-width: 400px !important;
   color: rgb(239, 239, 239) !important;
   background-color: rgba(66, 66, 66, 0.9) !important;
   border: 0px !important;
@@ -72,21 +72,21 @@
 .HIGHLIGHTER_TARGET_WORD_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_SMALL,
 .HIGHLIGHTER_DETAIL_ITEM_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_SMALL,
 .HIGHLIGHTER_LINK_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_SMALL {
-  line-height: 18px !important;
-  font-size: 13px !important;
+  line-height: 18.5px !important;
+  font-size: 13.5px !important;
 }
 
 .HIGHLIGHTER_TARGET_WORD_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_MEDIUM,
 .HIGHLIGHTER_DETAIL_ITEM_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_MEDIUM,
 .HIGHLIGHTER_LINK_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_MEDIUM {
-  line-height: 18px !important;
-  font-size: 14px !important;
+  line-height: 19px !important;
+  font-size: 14.5px !important;
 }
 
 .HIGHLIGHTER_TARGET_WORD_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_LARGE,
 .HIGHLIGHTER_DETAIL_ITEM_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_LARGE,
 .HIGHLIGHTER_LINK_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_LARGE {
-  line-height: 20px !important;
+  line-height: 21.5px !important;
   font-size: 15.5px !important;
 }
 
