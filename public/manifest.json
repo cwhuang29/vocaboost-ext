@@ -30,9 +30,9 @@
     }
   },
   "icons": {
-    "16": "icon192.png",
-    "32": "icon192.png",
-    "48": "icon192.png",
-    "128": "icon192.png"
+    "16": "icons/logo16.png",
+    "32": "icons/logo32.png",
+    "48": "icons/logo.png",
+    "128": "icons/logo.png"
   }
 }
