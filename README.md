@@ -1,17 +1,13 @@
-### `yarn start`
+# Vocabulary Highlighter
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The goal of this project is to assist non-native English speakers in preparing for the GRE exam. When a user is browsing webpages, all the matched words are highlighted. A popup window with definitions, examples, and a link to the online Cambridge Dictionary is displayed when the mouse hovers/clicks the highlighted word.
 
-### `yarn lint`
+Users can change the highlight color, the popup window's font size, and the language of the dictionary by clicking the extension icon on the toolbar.
 
-To comply with es-lint rules. This command will auto-fix the code.
-If your editor cannot auto-fix the es-lint errors for you, consider using this command.
+Currently, there are about 1000 most common GRE vocabulary words collected. The collection of words will continue to increase.
 
-### `yarn format`
+## Demo
 
-Format code. Please run this command before commiting frontend code.
+![Screenshot 01](demo/demo01.png)
 
-### `yarn build && yarn serve`
-
-To build the project and serve.
+![Screenshot 02](demo/demo02.png)
