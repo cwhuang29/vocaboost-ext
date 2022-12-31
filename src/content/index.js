@@ -16,6 +16,11 @@ import { EXT_STORAGE_CONFIG, EXT_STORAGE_WORD_LIST } from '@shared/constants/sto
 import { getDefaultConfig } from '@shared/utils/config';
 import { genHighlightSyntax } from '@shared/utils/highlight';
 
+/*
+ * Note: if there's any elements that you don't want to be highlighted, add class="HIGHLIGHTER_CLASS" to it's tag
+ * e.g., daily word is displayed on the extension popup. To prevent it from being highlighted, the HIGHLIGHTER_CLASS is added
+ */
+
 let highlightWorker = null;
 let PREV_HTML_NODE_COUNT = -1;
 let CONFIG = {};
@@ -93,7 +98,7 @@ const shouldInsertHighlight = node =>
   node.parentNode.tagName !== 'STYLE' &&
   node.parentNode.tagName !== 'SCRIPT' &&
   node.parentNode.tagName !== 'NOSCRIPT' &&
-  !node.parentNode.classList.contains(HIGHLIGHTER_CLASS) && // This is for text in the popup page
+  !node.parentNode.classList.contains(HIGHLIGHTER_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_ORG_WORD_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_TARGET_WORD_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_DETAIL_ITEM_CLASS) &&

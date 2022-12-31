@@ -24,8 +24,8 @@ const DailyWord = ({ language }) => {
         <Typography variant='h4' component='div' className={HIGHLIGHTER_CLASS} style={{ textTransform: 'capitalize' }}>
           {word}
         </Typography>
-        <Box style={{ width: '22px' }} />
-        <MenuBookIcon onClick={openExternalLink} style={{ cursor: 'pointer', fontSize: '38px' }} />
+        <Box style={{ width: '20px' }} />
+        <MenuBookIcon onClick={openExternalLink} style={{ cursor: 'pointer', fontSize: '36px' }} />
       </Box>
       <Divider />
       {detail.map(({ meaning, partsOfSpeech, example }) => (
@@ -50,4 +50,10 @@ DailyWord.propTypes = {
   language: PropTypes.string.isRequired,
 };
 
-export default DailyWord;
+/*
+ * Whenever the dailyWord in the context or language from the prop changes, this component rerenders
+ * Since language is passed down from parent element, it is prepared in the beginning
+ * The initial value of dailyWord is null due to parent element has to make some async requests to prepare it
+ * As a result, this component will rerender later when dailyWord has updated
+ */
+export default React.memo(DailyWord);
