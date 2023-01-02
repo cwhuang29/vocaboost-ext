@@ -12,7 +12,6 @@ export const genWordList = () => {
 export const genWordDetailList = () => {
   const targetList = [...WORD_LIST.GRE, ...WORD_LIST.TOEFL];
 
-  // const words = new Map();
-  // targetList.forEach(item => words.set(item.word, item.detail));
+  // return new Map(targetList.map(item => [item.word, item.detail]));
   return targetList;
 };

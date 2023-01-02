@@ -199,4 +199,4 @@ const main = async () => {
   chrome.runtime.onMessage.addListener(messagesFromReactAppListener);
 };
 
-setTimeout(main, 1000);
+setTimeout(main, 700);
