@@ -25,7 +25,8 @@ const PartsOfSpeech = ({ partsOfSpeech }) => {
 };
 
 const Meaning = ({ language, meaning }) => {
-  const def = meaning[LANGS[language]] || meaning[LANGS.en];
+  const l = language === LANGS.zh_CN ? LANGS.zh_TW : language; // For now use zh_TW's value for zh_CN
+  const def = meaning[LANGS[l]] || meaning[LANGS.en];
   return <span className={HIGHLIGHTER_CLASS}>{def}</span>;
 };
 

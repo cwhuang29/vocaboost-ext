@@ -88,8 +88,8 @@ export const genHighlightSyntax = ({ config, orgWord, word }) => {
       data-en="${meaning[LANGS.en] || ''}"
       data-es="${meaning[LANGS.es] || ''}"
       data-zh_TW="${meaning[LANGS.zh_TW] || ''}"
-      data-zh_CN="${meaning[LANGS.zh_CN] || ''}"
-      >${def}</span>`; // Note: the attributes of data-* will be transfered to lower case
+      data-zh_CN="${meaning[LANGS.zh_TW] || ''}"
+      >${def}</span>`; // Note: the attributes of data-* will be transfered to lower case, and use zh_TW value for zh_CN
     const sentence = constructWordExample(example);
     const detail = `<div class="${HIGHLIGHTER_DETAIL_ITEM_CLASS} ${fontSizeClass}">${posTemplate}${defTemplate}<br>${sentence}</div>`;
     items = [...items, detail];
