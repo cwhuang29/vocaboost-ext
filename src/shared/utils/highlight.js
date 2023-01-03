@@ -4,7 +4,7 @@
  * <div> 4 days ago — docile implies a predisposition to ...</div>
  * -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
  *
- * After:
+ * After: (note that span.material-icons will be further transfered by libraries, and data-* are lower cases)
  * -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
  * <div> 4 days ago —
  *   <span class="HIGHLIGHTER_CLASS" tabindex="0">
@@ -20,7 +20,10 @@
  *        </a>
  *       </div>
  *       <div class="HIGHLIGHTER_DETAIL_ITEM_CLASS HIGHLIGHTER_FONT_SIZE_CLASS_MEDIUM">
- *         <span class="HIGHLIGHTER_POS_CLASS">(adj.)&nbsp;&nbsp;</span>ready to accept control or instruction; submissive<br>A cheap and docile workforce.
+ *         <span class="HIGHLIGHTER_POS_CLASS">(adj.)</span>
+ *         <span class="HIGHLIGHTER_DEF_CLASS" data-en="..." data-zh_tw="...">ready to accept control or instruction; submissive</span>
+ *         <br>
+ *         A cheap and docile workforce.
  *       </div>
  *     </div>
  *   </span>
@@ -36,6 +39,7 @@
 import {
   HIGHLIGHTER_BG_COLOR_CLASS,
   HIGHLIGHTER_CLASS,
+  HIGHLIGHTER_DEF_CLASS,
   HIGHLIGHTER_DETAIL_CLASS,
   HIGHLIGHTER_DETAIL_HIDDEN_CLASS,
   HIGHLIGHTER_DETAIL_ITEM_CLASS,
@@ -78,10 +82,16 @@ export const genHighlightSyntax = ({ config, orgWord, word }) => {
       return;
     }
     const pos = PARTS_OF_SPEECH_SHORTHAND[partsOfSpeech];
-    const def = meaning[LANGS.en]; // Note: for now only english explanation is supported
+    const posTemplate = pos ? `<span class="${HIGHLIGHTER_POS_CLASS}">${pos}</span>` : '';
+    const def = meaning[LANGS[language]] || meaning[LANGS.en];
+    const defTemplate = `<span class="${HIGHLIGHTER_DEF_CLASS}"
+      data-en="${meaning[LANGS.en] || ''}"
+      data-es="${meaning[LANGS.es] || ''}"
+      data-zh_TW="${meaning[LANGS.zh_TW] || ''}"
+      data-zh_CN="${meaning[LANGS.zh_CN] || ''}"
+      >${def}</span>`; // Note: the attributes of data-* will be transfered to lower case
     const sentence = constructWordExample(example);
-    const posTemplate = pos ? `<span class="${HIGHLIGHTER_POS_CLASS}">${pos}&nbsp;&nbsp;</span>` : '';
-    const detail = `<div class="${HIGHLIGHTER_DETAIL_ITEM_CLASS} ${fontSizeClass}">${posTemplate}${def}<br>${sentence}</div>`;
+    const detail = `<div class="${HIGHLIGHTER_DETAIL_ITEM_CLASS} ${fontSizeClass}">${posTemplate}${defTemplate}<br>${sentence}</div>`;
     items = [...items, detail];
   });
 

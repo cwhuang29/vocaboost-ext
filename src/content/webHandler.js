@@ -1,5 +1,6 @@
 import {
   HIGHLIGHTER_CLASS,
+  HIGHLIGHTER_DEF_CLASS,
   HIGHLIGHTER_DETAIL_CLASS,
   HIGHLIGHTER_DETAIL_ITEM_CLASS,
   HIGHLIGHTER_ICON_CLASS,
@@ -45,6 +46,8 @@ export const detectExtensionElementCategory = classList => {
     category = HIGHLIGHTER_TARGET_WORD_CLASS;
   } else if (classList.contains(HIGHLIGHTER_DETAIL_ITEM_CLASS)) {
     category = HIGHLIGHTER_DETAIL_ITEM_CLASS;
+  } else if (classList.contains(HIGHLIGHTER_DEF_CLASS)) {
+    category = HIGHLIGHTER_DEF_CLASS;
   } else if (classList.contains(HIGHLIGHTER_ICON_CLASS)) {
     category = HIGHLIGHTER_ICON_CLASS;
     // } else if (classList.contains(HIGHLIGHTER_LINK_CLASS)) {
@@ -63,6 +66,9 @@ export const shouldAddHighlight = node =>
   !node.parentNode.classList.contains(HIGHLIGHTER_ORG_WORD_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_TARGET_WORD_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_DETAIL_ITEM_CLASS) &&
+  !node.parentNode.classList.contains(HIGHLIGHTER_DETAIL_CLASS) &&
+  !node.parentNode.classList.contains(HIGHLIGHTER_DEF_CLASS) &&
+  !node.parentNode.classList.contains(HIGHLIGHTER_ICON_CLASS) &&
   node.nodeValue &&
   node.nodeValue.trim().length;
 
@@ -72,5 +78,6 @@ export const shouldUpdate = node =>
     node.parentNode.classList.contains(HIGHLIGHTER_TARGET_WORD_CLASS) ||
     node.parentNode.classList.contains(HIGHLIGHTER_DETAIL_ITEM_CLASS) ||
     node.parentNode.classList.contains(HIGHLIGHTER_DETAIL_CLASS) ||
+    node.parentNode.classList.contains(HIGHLIGHTER_DEF_CLASS) ||
     node.parentNode.classList.contains(HIGHLIGHTER_ICON_CLASS));
 // node.parentNode.classList.contains(HIGHLIGHTER_LINK_CLASS));

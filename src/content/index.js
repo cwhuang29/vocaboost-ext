@@ -1,6 +1,7 @@
 import {
   EXT_CHECK_INTERVAL,
   HIGHLIGHTER_BG_COLOR_CLASS,
+  HIGHLIGHTER_DEF_CLASS,
   HIGHLIGHTER_DETAIL_CLASS,
   HIGHLIGHTER_DETAIL_HIDDEN_CLASS,
   HIGHLIGHTER_DETAIL_ITEM_CLASS,
@@ -9,6 +10,7 @@ import {
   // HIGHLIGHTER_LINK_CLASS,
   HIGHLIGHTER_ORG_WORD_CLASS,
   HIGHLIGHTER_TARGET_WORD_CLASS,
+  LANGS,
   ONLINE_DIC_URL,
 } from '@shared/constants';
 import { EXT_MSG_TYPE_CONFIG_UPDATE, EXT_MSG_TYPE_GET_WORD_LIST } from '@shared/constants/messages';
@@ -106,6 +108,11 @@ const updateNode = (node, { language, showDetail, highlightColorClass, fontSizeC
   } else if (category === HIGHLIGHTER_DETAIL_ITEM_CLASS) {
     classList.add(HIGHLIGHTER_DETAIL_ITEM_CLASS);
     classList.add(fontSizeClass);
+  } else if (category === HIGHLIGHTER_DEF_CLASS) {
+    classList.add(HIGHLIGHTER_DEF_CLASS);
+    const def = parentNode.dataset[`${LANGS[language].toLowerCase()}`] || parentNode.dataset[LANGS.en];
+    // eslint-disable-next-line no-param-reassign
+    node.nodeValue = def;
   } else if (category === HIGHLIGHTER_ICON_CLASS) {
     const { word } = parentNode.dataset;
     const link = `${ONLINE_DIC_URL[language]}${word}`;
@@ -193,10 +200,10 @@ const main = async () => {
   exec();
   highlightWorker = setInterval(exec, EXT_CHECK_INTERVAL);
 
-  // The runtime.onMessage event is fired in each content script running in the specified tab for the extension.
-  // Fired when a message is sent from either an extension process or a content script
+  // The runtime.onMessage event is fired in each content script running in the specified tab for the extension
+  // when a message is sent from either an extension process or a content script
   // see: https://developer.chrome.com/docs/extensions/reference/tabs/#method-query
   chrome.runtime.onMessage.addListener(messagesFromReactAppListener);
 };
 
-setTimeout(main, 700);
+setTimeout(main, 600);
