@@ -1,12 +1,40 @@
 export default [
   {
     id: 1,
+    word: 'abate',
+    detail: [
+      {
+        meaning: {
+          en: 'make or become less',
+          zh_TW: '減輕、減少 [類]n. abatement',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 2,
+    word: 'abdicate',
+    detail: [
+      {
+        meaning: {
+          en: 'resign from or formally renounce the throne',
+          zh_TW: '正式放棄(權利等)、退(位)、辭(職)',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 3,
     word: 'aberrant',
     detail: [
       {
         meaning: {
           en: 'departing from an accepted standard',
-          zh_TW: '',
+          zh_TW: '越軌的、異常的',
         },
         partsOfSpeech: 'adjective',
         example: 'this somewhat aberrant behavior requires an explanation',
@@ -22,7 +50,7 @@ export default [
     ],
   },
   {
-    id: 2,
+    id: 4,
     word: 'aberration',
     detail: [
       {
@@ -36,7 +64,21 @@ export default [
     ],
   },
   {
-    id: 3,
+    id: 5,
+    word: 'abet',
+    detail: [
+      {
+        meaning: {
+          en: 'sb (in sth) help or encourage sb to commit an offence or do sth wrong',
+          zh_TW: '教唆、唆使、煽動 [類] foment, instigate, provoke',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 6,
     word: 'abeyance',
     detail: [
       {
@@ -58,13 +100,27 @@ export default [
     ],
   },
   {
-    id: 4,
+    id: 7,
+    word: 'abhorrent',
+    detail: [
+      {
+        meaning: {
+          en: 'disgusting; hateful',
+          zh_TW: '可恨的、討厭的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 8,
     word: 'abjure',
     detail: [
       {
         meaning: {
           en: 'solemnly renounce (a belief, cause, or claim)',
-          zh_TW: '',
+          zh_TW: '發誓放棄、棄絕',
         },
         partsOfSpeech: 'verb',
         example: 'his refusal to abjure the Catholic faith',
@@ -72,7 +128,21 @@ export default [
     ],
   },
   {
-    id: 5,
+    id: 9,
+    word: 'abnegate',
+    detail: [
+      {
+        meaning: {
+          en: 'renounce or reject (something desired or valuable)',
+          zh_TW: '否認、放棄',
+        },
+        partsOfSpeech: 'verb',
+        example: 'he attempts to abnegate personal responsibility',
+      },
+    ],
+  },
+  {
+    id: 10,
     word: 'aboveboard',
     detail: [
       {
@@ -86,7 +156,21 @@ export default [
     ],
   },
   {
-    id: 6,
+    id: 11,
+    word: 'abridge',
+    detail: [
+      {
+        meaning: {
+          en: 'make shorter, esp by using fewer words; condense',
+          zh_TW: '縮短、刪節',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 12,
     word: 'abrogate',
     detail: [
       {
@@ -108,27 +192,27 @@ export default [
     ],
   },
   {
-    id: 7,
+    id: 13,
     word: 'abstain',
     detail: [
       {
         meaning: {
           en: 'choose not to consume or take part in (particularly something enjoyable)',
-          zh_TW: '',
+          zh_TW: '避開、避免、放棄',
         },
         partsOfSpeech: 'verb',
-        example: 'Considered a health nut, Jessica abstained from anything containing sugar--even chocolate.',
+        example: 'Considered a health nut, Jessica abstained from anything containing sugar--even chocolate',
       },
     ],
   },
   {
-    id: 8,
+    id: 14,
     word: 'abstemious',
     detail: [
       {
         meaning: {
           en: 'not self-indulgent, especially when eating and drinking',
-          zh_TW: '',
+          zh_TW: '有節制的、節儉的 abstinence',
         },
         partsOfSpeech: 'adjective',
         example: 'We only had a bottle.” “Very abstemious of you',
@@ -136,13 +220,27 @@ export default [
     ],
   },
   {
-    id: 9,
+    id: 15,
+    word: 'abstinent',
+    detail: [
+      {
+        meaning: {
+          en: 'refraining from an activity or from the consumption of something, especially alcohol',
+          zh_TW: '有節制的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 16,
     word: 'abstruse',
     detail: [
       {
         meaning: {
           en: 'difficult to understand; obscure',
-          zh_TW: '',
+          zh_TW: '深奧的、難懂的',
         },
         partsOfSpeech: 'adjective',
         example: 'an abstruse philosophical inquiry',
@@ -150,7 +248,21 @@ export default [
     ],
   },
   {
-    id: 10,
+    id: 17,
+    word: 'absurd',
+    detail: [
+      {
+        meaning: {
+          en: 'unreasonable; not sensible',
+          zh_TW: '不合理的、荒謬的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 18,
     word: 'abysmal',
     detail: [
       {
@@ -172,13 +284,27 @@ export default [
     ],
   },
   {
-    id: 11,
+    id: 19,
+    word: 'accentuate',
+    detail: [
+      {
+        meaning: {
+          en: 'make very noticeable or prominent; emphasize',
+          zh_TW: '強調、以重音讀出、加重音符號於',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 20,
     word: 'accolade',
     detail: [
       {
         meaning: {
           en: 'an award or praise granted as a special honor',
-          zh_TW: '',
+          zh_TW: '推從、讚揚',
         },
         partsOfSpeech: 'noun',
         example: 'Jean Paul-Sartre was not a fan of accolades, and as such, he refused to accept the Nobel Prize for Literature in 1964.',
@@ -186,13 +312,27 @@ export default [
     ],
   },
   {
-    id: 12,
+    id: 21,
+    word: 'accretion',
+    detail: [
+      {
+        meaning: {
+          en: 'growth or increase by means of gradual additions',
+          zh_TW: '增加',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 22,
     word: 'acerbic',
     detail: [
       {
         meaning: {
           en: 'harsh in tone',
-          zh_TW: '',
+          zh_TW: '（味道）辣、苦 （語言）尖酸刻薄的',
         },
         partsOfSpeech: 'adjective',
         example: 'Most movie critics are acerbic towards summer blockbusters, often referring to them as garbage.',
@@ -200,7 +340,7 @@ export default [
     ],
   },
   {
-    id: 13,
+    id: 23,
     word: 'acme',
     detail: [
       {
@@ -214,13 +354,55 @@ export default [
     ],
   },
   {
-    id: 14,
+    id: 24,
+    word: 'acquiescence',
+    detail: [
+      {
+        meaning: {
+          en: 'the reluctant acceptance of something without protest',
+          zh_TW: '默認、默許',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 25,
+    word: 'acquisitive',
+    detail: [
+      {
+        meaning: {
+          en: 'keen to acquire things, esp material possessions',
+          zh_TW: '貪得無厭的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 26,
+    word: 'acrimonious',
+    detail: [
+      {
+        meaning: {
+          en: 'bitter',
+          zh_TW: '尖刻的、嚴厲的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 27,
     word: 'acrimony',
     detail: [
       {
         meaning: {
           en: 'bitterness and ill will',
-          zh_TW: '',
+          zh_TW: '尖刻、刻薄 [反] civility, comity',
         },
         partsOfSpeech: 'noun',
         example: 'The acrimony between the president and vice-president sent a clear signal to voters: the health of the current administration was imperiled.',
@@ -228,13 +410,27 @@ export default [
     ],
   },
   {
-    id: 15,
+    id: 28,
+    word: 'acumen',
+    detail: [
+      {
+        meaning: {
+          en: 'ability to understand and judge things quickly and clearly; shrewdness',
+          zh_TW: '精明',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 29,
     word: 'adamant',
     detail: [
       {
         meaning: {
           en: "refusing to be persuaded or to change one's mind",
-          zh_TW: '',
+          zh_TW: '堅決的、固執的 [類] unyielding, immovable, implacable',
         },
         partsOfSpeech: 'adjective',
         example: 'he is adamant that he is not going to resign',
@@ -242,7 +438,63 @@ export default [
     ],
   },
   {
-    id: 16,
+    id: 30,
+    word: 'adaptive',
+    detail: [
+      {
+        meaning: {
+          en: 'characterized by or given to adaptation',
+          zh_TW: '適應的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 31,
+    word: 'adept',
+    detail: [
+      {
+        meaning: {
+          en: '(at/in doing sth) expert or skillful in (doing) sth',
+          zh_TW: '熟練的、內行的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 32,
+    word: 'adequate',
+    detail: [
+      {
+        meaning: {
+          en: 'satisfactory in quantity or quality; sufficient',
+          zh_TW: '足夠的 [反] inadequate',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 33,
+    word: 'adherent',
+    detail: [
+      {
+        meaning: {
+          en: 'supporter of a party or doctrine',
+          zh_TW: '擁護者、信徒',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 34,
     word: 'adjudicate',
     detail: [
       {
@@ -264,7 +516,7 @@ export default [
     ],
   },
   {
-    id: 17,
+    id: 35,
     word: 'admonish',
     detail: [
       {
@@ -286,7 +538,7 @@ export default [
     ],
   },
   {
-    id: 18,
+    id: 36,
     word: 'admonitory',
     detail: [
       {
@@ -301,13 +553,55 @@ export default [
     ],
   },
   {
-    id: 19,
+    id: 37,
+    word: 'adroit',
+    detail: [
+      {
+        meaning: {
+          en: 'skillful, clever',
+          zh_TW: '靈巧的、熟練的 [類] dexterous, nimble(敏捷的)',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 38,
+    word: 'adulation',
+    detail: [
+      {
+        meaning: {
+          en: 'obsequious flattery; excessive admiration or praise',
+          zh_TW: '諂媚、奉承 [類] v. adulate [反] n. opprobrium 譴責、咒罵',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 39,
+    word: 'adversary',
+    detail: [
+      {
+        meaning: {
+          en: 'opponent n a contest; enemy',
+          zh_TW: '敵手、對手',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 40,
     word: 'advocate',
     detail: [
       {
         meaning: {
           en: 'a person who publicly supports or recommends a particular cause or policy',
-          zh_TW: '',
+          zh_TW: '擁護、支持、鼓吹',
         },
         partsOfSpeech: 'noun',
         example: 'he was an untiring advocate of economic reform',
@@ -315,7 +609,7 @@ export default [
       {
         meaning: {
           en: 'publicly recommend or support',
-          zh_TW: '',
+          zh_TW: '提倡',
         },
         partsOfSpeech: 'verb',
         example: 'they advocated an ethical foreign policy',
@@ -323,7 +617,7 @@ export default [
     ],
   },
   {
-    id: 20,
+    id: 41,
     word: 'aesthete',
     detail: [
       {
@@ -337,13 +631,13 @@ export default [
     ],
   },
   {
-    id: 21,
+    id: 42,
     word: 'aesthetic',
     detail: [
       {
         meaning: {
           en: 'concerned with the appreciation of beauty',
-          zh_TW: '',
+          zh_TW: '美學的、有審美感的',
         },
         partsOfSpeech: 'adjective',
         example: 'The director, not known for his aesthetic sensibilities, decided not to use costumes at all, and put on the play in everyday clothing.',
@@ -351,13 +645,13 @@ export default [
     ],
   },
   {
-    id: 22,
+    id: 43,
     word: 'affable',
     detail: [
       {
         meaning: {
           en: 'likeable; easy to talk to',
-          zh_TW: '',
+          zh_TW: '和藹可親的、容易親近的',
         },
         partsOfSpeech: 'adjective',
         example: 'For all his surface affability, Marco was remarkably glum when he wasn’t around other people.',
@@ -365,7 +659,7 @@ export default [
     ],
   },
   {
-    id: 23,
+    id: 44,
     word: 'affluent',
     detail: [
       {
@@ -387,7 +681,63 @@ export default [
     ],
   },
   {
-    id: 24,
+    id: 45,
+    word: 'aggrandize',
+    detail: [
+      {
+        meaning: {
+          en: 'to make appear great or greater; praise highly',
+          zh_TW: '加大、強化',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 46,
+    word: 'aggravate',
+    detail: [
+      {
+        meaning: {
+          en: 'make worse or more serious',
+          zh_TW: '加重、惡化',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 47,
+    word: 'agitated',
+    detail: [
+      {
+        meaning: {
+          en: 'troubled or excited',
+          zh_TW: '激動地、不安的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 48,
+    word: 'agony',
+    detail: [
+      {
+        meaning: {
+          en: 'extreme mental or physical suffering',
+          zh_TW: '極大痛苦的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 49,
     word: 'alacrity',
     detail: [
       {
@@ -401,13 +751,69 @@ export default [
     ],
   },
   {
-    id: 25,
+    id: 50,
+    word: 'albeit',
+    detail: [
+      {
+        meaning: {
+          en: 'although',
+          zh_TW: '儘管',
+        },
+        partsOfSpeech: 'conjunction',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 51,
+    word: 'alienation',
+    detail: [
+      {
+        meaning: {
+          en: 'the state or experience of being isolated from a group or an activity to which one should belong or in which one should be involved',
+          zh_TW: '疏遠、離間',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 52,
+    word: 'allay',
+    detail: [
+      {
+        meaning: {
+          en: "make (sth) less' relieve",
+          zh_TW: '減輕、使平靜 [類] mitigate',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 53,
+    word: 'allegiance',
+    detail: [
+      {
+        meaning: {
+          en: '(to sb/sth) support of or loyalty to a government, ruler, cause, etc',
+          zh_TW: '忠誠、忠貞 [類] devotion, fealty, piety',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 54,
     word: 'alleviate',
     detail: [
       {
         meaning: {
           en: 'make (suffering, deficiency, or a problem) less severe',
-          zh_TW: '',
+          zh_TW: '緩和、減輕 [類] mollify,mitigate',
         },
         partsOfSpeech: 'verb',
         example: "he couldn't prevent her pain, only alleviate it",
@@ -415,13 +821,55 @@ export default [
     ],
   },
   {
-    id: 26,
+    id: 55,
+    word: 'allure',
+    detail: [
+      {
+        meaning: {
+          en: 'tempt or attract (sb) by the expectation of gaining sth',
+          zh_TW: '誘惑、引誘 [類] v. lure 誘惑',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 56,
+    word: 'allusive',
+    detail: [
+      {
+        meaning: {
+          en: '(of a remark or reference) working by suggestion rather than explicit mention',
+          zh_TW: '暗指的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 57,
+    word: 'alternative',
+    detail: [
+      {
+        meaning: {
+          en: 'available in place of sth else; other',
+          zh_TW: '輪流的、交替的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 58,
     word: 'altruism',
     detail: [
       {
         meaning: {
           en: 'the quality of unselfish concern for the welfare of others',
-          zh_TW: '',
+          zh_TW: '利他主義',
         },
         partsOfSpeech: 'noun',
         example:
@@ -430,7 +878,7 @@ export default [
     ],
   },
   {
-    id: 27,
+    id: 59,
     word: 'amalgam',
     detail: [
       {
@@ -452,7 +900,7 @@ export default [
     ],
   },
   {
-    id: 28,
+    id: 60,
     word: 'amalgamate',
     detail: [
       {
@@ -474,7 +922,7 @@ export default [
     ],
   },
   {
-    id: 29,
+    id: 61,
     word: 'ambiguous',
     detail: [
       {
@@ -489,7 +937,7 @@ export default [
     ],
   },
   {
-    id: 30,
+    id: 62,
     word: 'ambivalence',
     detail: [
       {
@@ -503,13 +951,13 @@ export default [
     ],
   },
   {
-    id: 31,
+    id: 63,
     word: 'ambivalent',
     detail: [
       {
         meaning: {
           en: 'mixed or conflicting emotions about something',
-          zh_TW: '',
+          zh_TW: '矛盾的',
         },
         partsOfSpeech: 'adjective',
         example: 'Sam was ambivalent about studying for the exam because doing so ate up a lot of his time, yet he was able to improve his analytical skills.',
@@ -517,13 +965,13 @@ export default [
     ],
   },
   {
-    id: 32,
+    id: 64,
     word: 'ameliorate',
     detail: [
       {
         meaning: {
           en: 'make something bad better',
-          zh_TW: '',
+          zh_TW: '使改善、改進；減緩（疼痛、癢） [類]v. meliorate 改進、改善',
         },
         partsOfSpeech: 'verb',
         example: '"Three Cups of Tea" tells the story of western man who hopes to ameliorate poverty and the lack of education in Afghanistan.',
@@ -531,7 +979,7 @@ export default [
     ],
   },
   {
-    id: 33,
+    id: 65,
     word: 'amenable',
     detail: [
       {
@@ -545,13 +993,27 @@ export default [
     ],
   },
   {
-    id: 34,
+    id: 66,
+    word: 'amend',
+    detail: [
+      {
+        meaning: {
+          en: 'make minor changes in (a text) in order to make it fairer, more accurate, or more up-to-date',
+          zh_TW: '修訂、修正',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 67,
     word: 'amiable',
     detail: [
       {
         meaning: {
           en: 'friendly',
-          zh_TW: '',
+          zh_TW: '和藹的、親切的',
         },
         partsOfSpeech: 'adjective',
         example: 'Amy’s name was very apt: she was so amiable that she was twice voted class president.',
@@ -559,7 +1021,7 @@ export default [
     ],
   },
   {
-    id: 35,
+    id: 68,
     word: 'amok',
     detail: [
       {
@@ -573,13 +1035,13 @@ export default [
     ],
   },
   {
-    id: 36,
+    id: 69,
     word: 'amorphous',
     detail: [
       {
         meaning: {
           en: 'without a clearly defined shape or form.',
-          zh_TW: '',
+          zh_TW: '無定型的',
         },
         partsOfSpeech: 'adjective',
         example: 'an amorphous, characterless conurbation',
@@ -587,7 +1049,7 @@ export default [
     ],
   },
   {
-    id: 37,
+    id: 70,
     word: 'amply',
     detail: [
       {
@@ -601,7 +1063,7 @@ export default [
     ],
   },
   {
-    id: 38,
+    id: 71,
     word: 'anachronism',
     detail: [
       {
@@ -615,13 +1077,41 @@ export default [
     ],
   },
   {
-    id: 39,
+    id: 72,
+    word: 'anachronistic',
+    detail: [
+      {
+        meaning: {
+          en: 'belonging to a period other than that being portrayed',
+          zh_TW: '時代錯誤的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 73,
+    word: 'analgesic',
+    detail: [
+      {
+        meaning: {
+          en: 'n. substance that relieves pain',
+          zh_TW: '鎮痛劑、止痛的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 74,
     word: 'analogous',
     detail: [
       {
         meaning: {
           en: 'similar in some respects but otherwise different',
-          zh_TW: '',
+          zh_TW: '可類比的、類似的 [類] n. analogy',
         },
         partsOfSpeech: 'adjective',
         example: "In many ways, the Internet's transformative effect on society has been analogous to that of the printing press.",
@@ -629,7 +1119,7 @@ export default [
     ],
   },
   {
-    id: 40,
+    id: 75,
     word: 'anarchy',
     detail: [
       {
@@ -651,7 +1141,7 @@ export default [
     ],
   },
   {
-    id: 41,
+    id: 76,
     word: 'anathema',
     detail: [
       {
@@ -666,7 +1156,21 @@ export default [
     ],
   },
   {
-    id: 42,
+    id: 77,
+    word: 'ancillary',
+    detail: [
+      {
+        meaning: {
+          en: 'helping in a subsidiary way',
+          zh_TW: '補助的、輔助的 [類] subordinate; auxiliary',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 78,
     word: 'anemic',
     detail: [
       {
@@ -681,13 +1185,27 @@ export default [
     ],
   },
   {
-    id: 43,
+    id: 79,
+    word: 'animadvert',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) make (esp critical) remarks about sb/sth',
+          zh_TW: '批評、非難',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 80,
     word: 'animosity',
     detail: [
       {
         meaning: {
           en: 'strong hostility',
-          zh_TW: '',
+          zh_TW: '憎惡、仇恨',
         },
         partsOfSpeech: 'noun',
         example: 'he no longer felt any animosity toward her',
@@ -695,7 +1213,49 @@ export default [
     ],
   },
   {
-    id: 44,
+    id: 81,
+    word: 'annex',
+    detail: [
+      {
+        meaning: {
+          en: 'annexation',
+          zh_TW: '兼併、附加',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 82,
+    word: 'annihilate',
+    detail: [
+      {
+        meaning: {
+          en: 'destroy completely',
+          zh_TW: '殲滅、消滅、徹底擊潰、毀滅',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 83,
+    word: 'annotate',
+    detail: [
+      {
+        meaning: {
+          en: 'add notes to giving explanation or comment',
+          zh_TW: '註解',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 84,
     word: 'anodyne',
     detail: [
       {
@@ -717,13 +1277,13 @@ export default [
     ],
   },
   {
-    id: 45,
+    id: 85,
     word: 'anomalous',
     detail: [
       {
         meaning: {
           en: 'deviating from what is standard, normal, or expected',
-          zh_TW: '',
+          zh_TW: '反常的、不規則的 [類]aberrant, deviant, heteroclite, preternatural',
         },
         partsOfSpeech: 'adjective',
         example: 'an anomalous situation',
@@ -731,7 +1291,7 @@ export default [
     ],
   },
   {
-    id: 46,
+    id: 86,
     word: 'anomaly',
     detail: [
       {
@@ -745,7 +1305,35 @@ export default [
     ],
   },
   {
-    id: 47,
+    id: 87,
+    word: 'anonymity',
+    detail: [
+      {
+        meaning: {
+          en: 'state of being anonymous',
+          zh_TW: '匿名、作者不詳 [類] adj. anonymous',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 88,
+    word: 'antagonistic',
+    detail: [
+      {
+        meaning: {
+          en: 'showing or feeling active opposition or hostility toward someone or something',
+          zh_TW: '敵對的、對抗性的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 89,
     word: 'antedate',
     detail: [
       {
@@ -759,7 +1347,7 @@ export default [
     ],
   },
   {
-    id: 48,
+    id: 90,
     word: 'antic',
     detail: [
       {
@@ -773,13 +1361,27 @@ export default [
     ],
   },
   {
-    id: 49,
+    id: 91,
+    word: 'antidote',
+    detail: [
+      {
+        meaning: {
+          en: 'substance that acts against the effects of a poison or disease',
+          zh_TW: '矯正方法、解毒藥、解毒劑',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 92,
     word: 'antipathy',
     detail: [
       {
         meaning: {
           en: 'an intense feeling of dislike or aversion',
-          zh_TW: '',
+          zh_TW: '反感、厭惡 [類] animosity, animus, antagonism, rancor [反] affection(友愛)',
         },
         partsOfSpeech: 'noun',
         example:
@@ -788,13 +1390,13 @@ export default [
     ],
   },
   {
-    id: 50,
+    id: 93,
     word: 'antiquated',
     detail: [
       {
         meaning: {
           en: 'old-fashioned; belonging to an earlier period in time',
-          zh_TW: '',
+          zh_TW: '過時的、陳舊的、老式的',
         },
         partsOfSpeech: 'adjective',
         example: 'Aunt Betty had antiquated notions about marriage, believing that a man should court a woman for at least a year before receiving a kiss.',
@@ -802,13 +1404,27 @@ export default [
     ],
   },
   {
-    id: 51,
+    id: 94,
+    word: 'antique',
+    detail: [
+      {
+        meaning: {
+          en: '(of a collectible object) having a high value because of considerable age',
+          zh_TW: '古代的、古董的、古董',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 95,
     word: 'antithetical',
     detail: [
       {
         meaning: {
           en: 'directly opposed or contrasted; mutually incompatible',
-          zh_TW: '',
+          zh_TW: '相反的、對立的',
         },
         partsOfSpeech: 'adjective',
         example: 'people whose religious beliefs are antithetical to mine',
@@ -816,13 +1432,13 @@ export default [
     ],
   },
   {
-    id: 52,
+    id: 96,
     word: 'apathetic',
     detail: [
       {
         meaning: {
           en: 'marked by a lack of interest',
-          zh_TW: '',
+          zh_TW: '無感情的 [類] n. apathy',
         },
         partsOfSpeech: 'adjective',
         example: 'Mr. Thompson was so talented at teaching math that even normally apathetic students took interest.',
@@ -830,7 +1446,7 @@ export default [
     ],
   },
   {
-    id: 53,
+    id: 97,
     word: 'apathy',
     detail: [
       {
@@ -844,7 +1460,7 @@ export default [
     ],
   },
   {
-    id: 54,
+    id: 98,
     word: 'apex',
     detail: [
       {
@@ -858,7 +1474,7 @@ export default [
     ],
   },
   {
-    id: 55,
+    id: 99,
     word: 'aphorism',
     detail: [
       {
@@ -872,13 +1488,13 @@ export default [
     ],
   },
   {
-    id: 56,
+    id: 100,
     word: 'aphorism',
     detail: [
       {
         meaning: {
           en: "a pithy observation that contains a general truth, such as, “if it ain't broke, don't fix it.”.",
-          zh_TW: '',
+          zh_TW: '格言、警句、箴言 [類] maxim, adage, axiom, dictum',
         },
         partsOfSpeech: 'noun',
         example: 'the old aphorism “the child is father to the man',
@@ -894,7 +1510,7 @@ export default [
     ],
   },
   {
-    id: 57,
+    id: 101,
     word: 'aplomb',
     detail: [
       {
@@ -908,7 +1524,7 @@ export default [
     ],
   },
   {
-    id: 58,
+    id: 102,
     word: 'apocryphal',
     detail: [
       {
@@ -922,7 +1538,7 @@ export default [
     ],
   },
   {
-    id: 59,
+    id: 103,
     word: 'apogee',
     detail: [
       {
@@ -936,7 +1552,35 @@ export default [
     ],
   },
   {
-    id: 60,
+    id: 104,
+    word: 'apologist',
+    detail: [
+      {
+        meaning: {
+          en: 'person who defends a doctrine by logical argument',
+          zh_TW: '辯護者、護教論者',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 105,
+    word: 'apostasy',
+    detail: [
+      {
+        meaning: {
+          en: "abandoning one's religious beliefs, principles, political party, etc",
+          zh_TW: '被叫、脫黨、變節',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 106,
     word: 'apostate',
     detail: [
       {
@@ -950,7 +1594,7 @@ export default [
     ],
   },
   {
-    id: 61,
+    id: 107,
     word: 'apothegm',
     detail: [
       {
@@ -964,7 +1608,7 @@ export default [
     ],
   },
   {
-    id: 62,
+    id: 108,
     word: 'apotheosis',
     detail: [
       {
@@ -978,7 +1622,7 @@ export default [
     ],
   },
   {
-    id: 63,
+    id: 109,
     word: 'appease',
     detail: [
       {
@@ -993,13 +1637,13 @@ export default [
     ],
   },
   {
-    id: 64,
+    id: 110,
     word: 'apposite',
     detail: [
       {
         meaning: {
           en: 'apt in the circumstances or in relation to something',
-          zh_TW: '',
+          zh_TW: '適當的、貼切的 [類] appropriate, apt, relevant, applicable, pertinent [反] opposite(a.相反的), extraneous(a.無關係的)',
         },
         partsOfSpeech: 'adjective',
         example: 'an apposite quotation',
@@ -1007,7 +1651,7 @@ export default [
     ],
   },
   {
-    id: 65,
+    id: 111,
     word: 'appreciable',
     detail: [
       {
@@ -1021,7 +1665,21 @@ export default [
     ],
   },
   {
-    id: 66,
+    id: 112,
+    word: 'apprehend',
+    detail: [
+      {
+        meaning: {
+          en: 'seize (sb); arrest',
+          zh_TW: '理解、逮捕、恐懼',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 113,
     word: 'apprehension',
     detail: [
       {
@@ -1051,7 +1709,7 @@ export default [
     ],
   },
   {
-    id: 67,
+    id: 114,
     word: 'apprise',
     detail: [
       {
@@ -1065,13 +1723,13 @@ export default [
     ],
   },
   {
-    id: 68,
+    id: 115,
     word: 'approbation',
     detail: [
       {
         meaning: {
           en: 'approval or praise',
-          zh_TW: '',
+          zh_TW: '稱讚、認可、批准 [類] a. approbatory [反] disapprobation',
         },
         partsOfSpeech: 'noun',
         example: 'the opera met with high approbation',
@@ -1079,7 +1737,7 @@ export default [
     ],
   },
   {
-    id: 69,
+    id: 116,
     word: 'approbatory',
     detail: [
       {
@@ -1093,13 +1751,13 @@ export default [
     ],
   },
   {
-    id: 70,
+    id: 117,
     word: 'appropriate',
     detail: [
       {
         meaning: {
           en: 'to give or take something by force',
-          zh_TW: '',
+          zh_TW: 'adj. 適當的、恰當的、相稱的 v. 挪用、盜用 [類] pilferage 行竊、偷盜',
         },
         partsOfSpeech: 'verb',
         example: 'The government appropriated land that was occupied by squatters, sending them scurrying for another place to live.',
@@ -1107,7 +1765,21 @@ export default [
     ],
   },
   {
-    id: 71,
+    id: 118,
+    word: 'approximate',
+    detail: [
+      {
+        meaning: {
+          en: 'almost correct or exact but not completely so',
+          zh_TW: '大約的、估計的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 119,
     word: 'appurtenant',
     detail: [
       {
@@ -1121,13 +1793,41 @@ export default [
     ],
   },
   {
-    id: 72,
+    id: 120,
+    word: 'apropos',
+    detail: [
+      {
+        meaning: {
+          en: 'adj. appropriate or relevant to what is being said or done',
+          zh_TW: '適當的、切題的、中肯的',
+        },
+        partsOfSpeech: 'adverb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 121,
+    word: 'apt',
+    detail: [
+      {
+        meaning: {
+          en: 'suitable, appropriate',
+          zh_TW: '適合的、易於...的、有...傾向的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 122,
     word: 'arbitrary',
     detail: [
       {
         meaning: {
           en: 'based on random choice or personal whim, rather than any reason or system',
-          zh_TW: '',
+          zh_TW: '不理智的',
         },
         partsOfSpeech: 'adjective',
         example: 'his mealtimes were entirely arbitrary',
@@ -1135,7 +1835,7 @@ export default [
       {
         meaning: {
           en: '(of power or a ruling body) unrestrained and autocratic in the use of authority',
-          zh_TW: '',
+          zh_TW: '專橫的',
         },
         partsOfSpeech: 'adjective',
         example: 'arbitrary rule by King and bishops has been made impossible',
@@ -1143,13 +1843,13 @@ export default [
     ],
   },
   {
-    id: 73,
+    id: 123,
     word: 'arcane',
     detail: [
       {
         meaning: {
           en: 'understood by few; mysterious or secret',
-          zh_TW: '',
+          zh_TW: '秘密的、深奧難懂的',
         },
         partsOfSpeech: 'adjective',
         example: 'modern math and its arcane notation',
@@ -1157,7 +1857,7 @@ export default [
     ],
   },
   {
-    id: 74,
+    id: 124,
     word: 'arch',
     detail: [
       {
@@ -1179,13 +1879,13 @@ export default [
     ],
   },
   {
-    id: 75,
+    id: 125,
     word: 'archaic',
     detail: [
       {
         meaning: {
           en: 'very old or old-fashioned',
-          zh_TW: '',
+          zh_TW: '古老的、古體的、過時的 [類] ancient',
         },
         partsOfSpeech: 'adjective',
         example: 'prisons are run on archaic methods',
@@ -1193,13 +1893,13 @@ export default [
     ],
   },
   {
-    id: 76,
+    id: 126,
     word: 'arduous',
     detail: [
       {
         meaning: {
           en: 'demanding considerable mental effort and skill; testing powers of endurance',
-          zh_TW: '',
+          zh_TW: '費力的、艱難的 [類] difficult, onerous, laborious',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -1208,7 +1908,21 @@ export default [
     ],
   },
   {
-    id: 77,
+    id: 127,
+    word: 'aristocrat',
+    detail: [
+      {
+        meaning: {
+          en: 'member of the aristocracy; nobleman or noblewoman',
+          zh_TW: '貴族 [類] n. aristocracy 貴族階層',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 128,
     word: 'arrant',
     detail: [
       {
@@ -1222,7 +1936,7 @@ export default [
     ],
   },
   {
-    id: 78,
+    id: 129,
     word: 'arriviste',
     detail: [
       {
@@ -1236,7 +1950,21 @@ export default [
     ],
   },
   {
-    id: 79,
+    id: 130,
+    word: 'arrogant',
+    detail: [
+      {
+        meaning: {
+          en: 'behaving in a proud and superior manner; showing too much pride in oneself and too little consideration for others',
+          zh_TW: '傲慢的、自大的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 131,
     word: 'arrogate',
     detail: [
       {
@@ -1251,13 +1979,13 @@ export default [
     ],
   },
   {
-    id: 80,
+    id: 132,
     word: 'artful',
     detail: [
       {
         meaning: {
           en: 'exhibiting artistic skill',
-          zh_TW: '',
+          zh_TW: '狡猾的',
         },
         partsOfSpeech: 'adjective',
         example: 'Picasso is generally considered the most artful member of the Cubist movement.',
@@ -1265,13 +1993,27 @@ export default [
     ],
   },
   {
-    id: 81,
+    id: 133,
+    word: 'articulate',
+    detail: [
+      {
+        meaning: {
+          en: "able to express one's ideas clearly in words",
+          zh_TW: '清楚表達的、口齒伶俐的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 134,
     word: 'artifice',
     detail: [
       {
         meaning: {
           en: 'cunning tricks used to deceive others',
-          zh_TW: '',
+          zh_TW: '奸計、詭計',
         },
         partsOfSpeech: 'noun',
         example: 'The mayoral candidates both spent much of the campaign accusing each other of artifices designed to mislead the voting public.',
@@ -1279,7 +2021,7 @@ export default [
     ],
   },
   {
-    id: 82,
+    id: 135,
     word: 'artless',
     detail: [
       {
@@ -1293,13 +2035,13 @@ export default [
     ],
   },
   {
-    id: 83,
+    id: 136,
     word: 'ascendancy',
     detail: [
       {
         meaning: {
           en: 'the state that exists when one person or group has power over another',
-          zh_TW: '',
+          zh_TW: '優勢的、統治權、支配力量',
         },
         partsOfSpeech: 'noun',
         example: 'The ascendancy of the Carlsbad water polo team is clear—they have a decade of championships behind them.',
@@ -1307,13 +2049,13 @@ export default [
     ],
   },
   {
-    id: 84,
+    id: 137,
     word: 'ascetic',
     detail: [
       {
         meaning: {
           en: 'characterized by or suggesting the practice of severe self-discipline and abstention from all forms of indulgence, typically for religious reasons',
-          zh_TW: '',
+          zh_TW: '禁慾主義者',
         },
         partsOfSpeech: 'adjective',
         example: 'an ascetic life of prayer, fasting, and manual labor',
@@ -1321,7 +2063,7 @@ export default [
       {
         meaning: {
           en: 'a person who practices severe self-discipline and abstention',
-          zh_TW: '',
+          zh_TW: '苦行者',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -1329,7 +2071,7 @@ export default [
     ],
   },
   {
-    id: 85,
+    id: 138,
     word: 'ascribe',
     detail: [
       {
@@ -1351,7 +2093,7 @@ export default [
     ],
   },
   {
-    id: 86,
+    id: 139,
     word: 'askance',
     detail: [
       {
@@ -1365,7 +2107,7 @@ export default [
     ],
   },
   {
-    id: 87,
+    id: 140,
     word: 'asperity',
     detail: [
       {
@@ -1387,13 +2129,13 @@ export default [
     ],
   },
   {
-    id: 88,
+    id: 141,
     word: 'aspersion',
     detail: [
       {
         meaning: {
           en: 'an attack on the reputation or integrity of someone or something',
-          zh_TW: '',
+          zh_TW: '毀謗、重傷 [類] defamation',
         },
         partsOfSpeech: 'noun',
         example: "I don't think anyone is casting aspersions on you",
@@ -1401,13 +2143,13 @@ export default [
     ],
   },
   {
-    id: 89,
+    id: 142,
     word: 'assail',
     detail: [
       {
         meaning: {
           en: 'attack in speech or writing',
-          zh_TW: '',
+          zh_TW: '抨擊、猛攻 [類] adj. assailable 易受攻擊的',
         },
         partsOfSpeech: 'verb',
         example: 'In the weekly paper, the editor assailed the governor for wasting hundreds of thousands of dollars in public projects that quickly failed.',
@@ -1415,13 +2157,41 @@ export default [
     ],
   },
   {
-    id: 90,
+    id: 143,
+    word: 'assent',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) agreement; approval',
+          zh_TW: '同意、贊成',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 144,
+    word: 'assert',
+    detail: [
+      {
+        meaning: {
+          en: 'make others recognize (sth) by behaving firmly and confidently',
+          zh_TW: '斷言、主張 [類] n. assertion; a. assertive',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 145,
     word: 'assiduous',
     detail: [
       {
         meaning: {
           en: 'showing great care and perseverance',
-          zh_TW: '',
+          zh_TW: '勤勉的、專心的',
         },
         partsOfSpeech: 'adjective',
         example: 'she was assiduous in pointing out every feature',
@@ -1429,7 +2199,7 @@ export default [
     ],
   },
   {
-    id: 91,
+    id: 146,
     word: 'assiduously',
     detail: [
       {
@@ -1443,13 +2213,27 @@ export default [
     ],
   },
   {
-    id: 92,
+    id: 147,
+    word: 'assimilate',
+    detail: [
+      {
+        meaning: {
+          en: '(cause sth to) become absorbed into the body after digestion',
+          zh_TW: '同化、吸收',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 148,
     word: 'assuage',
     detail: [
       {
         meaning: {
           en: 'make (an unpleasant feeling) less intense',
-          zh_TW: '',
+          zh_TW: '緩和、減輕 [類] lessen, allay, relieve, alleviate, mitigate',
         },
         partsOfSpeech: 'verb',
         example: 'the letter assuaged the fears of most members',
@@ -1465,7 +2249,49 @@ export default [
     ],
   },
   {
-    id: 93,
+    id: 149,
+    word: 'asteroid',
+    detail: [
+      {
+        meaning: {
+          en: 'any of many small planets revolving round the sum, esp between the orbits of Mars and Jupiter',
+          zh_TW: '小行星',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 150,
+    word: 'astronomical',
+    detail: [
+      {
+        meaning: {
+          en: 'relating to astronomy',
+          zh_TW: '天文學的、龐大的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 151,
+    word: 'astute',
+    detail: [
+      {
+        meaning: {
+          en: 'clever and quick at seeing how to gain an advantage; shrewd',
+          zh_TW: '敏銳的、精明的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 152,
     word: 'atavism',
     detail: [
       {
@@ -1479,13 +2305,13 @@ export default [
     ],
   },
   {
-    id: 94,
+    id: 153,
     word: 'attenuate',
     detail: [
       {
         meaning: {
           en: 'to weaken (in terms of intensity); to taper off/become thinner.',
-          zh_TW: '',
+          zh_TW: '變薄、變弱 [類] n. attenuation',
         },
         partsOfSpeech: 'verb',
         example: 'Her animosity towards Bob attenuated over the years, and she even went so far as to invite him to her party.',
@@ -1493,13 +2319,13 @@ export default [
     ],
   },
   {
-    id: 95,
+    id: 154,
     word: 'audacious',
     detail: [
       {
         meaning: {
           en: 'willing to be bold in social situations or to take risks',
-          zh_TW: '',
+          zh_TW: '大膽的、無謂的、愚勇的 [類]daredevil',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -1508,7 +2334,7 @@ export default [
     ],
   },
   {
-    id: 96,
+    id: 155,
     word: 'audacity',
     detail: [
       {
@@ -1523,13 +2349,13 @@ export default [
     ],
   },
   {
-    id: 97,
+    id: 156,
     word: 'augment',
     detail: [
       {
         meaning: {
           en: 'make (something) greater by adding to it; increase',
-          zh_TW: '',
+          zh_TW: '增加',
         },
         partsOfSpeech: 'verb',
         example: 'he augmented his summer income by painting houses',
@@ -1537,13 +2363,27 @@ export default [
     ],
   },
   {
-    id: 98,
+    id: 157,
+    word: 'augur',
+    detail: [
+      {
+        meaning: {
+          en: 'to foretell especially from omens',
+          zh_TW: '預言、預測',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 158,
     word: 'auspicious',
     detail: [
       {
         meaning: {
           en: 'conducive to success; favorable',
-          zh_TW: '',
+          zh_TW: '吉兆的、吉利的 [類] adj. propitious 順利的、吉祥的',
         },
         partsOfSpeech: 'adjective',
         example: 'it was not the most auspicious moment to hold an election',
@@ -1551,13 +2391,13 @@ export default [
     ],
   },
   {
-    id: 99,
+    id: 159,
     word: 'austere',
     detail: [
       {
         meaning: {
           en: 'severe or strict in manner, attitude, or appearance',
-          zh_TW: '',
+          zh_TW: '嚴厲的、簡樸的',
         },
         partsOfSpeech: 'adjective',
         example: 'an austere man, with a rigidly puritanical outlook',
@@ -1581,7 +2421,49 @@ export default [
     ],
   },
   {
-    id: 100,
+    id: 160,
+    word: 'authentic',
+    detail: [
+      {
+        meaning: {
+          en: 'known to be true or genuine',
+          zh_TW: '可信的、真實的、可靠的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 161,
+    word: 'authoritative',
+    detail: [
+      {
+        meaning: {
+          en: 'having authority; that can be trusted; reliable',
+          zh_TW: '權威的、官方的、專斷的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 162,
+    word: 'autocracy',
+    detail: [
+      {
+        meaning: {
+          en: 'government by one person with unlimited power; despotism',
+          zh_TW: '獨裁政府',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 163,
     word: 'autocratic',
     detail: [
       {
@@ -1596,7 +2478,7 @@ export default [
     ],
   },
   {
-    id: 101,
+    id: 164,
     word: 'autonomously',
     detail: [
       {
@@ -1610,13 +2492,27 @@ export default [
     ],
   },
   {
-    id: 102,
+    id: 165,
+    word: 'avant-garde',
+    detail: [
+      {
+        meaning: {
+          en: 'favoring new and progressive ideas, esp in art and literature',
+          zh_TW: '前衛的 [類] vanguard',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 166,
     word: 'avarice',
     detail: [
       {
         meaning: {
           en: 'greed (one of the seven deadly sins)',
-          zh_TW: '',
+          zh_TW: '貪得無厭、貪婪',
         },
         partsOfSpeech: 'noun',
         example: 'The Spanish conquistadors were known for their avarice, plundering Incan land and stealing Incan gold.',
@@ -1624,7 +2520,7 @@ export default [
     ],
   },
   {
-    id: 103,
+    id: 167,
     word: 'avaricious',
     detail: [
       {
@@ -1639,7 +2535,7 @@ export default [
     ],
   },
   {
-    id: 104,
+    id: 168,
     word: 'aver',
     detail: [
       {
@@ -1661,13 +2557,27 @@ export default [
     ],
   },
   {
-    id: 105,
+    id: 169,
+    word: 'aversion',
+    detail: [
+      {
+        meaning: {
+          en: 'strong dislike',
+          zh_TW: '厭惡、反感',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 170,
     word: 'avert',
     detail: [
       {
         meaning: {
           en: "turn away (one's eyes or thoughts)",
-          zh_TW: '',
+          zh_TW: '移開',
         },
         partsOfSpeech: 'verb',
         example: 'she averted her eyes during the more violent scenes',
@@ -1675,7 +2585,7 @@ export default [
       {
         meaning: {
           en: 'prevent or ward off (an undesirable occurrence)',
-          zh_TW: '',
+          zh_TW: '避免、防止',
         },
         partsOfSpeech: 'verb',
         example: 'talks failed to avert a rail strike',
@@ -1683,7 +2593,7 @@ export default [
     ],
   },
   {
-    id: 106,
+    id: 171,
     word: 'avid',
     detail: [
       {
@@ -1697,13 +2607,13 @@ export default [
     ],
   },
   {
-    id: 107,
+    id: 172,
     word: 'badger',
     detail: [
       {
         meaning: {
           en: 'to pester',
-          zh_TW: '',
+          zh_TW: '(不停的)騷擾',
         },
         partsOfSpeech: 'verb',
         example: 'Badgered by his parents to find a job, the 30-year-old loafer instead joined a gang of itinerant musicians.',
@@ -1711,7 +2621,21 @@ export default [
     ],
   },
   {
-    id: 108,
+    id: 173,
+    word: 'baffle',
+    detail: [
+      {
+        meaning: {
+          en: 'be too difficult for to understand; puzzle',
+          zh_TW: '使困惑、阻撓 [類] confuse, puzzle, confound, balk, bilk, dash, foil, thwart',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 174,
     word: 'baleful',
     detail: [
       {
@@ -1725,7 +2649,7 @@ export default [
     ],
   },
   {
-    id: 109,
+    id: 175,
     word: 'balk',
     detail: [
       {
@@ -1739,13 +2663,13 @@ export default [
     ],
   },
   {
-    id: 110,
+    id: 176,
     word: 'banal',
     detail: [
       {
         meaning: {
           en: 'repeated too often; overfamiliar through overuse',
-          zh_TW: '',
+          zh_TW: '陳腐的、平庸的 [類] dull, stale, hackneyed, commonplace, insipid, trite, vapid, jejune',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -1754,7 +2678,7 @@ export default [
     ],
   },
   {
-    id: 111,
+    id: 177,
     word: 'banality',
     detail: [
       {
@@ -1768,13 +2692,13 @@ export default [
     ],
   },
   {
-    id: 112,
+    id: 178,
     word: 'banish',
     detail: [
       {
         meaning: {
           en: 'expel from a community, residence, or location; drive away',
-          zh_TW: '',
+          zh_TW: '放逐',
         },
         partsOfSpeech: 'verb',
         example: 'The most difficult part of the fast was banishing thoughts of food.',
@@ -1782,7 +2706,35 @@ export default [
     ],
   },
   {
-    id: 113,
+    id: 179,
+    word: 'banter',
+    detail: [
+      {
+        meaning: {
+          en: 'playful, good humored teasing',
+          zh_TW: '揶揄、嘲弄',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 180,
+    word: 'base',
+    detail: [
+      {
+        meaning: {
+          en: 'lowest part of sth, esp the part on which it rests or is supported',
+          zh_TW: 'n. 基礎; a. 卑賤的 [反] a. baseless 無事實根據的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 181,
     word: 'bastardization',
     detail: [
       {
@@ -1796,7 +2748,7 @@ export default [
     ],
   },
   {
-    id: 114,
+    id: 182,
     word: 'beatific',
     detail: [
       {
@@ -1810,7 +2762,7 @@ export default [
     ],
   },
   {
-    id: 115,
+    id: 183,
     word: 'begrudge',
     detail: [
       {
@@ -1824,7 +2776,7 @@ export default [
     ],
   },
   {
-    id: 116,
+    id: 184,
     word: 'behoove',
     detail: [
       {
@@ -1839,13 +2791,13 @@ export default [
     ],
   },
   {
-    id: 117,
+    id: 185,
     word: 'belie',
     detail: [
       {
         meaning: {
           en: 'to give a false representation to; misrepresent',
-          zh_TW: '',
+          zh_TW: '掩蓋、與...不一致 [類] mask',
         },
         partsOfSpeech: 'verb',
         example: 'The smile on her face belies the pain she must feel after the death of her husband.',
@@ -1853,7 +2805,7 @@ export default [
     ],
   },
   {
-    id: 118,
+    id: 186,
     word: 'belittle',
     detail: [
       {
@@ -1867,13 +2819,13 @@ export default [
     ],
   },
   {
-    id: 119,
+    id: 187,
     word: 'bellicose',
     detail: [
       {
         meaning: {
           en: 'warlike; inclined to quarrel',
-          zh_TW: '',
+          zh_TW: '好戰的、好鬥的',
         },
         partsOfSpeech: 'adjective',
         example: 'Known for their bellicose ways, the Spartans were once the most feared people from Peloponnesus to Persia.',
@@ -1881,13 +2833,13 @@ export default [
     ],
   },
   {
-    id: 120,
+    id: 188,
     word: 'belligerent',
     detail: [
       {
         meaning: {
           en: 'hostile and aggressive',
-          zh_TW: '',
+          zh_TW: '發動戰爭的、好鬥的、好挑釁的 [類] n. belligerence',
         },
         partsOfSpeech: 'adjective',
         example: 'a bull-necked, belligerent old man',
@@ -1895,7 +2847,7 @@ export default [
     ],
   },
   {
-    id: 121,
+    id: 189,
     word: 'bemoan',
     detail: [
       {
@@ -1910,13 +2862,27 @@ export default [
     ],
   },
   {
-    id: 122,
+    id: 190,
+    word: 'benefactor',
+    detail: [
+      {
+        meaning: {
+          en: 'person who gives money or other help to a school, hospital, charity, etc',
+          zh_TW: '行善者、捐助者',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 191,
     word: 'beneficent',
     detail: [
       {
         meaning: {
           en: '(of a person) generous or doing good',
-          zh_TW: '',
+          zh_TW: '慈善的、仁愛的',
         },
         partsOfSpeech: 'adjective',
         example: 'a beneficent landowner',
@@ -1924,7 +2890,7 @@ export default [
       {
         meaning: {
           en: 'resulting in good',
-          zh_TW: '',
+          zh_TW: '有益的',
         },
         partsOfSpeech: 'adjective',
         example: 'a beneficent democracy',
@@ -1932,7 +2898,21 @@ export default [
     ],
   },
   {
-    id: 123,
+    id: 192,
+    word: 'benevolent',
+    detail: [
+      {
+        meaning: {
+          en: 'being, or wishing to be, kind, friendly, and helpful',
+          zh_TW: '善心的、人心的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 193,
     word: 'benighted',
     detail: [
       {
@@ -1954,13 +2934,13 @@ export default [
     ],
   },
   {
-    id: 124,
+    id: 194,
     word: 'benign',
     detail: [
       {
         meaning: {
           en: 'gentle and kindly',
-          zh_TW: '',
+          zh_TW: '良性的、無害的',
         },
         partsOfSpeech: 'adjective',
         example: 'his benign but firm manner',
@@ -1984,13 +2964,27 @@ export default [
     ],
   },
   {
-    id: 125,
+    id: 195,
+    word: 'berate',
+    detail: [
+      {
+        meaning: {
+          en: 'scold sharply',
+          zh_TW: '痛罵、訓斥',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 196,
     word: 'bereft',
     detail: [
       {
         meaning: {
           en: 'deprived of or lacking (something)',
-          zh_TW: '',
+          zh_TW: '失去...的',
         },
         partsOfSpeech: 'adjective',
         example: 'her room was stark and bereft of color',
@@ -2006,7 +3000,7 @@ export default [
     ],
   },
   {
-    id: 126,
+    id: 197,
     word: 'besiege',
     detail: [
       {
@@ -2036,7 +3030,7 @@ export default [
     ],
   },
   {
-    id: 127,
+    id: 198,
     word: 'besmirch',
     detail: [
       {
@@ -2050,7 +3044,7 @@ export default [
     ],
   },
   {
-    id: 128,
+    id: 199,
     word: 'besotted',
     detail: [
       {
@@ -2064,7 +3058,7 @@ export default [
     ],
   },
   {
-    id: 129,
+    id: 200,
     word: 'bilious',
     detail: [
       {
@@ -2078,13 +3072,41 @@ export default [
     ],
   },
   {
-    id: 130,
+    id: 201,
+    word: 'bisect',
+    detail: [
+      {
+        meaning: {
+          en: 'divide into two parts',
+          zh_TW: '把...一分為二、二等分某物',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 202,
+    word: 'bland',
+    detail: [
+      {
+        meaning: {
+          en: 'gentle or casual in manner; showing no strong emotions; suave',
+          zh_TW: '無味的、溫和的、和藹的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 203,
     word: 'blatant',
     detail: [
       {
         meaning: {
           en: 'without any attempt at concealment; completely obvious',
-          zh_TW: '',
+          zh_TW: '喧鬧的、顯眼的、炫耀的 [類] boisterous, clamorous, obstreperous, vociferant (喧鬧的)',
         },
         partsOfSpeech: 'adjective',
         example: 'Allen was often punished in school for blatantly disrespecting teachers.',
@@ -2092,7 +3114,7 @@ export default [
     ],
   },
   {
-    id: 131,
+    id: 204,
     word: 'bleak',
     detail: [
       {
@@ -2107,7 +3129,29 @@ export default [
     ],
   },
   {
-    id: 132,
+    id: 205,
+    word: 'blight',
+    detail: [
+      {
+        meaning: {
+          en: 'have a severely detrimental effect on',
+          zh_TW: 'v. 毀掉、破壞、使枯萎',
+        },
+        partsOfSpeech: 'verb',
+        example: 'the scandal blighted the careers of several leading politicians',
+      },
+      {
+        meaning: {
+          en: 'disease that withers plants',
+          zh_TW: '枯萎病 [類] adj. blighted 枯萎的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 206,
     word: 'blinkered',
     detail: [
       {
@@ -2129,13 +3173,41 @@ export default [
     ],
   },
   {
-    id: 133,
+    id: 207,
+    word: 'blithe',
+    detail: [
+      {
+        meaning: {
+          en: "happy and carefree' casual",
+          zh_TW: '無憂的、快樂的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 208,
+    word: 'bogus',
+    detail: [
+      {
+        meaning: {
+          en: 'not genuine; false',
+          zh_TW: '假冒的、偽造的 [類] spurious',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 209,
     word: 'bolster',
     detail: [
       {
         meaning: {
           en: 'support and strengthen',
-          zh_TW: '',
+          zh_TW: 'v. 支持、鼓勵、增強 n. 長枕',
         },
         partsOfSpeech: 'verb',
         example: "The case for the suspect's innocence was bolstered considerably by the fact that neither fingerprints nor DNA were found at the scene.",
@@ -2143,13 +3215,13 @@ export default [
     ],
   },
   {
-    id: 134,
+    id: 210,
     word: 'bombastic',
     detail: [
       {
         meaning: {
           en: 'high-sounding but with little meaning; inflated',
-          zh_TW: '',
+          zh_TW: '誇誇其談的、誇大的 [類] pompous',
         },
         partsOfSpeech: 'adjective',
         example: 'bombastic rhetoric',
@@ -2157,7 +3229,7 @@ export default [
     ],
   },
   {
-    id: 135,
+    id: 211,
     word: 'boon',
     detail: [
       {
@@ -2171,7 +3243,7 @@ export default [
     ],
   },
   {
-    id: 136,
+    id: 212,
     word: 'boorish',
     detail: [
       {
@@ -2185,7 +3257,7 @@ export default [
     ],
   },
   {
-    id: 137,
+    id: 213,
     word: 'bowdlerize',
     detail: [
       {
@@ -2199,7 +3271,21 @@ export default [
     ],
   },
   {
-    id: 138,
+    id: 214,
+    word: 'braggart',
+    detail: [
+      {
+        meaning: {
+          en: 'person who brags',
+          zh_TW: 'n. 吹牛者 adj. 吹牛的 [類] v. brag 自誇',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 215,
     word: 'brazen',
     detail: [
       {
@@ -2213,7 +3299,21 @@ export default [
     ],
   },
   {
-    id: 139,
+    id: 216,
+    word: 'brevity',
+    detail: [
+      {
+        meaning: {
+          en: 'shortness or briefness',
+          zh_TW: '簡潔、簡練',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 217,
     word: 'bridle',
     detail: [
       {
@@ -2227,7 +3327,7 @@ export default [
     ],
   },
   {
-    id: 140,
+    id: 218,
     word: 'bristle',
     detail: [
       {
@@ -2257,7 +3357,7 @@ export default [
     ],
   },
   {
-    id: 141,
+    id: 219,
     word: 'broadside',
     detail: [
       {
@@ -2271,7 +3371,7 @@ export default [
     ],
   },
   {
-    id: 142,
+    id: 220,
     word: 'bromide',
     detail: [
       {
@@ -2285,7 +3385,7 @@ export default [
     ],
   },
   {
-    id: 143,
+    id: 221,
     word: 'brook',
     detail: [
       {
@@ -2299,7 +3399,7 @@ export default [
     ],
   },
   {
-    id: 144,
+    id: 222,
     word: 'browbeat',
     detail: [
       {
@@ -2313,7 +3413,7 @@ export default [
     ],
   },
   {
-    id: 145,
+    id: 223,
     word: 'brusquely',
     detail: [
       {
@@ -2327,7 +3427,7 @@ export default [
     ],
   },
   {
-    id: 146,
+    id: 224,
     word: 'bucolic',
     detail: [
       {
@@ -2341,7 +3441,7 @@ export default [
     ],
   },
   {
-    id: 147,
+    id: 225,
     word: 'bumbling',
     detail: [
       {
@@ -2355,7 +3455,21 @@ export default [
     ],
   },
   {
-    id: 148,
+    id: 226,
+    word: 'buoyant',
+    detail: [
+      {
+        meaning: {
+          en: '(of an object) able to float',
+          zh_TW: '能浮起的、看漲的、繁榮的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 227,
     word: 'burgeon',
     detail: [
       {
@@ -2369,7 +3483,7 @@ export default [
     ],
   },
   {
-    id: 149,
+    id: 228,
     word: 'burnish',
     detail: [
       {
@@ -2399,13 +3513,13 @@ export default [
     ],
   },
   {
-    id: 150,
+    id: 229,
     word: 'buttress',
     detail: [
       {
         meaning: {
           en: 'make stronger or defensible',
-          zh_TW: '',
+          zh_TW: '支持、加強',
         },
         partsOfSpeech: 'verb',
         example: "China's economy has been buttressed by a global demand for the electronic parts the country manufactures.",
@@ -2413,7 +3527,7 @@ export default [
     ],
   },
   {
-    id: 151,
+    id: 230,
     word: 'byzantine',
     detail: [
       {
@@ -2428,7 +3542,7 @@ export default [
     ],
   },
   {
-    id: 152,
+    id: 231,
     word: 'cacophonous',
     detail: [
       {
@@ -2442,7 +3556,7 @@ export default [
     ],
   },
   {
-    id: 153,
+    id: 232,
     word: 'cadaverous',
     detail: [
       {
@@ -2456,7 +3570,49 @@ export default [
     ],
   },
   {
-    id: 154,
+    id: 233,
+    word: 'cagey',
+    detail: [
+      {
+        meaning: {
+          en: '(about sth)(infml) cautious about giving information; wary; secretive',
+          zh_TW: '謹慎的、機敏的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 234,
+    word: 'calamity',
+    detail: [
+      {
+        meaning: {
+          en: 'serious misfortune or disaster',
+          zh_TW: '災難、禍患 [類] disaster, cataclysm',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 235,
+    word: 'callous',
+    detail: [
+      {
+        meaning: {
+          en: 'cruelly insensitive or unsympathetic',
+          zh_TW: '無情的、硬結的 [類] heartless',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 236,
     word: 'callow',
     detail: [
       {
@@ -2470,7 +3626,21 @@ export default [
     ],
   },
   {
-    id: 155,
+    id: 237,
+    word: 'calumnious',
+    detail: [
+      {
+        meaning: {
+          en: '(of a statement) false and defamatory; slanderous',
+          zh_TW: '誹謗的、中傷的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 238,
     word: 'calumny',
     detail: [
       {
@@ -2484,7 +3654,7 @@ export default [
     ],
   },
   {
-    id: 156,
+    id: 239,
     word: 'canard',
     detail: [
       {
@@ -2506,13 +3676,13 @@ export default [
     ],
   },
   {
-    id: 157,
+    id: 240,
     word: 'candid',
     detail: [
       {
         meaning: {
           en: 'truthful and straightforward; frank',
-          zh_TW: '',
+          zh_TW: '率直的',
         },
         partsOfSpeech: 'adjective',
         example: 'his responses were remarkably candid',
@@ -2528,7 +3698,7 @@ export default [
     ],
   },
   {
-    id: 158,
+    id: 241,
     word: 'candidness',
     detail: [
       {
@@ -2542,7 +3712,7 @@ export default [
     ],
   },
   {
-    id: 159,
+    id: 242,
     word: 'cant',
     detail: [
       {
@@ -2572,13 +3742,13 @@ export default [
     ],
   },
   {
-    id: 160,
+    id: 243,
     word: 'capitulate',
     detail: [
       {
         meaning: {
           en: 'to surrender (usually under agreed conditions)',
-          zh_TW: '',
+          zh_TW: '(有條件)投降',
         },
         partsOfSpeech: 'verb',
         example:
@@ -2587,13 +3757,13 @@ export default [
     ],
   },
   {
-    id: 161,
+    id: 244,
     word: 'capricious',
     detail: [
       {
         meaning: {
           en: 'determined by chance or impulse or whim rather than by necessity or reason',
-          zh_TW: '',
+          zh_TW: '變化無常的、任性的 [類]erratic',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -2602,7 +3772,21 @@ export default [
     ],
   },
   {
-    id: 162,
+    id: 245,
+    word: 'captious',
+    detail: [
+      {
+        meaning: {
+          en: 'fond of criticizing or raising objections about unimportant matters; quibbling',
+          zh_TW: '吹毛求疵的 [類] carping',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 246,
     word: 'cardinal',
     detail: [
       {
@@ -2616,7 +3800,21 @@ export default [
     ],
   },
   {
-    id: 163,
+    id: 247,
+    word: 'caricature',
+    detail: [
+      {
+        meaning: {
+          en: 'picture, description or imitation of sb/sth that exaggerates certain characteristics in order to amuse or ridicule',
+          zh_TW: 'n. 諷刺漫畫 v. 誇張扭曲',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 248,
     word: 'carping',
     detail: [
       {
@@ -2638,7 +3836,7 @@ export default [
     ],
   },
   {
-    id: 164,
+    id: 249,
     word: 'castigate',
     detail: [
       {
@@ -2652,7 +3850,7 @@ export default [
     ],
   },
   {
-    id: 165,
+    id: 250,
     word: 'castigation',
     detail: [
       {
@@ -2667,7 +3865,7 @@ export default [
     ],
   },
   {
-    id: 166,
+    id: 251,
     word: 'cataclysm',
     detail: [
       {
@@ -2681,7 +3879,7 @@ export default [
     ],
   },
   {
-    id: 167,
+    id: 252,
     word: 'catalyst',
     detail: [
       {
@@ -2703,7 +3901,49 @@ export default [
     ],
   },
   {
-    id: 168,
+    id: 253,
+    word: 'catastrophe',
+    detail: [
+      {
+        meaning: {
+          en: 'sudden great disaster or misfortune',
+          zh_TW: '突如其來的大災難',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 254,
+    word: 'categorical',
+    detail: [
+      {
+        meaning: {
+          en: 'unconditional; absolute; explicit',
+          zh_TW: '絕對的、至上的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 255,
+    word: 'caterwaul',
+    detail: [
+      {
+        meaning: {
+          en: 'make a shrill howling or wailing noise like that of a cat',
+          zh_TW: '嚎叫、尖叫、貓叫春',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 256,
     word: 'catholic',
     detail: [
       {
@@ -2718,7 +3958,7 @@ export default [
     ],
   },
   {
-    id: 169,
+    id: 257,
     word: 'causality',
     detail: [
       {
@@ -2740,13 +3980,27 @@ export default [
     ],
   },
   {
-    id: 170,
+    id: 258,
+    word: 'caustic',
+    detail: [
+      {
+        meaning: {
+          en: 'that can burn or destroy things by chemical action',
+          zh_TW: '腐蝕性的、刻薄的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 259,
     word: 'cavalier',
     detail: [
       {
         meaning: {
           en: 'given to haughty disregard of others',
-          zh_TW: '',
+          zh_TW: '騎士、武士、滿不在乎的',
         },
         partsOfSpeech: 'adjective',
         example: 'Percy dismissed the issue with a cavalier wave of his hand.',
@@ -2754,7 +4008,7 @@ export default [
     ],
   },
   {
-    id: 171,
+    id: 260,
     word: 'cede',
     detail: [
       {
@@ -2768,7 +4022,7 @@ export default [
     ],
   },
   {
-    id: 172,
+    id: 261,
     word: 'celerity',
     detail: [
       {
@@ -2782,7 +4036,7 @@ export default [
     ],
   },
   {
-    id: 173,
+    id: 262,
     word: 'censor',
     detail: [
       {
@@ -2804,13 +4058,27 @@ export default [
     ],
   },
   {
-    id: 174,
+    id: 263,
+    word: 'censorious',
+    detail: [
+      {
+        meaning: {
+          en: 'tending to find faults in people or things; severely critical',
+          zh_TW: '好批評的、好吹毛求疵的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 264,
     word: 'censure',
     detail: [
       {
         meaning: {
           en: 'to express strong disapproval',
-          zh_TW: '',
+          zh_TW: '責備、譴責',
         },
         partsOfSpeech: 'verb',
         example: 'After being caught in bed with a mistress, the mayor was quickly censured by the city council.',
@@ -2818,7 +4086,7 @@ export default [
     ],
   },
   {
-    id: 175,
+    id: 265,
     word: 'cerebral',
     detail: [
       {
@@ -2832,7 +4100,7 @@ export default [
     ],
   },
   {
-    id: 176,
+    id: 266,
     word: 'chagrin',
     detail: [
       {
@@ -2854,7 +4122,21 @@ export default [
     ],
   },
   {
-    id: 177,
+    id: 267,
+    word: 'champion',
+    detail: [
+      {
+        meaning: {
+          en: 'to fight or speak publicly in support of (a person, belief, cause, etc.)',
+          zh_TW: '為...而戰、支持、捍衛',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 268,
     word: 'charlatan',
     detail: [
       {
@@ -2868,7 +4150,7 @@ export default [
     ],
   },
   {
-    id: 178,
+    id: 269,
     word: 'chary',
     detail: [
       {
@@ -2883,13 +4165,13 @@ export default [
     ],
   },
   {
-    id: 179,
+    id: 270,
     word: 'chastise',
     detail: [
       {
         meaning: {
           en: 'rebuke or reprimand severely',
-          zh_TW: '',
+          zh_TW: '懲罰、譴責(以保持純潔) [類] n. chastisement',
         },
         partsOfSpeech: 'verb',
         example: 'he chastised his colleagues for their laziness',
@@ -2897,7 +4179,7 @@ export default [
     ],
   },
   {
-    id: 180,
+    id: 271,
     word: 'chauvinism',
     detail: [
       {
@@ -2911,7 +4193,7 @@ export default [
     ],
   },
   {
-    id: 181,
+    id: 272,
     word: 'chauvinist',
     detail: [
       {
@@ -2925,7 +4207,7 @@ export default [
     ],
   },
   {
-    id: 182,
+    id: 273,
     word: 'checkered',
     detail: [
       {
@@ -2947,7 +4229,7 @@ export default [
     ],
   },
   {
-    id: 183,
+    id: 274,
     word: 'chicanery',
     detail: [
       {
@@ -2961,7 +4243,7 @@ export default [
     ],
   },
   {
-    id: 184,
+    id: 275,
     word: 'chimera',
     detail: [
       {
@@ -2983,13 +4265,13 @@ export default [
     ],
   },
   {
-    id: 185,
+    id: 276,
     word: 'chivalrous',
     detail: [
       {
         meaning: {
           en: 'courteous and gallant, especially toward women (typically used of a man or his behavior)',
-          zh_TW: '',
+          zh_TW: '武士精神的、對女人彬彬有禮的',
         },
         partsOfSpeech: 'adjective',
         example: 'shall I be chivalrous and offer you my coat?',
@@ -2997,7 +4279,7 @@ export default [
     ],
   },
   {
-    id: 186,
+    id: 277,
     word: 'choleric',
     detail: [
       {
@@ -3011,7 +4293,7 @@ export default [
     ],
   },
   {
-    id: 187,
+    id: 278,
     word: 'chortle',
     detail: [
       {
@@ -3033,7 +4315,35 @@ export default [
     ],
   },
   {
-    id: 188,
+    id: 279,
+    word: 'chronic',
+    detail: [
+      {
+        meaning: {
+          en: 'lasting for a long time; continually recurring',
+          zh_TW: '慢性的、長期的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 280,
+    word: 'chronological',
+    detail: [
+      {
+        meaning: {
+          en: 'arranged in the order in which they occurred',
+          zh_TW: '依時間前後排列而記載的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 281,
     word: 'churlish',
     detail: [
       {
@@ -3047,13 +4357,41 @@ export default [
     ],
   },
   {
-    id: 189,
+    id: 282,
+    word: 'circuitous',
+    detail: [
+      {
+        meaning: {
+          en: 'long and indirect; round about',
+          zh_TW: '迂迴的、繞圈子的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 283,
+    word: 'circumlocution',
+    detail: [
+      {
+        meaning: {
+          en: 'use of many words to say sth that could be said in a few words',
+          zh_TW: '迂迴累贅的陳述 [類] adj. circumlocutory 委婉曲折的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 284,
     word: 'circumscribe',
     detail: [
       {
         meaning: {
           en: 'restrict or confine',
-          zh_TW: '',
+          zh_TW: '限制',
         },
         partsOfSpeech: 'verb',
         example: 'Their tour of South America was circumscribed so that they saw only popular destinations and avoided the dangerous parts of cities.',
@@ -3061,13 +4399,41 @@ export default [
     ],
   },
   {
-    id: 190,
+    id: 285,
+    word: 'circumspect',
+    detail: [
+      {
+        meaning: {
+          en: 'considering everything carefully before acting; cautious; wary',
+          zh_TW: '慎重的、謹慎小心的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 286,
+    word: 'circumstantial',
+    detail: [
+      {
+        meaning: {
+          en: 'giving full details',
+          zh_TW: '與情況有關的、依情況而定的；詳盡的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 287,
     word: 'circumvent',
     detail: [
       {
         meaning: {
           en: 'find a way around (an obstacle)',
-          zh_TW: '',
+          zh_TW: '迴避、用計謀規避',
         },
         partsOfSpeech: 'verb',
         example: 'if you come to an obstruction in a road you can seek to circumvent it',
@@ -3083,7 +4449,35 @@ export default [
     ],
   },
   {
-    id: 191,
+    id: 288,
+    word: 'clairvoyance',
+    detail: [
+      {
+        meaning: {
+          en: 'supposed power of seeing in the mind either future events or things that exist or are happening out of sight',
+          zh_TW: '超人的洞察力 [類] a. clairvoyant',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 289,
+    word: 'clandestine',
+    detail: [
+      {
+        meaning: {
+          en: 'done secretly, kept secret, surreptitious',
+          zh_TW: '祕密的、案中的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 290,
     word: 'clemency',
     detail: [
       {
@@ -3097,7 +4491,7 @@ export default [
     ],
   },
   {
-    id: 192,
+    id: 291,
     word: 'coagulate',
     detail: [
       {
@@ -3119,13 +4513,13 @@ export default [
     ],
   },
   {
-    id: 193,
+    id: 292,
     word: 'coalesce',
     detail: [
       {
         meaning: {
           en: 'come together to form one mass or whole',
-          zh_TW: '',
+          zh_TW: '聯合、合併',
         },
         partsOfSpeech: 'verb',
         example: 'the puddles had coalesced into shallow streams',
@@ -3133,13 +4527,41 @@ export default [
     ],
   },
   {
-    id: 194,
+    id: 293,
+    word: 'codify',
+    detail: [
+      {
+        meaning: {
+          en: 'arrange (laws, rules, etc) systematically into a code',
+          zh_TW: '將法律、規則編成法典 [類] n. codification',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 294,
+    word: 'coerce',
+    detail: [
+      {
+        meaning: {
+          en: 'sb (fml) make sb do sth by using force or threats; compel sb to do sth',
+          zh_TW: '強制、迫使',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 295,
     word: 'cogent',
     detail: [
       {
         meaning: {
           en: 'clear and persuasive',
-          zh_TW: '',
+          zh_TW: '令人信服的、有說服力的 [類] convincing, compelling',
         },
         partsOfSpeech: 'adjective',
         example: 'A cogent argument will change the minds of even the most skeptical audience.',
@@ -3147,7 +4569,35 @@ export default [
     ],
   },
   {
-    id: 195,
+    id: 296,
+    word: 'cognitive',
+    detail: [
+      {
+        meaning: {
+          en: 'of or relating to cognition',
+          zh_TW: '認知的、感知的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 297,
+    word: 'coherent',
+    detail: [
+      {
+        meaning: {
+          en: 'connected logically or consistent; easy to understand; clear',
+          zh_TW: '一致的、協調的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 298,
     word: 'cohesive',
     detail: [
       {
@@ -3161,7 +4611,21 @@ export default [
     ],
   },
   {
-    id: 196,
+    id: 299,
+    word: 'coincide',
+    detail: [
+      {
+        meaning: {
+          en: '(of events) occur at the same time or occupy the same period of time as sth else',
+          zh_TW: '巧合、一致',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 300,
     word: 'collusion',
     detail: [
       {
@@ -3175,7 +4639,7 @@ export default [
     ],
   },
   {
-    id: 197,
+    id: 301,
     word: 'colossal',
     detail: [
       {
@@ -3189,7 +4653,21 @@ export default [
     ],
   },
   {
-    id: 198,
+    id: 302,
+    word: 'comity',
+    detail: [
+      {
+        meaning: {
+          en: '(formal) friendly social atmosphere; social harmony',
+          zh_TW: '禮讓 [類] civility; courtesy [反]enmity(敵意、憎恨)',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 303,
     word: 'commendable',
     detail: [
       {
@@ -3203,13 +4681,13 @@ export default [
     ],
   },
   {
-    id: 199,
+    id: 304,
     word: 'commensurate',
     detail: [
       {
         meaning: {
           en: 'to be in proportion or corresponding in degree or amount',
-          zh_TW: '',
+          zh_TW: '同樣大小的、相稱的',
         },
         partsOfSpeech: 'adjective',
         example: 'The convicted felon’s life sentence was commensurate with the heinousness of his crime.',
@@ -3217,13 +4695,69 @@ export default [
     ],
   },
   {
-    id: 200,
+    id: 305,
+    word: 'communal',
+    detail: [
+      {
+        meaning: {
+          en: 'for the use of all; shared',
+          zh_TW: '全體共有的、共享的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 306,
+    word: 'compassionate',
+    detail: [
+      {
+        meaning: {
+          en: 'showing or feeling compassion; compassionately',
+          zh_TW: '有同情心的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 307,
+    word: 'compatible',
+    detail: [
+      {
+        meaning: {
+          en: '(of people, ideas, arguments, principles, etc) suited; that can exist together',
+          zh_TW: '和諧共處的、相容的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 308,
+    word: 'compelling',
+    detail: [
+      {
+        meaning: {
+          en: 'extremely interesting and exciting, so that one has to pay attention',
+          zh_TW: '令人注目的、強制的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 309,
     word: 'compendium',
     detail: [
       {
         meaning: {
           en: 'a collection of concise but detailed information about a particular subject, especially in a book or other publication',
-          zh_TW: '',
+          zh_TW: '簡要、概略 [類] abstract',
         },
         partsOfSpeech: 'noun',
         example: 'an invaluable compendium of useful information about language',
@@ -3239,13 +4773,13 @@ export default [
     ],
   },
   {
-    id: 201,
+    id: 310,
     word: 'complacent',
     detail: [
       {
         meaning: {
           en: "contented to a fault with oneself or one's actions",
-          zh_TW: '',
+          zh_TW: '滿足的、自滿的',
         },
         partsOfSpeech: 'adjective',
         example: "After the water polo team won their sixth championship, they became complacent and didn't even make it to the playoffs the next year.",
@@ -3253,7 +4787,7 @@ export default [
     ],
   },
   {
-    id: 202,
+    id: 311,
     word: 'complaisant',
     detail: [
       {
@@ -3267,13 +4801,13 @@ export default [
     ],
   },
   {
-    id: 203,
+    id: 312,
     word: 'complementary',
     detail: [
       {
         meaning: {
           en: 'combining in such a way as to enhance or emphasize the qualities of each other or another',
-          zh_TW: '',
+          zh_TW: '補充的、補足的',
         },
         partsOfSpeech: 'adjective',
         example: 'three guitarists playing interlocking, complementary parts',
@@ -3281,7 +4815,21 @@ export default [
     ],
   },
   {
-    id: 204,
+    id: 313,
+    word: 'compliance',
+    detail: [
+      {
+        meaning: {
+          en: 'action in accordance with a request or command; obedience',
+          zh_TW: '遵從、順從',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 314,
     word: 'complicit',
     detail: [
       {
@@ -3295,7 +4843,21 @@ export default [
     ],
   },
   {
-    id: 205,
+    id: 315,
+    word: 'composed',
+    detail: [
+      {
+        meaning: {
+          en: "having one's feelings and expression under control; calm",
+          zh_TW: '鎮靜的,沈著的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 316,
     word: 'compound',
     detail: [
       {
@@ -3309,13 +4871,69 @@ export default [
     ],
   },
   {
-    id: 206,
+    id: 317,
+    word: 'comprehensive',
+    detail: [
+      {
+        meaning: {
+          en: 'that includes everything',
+          zh_TW: '全面的、綜合的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 318,
+    word: 'compromise',
+    detail: [
+      {
+        meaning: {
+          en: 'gibing up of certain demands by each side in a dispute, so that an agreement may be reached which satisfies both to some extent',
+          zh_TW: '妥協、折衷、危急 [類] impair 損害、削弱',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 319,
+    word: 'compulsory',
+    detail: [
+      {
+        meaning: {
+          en: 'that must be done; required by the rules, etc; obligatory',
+          zh_TW: '強制性的、命令性的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 320,
+    word: 'compunction',
+    detail: [
+      {
+        meaning: {
+          en: "(fml)(usu in negative sentences) feeling of guilt or regret for one's action",
+          zh_TW: '懊悔、良心不安',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 321,
     word: 'concede',
     detail: [
       {
         meaning: {
           en: 'acknowledge defeat',
-          zh_TW: '',
+          zh_TW: '（不情願）承認/讓步、認輸 [類] n. concession 讓步',
         },
         partsOfSpeech: 'verb',
         example: 'I concede. You win!',
@@ -3323,7 +4941,7 @@ export default [
     ],
   },
   {
-    id: 207,
+    id: 322,
     word: 'conceit',
     detail: [
       {
@@ -3345,7 +4963,7 @@ export default [
     ],
   },
   {
-    id: 208,
+    id: 323,
     word: 'conciliate',
     detail: [
       {
@@ -3359,13 +4977,13 @@ export default [
     ],
   },
   {
-    id: 209,
+    id: 324,
     word: 'conciliatory',
     detail: [
       {
         meaning: {
           en: 'intended or likely to placate or pacify',
-          zh_TW: '',
+          zh_TW: '撫慰的、調和的',
         },
         partsOfSpeech: 'adjective',
         example: 'a conciliatory approach',
@@ -3373,7 +4991,7 @@ export default [
     ],
   },
   {
-    id: 210,
+    id: 325,
     word: 'concomitant',
     detail: [
       {
@@ -3387,13 +5005,83 @@ export default [
     ],
   },
   {
-    id: 211,
+    id: 326,
+    word: 'concord',
+    detail: [
+      {
+        meaning: {
+          en: 'harmony between people; lack of quarreling and unfriendliness',
+          zh_TW: '一致、協調、(國際的)和睦',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 327,
+    word: 'concur',
+    detail: [
+      {
+        meaning: {
+          en: 'be of the same opinion; agree',
+          zh_TW: '意見相同、一致',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 328,
+    word: 'condemn',
+    detail: [
+      {
+        meaning: {
+          en: 'sb/sth say that one disapproves of sb/sth',
+          zh_TW: '責難、譴責',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 329,
+    word: 'condescending',
+    detail: [
+      {
+        meaning: {
+          en: 'having or showing a feeling of patronizing superiority',
+          zh_TW: '屈尊的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 330,
+    word: 'condone',
+    detail: [
+      {
+        meaning: {
+          en: 'treat or regard as if it were not serious or wrong, overlook, forgive',
+          zh_TW: '原諒、寬恕',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 331,
     word: 'conducive',
     detail: [
       {
         meaning: {
           en: 'making a situation or outcome more likely to happen',
-          zh_TW: '',
+          zh_TW: '有助的、有益的、促成的',
         },
         partsOfSpeech: 'adjective',
         example: 'Studying in a quiet room is conducive to learning; studying in a noisy environment makes learning more difficult.',
@@ -3401,7 +5089,49 @@ export default [
     ],
   },
   {
-    id: 212,
+    id: 332,
+    word: 'confess',
+    detail: [
+      {
+        meaning: {
+          en: '(to sth/doing sth); (sth) (to sb) say or admit, often formally (that one has done wrong, committed a crime, etc)',
+          zh_TW: '承認、公認',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 333,
+    word: 'configuration',
+    detail: [
+      {
+        meaning: {
+          en: 'arrangement of the parts of sth; shape or outline',
+          zh_TW: '結構、配置、輪廓',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 334,
+    word: 'confine',
+    detail: [
+      {
+        meaning: {
+          en: 'sb/sth keep (a person or an animal) in a restricted space',
+          zh_TW: '限制、使侷限',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 335,
     word: 'conflagration',
     detail: [
       {
@@ -3415,13 +5145,13 @@ export default [
     ],
   },
   {
-    id: 213,
+    id: 336,
     word: 'conflate',
     detail: [
       {
         meaning: {
           en: 'combine (two or more texts, ideas, etc.) into one',
-          zh_TW: '',
+          zh_TW: '合併',
         },
         partsOfSpeech: 'verb',
         example: 'the urban crisis conflates a number of different economic and social issues',
@@ -3429,13 +5159,27 @@ export default [
     ],
   },
   {
-    id: 214,
+    id: 337,
+    word: 'conformity',
+    detail: [
+      {
+        meaning: {
+          en: 'compliance with standards, rules, or laws',
+          zh_TW: '一致、遵從、順從',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 338,
     word: 'confound',
     detail: [
       {
         meaning: {
           en: 'cause surprise or confusion in (someone), especially by acting against their expectations',
-          zh_TW: '',
+          zh_TW: '使混亂、使困惑 [類] perplex',
         },
         partsOfSpeech: 'verb',
         example: 'the inflation figure confounded economic analysts',
@@ -3451,7 +5195,63 @@ export default [
     ],
   },
   {
-    id: 215,
+    id: 339,
+    word: 'congenial',
+    detail: [
+      {
+        meaning: {
+          en: 'pleasing because of similarities in temperament, interests, etc',
+          zh_TW: '意氣相投的、性情好的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 340,
+    word: 'congruent',
+    detail: [
+      {
+        meaning: {
+          en: 'having the same size and shape',
+          zh_TW: '適合的、一致的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 341,
+    word: 'conjecture',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) form (and express) an opinion not based on firm evidence; guess',
+          zh_TW: '推測、臆測',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 342,
+    word: 'conjure',
+    detail: [
+      {
+        meaning: {
+          en: 'call upon (a spirit or ghost) to appear, by means of a magic ritual',
+          zh_TW: '召喚（神靈）、用魔法魔術變出、使想起',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 343,
     word: 'connive',
     detail: [
       {
@@ -3473,7 +5273,35 @@ export default [
     ],
   },
   {
-    id: 216,
+    id: 344,
+    word: 'conniving',
+    detail: [
+      {
+        meaning: {
+          en: 'given to or involved in conspiring to do something immoral, illegal, or harmful',
+          zh_TW: '縱容的、默許的、串通的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 345,
+    word: 'conscientious',
+    detail: [
+      {
+        meaning: {
+          en: 'careful to do what one ought to do, and do it as well as one can',
+          zh_TW: '盡責的、合乎道德良心的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 346,
     word: 'consecrate',
     detail: [
       {
@@ -3487,13 +5315,69 @@ export default [
     ],
   },
   {
-    id: 217,
+    id: 347,
+    word: 'consensus',
+    detail: [
+      {
+        meaning: {
+          en: 'agreement in opinion; collective opinion',
+          zh_TW: '意見一致',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 348,
+    word: 'conservative',
+    detail: [
+      {
+        meaning: {
+          en: 'opposed to great or sudden change',
+          zh_TW: '保守的、守舊的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 349,
+    word: 'consistent',
+    detail: [
+      {
+        meaning: {
+          en: '(of a person, his behavior, his views, etc) always keeping to the same pattern or style; unchanging',
+          zh_TW: '始終如一的、前後一致的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 350,
+    word: 'consolidate',
+    detail: [
+      {
+        meaning: {
+          en: 'become more solid, secure, or strong',
+          zh_TW: '鞏固、堅強、合併',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 351,
     word: 'conspicuous',
     detail: [
       {
         meaning: {
           en: 'without any attempt at concealment; completely obvious',
-          zh_TW: '',
+          zh_TW: '顯著的、顯而易見的',
         },
         partsOfSpeech: 'adjective',
         example: 'American basketball players are always conspicuous when they go abroad--not only are they American, but some are over seven feet tall.',
@@ -3501,7 +5385,21 @@ export default [
     ],
   },
   {
-    id: 218,
+    id: 352,
+    word: 'constant',
+    detail: [
+      {
+        meaning: {
+          en: 'going on all the time; happening again and again',
+          zh_TW: '固定的、不變的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 353,
     word: 'constituent',
     detail: [
       {
@@ -3539,7 +5437,21 @@ export default [
     ],
   },
   {
-    id: 219,
+    id: 354,
+    word: 'constrain',
+    detail: [
+      {
+        meaning: {
+          en: 'make (sb) do sth by strong (moral) persuasion or by force',
+          zh_TW: '強迫、迫使',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 355,
     word: 'constraint',
     detail: [
       {
@@ -3553,13 +5465,13 @@ export default [
     ],
   },
   {
-    id: 220,
+    id: 356,
     word: 'construe',
     detail: [
       {
         meaning: {
           en: 'interpreted in a particular way',
-          zh_TW: '',
+          zh_TW: '解釋、理解為',
         },
         partsOfSpeech: 'verb',
         example: "The author's inability to take a side on the issue was construed by both his opponents and supporters as a sign of weakness.",
@@ -3567,7 +5479,7 @@ export default [
     ],
   },
   {
-    id: 221,
+    id: 357,
     word: 'consummate',
     detail: [
       {
@@ -3581,7 +5493,35 @@ export default [
     ],
   },
   {
-    id: 222,
+    id: 358,
+    word: 'contemplate',
+    detail: [
+      {
+        meaning: {
+          en: 'look at or consider (sth) thoughtfully',
+          zh_TW: '沈思、凝視 [類] n. contemplation adj. contemplative',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 359,
+    word: 'contempt',
+    detail: [
+      {
+        meaning: {
+          en: '(for sb/sth) feeling that sb/sth is completely worthless and cannot be respected',
+          zh_TW: '輕視、蔑視 [類] disregard',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 360,
     word: 'contemptuous',
     detail: [
       {
@@ -3595,13 +5535,13 @@ export default [
     ],
   },
   {
-    id: 223,
+    id: 361,
     word: 'contentious',
     detail: [
       {
         meaning: {
           en: 'likely to argue',
-          zh_TW: '',
+          zh_TW: '具爭議的、愛爭論的 [類]n. contention 爭論、爭辯, v. content 競爭、主張',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -3610,13 +5550,27 @@ export default [
     ],
   },
   {
-    id: 224,
+    id: 362,
+    word: 'contest',
+    detail: [
+      {
+        meaning: {
+          en: 'dispute',
+          zh_TW: '比賽、爭論',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 363,
     word: 'contingent',
     detail: [
       {
         meaning: {
           en: 'a gathering of persons representative of some larger group',
-          zh_TW: '',
+          zh_TW: '依情況而定的、意外事故、偶然事件 [類] n. contingency',
         },
         partsOfSpeech: 'noun',
         example: 'A small contingent of those loyal to the king have gathered around the castle to defend it.',
@@ -3624,13 +5578,27 @@ export default [
     ],
   },
   {
-    id: 225,
+    id: 364,
+    word: 'contravene',
+    detail: [
+      {
+        meaning: {
+          en: 'act or be contrary to (a law, etc); break',
+          zh_TW: '違背(法規、習俗)',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 365,
     word: 'contrite',
     detail: [
       {
         meaning: {
           en: 'to be remorseful',
-          zh_TW: '',
+          zh_TW: '悔罪的、痛悔的 [類] penitent',
         },
         partsOfSpeech: 'adjective',
         example: "Though he stole his little sister’s licorice stick with malevolent glee, Chucky soon became contrite when his sister wouldn't stop crying.",
@@ -3638,7 +5606,7 @@ export default [
     ],
   },
   {
-    id: 226,
+    id: 366,
     word: 'contrition',
     detail: [
       {
@@ -3652,13 +5620,13 @@ export default [
     ],
   },
   {
-    id: 227,
+    id: 367,
     word: 'contrive',
     detail: [
       {
         meaning: {
           en: 'to pull off a plan or scheme, usually through skill or trickery',
-          zh_TW: '',
+          zh_TW: '設計、圖謀',
         },
         partsOfSpeech: 'verb',
         example: 'Despite a low GPA, he contrived to get into college, going so far as to write his own glowing letters of recommendation.',
@@ -3666,13 +5634,13 @@ export default [
     ],
   },
   {
-    id: 228,
+    id: 368,
     word: 'conundrum',
     detail: [
       {
         meaning: {
           en: 'a difficult problem',
-          zh_TW: '',
+          zh_TW: '難題、複雜問題 [類] enigma',
         },
         partsOfSpeech: 'noun',
         example: 'Computers have helped solve some of the mathematical conundrums which have puzzled man for many centuries.',
@@ -3680,13 +5648,13 @@ export default [
     ],
   },
   {
-    id: 229,
+    id: 369,
     word: 'conventional',
     detail: [
       {
         meaning: {
           en: 'based on or in accordance with what is generally done or believed',
-          zh_TW: '',
+          zh_TW: '傳統的、習慣的、慣例的',
         },
         partsOfSpeech: 'adjective',
         example: 'a conventional morality had dictated behavior',
@@ -3710,7 +5678,49 @@ export default [
     ],
   },
   {
-    id: 230,
+    id: 370,
+    word: 'convergent',
+    detail: [
+      {
+        meaning: {
+          en: 'tending to move toward one point or to approach each other; converging',
+          zh_TW: '匯聚的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 371,
+    word: 'conversant',
+    detail: [
+      {
+        meaning: {
+          en: 'with sth having knowledge of sth; familiar with sth',
+          zh_TW: '熟悉的、精通的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 372,
+    word: 'conviction',
+    detail: [
+      {
+        meaning: {
+          en: 'the convicting of a person for a crime',
+          zh_TW: '判罪、堅信',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 373,
     word: 'convivial',
     detail: [
       {
@@ -3732,13 +5742,13 @@ export default [
     ],
   },
   {
-    id: 231,
+    id: 374,
     word: 'convoluted',
     detail: [
       {
         meaning: {
           en: '(especially of an argument, story, or sentence) extremely complex and difficult to follow',
-          zh_TW: '',
+          zh_TW: '費解的、旋繞的 [類] coiled, spiraled(費解的), intricate(錯綜複雜的)',
         },
         partsOfSpeech: 'adjective',
         example: 'its convoluted narrative encompasses all manner of digressions',
@@ -3746,13 +5756,13 @@ export default [
     ],
   },
   {
-    id: 232,
+    id: 375,
     word: 'copious',
     detail: [
       {
         meaning: {
           en: 'abundant in supply or quantity',
-          zh_TW: '',
+          zh_TW: '豐富的、多產的',
         },
         partsOfSpeech: 'adjective',
         example: 'she took copious notes',
@@ -3760,7 +5770,21 @@ export default [
     ],
   },
   {
-    id: 233,
+    id: 376,
+    word: 'cordial',
+    detail: [
+      {
+        meaning: {
+          en: 'sincere and friendly',
+          zh_TW: '熱忱的、衷心的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 377,
     word: 'cornucopia',
     detail: [
       {
@@ -3774,7 +5798,7 @@ export default [
     ],
   },
   {
-    id: 234,
+    id: 378,
     word: 'corollary',
     detail: [
       {
@@ -3796,13 +5820,13 @@ export default [
     ],
   },
   {
-    id: 235,
+    id: 379,
     word: 'corroborate',
     detail: [
       {
         meaning: {
           en: 'to confirm or lend support to (usually an idea or claim)',
-          zh_TW: '',
+          zh_TW: '證實、確證 [類] a. corroborative 確證的',
         },
         partsOfSpeech: 'verb',
         example:
@@ -3811,7 +5835,7 @@ export default [
     ],
   },
   {
-    id: 236,
+    id: 380,
     word: 'cosmology',
     detail: [
       {
@@ -3825,13 +5849,13 @@ export default [
     ],
   },
   {
-    id: 237,
+    id: 381,
     word: 'cosmopolitan',
     detail: [
       {
         meaning: {
           en: 'including or containing people from many different countries',
-          zh_TW: '',
+          zh_TW: '世界性的、國際性的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -3855,7 +5879,7 @@ export default [
     ],
   },
   {
-    id: 238,
+    id: 382,
     word: 'cosset',
     detail: [
       {
@@ -3869,7 +5893,7 @@ export default [
     ],
   },
   {
-    id: 239,
+    id: 383,
     word: 'coterminous',
     detail: [
       {
@@ -3883,7 +5907,35 @@ export default [
     ],
   },
   {
-    id: 240,
+    id: 384,
+    word: 'countenance',
+    detail: [
+      {
+        meaning: {
+          en: "(expression on sb's) face",
+          zh_TW: '面部表情、面容、贊成、支持',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 385,
+    word: 'counterfeit',
+    detail: [
+      {
+        meaning: {
+          en: 'adj. made or done so that it is very similar to another thing, in order to deceive; fake',
+          zh_TW: '偽造、仿造',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 386,
     word: 'countermand',
     detail: [
       {
@@ -3898,7 +5950,35 @@ export default [
     ],
   },
   {
-    id: 241,
+    id: 387,
+    word: 'counterpart',
+    detail: [
+      {
+        meaning: {
+          en: 'person or thing that corresponds to or has the same function as sb or sth else',
+          zh_TW: '相對應的人或物',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 388,
+    word: 'covet',
+    detail: [
+      {
+        meaning: {
+          en: 'want very much to possess (esp sth that belongs to sb else)',
+          zh_TW: '貪求、揶揄',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 389,
     word: 'craven',
     detail: [
       {
@@ -3912,7 +5992,7 @@ export default [
     ],
   },
   {
-    id: 242,
+    id: 390,
     word: 'credence',
     detail: [
       {
@@ -3926,7 +6006,7 @@ export default [
     ],
   },
   {
-    id: 243,
+    id: 391,
     word: 'creditable',
     detail: [
       {
@@ -3940,7 +6020,7 @@ export default [
     ],
   },
   {
-    id: 244,
+    id: 392,
     word: 'credulity',
     detail: [
       {
@@ -3954,7 +6034,21 @@ export default [
     ],
   },
   {
-    id: 245,
+    id: 393,
+    word: 'credulous',
+    detail: [
+      {
+        meaning: {
+          en: 'too ready to believe things',
+          zh_TW: '輕信的、易信的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 394,
     word: 'crestfallen',
     detail: [
       {
@@ -3968,7 +6062,7 @@ export default [
     ],
   },
   {
-    id: 246,
+    id: 395,
     word: 'cryptic',
     detail: [
       {
@@ -3983,7 +6077,7 @@ export default [
     ],
   },
   {
-    id: 247,
+    id: 396,
     word: 'crystallize',
     detail: [
       {
@@ -3997,7 +6091,7 @@ export default [
     ],
   },
   {
-    id: 248,
+    id: 397,
     word: 'culminate',
     detail: [
       {
@@ -4011,7 +6105,7 @@ export default [
     ],
   },
   {
-    id: 249,
+    id: 398,
     word: 'culpability',
     detail: [
       {
@@ -4025,13 +6119,27 @@ export default [
     ],
   },
   {
-    id: 250,
+    id: 399,
+    word: 'culprit',
+    detail: [
+      {
+        meaning: {
+          en: 'person who has done sth wrong, offender',
+          zh_TW: '禍端、犯罪者',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 400,
     word: 'cumbersome',
     detail: [
       {
         meaning: {
           en: 'large or heavy and therefore difficult to carry or use; unwieldy',
-          zh_TW: '',
+          zh_TW: '笨重的',
         },
         partsOfSpeech: 'adjective',
         example: 'cumbersome diving suits',
@@ -4039,7 +6147,7 @@ export default [
       {
         meaning: {
           en: 'slow or complicated and therefore inefficient',
-          zh_TW: '',
+          zh_TW: '難處理的',
         },
         partsOfSpeech: 'adjective',
         example: 'organizations with cumbersome hierarchical structures',
@@ -4047,7 +6155,7 @@ export default [
     ],
   },
   {
-    id: 251,
+    id: 401,
     word: 'cupidity',
     detail: [
       {
@@ -4061,7 +6169,7 @@ export default [
     ],
   },
   {
-    id: 252,
+    id: 402,
     word: 'curmudgeon',
     detail: [
       {
@@ -4076,13 +6184,83 @@ export default [
     ],
   },
   {
-    id: 253,
+    id: 403,
+    word: 'cursory',
+    detail: [
+      {
+        meaning: {
+          en: 'done quickly and not thoroughly; (too) hurried',
+          zh_TW: '粗略的、草率的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 404,
+    word: 'curtail',
+    detail: [
+      {
+        meaning: {
+          en: 'make shorter or less, reduce',
+          zh_TW: '縮減、削減',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 405,
+    word: 'cynical',
+    detail: [
+      {
+        meaning: {
+          en: 'of or like a cynic',
+          zh_TW: '憤世忌俗的、自私的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 406,
+    word: 'dabble',
+    detail: [
+      {
+        meaning: {
+          en: 'sth splash (hands, feet, etc) around in water',
+          zh_TW: '涉獵、淺嚐',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 407,
+    word: 'daunting',
+    detail: [
+      {
+        meaning: {
+          en: 'seeming difficult to deal with in anticipation; intimidating',
+          zh_TW: '令人氣餒的、令人畏懼的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 408,
     word: 'dearth',
     detail: [
       {
         meaning: {
           en: 'a scarcity or lack of something',
-          zh_TW: '',
+          zh_TW: '缺乏、不足',
         },
         partsOfSpeech: 'noun',
         example: 'there is a dearth of evidence',
@@ -4090,7 +6268,7 @@ export default [
     ],
   },
   {
-    id: 254,
+    id: 409,
     word: 'debase',
     detail: [
       {
@@ -4112,7 +6290,7 @@ export default [
     ],
   },
   {
-    id: 255,
+    id: 410,
     word: 'debonair',
     detail: [
       {
@@ -4126,13 +6304,13 @@ export default [
     ],
   },
   {
-    id: 256,
+    id: 411,
     word: 'debunk',
     detail: [
       {
         meaning: {
           en: 'expose as false ideas and claims, especially while ridiculing',
-          zh_TW: '',
+          zh_TW: '揭穿、拆去...的假面具',
         },
         partsOfSpeech: 'verb',
         example: 'Richard Dawkins tries to debunk religious belief, but his ridicule tends to push people away from his points rather than convince them.',
@@ -4140,7 +6318,35 @@ export default [
     ],
   },
   {
-    id: 257,
+    id: 412,
+    word: 'deceive',
+    detail: [
+      {
+        meaning: {
+          en: 'sb/oneself make sb believe sth that is not true (so as to make him do sth); deliberately mislead sb',
+          zh_TW: '欺騙 [類] n. deceit 欺騙、詭計',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 413,
+    word: 'decimate',
+    detail: [
+      {
+        meaning: {
+          en: 'kill or destroy a large part of (sth)',
+          zh_TW: '大量毀壞',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 414,
     word: 'decimation',
     detail: [
       {
@@ -4154,13 +6360,27 @@ export default [
     ],
   },
   {
-    id: 258,
+    id: 415,
+    word: 'decipher',
+    detail: [
+      {
+        meaning: {
+          en: 'succeed in understanding',
+          zh_TW: '解開(謎團)、破譯(密碼)',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 416,
     word: 'decorous',
     detail: [
       {
         meaning: {
           en: 'characterized by good taste in manners and conduct',
-          zh_TW: '',
+          zh_TW: '合宜的、高雅的 [反] indecorous 無理的',
         },
         partsOfSpeech: 'adjective',
         example: "Sally's parties are decorous affairs, and instead of the usual beer and music, there is tea and intellectual conversation.",
@@ -4168,13 +6388,13 @@ export default [
     ],
   },
   {
-    id: 259,
+    id: 417,
     word: 'decorum',
     detail: [
       {
         meaning: {
           en: 'behavior in keeping with good taste and propriety',
-          zh_TW: '',
+          zh_TW: '端莊、彬彬有禮、合宜',
         },
         partsOfSpeech: 'noun',
         example: 'you exhibit remarkable modesty and decorum',
@@ -4182,13 +6402,13 @@ export default [
     ],
   },
   {
-    id: 260,
+    id: 418,
     word: 'decry',
     detail: [
       {
         meaning: {
           en: 'publicly denounce',
-          zh_TW: '',
+          zh_TW: '責難、誹謗 [類] denigrate, deprecate [反] acclaim, applaud',
         },
         partsOfSpeech: 'verb',
         example: 'they decried human rights abuses',
@@ -4196,13 +6416,55 @@ export default [
     ],
   },
   {
-    id: 261,
+    id: 419,
+    word: 'deduce',
+    detail: [
+      {
+        meaning: {
+          en: 'sth arrive at (facts, a theory, etc) by reasoning; infer sth',
+          zh_TW: '演繹、推斷',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 420,
+    word: 'deduct',
+    detail: [
+      {
+        meaning: {
+          en: 'sth take away (an amount or a part)',
+          zh_TW: '減除、扣除',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 421,
+    word: 'defamatory',
+    detail: [
+      {
+        meaning: {
+          en: 'intended to defame',
+          zh_TW: '破壞名譽的、誹謗的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 422,
     word: 'deference',
     detail: [
       {
         meaning: {
           en: 'humble submission and respect',
-          zh_TW: '',
+          zh_TW: '尊敬 [類] respect [反] effrontery (厚顏無恥、放肆)',
         },
         partsOfSpeech: 'noun',
         example: 'he addressed her with the deference due to age',
@@ -4210,7 +6472,7 @@ export default [
     ],
   },
   {
-    id: 262,
+    id: 423,
     word: 'deferential',
     detail: [
       {
@@ -4224,7 +6486,21 @@ export default [
     ],
   },
   {
-    id: 263,
+    id: 424,
+    word: 'deflect',
+    detail: [
+      {
+        meaning: {
+          en: '(from sth) (cause sth to) turn from its direction of movement',
+          zh_TW: '使偏斜、使轉向、避開',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 425,
     word: 'defray',
     detail: [
       {
@@ -4238,7 +6514,49 @@ export default [
     ],
   },
   {
-    id: 264,
+    id: 426,
+    word: 'deft',
+    detail: [
+      {
+        meaning: {
+          en: 'skillful and quick, esp with the hands',
+          zh_TW: '靈巧的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 427,
+    word: 'defy',
+    detail: [
+      {
+        meaning: {
+          en: 'disobey or refuse to respect (sb, an authority, etc)',
+          zh_TW: '反抗、違抗、蔑視 [類] a. defiant 挑釁的、目中無人的',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 428,
+    word: 'degenerate',
+    detail: [
+      {
+        meaning: {
+          en: '(into sth) pass into a worse physical, mental or moral state than one which is considered normal or desirable',
+          zh_TW: '惡化、衰退、退化',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 429,
     word: 'degrade',
     detail: [
       {
@@ -4252,7 +6570,7 @@ export default [
     ],
   },
   {
-    id: 265,
+    id: 430,
     word: 'deign',
     detail: [
       {
@@ -4266,7 +6584,7 @@ export default [
     ],
   },
   {
-    id: 266,
+    id: 431,
     word: 'delegate',
     detail: [
       {
@@ -4288,13 +6606,13 @@ export default [
     ],
   },
   {
-    id: 267,
+    id: 432,
     word: 'deleterious',
     detail: [
       {
         meaning: {
           en: 'causing harm or damage',
-          zh_TW: '',
+          zh_TW: '(對身體)有害的、有毒的(要刪除)',
         },
         partsOfSpeech: 'adjective',
         example: 'divorce is assumed to have deleterious effects on children',
@@ -4302,7 +6620,7 @@ export default [
     ],
   },
   {
-    id: 268,
+    id: 433,
     word: 'deliberate',
     detail: [
       {
@@ -4316,13 +6634,13 @@ export default [
     ],
   },
   {
-    id: 269,
+    id: 434,
     word: 'delineate',
     detail: [
       {
         meaning: {
           en: 'describe or portray (something) precisely',
-          zh_TW: '',
+          zh_TW: '描繪、描寫',
         },
         partsOfSpeech: 'verb',
         example: 'the law should delineate and prohibit behavior that is socially abhorrent',
@@ -4330,7 +6648,35 @@ export default [
     ],
   },
   {
-    id: 270,
+    id: 435,
+    word: 'delude',
+    detail: [
+      {
+        meaning: {
+          en: 'sb deliberately mislead sb; deceive sb',
+          zh_TW: '欺騙、哄騙',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 436,
+    word: 'demanding',
+    detail: [
+      {
+        meaning: {
+          en: '(of a person) making others work hard or meet high standards',
+          zh_TW: '嚴格的、要求高的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 437,
     word: 'demean',
     detail: [
       {
@@ -4344,7 +6690,63 @@ export default [
     ],
   },
   {
-    id: 271,
+    id: 438,
+    word: 'demeanor',
+    detail: [
+      {
+        meaning: {
+          en: 'behavior; bearing; behavioral attributes',
+          zh_TW: '舉動、行為、風度',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 439,
+    word: 'demise',
+    detail: [
+      {
+        meaning: {
+          en: 'death',
+          zh_TW: '死亡、財產轉讓',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 440,
+    word: 'demography',
+    detail: [
+      {
+        meaning: {
+          en: 'study of statistics of births, deaths, diseases, etc in order to show the state of a community',
+          zh_TW: '人口統計、人口學',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 441,
+    word: 'demonstrable',
+    detail: [
+      {
+        meaning: {
+          en: 'that can be shown or proved',
+          zh_TW: '可證明的、顯而易見的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 442,
     word: 'demonstrative',
     detail: [
       {
@@ -4366,7 +6768,7 @@ export default [
     ],
   },
   {
-    id: 272,
+    id: 443,
     word: 'demotic',
     detail: [
       {
@@ -4388,13 +6790,13 @@ export default [
     ],
   },
   {
-    id: 273,
+    id: 444,
     word: 'demur',
     detail: [
       {
         meaning: {
           en: 'raise doubts or objections or show reluctance',
-          zh_TW: '',
+          zh_TW: '表示異議、反對',
         },
         partsOfSpeech: 'verb',
         example: 'normally she would have accepted the challenge, but she demurred',
@@ -4402,7 +6804,7 @@ export default [
     ],
   },
   {
-    id: 274,
+    id: 445,
     word: 'demure',
     detail: [
       {
@@ -4424,13 +6826,13 @@ export default [
     ],
   },
   {
-    id: 275,
+    id: 446,
     word: 'denigrate',
     detail: [
       {
         meaning: {
           en: 'charge falsely or with malicious intent; attack the good name and reputation of someone',
-          zh_TW: '',
+          zh_TW: '污衊、誹謗',
         },
         partsOfSpeech: 'verb',
         example: 'Count Rumford denigrated the new theory of heat, demonstrating that it was wholly inadequate to explain the observations.',
@@ -4438,7 +6840,7 @@ export default [
     ],
   },
   {
-    id: 276,
+    id: 447,
     word: 'denote',
     detail: [
       {
@@ -4452,7 +6854,7 @@ export default [
     ],
   },
   {
-    id: 277,
+    id: 448,
     word: 'denouement',
     detail: [
       {
@@ -4466,7 +6868,35 @@ export default [
     ],
   },
   {
-    id: 278,
+    id: 449,
+    word: 'depict',
+    detail: [
+      {
+        meaning: {
+          en: 'show (sb/sth) as a picture; portray',
+          zh_TW: '描繪、描畫',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 450,
+    word: 'deprecate',
+    detail: [
+      {
+        meaning: {
+          en: 'feel and express disapproval of (sth)',
+          zh_TW: '反對、輕視',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 451,
     word: 'derelict',
     detail: [
       {
@@ -4488,13 +6918,13 @@ export default [
     ],
   },
   {
-    id: 279,
+    id: 452,
     word: 'deride',
     detail: [
       {
         meaning: {
           en: 'treat or speak of with contempt',
-          zh_TW: '',
+          zh_TW: '嘲笑、嘲弄',
         },
         partsOfSpeech: 'verb',
         example: 'The nun derided the students for trying to sneak insects and worms into the classroom.',
@@ -4502,7 +6932,7 @@ export default [
     ],
   },
   {
-    id: 280,
+    id: 453,
     word: 'derisive',
     detail: [
       {
@@ -4516,13 +6946,13 @@ export default [
     ],
   },
   {
-    id: 281,
+    id: 454,
     word: 'derivative',
     detail: [
       {
         meaning: {
           en: 'not original but drawing strongly on something already in existence, especially in reference to a creative product (e.g. music, writing, poetry etc.).',
-          zh_TW: '',
+          zh_TW: '非原創的、衍生的',
         },
         partsOfSpeech: 'adjective',
         example: 'Because the movies were utterly derivative of other popular movies, they did well at the box office.',
@@ -4530,7 +6960,7 @@ export default [
     ],
   },
   {
-    id: 282,
+    id: 455,
     word: 'derive',
     detail: [
       {
@@ -4560,7 +6990,7 @@ export default [
     ],
   },
   {
-    id: 283,
+    id: 456,
     word: 'derogatory',
     detail: [
       {
@@ -4574,7 +7004,7 @@ export default [
     ],
   },
   {
-    id: 284,
+    id: 457,
     word: 'desecrate',
     detail: [
       {
@@ -4588,7 +7018,7 @@ export default [
     ],
   },
   {
-    id: 285,
+    id: 458,
     word: 'desiccate',
     detail: [
       {
@@ -4602,7 +7032,7 @@ export default [
     ],
   },
   {
-    id: 286,
+    id: 459,
     word: 'desiccated',
     detail: [
       {
@@ -4624,7 +7054,7 @@ export default [
     ],
   },
   {
-    id: 287,
+    id: 460,
     word: 'desideratum',
     detail: [
       {
@@ -4638,7 +7068,35 @@ export default [
     ],
   },
   {
-    id: 288,
+    id: 461,
+    word: 'desperate',
+    detail: [
+      {
+        meaning: {
+          en: 'feeling or showing great despair and ready to do anything regardless of danger',
+          zh_TW: '情急拼命的、鋌而走險的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 462,
+    word: 'despicable',
+    detail: [
+      {
+        meaning: {
+          en: '(to do sth)deserving to be despised; contemptible',
+          zh_TW: '可鄙的、卑劣的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 463,
     word: 'despot',
     detail: [
       {
@@ -4652,7 +7110,7 @@ export default [
     ],
   },
   {
-    id: 289,
+    id: 464,
     word: 'destitute',
     detail: [
       {
@@ -4666,7 +7124,7 @@ export default [
     ],
   },
   {
-    id: 290,
+    id: 465,
     word: 'desultory',
     detail: [
       {
@@ -4696,7 +7154,21 @@ export default [
     ],
   },
   {
-    id: 291,
+    id: 466,
+    word: 'detached',
+    detail: [
+      {
+        meaning: {
+          en: 'not influenced by others; impartial',
+          zh_TW: '分開的、超然的、不受影響的 [類] v. detach 分開、拆卸',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 467,
     word: 'deter',
     detail: [
       {
@@ -4718,7 +7190,63 @@ export default [
     ],
   },
   {
-    id: 292,
+    id: 468,
+    word: 'deterioration',
+    detail: [
+      {
+        meaning: {
+          en: 'the process of becoming progressively worse',
+          zh_TW: '惡化、變壞',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 469,
+    word: 'deterrent',
+    detail: [
+      {
+        meaning: {
+          en: 'adj. that deters or is meant to deter',
+          zh_TW: '威懾的、遏制的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 470,
+    word: 'detest',
+    detail: [
+      {
+        meaning: {
+          en: 'dislike very much; hate',
+          zh_TW: '厭惡、痛恨',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 471,
+    word: 'detract',
+    detail: [
+      {
+        meaning: {
+          en: 'diminish the worth or value of (a quality or achievement)',
+          zh_TW: '貶低、誹謗',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 472,
     word: 'detrimental',
     detail: [
       {
@@ -4732,7 +7260,7 @@ export default [
     ],
   },
   {
-    id: 293,
+    id: 473,
     word: 'deviate',
     detail: [
       {
@@ -4746,7 +7274,35 @@ export default [
     ],
   },
   {
-    id: 294,
+    id: 474,
+    word: 'devious',
+    detail: [
+      {
+        meaning: {
+          en: 'cunning; dishonest',
+          zh_TW: '狡猾的、不正直的、彎曲的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 475,
+    word: 'devoid',
+    detail: [
+      {
+        meaning: {
+          en: 'of sth without sth; completely lacking in sth',
+          zh_TW: '缺乏的、沒有的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 476,
     word: 'devolve',
     detail: [
       {
@@ -4760,7 +7316,21 @@ export default [
     ],
   },
   {
-    id: 295,
+    id: 477,
+    word: 'dexterous',
+    detail: [
+      {
+        meaning: {
+          en: "skillful with one's hands",
+          zh_TW: '靈巧的、熟練的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 478,
     word: 'diabolical',
     detail: [
       {
@@ -4774,7 +7344,7 @@ export default [
     ],
   },
   {
-    id: 296,
+    id: 479,
     word: 'diatribe',
     detail: [
       {
@@ -4789,13 +7359,13 @@ export default [
     ],
   },
   {
-    id: 297,
+    id: 480,
     word: 'dichotomy',
     detail: [
       {
         meaning: {
           en: 'a division or contrast between two things that are or are represented as being opposed or entirely different',
-          zh_TW: '',
+          zh_TW: '分裂、二分法',
         },
         partsOfSpeech: 'noun',
         example: 'a rigid dichotomy between science and mysticism',
@@ -4811,7 +7381,21 @@ export default [
     ],
   },
   {
-    id: 298,
+    id: 481,
+    word: 'dictate',
+    detail: [
+      {
+        meaning: {
+          en: '(to sb) say or read aloud (words to be typed, written down or recorded on tape)',
+          zh_TW: '口述、命令',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 482,
     word: 'dictatorial',
     detail: [
       {
@@ -4825,13 +7409,13 @@ export default [
     ],
   },
   {
-    id: 299,
+    id: 483,
     word: 'didactic',
     detail: [
       {
         meaning: {
           en: 'in the manner of a teacher, particularly so as to treat someone in a patronizing way',
-          zh_TW: '',
+          zh_TW: '說教的、教導的',
         },
         partsOfSpeech: 'adjective',
         example: 'slow-paced, didactic lecturing',
@@ -4839,7 +7423,7 @@ export default [
     ],
   },
   {
-    id: 300,
+    id: 484,
     word: 'differentiate',
     detail: [
       {
@@ -4853,7 +7437,7 @@ export default [
     ],
   },
   {
-    id: 301,
+    id: 485,
     word: 'diffidence',
     detail: [
       {
@@ -4867,13 +7451,13 @@ export default [
     ],
   },
   {
-    id: 302,
+    id: 486,
     word: 'diffident',
     detail: [
       {
         meaning: {
           en: 'modest or shy because of a lack of self-confidence',
-          zh_TW: '',
+          zh_TW: '缺乏自信的、懦怯的、羞怯的',
         },
         partsOfSpeech: 'adjective',
         example: 'a diffident youth',
@@ -4881,13 +7465,13 @@ export default [
     ],
   },
   {
-    id: 303,
+    id: 487,
     word: 'diffuse',
     detail: [
       {
         meaning: {
           en: 'spread or cause to spread over a wide area or among a large number of people',
-          zh_TW: '',
+          zh_TW: '四散、擴散、雜亂的',
         },
         partsOfSpeech: 'verb',
         example: 'technologies diffuse rapidly',
@@ -4927,7 +7511,7 @@ export default [
     ],
   },
   {
-    id: 304,
+    id: 488,
     word: 'dilapidated',
     detail: [
       {
@@ -4941,7 +7525,7 @@ export default [
     ],
   },
   {
-    id: 305,
+    id: 489,
     word: 'dilatory',
     detail: [
       {
@@ -4955,7 +7539,21 @@ export default [
     ],
   },
   {
-    id: 306,
+    id: 490,
+    word: 'dilemma',
+    detail: [
+      {
+        meaning: {
+          en: 'situation in which one has to choose between two undesirable things or courses of action',
+          zh_TW: '兩難、困境',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 491,
     word: 'dilettante',
     detail: [
       {
@@ -4969,7 +7567,7 @@ export default [
     ],
   },
   {
-    id: 307,
+    id: 492,
     word: 'diligent',
     detail: [
       {
@@ -4983,7 +7581,21 @@ export default [
     ],
   },
   {
-    id: 308,
+    id: 493,
+    word: 'dilute',
+    detail: [
+      {
+        meaning: {
+          en: 'sth make (a liquid or color) thinner or weaker (by adding water or another liquid)',
+          zh_TW: '弄稀、弄淡',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 494,
     word: 'diminutive',
     detail: [
       {
@@ -4997,7 +7609,7 @@ export default [
     ],
   },
   {
-    id: 309,
+    id: 495,
     word: 'disabuse',
     detail: [
       {
@@ -5012,7 +7624,7 @@ export default [
     ],
   },
   {
-    id: 310,
+    id: 496,
     word: 'disaffected',
     detail: [
       {
@@ -5026,7 +7638,49 @@ export default [
     ],
   },
   {
-    id: 311,
+    id: 497,
+    word: 'discern',
+    detail: [
+      {
+        meaning: {
+          en: 'see clearly (with the senses or the mind), esp with an effort',
+          zh_TW: '(費力地)識別、看出',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 498,
+    word: 'discomfit',
+    detail: [
+      {
+        meaning: {
+          en: 'confuse or embarrass (sb)',
+          zh_TW: '使窘迫、使尷尬',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 499,
+    word: 'discontinuity',
+    detail: [
+      {
+        meaning: {
+          en: 'a distinct break in physical continuity or sequence in time',
+          zh_TW: '不連續性、不一致',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 500,
     word: 'discord',
     detail: [
       {
@@ -5040,7 +7694,7 @@ export default [
     ],
   },
   {
-    id: 312,
+    id: 501,
     word: 'discordant',
     detail: [
       {
@@ -5070,13 +7724,41 @@ export default [
     ],
   },
   {
-    id: 313,
+    id: 502,
+    word: 'discourse',
+    detail: [
+      {
+        meaning: {
+          en: 'lengthy and serious treatment of a subject in speech or writing',
+          zh_TW: '演講、論述',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 503,
+    word: 'discredit',
+    detail: [
+      {
+        meaning: {
+          en: 'damage the good reputation of',
+          zh_TW: '使丟臉、敗壞...的名聲',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 504,
     word: 'discreet',
     detail: [
       {
         meaning: {
           en: "careful and circumspect in one's speech or actions, especially in order to avoid causing offense or to gain an advantage",
-          zh_TW: '',
+          zh_TW: '謹慎地、慎重的、考慮周到的',
         },
         partsOfSpeech: 'adjective',
         example: 'we made some discreet inquiries',
@@ -5092,13 +7774,13 @@ export default [
     ],
   },
   {
-    id: 314,
+    id: 505,
     word: 'discrepancy',
     detail: [
       {
         meaning: {
           en: 'a lack of compatibility or similarity between two or more facts',
-          zh_TW: '',
+          zh_TW: '不同、矛盾',
         },
         partsOfSpeech: 'noun',
         example: "there's a discrepancy between your account and his",
@@ -5106,13 +7788,13 @@ export default [
     ],
   },
   {
-    id: 315,
+    id: 506,
     word: 'discrete',
     detail: [
       {
         meaning: {
           en: 'constituting a separate entity or part',
-          zh_TW: '',
+          zh_TW: '個別的、不連續的',
         },
         partsOfSpeech: 'adjective',
         example: 'What was once known as Czechoslovakia has since split into two discrete, independent nations.',
@@ -5120,7 +7802,21 @@ export default [
     ],
   },
   {
-    id: 316,
+    id: 507,
+    word: 'discretion',
+    detail: [
+      {
+        meaning: {
+          en: 'quality of being discreet, good judgement',
+          zh_TW: '謹慎、斟酌',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 508,
     word: 'discriminate',
     detail: [
       {
@@ -5134,13 +7830,13 @@ export default [
     ],
   },
   {
-    id: 317,
+    id: 509,
     word: 'discursive',
     detail: [
       {
         meaning: {
           en: '(of e.g. speech and writing) tending to depart from the main point',
-          zh_TW: '',
+          zh_TW: '散漫的、無層次的、東拉西扯的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -5149,7 +7845,21 @@ export default [
     ],
   },
   {
-    id: 318,
+    id: 510,
+    word: 'disdain',
+    detail: [
+      {
+        meaning: {
+          en: "feeling that sb/sth is not good enough to deserve one's respect; contempt",
+          zh_TW: '輕蔑、鄙視 [類] scorn, despise, spurnF [反] respect, admire, praise',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 511,
     word: 'disenfranchise',
     detail: [
       {
@@ -5171,7 +7881,7 @@ export default [
     ],
   },
   {
-    id: 319,
+    id: 512,
     word: 'disheartened',
     detail: [
       {
@@ -5185,13 +7895,41 @@ export default [
     ],
   },
   {
-    id: 320,
+    id: 513,
+    word: 'disillusioned',
+    detail: [
+      {
+        meaning: {
+          en: 'disappointed in someone or something that one discovers to be less good than one had believed',
+          zh_TW: '幻想破滅的、醒悟的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 514,
+    word: 'disinclination',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) unwillingness; reluctance',
+          zh_TW: '不情願、不願意 [反] inclination 傾向、意願',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 515,
     word: 'disingenuous',
     detail: [
       {
         meaning: {
           en: 'not straightforward; giving a false appearance of frankness',
-          zh_TW: '',
+          zh_TW: '不誠實的、虛偽的',
         },
         partsOfSpeech: 'adjective',
         example: 'Many adults think that they can lie to children, but kids are smart and know when people are disingenuous.',
@@ -5199,13 +7937,13 @@ export default [
     ],
   },
   {
-    id: 321,
+    id: 516,
     word: 'disinterested',
     detail: [
       {
         meaning: {
           en: 'unbiased; neutral',
-          zh_TW: '',
+          zh_TW: '無私的 [類] impartial [反] prejudiced, factional',
         },
         partsOfSpeech: 'adjective',
         example: 'The potential juror knew the defendant, and therefore could not serve on the jury, which must consist only of disinterested members.',
@@ -5213,13 +7951,27 @@ export default [
     ],
   },
   {
-    id: 322,
+    id: 517,
+    word: 'disjunctive',
+    detail: [
+      {
+        meaning: {
+          en: '(of a conjunction) showing opposition or contrast between tow ideas (db either ... or), either... or',
+          zh_TW: '分離的、相反的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 518,
     word: 'dismiss',
     detail: [
       {
         meaning: {
           en: 'order or allow to leave; send away',
-          zh_TW: '',
+          zh_TW: '讓...離開、把...打發走',
         },
         partsOfSpeech: 'verb',
         example: 'she dismissed the taxi at the corner of the road',
@@ -5259,13 +8011,13 @@ export default [
     ],
   },
   {
-    id: 323,
+    id: 519,
     word: 'disparage',
     detail: [
       {
         meaning: {
           en: 'regard or represent as being of little worth',
-          zh_TW: '',
+          zh_TW: '貶抑、輕蔑 [類] slight',
         },
         partsOfSpeech: 'verb',
         example: 'he never missed an opportunity to disparage his competitors',
@@ -5273,13 +8025,13 @@ export default [
     ],
   },
   {
-    id: 324,
+    id: 520,
     word: 'disparate',
     detail: [
       {
         meaning: {
           en: 'two things are fundamentally different',
-          zh_TW: '',
+          zh_TW: '不同的、異類的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -5288,13 +8040,13 @@ export default [
     ],
   },
   {
-    id: 325,
+    id: 521,
     word: 'dispassionate',
     detail: [
       {
         meaning: {
           en: 'not influenced by strong emotion, and so able to be rational and impartial',
-          zh_TW: '',
+          zh_TW: '不被感情所動的、冷靜的',
         },
         partsOfSpeech: 'noun',
         example: "she dealt with life's disasters in a calm, dispassionate way",
@@ -5302,7 +8054,7 @@ export default [
     ],
   },
   {
-    id: 326,
+    id: 522,
     word: 'dispatch',
     detail: [
       {
@@ -5316,7 +8068,21 @@ export default [
     ],
   },
   {
-    id: 327,
+    id: 523,
+    word: 'dispel',
+    detail: [
+      {
+        meaning: {
+          en: 'drive (sth) away; cause to vanish',
+          zh_TW: '驅散、消除',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 524,
     word: 'dispensation',
     detail: [
       {
@@ -5338,13 +8104,55 @@ export default [
     ],
   },
   {
-    id: 328,
+    id: 525,
+    word: 'disperse',
+    detail: [
+      {
+        meaning: {
+          en: 'go in different directions; scatter; break up',
+          zh_TW: '消散、驅散',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 526,
+    word: 'disproportionate',
+    detail: [
+      {
+        meaning: {
+          en: 'too large or too small in comparison with something else',
+          zh_TW: '不成比例的、不相稱的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 527,
+    word: 'disrupt',
+    detail: [
+      {
+        meaning: {
+          en: 'cause disorder in',
+          zh_TW: '使分裂、使瓦解',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 528,
     word: 'dissemble',
     detail: [
       {
         meaning: {
           en: "conceal one's true motives, usually through deceit",
-          zh_TW: '',
+          zh_TW: '掩飾、假裝',
         },
         partsOfSpeech: 'verb',
         example:
@@ -5353,13 +8161,13 @@ export default [
     ],
   },
   {
-    id: 329,
+    id: 529,
     word: 'disseminate',
     detail: [
       {
         meaning: {
           en: 'cause to become widely known',
-          zh_TW: '',
+          zh_TW: '散步、傳播',
         },
         partsOfSpeech: 'verb',
         example: 'Before the effects of anesthesia were disseminated, patients had to experience the full pain of a surgery.',
@@ -5367,13 +8175,13 @@ export default [
     ],
   },
   {
-    id: 330,
+    id: 530,
     word: 'dissipate',
     detail: [
       {
         meaning: {
           en: 'squander or spend money frivolously',
-          zh_TW: '',
+          zh_TW: '使驅散、浪費',
         },
         partsOfSpeech: 'verb',
         example: 'The recent graduates dissipated their earnings on trips to Las Vegas and cruises in Mexico.',
@@ -5381,7 +8189,7 @@ export default [
     ],
   },
   {
-    id: 331,
+    id: 531,
     word: 'dissolution',
     detail: [
       {
@@ -5395,7 +8203,7 @@ export default [
     ],
   },
   {
-    id: 332,
+    id: 532,
     word: 'dissonance',
     detail: [
       {
@@ -5417,13 +8225,69 @@ export default [
     ],
   },
   {
-    id: 333,
+    id: 533,
+    word: 'dissonant',
+    detail: [
+      {
+        meaning: {
+          en: 'not harmonious; discordant',
+          zh_TW: '不和諧的、不一致的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 534,
+    word: 'distortion',
+    detail: [
+      {
+        meaning: {
+          en: 'distorting or being distorted',
+          zh_TW: '扭曲、曲解',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 535,
+    word: 'divergent',
+    detail: [
+      {
+        meaning: {
+          en: 'tending to be different or develop in different directions',
+          zh_TW: '分歧的、相異的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 536,
+    word: 'divergent',
+    detail: [
+      {
+        meaning: {
+          en: 'tending to be different or develop in different directions',
+          zh_TW: '分歧的、相異的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 537,
     word: 'docile',
     detail: [
       {
         meaning: {
           en: 'ready to accept control or instruction; submissive',
-          zh_TW: '',
+          zh_TW: '馴服的、易駕馭的',
         },
         partsOfSpeech: 'adjective',
         example: 'a cheap and docile workforce',
@@ -5431,13 +8295,13 @@ export default [
     ],
   },
   {
-    id: 334,
+    id: 538,
     word: 'doctrinaire',
     detail: [
       {
         meaning: {
           en: 'seeking to impose a doctrine in all circumstances without regard to practical considerations',
-          zh_TW: '',
+          zh_TW: '教條的、迂腐的',
         },
         partsOfSpeech: 'adjective',
         example: 'a doctrinaire economic policy',
@@ -5453,7 +8317,7 @@ export default [
     ],
   },
   {
-    id: 335,
+    id: 539,
     word: 'dogmatic',
     detail: [
       {
@@ -5467,7 +8331,21 @@ export default [
     ],
   },
   {
-    id: 336,
+    id: 540,
+    word: 'dogmatism',
+    detail: [
+      {
+        meaning: {
+          en: '(quality of) being dogmatic',
+          zh_TW: '教條主義',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 541,
     word: 'doleful',
     detail: [
       {
@@ -5482,7 +8360,7 @@ export default [
     ],
   },
   {
-    id: 337,
+    id: 542,
     word: 'dolorous',
     detail: [
       {
@@ -5496,7 +8374,21 @@ export default [
     ],
   },
   {
-    id: 338,
+    id: 543,
+    word: 'dormant',
+    detail: [
+      {
+        meaning: {
+          en: 'temporarily inactive',
+          zh_TW: '休眠的、靜止的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 544,
     word: 'doughty',
     detail: [
       {
@@ -5510,7 +8402,7 @@ export default [
     ],
   },
   {
-    id: 339,
+    id: 545,
     word: 'dovetail',
     detail: [
       {
@@ -5524,7 +8416,35 @@ export default [
     ],
   },
   {
-    id: 340,
+    id: 546,
+    word: 'downplay',
+    detail: [
+      {
+        meaning: {
+          en: 'debase; lower',
+          zh_TW: '將...輕描淡寫',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 547,
+    word: 'dubious',
+    detail: [
+      {
+        meaning: {
+          en: 'not certain and slightly suspicious about sth; doubtful',
+          zh_TW: '懷疑的、不確定的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 548,
     word: 'dupe',
     detail: [
       {
@@ -5546,13 +8466,41 @@ export default [
     ],
   },
   {
-    id: 341,
+    id: 549,
+    word: 'duplicate',
+    detail: [
+      {
+        meaning: {
+          en: 'exactly like something else; identical',
+          zh_TW: '完全一樣的、複製的、副本的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 550,
+    word: 'duplicitous',
+    detail: [
+      {
+        meaning: {
+          en: 'deceitful',
+          zh_TW: '搞兩面派的、奸詐的 [duplicity:] duplicitous adjective',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 551,
     word: 'duplicity',
     detail: [
       {
         meaning: {
           en: 'deceitfulness, pretending to want one thing but interested in something else',
-          zh_TW: '',
+          zh_TW: '欺騙行為、奸詐行徑',
         },
         partsOfSpeech: 'noun',
         example: 'A life of espionage is one of duplicity: an agent must pretend to be a totally different person than who she or he actually is.',
@@ -5560,7 +8508,7 @@ export default [
     ],
   },
   {
-    id: 342,
+    id: 552,
     word: 'duress',
     detail: [
       {
@@ -5574,7 +8522,7 @@ export default [
     ],
   },
   {
-    id: 343,
+    id: 553,
     word: 'dwindle',
     detail: [
       {
@@ -5588,7 +8536,21 @@ export default [
     ],
   },
   {
-    id: 344,
+    id: 554,
+    word: 'ebb',
+    detail: [
+      {
+        meaning: {
+          en: '(of the tide) go out; recede',
+          zh_TW: '退潮、衰退',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 555,
     word: 'ebullient',
     detail: [
       {
@@ -5602,13 +8564,13 @@ export default [
     ],
   },
   {
-    id: 345,
+    id: 556,
     word: 'eccentric',
     detail: [
       {
         meaning: {
           en: '(of a person or their behavior) unconventional and slightly strange',
-          zh_TW: '',
+          zh_TW: '古怪的、反常的',
         },
         partsOfSpeech: 'adjective',
         example: 'my favorite aunt is very eccentric',
@@ -5624,13 +8586,13 @@ export default [
     ],
   },
   {
-    id: 346,
+    id: 557,
     word: 'eclectic',
     detail: [
       {
         meaning: {
           en: 'comprised of a variety of styles',
-          zh_TW: '',
+          zh_TW: '折衷的、綜合性的',
         },
         partsOfSpeech: 'adjective',
         example: 'Joey was known for his eclectic tastes in music, one moment dancing to disco the next "air conducting" along to Beethoven\'s 9th symphony.',
@@ -5638,7 +8600,21 @@ export default [
     ],
   },
   {
-    id: 347,
+    id: 558,
+    word: 'eclipse',
+    detail: [
+      {
+        meaning: {
+          en: "blocking of the light of the sun or of the moon ( where the earth's shadow falls on it)",
+          zh_TW: '日蝕、月蝕、黯然失色、衰退',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 559,
     word: 'economical',
     detail: [
       {
@@ -5652,13 +8628,27 @@ export default [
     ],
   },
   {
-    id: 348,
+    id: 560,
+    word: 'ecstatic',
+    detail: [
+      {
+        meaning: {
+          en: 'causing or showing ecstasy',
+          zh_TW: '狂喜的、心花怒放的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 561,
     word: 'edify',
     detail: [
       {
         meaning: {
           en: 'instruct or improve (someone) morally or intellectually',
-          zh_TW: '',
+          zh_TW: '教化、訓誨 [類] didactic (教化的)',
         },
         partsOfSpeech: 'verb',
         example: 'Rachel had edified their childhood with frequent readings from Belloc',
@@ -5666,7 +8656,7 @@ export default [
     ],
   },
   {
-    id: 349,
+    id: 562,
     word: 'edifying',
     detail: [
       {
@@ -5680,7 +8670,7 @@ export default [
     ],
   },
   {
-    id: 350,
+    id: 563,
     word: 'effervescent',
     detail: [
       {
@@ -5694,7 +8684,7 @@ export default [
     ],
   },
   {
-    id: 351,
+    id: 564,
     word: 'effete',
     detail: [
       {
@@ -5716,13 +8706,13 @@ export default [
     ],
   },
   {
-    id: 352,
+    id: 565,
     word: 'efficacious',
     detail: [
       {
         meaning: {
           en: '(of something inanimate or abstract) successful in producing a desired or intended result; effective',
-          zh_TW: '',
+          zh_TW: '有效的、靈驗的',
         },
         partsOfSpeech: 'adjective',
         example: 'the vaccine has proved both efficacious and safe',
@@ -5730,7 +8720,7 @@ export default [
     ],
   },
   {
-    id: 353,
+    id: 566,
     word: 'efficacy',
     detail: [
       {
@@ -5744,13 +8734,13 @@ export default [
     ],
   },
   {
-    id: 354,
+    id: 567,
     word: 'effrontery',
     detail: [
       {
         meaning: {
           en: 'insolent or impertinent behavior',
-          zh_TW: '',
+          zh_TW: '厚顏無恥、魯莽',
         },
         partsOfSpeech: 'noun',
         example: "one juror had the effrontery to challenge the coroner's decision",
@@ -5758,7 +8748,35 @@ export default [
     ],
   },
   {
-    id: 355,
+    id: 568,
+    word: 'effusive',
+    detail: [
+      {
+        meaning: {
+          en: 'showing (too much) feeling; too emotional',
+          zh_TW: '熱情的、感情洋溢的 [類] gushy [反] reticent(沈默的)',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 569,
+    word: 'egalitarian',
+    detail: [
+      {
+        meaning: {
+          en: 'adj showing or holding a belief in equal rights, benefits, and opportunities for everybody',
+          zh_TW: '主張人人平等的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 570,
     word: 'egotist',
     detail: [
       {
@@ -5772,13 +8790,13 @@ export default [
     ],
   },
   {
-    id: 356,
+    id: 571,
     word: 'egregious',
     detail: [
       {
         meaning: {
           en: 'outstandingly bad; shocking',
-          zh_TW: '',
+          zh_TW: '惡劣的 [類] flagrant',
         },
         partsOfSpeech: 'adjective',
         example: 'egregious abuses of copyright',
@@ -5786,7 +8804,7 @@ export default [
     ],
   },
   {
-    id: 357,
+    id: 572,
     word: 'eke',
     detail: [
       {
@@ -5800,7 +8818,7 @@ export default [
     ],
   },
   {
-    id: 358,
+    id: 573,
     word: 'elaborate',
     detail: [
       {
@@ -5822,7 +8840,7 @@ export default [
     ],
   },
   {
-    id: 359,
+    id: 574,
     word: 'elegiac',
     detail: [
       {
@@ -5836,7 +8854,7 @@ export default [
     ],
   },
   {
-    id: 360,
+    id: 575,
     word: 'elegy',
     detail: [
       {
@@ -5858,13 +8876,13 @@ export default [
     ],
   },
   {
-    id: 361,
+    id: 576,
     word: 'elicit',
     detail: [
       {
         meaning: {
           en: "evoke or draw out (a response, answer, or fact) from someone in reaction to one's own actions or questions",
-          zh_TW: '',
+          zh_TW: '引出、誘出、試探出（尤指資訊/反應）',
         },
         partsOfSpeech: 'verb',
         example: 'they invariably elicit exclamations of approval from guests',
@@ -5872,13 +8890,27 @@ export default [
     ],
   },
   {
-    id: 362,
+    id: 577,
+    word: 'eloquence',
+    detail: [
+      {
+        meaning: {
+          en: 'expressive language, esp to impress or persuade an audience',
+          zh_TW: '雄辯、口才',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 578,
     word: 'elucidate',
     detail: [
       {
         meaning: {
           en: 'make (something) clear; explain',
-          zh_TW: '',
+          zh_TW: '闡明、說明',
         },
         partsOfSpeech: 'verb',
         example: 'work such as theirs will help to elucidate this matter',
@@ -5886,13 +8918,13 @@ export default [
     ],
   },
   {
-    id: 363,
+    id: 579,
     word: 'elude',
     detail: [
       {
         meaning: {
           en: 'escape understanding',
-          zh_TW: '',
+          zh_TW: '逃避、躲避',
         },
         partsOfSpeech: 'verb',
         example:
@@ -5901,7 +8933,7 @@ export default [
     ],
   },
   {
-    id: 364,
+    id: 580,
     word: 'elusive',
     detail: [
       {
@@ -5915,13 +8947,27 @@ export default [
     ],
   },
   {
-    id: 365,
+    id: 581,
+    word: 'emanate',
+    detail: [
+      {
+        meaning: {
+          en: 'from sth/sb come or flow from sth/sb',
+          zh_TW: '散發、發出',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 582,
     word: 'embellish',
     detail: [
       {
         meaning: {
           en: 'make more attractive by adding ornament, colour, etc.; make more beautiful',
-          zh_TW: '',
+          zh_TW: '美化、裝飾',
         },
         partsOfSpeech: 'verb',
         example: 'McCartney would write relatively straightforward lyrics, and Lennon would embellish them with puns and poetic images.',
@@ -5929,7 +8975,21 @@ export default [
     ],
   },
   {
-    id: 366,
+    id: 583,
+    word: 'embody',
+    detail: [
+      {
+        meaning: {
+          en: 'sth (in sth) (fml) express or give visible form to (ideas, feelings, etc)',
+          zh_TW: '具體實現、體現',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 584,
     word: 'embroiled',
     detail: [
       {
@@ -5943,7 +9003,7 @@ export default [
     ],
   },
   {
-    id: 367,
+    id: 585,
     word: 'embryonic',
     detail: [
       {
@@ -5965,7 +9025,35 @@ export default [
     ],
   },
   {
-    id: 368,
+    id: 586,
+    word: 'emend',
+    detail: [
+      {
+        meaning: {
+          en: 'remove errors from',
+          zh_TW: '校訂、修改',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 587,
+    word: 'eminence',
+    detail: [
+      {
+        meaning: {
+          en: 'state of being famous or distinguished',
+          zh_TW: '卓越、顯赫、著名',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 588,
     word: 'eminent',
     detail: [
       {
@@ -5979,7 +9067,7 @@ export default [
     ],
   },
   {
-    id: 369,
+    id: 589,
     word: 'empathetic',
     detail: [
       {
@@ -5993,7 +9081,21 @@ export default [
     ],
   },
   {
-    id: 370,
+    id: 590,
+    word: 'empathy',
+    detail: [
+      {
+        meaning: {
+          en: "ability to imagine and share another person's feelings, experience, etc",
+          zh_TW: '同理',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 591,
     word: 'empirical',
     detail: [
       {
@@ -6007,13 +9109,13 @@ export default [
     ],
   },
   {
-    id: 371,
+    id: 592,
     word: 'empiricism',
     detail: [
       {
         meaning: {
           en: 'the theory that all knowledge is derived from sense-experience. Stimulated by the rise of experimental science',
-          zh_TW: '',
+          zh_TW: '經驗主義、經驗論',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -6021,13 +9123,13 @@ export default [
     ],
   },
   {
-    id: 372,
+    id: 593,
     word: 'emulate',
     detail: [
       {
         meaning: {
           en: 'match or surpass (a person or achievement), typically by imitation',
-          zh_TW: '',
+          zh_TW: '效法',
         },
         partsOfSpeech: 'verb',
         example: 'lesser men trying to emulate his greatness',
@@ -6035,7 +9137,7 @@ export default [
       {
         meaning: {
           en: 'imitate',
-          zh_TW: '',
+          zh_TW: '模仿',
         },
         partsOfSpeech: 'verb',
         example: 'hers is not a hairstyle I wish to emulate',
@@ -6043,13 +9145,13 @@ export default [
     ],
   },
   {
-    id: 373,
+    id: 594,
     word: 'enamored',
     detail: [
       {
         meaning: {
           en: 'be filled with a feeling of love for',
-          zh_TW: '',
+          zh_TW: '迷戀的',
         },
         partsOfSpeech: 'verb',
         example: 'it is not difficult to see why Edward is enamored of her',
@@ -6057,13 +9159,41 @@ export default [
     ],
   },
   {
-    id: 374,
+    id: 595,
+    word: 'encapsulation',
+    detail: [
+      {
+        meaning: {
+          en: 'the action of enclosing something in or as if in a capsule',
+          zh_TW: '概括',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 596,
+    word: 'encomium',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) very high praise in speech or writing',
+          zh_TW: '誇獎、讚揚 [類] eulogy, panegyric(頌揚的) [反] diatribe(惡罵、誹謗)',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 597,
     word: 'encumber',
     detail: [
       {
         meaning: {
           en: 'restrict or burden (someone or something) in such a way that free action or movement is difficult',
-          zh_TW: '',
+          zh_TW: '妨礙、拖累',
         },
         partsOfSpeech: 'verb',
         example: 'she was encumbered by her heavy skirts',
@@ -6071,13 +9201,13 @@ export default [
     ],
   },
   {
-    id: 375,
+    id: 598,
     word: 'endemic',
     detail: [
       {
         meaning: {
           en: '(of a disease) regularly occurring within an area or community',
-          zh_TW: '',
+          zh_TW: '(疾病等)地方性的、當地的',
         },
         partsOfSpeech: 'adjective',
         example: 'areas where malaria is endemic',
@@ -6101,13 +9231,41 @@ export default [
     ],
   },
   {
-    id: 376,
+    id: 599,
+    word: 'endorse',
+    detail: [
+      {
+        meaning: {
+          en: "write one's name on the back of",
+          zh_TW: '背書(在支票背面簽名)、贊同',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 600,
+    word: 'endure',
+    detail: [
+      {
+        meaning: {
+          en: 'suffer or undergo patiently',
+          zh_TW: '忍受、忍耐',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 601,
     word: 'enervate',
     detail: [
       {
         meaning: {
           en: 'cause (someone) to feel drained of energy or vitality; weaken',
-          zh_TW: '',
+          zh_TW: '使衰弱',
         },
         partsOfSpeech: 'verb',
         example: 'the heat enervated us all',
@@ -6115,7 +9273,7 @@ export default [
       {
         meaning: {
           en: 'lacking in energy or vitality',
-          zh_TW: '',
+          zh_TW: '使失去活力',
         },
         partsOfSpeech: 'adjective',
         example: 'the enervate slightness of his frail form',
@@ -6123,13 +9281,27 @@ export default [
     ],
   },
   {
-    id: 377,
+    id: 602,
+    word: 'enfetter',
+    detail: [
+      {
+        meaning: {
+          en: 'restrain (someone) as if with shackles',
+          zh_TW: '束縛、上腳鐐',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 603,
     word: 'engender',
     detail: [
       {
         meaning: {
           en: 'cause or give rise to (a feeling, situation, or condition)',
-          zh_TW: '',
+          zh_TW: '使產生、引起',
         },
         partsOfSpeech: 'verb',
         example: 'the issue engendered continuing controversy',
@@ -6137,7 +9309,21 @@ export default [
     ],
   },
   {
-    id: 378,
+    id: 604,
+    word: 'enigma',
+    detail: [
+      {
+        meaning: {
+          en: 'question, person, thing, circumstance, etc that is difficult to understand; mystery',
+          zh_TW: '難以理解的事物、謎 [類] conundrum',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 605,
     word: 'enjoin',
     detail: [
       {
@@ -6151,7 +9337,7 @@ export default [
     ],
   },
   {
-    id: 379,
+    id: 606,
     word: 'enmity',
     detail: [
       {
@@ -6165,7 +9351,7 @@ export default [
     ],
   },
   {
-    id: 380,
+    id: 607,
     word: 'enormity',
     detail: [
       {
@@ -6179,7 +9365,7 @@ export default [
     ],
   },
   {
-    id: 381,
+    id: 608,
     word: 'enthrall',
     detail: [
       {
@@ -6193,13 +9379,13 @@ export default [
     ],
   },
   {
-    id: 382,
+    id: 609,
     word: 'entice',
     detail: [
       {
         meaning: {
           en: 'get someone to do something through (often false or exaggerated) promises',
-          zh_TW: '',
+          zh_TW: '引誘',
         },
         partsOfSpeech: 'verb',
         example: 'Harold enticed his wife, Maude, to go on a vacation to Hawaii, with promises of luaus on the beach and all-you-can-eat seafood buffets.',
@@ -6207,7 +9393,7 @@ export default [
     ],
   },
   {
-    id: 383,
+    id: 610,
     word: 'entrenched',
     detail: [
       {
@@ -6221,7 +9407,7 @@ export default [
     ],
   },
   {
-    id: 384,
+    id: 611,
     word: 'enumerate',
     detail: [
       {
@@ -6235,13 +9421,27 @@ export default [
     ],
   },
   {
-    id: 385,
+    id: 612,
+    word: 'envision',
+    detail: [
+      {
+        meaning: {
+          en: 'to picture to oneself',
+          zh_TW: '想像、預想',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 613,
     word: 'ephemeral',
     detail: [
       {
         meaning: {
           en: 'lasting for a very short time',
-          zh_TW: '',
+          zh_TW: '朝生暮死的、生命短暫的 [類] transitory, transient',
         },
         partsOfSpeech: 'adjective',
         example: 'fashions are ephemeral',
@@ -6257,7 +9457,7 @@ export default [
     ],
   },
   {
-    id: 386,
+    id: 614,
     word: 'epigram',
     detail: [
       {
@@ -6271,7 +9471,7 @@ export default [
     ],
   },
   {
-    id: 387,
+    id: 615,
     word: 'epiphany',
     detail: [
       {
@@ -6301,7 +9501,21 @@ export default [
     ],
   },
   {
-    id: 388,
+    id: 616,
+    word: 'epitome',
+    detail: [
+      {
+        meaning: {
+          en: 'thing that shows on a small scale all the characteristics of sth much larger',
+          zh_TW: '典型、摘要',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 617,
     word: 'eponym',
     detail: [
       {
@@ -6315,7 +9529,35 @@ export default [
     ],
   },
   {
-    id: 389,
+    id: 618,
+    word: 'equanimity',
+    detail: [
+      {
+        meaning: {
+          en: 'calmness of mind or temper',
+          zh_TW: '鎮定、沉著 [類]composure, calm, tranquility, imperturbability, aplomb [反]anxiety',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 619,
+    word: 'equilibrium',
+    detail: [
+      {
+        meaning: {
+          en: 'state of being balanced',
+          zh_TW: '平衡',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 620,
     word: 'equitable',
     detail: [
       {
@@ -6337,13 +9579,27 @@ export default [
     ],
   },
   {
-    id: 390,
+    id: 621,
+    word: 'equivalent',
+    detail: [
+      {
+        meaning: {
+          en: 'equal in value, amount, meaning, importance, etc',
+          zh_TW: '相等的、等值的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 622,
     word: 'equivocal',
     detail: [
       {
         meaning: {
           en: 'open to more than one interpretation; ambiguous',
-          zh_TW: '',
+          zh_TW: '模稜兩可的、不明確的',
         },
         partsOfSpeech: 'adjective',
         example: 'the equivocal nature of her remarks',
@@ -6359,7 +9615,7 @@ export default [
     ],
   },
   {
-    id: 391,
+    id: 623,
     word: 'equivocate',
     detail: [
       {
@@ -6373,13 +9629,13 @@ export default [
     ],
   },
   {
-    id: 392,
+    id: 624,
     word: 'eradicate',
     detail: [
       {
         meaning: {
           en: 'destroy completely; put an end to.',
-          zh_TW: '',
+          zh_TW: '根除、撲滅',
         },
         partsOfSpeech: 'verb',
         example: 'this disease has been eradicated from the world',
@@ -6387,7 +9643,7 @@ export default [
     ],
   },
   {
-    id: 393,
+    id: 625,
     word: 'err',
     detail: [
       {
@@ -6401,7 +9657,7 @@ export default [
     ],
   },
   {
-    id: 394,
+    id: 626,
     word: 'errant',
     detail: [
       {
@@ -6423,13 +9679,13 @@ export default [
     ],
   },
   {
-    id: 395,
+    id: 627,
     word: 'erratic',
     detail: [
       {
         meaning: {
           en: 'not even or regular in pattern or movement; unpredictable',
-          zh_TW: '',
+          zh_TW: '反覆無常的、古怪的',
         },
         partsOfSpeech: 'adjective',
         example: 'her breathing was erratic',
@@ -6437,7 +9693,7 @@ export default [
     ],
   },
   {
-    id: 396,
+    id: 628,
     word: 'ersatz',
     detail: [
       {
@@ -6451,13 +9707,13 @@ export default [
     ],
   },
   {
-    id: 397,
+    id: 629,
     word: 'erudite',
     detail: [
       {
         meaning: {
           en: 'having or showing great knowledge or learning',
-          zh_TW: '',
+          zh_TW: '博學的',
         },
         partsOfSpeech: 'adjective',
         example: 'Ken could turn any conversation into an erudite discussion',
@@ -6465,13 +9721,27 @@ export default [
     ],
   },
   {
-    id: 398,
+    id: 630,
+    word: 'escalate',
+    detail: [
+      {
+        meaning: {
+          en: 'increase or develop by successive stages; become or make (sth) more intense',
+          zh_TW: '升級、擴大、上升',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 631,
     word: 'eschew',
     detail: [
       {
         meaning: {
           en: 'avoid and stay away from deliberately; stay clear of',
-          zh_TW: '',
+          zh_TW: '避開',
         },
         partsOfSpeech: 'verb',
         example: 'Politicians are the masters of eschewing morals; academics are the masters of <strong>eschewing</strong> clarity.',
@@ -6479,13 +9749,13 @@ export default [
     ],
   },
   {
-    id: 399,
+    id: 632,
     word: 'esoteric',
     detail: [
       {
         meaning: {
           en: 'confined to and understandable by only an enlightened inner circle',
-          zh_TW: '',
+          zh_TW: '圈內人才明白的、神秘難懂的',
         },
         partsOfSpeech: 'adjective',
         example: 'Map collecting is an esoteric hobby to most, but to geography geeks it is a highly enjoyable pastime.',
@@ -6493,13 +9763,13 @@ export default [
     ],
   },
   {
-    id: 400,
+    id: 633,
     word: 'espouse',
     detail: [
       {
         meaning: {
           en: 'adopt or support (a cause, belief, or way of life)',
-          zh_TW: '',
+          zh_TW: '支持、擁護 [類] support, advocate',
         },
         partsOfSpeech: 'adjective',
         example: 'he turned his back on the modernism he had espoused in his youth',
@@ -6507,7 +9777,7 @@ export default [
     ],
   },
   {
-    id: 401,
+    id: 634,
     word: 'estimable',
     detail: [
       {
@@ -6521,7 +9791,7 @@ export default [
     ],
   },
   {
-    id: 402,
+    id: 635,
     word: 'ethereal',
     detail: [
       {
@@ -6535,13 +9805,27 @@ export default [
     ],
   },
   {
-    id: 403,
+    id: 636,
+    word: 'euphemism',
+    detail: [
+      {
+        meaning: {
+          en: 'use of pleasant, mild or indirect words or phrases in place of more accurate or direct ones',
+          zh_TW: '委婉的說法',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 637,
     word: 'euphoria',
     detail: [
       {
         meaning: {
           en: 'a feeling or state of intense excitement and happiness',
-          zh_TW: '',
+          zh_TW: '心情愉快、興奮',
         },
         partsOfSpeech: 'noun',
         example: 'the euphoria of success will fuel your desire to continue training',
@@ -6549,13 +9833,27 @@ export default [
     ],
   },
   {
-    id: 404,
+    id: 638,
+    word: 'evade',
+    detail: [
+      {
+        meaning: {
+          en: 'get or keep out of the way of',
+          zh_TW: '逃避、規避',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 639,
     word: 'evanescent',
     detail: [
       {
         meaning: {
           en: 'soon passing out of sight, memory, or existence; quickly fading or disappearing',
-          zh_TW: '',
+          zh_TW: '逐漸消失的、短暫的 [類] ephemeral, transient, fugacious',
         },
         partsOfSpeech: 'adjective',
         example: 'a shimmering evanescent bubble',
@@ -6563,7 +9861,7 @@ export default [
     ],
   },
   {
-    id: 405,
+    id: 640,
     word: 'evasive',
     detail: [
       {
@@ -6577,7 +9875,7 @@ export default [
     ],
   },
   {
-    id: 406,
+    id: 641,
     word: 'evenhanded',
     detail: [
       {
@@ -6591,13 +9889,27 @@ export default [
     ],
   },
   {
-    id: 407,
+    id: 642,
+    word: 'evince',
+    detail: [
+      {
+        meaning: {
+          en: 'show clearly that one has(a feeling, quality, etc); exhibit',
+          zh_TW: '表明、顯示出',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 643,
     word: 'exacerbate',
     detail: [
       {
         meaning: {
           en: 'make worse',
-          zh_TW: '',
+          zh_TW: '加重、惡化',
         },
         partsOfSpeech: 'verb',
         example: 'Her sleeplessness exacerbated her cold--when she woke up the next day, her sinuses were completely blocked.',
@@ -6605,13 +9917,13 @@ export default [
     ],
   },
   {
-    id: 408,
+    id: 644,
     word: 'exacting',
     detail: [
       {
         meaning: {
           en: 'requiring and demanding accuracy',
-          zh_TW: '',
+          zh_TW: '需付出極大努力的、嚴格的',
         },
         partsOfSpeech: 'adjective',
         example: 'Though his childhood piano teacher was so exacting, Max is thankful now, as a professional pianist.',
@@ -6619,13 +9931,28 @@ export default [
     ],
   },
   {
-    id: 409,
+    id: 645,
+    word: 'exactitude',
+    detail: [
+      {
+        meaning: {
+          en: 'over-correctness',
+          zh_TW: '正確性、精確性',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 646,
     word: 'exalt',
     detail: [
       {
         meaning: {
           en: 'hold (someone or something) in very high regard; think or speak very highly of',
-          zh_TW: '',
+          zh_TW:
+            '讚揚、歌頌 [類] extol, laud [反] lambaste(嚴厲指責), pan(嚴厲批評), deprecate(輕視、抗議), excoriate(批判), disparage(藐視、貶損), vilify(毀謗)',
         },
         partsOfSpeech: 'verb',
         example: 'the party will continue to exalt its hero',
@@ -6633,13 +9960,13 @@ export default [
     ],
   },
   {
-    id: 410,
+    id: 647,
     word: 'exasperate',
     detail: [
       {
         meaning: {
           en: 'to irritate intensely',
-          zh_TW: '',
+          zh_TW: '激怒、使惱怒',
         },
         partsOfSpeech: 'verb',
         example: 'As a child, I exasperated my mother with strings of never-ending questions.',
@@ -6647,13 +9974,27 @@ export default [
     ],
   },
   {
-    id: 411,
+    id: 648,
+    word: 'excavate',
+    detail: [
+      {
+        meaning: {
+          en: 'make (a hole or channel) by digging; remove (soil, etc) by digging',
+          zh_TW: '挖掘、挖出',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 649,
     word: 'excoriate',
     detail: [
       {
         meaning: {
           en: 'censure or criticize severely',
-          zh_TW: '',
+          zh_TW: '痛責、剝(皮)',
         },
         partsOfSpeech: 'verb',
         example: 'the papers that had been excoriating him were now lauding him',
@@ -6661,7 +10002,21 @@ export default [
     ],
   },
   {
-    id: 412,
+    id: 650,
+    word: 'excrete',
+    detail: [
+      {
+        meaning: {
+          en: '(of an animal or a plant) pass out (waste matter, sweat, etc) from the system',
+          zh_TW: '排泄、分泌',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 651,
     word: 'excruciating',
     detail: [
       {
@@ -6675,7 +10030,21 @@ export default [
     ],
   },
   {
-    id: 413,
+    id: 652,
+    word: 'exculpate',
+    detail: [
+      {
+        meaning: {
+          en: 'sb (fml) free sb from blame; say that sb is not guilty',
+          zh_TW: '開脫、申明無罪',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 653,
     word: 'execrate',
     detail: [
       {
@@ -6689,7 +10058,7 @@ export default [
     ],
   },
   {
-    id: 414,
+    id: 654,
     word: 'exegesis',
     detail: [
       {
@@ -6704,7 +10073,7 @@ export default [
     ],
   },
   {
-    id: 415,
+    id: 655,
     word: 'exemplar',
     detail: [
       {
@@ -6718,13 +10087,13 @@ export default [
     ],
   },
   {
-    id: 416,
+    id: 656,
     word: 'exemplify',
     detail: [
       {
         meaning: {
           en: 'be a typical example of',
-          zh_TW: '',
+          zh_TW: '是...的典型',
         },
         partsOfSpeech: 'verb',
         example: 'rock bands that best exemplify the spirit of the age',
@@ -6732,7 +10101,21 @@ export default [
     ],
   },
   {
-    id: 417,
+    id: 657,
+    word: 'exhilarate',
+    detail: [
+      {
+        meaning: {
+          en: 'make feel very happy or lively',
+          zh_TW: '使振奮、使高興',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 658,
     word: 'exhort',
     detail: [
       {
@@ -6746,7 +10129,21 @@ export default [
     ],
   },
   {
-    id: 418,
+    id: 659,
+    word: 'exigent',
+    detail: [
+      {
+        meaning: {
+          en: 'requiring immediate action; urgent',
+          zh_TW: '緊急的、要求多的 [類] critical,acute',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 660,
     word: 'exiguity',
     detail: [
       {
@@ -6760,13 +10157,27 @@ export default [
     ],
   },
   {
-    id: 419,
+    id: 661,
+    word: 'exiguous',
+    detail: [
+      {
+        meaning: {
+          en: 'very small (in amount); scanty',
+          zh_TW: '非常少的 [類] scanty, meager',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 662,
     word: 'exonerate',
     detail: [
       {
         meaning: {
           en: 'pronounce not guilty of criminal charges',
-          zh_TW: '',
+          zh_TW: '免除責任、宣布無罪',
         },
         partsOfSpeech: 'verb',
         example: 'The document clearly indicated that Nick was out of the state at the time of the crime, and so served to exonerate him of any charges.',
@@ -6774,7 +10185,7 @@ export default [
     ],
   },
   {
-    id: 420,
+    id: 663,
     word: 'exorbitant',
     detail: [
       {
@@ -6788,7 +10199,21 @@ export default [
     ],
   },
   {
-    id: 421,
+    id: 664,
+    word: 'exorcise',
+    detail: [
+      {
+        meaning: {
+          en: 'drive out evil spirits',
+          zh_TW: '驅魔、除去(壞念頭)',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 665,
     word: 'expansive',
     detail: [
       {
@@ -6810,7 +10235,35 @@ export default [
     ],
   },
   {
-    id: 422,
+    id: 666,
+    word: 'expedient',
+    detail: [
+      {
+        meaning: {
+          en: 'useful, helpful or advisable for a particular purpose, though not necessarily fair or moral',
+          zh_TW: '方便的、權宜的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 667,
+    word: 'explicit',
+    detail: [
+      {
+        meaning: {
+          en: '(of a statement, etc) clearly and fully expressed',
+          zh_TW: '詳盡的、清楚的、明確的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 668,
     word: 'expound',
     detail: [
       {
@@ -6832,7 +10285,7 @@ export default [
     ],
   },
   {
-    id: 423,
+    id: 669,
     word: 'expunge',
     detail: [
       {
@@ -6846,7 +10299,7 @@ export default [
     ],
   },
   {
-    id: 424,
+    id: 670,
     word: 'expurgate',
     detail: [
       {
@@ -6860,7 +10313,7 @@ export default [
     ],
   },
   {
-    id: 425,
+    id: 671,
     word: 'extant',
     detail: [
       {
@@ -6874,7 +10327,7 @@ export default [
     ],
   },
   {
-    id: 426,
+    id: 672,
     word: 'extenuating',
     detail: [
       {
@@ -6888,13 +10341,41 @@ export default [
     ],
   },
   {
-    id: 427,
+    id: 673,
+    word: 'extol',
+    detail: [
+      {
+        meaning: {
+          en: 'sb (as sth) (fml) praise (sb/sth) highly',
+          zh_TW: '讚美、頌揚 [類]laud, exalt [反]lambaste(指責), pan(譴責)',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 674,
+    word: 'extraneous',
+    detail: [
+      {
+        meaning: {
+          en: 'not belonging to or directly connected with the subject or matter being dealt with',
+          zh_TW: '多餘的、無直接關係的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 675,
     word: 'extrapolate',
     detail: [
       {
         meaning: {
           en: 'extend the application of (a method or conclusion, especially one based on statistics) to an unknown situation by assuming that existing trends will continue or similar methods will be applicable',
-          zh_TW: '',
+          zh_TW: '推斷',
         },
         partsOfSpeech: 'verb',
         example: 'the results cannot be extrapolated to other patient groups',
@@ -6902,13 +10383,55 @@ export default [
     ],
   },
   {
-    id: 428,
+    id: 676,
+    word: 'extravagant',
+    detail: [
+      {
+        meaning: {
+          en: 'using or spending too much; (of actions) showing this tendency',
+          zh_TW: '奢侈的、揮霍的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 677,
+    word: 'exuberant',
+    detail: [
+      {
+        meaning: {
+          en: 'overflowing with happiness and excitement; very lively and cheerful',
+          zh_TW: '熱情的、豐富的、繁茂的 [類] n. exuberance',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 678,
+    word: 'exude',
+    detail: [
+      {
+        meaning: {
+          en: '(sth) (from/through sth) (of drops of liquid, etc) come or pass out slowly; ooze out',
+          zh_TW: '散發、流露',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 679,
     word: 'facetious',
     detail: [
       {
         meaning: {
           en: 'treating serious issues with deliberately inappropriate humor; flippant',
-          zh_TW: '',
+          zh_TW: '（不看場合）好開玩笑的、不合時宜的',
         },
         partsOfSpeech: 'adjective',
         example: 'a facetious remark',
@@ -6916,13 +10439,13 @@ export default [
     ],
   },
   {
-    id: 429,
+    id: 680,
     word: 'facile',
     detail: [
       {
         meaning: {
           en: '(especially of a theory or argument) appearing neat and comprehensive only by ignoring the true complexities of an issue; superficial.',
-          zh_TW: '',
+          zh_TW: '膚淺的',
         },
         partsOfSpeech: 'adjective',
         example: 'facile generalizations',
@@ -6930,7 +10453,7 @@ export default [
       {
         meaning: {
           en: '(especially of success in sports) easily achieved; effortless',
-          zh_TW: '',
+          zh_TW: '容易做的',
         },
         partsOfSpeech: 'adjective',
         example: 'a facile victory',
@@ -6938,7 +10461,21 @@ export default [
     ],
   },
   {
-    id: 430,
+    id: 681,
+    word: 'facility',
+    detail: [
+      {
+        meaning: {
+          en: 'an ability to do or learn something well and easily; a natural aptitude',
+          zh_TW: '才能、資質、容易做好事情的能力',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 682,
     word: 'factious',
     detail: [
       {
@@ -6952,7 +10489,7 @@ export default [
     ],
   },
   {
-    id: 431,
+    id: 683,
     word: 'factitious',
     detail: [
       {
@@ -6966,7 +10503,7 @@ export default [
     ],
   },
   {
-    id: 432,
+    id: 684,
     word: 'fallacious',
     detail: [
       {
@@ -6980,13 +10517,27 @@ export default [
     ],
   },
   {
-    id: 433,
+    id: 685,
+    word: 'fanciful',
+    detail: [
+      {
+        meaning: {
+          en: '(of a person or their thoughts and ideas) overimaginative and unrealistic',
+          zh_TW: '幻想的、奇特的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 686,
     word: 'fastidious',
     detail: [
       {
         meaning: {
           en: 'very attentive to and concerned about accuracy and detail',
-          zh_TW: '',
+          zh_TW: '挑剔的、過分講究的',
         },
         partsOfSpeech: 'adjective',
         example: 'he chooses his words with fastidious care',
@@ -7002,7 +10553,21 @@ export default [
     ],
   },
   {
-    id: 434,
+    id: 687,
+    word: 'fathom',
+    detail: [
+      {
+        meaning: {
+          en: 'measure of the depth of water, 61.8',
+          zh_TW: '噚(水深單位)、理解、了解原因 [反] a. unfathomable 難以理解的、高深莫測的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 688,
     word: 'fawn',
     detail: [
       {
@@ -7024,13 +10589,13 @@ export default [
     ],
   },
   {
-    id: 435,
+    id: 689,
     word: 'feckless',
     detail: [
       {
         meaning: {
           en: 'lazy and irresponsible',
-          zh_TW: '',
+          zh_TW: '無效的、無能的',
         },
         partsOfSpeech: 'adjective',
         example: 'Two years after graduation, Charlie still lived with his parents and had no job, becoming more feckless with each passing day.',
@@ -7038,7 +10603,7 @@ export default [
     ],
   },
   {
-    id: 436,
+    id: 690,
     word: 'fecund',
     detail: [
       {
@@ -7052,7 +10617,7 @@ export default [
     ],
   },
   {
-    id: 437,
+    id: 691,
     word: 'feeble',
     detail: [
       {
@@ -7082,7 +10647,35 @@ export default [
     ],
   },
   {
-    id: 438,
+    id: 692,
+    word: 'feign',
+    detail: [
+      {
+        meaning: {
+          en: 'pretend',
+          zh_TW: '假裝 [類] dissemble, pretend [反] a. unfeigned 真誠的',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 693,
+    word: 'felicitous',
+    detail: [
+      {
+        meaning: {
+          en: '(esp of words) well-chosen; apt',
+          zh_TW: '(話語) 得體的、適當的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 694,
     word: 'ferret',
     detail: [
       {
@@ -7096,7 +10689,21 @@ export default [
     ],
   },
   {
-    id: 439,
+    id: 695,
+    word: 'fervent',
+    detail: [
+      {
+        meaning: {
+          en: 'showing warmth and sincerity of feeling; enthusiastic; passionate',
+          zh_TW: '炙熱的、熱情的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 696,
     word: 'fete',
     detail: [
       {
@@ -7118,13 +10725,13 @@ export default [
     ],
   },
   {
-    id: 440,
+    id: 697,
     word: 'fickle',
     detail: [
       {
         meaning: {
           en: 'liable to sudden unpredictable change, esp. in affections or attachments',
-          zh_TW: '',
+          zh_TW: '易變的、無常的 [類] capricious',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -7133,7 +10740,35 @@ export default [
     ],
   },
   {
-    id: 441,
+    id: 698,
+    word: 'fictitious',
+    detail: [
+      {
+        meaning: {
+          en: 'imagined or invented; not real',
+          zh_TW: '假的、虛構的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 699,
+    word: 'figurative',
+    detail: [
+      {
+        meaning: {
+          en: '(of words) used in an imaginative or a metaphorical way rather than literally',
+          zh_TW: '比喻的、象徵',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 700,
     word: 'finagle',
     detail: [
       {
@@ -7147,7 +10782,7 @@ export default [
     ],
   },
   {
-    id: 442,
+    id: 701,
     word: 'firebrand',
     detail: [
       {
@@ -7161,7 +10796,21 @@ export default [
     ],
   },
   {
-    id: 443,
+    id: 702,
+    word: 'flamboyant',
+    detail: [
+      {
+        meaning: {
+          en: 'showy, very confident and extravagant',
+          zh_TW: '豔麗的、炫耀的 [類] ornate',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 703,
     word: 'fledgling',
     detail: [
       {
@@ -7175,7 +10824,7 @@ export default [
     ],
   },
   {
-    id: 444,
+    id: 704,
     word: 'fleece',
     detail: [
       {
@@ -7197,7 +10846,21 @@ export default [
     ],
   },
   {
-    id: 445,
+    id: 705,
+    word: 'fleeting',
+    detail: [
+      {
+        meaning: {
+          en: 'passing quickly; lasting only a short time',
+          zh_TW: '轉瞬的、短暫的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 706,
     word: 'flippant',
     detail: [
       {
@@ -7211,7 +10874,7 @@ export default [
     ],
   },
   {
-    id: 446,
+    id: 707,
     word: 'flounder',
     detail: [
       {
@@ -7225,7 +10888,35 @@ export default [
     ],
   },
   {
-    id: 447,
+    id: 708,
+    word: 'flout',
+    detail: [
+      {
+        meaning: {
+          en: 'disobey openly and scornfully',
+          zh_TW: '藐視、輕蔑、嘲笑',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 709,
+    word: 'fluctuate',
+    detail: [
+      {
+        meaning: {
+          en: '(of a price, number, rate, etc) rise and fall; change irregularly',
+          zh_TW: '波動、變動',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 710,
     word: 'flummox',
     detail: [
       {
@@ -7239,7 +10930,7 @@ export default [
     ],
   },
   {
-    id: 448,
+    id: 711,
     word: 'flush',
     detail: [
       {
@@ -7285,7 +10976,7 @@ export default [
     ],
   },
   {
-    id: 449,
+    id: 712,
     word: 'flux',
     detail: [
       {
@@ -7323,7 +11014,7 @@ export default [
     ],
   },
   {
-    id: 450,
+    id: 713,
     word: 'foible',
     detail: [
       {
@@ -7338,7 +11029,7 @@ export default [
     ],
   },
   {
-    id: 451,
+    id: 714,
     word: 'foment',
     detail: [
       {
@@ -7352,7 +11043,7 @@ export default [
     ],
   },
   {
-    id: 452,
+    id: 715,
     word: 'foolhardy',
     detail: [
       {
@@ -7366,7 +11057,91 @@ export default [
     ],
   },
   {
-    id: 453,
+    id: 716,
+    word: 'forage',
+    detail: [
+      {
+        meaning: {
+          en: 'food for horses and cattle',
+          zh_TW: '糧草、搜尋、掠奪',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 717,
+    word: 'forbear',
+    detail: [
+      {
+        meaning: {
+          en: 'forbearance',
+          zh_TW: '忍耐、抑制',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 718,
+    word: 'forbidding',
+    detail: [
+      {
+        meaning: {
+          en: 'looking unfriendly; stern; threatening',
+          zh_TW: '可怕的(外貌)',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 719,
+    word: 'foreshadow',
+    detail: [
+      {
+        meaning: {
+          en: 'be a sign or warning of',
+          zh_TW: '預示、預兆 [類] presage',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 720,
+    word: 'forestall',
+    detail: [
+      {
+        meaning: {
+          en: 'act before so as to prevent him from doing sth',
+          zh_TW: '先發制人、預先阻止',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 721,
+    word: 'forfeit',
+    detail: [
+      {
+        meaning: {
+          en: 'lose or give up (sth) as a consequence of or punishment for having done sth wrong, or in order to achieve sth',
+          zh_TW: '喪失、被罰沒收',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 722,
     word: 'forlorn',
     detail: [
       {
@@ -7380,7 +11155,21 @@ export default [
     ],
   },
   {
-    id: 454,
+    id: 723,
+    word: 'formative',
+    detail: [
+      {
+        meaning: {
+          en: "having an important and lasting influence on the development of sb's character",
+          zh_TW: '形成的、構成的 [類] n. formulation 規劃、構想、公式化',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 724,
     word: 'forthcoming',
     detail: [
       {
@@ -7395,7 +11184,7 @@ export default [
     ],
   },
   {
-    id: 455,
+    id: 725,
     word: 'forthright',
     detail: [
       {
@@ -7409,13 +11198,13 @@ export default [
     ],
   },
   {
-    id: 456,
+    id: 726,
     word: 'fortuitous',
     detail: [
       {
         meaning: {
           en: 'occurring by happy chance; having no cause or apparent cause',
-          zh_TW: '',
+          zh_TW: '偶然的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -7424,13 +11213,41 @@ export default [
     ],
   },
   {
-    id: 457,
+    id: 727,
+    word: 'foster',
+    detail: [
+      {
+        meaning: {
+          en: 'help the growth or development of (sth); encourage or promote',
+          zh_TW: '促進、鼓勵、養育',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 728,
+    word: 'founder',
+    detail: [
+      {
+        meaning: {
+          en: '(of a ship) fill with water and sink',
+          zh_TW: '(v) 船沈沒、失敗',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 729,
     word: 'fractious',
     detail: [
       {
         meaning: {
           en: '(typically of children) irritable and quarrelsome',
-          zh_TW: '',
+          zh_TW: '(脾氣)易怒的、好爭吵的',
         },
         partsOfSpeech: 'adjective',
         example: 'they fight and squabble like fractious children',
@@ -7438,7 +11255,7 @@ export default [
       {
         meaning: {
           en: '(of a group or organization) difficult to control; unruly',
-          zh_TW: '',
+          zh_TW: '難以對待的',
         },
         partsOfSpeech: 'adjective',
         example: 'the notoriously fractious resistance groups are declaring alliances to bolster their collective power',
@@ -7446,13 +11263,27 @@ export default [
     ],
   },
   {
-    id: 458,
+    id: 730,
+    word: 'fraudulent',
+    detail: [
+      {
+        meaning: {
+          en: 'deceitful or dishonest',
+          zh_TW: '欺騙的、不誠實的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 731,
     word: 'frivolous',
     detail: [
       {
         meaning: {
           en: 'not having any serious purpose or value',
-          zh_TW: '',
+          zh_TW: '草率的',
         },
         partsOfSpeech: 'adjective',
         example: 'rules to stop frivolous lawsuits',
@@ -7460,7 +11291,7 @@ export default [
       {
         meaning: {
           en: '(of a person) carefree and not serious',
-          zh_TW: '',
+          zh_TW: '輕浮的',
         },
         partsOfSpeech: 'adjective',
         example: 'the frivolous, fun-loving flappers of the twenties',
@@ -7468,13 +11299,13 @@ export default [
     ],
   },
   {
-    id: 459,
+    id: 732,
     word: 'frugal',
     detail: [
       {
         meaning: {
           en: 'not spending much money (but spending wisely)',
-          zh_TW: '',
+          zh_TW: '節約的、簡樸的 [類] thrifty, economical, sparing [反] profligate, extravagant',
         },
         partsOfSpeech: 'adjective',
         example: 'Monte was no miser, but was simply frugal, wisely spending the little that he earned.',
@@ -7482,7 +11313,7 @@ export default [
     ],
   },
   {
-    id: 460,
+    id: 733,
     word: 'frustrate',
     detail: [
       {
@@ -7496,13 +11327,41 @@ export default [
     ],
   },
   {
-    id: 461,
+    id: 734,
+    word: 'fugitive',
+    detail: [
+      {
+        meaning: {
+          en: 'person who is running away or escaping',
+          zh_TW: '短暫的、逃犯',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 735,
+    word: 'fulminate',
+    detail: [
+      {
+        meaning: {
+          en: 'protest strongly and loudly',
+          zh_TW: '大聲斥責',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 736,
     word: 'furtive',
     detail: [
       {
         meaning: {
           en: 'attempting to avoid notice or attention, typically because of guilt or a belief that discovery would lead to trouble; secretive',
-          zh_TW: '',
+          zh_TW: '秘密的、鬼鬼祟祟的 [類] surreptitious, stealthy, sneaky, shifty',
         },
         partsOfSpeech: 'adjective',
         example: 'they spent a furtive day together',
@@ -7518,13 +11377,13 @@ export default [
     ],
   },
   {
-    id: 462,
+    id: 737,
     word: 'futile',
     detail: [
       {
         meaning: {
           en: 'producing no result or effect; unproductive of success',
-          zh_TW: '',
+          zh_TW: '無意的、無用的',
         },
         partsOfSpeech: 'adjective',
         example: 'I thought I could repair the car myself, but after two days of work with no success, I have to admit that my efforts were futile.',
@@ -7532,7 +11391,7 @@ export default [
     ],
   },
   {
-    id: 463,
+    id: 738,
     word: 'gaffe',
     detail: [
       {
@@ -7546,7 +11405,7 @@ export default [
     ],
   },
   {
-    id: 464,
+    id: 739,
     word: 'gainsay',
     detail: [
       {
@@ -7560,7 +11419,7 @@ export default [
     ],
   },
   {
-    id: 465,
+    id: 740,
     word: 'gall',
     detail: [
       {
@@ -7575,13 +11434,13 @@ export default [
     ],
   },
   {
-    id: 466,
+    id: 741,
     word: 'galvanize',
     detail: [
       {
         meaning: {
           en: 'shock or excite (someone) into taking action',
-          zh_TW: '',
+          zh_TW: '刺激、激勵、促使、鍍鋅',
         },
         partsOfSpeech: 'verb',
         example: 'the urgency of his voice galvanized them into action',
@@ -7597,7 +11456,7 @@ export default [
     ],
   },
   {
-    id: 467,
+    id: 742,
     word: 'gambit',
     detail: [
       {
@@ -7611,13 +11470,13 @@ export default [
     ],
   },
   {
-    id: 468,
+    id: 743,
     word: 'garrulous',
     detail: [
       {
         meaning: {
           en: 'full of trivial conversation',
-          zh_TW: '',
+          zh_TW: '喋喋不休的 [類] talkative, loquacious, voluble, verbose [反] taciturn, reticent, concise',
         },
         partsOfSpeech: 'adjective',
         example: "Lynne was garrulous: once, she had a fifteen minute conversation with a stranger before she realized the woman didn't speak English.",
@@ -7625,7 +11484,7 @@ export default [
     ],
   },
   {
-    id: 469,
+    id: 744,
     word: 'gauche',
     detail: [
       {
@@ -7639,7 +11498,35 @@ export default [
     ],
   },
   {
-    id: 470,
+    id: 745,
+    word: 'gauge',
+    detail: [
+      {
+        meaning: {
+          en: 'standard measure, esp of width or thickness',
+          zh_TW: '標準厚度、標準寬度、測量',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 746,
+    word: 'generic',
+    detail: [
+      {
+        meaning: {
+          en: 'shared by or including a whole group or class; not specific',
+          zh_TW: '通稱的、種類的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 747,
     word: 'genial',
     detail: [
       {
@@ -7653,7 +11540,21 @@ export default [
     ],
   },
   {
-    id: 471,
+    id: 748,
+    word: 'genre',
+    detail: [
+      {
+        meaning: {
+          en: 'particular style or kind, esp of works of art or literature, grouped according to their form or subject mattěr',
+          zh_TW: '文藝作品之類型',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 749,
     word: 'genteel',
     detail: [
       {
@@ -7667,13 +11568,13 @@ export default [
     ],
   },
   {
-    id: 472,
+    id: 750,
     word: 'germane',
     detail: [
       {
         meaning: {
           en: 'relevant and appropriate',
-          zh_TW: '',
+          zh_TW: '有密切關係的、貼切的 [類] fitting',
         },
         partsOfSpeech: 'adjective',
         example: "The professor wanted to tell the jury in detail about his new book, but the lawyer said it wasn't germane to the charges in the cases.",
@@ -7681,7 +11582,7 @@ export default [
     ],
   },
   {
-    id: 473,
+    id: 751,
     word: 'gerrymander',
     detail: [
       {
@@ -7695,7 +11596,7 @@ export default [
     ],
   },
   {
-    id: 474,
+    id: 752,
     word: 'glean',
     detail: [
       {
@@ -7710,7 +11611,7 @@ export default [
     ],
   },
   {
-    id: 475,
+    id: 753,
     word: 'glib',
     detail: [
       {
@@ -7724,7 +11625,7 @@ export default [
     ],
   },
   {
-    id: 476,
+    id: 754,
     word: 'glut',
     detail: [
       {
@@ -7746,7 +11647,7 @@ export default [
     ],
   },
   {
-    id: 477,
+    id: 755,
     word: 'gossamer',
     detail: [
       {
@@ -7760,7 +11661,7 @@ export default [
     ],
   },
   {
-    id: 478,
+    id: 756,
     word: 'graft',
     detail: [
       {
@@ -7798,7 +11699,7 @@ export default [
     ],
   },
   {
-    id: 479,
+    id: 757,
     word: 'grandiloquent',
     detail: [
       {
@@ -7812,13 +11713,41 @@ export default [
     ],
   },
   {
-    id: 480,
+    id: 758,
+    word: 'grandiose',
+    detail: [
+      {
+        meaning: {
+          en: 'planned on a large scale; (intended to seem_ imposing',
+          zh_TW: '宏偉的、誇大的 [類] pompous 誇大的, grand(壯麗的)',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 759,
+    word: 'gratify',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) give pleasure or satisfaction to (sb)',
+          zh_TW: '使高興、使滿足',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 760,
     word: 'gregarious',
     detail: [
       {
         meaning: {
           en: 'to be likely to socialize with others',
-          zh_TW: '',
+          zh_TW: '群居的、愛社交的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -7827,7 +11756,21 @@ export default [
     ],
   },
   {
-    id: 481,
+    id: 761,
+    word: 'gripe',
+    detail: [
+      {
+        meaning: {
+          en: 'feel or cause sudden sharp pain in the stomach or intestines',
+          zh_TW: '抱怨',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 762,
     word: 'grovel',
     detail: [
       {
@@ -7849,7 +11792,7 @@ export default [
     ],
   },
   {
-    id: 482,
+    id: 763,
     word: 'guffaw',
     detail: [
       {
@@ -7871,7 +11814,7 @@ export default [
     ],
   },
   {
-    id: 483,
+    id: 764,
     word: 'guileless',
     detail: [
       {
@@ -7885,7 +11828,21 @@ export default [
     ],
   },
   {
-    id: 484,
+    id: 765,
+    word: 'gullible',
+    detail: [
+      {
+        meaning: {
+          en: 'willing to believe anything or anyone; easily deceived',
+          zh_TW: '易受騙的 [類] credulous',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 766,
     word: 'gumption',
     detail: [
       {
@@ -7899,13 +11856,13 @@ export default [
     ],
   },
   {
-    id: 485,
+    id: 767,
     word: 'hackneyed',
     detail: [
       {
         meaning: {
           en: 'lacking significance through having been overused',
-          zh_TW: '',
+          zh_TW: '陳腐的',
         },
         partsOfSpeech: 'adjective',
         example: 'Cheryl rolled her eyes when she heard the lecturer\'s hackneyed advice to "be true to yourself."',
@@ -7913,7 +11870,7 @@ export default [
     ],
   },
   {
-    id: 486,
+    id: 768,
     word: 'hagiographic',
     detail: [
       {
@@ -7927,7 +11884,7 @@ export default [
     ],
   },
   {
-    id: 487,
+    id: 769,
     word: 'hail',
     detail: [
       {
@@ -7941,7 +11898,7 @@ export default [
     ],
   },
   {
-    id: 488,
+    id: 770,
     word: 'halcyon',
     detail: [
       {
@@ -7955,13 +11912,13 @@ export default [
     ],
   },
   {
-    id: 489,
+    id: 771,
     word: 'hamper',
     detail: [
       {
         meaning: {
           en: 'hinder or impede the movement or progress of',
-          zh_TW: '',
+          zh_TW: '妨礙、束縛',
         },
         partsOfSpeech: 'verb',
         example: 'their work is hampered by lack of funds',
@@ -7969,7 +11926,7 @@ export default [
     ],
   },
   {
-    id: 490,
+    id: 772,
     word: 'hamstrung',
     detail: [
       {
@@ -7983,13 +11940,13 @@ export default [
     ],
   },
   {
-    id: 491,
+    id: 773,
     word: 'haphazard',
     detail: [
       {
         meaning: {
           en: 'lacking any obvious principle of organization',
-          zh_TW: '',
+          zh_TW: '無計畫的、任意的、偶然的 [類] chance',
         },
         partsOfSpeech: 'adjective',
         example: 'the kitchen drawers contained a haphazard collection of silver souvenir spoons',
@@ -7997,13 +11954,13 @@ export default [
     ],
   },
   {
-    id: 492,
+    id: 774,
     word: 'harangue',
     detail: [
       {
         meaning: {
           en: 'a lengthy and aggressive speech',
-          zh_TW: '',
+          zh_TW: '慷慨激昂的演講',
         },
         partsOfSpeech: 'noun',
         example: 'they were subjected to a ten-minute harangue by two border guards',
@@ -8011,7 +11968,7 @@ export default [
       {
         meaning: {
           en: 'lecture (someone) at length in an aggressive and critical manner',
-          zh_TW: '',
+          zh_TW: '滔滔不絕的教訓',
         },
         partsOfSpeech: 'verb',
         example: 'the kind of guy who harangued total strangers about PCB levels in whitefish',
@@ -8019,7 +11976,7 @@ export default [
     ],
   },
   {
-    id: 493,
+    id: 775,
     word: 'harried',
     detail: [
       {
@@ -8033,7 +11990,7 @@ export default [
     ],
   },
   {
-    id: 494,
+    id: 776,
     word: 'haughty',
     detail: [
       {
@@ -8047,7 +12004,7 @@ export default [
     ],
   },
   {
-    id: 495,
+    id: 777,
     word: 'hauteur',
     detail: [
       {
@@ -8061,7 +12018,7 @@ export default [
     ],
   },
   {
-    id: 496,
+    id: 778,
     word: 'hector',
     detail: [
       {
@@ -8075,7 +12032,7 @@ export default [
     ],
   },
   {
-    id: 497,
+    id: 779,
     word: 'hedge',
     detail: [
       {
@@ -8090,7 +12047,7 @@ export default [
     ],
   },
   {
-    id: 498,
+    id: 780,
     word: 'hegemony',
     detail: [
       {
@@ -8104,7 +12061,7 @@ export default [
     ],
   },
   {
-    id: 499,
+    id: 781,
     word: 'heretic',
     detail: [
       {
@@ -8118,7 +12075,35 @@ export default [
     ],
   },
   {
-    id: 500,
+    id: 782,
+    word: 'heretical',
+    detail: [
+      {
+        meaning: {
+          en: 'of heresy or heretics',
+          zh_TW: '異教的、異端的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 783,
+    word: 'heterodox',
+    detail: [
+      {
+        meaning: {
+          en: 'not conforming with accepted standards or beliefs',
+          zh_TW: '異端的、非正統的 [類]unconventional',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 784,
     word: 'heyday',
     detail: [
       {
@@ -8133,7 +12118,35 @@ export default [
     ],
   },
   {
-    id: 501,
+    id: 785,
+    word: 'hierarchy',
+    detail: [
+      {
+        meaning: {
+          en: 'system with grades of authority or status from the lowest to the highest',
+          zh_TW: '階層、等級制度',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 786,
+    word: 'hieroglyph',
+    detail: [
+      {
+        meaning: {
+          en: 'picture or symbol of an object, representing a word, syllable or sound, as used in ancient Egyptian and other writing',
+          zh_TW: '象形文字、圖畫文字',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 787,
     word: 'histrionic',
     detail: [
       {
@@ -8155,7 +12168,21 @@ export default [
     ],
   },
   {
-    id: 502,
+    id: 788,
+    word: 'hitherto',
+    detail: [
+      {
+        meaning: {
+          en: 'until now',
+          zh_TW: '到目前為止、迄今、至今',
+        },
+        partsOfSpeech: 'adverb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 789,
     word: 'hoary',
     detail: [
       {
@@ -8177,7 +12204,7 @@ export default [
     ],
   },
   {
-    id: 503,
+    id: 790,
     word: 'hobble',
     detail: [
       {
@@ -8191,7 +12218,7 @@ export default [
     ],
   },
   {
-    id: 504,
+    id: 791,
     word: 'hodgepodge',
     detail: [
       {
@@ -8205,7 +12232,35 @@ export default [
     ],
   },
   {
-    id: 505,
+    id: 792,
+    word: 'homogeneous',
+    detail: [
+      {
+        meaning: {
+          en: 'formed of parts that are all of the same type',
+          zh_TW: '同種的、同質的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 793,
+    word: 'honorific',
+    detail: [
+      {
+        meaning: {
+          en: '(of an office or position) given as a mark of respect, but having few or no duties',
+          zh_TW: '表示尊敬的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 794,
     word: 'hoodwink',
     detail: [
       {
@@ -8220,7 +12275,35 @@ export default [
     ],
   },
   {
-    id: 506,
+    id: 795,
+    word: 'hortative',
+    detail: [
+      {
+        meaning: {
+          en: 'giving exhortation; advisory',
+          zh_TW: '勸告的、獎勵的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 796,
+    word: 'hortatory',
+    detail: [
+      {
+        meaning: {
+          en: 'tending or aiming to exhort',
+          zh_TW: '勸告的、忠告的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 797,
     word: 'hound',
     detail: [
       {
@@ -8234,7 +12317,7 @@ export default [
     ],
   },
   {
-    id: 507,
+    id: 798,
     word: 'hubris',
     detail: [
       {
@@ -8248,7 +12331,21 @@ export default [
     ],
   },
   {
-    id: 508,
+    id: 799,
+    word: 'humble',
+    detail: [
+      {
+        meaning: {
+          en: "(of a person or his words or actions) having or showing a low or modest opinion of one's own importance; not proud",
+          zh_TW: '卑微的、簡陋的、謙虛的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 800,
     word: 'humdrum',
     detail: [
       {
@@ -8262,7 +12359,49 @@ export default [
     ],
   },
   {
-    id: 509,
+    id: 801,
+    word: 'humility',
+    detail: [
+      {
+        meaning: {
+          en: 'humble attitude of mind; modesty',
+          zh_TW: '謙遜、謙恭',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 802,
+    word: 'hydrate',
+    detail: [
+      {
+        meaning: {
+          en: 'chemical compound of water with another substance',
+          zh_TW: '使成水合物',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 803,
+    word: 'hyperbole',
+    detail: [
+      {
+        meaning: {
+          en: 'exaggerated statement that is made for special effect and is not meant to be taken literally',
+          zh_TW: '誇張(法)',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 804,
     word: 'iconoclast',
     detail: [
       {
@@ -8276,13 +12415,13 @@ export default [
     ],
   },
   {
-    id: 510,
+    id: 805,
     word: 'iconoclastic',
     detail: [
       {
         meaning: {
           en: 'characterized by attack on cherished beliefs or institutions',
-          zh_TW: '',
+          zh_TW: '偶像破壞的、打破舊習的',
         },
         partsOfSpeech: 'adjective',
         example: 'a fresh, even an iconoclastic, influence could work wonders',
@@ -8290,7 +12429,21 @@ export default [
     ],
   },
   {
-    id: 511,
+    id: 806,
+    word: 'ideology',
+    detail: [
+      {
+        meaning: {
+          en: 'ideas that form the basis of an economic or political theory or that are held by a particular group or person',
+          zh_TW: '意識形態、思想體系',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 807,
     word: 'idiosyncrasy',
     detail: [
       {
@@ -8304,7 +12457,21 @@ export default [
     ],
   },
   {
-    id: 512,
+    id: 808,
+    word: 'idiosyncratic',
+    detail: [
+      {
+        meaning: {
+          en: 'relating to idiosyncrasy; peculiar or individual',
+          zh_TW: '古怪的、有怪僻的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 809,
     word: 'ignoble',
     detail: [
       {
@@ -8318,7 +12485,7 @@ export default [
     ],
   },
   {
-    id: 513,
+    id: 810,
     word: 'ignominious',
     detail: [
       {
@@ -8333,7 +12500,7 @@ export default [
     ],
   },
   {
-    id: 514,
+    id: 811,
     word: 'illicit',
     detail: [
       {
@@ -8347,7 +12514,21 @@ export default [
     ],
   },
   {
-    id: 515,
+    id: 812,
+    word: 'illusory',
+    detail: [
+      {
+        meaning: {
+          en: 'based on or producing illusion: deceptive',
+          zh_TW: '幻覺的、夢幻似的、迷惑人的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 813,
     word: 'illustrious',
     detail: [
       {
@@ -8361,7 +12542,7 @@ export default [
     ],
   },
   {
-    id: 516,
+    id: 814,
     word: 'imbibe',
     detail: [
       {
@@ -8376,7 +12557,7 @@ export default [
     ],
   },
   {
-    id: 517,
+    id: 815,
     word: 'imbroglio',
     detail: [
       {
@@ -8391,7 +12572,7 @@ export default [
     ],
   },
   {
-    id: 518,
+    id: 816,
     word: 'immaterial',
     detail: [
       {
@@ -8405,7 +12586,21 @@ export default [
     ],
   },
   {
-    id: 519,
+    id: 817,
+    word: 'imminent',
+    detail: [
+      {
+        meaning: {
+          en: 'about to happen; likely to happen very soon',
+          zh_TW: '即將發生的、逼近的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 818,
     word: 'immure',
     detail: [
       {
@@ -8419,13 +12614,13 @@ export default [
     ],
   },
   {
-    id: 520,
+    id: 819,
     word: 'immutable',
     detail: [
       {
         meaning: {
           en: 'not able to be changed',
-          zh_TW: '',
+          zh_TW: '不變的',
         },
         partsOfSpeech: 'adjective',
         example: 'Taxes are one of the immutable laws of the land, so there is no use arguing about paying them.',
@@ -8433,13 +12628,27 @@ export default [
     ],
   },
   {
-    id: 521,
+    id: 820,
+    word: 'impart',
+    detail: [
+      {
+        meaning: {
+          en: 'sth (to sth) give (a quality) to sth',
+          zh_TW: '分給、給予、傳授、傳達',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 821,
     word: 'impartial',
     detail: [
       {
         meaning: {
           en: 'treating all rivals or disputants equally; fair and just',
-          zh_TW: '',
+          zh_TW: '公平的、無私的',
         },
         partsOfSpeech: 'adjective',
         example: 'independent and impartial advice',
@@ -8447,13 +12656,55 @@ export default [
     ],
   },
   {
-    id: 522,
+    id: 822,
+    word: 'impassioned',
+    detail: [
+      {
+        meaning: {
+          en: 'showing strong deep feeling',
+          zh_TW: '充滿激情的、慷慨激昂的、熱烈的 [類] a. impassionate 充滿熱情的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 823,
+    word: 'impassive',
+    detail: [
+      {
+        meaning: {
+          en: 'showing no sign of feeling',
+          zh_TW: '不露情感的、無動於衷的、冷漠的 [類] n. impassivity',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 824,
+    word: 'impeachable',
+    detail: [
+      {
+        meaning: {
+          en: 'deserving or causing impeachment',
+          zh_TW: '可指責的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 825,
     word: 'impeccable',
     detail: [
       {
         meaning: {
           en: 'without fault or error',
-          zh_TW: '',
+          zh_TW: '無懈可擊的、無缺點的',
         },
         partsOfSpeech: 'adjective',
         example: 'He was impeccably dressed in the latest fashion without a single crease or stain.',
@@ -8461,13 +12712,13 @@ export default [
     ],
   },
   {
-    id: 523,
+    id: 826,
     word: 'impecunious',
     detail: [
       {
         meaning: {
           en: 'having little or no money',
-          zh_TW: '',
+          zh_TW: '一文不名的、貧困的',
         },
         partsOfSpeech: 'adjective',
         example: 'a titled but impecunious family',
@@ -8475,13 +12726,13 @@ export default [
     ],
   },
   {
-    id: 524,
+    id: 827,
     word: 'impede',
     detail: [
       {
         meaning: {
           en: 'be a hindrance or obstacle to',
-          zh_TW: '',
+          zh_TW: '妨礙、阻礙、阻止',
         },
         partsOfSpeech: 'verb',
         example: 'Since the police sergeant had to train the pair of new hires, progress in his own case was impeded.',
@@ -8489,35 +12740,83 @@ export default [
     ],
   },
   {
-    id: 525,
+    id: 828,
     word: 'impending',
     detail: [
       {
         meaning: {
           en: '(of an event regarded as threatening or significant) about to happen; forthcoming',
-          zh_TW: '',
+          zh_TW: '即將發生的、逼近的',
         },
         partsOfSpeech: 'adjective',
         example: 'the author had returned to his country ahead of the impending war',
       },
+    ],
+  },
+  {
+    id: 829,
+    word: 'impenetrable',
+    detail: [
       {
         meaning: {
-          en: '(of an event regarded as threatening or significant) be about to happen',
-          zh_TW: '',
+          en: 'that cannot be entered, passed through, etc',
+          zh_TW: '不能通過的、不能穿透的 [反] penetrable',
         },
-        partsOfSpeech: 'verb',
-        example: 'it seemed certain that some great trial of strength impended between the opponents',
+        partsOfSpeech: 'adjective',
+        example: '',
       },
     ],
   },
   {
-    id: 526,
+    id: 830,
+    word: 'imperative',
+    detail: [
+      {
+        meaning: {
+          en: 'very urgent or important; needing immediate attention',
+          zh_TW: '必要的、緊急的、極重要的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 831,
+    word: 'imperative',
+    detail: [
+      {
+        meaning: {
+          en: 'very urgent or important; needing immediate attention',
+          zh_TW: '必要的、緊急的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 832,
+    word: 'imperil',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) put (sb/sth) in danger; endanger',
+          zh_TW: '使陷於危險、危及',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 833,
     word: 'imperious',
     detail: [
       {
         meaning: {
           en: 'having or showing arrogant superiority to and disdain of those one views as unworthy',
-          zh_TW: '',
+          zh_TW: '傲慢的、專橫的',
         },
         partsOfSpeech: 'adjective',
         example: "Children are imperious with each other before they learn that earning someone's respect is better than demanding.",
@@ -8525,7 +12824,7 @@ export default [
     ],
   },
   {
-    id: 527,
+    id: 834,
     word: 'impermeable',
     detail: [
       {
@@ -8539,13 +12838,13 @@ export default [
     ],
   },
   {
-    id: 528,
+    id: 835,
     word: 'impertinent',
     detail: [
       {
         meaning: {
           en: 'being disrespectful; improperly forward or bold',
-          zh_TW: '',
+          zh_TW: '粗魯無禮的、不切題的、不中肯的 [類] insolent, impudent',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -8554,7 +12853,7 @@ export default [
     ],
   },
   {
-    id: 529,
+    id: 836,
     word: 'impervious',
     detail: [
       {
@@ -8568,13 +12867,13 @@ export default [
     ],
   },
   {
-    id: 530,
+    id: 837,
     word: 'impetuous',
     detail: [
       {
         meaning: {
           en: 'acting or done quickly and without thought or care',
-          zh_TW: '',
+          zh_TW: '性急的、魯莽的、衝動的',
         },
         partsOfSpeech: 'adjective',
         example: 'her friend was headstrong and impetuous',
@@ -8590,13 +12889,27 @@ export default [
     ],
   },
   {
-    id: 531,
+    id: 838,
+    word: 'impetus',
+    detail: [
+      {
+        meaning: {
+          en: 'the force or energy with which a body moves',
+          zh_TW: '推動力、刺激 [類]boost, encouragement, impulse, incentive, motivation, provocation, spur, stimulus',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 839,
     word: 'implacable',
     detail: [
       {
         meaning: {
           en: 'unable to be placated',
-          zh_TW: '',
+          zh_TW: '不能安撫的、難和解的',
         },
         partsOfSpeech: 'adjective',
         example: "he was an implacable enemy of Ted's",
@@ -8604,13 +12917,13 @@ export default [
     ],
   },
   {
-    id: 532,
+    id: 840,
     word: 'implausible',
     detail: [
       {
         meaning: {
           en: 'describing a statement that is not believable',
-          zh_TW: '',
+          zh_TW: '難以置信的、不像真實的',
         },
         partsOfSpeech: 'adjective',
         example: 'The teacher found it implausible that the student was late to school because he had been kidnapped by outlaws on horseback.',
@@ -8618,7 +12931,7 @@ export default [
     ],
   },
   {
-    id: 533,
+    id: 841,
     word: 'implicate',
     detail: [
       {
@@ -8640,7 +12953,7 @@ export default [
     ],
   },
   {
-    id: 534,
+    id: 842,
     word: 'imponderable',
     detail: [
       {
@@ -8662,7 +12975,7 @@ export default [
     ],
   },
   {
-    id: 535,
+    id: 843,
     word: 'importune',
     detail: [
       {
@@ -8684,7 +12997,7 @@ export default [
     ],
   },
   {
-    id: 536,
+    id: 844,
     word: 'impregnable',
     detail: [
       {
@@ -8698,7 +13011,7 @@ export default [
     ],
   },
   {
-    id: 537,
+    id: 845,
     word: 'improvident',
     detail: [
       {
@@ -8712,13 +13025,27 @@ export default [
     ],
   },
   {
-    id: 538,
+    id: 846,
+    word: 'improvise',
+    detail: [
+      {
+        meaning: {
+          en: 'compose or play (music), speak or act without previous preparation',
+          zh_TW: '即興創作、即興表演 [類] extemporize',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 847,
     word: 'imprudent',
     detail: [
       {
         meaning: {
           en: 'not wise',
-          zh_TW: '',
+          zh_TW: '不謹慎的、輕率的、魯莽的 [反] prudent',
         },
         partsOfSpeech: 'adjective',
         example: 'Hitler, like Napoleon, made the imprudent move of invading Russia in winter, suffering even more casualties than Napoleon had.',
@@ -8726,7 +13053,7 @@ export default [
     ],
   },
   {
-    id: 539,
+    id: 848,
     word: 'impudent',
     detail: [
       {
@@ -8740,13 +13067,13 @@ export default [
     ],
   },
   {
-    id: 540,
+    id: 849,
     word: 'impugn',
     detail: [
       {
         meaning: {
           en: 'dispute the truth, validity, or honesty of (a statement or motive); call into question',
-          zh_TW: '',
+          zh_TW: '指責、對...表示懷疑',
         },
         partsOfSpeech: 'verb',
         example: 'the father does not impugn her capacity as a good mother',
@@ -8754,7 +13081,7 @@ export default [
     ],
   },
   {
-    id: 541,
+    id: 850,
     word: 'impute',
     detail: [
       {
@@ -8776,13 +13103,13 @@ export default [
     ],
   },
   {
-    id: 542,
+    id: 851,
     word: 'inadvertent',
     detail: [
       {
         meaning: {
           en: 'not resulting from or achieved through deliberate planning',
-          zh_TW: '',
+          zh_TW: '不注意的、怠慢的',
         },
         partsOfSpeech: 'adjective',
         example: 'an inadvertent administrative error occurred that resulted in an overpayment',
@@ -8790,7 +13117,7 @@ export default [
     ],
   },
   {
-    id: 543,
+    id: 852,
     word: 'inanity',
     detail: [
       {
@@ -8812,7 +13139,7 @@ export default [
     ],
   },
   {
-    id: 544,
+    id: 853,
     word: 'inarticulate',
     detail: [
       {
@@ -8826,7 +13153,7 @@ export default [
     ],
   },
   {
-    id: 545,
+    id: 854,
     word: 'incense',
     detail: [
       {
@@ -8840,13 +13167,13 @@ export default [
     ],
   },
   {
-    id: 546,
+    id: 855,
     word: 'incessant',
     detail: [
       {
         meaning: {
           en: '(of something regarded as unpleasant) continuing without pause or interruption',
-          zh_TW: '',
+          zh_TW: '不停地、連續的、連續不斷的 [類] constant, unremitting [反] sporadic(偶爾發生的)',
         },
         partsOfSpeech: 'adjective',
         example: 'the incessant beat of the music',
@@ -8854,13 +13181,13 @@ export default [
     ],
   },
   {
-    id: 547,
+    id: 856,
     word: 'inchoate',
     detail: [
       {
         meaning: {
           en: 'just begun and so not fully formed or developed; rudimentary',
-          zh_TW: '',
+          zh_TW: '剛開始的、未完的 [類] incipient',
         },
         partsOfSpeech: 'adjective',
         example: 'a still inchoate democracy',
@@ -8876,7 +13203,7 @@ export default [
     ],
   },
   {
-    id: 548,
+    id: 857,
     word: 'incisive',
     detail: [
       {
@@ -8898,7 +13225,21 @@ export default [
     ],
   },
   {
-    id: 549,
+    id: 858,
+    word: 'incisiveness',
+    detail: [
+      {
+        meaning: {
+          en: 'impressively direct and decisive (as in manner or presentation)',
+          zh_TW: '深刻、敏銳',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 859,
     word: 'inclement',
     detail: [
       {
@@ -8912,13 +13253,13 @@ export default [
     ],
   },
   {
-    id: 550,
+    id: 860,
     word: 'incongruous',
     detail: [
       {
         meaning: {
           en: 'lacking in harmony or compatibility or appropriateness',
-          zh_TW: '',
+          zh_TW: '不協調的、不一致的',
         },
         partsOfSpeech: 'adjective',
         example: "The vast economic inequality of modern society is incongruous with America's ideals.",
@@ -8926,7 +13267,21 @@ export default [
     ],
   },
   {
-    id: 551,
+    id: 861,
+    word: 'inconsequential',
+    detail: [
+      {
+        meaning: {
+          en: 'trivial or irrelevant; not important',
+          zh_TW: '不重要的、微不足道的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 862,
     word: 'incontrovertible',
     detail: [
       {
@@ -8940,7 +13295,7 @@ export default [
     ],
   },
   {
-    id: 552,
+    id: 863,
     word: 'incorrigible',
     detail: [
       {
@@ -8954,7 +13309,21 @@ export default [
     ],
   },
   {
-    id: 553,
+    id: 864,
+    word: 'incubate',
+    detail: [
+      {
+        meaning: {
+          en: '(of a bird) sit on (eggs) in order to keep them warm and bring them to hatching',
+          zh_TW: '孵卵、孵化',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 865,
     word: 'incumbent',
     detail: [
       {
@@ -8984,7 +13353,7 @@ export default [
     ],
   },
   {
-    id: 554,
+    id: 866,
     word: 'indecorous',
     detail: [
       {
@@ -8998,7 +13367,7 @@ export default [
     ],
   },
   {
-    id: 555,
+    id: 867,
     word: 'indict',
     detail: [
       {
@@ -9012,7 +13381,7 @@ export default [
     ],
   },
   {
-    id: 556,
+    id: 868,
     word: 'indifference',
     detail: [
       {
@@ -9026,13 +13395,27 @@ export default [
     ],
   },
   {
-    id: 557,
+    id: 869,
+    word: 'indifferent',
+    detail: [
+      {
+        meaning: {
+          en: 'having no interest in sb/sth; neither for nor against sb/sth; not caring about sb/sth',
+          zh_TW: '漠不關心的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 870,
     word: 'indigenous',
     detail: [
       {
         meaning: {
           en: 'originating in a certain area',
-          zh_TW: '',
+          zh_TW: '土產的、本地的、天生的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -9041,7 +13424,7 @@ export default [
     ],
   },
   {
-    id: 558,
+    id: 871,
     word: 'indigent',
     detail: [
       {
@@ -9055,7 +13438,7 @@ export default [
     ],
   },
   {
-    id: 559,
+    id: 872,
     word: 'indignant',
     detail: [
       {
@@ -9069,13 +13452,55 @@ export default [
     ],
   },
   {
-    id: 560,
+    id: 873,
+    word: 'indiscriminate',
+    detail: [
+      {
+        meaning: {
+          en: '(in sth) acting without careful judgement',
+          zh_TW: '不加區別地、無差別的、不分皂白的 [類] a. discriminating 有辨別能力的、有缺別的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 874,
+    word: 'indolent',
+    detail: [
+      {
+        meaning: {
+          en: 'wanting to avoid activity or exertion; lazy',
+          zh_TW: '懶惰的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 875,
+    word: 'indulgent',
+    detail: [
+      {
+        meaning: {
+          en: 'inclined to indulge',
+          zh_TW: '縱容的、溺愛的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 876,
     word: 'industrious',
     detail: [
       {
         meaning: {
           en: 'diligent and hard-working',
-          zh_TW: '',
+          zh_TW: '勤奮的、勤勞的',
         },
         partsOfSpeech: 'adjective',
         example: 'an industrious people striving to make their country prosperous',
@@ -9083,7 +13508,7 @@ export default [
     ],
   },
   {
-    id: 561,
+    id: 877,
     word: 'ineffable',
     detail: [
       {
@@ -9097,7 +13522,7 @@ export default [
     ],
   },
   {
-    id: 562,
+    id: 878,
     word: 'ineluctable',
     detail: [
       {
@@ -9111,7 +13536,21 @@ export default [
     ],
   },
   {
-    id: 563,
+    id: 879,
+    word: 'inept',
+    detail: [
+      {
+        meaning: {
+          en: '(at sth/doing sth) completely unskillful (at sth)',
+          zh_TW: '無能的、不恰當的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 880,
     word: 'inequity',
     detail: [
       {
@@ -9125,13 +13564,27 @@ export default [
     ],
   },
   {
-    id: 564,
+    id: 881,
+    word: 'inert',
+    detail: [
+      {
+        meaning: {
+          en: 'lacking the ability or strength to move',
+          zh_TW: '無生命的、呆滯遲緩的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 882,
     word: 'inexorable',
     detail: [
       {
         meaning: {
           en: 'impossible to stop or prevent',
-          zh_TW: '',
+          zh_TW: '不為所動的、堅決不變的',
         },
         partsOfSpeech: 'adjective',
         example: 'the seemingly inexorable march of new technology',
@@ -9147,13 +13600,27 @@ export default [
     ],
   },
   {
-    id: 565,
+    id: 883,
+    word: 'inexplicable',
+    detail: [
+      {
+        meaning: {
+          en: 'that cannot be explained',
+          zh_TW: '無法說明的、難以理解的、莫名其妙的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 884,
     word: 'infelicitous',
     detail: [
       {
         meaning: {
           en: 'unfortunate; inappropriate',
-          zh_TW: '',
+          zh_TW: '不幸的、不適當的 [類] n. infelicity [反] felicitous',
         },
         partsOfSpeech: 'adjective',
         example: 'his illustration is singularly infelicitous',
@@ -9161,7 +13628,21 @@ export default [
     ],
   },
   {
-    id: 566,
+    id: 885,
+    word: 'infinite',
+    detail: [
+      {
+        meaning: {
+          en: 'without limits; endless',
+          zh_TW: '無限的、無窮的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 886,
     word: 'inflammatory',
     detail: [
       {
@@ -9183,7 +13664,49 @@ export default [
     ],
   },
   {
-    id: 567,
+    id: 887,
+    word: 'inflate',
+    detail: [
+      {
+        meaning: {
+          en: 'sth (with sth) fill (a tire, balloon, etc) with air or gas',
+          zh_TW: '使充氣、使膨脹',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 888,
+    word: 'infuse',
+    detail: [
+      {
+        meaning: {
+          en: 'sth into sb/sth; sb/sth with sth put into sb/sth; fill sb/sth with (a quality)',
+          zh_TW: '灌輸、鼓勵',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 889,
+    word: 'ingenious',
+    detail: [
+      {
+        meaning: {
+          en: '(at sth/doing sth)(of a person) clever at finding new or simple solutions for complex problems',
+          zh_TW: '聰明的、有發明天才的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 890,
     word: 'ingenuity',
     detail: [
       {
@@ -9197,13 +13720,13 @@ export default [
     ],
   },
   {
-    id: 568,
+    id: 891,
     word: 'ingenuous',
     detail: [
       {
         meaning: {
           en: '(of a person or action) innocent and unsuspecting',
-          zh_TW: '',
+          zh_TW: '胸無城府的、率直的',
         },
         partsOfSpeech: 'adjective',
         example: 'he eyed her with wide, ingenuous eyes',
@@ -9211,13 +13734,41 @@ export default [
     ],
   },
   {
-    id: 569,
+    id: 892,
+    word: 'ingest',
+    detail: [
+      {
+        meaning: {
+          en: 'take (food, etc) into the body, typically by swallowing',
+          zh_TW: '嚥下、吞下',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 893,
+    word: 'ingrain',
+    detail: [
+      {
+        meaning: {
+          en: 'firmly fix or establish (a habit, belief, or attitude) in a person',
+          zh_TW: '使...根深蒂固',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 894,
     word: 'ingratiate',
     detail: [
       {
         meaning: {
           en: 'bring oneself into favor with someone by flattering or trying to please them',
-          zh_TW: '',
+          zh_TW: '使得到...歡心、迎合',
         },
         partsOfSpeech: 'verb',
         example: 'a social climber who had tried to ingratiate herself with the city gentry',
@@ -9225,13 +13776,27 @@ export default [
     ],
   },
   {
-    id: 570,
+    id: 895,
+    word: 'inhibited',
+    detail: [
+      {
+        meaning: {
+          en: "(of people) unable to relax or express one's feelings in a natural and spontaneous way",
+          zh_TW: '拘謹的、綁手綁腳的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 896,
     word: 'inimical',
     detail: [
       {
         meaning: {
           en: 'hostile (usually describes conditions or environments)',
-          zh_TW: '',
+          zh_TW: '有敵意的、不合的',
         },
         partsOfSpeech: 'adjective',
         example: 'Venus, with a surface temperature that would turn rubber to liquid, is inimical to any form of life.',
@@ -9239,7 +13804,7 @@ export default [
     ],
   },
   {
-    id: 571,
+    id: 897,
     word: 'inimitable',
     detail: [
       {
@@ -9253,7 +13818,7 @@ export default [
     ],
   },
   {
-    id: 572,
+    id: 898,
     word: 'inkling',
     detail: [
       {
@@ -9267,13 +13832,41 @@ export default [
     ],
   },
   {
-    id: 573,
+    id: 899,
+    word: 'innate',
+    detail: [
+      {
+        meaning: {
+          en: "in one's nature; possessed from birth",
+          zh_TW: '與生俱來的、天生的、固有的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 900,
+    word: 'innocence',
+    detail: [
+      {
+        meaning: {
+          en: 'quality or state of being innocent',
+          zh_TW: '無辜、清白',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 901,
     word: 'innocuous',
     detail: [
       {
         meaning: {
           en: 'harmless and doesn’t produce any ill effects',
-          zh_TW: '',
+          zh_TW: '(行為、言論)無害的',
         },
         partsOfSpeech: 'adjective',
         example: 'Everyone found Nancy’s banter innocuous—except for Mike, who felt like she was intentionally picking on him.',
@@ -9281,13 +13874,55 @@ export default [
     ],
   },
   {
-    id: 574,
+    id: 902,
+    word: 'innovative',
+    detail: [
+      {
+        meaning: {
+          en: 'introducing or using new ideas, techniques, etc',
+          zh_TW: '創新的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 903,
+    word: 'inquisitive',
+    detail: [
+      {
+        meaning: {
+          en: "fond of inquiring into other people's affairs",
+          zh_TW: '好奇的、愛鑽研的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 904,
+    word: 'insatiable',
+    detail: [
+      {
+        meaning: {
+          en: 'that cannot be satisfied; very greedy',
+          zh_TW: '不知足的、貪得無厭的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 905,
     word: 'inscrutable',
     detail: [
       {
         meaning: {
           en: 'impossible to understand or interpret',
-          zh_TW: '',
+          zh_TW: '高深莫測的、神秘的 [類]mysterious',
         },
         partsOfSpeech: 'adjective',
         example: 'Guy looked blankly inscrutable',
@@ -9295,13 +13930,13 @@ export default [
     ],
   },
   {
-    id: 575,
+    id: 906,
     word: 'insidious',
     detail: [
       {
         meaning: {
           en: 'working in a subtle but destructive way',
-          zh_TW: '',
+          zh_TW: '陰險狡詐的',
         },
         partsOfSpeech: 'adjective',
         example: 'Plaque is insidious: we cannot see it, but each day it eats away at our enamel, causing cavities and other dental problems.',
@@ -9309,13 +13944,13 @@ export default [
     ],
   },
   {
-    id: 576,
+    id: 907,
     word: 'insipid',
     detail: [
       {
         meaning: {
           en: 'dull and uninteresting',
-          zh_TW: '',
+          zh_TW: '沒有味道的、清淡的',
         },
         partsOfSpeech: 'adjective',
         example: 'The movie director was known for hiring beautiful actors in order to deflect attention away from the insipid scripts he would typically use.',
@@ -9323,13 +13958,13 @@ export default [
     ],
   },
   {
-    id: 577,
+    id: 908,
     word: 'insolent',
     detail: [
       {
         meaning: {
           en: 'showing a rude and arrogant lack of respect',
-          zh_TW: '',
+          zh_TW: '粗魯無禮的、傲慢的',
         },
         partsOfSpeech: 'adjective',
         example: 'showing a rude and arrogant lack of respect',
@@ -9337,7 +13972,7 @@ export default [
     ],
   },
   {
-    id: 578,
+    id: 909,
     word: 'insolvent',
     detail: [
       {
@@ -9351,13 +13986,13 @@ export default [
     ],
   },
   {
-    id: 579,
+    id: 910,
     word: 'insouciance',
     detail: [
       {
         meaning: {
           en: 'lack of concern',
-          zh_TW: '',
+          zh_TW: '無憂無慮、不注意、不在乎 [類] nonchalance',
         },
         partsOfSpeech: 'noun',
         example:
@@ -9366,7 +14001,21 @@ export default [
     ],
   },
   {
-    id: 580,
+    id: 911,
+    word: 'instigate',
+    detail: [
+      {
+        meaning: {
+          en: 'cause to begin or happen; initiate',
+          zh_TW: '發起、煽動',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 912,
     word: 'insufferable',
     detail: [
       {
@@ -9388,13 +14037,69 @@ export default [
     ],
   },
   {
-    id: 581,
+    id: 913,
+    word: 'insular',
+    detail: [
+      {
+        meaning: {
+          en: 'of an island',
+          zh_TW: '島嶼的、心胸狹窄的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 914,
+    word: 'intelligible',
+    detail: [
+      {
+        meaning: {
+          en: 'that can be understood',
+          zh_TW: '可理解的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 915,
+    word: 'intemperance',
+    detail: [
+      {
+        meaning: {
+          en: 'immoderate action or indulgence, as of the appetites',
+          zh_TW: '放縱、不節制',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 916,
+    word: 'interminable',
+    detail: [
+      {
+        meaning: {
+          en: 'going on too long, and usu therefore annoying or boring',
+          zh_TW: '無盡頭的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 917,
     word: 'intermittent',
     detail: [
       {
         meaning: {
           en: 'occurring at irregular intervals; not continuous or steady',
-          zh_TW: '',
+          zh_TW: '間歇的、時斷時續的',
         },
         partsOfSpeech: 'adjective',
         example: 'intermittent rain',
@@ -9402,7 +14107,7 @@ export default [
     ],
   },
   {
-    id: 582,
+    id: 918,
     word: 'internecine',
     detail: [
       {
@@ -9416,7 +14121,21 @@ export default [
     ],
   },
   {
-    id: 583,
+    id: 919,
+    word: 'interplay',
+    detail: [
+      {
+        meaning: {
+          en: 'way in which two or more things have an effect on each other; interaction',
+          zh_TW: '交互作用、相互影響',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 920,
     word: 'intimate',
     detail: [
       {
@@ -9431,7 +14150,7 @@ export default [
     ],
   },
   {
-    id: 584,
+    id: 921,
     word: 'intimation',
     detail: [
       {
@@ -9446,13 +14165,41 @@ export default [
     ],
   },
   {
-    id: 585,
+    id: 922,
+    word: 'intimidate',
+    detail: [
+      {
+        meaning: {
+          en: 'sb frighten sb (in order to make him do sth)',
+          zh_TW: '威嚇、脅迫',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 923,
+    word: 'intractable',
+    detail: [
+      {
+        meaning: {
+          en: 'not easily controlled or dealt with; hard to manage',
+          zh_TW: '倔強的、難管的 [類] recalcitrant, intransigent [反] tractable, docile',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 924,
     word: 'intransigent',
     detail: [
       {
         meaning: {
           en: "unwilling or refusing to change one's views or to agree about something",
-          zh_TW: '',
+          zh_TW: '不妥協的',
         },
         partsOfSpeech: 'adjective',
         example: 'her father had tried persuasion, but she was intransigent',
@@ -9460,13 +14207,13 @@ export default [
     ],
   },
   {
-    id: 586,
+    id: 925,
     word: 'intrepid',
     detail: [
       {
         meaning: {
           en: 'fearless; adventurous (often used for rhetorical or humorous effect)',
-          zh_TW: '',
+          zh_TW: '無畏的、剛毅的 [類]bold, rave, courageous, dauntless',
         },
         partsOfSpeech: 'adjective',
         example: 'our intrepid reporter',
@@ -9474,7 +14221,49 @@ export default [
     ],
   },
   {
-    id: 587,
+    id: 926,
+    word: 'intricate',
+    detail: [
+      {
+        meaning: {
+          en: 'made up of many small parts put together in a complex way, and therefore difficult to follow or understand',
+          zh_TW: '複雜難懂的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 927,
+    word: 'intrigue',
+    detail: [
+      {
+        meaning: {
+          en: '(against sb) make and carry out secret plans or plots to do sth bad',
+          zh_TW: '密謀、引起極大興趣',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 928,
+    word: 'intrinsic',
+    detail: [
+      {
+        meaning: {
+          en: 'belonging naturally; existing within, not coming form outside',
+          zh_TW: '本質的、固有的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 929,
     word: 'inundate',
     detail: [
       {
@@ -9488,7 +14277,7 @@ export default [
     ],
   },
   {
-    id: 588,
+    id: 930,
     word: 'inundate',
     detail: [
       {
@@ -9510,7 +14299,7 @@ export default [
     ],
   },
   {
-    id: 589,
+    id: 931,
     word: 'inure',
     detail: [
       {
@@ -9532,7 +14321,7 @@ export default [
     ],
   },
   {
-    id: 590,
+    id: 932,
     word: 'invective',
     detail: [
       {
@@ -9546,7 +14335,7 @@ export default [
     ],
   },
   {
-    id: 591,
+    id: 933,
     word: 'inveterate',
     detail: [
       {
@@ -9568,7 +14357,7 @@ export default [
     ],
   },
   {
-    id: 592,
+    id: 934,
     word: 'invidious',
     detail: [
       {
@@ -9582,7 +14371,21 @@ export default [
     ],
   },
   {
-    id: 593,
+    id: 935,
+    word: 'invigorate',
+    detail: [
+      {
+        meaning: {
+          en: 'make feel more lively and healthy',
+          zh_TW: '賦予精神、鼓舞',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 936,
     word: 'inviolable',
     detail: [
       {
@@ -9596,7 +14399,7 @@ export default [
     ],
   },
   {
-    id: 594,
+    id: 937,
     word: 'inviolate',
     detail: [
       {
@@ -9610,7 +14413,7 @@ export default [
     ],
   },
   {
-    id: 595,
+    id: 938,
     word: 'involved',
     detail: [
       {
@@ -9632,13 +14435,13 @@ export default [
     ],
   },
   {
-    id: 596,
+    id: 939,
     word: 'irascible',
     detail: [
       {
         meaning: {
           en: 'having or showing a tendency to be easily angered',
-          zh_TW: '',
+          zh_TW: '易怒的、暴躁的',
         },
         partsOfSpeech: 'adjective',
         example: 'an irascible man',
@@ -9646,7 +14449,21 @@ export default [
     ],
   },
   {
-    id: 597,
+    id: 940,
+    word: 'irenic',
+    detail: [
+      {
+        meaning: {
+          en: 'aiming or aimed at peace',
+          zh_TW: '和平的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 941,
     word: 'irk',
     detail: [
       {
@@ -9660,7 +14477,21 @@ export default [
     ],
   },
   {
-    id: 598,
+    id: 942,
+    word: 'irreconcilable',
+    detail: [
+      {
+        meaning: {
+          en: '(with sb/sth)(of people) that cannot be reconciled',
+          zh_TW: '不能調和的、矛盾的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 943,
     word: 'irrefutable',
     detail: [
       {
@@ -9674,7 +14505,7 @@ export default [
     ],
   },
   {
-    id: 599,
+    id: 944,
     word: 'irresolute',
     detail: [
       {
@@ -9688,13 +14519,13 @@ export default [
     ],
   },
   {
-    id: 600,
+    id: 945,
     word: 'irrevocable',
     detail: [
       {
         meaning: {
           en: 'incapable of being retracted or revoked',
-          zh_TW: '',
+          zh_TW: '不可撤回的、不可取消的',
         },
         partsOfSpeech: 'adjective',
         example: 'Once you enter your plea to the court, it is irrevocable so think carefully about what you will say.',
@@ -9702,29 +14533,21 @@ export default [
     ],
   },
   {
-    id: 601,
+    id: 946,
     word: 'itinerant',
     detail: [
       {
         meaning: {
           en: 'traveling from place to place',
-          zh_TW: '',
+          zh_TW: '巡迴的、遊歷的',
         },
         partsOfSpeech: 'adjective',
         example: 'itinerant traders',
       },
-      {
-        meaning: {
-          en: 'a person who travels from place to place',
-          zh_TW: '',
-        },
-        partsOfSpeech: 'noun',
-        example: '',
-      },
     ],
   },
   {
-    id: 602,
+    id: 947,
     word: 'jargon',
     detail: [
       {
@@ -9738,7 +14561,7 @@ export default [
     ],
   },
   {
-    id: 603,
+    id: 948,
     word: 'jaundiced',
     detail: [
       {
@@ -9753,7 +14576,7 @@ export default [
     ],
   },
   {
-    id: 604,
+    id: 949,
     word: 'jejune',
     detail: [
       {
@@ -9767,7 +14590,21 @@ export default [
     ],
   },
   {
-    id: 605,
+    id: 950,
+    word: 'jeopardize',
+    detail: [
+      {
+        meaning: {
+          en: 'put in danger',
+          zh_TW: '危急',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 951,
     word: 'jingoism',
     detail: [
       {
@@ -9781,7 +14618,7 @@ export default [
     ],
   },
   {
-    id: 606,
+    id: 952,
     word: 'jocular',
     detail: [
       {
@@ -9795,7 +14632,7 @@ export default [
     ],
   },
   {
-    id: 607,
+    id: 953,
     word: 'jovial',
     detail: [
       {
@@ -9809,7 +14646,7 @@ export default [
     ],
   },
   {
-    id: 608,
+    id: 954,
     word: 'jubilant',
     detail: [
       {
@@ -9823,7 +14660,35 @@ export default [
     ],
   },
   {
-    id: 609,
+    id: 955,
+    word: 'jubilation',
+    detail: [
+      {
+        meaning: {
+          en: 'great happiness, esp because of a success',
+          zh_TW: '歡慶、慶祝活動',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 956,
+    word: 'judicious',
+    detail: [
+      {
+        meaning: {
+          en: 'showing or having good sense',
+          zh_TW: '有判斷力的、明智的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 957,
     word: 'juggernaut',
     detail: [
       {
@@ -9838,7 +14703,7 @@ export default [
     ],
   },
   {
-    id: 610,
+    id: 958,
     word: 'junta',
     detail: [
       {
@@ -9852,13 +14717,41 @@ export default [
     ],
   },
   {
-    id: 611,
+    id: 959,
+    word: 'justify',
+    detail: [
+      {
+        meaning: {
+          en: 'show that (sb/sth) is right, reasonable or just',
+          zh_TW: '證明...是正當的、為...辯護、是...的正當理由',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 960,
+    word: 'juvenile',
+    detail: [
+      {
+        meaning: {
+          en: 'young person who is not yet adult',
+          zh_TW: '少年的、似少年的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 961,
     word: 'juxtapose',
     detail: [
       {
         meaning: {
           en: 'place or deal with close together for contrasting effect',
-          zh_TW: '',
+          zh_TW: '並排、並置',
         },
         partsOfSpeech: 'verb',
         example: 'black-and-white photos of slums were starkly juxtaposed with color images',
@@ -9866,7 +14759,7 @@ export default [
     ],
   },
   {
-    id: 612,
+    id: 962,
     word: 'kowtow',
     detail: [
       {
@@ -9880,7 +14773,7 @@ export default [
     ],
   },
   {
-    id: 613,
+    id: 963,
     word: 'laborious',
     detail: [
       {
@@ -9902,7 +14795,7 @@ export default [
     ],
   },
   {
-    id: 614,
+    id: 964,
     word: 'lacerate',
     detail: [
       {
@@ -9916,7 +14809,7 @@ export default [
     ],
   },
   {
-    id: 615,
+    id: 965,
     word: 'lachrymose',
     detail: [
       {
@@ -9930,13 +14823,27 @@ export default [
     ],
   },
   {
-    id: 616,
+    id: 966,
+    word: 'lackluster',
+    detail: [
+      {
+        meaning: {
+          en: 'lacking brilliance or vitality; lacking luster or shine',
+          zh_TW: '無光澤的、呆滯的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 967,
     word: 'laconic',
     detail: [
       {
         meaning: {
           en: 'one who says very few words',
-          zh_TW: '',
+          zh_TW: '簡短的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -9945,7 +14852,7 @@ export default [
     ],
   },
   {
-    id: 617,
+    id: 968,
     word: 'lambast',
     detail: [
       {
@@ -9959,7 +14866,35 @@ export default [
     ],
   },
   {
-    id: 618,
+    id: 969,
+    word: 'lambaste',
+    detail: [
+      {
+        meaning: {
+          en: 'hit (sb) hard and repeatedly; thrash',
+          zh_TW: '痛打、痛罵',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 970,
+    word: 'lament',
+    detail: [
+      {
+        meaning: {
+          en: '(for/ over sb/sth) feel or espress great sorrow or regret for (sth/sb)',
+          zh_TW: '抱怨、哀悼、悲嘆 [類] mourn, deplore, wail',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 971,
     word: 'lampoon',
     detail: [
       {
@@ -9973,7 +14908,7 @@ export default [
     ],
   },
   {
-    id: 619,
+    id: 972,
     word: 'languid',
     detail: [
       {
@@ -9987,7 +14922,7 @@ export default [
     ],
   },
   {
-    id: 620,
+    id: 973,
     word: 'languish',
     detail: [
       {
@@ -10001,7 +14936,7 @@ export default [
     ],
   },
   {
-    id: 621,
+    id: 974,
     word: 'largess',
     detail: [
       {
@@ -10023,7 +14958,7 @@ export default [
     ],
   },
   {
-    id: 622,
+    id: 975,
     word: 'lascivious',
     detail: [
       {
@@ -10038,7 +14973,21 @@ export default [
     ],
   },
   {
-    id: 623,
+    id: 976,
+    word: 'latent',
+    detail: [
+      {
+        meaning: {
+          en: 'existing but not yet active, developed or visible',
+          zh_TW: '潛伏的、潛在的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 977,
     word: 'laudable',
     detail: [
       {
@@ -10052,7 +15001,63 @@ export default [
     ],
   },
   {
-    id: 624,
+    id: 978,
+    word: 'lavish',
+    detail: [
+      {
+        meaning: {
+          en: '(in doing sth) giving or producing generously or in large quantities',
+          zh_TW: '大方的、慷慨給予的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 979,
+    word: 'lax',
+    detail: [
+      {
+        meaning: {
+          en: 'not sufficiently strict or severe; negligent',
+          zh_TW: '鬆散的、不嚴格的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 980,
+    word: 'lay out',
+    detail: [
+      {
+        meaning: {
+          en: 'spend money',
+          zh_TW: '花錢',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 981,
+    word: 'layperson',
+    detail: [
+      {
+        meaning: {
+          en: 'a nonordained member of a church',
+          zh_TW: '門外漢、外行',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 982,
     word: 'leery',
     detail: [
       {
@@ -10066,13 +15071,41 @@ export default [
     ],
   },
   {
-    id: 625,
+    id: 983,
+    word: 'legitimate',
+    detail: [
+      {
+        meaning: {
+          en: 'in accordance with the law or rules; lawful',
+          zh_TW: '合法的、正當的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 984,
+    word: 'lethal',
+    detail: [
+      {
+        meaning: {
+          en: 'causing or able to cause death',
+          zh_TW: '致命的、危險的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 985,
     word: 'lethargic',
     detail: [
       {
         meaning: {
           en: 'lacking energy',
-          zh_TW: '',
+          zh_TW: '瞌睡的、愛睡的',
         },
         partsOfSpeech: 'adjective',
         example: 'Nothing can make a person more lethargic than a big turkey dinner.',
@@ -10080,7 +15113,21 @@ export default [
     ],
   },
   {
-    id: 626,
+    id: 986,
+    word: 'levity',
+    detail: [
+      {
+        meaning: {
+          en: 'lack of proper seriousness or respect',
+          zh_TW: '輕率、輕浮',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 987,
     word: 'limpid',
     detail: [
       {
@@ -10094,7 +15141,7 @@ export default [
     ],
   },
   {
-    id: 627,
+    id: 988,
     word: 'lionize',
     detail: [
       {
@@ -10108,7 +15155,7 @@ export default [
     ],
   },
   {
-    id: 628,
+    id: 989,
     word: 'litany',
     detail: [
       {
@@ -10130,7 +15177,7 @@ export default [
     ],
   },
   {
-    id: 629,
+    id: 990,
     word: 'loath',
     detail: [
       {
@@ -10144,13 +15191,69 @@ export default [
     ],
   },
   {
-    id: 630,
+    id: 991,
+    word: 'loathe',
+    detail: [
+      {
+        meaning: {
+          en: 'feel great hatred or disgust for (sb/sth)',
+          zh_TW: '痛恨',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 992,
+    word: 'locus',
+    detail: [
+      {
+        meaning: {
+          en: 'exact place of sth',
+          zh_TW: '地點、所在地',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 993,
+    word: 'lopsided',
+    detail: [
+      {
+        meaning: {
+          en: 'with one side lower or smaller than the other',
+          zh_TW: '傾向一邊的、不平衡的；一面倒的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 994,
+    word: 'loquacious',
+    detail: [
+      {
+        meaning: {
+          en: 'fond talking; talkative',
+          zh_TW: '多話的、非常健談的 [類] garrulous, talkative [反] laconic, reticent, taciturn',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 995,
     word: 'lucid',
     detail: [
       {
         meaning: {
           en: 'expressed clearly; easy to understand',
-          zh_TW: '',
+          zh_TW: '清楚易懂的、明晰的、清澈的 [類] limpid',
         },
         partsOfSpeech: 'adjective',
         example: 'a lucid account',
@@ -10166,13 +15269,41 @@ export default [
     ],
   },
   {
-    id: 631,
+    id: 996,
+    word: 'lucrative',
+    detail: [
+      {
+        meaning: {
+          en: 'producing much money; profitable',
+          zh_TW: '賺錢的、有利可圖的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 997,
+    word: 'ludicrous',
+    detail: [
+      {
+        meaning: {
+          en: 'causing laughter; ridiculous; absurd',
+          zh_TW: '滑稽的、荒唐可笑的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 998,
     word: 'lugubrious',
     detail: [
       {
         meaning: {
           en: 'looking or sounding sad and dismal',
-          zh_TW: '',
+          zh_TW: '悲傷的(尤指誇張地)、憂鬱的',
         },
         partsOfSpeech: 'adjective',
         example: 'his face looked even more lugubrious than usual',
@@ -10180,7 +15311,49 @@ export default [
     ],
   },
   {
-    id: 632,
+    id: 999,
+    word: 'lurid',
+    detail: [
+      {
+        meaning: {
+          en: 'having bright glaring colours or combinations of colour',
+          zh_TW: '聳人聽聞的、可怕的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1000,
+    word: 'lurid',
+    detail: [
+      {
+        meaning: {
+          en: 'having bright glaring colors or combinations of color',
+          zh_TW: '可怕的、恐怖的、火紅的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1001,
+    word: 'luxuriant',
+    detail: [
+      {
+        meaning: {
+          en: 'growing thickly and strongly; lush',
+          zh_TW: '繁茂的、肥沃的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1002,
     word: 'macabre',
     detail: [
       {
@@ -10194,7 +15367,7 @@ export default [
     ],
   },
   {
-    id: 633,
+    id: 1003,
     word: 'machinate',
     detail: [
       {
@@ -10208,7 +15381,7 @@ export default [
     ],
   },
   {
-    id: 634,
+    id: 1004,
     word: 'magisterial',
     detail: [
       {
@@ -10230,13 +15403,13 @@ export default [
     ],
   },
   {
-    id: 635,
+    id: 1005,
     word: 'magnanimous',
     detail: [
       {
         meaning: {
           en: 'noble and generous in spirit, especially towards a rival or someone less powerful',
-          zh_TW: '',
+          zh_TW: '寬大的、有雅量的',
         },
         partsOfSpeech: 'adjective',
         example: 'He was a great sportsman: in defeat he was complimentary and in victory he was magnanimous.',
@@ -10244,13 +15417,13 @@ export default [
     ],
   },
   {
-    id: 636,
+    id: 1006,
     word: 'maintain',
     detail: [
       {
         meaning: {
           en: 'cause or enable (a condition or state of affairs) to continue',
-          zh_TW: '',
+          zh_TW: '堅持、主張',
         },
         partsOfSpeech: 'verb',
         example: 'the need to maintain close links between industry and schools',
@@ -10258,7 +15431,7 @@ export default [
       {
         meaning: {
           en: 'provide with necessities for life or existence',
-          zh_TW: '',
+          zh_TW: '維護、維持',
         },
         partsOfSpeech: 'verb',
         example: 'the allowance covers the basic costs of maintaining a child',
@@ -10266,7 +15439,7 @@ export default [
     ],
   },
   {
-    id: 637,
+    id: 1007,
     word: 'maladroit',
     detail: [
       {
@@ -10280,13 +15453,13 @@ export default [
     ],
   },
   {
-    id: 638,
+    id: 1008,
     word: 'malady',
     detail: [
       {
         meaning: {
           en: 'a disease or ailment',
-          zh_TW: '',
+          zh_TW: '病、疾病',
         },
         partsOfSpeech: 'noun',
         example: 'an incurable malady',
@@ -10294,7 +15467,7 @@ export default [
     ],
   },
   {
-    id: 639,
+    id: 1009,
     word: 'malapropism',
     detail: [
       {
@@ -10309,13 +15482,13 @@ export default [
     ],
   },
   {
-    id: 640,
+    id: 1010,
     word: 'malevolent',
     detail: [
       {
         meaning: {
           en: 'having or showing a wish to do evil to others',
-          zh_TW: '',
+          zh_TW: '有惡意的、惡毒的',
         },
         partsOfSpeech: 'adjective',
         example: 'the glint of dark, malevolent eyes',
@@ -10323,13 +15496,13 @@ export default [
     ],
   },
   {
-    id: 641,
+    id: 1011,
     word: 'malfeasance',
     detail: [
       {
         meaning: {
           en: 'wrongdoing, especially by a public official',
-          zh_TW: '',
+          zh_TW: '不法行為、瀆職',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -10337,7 +15510,21 @@ export default [
     ],
   },
   {
-    id: 642,
+    id: 1012,
+    word: 'malign',
+    detail: [
+      {
+        meaning: {
+          en: 'say unpleasant or untrue things about',
+          zh_TW: '(a)惡意的、(v)誹謗',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1013,
     word: 'malingerer',
     detail: [
       {
@@ -10352,13 +15539,13 @@ export default [
     ],
   },
   {
-    id: 643,
+    id: 1014,
     word: 'malleable',
     detail: [
       {
         meaning: {
           en: '(of a metal or other material) able to be hammered or pressed permanently out of shape without breaking or cracking',
-          zh_TW: '',
+          zh_TW: '可塑的、展延的',
         },
         partsOfSpeech: 'adjective',
         example: 'a malleable metal can be beaten into a sheet',
@@ -10366,13 +15553,13 @@ export default [
     ],
   },
   {
-    id: 644,
+    id: 1015,
     word: 'malodorous',
     detail: [
       {
         meaning: {
           en: 'having an unpleasant smell',
-          zh_TW: '',
+          zh_TW: '惡臭的',
         },
         partsOfSpeech: 'adjective',
         example: 'Some thermally active fountains spew sulfur fumes--the air around them is sometimes so malodorous that many have to plug their noses.',
@@ -10380,7 +15567,63 @@ export default [
     ],
   },
   {
-    id: 645,
+    id: 1016,
+    word: 'mandate',
+    detail: [
+      {
+        meaning: {
+          en: '(to do sth) authority given to a party, trade union, etc by the people who support it',
+          zh_TW: '命令、指令 [類] a. mandatory',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1017,
+    word: 'mandatory',
+    detail: [
+      {
+        meaning: {
+          en: 'required by law; compulsory',
+          zh_TW: '命令的、強迫的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1018,
+    word: 'manipulate',
+    detail: [
+      {
+        meaning: {
+          en: 'control or handle with skill',
+          zh_TW: '(熟練的)操作、運用',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1019,
+    word: 'manuscript',
+    detail: [
+      {
+        meaning: {
+          en: 'thing written by hand, not typed or printed',
+          zh_TW: '手寫的、原稿的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1020,
     word: 'martial',
     detail: [
       {
@@ -10395,7 +15638,7 @@ export default [
     ],
   },
   {
-    id: 646,
+    id: 1021,
     word: 'martinet',
     detail: [
       {
@@ -10409,7 +15652,7 @@ export default [
     ],
   },
   {
-    id: 647,
+    id: 1022,
     word: 'maudlin',
     detail: [
       {
@@ -10423,7 +15666,7 @@ export default [
     ],
   },
   {
-    id: 648,
+    id: 1023,
     word: 'maunder',
     detail: [
       {
@@ -10445,7 +15688,7 @@ export default [
     ],
   },
   {
-    id: 649,
+    id: 1024,
     word: 'maverick',
     detail: [
       {
@@ -10459,7 +15702,7 @@ export default [
     ],
   },
   {
-    id: 650,
+    id: 1025,
     word: 'mawkish',
     detail: [
       {
@@ -10473,7 +15716,7 @@ export default [
     ],
   },
   {
-    id: 651,
+    id: 1026,
     word: 'maxim',
     detail: [
       {
@@ -10488,7 +15731,7 @@ export default [
     ],
   },
   {
-    id: 652,
+    id: 1027,
     word: 'meander',
     detail: [
       {
@@ -10503,7 +15746,35 @@ export default [
     ],
   },
   {
-    id: 653,
+    id: 1028,
+    word: 'mediate',
+    detail: [
+      {
+        meaning: {
+          en: 'act as a peacemaker or go-between for two or more people, groups, etc who disagree',
+          zh_TW: '調停解決',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1029,
+    word: 'mediocre',
+    detail: [
+      {
+        meaning: {
+          en: 'not very good; second-rate',
+          zh_TW: '平凡的、平庸的 [類] common',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1030,
     word: 'melancholy',
     detail: [
       {
@@ -10525,7 +15796,7 @@ export default [
     ],
   },
   {
-    id: 654,
+    id: 1031,
     word: 'melee',
     detail: [
       {
@@ -10539,7 +15810,7 @@ export default [
     ],
   },
   {
-    id: 655,
+    id: 1032,
     word: 'mellifluous',
     detail: [
       {
@@ -10553,7 +15824,35 @@ export default [
     ],
   },
   {
-    id: 656,
+    id: 1033,
+    word: 'menacing',
+    detail: [
+      {
+        meaning: {
+          en: 'suggesting the presence of danger; threatening',
+          zh_TW: '威脅的、不詳的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1034,
+    word: 'mendacious',
+    detail: [
+      {
+        meaning: {
+          en: 'untruthful; lying',
+          zh_TW: '虛偽的、說謊的 [類] n. mendacity 虛偽',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1035,
     word: 'mendacity',
     detail: [
       {
@@ -10567,7 +15866,7 @@ export default [
     ],
   },
   {
-    id: 657,
+    id: 1036,
     word: 'mendicant',
     detail: [
       {
@@ -10581,13 +15880,27 @@ export default [
     ],
   },
   {
-    id: 658,
+    id: 1037,
+    word: 'mentor',
+    detail: [
+      {
+        meaning: {
+          en: 'experienced and trusted adviser of an inexperienced person',
+          zh_TW: '導師',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1038,
     word: 'mercurial',
     detail: [
       {
         meaning: {
           en: '(of a person) subject to sudden or unpredictable changes of mood or mind',
-          zh_TW: '',
+          zh_TW: '反覆無常的',
         },
         partsOfSpeech: 'adjective',
         example: 'his mercurial temperament',
@@ -10603,7 +15916,7 @@ export default [
     ],
   },
   {
-    id: 659,
+    id: 1039,
     word: 'mesmerize',
     detail: [
       {
@@ -10618,7 +15931,21 @@ export default [
     ],
   },
   {
-    id: 660,
+    id: 1040,
+    word: 'metaphor',
+    detail: [
+      {
+        meaning: {
+          en: 'use of a word or phrase to indicate sth different from (though related in some way to) the literal meaning',
+          zh_TW: '隱喻 [類] adj. metaphorical',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1041,
     word: 'meteoric',
     detail: [
       {
@@ -10640,13 +15967,13 @@ export default [
     ],
   },
   {
-    id: 661,
+    id: 1042,
     word: 'meticulous',
     detail: [
       {
         meaning: {
           en: 'showing great attention to detail; very careful and precise',
-          zh_TW: '',
+          zh_TW: '小心翼翼地、一絲不苟的',
         },
         partsOfSpeech: 'adjective',
         example: 'he had always been so meticulous about his appearance',
@@ -10654,7 +15981,7 @@ export default [
     ],
   },
   {
-    id: 662,
+    id: 1043,
     word: 'mettlesome',
     detail: [
       {
@@ -10668,7 +15995,21 @@ export default [
     ],
   },
   {
-    id: 663,
+    id: 1044,
+    word: 'mire',
+    detail: [
+      {
+        meaning: {
+          en: 'swampy ground or bog; soft deep mud',
+          zh_TW: 'n. 泥淖、污泥 v. 使陷入困境',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1045,
     word: 'misanthrope',
     detail: [
       {
@@ -10682,13 +16023,27 @@ export default [
     ],
   },
   {
-    id: 664,
+    id: 1046,
+    word: 'misapprehension',
+    detail: [
+      {
+        meaning: {
+          en: 'under a misapprehension not understanding correctly',
+          zh_TW: '誤會、誤解',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1047,
     word: 'misconstrue',
     detail: [
       {
         meaning: {
           en: "interpret (something, especially a person's words or actions) wrongly",
-          zh_TW: '',
+          zh_TW: '曲解、誤解',
         },
         partsOfSpeech: 'verb',
         example: 'my advice was deliberately misconstrued',
@@ -10696,7 +16051,7 @@ export default [
     ],
   },
   {
-    id: 665,
+    id: 1048,
     word: 'miscreant',
     detail: [
       {
@@ -10718,7 +16073,7 @@ export default [
     ],
   },
   {
-    id: 666,
+    id: 1049,
     word: 'miser',
     detail: [
       {
@@ -10732,7 +16087,21 @@ export default [
     ],
   },
   {
-    id: 667,
+    id: 1050,
+    word: 'misnomer',
+    detail: [
+      {
+        meaning: {
+          en: 'wrong use of a name, word or description',
+          zh_TW: '人名誤載、寫錯姓名',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1051,
     word: 'misogynist',
     detail: [
       {
@@ -10754,13 +16123,27 @@ export default [
     ],
   },
   {
-    id: 668,
+    id: 1052,
+    word: 'mitigant',
+    detail: [
+      {
+        meaning: {
+          en: 'a means of easing, lessening or assuaging',
+          zh_TW: '緩和的、減輕的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1053,
     word: 'mitigate',
     detail: [
       {
         meaning: {
           en: 'make less severe or harsh',
-          zh_TW: '',
+          zh_TW: '使緩和、減輕',
         },
         partsOfSpeech: 'verb',
         example: 'I can only spend so much time mitigating your disagreements with your wife, and at certain point, you need to do it on your own.',
@@ -10768,7 +16151,21 @@ export default [
     ],
   },
   {
-    id: 669,
+    id: 1054,
+    word: 'moderate',
+    detail: [
+      {
+        meaning: {
+          en: 'average in amount, intensity, quality, etc; not extreme',
+          zh_TW: '適度的、有節制的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1055,
     word: 'modicum',
     detail: [
       {
@@ -10782,13 +16179,13 @@ export default [
     ],
   },
   {
-    id: 670,
+    id: 1056,
     word: 'mollify',
     detail: [
       {
         meaning: {
           en: 'appease the anger or anxiety of (someone)',
-          zh_TW: '',
+          zh_TW: '緩和、減輕、使安靜',
         },
         partsOfSpeech: 'verb',
         example: 'nature reserves were set up around the power stations to mollify local conservationists',
@@ -10796,7 +16193,35 @@ export default [
     ],
   },
   {
-    id: 671,
+    id: 1057,
+    word: 'momentary',
+    detail: [
+      {
+        meaning: {
+          en: 'lasting for a very short time',
+          zh_TW: '瞬間的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1058,
+    word: 'monotonous',
+    detail: [
+      {
+        meaning: {
+          en: 'not changing and therefore uninteresting; boring or tedious',
+          zh_TW: '單調的、無聊的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1059,
     word: 'moot',
     detail: [
       {
@@ -10811,13 +16236,27 @@ export default [
     ],
   },
   {
-    id: 672,
+    id: 1060,
+    word: 'moralistic',
+    detail: [
+      {
+        meaning: {
+          en: 'having or showing definite but narrow beliefs and judgements about right and wrong actions',
+          zh_TW: '說教的、教訓的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1061,
     word: 'mordant',
     detail: [
       {
         meaning: {
           en: 'biting and caustic in thought, manner, or style',
-          zh_TW: '',
+          zh_TW: '諷刺的、尖酸的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -10826,20 +16265,20 @@ export default [
     ],
   },
   {
-    id: 673,
+    id: 1062,
     word: 'moribund',
     detail: [
       {
         meaning: {
           en: '(of a person) at the point of death',
-          zh_TW: '',
+          zh_TW: '即將結束的、垂死的',
         },
         partsOfSpeech: 'adjective',
         example: 'on examination she was moribund and dehydrated',
       },
       {
         meaning: {
-          en: 'on examination she was moribund and dehydrate',
+          en: '(of a thing) in terminal decline; lacking vitality or vigor',
           zh_TW: '',
         },
         partsOfSpeech: 'adjective',
@@ -10848,7 +16287,7 @@ export default [
     ],
   },
   {
-    id: 674,
+    id: 1063,
     word: 'morose',
     detail: [
       {
@@ -10862,7 +16301,7 @@ export default [
     ],
   },
   {
-    id: 675,
+    id: 1064,
     word: 'morph',
     detail: [
       {
@@ -10877,7 +16316,7 @@ export default [
     ],
   },
   {
-    id: 676,
+    id: 1065,
     word: 'mulct',
     detail: [
       {
@@ -10899,13 +16338,27 @@ export default [
     ],
   },
   {
-    id: 677,
+    id: 1066,
+    word: 'multifaceted',
+    detail: [
+      {
+        meaning: {
+          en: 'having many facets',
+          zh_TW: '多面向的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1067,
     word: 'mundane',
     detail: [
       {
         meaning: {
           en: 'lacking interest or excitement; dull',
-          zh_TW: '',
+          zh_TW: '平凡的、乏味的',
         },
         partsOfSpeech: 'adjective',
         example: 'seeking a way out of his mundane, humdrum existence',
@@ -10921,13 +16374,13 @@ export default [
     ],
   },
   {
-    id: 678,
+    id: 1068,
     word: 'munificent',
     detail: [
       {
         meaning: {
           en: '(of a gift or sum of money) larger or more generous than is usual or necessary',
-          zh_TW: '',
+          zh_TW: '寬宏的、慷慨的',
         },
         partsOfSpeech: 'adjective',
         example: 'a munificent gesture',
@@ -10935,7 +16388,7 @@ export default [
     ],
   },
   {
-    id: 679,
+    id: 1069,
     word: 'muted',
     detail: [
       {
@@ -10949,7 +16402,7 @@ export default [
     ],
   },
   {
-    id: 680,
+    id: 1070,
     word: 'myopic',
     detail: [
       {
@@ -10963,7 +16416,7 @@ export default [
     ],
   },
   {
-    id: 681,
+    id: 1071,
     word: 'myriad',
     detail: [
       {
@@ -10985,7 +16438,7 @@ export default [
     ],
   },
   {
-    id: 682,
+    id: 1072,
     word: 'nadir',
     detail: [
       {
@@ -10999,13 +16452,83 @@ export default [
     ],
   },
   {
-    id: 683,
+    id: 1073,
+    word: 'nascent',
+    detail: [
+      {
+        meaning: {
+          en: 'beginning to exist; not yet well developed',
+          zh_TW: '初生的、萌芽的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1074,
+    word: 'natal',
+    detail: [
+      {
+        meaning: {
+          en: "relating to the place or time of one's birth",
+          zh_TW: '出生的、出生時的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1075,
+    word: 'nebulous',
+    detail: [
+      {
+        meaning: {
+          en: 'cloud like; hazy',
+          zh_TW: '模糊的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1076,
+    word: 'negate',
+    detail: [
+      {
+        meaning: {
+          en: 'deny or disprove the existence of (sb/sth)',
+          zh_TW: '取消、否認',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1077,
+    word: 'negligent',
+    detail: [
+      {
+        meaning: {
+          en: 'not giving proper attention or care to sth; careless',
+          zh_TW: '疏忽的、粗心的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1078,
     word: 'negligible',
     detail: [
       {
         meaning: {
           en: 'so small as to be meaningless; insignificant',
-          zh_TW: '',
+          zh_TW: '可以忽略的、微不足道的',
         },
         partsOfSpeech: 'adjective',
         example: 'The GRE tests cumulative knowledge, so if you cram the night before it is, at best, likely to only have a negligible impact on your score.',
@@ -11013,7 +16536,7 @@ export default [
     ],
   },
   {
-    id: 684,
+    id: 1079,
     word: 'nettlesome',
     detail: [
       {
@@ -11027,7 +16550,21 @@ export default [
     ],
   },
   {
-    id: 685,
+    id: 1080,
+    word: 'neutral',
+    detail: [
+      {
+        meaning: {
+          en: 'not supporting or helping either side in a dispute, contest, war, etc; impartial',
+          zh_TW: '中立的、中立國的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1081,
     word: 'noisome',
     detail: [
       {
@@ -11041,13 +16578,13 @@ export default [
     ],
   },
   {
-    id: 686,
+    id: 1082,
     word: 'nonchalant',
     detail: [
       {
         meaning: {
           en: '(of a person or manner) feeling or appearing casually calm and relaxed; not displaying anxiety, interest, or enthusiasm',
-          zh_TW: '',
+          zh_TW: '無憂無慮的、漠不關心的',
         },
         partsOfSpeech: 'adjective',
         example: 'she gave a nonchalant shrug',
@@ -11055,7 +16592,7 @@ export default [
     ],
   },
   {
-    id: 687,
+    id: 1083,
     word: 'nonplussed',
     detail: [
       {
@@ -11069,7 +16606,105 @@ export default [
     ],
   },
   {
-    id: 688,
+    id: 1084,
+    word: 'normative',
+    detail: [
+      {
+        meaning: {
+          en: 'describing or setting standards or rules of language, behavior, etc, which should be followed',
+          zh_TW: '合乎規範的、按規定準則的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1085,
+    word: 'nostalgia',
+    detail: [
+      {
+        meaning: {
+          en: 'sentimental longing for things that are past',
+          zh_TW: '思鄉病',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1086,
+    word: 'nostalgia',
+    detail: [
+      {
+        meaning: {
+          en: 'sentimental longing for things that are past',
+          zh_TW: '鄉愁',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1087,
+    word: 'notoriety',
+    detail: [
+      {
+        meaning: {
+          en: 'fame for being bad in some way',
+          zh_TW: '惡名昭彰、聲名狼藉',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1088,
+    word: 'novelty',
+    detail: [
+      {
+        meaning: {
+          en: 'quality of being novel; newness; strangeness',
+          zh_TW: '新奇、新奇的事物',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1089,
+    word: 'novice',
+    detail: [
+      {
+        meaning: {
+          en: 'person who is new and inexperienced in a job, situation, etc; beginner',
+          zh_TW: '新手、初學者',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1090,
+    word: 'noxious',
+    detail: [
+      {
+        meaning: {
+          en: 'harmful; poisonous',
+          zh_TW: '有害的、有毒的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1091,
     word: 'nuance',
     detail: [
       {
@@ -11083,13 +16718,13 @@ export default [
     ],
   },
   {
-    id: 689,
+    id: 1092,
     word: 'obdurate',
     detail: [
       {
         meaning: {
           en: "stubbornly refusing to change one's opinion or course of action",
-          zh_TW: '',
+          zh_TW: '固執的、頑固的',
         },
         partsOfSpeech: 'adjective',
         example: 'I argued this point with him, but he was obdurate',
@@ -11097,7 +16732,35 @@ export default [
     ],
   },
   {
-    id: 690,
+    id: 1093,
+    word: 'obfuscate',
+    detail: [
+      {
+        meaning: {
+          en: '(deliberately) make (sth) confused or difficult to understand',
+          zh_TW: '使困惑、使迷糊',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1094,
+    word: 'objective',
+    detail: [
+      {
+        meaning: {
+          en: 'not influenced by personal feelings or opinions; unbiased; fair',
+          zh_TW: '客觀的 [類] n. objectivity',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1095,
     word: 'objurgate',
     detail: [
       {
@@ -11111,7 +16774,7 @@ export default [
     ],
   },
   {
-    id: 691,
+    id: 1096,
     word: 'obliging',
     detail: [
       {
@@ -11149,13 +16812,13 @@ export default [
     ],
   },
   {
-    id: 692,
+    id: 1097,
     word: 'oblique',
     detail: [
       {
         meaning: {
           en: 'neither parallel nor at a right angle to a specified or implied line; slanting',
-          zh_TW: '',
+          zh_TW: '斜的、間接的',
         },
         partsOfSpeech: 'adjective',
         example: 'we sat on the settee oblique to the fireplace',
@@ -11163,7 +16826,7 @@ export default [
       {
         meaning: {
           en: 'not explicit or direct in addressing a point',
-          zh_TW: '',
+          zh_TW: '不坦率的',
         },
         partsOfSpeech: 'adjective',
         example: 'is he making an oblique attack on his colleague?',
@@ -11171,7 +16834,21 @@ export default [
     ],
   },
   {
-    id: 693,
+    id: 1098,
+    word: 'oblivious',
+    detail: [
+      {
+        meaning: {
+          en: 'of/to sth unaware of or not noticing sth; having no memory of sth',
+          zh_TW: '未察覺的、健忘的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1099,
     word: 'obscure',
     detail: [
       {
@@ -11186,13 +16863,13 @@ export default [
     ],
   },
   {
-    id: 694,
+    id: 1100,
     word: 'obsequious',
     detail: [
       {
         meaning: {
           en: 'obedient or attentive to an excessive or servile degree',
-          zh_TW: '',
+          zh_TW: '逢迎的、諂媚的 [類] fawning',
         },
         partsOfSpeech: 'adjective',
         example: 'they were served by obsequious waiters',
@@ -11200,13 +16877,41 @@ export default [
     ],
   },
   {
-    id: 695,
+    id: 1101,
+    word: 'observant',
+    detail: [
+      {
+        meaning: {
+          en: 'adhering strictly to the rules of a particular religion',
+          zh_TW: '嚴格遵守⋯的、注意的、當心的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1102,
+    word: 'obsolescent',
+    detail: [
+      {
+        meaning: {
+          en: 'becoming out of date,; going out of use',
+          zh_TW: '逐漸被廢棄的、即將過時的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1103,
     word: 'obstinate',
     detail: [
       {
         meaning: {
           en: 'resistant to guidance or discipline; stubbornly persistent',
-          zh_TW: '',
+          zh_TW: '固執的、倔強的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -11215,7 +16920,7 @@ export default [
     ],
   },
   {
-    id: 696,
+    id: 1104,
     word: 'obstreperous',
     detail: [
       {
@@ -11230,7 +16935,7 @@ export default [
     ],
   },
   {
-    id: 697,
+    id: 1105,
     word: 'obtain',
     detail: [
       {
@@ -11252,7 +16957,21 @@ export default [
     ],
   },
   {
-    id: 698,
+    id: 1106,
+    word: 'obtrude',
+    detail: [
+      {
+        meaning: {
+          en: "(on/upon sb/sth)(fml) force (oneself, one's opinions, ideas, etc) upon sb/sth, esp when unwanted",
+          zh_TW: '突出、強加',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1107,
     word: 'obtuse',
     detail: [
       {
@@ -11266,7 +16985,35 @@ export default [
     ],
   },
   {
-    id: 699,
+    id: 1108,
+    word: 'obviate',
+    detail: [
+      {
+        meaning: {
+          en: 'remove (sth); get rid of',
+          zh_TW: '排除、消除(困難)',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1109,
+    word: 'odoriferous',
+    detail: [
+      {
+        meaning: {
+          en: 'giving off an order',
+          zh_TW: '有味道的、臭的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1110,
     word: 'officious',
     detail: [
       {
@@ -11288,13 +17035,69 @@ export default [
     ],
   },
   {
-    id: 700,
+    id: 1111,
+    word: 'ominous',
+    detail: [
+      {
+        meaning: {
+          en: 'suggesting that sth bad is about to happen; threatening',
+          zh_TW: '預兆的、不詳的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1112,
+    word: 'omnipotent',
+    detail: [
+      {
+        meaning: {
+          en: 'having unlimited or very great power',
+          zh_TW: '全能的、萬能的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1113,
+    word: 'omniscient',
+    detail: [
+      {
+        meaning: {
+          en: 'knowing everything',
+          zh_TW: '無所不知的、博識的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1114,
+    word: 'onerous',
+    detail: [
+      {
+        meaning: {
+          en: 'needing effort; burdensome',
+          zh_TW: '繁重的、麻煩的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1115,
     word: 'opaque',
     detail: [
       {
         meaning: {
           en: 'not clearly understood or expressed',
-          zh_TW: '',
+          zh_TW: '不透明的、難懂的',
         },
         partsOfSpeech: 'adjective',
         example: "The meaning of the professor's new research was opaque to most people, so no one asked any questions.",
@@ -11302,7 +17105,77 @@ export default [
     ],
   },
   {
-    id: 701,
+    id: 1116,
+    word: 'opportune',
+    detail: [
+      {
+        meaning: {
+          en: '(of time) suitable or favorable for purpose',
+          zh_TW: '恰好的、適宜的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1117,
+    word: 'opportunistic',
+    detail: [
+      {
+        meaning: {
+          en: 'exploiting chances offered by immediate circumstances without reference to a general plan or moral principle',
+          zh_TW: '機會主義的、投機取巧的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1118,
+    word: 'opprobrium',
+    detail: [
+      {
+        meaning: {
+          en: 'public disgrace and shame',
+          zh_TW: '辱罵',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1119,
+    word: 'optimal',
+    detail: [
+      {
+        meaning: {
+          en: 'best or most favorable; optimum',
+          zh_TW: '最佳的、最理想的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1120,
+    word: 'optimistic',
+    detail: [
+      {
+        meaning: {
+          en: 'expecting the best; confident',
+          zh_TW: '樂觀的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1121,
     word: 'opulence',
     detail: [
       {
@@ -11316,13 +17189,41 @@ export default [
     ],
   },
   {
-    id: 702,
+    id: 1122,
+    word: 'opulent',
+    detail: [
+      {
+        meaning: {
+          en: 'having or showing signs of great wealth',
+          zh_TW: '豐饒的、華麗的、奢侈的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1123,
+    word: 'ornamental',
+    detail: [
+      {
+        meaning: {
+          en: 'serving or intended as an ornament; decorative',
+          zh_TW: '裝飾的、做裝飾用的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1124,
     word: 'ornate',
     detail: [
       {
         meaning: {
           en: 'made in an intricate shape or decorated with complex patterns',
-          zh_TW: '',
+          zh_TW: '裝飾華麗的',
         },
         partsOfSpeech: 'adjective',
         example: 'an ornate wrought-iron railing',
@@ -11330,7 +17231,7 @@ export default [
       {
         meaning: {
           en: '(of literary style) using unusual words and complex constructions',
-          zh_TW: '',
+          zh_TW: '過分修飾的',
         },
         partsOfSpeech: 'adjective',
         example: 'peculiarly ornate and metaphorical language',
@@ -11338,13 +17239,27 @@ export default [
     ],
   },
   {
-    id: 703,
+    id: 1125,
+    word: 'orthodox',
+    detail: [
+      {
+        meaning: {
+          en: 'generally accepted or approved',
+          zh_TW: '正統的、傳統的、習俗的、通常的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1126,
     word: 'ossify',
     detail: [
       {
         meaning: {
           en: 'make rigid and set into a conventional pattern',
-          zh_TW: '',
+          zh_TW: '硬化、骨化、使僵化',
         },
         partsOfSpeech: 'verb',
         example:
@@ -11353,7 +17268,21 @@ export default [
     ],
   },
   {
-    id: 704,
+    id: 1127,
+    word: 'ostensible',
+    detail: [
+      {
+        meaning: {
+          en: 'stated though perhaps not true; apparent',
+          zh_TW: '外表的、假裝的 [類]apparent(表面上的), plausible(似乎是真的), specious(似是而非的) [反] actual',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1128,
     word: 'ostentatious',
     detail: [
       {
@@ -11368,7 +17297,7 @@ export default [
     ],
   },
   {
-    id: 705,
+    id: 1129,
     word: 'ostracize',
     detail: [
       {
@@ -11382,7 +17311,91 @@ export default [
     ],
   },
   {
-    id: 706,
+    id: 1130,
+    word: 'outgrowth',
+    detail: [
+      {
+        meaning: {
+          en: 'natural development or result',
+          zh_TW: '自然結果、產物、副產品',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1131,
+    word: 'outmoded',
+    detail: [
+      {
+        meaning: {
+          en: 'no longer fashionable',
+          zh_TW: '老式的、過時的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1132,
+    word: 'outstrip',
+    detail: [
+      {
+        meaning: {
+          en: 'run faster than (sb in a race) and leave him behind',
+          zh_TW: '超過、跑過',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1133,
+    word: 'overbearing',
+    detail: [
+      {
+        meaning: {
+          en: 'forcing others to do what one wants (without caring about their feelings); domineering',
+          zh_TW: '專橫的、好指使人的、傲慢的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1134,
+    word: 'override',
+    detail: [
+      {
+        meaning: {
+          en: "disregard or set aside (sb's opinions, etc)",
+          zh_TW: '否決、不顧、使無效 [類] trample (踩踏、無視)',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1135,
+    word: 'overt',
+    detail: [
+      {
+        meaning: {
+          en: 'done or shown openly or publicly; not secret or hidden',
+          zh_TW: '明顯的、公然的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1136,
     word: 'overweening',
     detail: [
       {
@@ -11396,7 +17409,7 @@ export default [
     ],
   },
   {
-    id: 707,
+    id: 1137,
     word: 'palatable',
     detail: [
       {
@@ -11410,7 +17423,7 @@ export default [
     ],
   },
   {
-    id: 708,
+    id: 1138,
     word: 'palaver',
     detail: [
       {
@@ -11432,7 +17445,7 @@ export default [
     ],
   },
   {
-    id: 709,
+    id: 1139,
     word: 'palimpsest',
     detail: [
       {
@@ -11454,13 +17467,41 @@ export default [
     ],
   },
   {
-    id: 710,
+    id: 1140,
+    word: 'palliative',
+    detail: [
+      {
+        meaning: {
+          en: '(of a medicine or form of medical care) relieving symptoms without dealing with the cause of the condition',
+          zh_TW: '緩和的、治標不治本的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1141,
+    word: 'palpable',
+    detail: [
+      {
+        meaning: {
+          en: 'that can be felt or touched',
+          zh_TW: '可觸知的、可摸到的、極其明瞭的 [類] tangible [反] subtle(難以嘬摸的、微妙的)',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1142,
     word: 'panacea',
     detail: [
       {
         meaning: {
           en: 'hypothetical remedy for all ills or diseases; a universal solution',
-          zh_TW: '',
+          zh_TW: '萬靈丹',
         },
         partsOfSpeech: 'noun',
         example:
@@ -11469,7 +17510,7 @@ export default [
     ],
   },
   {
-    id: 711,
+    id: 1143,
     word: 'panache',
     detail: [
       {
@@ -11483,7 +17524,7 @@ export default [
     ],
   },
   {
-    id: 712,
+    id: 1144,
     word: 'panegyric',
     detail: [
       {
@@ -11497,7 +17538,35 @@ export default [
     ],
   },
   {
-    id: 713,
+    id: 1145,
+    word: 'paradigm',
+    detail: [
+      {
+        meaning: {
+          en: 'set of all the different forms of a word',
+          zh_TW: '範例、典範',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1146,
+    word: 'paradox',
+    detail: [
+      {
+        meaning: {
+          en: 'statement that seems to be absurd or contradictory but is or may be true',
+          zh_TW: '悖論、似是而非的議論',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1147,
     word: 'paradoxical',
     detail: [
       {
@@ -11511,7 +17580,7 @@ export default [
     ],
   },
   {
-    id: 714,
+    id: 1148,
     word: 'paragon',
     detail: [
       {
@@ -11525,7 +17594,21 @@ export default [
     ],
   },
   {
-    id: 715,
+    id: 1149,
+    word: 'paramount',
+    detail: [
+      {
+        meaning: {
+          en: 'having the greatest importance or significance; supreme',
+          zh_TW: '至高無上的、最重要的、主要的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1150,
     word: 'pariah',
     detail: [
       {
@@ -11534,14 +17617,22 @@ export default [
           zh_TW: '',
         },
         partsOfSpeech: 'noun',
-        example: 'The once eminent scientist, upon being found guilty of faking his data, has become a pariah in the research community.',
+        example: 'The once eminent scientist, upon being found guilty of faking his data, has become a pariah in the research community',
       },
     ],
   },
   {
-    id: 716,
+    id: 1151,
     word: 'parochial',
     detail: [
+      {
+        meaning: {
+          en: 'having a limited or narrow outlook or scope',
+          zh_TW: '狹義的、地方性的 [類] provincial, narrow',
+        },
+        partsOfSpeech: 'adjective',
+        example: 'this worldview seems incredibly naive and parochial',
+      },
       {
         meaning: {
           en: 'relating to a church parish',
@@ -11550,24 +17641,30 @@ export default [
         partsOfSpeech: 'adjective',
         example: 'the parochial church council',
       },
+    ],
+  },
+  {
+    id: 1152,
+    word: 'parody',
+    detail: [
       {
         meaning: {
-          en: 'having a limited or narrow outlook or scope',
-          zh_TW: '',
+          en: '(piece of) speech, writing or music that imitates the style of an author, composer, etc in an amusing and often exaggerated way; comic imitation',
+          zh_TW: '模仿性嘲弄文章或表演、拙劣的模仿',
         },
-        partsOfSpeech: 'adjective',
-        example: 'this worldview seems incredibly naive and parochial',
+        partsOfSpeech: 'noun',
+        example: '',
       },
     ],
   },
   {
-    id: 717,
+    id: 1153,
     word: 'parsimonious',
     detail: [
       {
         meaning: {
           en: 'unwilling to spend money or use resources; stingy or frugal',
-          zh_TW: '',
+          zh_TW: '吝嗇的、過於儉省的 [反] profligate(肆意揮霍的)',
         },
         partsOfSpeech: 'adjective',
         example: 'even the parsimonious Joe paid for drinks all round',
@@ -11575,7 +17672,35 @@ export default [
     ],
   },
   {
-    id: 718,
+    id: 1154,
+    word: 'partial',
+    detail: [
+      {
+        meaning: {
+          en: 'existing only in part; incomplete',
+          zh_TW: '局部的、偏袒的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1155,
+    word: 'partisan',
+    detail: [
+      {
+        meaning: {
+          en: 'enthusiastic and often uncritical supporter of a person, group or cause',
+          zh_TW: '(黨派)支持者、黨徒',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1156,
     word: 'parvenu',
     detail: [
       {
@@ -11589,7 +17714,21 @@ export default [
     ],
   },
   {
-    id: 719,
+    id: 1157,
+    word: 'passivity',
+    detail: [
+      {
+        meaning: {
+          en: 'passive: not active or not participating perceptibly in an activity, organization, etc',
+          zh_TW: '被動、消極',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1158,
     word: 'pastoral',
     detail: [
       {
@@ -11619,7 +17758,7 @@ export default [
     ],
   },
   {
-    id: 720,
+    id: 1159,
     word: 'patent',
     detail: [
       {
@@ -11649,7 +17788,21 @@ export default [
     ],
   },
   {
-    id: 721,
+    id: 1160,
+    word: 'pathological',
+    detail: [
+      {
+        meaning: {
+          en: 'relating to pathology',
+          zh_TW: '病理上的、病態的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1161,
     word: 'patronize',
     detail: [
       {
@@ -11663,13 +17816,13 @@ export default [
     ],
   },
   {
-    id: 722,
+    id: 1162,
     word: 'paucity',
     detail: [
       {
         meaning: {
           en: 'a lack of something',
-          zh_TW: '',
+          zh_TW: '少數、缺乏 [反] profusion(大量), plethora(過剩)',
         },
         partsOfSpeech: 'noun',
         example: 'There is a paucity of jobs hiring today that require menial skills, since most such jobs have either been automated or outsourced.',
@@ -11677,13 +17830,27 @@ export default [
     ],
   },
   {
-    id: 723,
+    id: 1163,
+    word: 'peculiar',
+    detail: [
+      {
+        meaning: {
+          en: 'strange or odd; unusual',
+          zh_TW: '奇怪的、罕見的、古怪的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1164,
     word: 'pecuniary',
     detail: [
       {
         meaning: {
           en: 'relating to or consisting of money',
-          zh_TW: '',
+          zh_TW: '金錢的、錢財方面的',
         },
         partsOfSpeech: 'adjective',
         example: 'he admitted obtaining a pecuniary advantage by deception',
@@ -11691,13 +17858,13 @@ export default [
     ],
   },
   {
-    id: 724,
+    id: 1165,
     word: 'pedantic',
     detail: [
       {
         meaning: {
           en: 'of or like a pedant',
-          zh_TW: '',
+          zh_TW: '賣弄學問的',
         },
         partsOfSpeech: 'adjective',
         example: 'many of the essays are long, dense, and too pedantic to hold great appeal',
@@ -11705,13 +17872,13 @@ export default [
     ],
   },
   {
-    id: 725,
+    id: 1166,
     word: 'pedestrian',
     detail: [
       {
         meaning: {
           en: 'lacking imagination',
-          zh_TW: '',
+          zh_TW: '徒步的、缺乏想像的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -11720,7 +17887,7 @@ export default [
     ],
   },
   {
-    id: 726,
+    id: 1167,
     word: 'peevish',
     detail: [
       {
@@ -11734,13 +17901,13 @@ export default [
     ],
   },
   {
-    id: 727,
+    id: 1168,
     word: 'pejorative',
     detail: [
       {
         meaning: {
           en: 'expressing disapproval (usu. refers to a term)',
-          zh_TW: '',
+          zh_TW: '貶抑的、輕蔑的',
         },
         partsOfSpeech: 'adjective',
         example: 'Most psychologists object to the pejorative term "shrink", believing that they expand the human mind, not limit it.',
@@ -11748,13 +17915,13 @@ export default [
     ],
   },
   {
-    id: 728,
+    id: 1169,
     word: 'pellucid',
     detail: [
       {
         meaning: {
           en: 'transparently clear; easily understandable',
-          zh_TW: '',
+          zh_TW: '清晰的、清澈的 [類]limpid',
         },
         partsOfSpeech: 'adjective',
         example: 'The professor had a remarkable ability to make even the most difficult concepts seem pellucid.',
@@ -11762,7 +17929,77 @@ export default [
     ],
   },
   {
-    id: 729,
+    id: 1170,
+    word: 'penalty',
+    detail: [
+      {
+        meaning: {
+          en: 'punishment for breaking a low, rule or contract',
+          zh_TW: '處罰、刑罰',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1171,
+    word: 'penchant',
+    detail: [
+      {
+        meaning: {
+          en: 'for sth liking or taste for sth',
+          zh_TW: '愛好、嗜好 [反] aversion(厭惡)',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1172,
+    word: 'pending',
+    detail: [
+      {
+        meaning: {
+          en: 'waiting to be decided or settled',
+          zh_TW: '未定的、待定的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1173,
+    word: 'penitential',
+    detail: [
+      {
+        meaning: {
+          en: 'relating to or expressing penitence or penance',
+          zh_TW: '後悔的、懺悔的 [類] contrite (後悔的)',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1174,
+    word: 'pensive',
+    detail: [
+      {
+        meaning: {
+          en: 'thinking deeply about sth, esp in a sad or serious way',
+          zh_TW: '沈思的、愁眉苦臉的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1175,
     word: 'penurious',
     detail: [
       {
@@ -11776,7 +18013,7 @@ export default [
     ],
   },
   {
-    id: 730,
+    id: 1176,
     word: 'percipient',
     detail: [
       {
@@ -11790,7 +18027,21 @@ export default [
     ],
   },
   {
-    id: 731,
+    id: 1177,
+    word: 'peregrinate',
+    detail: [
+      {
+        meaning: {
+          en: 'travel or wander around from place to place',
+          zh_TW: '遊歷、旅行',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1178,
     word: 'peremptory',
     detail: [
       {
@@ -11804,13 +18055,13 @@ export default [
     ],
   },
   {
-    id: 732,
+    id: 1179,
     word: 'perennial',
     detail: [
       {
         meaning: {
           en: 'lasting an indefinitely long time; eternal; everlasting',
-          zh_TW: '',
+          zh_TW: '終年的、不斷發生的',
         },
         partsOfSpeech: 'adjective',
         example: 'Even at the old-timers games, Stan Musial would get the loudest cheer: he was a perennial favorite of the fans there.',
@@ -11818,7 +18069,7 @@ export default [
     ],
   },
   {
-    id: 733,
+    id: 1180,
     word: 'perfidy',
     detail: [
       {
@@ -11833,13 +18084,13 @@ export default [
     ],
   },
   {
-    id: 734,
+    id: 1181,
     word: 'perfunctory',
     detail: [
       {
         meaning: {
           en: '(of an action or gesture) carried out with a minimum of effort or reflection',
-          zh_TW: '',
+          zh_TW: '草率的、敷衍的',
         },
         partsOfSpeech: 'adjective',
         example: 'he gave a perfunctory nod',
@@ -11847,13 +18098,27 @@ export default [
     ],
   },
   {
-    id: 735,
+    id: 1182,
+    word: 'perimeter',
+    detail: [
+      {
+        meaning: {
+          en: 'outer edge of a closed geometric shape',
+          zh_TW: '周長',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1183,
     word: 'peripatetic',
     detail: [
       {
         meaning: {
           en: 'traveling by foot',
-          zh_TW: '',
+          zh_TW: '到處走的、流動的 [類] itinerant',
         },
         partsOfSpeech: 'adjective',
         example: 'Jim always preferred a peripatetic approach to discovering a city: he felt that he could see so many more details while walking.',
@@ -11861,13 +18126,27 @@ export default [
     ],
   },
   {
-    id: 736,
+    id: 1184,
+    word: 'peripheral',
+    detail: [
+      {
+        meaning: {
+          en: 'of secondary or minor importance (to sth)',
+          zh_TW: '外圍的、周邊的、邊緣的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1185,
     word: 'pernicious',
     detail: [
       {
         meaning: {
           en: 'exceedingly harmful; working or spreading in a hidden and injurious way',
-          zh_TW: '',
+          zh_TW: '有毒的、致命的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -11876,13 +18155,13 @@ export default [
     ],
   },
   {
-    id: 737,
+    id: 1186,
     word: 'perpetuate',
     detail: [
       {
         meaning: {
           en: 'cause to continue',
-          zh_TW: '',
+          zh_TW: '使永存不朽、使不朽',
         },
         partsOfSpeech: 'verb',
         example: 'If you do not let him do things for himself, you are merely perpetuating bad habits that will be even harder to break in the future.',
@@ -11890,7 +18169,7 @@ export default [
     ],
   },
   {
-    id: 738,
+    id: 1187,
     word: 'perquisite',
     detail: [
       {
@@ -11904,7 +18183,21 @@ export default [
     ],
   },
   {
-    id: 739,
+    id: 1188,
+    word: 'persistent',
+    detail: [
+      {
+        meaning: {
+          en: 'refusing to give up',
+          zh_TW: '堅持不懈的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1189,
     word: 'perspicacious',
     detail: [
       {
@@ -11918,7 +18211,35 @@ export default [
     ],
   },
   {
-    id: 740,
+    id: 1190,
+    word: 'perspicuous',
+    detail: [
+      {
+        meaning: {
+          en: 'expressed clearly',
+          zh_TW: '明晰的、明瞭的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1191,
+    word: 'pertain',
+    detail: [
+      {
+        meaning: {
+          en: 'to sth (used esp in the continuous tenses) be connected with or relevant to sth',
+          zh_TW: '屬於、關於',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1192,
     word: 'pertinent',
     detail: [
       {
@@ -11932,7 +18253,7 @@ export default [
     ],
   },
   {
-    id: 741,
+    id: 1193,
     word: 'perturb',
     detail: [
       {
@@ -11946,7 +18267,7 @@ export default [
     ],
   },
   {
-    id: 742,
+    id: 1194,
     word: 'peruse',
     detail: [
       {
@@ -11960,13 +18281,27 @@ export default [
     ],
   },
   {
-    id: 743,
+    id: 1195,
+    word: 'pervasive',
+    detail: [
+      {
+        meaning: {
+          en: 'present and perceived everywhere; pervading',
+          zh_TW: '瀰漫的、遍佈的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1196,
     word: 'petulant',
     detail: [
       {
         meaning: {
           en: '(of a person or their manner) childishly sulky or bad-tempered',
-          zh_TW: '',
+          zh_TW: '暴躁的、壞脾氣的 [類] peevish',
         },
         partsOfSpeech: 'adjective',
         example: 'he was moody and petulant',
@@ -11974,7 +18309,7 @@ export default [
     ],
   },
   {
-    id: 744,
+    id: 1197,
     word: 'phantasmagorical',
     detail: [
       {
@@ -11989,13 +18324,13 @@ export default [
     ],
   },
   {
-    id: 745,
+    id: 1198,
     word: 'philistine',
     detail: [
       {
         meaning: {
           en: 'a person who is hostile or indifferent to culture and the arts, or who has no understanding of them',
-          zh_TW: '',
+          zh_TW: '不懂藝術的人、沒有教養的人',
         },
         partsOfSpeech: 'noun',
         example: 'I am a complete philistine when it comes to paintings',
@@ -12011,13 +18346,13 @@ export default [
     ],
   },
   {
-    id: 746,
+    id: 1199,
     word: 'phlegmatic',
     detail: [
       {
         meaning: {
           en: '(of a person) having an unemotional and stolidly calm disposition',
-          zh_TW: '',
+          zh_TW: '冷靜的、沈著的',
         },
         partsOfSpeech: 'adjective',
         example: 'the phlegmatic British character',
@@ -12025,7 +18360,7 @@ export default [
     ],
   },
   {
-    id: 747,
+    id: 1200,
     word: 'picayune',
     detail: [
       {
@@ -12039,7 +18374,21 @@ export default [
     ],
   },
   {
-    id: 748,
+    id: 1201,
+    word: 'piety',
+    detail: [
+      {
+        meaning: {
+          en: 'devotion to God and respect for religious principles; being pious',
+          zh_TW: '孝順、孝敬、虔誠',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1202,
     word: 'pillory',
     detail: [
       {
@@ -12054,7 +18403,7 @@ export default [
     ],
   },
   {
-    id: 749,
+    id: 1203,
     word: 'pine',
     detail: [
       {
@@ -12068,7 +18417,7 @@ export default [
     ],
   },
   {
-    id: 750,
+    id: 1204,
     word: 'pinnacle',
     detail: [
       {
@@ -12083,7 +18432,21 @@ export default [
     ],
   },
   {
-    id: 751,
+    id: 1205,
+    word: 'pious',
+    detail: [
+      {
+        meaning: {
+          en: 'having or showing a deep devotion to religion',
+          zh_TW: '虔誠的、盡責的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1206,
     word: 'piquant',
     detail: [
       {
@@ -12097,7 +18460,21 @@ export default [
     ],
   },
   {
-    id: 752,
+    id: 1207,
+    word: 'pitfall',
+    detail: [
+      {
+        meaning: {
+          en: 'unsuspected danger or difficulty',
+          zh_TW: '陷阱、圈套',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1208,
     word: 'pith',
     detail: [
       {
@@ -12112,7 +18489,7 @@ export default [
     ],
   },
   {
-    id: 753,
+    id: 1209,
     word: 'pithy',
     detail: [
       {
@@ -12134,7 +18511,7 @@ export default [
     ],
   },
   {
-    id: 754,
+    id: 1210,
     word: 'pittance',
     detail: [
       {
@@ -12149,13 +18526,13 @@ export default [
     ],
   },
   {
-    id: 755,
+    id: 1211,
     word: 'placate',
     detail: [
       {
         meaning: {
           en: 'make (someone) less angry or hostile',
-          zh_TW: '',
+          zh_TW: '撫慰、平息',
         },
         partsOfSpeech: 'verb',
         example: 'they attempted to placate the students with promises',
@@ -12163,13 +18540,27 @@ export default [
     ],
   },
   {
-    id: 756,
+    id: 1212,
+    word: 'placebo',
+    detail: [
+      {
+        meaning: {
+          en: '(medical) harmless substance given as if it were medicine to clam a patient who mistakenly believes he is ill',
+          zh_TW: '安慰劑、寬心丸',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1213,
     word: 'placid',
     detail: [
       {
         meaning: {
           en: 'not easily irritated',
-          zh_TW: '',
+          zh_TW: '安靜的、和平的',
         },
         partsOfSpeech: 'adjective',
         example: 'Doug is normally placid, so we were all shocked to see him yelling at the television when the Mets lost the game.',
@@ -12177,13 +18568,41 @@ export default [
     ],
   },
   {
-    id: 757,
+    id: 1214,
+    word: 'plaintive',
+    detail: [
+      {
+        meaning: {
+          en: 'sounding sad; sorrowful',
+          zh_TW: '悲傷的、哀傷的 [類] melancholy',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1215,
+    word: 'plastic',
+    detail: [
+      {
+        meaning: {
+          en: '(of a substance or material) easily shaped or molded',
+          zh_TW: '可塑的、易受影響的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1216,
     word: 'platitude',
     detail: [
       {
         meaning: {
           en: 'a trite or obvious remark',
-          zh_TW: '',
+          zh_TW: '平凡、陳腔濫調 [類] triteness',
         },
         partsOfSpeech: 'noun',
         example: 'The professor argued that many statements regarded as wise in previous times, such as the Golden Rule, are now regarded as mere platitudes.',
@@ -12191,7 +18610,35 @@ export default [
     ],
   },
   {
-    id: 758,
+    id: 1217,
+    word: 'plausible',
+    detail: [
+      {
+        meaning: {
+          en: 'seeming to be right or reasonable; believable',
+          zh_TW: '貌似真實的、貌似有理的 [反] implausible',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1218,
+    word: 'plenitude',
+    detail: [
+      {
+        meaning: {
+          en: 'a full supply',
+          zh_TW: '充分、完全 [類] abundance',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1219,
     word: 'plodding',
     detail: [
       {
@@ -12205,7 +18652,7 @@ export default [
     ],
   },
   {
-    id: 759,
+    id: 1220,
     word: 'ploy',
     detail: [
       {
@@ -12219,7 +18666,7 @@ export default [
     ],
   },
   {
-    id: 760,
+    id: 1221,
     word: 'plucky',
     detail: [
       {
@@ -12233,7 +18680,7 @@ export default [
     ],
   },
   {
-    id: 761,
+    id: 1222,
     word: 'poignant',
     detail: [
       {
@@ -12247,7 +18694,7 @@ export default [
     ],
   },
   {
-    id: 762,
+    id: 1223,
     word: 'polemic',
     detail: [
       {
@@ -12261,13 +18708,55 @@ export default [
     ],
   },
   {
-    id: 763,
+    id: 1224,
+    word: 'polemical',
+    detail: [
+      {
+        meaning: {
+          en: 'of polemics',
+          zh_TW: '爭論的、辯論的 [類]polemic, controversial [反]conciliatory(撫慰調和的)',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1225,
+    word: 'pompous',
+    detail: [
+      {
+        meaning: {
+          en: 'feeling or showing that one feels, that one is much more important than other people',
+          zh_TW: '浮華的、愛炫耀的 [類] arrogant, bombastic',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1226,
+    word: 'ponder',
+    detail: [
+      {
+        meaning: {
+          en: 'think about (sth) carefully and for a long time, esp in trying to reach a decision; consider',
+          zh_TW: '仔細考慮、衡量',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1227,
     word: 'ponderous',
     detail: [
       {
         meaning: {
           en: 'weighed-down; moving slowly',
-          zh_TW: '',
+          zh_TW: '笨重的、笨拙的 [反] lively(輕快活潑的)',
         },
         partsOfSpeech: 'adjective',
         example: 'Laden with 20 kilograms of college text books, the freshman moved ponderously across the campus.',
@@ -12275,7 +18764,7 @@ export default [
     ],
   },
   {
-    id: 764,
+    id: 1228,
     word: 'pontificate',
     detail: [
       {
@@ -12289,7 +18778,21 @@ export default [
     ],
   },
   {
-    id: 765,
+    id: 1229,
+    word: 'portend',
+    detail: [
+      {
+        meaning: {
+          en: 'be a sign or warning of (sth in the future); foreshadow',
+          zh_TW: '預示、預先警告',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1230,
     word: 'portentous',
     detail: [
       {
@@ -12303,13 +18806,13 @@ export default [
     ],
   },
   {
-    id: 766,
+    id: 1231,
     word: 'posit',
     detail: [
       {
         meaning: {
           en: 'assume as fact',
-          zh_TW: '',
+          zh_TW: '假定、假設；斷定、認為',
         },
         partsOfSpeech: 'verb',
         example: 'Initially, Einstein posited a repulsive force to balance Gravity, but then rejected that idea as a blunder.',
@@ -12317,13 +18820,27 @@ export default [
     ],
   },
   {
-    id: 767,
+    id: 1232,
+    word: 'potent',
+    detail: [
+      {
+        meaning: {
+          en: '(of drugs, etc) having a strong effect',
+          zh_TW: '強而有力的、有影響力的 [反] impotent',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1233,
     word: 'pragmatic',
     detail: [
       {
         meaning: {
           en: 'guided by practical experience and observation rather than theory',
-          zh_TW: '',
+          zh_TW: '務實的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -12332,13 +18849,13 @@ export default [
     ],
   },
   {
-    id: 768,
+    id: 1234,
     word: 'precarious',
     detail: [
       {
         meaning: {
           en: 'not securely held or in position; dangerously likely to fall or collapse',
-          zh_TW: '',
+          zh_TW: '不穩的、危險的',
         },
         partsOfSpeech: 'adjective',
         example: 'a precarious ladder',
@@ -12354,13 +18871,27 @@ export default [
     ],
   },
   {
-    id: 769,
+    id: 1235,
+    word: 'precede',
+    detail: [
+      {
+        meaning: {
+          en: 'come or go before in time, order, rank, etc',
+          zh_TW: '在...之前、早於',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1236,
     word: 'precedent',
     detail: [
       {
         meaning: {
           en: 'an example that is used to justify similar occurrences at a later time',
-          zh_TW: '',
+          zh_TW: '在先的、在前的',
         },
         partsOfSpeech: 'noun',
         example:
@@ -12369,13 +18900,13 @@ export default [
     ],
   },
   {
-    id: 770,
+    id: 1237,
     word: 'precipitate',
     detail: [
       {
         meaning: {
           en: 'cause (an event or situation, typically one that is bad or undesirable) to happen suddenly, unexpectedly, or prematurely',
-          zh_TW: '',
+          zh_TW: '降水、加速',
         },
         partsOfSpeech: 'verb',
         example: 'the incident precipitated a political crisis',
@@ -12383,7 +18914,7 @@ export default [
       {
         meaning: {
           en: 'done, made, or acting suddenly or without careful consideration',
-          zh_TW: '',
+          zh_TW: '魯莽的',
         },
         partsOfSpeech: 'adjective',
         example: 'I must apologize for my staff—their actions were precipitate',
@@ -12391,7 +18922,7 @@ export default [
     ],
   },
   {
-    id: 771,
+    id: 1238,
     word: 'precipitous',
     detail: [
       {
@@ -12413,13 +18944,13 @@ export default [
     ],
   },
   {
-    id: 772,
+    id: 1239,
     word: 'preclude',
     detail: [
       {
         meaning: {
           en: 'prevent from happening; make impossible',
-          zh_TW: '',
+          zh_TW: '避免、阻止、防止、排除',
         },
         partsOfSpeech: 'verb',
         example: 'the secret nature of his work precluded official recognition',
@@ -12435,13 +18966,13 @@ export default [
     ],
   },
   {
-    id: 773,
+    id: 1240,
     word: 'precocious',
     detail: [
       {
         meaning: {
           en: '(of a child) having developed certain abilities or proclivities at an earlier age than usual',
-          zh_TW: '',
+          zh_TW: '早熟的、早成的',
         },
         partsOfSpeech: 'adjective',
         example: 'he was a precocious, solitary boy',
@@ -12449,13 +18980,27 @@ export default [
     ],
   },
   {
-    id: 774,
+    id: 1241,
+    word: 'precursor',
+    detail: [
+      {
+        meaning: {
+          en: '(of sth) person or thing that comes before sth; forerunner',
+          zh_TW: '先驅、先兆',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1242,
     word: 'predilection',
     detail: [
       {
         meaning: {
           en: 'a preference or special liking for something; a bias in favor of something',
-          zh_TW: '',
+          zh_TW: '偏袒、愛好',
         },
         partsOfSpeech: 'noun',
         example: 'my predilection for Asian food',
@@ -12463,13 +19008,41 @@ export default [
     ],
   },
   {
-    id: 775,
+    id: 1243,
+    word: 'predisposition',
+    detail: [
+      {
+        meaning: {
+          en: '(to do sth) state of mind or body that makes sb liable to act in a certain way or to suffer from a certain disease',
+          zh_TW: '傾向、素質',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1244,
+    word: 'preeminent',
+    detail: [
+      {
+        meaning: {
+          en: 'having paramount rank, dignity, or importance; outstanding',
+          zh_TW: '卓越的、顯著的 [類] outstanding, supreme',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1245,
     word: 'preempt',
     detail: [
       {
         meaning: {
           en: 'take the place of or have precedence over',
-          zh_TW: '',
+          zh_TW: '先發制人；取代；已先買權取得',
         },
         partsOfSpeech: 'verb',
         example: 'A governmental warning about an imminent terrorist attack would preempt ordinary network programming on television.',
@@ -12477,7 +19050,7 @@ export default [
     ],
   },
   {
-    id: 776,
+    id: 1246,
     word: 'preemptive',
     detail: [
       {
@@ -12499,7 +19072,77 @@ export default [
     ],
   },
   {
-    id: 777,
+    id: 1247,
+    word: 'prefigure',
+    detail: [
+      {
+        meaning: {
+          en: 'represent beforehand (sth that will happen in the future); foreshadow',
+          zh_TW: '預示、預想',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1248,
+    word: 'premeditate',
+    detail: [
+      {
+        meaning: {
+          en: 'think out or plan (an action, especially a crime) beforehand',
+          zh_TW: '預先考慮、預謀',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1249,
+    word: 'prerequisite',
+    detail: [
+      {
+        meaning: {
+          en: '(infml) required as a condition (for sth)',
+          zh_TW: '不可或缺的、事先需要的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1250,
+    word: 'prerogative',
+    detail: [
+      {
+        meaning: {
+          en: 'right or privilege, esp one belonging to a particular person or group',
+          zh_TW: '特權',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1251,
+    word: 'presage',
+    detail: [
+      {
+        meaning: {
+          en: 'sign that sth (esp sth unpleasant) will happen; omen',
+          zh_TW: '預言 [類] foretell, predict',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1252,
     word: 'prescience',
     detail: [
       {
@@ -12513,7 +19156,35 @@ export default [
     ],
   },
   {
-    id: 778,
+    id: 1253,
+    word: 'prescient',
+    detail: [
+      {
+        meaning: {
+          en: 'knowing about things before they take place; able to see into the future',
+          zh_TW: '有先見的、預知的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1254,
+    word: 'prescription',
+    detail: [
+      {
+        meaning: {
+          en: "doctor's written instruction for the composition and use of a medicine",
+          zh_TW: '命令、指示、規定、法規',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1255,
     word: 'presentiment',
     detail: [
       {
@@ -12527,7 +19198,35 @@ export default [
     ],
   },
   {
-    id: 779,
+    id: 1256,
+    word: 'pressing',
+    detail: [
+      {
+        meaning: {
+          en: 'urgent',
+          zh_TW: '緊迫的、迫切的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1257,
+    word: 'presume',
+    detail: [
+      {
+        meaning: {
+          en: 'suppose that something is the case on the basis of probability',
+          zh_TW: '相信、推測、自作主張、放肆 [類] suppose, assume',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1258,
     word: 'presumption',
     detail: [
       {
@@ -12542,13 +19241,13 @@ export default [
     ],
   },
   {
-    id: 780,
+    id: 1259,
     word: 'presumptuous',
     detail: [
       {
         meaning: {
           en: '(of a person or their behavior) failing to observe the limits of what is permitted or appropriate',
-          zh_TW: '',
+          zh_TW: '專橫的、自以為是的、冒失地、放肆的',
         },
         partsOfSpeech: 'adjective',
         example: "I hope I won't be considered presumptuous if I offer some advice",
@@ -12556,7 +19255,21 @@ export default [
     ],
   },
   {
-    id: 781,
+    id: 1260,
+    word: 'pretentious',
+    detail: [
+      {
+        meaning: {
+          en: 'claiming merit or importance; pompous or showy',
+          zh_TW: '自命不凡的 [類] n. pretention 自負、做作',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1261,
     word: 'prevail',
     detail: [
       {
@@ -12578,7 +19291,7 @@ export default [
     ],
   },
   {
-    id: 782,
+    id: 1262,
     word: 'prevaricate',
     detail: [
       {
@@ -12592,13 +19305,13 @@ export default [
     ],
   },
   {
-    id: 783,
+    id: 1263,
     word: 'primacy',
     detail: [
       {
         meaning: {
           en: 'the fact of being primary, preeminent, or more important',
-          zh_TW: '',
+          zh_TW: '卓越、第一位',
         },
         partsOfSpeech: 'noun',
         example: 'the primacy of air power in the modern war',
@@ -12606,13 +19319,41 @@ export default [
     ],
   },
   {
-    id: 784,
+    id: 1264,
+    word: 'primitive',
+    detail: [
+      {
+        meaning: {
+          en: 'of or at an early stage of social development',
+          zh_TW: '原始的、遠古的、基本的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1265,
+    word: 'priority',
+    detail: [
+      {
+        meaning: {
+          en: '(state of) being more important (in rank)',
+          zh_TW: '再掀、居前',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1266,
     word: 'pristine',
     detail: [
       {
         meaning: {
           en: 'in its original condition; unspoiled',
-          zh_TW: '',
+          zh_TW: '原始的、清新的、純樸的',
         },
         partsOfSpeech: 'adjective',
         example: 'pristine copies of an early magazine',
@@ -12620,13 +19361,13 @@ export default [
     ],
   },
   {
-    id: 785,
+    id: 1267,
     word: 'probity',
     detail: [
       {
         meaning: {
           en: 'integrity, strong moral principles',
-          zh_TW: '',
+          zh_TW: '誠實、廉潔 [類] honesty, character, decency, goodness',
         },
         partsOfSpeech: 'noun',
         example: 'The ideal politician would have the probity to lead, but reality gravely falls short of the ideal of morally upright leaders.',
@@ -12634,13 +19375,41 @@ export default [
     ],
   },
   {
-    id: 786,
+    id: 1268,
+    word: 'proclaim',
+    detail: [
+      {
+        meaning: {
+          en: 'make known officially or publicily; announce',
+          zh_TW: '宣告、宣布',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1269,
+    word: 'proclivity',
+    detail: [
+      {
+        meaning: {
+          en: "(fml) natural inclination to do sth (esp sth bad)' tendency",
+          zh_TW: '傾向 [類] inclination',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1270,
     word: 'prodigal',
     detail: [
       {
         meaning: {
           en: 'rashly or wastefully extravagant',
-          zh_TW: '',
+          zh_TW: '非常浪費的、揮霍的 [類]extravagant, profligate, spendthrift, squandering [反] economical, frugal, thrifty',
         },
         partsOfSpeech: 'adjective',
         example: 'Successful professional athletes who do not fall prey to prodigality seem to be the exception—most live decadent lives.',
@@ -12648,7 +19417,7 @@ export default [
     ],
   },
   {
-    id: 787,
+    id: 1271,
     word: 'prodigious',
     detail: [
       {
@@ -12662,13 +19431,13 @@ export default [
     ],
   },
   {
-    id: 788,
+    id: 1272,
     word: 'profligate',
     detail: [
       {
         meaning: {
           en: 'spending resources recklessly or wastefully',
-          zh_TW: '',
+          zh_TW: '非常浪費的 [類] prodigal',
         },
         partsOfSpeech: 'adjective',
         example: 'The composer Wagner, while living on a limited salary, was so profligate as to line all the walls of his apartment with pure silk.',
@@ -12676,7 +19445,21 @@ export default [
     ],
   },
   {
-    id: 789,
+    id: 1273,
+    word: 'profound',
+    detail: [
+      {
+        meaning: {
+          en: 'deep, intense or far-reaching, very great',
+          zh_TW: '深刻的、深奧的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1274,
     word: 'profuse',
     detail: [
       {
@@ -12690,7 +19473,7 @@ export default [
     ],
   },
   {
-    id: 790,
+    id: 1275,
     word: 'profusion',
     detail: [
       {
@@ -12704,7 +19487,7 @@ export default [
     ],
   },
   {
-    id: 791,
+    id: 1276,
     word: 'prognostication',
     detail: [
       {
@@ -12718,7 +19501,21 @@ export default [
     ],
   },
   {
-    id: 792,
+    id: 1277,
+    word: 'proliferate',
+    detail: [
+      {
+        meaning: {
+          en: 'produce new growth or offspring rapidly; multiply',
+          zh_TW: '繁殖、激增',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1278,
     word: 'prolific',
     detail: [
       {
@@ -12740,7 +19537,21 @@ export default [
     ],
   },
   {
-    id: 793,
+    id: 1279,
+    word: 'prolix',
+    detail: [
+      {
+        meaning: {
+          en: '(of a speech, writer, etc) using too many words and so boring to listen to or read',
+          zh_TW: '囉唆的、冗長的 [類] verbose',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1280,
     word: 'prolixity',
     detail: [
       {
@@ -12754,13 +19565,27 @@ export default [
     ],
   },
   {
-    id: 794,
+    id: 1281,
+    word: 'prominent',
+    detail: [
+      {
+        meaning: {
+          en: 'jutting out,; projecting',
+          zh_TW: '突出的、顯著的、卓越的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1282,
     word: 'promulgate',
     detail: [
       {
         meaning: {
           en: 'promote or make widely known (an idea or cause)',
-          zh_TW: '',
+          zh_TW: '散佈、宣揚',
         },
         partsOfSpeech: 'verb',
         example: 'these objectives have to be promulgated within the organization',
@@ -12776,7 +19601,49 @@ export default [
     ],
   },
   {
-    id: 795,
+    id: 1283,
+    word: 'pronounced',
+    detail: [
+      {
+        meaning: {
+          en: 'very noticeable or marked; conspicuous',
+          zh_TW: '明顯的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1284,
+    word: 'propaganda',
+    detail: [
+      {
+        meaning: {
+          en: 'information, especially of a biased or misleading nature, used to promote or publicize a particular political cause or point of view',
+          zh_TW: '政治宣傳',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1285,
+    word: 'propensity',
+    detail: [
+      {
+        meaning: {
+          en: '(for doing/to do sth)(fml) inclination or tendency',
+          zh_TW: '傾向、習性',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1286,
     word: 'propitiate',
     detail: [
       {
@@ -12790,13 +19657,13 @@ export default [
     ],
   },
   {
-    id: 796,
+    id: 1287,
     word: 'propitious',
     detail: [
       {
         meaning: {
           en: 'giving or indicating a good chance of success; favorable',
-          zh_TW: '',
+          zh_TW: '吉祥的、有利的 [類] auspicious, favorable, heartening, upbeat [反] bleak, dark, depressing, desperate',
         },
         partsOfSpeech: 'adjective',
         example: 'the timing for such a meeting seemed propitious',
@@ -12804,7 +19671,7 @@ export default [
     ],
   },
   {
-    id: 797,
+    id: 1288,
     word: 'proponent',
     detail: [
       {
@@ -12818,13 +19685,41 @@ export default [
     ],
   },
   {
-    id: 798,
+    id: 1289,
+    word: 'proprietary',
+    detail: [
+      {
+        meaning: {
+          en: '(of goods) manufactured and sold by a particular firm, use under patent',
+          zh_TW: '私有的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1290,
+    word: 'propriety',
+    detail: [
+      {
+        meaning: {
+          en: "state of being correct in one's social or moral behavior",
+          zh_TW: '禮節、適當',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1291,
     word: 'prosaic',
     detail: [
       {
         meaning: {
           en: 'having the style or diction of prose; lacking poetic beauty',
-          zh_TW: '',
+          zh_TW: '乏味的、散文的',
         },
         partsOfSpeech: 'adjective',
         example: "prosaic language can't convey the experience",
@@ -12832,7 +19727,7 @@ export default [
       {
         meaning: {
           en: 'commonplace; unromantic',
-          zh_TW: '',
+          zh_TW: '普通的、平凡的',
         },
         partsOfSpeech: 'adjective',
         example: 'the masses were too preoccupied by prosaic day-to-day concerns',
@@ -12840,13 +19735,13 @@ export default [
     ],
   },
   {
-    id: 799,
+    id: 1292,
     word: 'proscribe',
     detail: [
       {
         meaning: {
           en: 'forbid, especially by law',
-          zh_TW: '',
+          zh_TW: '禁止、剝奪...的公權、放逐',
         },
         partsOfSpeech: 'verb',
         example: 'strikes remained proscribed in the armed forces',
@@ -12862,7 +19757,21 @@ export default [
     ],
   },
   {
-    id: 800,
+    id: 1293,
+    word: 'prose',
+    detail: [
+      {
+        meaning: {
+          en: 'written or spoken language that is not in verse form',
+          zh_TW: '散文、散文體',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1294,
     word: 'proselytize',
     detail: [
       {
@@ -12877,7 +19786,21 @@ export default [
     ],
   },
   {
-    id: 801,
+    id: 1295,
+    word: 'protagonist',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) chief character in a drama; hero',
+          zh_TW: '主驗、主角、主唱者',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1296,
     word: 'protean',
     detail: [
       {
@@ -12892,7 +19815,21 @@ export default [
     ],
   },
   {
-    id: 802,
+    id: 1297,
+    word: 'protract',
+    detail: [
+      {
+        meaning: {
+          en: 'make (sth) last a long time or longer; lengthen or prolong',
+          zh_TW: '延長、拖長',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1298,
     word: 'provident',
     detail: [
       {
@@ -12907,13 +19844,13 @@ export default [
     ],
   },
   {
-    id: 803,
+    id: 1299,
     word: 'provincial',
     detail: [
       {
         meaning: {
           en: 'characteristic of a limited perspective; not fashionable or sophisticated',
-          zh_TW: '',
+          zh_TW: '偏狹的 [類] parochial, insular',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -12922,13 +19859,13 @@ export default [
     ],
   },
   {
-    id: 804,
+    id: 1300,
     word: 'provisional',
     detail: [
       {
         meaning: {
           en: 'arranged or existing for the present, possibly to be changed later',
-          zh_TW: '',
+          zh_TW: '臨時的、暫時性的',
         },
         partsOfSpeech: 'adjective',
         example: 'a provisional construction permit',
@@ -12936,7 +19873,21 @@ export default [
     ],
   },
   {
-    id: 805,
+    id: 1301,
+    word: 'proximity',
+    detail: [
+      {
+        meaning: {
+          en: '(to sth) nearness in space or time; closeness',
+          zh_TW: '接近、鄰近',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1302,
     word: 'puerile',
     detail: [
       {
@@ -12950,13 +19901,13 @@ export default [
     ],
   },
   {
-    id: 806,
+    id: 1303,
     word: 'pugnacious',
     detail: [
       {
         meaning: {
           en: 'eager or quick to argue, quarrel, or fight',
-          zh_TW: '',
+          zh_TW: '愛爭吵的、愛鬥爭的',
         },
         partsOfSpeech: 'adjective',
         example: 'his public statements became increasingly pugnacious',
@@ -12964,7 +19915,7 @@ export default [
     ],
   },
   {
-    id: 807,
+    id: 1304,
     word: 'puissant',
     detail: [
       {
@@ -12978,13 +19929,13 @@ export default [
     ],
   },
   {
-    id: 808,
+    id: 1305,
     word: 'punctilious',
     detail: [
       {
         meaning: {
           en: 'marked by precise accordance with details',
-          zh_TW: '',
+          zh_TW: '精密細心的、一絲不苟的',
         },
         partsOfSpeech: 'adjective',
         example: 'The colonel was so punctilious about enforcing regulations that men feel compelled to polish even the soles of their shoes.',
@@ -12992,7 +19943,7 @@ export default [
     ],
   },
   {
-    id: 809,
+    id: 1306,
     word: 'pundit',
     detail: [
       {
@@ -13006,7 +19957,35 @@ export default [
     ],
   },
   {
-    id: 810,
+    id: 1307,
+    word: 'purport',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) general meaning or intention (of sth)',
+          zh_TW: '聲稱、意旨',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1308,
+    word: 'pusillanimous',
+    detail: [
+      {
+        meaning: {
+          en: 'cowardly; timid',
+          zh_TW: '膽小的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1309,
     word: 'pyrrhic',
     detail: [
       {
@@ -13021,7 +20000,7 @@ export default [
     ],
   },
   {
-    id: 811,
+    id: 1310,
     word: 'quail',
     detail: [
       {
@@ -13036,13 +20015,13 @@ export default [
     ],
   },
   {
-    id: 812,
+    id: 1311,
     word: 'qualify',
     detail: [
       {
         meaning: {
           en: 'be entitled to a particular benefit or privilege by fulfilling a necessary condition',
-          zh_TW: '',
+          zh_TW: '使有資格、限制',
         },
         partsOfSpeech: 'verb',
         example: 'they do not qualify for compensation payments',
@@ -13066,7 +20045,7 @@ export default [
     ],
   },
   {
-    id: 813,
+    id: 1312,
     word: 'qualm',
     detail: [
       {
@@ -13080,7 +20059,7 @@ export default [
     ],
   },
   {
-    id: 814,
+    id: 1313,
     word: 'quandary',
     detail: [
       {
@@ -13095,13 +20074,13 @@ export default [
     ],
   },
   {
-    id: 815,
+    id: 1314,
     word: 'querulous',
     detail: [
       {
         meaning: {
           en: 'habitually complaining',
-          zh_TW: '',
+          zh_TW: '愛發牢騷的、愛抱怨的',
         },
         partsOfSpeech: 'adjective',
         example: 'The querulous old woman was beginning to wear down even the happier members of the staff with her ceaseless complaining.',
@@ -13109,7 +20088,35 @@ export default [
     ],
   },
   {
-    id: 816,
+    id: 1315,
+    word: 'quiescent',
+    detail: [
+      {
+        meaning: {
+          en: 'inactive; passive; quiet',
+          zh_TW: '靜止的、沈默的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1316,
+    word: 'quintessential',
+    detail: [
+      {
+        meaning: {
+          en: 'representing the most perfect or typical example of a quality or class',
+          zh_TW: '精髓的、典型的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1317,
     word: 'quip',
     detail: [
       {
@@ -13131,7 +20138,21 @@ export default [
     ],
   },
   {
-    id: 817,
+    id: 1318,
+    word: 'quirky',
+    detail: [
+      {
+        meaning: {
+          en: 'characterized by peculiar or unexpected traits',
+          zh_TW: '離奇的、古怪的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1319,
     word: 'quisling',
     detail: [
       {
@@ -13145,13 +20166,13 @@ export default [
     ],
   },
   {
-    id: 818,
+    id: 1320,
     word: 'quixotic',
     detail: [
       {
         meaning: {
           en: 'wildly idealistic; impractical',
-          zh_TW: '',
+          zh_TW: '不切實際的、空想的 [類] impractical',
         },
         partsOfSpeech: 'adjective',
         example: 'For every thousand startups with quixotic plans to be the next big name in e-commerce, only a handful ever become profitable.',
@@ -13159,7 +20180,7 @@ export default [
     ],
   },
   {
-    id: 819,
+    id: 1321,
     word: 'quotidian',
     detail: [
       {
@@ -13174,7 +20195,7 @@ export default [
     ],
   },
   {
-    id: 820,
+    id: 1322,
     word: 'raconteur',
     detail: [
       {
@@ -13189,7 +20210,7 @@ export default [
     ],
   },
   {
-    id: 821,
+    id: 1323,
     word: 'raffish',
     detail: [
       {
@@ -13203,7 +20224,7 @@ export default [
     ],
   },
   {
-    id: 822,
+    id: 1324,
     word: 'raft',
     detail: [
       {
@@ -13217,7 +20238,7 @@ export default [
     ],
   },
   {
-    id: 823,
+    id: 1325,
     word: 'raillery',
     detail: [
       {
@@ -13231,7 +20252,7 @@ export default [
     ],
   },
   {
-    id: 824,
+    id: 1326,
     word: 'rakish',
     detail: [
       {
@@ -13245,7 +20266,35 @@ export default [
     ],
   },
   {
-    id: 825,
+    id: 1327,
+    word: 'ramification',
+    detail: [
+      {
+        meaning: {
+          en: 'part of a complex structure; secondary consequence, esp one that complicates',
+          zh_TW: '後果、影響 [類] consequence',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1328,
+    word: 'rancor',
+    detail: [
+      {
+        meaning: {
+          en: 'bitter deep-seated ill will',
+          zh_TW: '仇恨、激烈的憎惡',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1329,
     word: 'rankle',
     detail: [
       {
@@ -13259,7 +20308,21 @@ export default [
     ],
   },
   {
-    id: 826,
+    id: 1330,
+    word: 'rapacious',
+    detail: [
+      {
+        meaning: {
+          en: 'greedy, esp for money ; grasping',
+          zh_TW: '強奪的、貪婪的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1331,
     word: 'rapprochement',
     detail: [
       {
@@ -13273,21 +20336,21 @@ export default [
     ],
   },
   {
-    id: 827,
+    id: 1332,
     word: 'rarefied',
     detail: [
       {
         meaning: {
           en: '(of air, especially that at high altitudes) of lower pressure than usual; thin',
-          zh_TW: '',
+          zh_TW: '稀薄的',
         },
         partsOfSpeech: 'adjective',
-        example: "every ounce carried counts triple when you're trudging uphill in rarefied air",
+        example: "every ounce carried counts triple when you're trudging uphill in beneficent rarefied air",
       },
       {
         meaning: {
           en: 'distant from the lives and concerns of ordinary people',
-          zh_TW: '',
+          zh_TW: '只有一小群人知道的',
         },
         partsOfSpeech: 'adjective',
         example: 'debates about the nature of knowledge can seem very rarefied',
@@ -13295,7 +20358,7 @@ export default [
     ],
   },
   {
-    id: 828,
+    id: 1333,
     word: 'rash',
     detail: [
       {
@@ -13309,7 +20372,21 @@ export default [
     ],
   },
   {
-    id: 829,
+    id: 1334,
+    word: 'rationale',
+    detail: [
+      {
+        meaning: {
+          en: 'fundamental reason for or logical basis of sth',
+          zh_TW: '根本原因、邏輯依據',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1335,
     word: 'ravenous',
     detail: [
       {
@@ -13324,13 +20401,55 @@ export default [
     ],
   },
   {
-    id: 830,
+    id: 1336,
+    word: 'reactionary',
+    detail: [
+      {
+        meaning: {
+          en: 'adj opposing (esp political) progress or reform',
+          zh_TW: '保守的、反動的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1337,
+    word: 'rebellious',
+    detail: [
+      {
+        meaning: {
+          en: 'showing a desire to rebel; not easily controlled',
+          zh_TW: '反抗的、難控制的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1338,
+    word: 'rebuff',
+    detail: [
+      {
+        meaning: {
+          en: 'unkind or contemptuous refusal or rejection (of an offer, request, friendly gesture, etc); snub',
+          zh_TW: '回絕、斷然拒絕 [類] snub, reject, sharply',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1339,
     word: 'rebuke',
     detail: [
       {
         meaning: {
           en: 'express sharp disapproval or criticism of (someone) because of their behavior or actions',
-          zh_TW: '',
+          zh_TW: '斥責、指責 [類] reprimand, admonish, chide [反] commend, endorse',
         },
         partsOfSpeech: 'verb',
         example: 'she had rebuked him for drinking too much',
@@ -13346,7 +20465,49 @@ export default [
     ],
   },
   {
-    id: 831,
+    id: 1340,
+    word: 'rebut',
+    detail: [
+      {
+        meaning: {
+          en: 'claim or prove that (evidence or an accusation) is false',
+          zh_TW: '駁斥、反駁 [類] repel, refute',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1341,
+    word: 'recalcitrant',
+    detail: [
+      {
+        meaning: {
+          en: 'resisting authority or discipline; disobedient',
+          zh_TW: '頑抗的、難以控制的 [類] unruly, intransigent, refractory [反] docile, tractable',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1342,
+    word: 'recapitulate',
+    detail: [
+      {
+        meaning: {
+          en: 'state again or summarize the main points of',
+          zh_TW: '扼要重述、蓋誇',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1343,
     word: 'recapitulation',
     detail: [
       {
@@ -13360,13 +20521,27 @@ export default [
     ],
   },
   {
-    id: 832,
+    id: 1344,
+    word: 'reciprocity',
+    detail: [
+      {
+        meaning: {
+          en: 'principle or practice of mutual exchange, esp of making concessions or granting privileges, etc in return for concessions or privileges received',
+          zh_TW: '相互性、互惠',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1345,
     word: 'reconcile',
     detail: [
       {
         meaning: {
           en: 'restore friendly relations between',
-          zh_TW: '',
+          zh_TW: '和解、調和',
         },
         partsOfSpeech: 'verb',
         example: 'she wanted to be reconciled with her father',
@@ -13382,13 +20557,13 @@ export default [
     ],
   },
   {
-    id: 833,
+    id: 1346,
     word: 'recondite',
     detail: [
       {
         meaning: {
           en: 'difficult to penetrate; incomprehensible to one of ordinary understanding or knowledge',
-          zh_TW: '',
+          zh_TW: '深奧的、不易懂的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -13397,7 +20572,7 @@ export default [
     ],
   },
   {
-    id: 834,
+    id: 1347,
     word: 'recrimination',
     detail: [
       {
@@ -13411,7 +20586,7 @@ export default [
     ],
   },
   {
-    id: 835,
+    id: 1348,
     word: 'recrudesce',
     detail: [
       {
@@ -13426,7 +20601,35 @@ export default [
     ],
   },
   {
-    id: 836,
+    id: 1349,
+    word: 'rectitude',
+    detail: [
+      {
+        meaning: {
+          en: 'moral correctness or straightforwardness; honesty',
+          zh_TW: '正直、公正',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1350,
+    word: 'redeem',
+    detail: [
+      {
+        meaning: {
+          en: 'sth (from sb/sth) buy back sth by paying the required sum; recover sth',
+          zh_TW: '贖回',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1351,
     word: 'redoubtable',
     detail: [
       {
@@ -13440,7 +20643,7 @@ export default [
     ],
   },
   {
-    id: 837,
+    id: 1352,
     word: 'redress',
     detail: [
       {
@@ -13454,13 +20657,27 @@ export default [
     ],
   },
   {
-    id: 838,
+    id: 1353,
+    word: 'redundant',
+    detail: [
+      {
+        meaning: {
+          en: 'not needed; superfluous; unnecessary',
+          zh_TW: '多餘的、累贅的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1354,
     word: 'refractory',
     detail: [
       {
         meaning: {
           en: 'stubborn or unmanageable',
-          zh_TW: '',
+          zh_TW: '難醫治的、倔強的、反應遲鈍的',
         },
         partsOfSpeech: 'adjective',
         example: 'his refractory pony',
@@ -13468,13 +20685,41 @@ export default [
     ],
   },
   {
-    id: 839,
+    id: 1355,
+    word: 'refugee',
+    detail: [
+      {
+        meaning: {
+          en: 'a person who has been forced to leave their country in order to escape war, persecution, or natural disaster',
+          zh_TW: '難民、流亡者',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1356,
+    word: 'refutable',
+    detail: [
+      {
+        meaning: {
+          en: 'able to be refuted, or shown to be false',
+          zh_TW: '可駁倒的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1357,
     word: 'refute',
     detail: [
       {
         meaning: {
           en: 'prove to be false or incorrect',
-          zh_TW: '',
+          zh_TW: '反駁、駁斥',
         },
         partsOfSpeech: 'verb',
         example: 'No one could refute his theories or propositions, and that is why he was esteemed by all his colleagues in the philosophy department.',
@@ -13482,7 +20727,63 @@ export default [
     ],
   },
   {
-    id: 840,
+    id: 1358,
+    word: 'regime',
+    detail: [
+      {
+        meaning: {
+          en: 'method or system of government',
+          zh_TW: '政權、政治制度',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1359,
+    word: 'rehash',
+    detail: [
+      {
+        meaning: {
+          en: 'sth (infml derog) put (ideas, material, etc) into a new form with no great change or improvement',
+          zh_TW: '重新處理、改寫',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1360,
+    word: 'reiterate',
+    detail: [
+      {
+        meaning: {
+          en: 'say or do (sth) again or repeatedly',
+          zh_TW: '重申、反覆說',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1361,
+    word: 'rejuvenate',
+    detail: [
+      {
+        meaning: {
+          en: 'restore youthful appearance, strength, etc to',
+          zh_TW: '使年輕、使恢復精神',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1362,
     word: 'relegate',
     detail: [
       {
@@ -13496,7 +20797,49 @@ export default [
     ],
   },
   {
-    id: 841,
+    id: 1363,
+    word: 'relinquish',
+    detail: [
+      {
+        meaning: {
+          en: 'give up or cease to practice, feel, etc (sth); abandon',
+          zh_TW: '放棄、廢除',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1364,
+    word: 'remarkable',
+    detail: [
+      {
+        meaning: {
+          en: 'worth noticing or unusual; exceptional',
+          zh_TW: '值得注意的、卓越的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1365,
+    word: 'remedy',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) treatment, medicine, etc that cures or relieves a disease or pain',
+          zh_TW: '治療、治療法、藥物',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1366,
     word: 'remiss',
     detail: [
       {
@@ -13510,7 +20853,7 @@ export default [
     ],
   },
   {
-    id: 842,
+    id: 1367,
     word: 'remonstrate',
     detail: [
       {
@@ -13524,7 +20867,21 @@ export default [
     ],
   },
   {
-    id: 843,
+    id: 1368,
+    word: 'remorse',
+    detail: [
+      {
+        meaning: {
+          en: 'sense of deep and bitter regret for having done sth wrong',
+          zh_TW: '懊悔、悔恨',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1369,
     word: 'renege',
     detail: [
       {
@@ -13538,7 +20895,7 @@ export default [
     ],
   },
   {
-    id: 844,
+    id: 1370,
     word: 'replete',
     detail: [
       {
@@ -13553,7 +20910,35 @@ export default [
     ],
   },
   {
-    id: 845,
+    id: 1371,
+    word: 'replicate',
+    detail: [
+      {
+        meaning: {
+          en: 'be or make a copy of (sth); reproduce',
+          zh_TW: '摺疊、複製',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1372,
+    word: 'repress',
+    detail: [
+      {
+        meaning: {
+          en: 'restrain or suppress (an impulse); check',
+          zh_TW: '壓抑、抑制、鎮壓',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1373,
     word: 'reprisal',
     detail: [
       {
@@ -13567,7 +20952,7 @@ export default [
     ],
   },
   {
-    id: 846,
+    id: 1374,
     word: 'reproach',
     detail: [
       {
@@ -13597,7 +20982,7 @@ export default [
     ],
   },
   {
-    id: 847,
+    id: 1375,
     word: 'reprobate',
     detail: [
       {
@@ -13612,13 +20997,13 @@ export default [
     ],
   },
   {
-    id: 848,
+    id: 1376,
     word: 'repudiate',
     detail: [
       {
         meaning: {
           en: 'refuse to accept or be associated with',
-          zh_TW: '',
+          zh_TW: '否認、拒絕、拋棄 [類] reject(拒絕), recant(撤回自己主張)',
         },
         partsOfSpeech: 'verb',
         example: 'she has repudiated policies associated with previous party leaders',
@@ -13642,7 +21027,35 @@ export default [
     ],
   },
   {
-    id: 849,
+    id: 1377,
+    word: 'repugnant',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) causing a feeling of strong opposition or dislike; abhorrent',
+          zh_TW: '厭惡的、反感的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1378,
+    word: 'repulse',
+    detail: [
+      {
+        meaning: {
+          en: 'drive back (an attacker or an attack) by fighting; repel',
+          zh_TW: '擊退、驅逐、使厭惡、使產生反感',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1379,
     word: 'rescind',
     detail: [
       {
@@ -13656,7 +21069,21 @@ export default [
     ],
   },
   {
-    id: 850,
+    id: 1380,
+    word: 'resemble',
+    detail: [
+      {
+        meaning: {
+          en: 'have qualities or features, especially those of appearance, in common with (someone or something); look or seem like',
+          zh_TW: '與...相似、像',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1381,
     word: 'reservation',
     detail: [
       {
@@ -13686,7 +21113,7 @@ export default [
     ],
   },
   {
-    id: 851,
+    id: 1382,
     word: 'resignation',
     detail: [
       {
@@ -13708,7 +21135,7 @@ export default [
     ],
   },
   {
-    id: 852,
+    id: 1383,
     word: 'resolve',
     detail: [
       {
@@ -13722,7 +21149,35 @@ export default [
     ],
   },
   {
-    id: 853,
+    id: 1384,
+    word: 'resonant',
+    detail: [
+      {
+        meaning: {
+          en: 'continuing to echo; resounding',
+          zh_TW: '宏亮的、共鳴的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1385,
+    word: 'respect',
+    detail: [
+      {
+        meaning: {
+          en: 'admiration felt or shown for a person or thing that has good qualities or achievements; regard',
+          zh_TW: '敬重、尊敬、關於、涉及',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1386,
     word: 'respite',
     detail: [
       {
@@ -13744,13 +21199,13 @@ export default [
     ],
   },
   {
-    id: 854,
+    id: 1387,
     word: 'restive',
     detail: [
       {
         meaning: {
           en: '(of a person) unable to keep still or silent and becoming increasingly difficult to control, especially because of impatience, dissatisfaction, or boredom',
-          zh_TW: '',
+          zh_TW: '不安寧的、焦躁不安的',
         },
         partsOfSpeech: 'adjective',
         example: 'the crowd had been waiting for hours and many were becoming restive',
@@ -13758,7 +21213,35 @@ export default [
     ],
   },
   {
-    id: 855,
+    id: 1388,
+    word: 'restrain',
+    detail: [
+      {
+        meaning: {
+          en: 'sb/sth hole back sb/sth from movement action; keep sb/sth under control or in cheek',
+          zh_TW: '克制、抑制',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1389,
+    word: 'resurge',
+    detail: [
+      {
+        meaning: {
+          en: 'rare',
+          zh_TW: '再起、復活、復甦',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1390,
     word: 'resurgent',
     detail: [
       {
@@ -13772,13 +21255,27 @@ export default [
     ],
   },
   {
-    id: 856,
+    id: 1391,
+    word: 'resurrect',
+    detail: [
+      {
+        meaning: {
+          en: 'bring (sb) back to life again',
+          zh_TW: '使復活、使復甦 [類] reanimate, recharge, regenerate',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1392,
     word: 'reticent',
     detail: [
       {
         meaning: {
           en: "not revealing one's thoughts or feelings readily",
-          zh_TW: '',
+          zh_TW: '無言的、沈默的',
         },
         partsOfSpeech: 'adjective',
         example: 'she was extremely reticent about her personal affairs',
@@ -13786,7 +21283,7 @@ export default [
     ],
   },
   {
-    id: 857,
+    id: 1393,
     word: 'retiring',
     detail: [
       {
@@ -13800,13 +21297,13 @@ export default [
     ],
   },
   {
-    id: 858,
+    id: 1394,
     word: 'retract',
     detail: [
       {
         meaning: {
           en: 'draw back',
-          zh_TW: '',
+          zh_TW: '縮回',
         },
         partsOfSpeech: 'verb',
         example: "she retracted her hand as if she'd been burnt",
@@ -13814,7 +21311,7 @@ export default [
       {
         meaning: {
           en: 'withdraw (a statement or accusation) as untrue or unjustified',
-          zh_TW: '',
+          zh_TW: '收回',
         },
         partsOfSpeech: 'verb',
         example: 'he retracted his allegations',
@@ -13822,7 +21319,35 @@ export default [
     ],
   },
   {
-    id: 859,
+    id: 1395,
+    word: 'retrospective',
+    detail: [
+      {
+        meaning: {
+          en: 'looking back on the past',
+          zh_TW: '回顧的、追溯的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1396,
+    word: 'revere',
+    detail: [
+      {
+        meaning: {
+          en: 'sb/sth (for sth)(fml) feel deep respect or (esp religious) veneration for sb/sth',
+          zh_TW: '尊敬、推從',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1397,
     word: 'reverent',
     detail: [
       {
@@ -13837,7 +21362,35 @@ export default [
     ],
   },
   {
-    id: 860,
+    id: 1398,
+    word: 'revile',
+    detail: [
+      {
+        meaning: {
+          en: 'criticize (sb/sth), in angry and abusive language',
+          zh_TW: '辱罵、謾罵、痛斥',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1399,
+    word: 'revitalize',
+    detail: [
+      {
+        meaning: {
+          en: 'restore strength; give new life or vigor to',
+          zh_TW: '始恢復生氣、使復活、使復興',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1400,
     word: 'ribald',
     detail: [
       {
@@ -13851,7 +21404,91 @@ export default [
     ],
   },
   {
-    id: 861,
+    id: 1401,
+    word: 'ridge',
+    detail: [
+      {
+        meaning: {
+          en: 'raised line where two sloping surfaces meet; narrow raised strip',
+          zh_TW: '屋脊、山脊',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1402,
+    word: 'ridicule',
+    detail: [
+      {
+        meaning: {
+          en: 'making sb/sth appear foolish or absurd; scorn',
+          zh_TW: '奚落、嘲笑',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1403,
+    word: 'ridiculous',
+    detail: [
+      {
+        meaning: {
+          en: 'deserving to be laughed at; absurd',
+          zh_TW: '荒謬的、可笑的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1404,
+    word: 'rigid',
+    detail: [
+      {
+        meaning: {
+          en: 'stiff; not bending or yielding',
+          zh_TW: '嚴格的、剛硬的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1405,
+    word: 'rigor',
+    detail: [
+      {
+        meaning: {
+          en: 'severity',
+          zh_TW: '嚴格、嚴苛、精確',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1406,
+    word: 'rigorous',
+    detail: [
+      {
+        meaning: {
+          en: 'severe; strict',
+          zh_TW: '嚴格的、嚴峻的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1407,
     word: 'rile',
     detail: [
       {
@@ -13865,13 +21502,27 @@ export default [
     ],
   },
   {
-    id: 862,
+    id: 1408,
+    word: 'riveting',
+    detail: [
+      {
+        meaning: {
+          en: 'that holds the attention; enthralling',
+          zh_TW: '有吸引力的、引人入勝的 [類] engrossing',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1409,
     word: 'robust',
     detail: [
       {
         meaning: {
           en: 'strong and healthy; vigorous',
-          zh_TW: '',
+          zh_TW: '強健的、茁壯的',
         },
         partsOfSpeech: 'adjective',
         example: 'the Caplans are a robust, healthy lot',
@@ -13879,7 +21530,7 @@ export default [
       {
         meaning: {
           en: '(of an object) sturdy in construction',
-          zh_TW: '',
+          zh_TW: '健全的',
         },
         partsOfSpeech: 'adjective',
         example: 'a robust metal cabinet',
@@ -13887,13 +21538,13 @@ export default [
     ],
   },
   {
-    id: 863,
+    id: 1410,
     word: 'rudimentary',
     detail: [
       {
         meaning: {
           en: 'involving or limited to basic principles',
-          zh_TW: '',
+          zh_TW: '基本的、初步的',
         },
         partsOfSpeech: 'adjective',
         example: 'he received a rudimentary education',
@@ -13901,7 +21552,7 @@ export default [
     ],
   },
   {
-    id: 864,
+    id: 1411,
     word: 'rustic',
     detail: [
       {
@@ -13915,7 +21566,21 @@ export default [
     ],
   },
   {
-    id: 865,
+    id: 1412,
+    word: 'sacrosanct',
+    detail: [
+      {
+        meaning: {
+          en: 'considered too important to be changed, argued about, etc',
+          zh_TW: '神聖不可侵犯的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1413,
     word: 'sagacious',
     detail: [
       {
@@ -13929,13 +21594,55 @@ export default [
     ],
   },
   {
-    id: 866,
+    id: 1414,
+    word: 'salient',
+    detail: [
+      {
+        meaning: {
+          en: 'most noticeable or important; main',
+          zh_TW: '顯著的、突出的 [類] conspicuous',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1415,
+    word: 'salubrious',
+    detail: [
+      {
+        meaning: {
+          en: '(esp of the climate) health-giving',
+          zh_TW: '有益健康的、清爽的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1416,
+    word: 'salutary',
+    detail: [
+      {
+        meaning: {
+          en: 'having a good effect',
+          zh_TW: '有益的、有益健康的 [反] a. salubrious',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1417,
     word: 'sanctimonious',
     detail: [
       {
         meaning: {
           en: 'making a show of being pious; holier-than-thou',
-          zh_TW: '',
+          zh_TW: '假裝虔誠的、假裝聖潔的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -13944,13 +21651,13 @@ export default [
     ],
   },
   {
-    id: 867,
+    id: 1418,
     word: 'sanction',
     detail: [
       {
         meaning: {
           en: 'a threatened penalty for disobeying a law or rule',
-          zh_TW: '',
+          zh_TW: '認可、批准、國際制裁',
         },
         partsOfSpeech: 'noun',
         example: 'a range of sanctions aimed at deterring insider abuse',
@@ -13958,7 +21665,7 @@ export default [
     ],
   },
   {
-    id: 868,
+    id: 1419,
     word: 'sangfroid',
     detail: [
       {
@@ -13972,13 +21679,13 @@ export default [
     ],
   },
   {
-    id: 869,
+    id: 1420,
     word: 'sanguine',
     detail: [
       {
         meaning: {
           en: 'cheerful; optimistic',
-          zh_TW: '',
+          zh_TW: '自信樂觀的 [類]confident, optimistic',
         },
         partsOfSpeech: 'adjective',
         example: 'With the prospect of having to learn 3,000 words during the course of the summer, Paul was anything but sanguine.',
@@ -13986,7 +21693,21 @@ export default [
     ],
   },
   {
-    id: 870,
+    id: 1421,
+    word: 'sarcastic',
+    detail: [
+      {
+        meaning: {
+          en: 'of or using sarcasm',
+          zh_TW: '諷刺的、挖苦的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1422,
     word: 'sardonic',
     detail: [
       {
@@ -14001,7 +21722,7 @@ export default [
     ],
   },
   {
-    id: 871,
+    id: 1423,
     word: 'sartorial',
     detail: [
       {
@@ -14016,7 +21737,7 @@ export default [
     ],
   },
   {
-    id: 872,
+    id: 1424,
     word: 'saturnine',
     detail: [
       {
@@ -14046,7 +21767,21 @@ export default [
     ],
   },
   {
-    id: 873,
+    id: 1425,
+    word: 'savor',
+    detail: [
+      {
+        meaning: {
+          en: 'enjoy; have a distinctive flavor, smell, or quality',
+          zh_TW: 'v. 細細品嚐 n. 風味',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1426,
     word: 'savvy',
     detail: [
       {
@@ -14068,7 +21803,21 @@ export default [
     ],
   },
   {
-    id: 874,
+    id: 1427,
+    word: 'scathing',
+    detail: [
+      {
+        meaning: {
+          en: 'severe, harsh',
+          zh_TW: '刻薄的、嚴厲的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1428,
     word: 'schadenfreude',
     detail: [
       {
@@ -14082,7 +21831,35 @@ export default [
     ],
   },
   {
-    id: 875,
+    id: 1429,
+    word: 'schematic',
+    detail: [
+      {
+        meaning: {
+          en: 'in the form of a diagram or chart',
+          zh_TW: '概要的、圖解的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1430,
+    word: 'schism',
+    detail: [
+      {
+        meaning: {
+          en: 'strong disagreement, esp in a religious organization over doctrine, in which one group stops recognizing the authority of the other',
+          zh_TW: '分裂',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1431,
     word: 'scintillating',
     detail: [
       {
@@ -14097,7 +21874,7 @@ export default [
     ],
   },
   {
-    id: 876,
+    id: 1432,
     word: 'screed',
     detail: [
       {
@@ -14111,7 +21888,21 @@ export default [
     ],
   },
   {
-    id: 877,
+    id: 1433,
+    word: 'scruple',
+    detail: [
+      {
+        meaning: {
+          en: 'feeling that prevents one from doing or allowing sth that one thinks may be wrong',
+          zh_TW: '謹慎小心、顧忌猶豫',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1434,
     word: 'scrupulous',
     detail: [
       {
@@ -14125,7 +21916,35 @@ export default [
     ],
   },
   {
-    id: 878,
+    id: 1435,
+    word: 'scrutinize',
+    detail: [
+      {
+        meaning: {
+          en: 'examine closely and critically',
+          zh_TW: '詳細檢查、細讀',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1436,
+    word: 'seductive',
+    detail: [
+      {
+        meaning: {
+          en: 'tending to seduce, charm or tempt sb; attractive',
+          zh_TW: '誘惑的、引人注意的、有魅力的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1437,
     word: 'sedulous',
     detail: [
       {
@@ -14139,7 +21958,7 @@ export default [
     ],
   },
   {
-    id: 879,
+    id: 1438,
     word: 'self-effacing',
     detail: [
       {
@@ -14154,7 +21973,7 @@ export default [
     ],
   },
   {
-    id: 880,
+    id: 1439,
     word: 'semblance',
     detail: [
       {
@@ -14168,7 +21987,7 @@ export default [
     ],
   },
   {
-    id: 881,
+    id: 1440,
     word: 'sententious',
     detail: [
       {
@@ -14182,7 +22001,7 @@ export default [
     ],
   },
   {
-    id: 882,
+    id: 1441,
     word: 'sentimental',
     detail: [
       {
@@ -14196,7 +22015,21 @@ export default [
     ],
   },
   {
-    id: 883,
+    id: 1442,
+    word: 'serendipitous',
+    detail: [
+      {
+        meaning: {
+          en: 'occurring or discovered by chance in a happy or beneficial way',
+          zh_TW: '意外發現的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1443,
     word: 'serendipity',
     detail: [
       {
@@ -14211,7 +22044,7 @@ export default [
     ],
   },
   {
-    id: 884,
+    id: 1444,
     word: 'serene',
     detail: [
       {
@@ -14225,7 +22058,49 @@ export default [
     ],
   },
   {
-    id: 885,
+    id: 1445,
+    word: 'shrewd',
+    detail: [
+      {
+        meaning: {
+          en: 'having or showing good judgement and common sense; astute',
+          zh_TW: '善於判斷的、精明的、敏銳的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1446,
+    word: 'shrug',
+    detail: [
+      {
+        meaning: {
+          en: "raise (one's shoulders) slightly to express doubt, indifference, ignorance, etc",
+          zh_TW: '聳肩',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1447,
+    word: 'shun',
+    detail: [
+      {
+        meaning: {
+          en: 'keep away from (sth/sb); avoid',
+          zh_TW: '避開、躲開 [類] avoid, dodge, duck',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1448,
     word: 'simulacrum',
     detail: [
       {
@@ -14239,7 +22114,7 @@ export default [
     ],
   },
   {
-    id: 886,
+    id: 1449,
     word: 'sinecure',
     detail: [
       {
@@ -14253,7 +22128,7 @@ export default [
     ],
   },
   {
-    id: 887,
+    id: 1450,
     word: 'slapdash',
     detail: [
       {
@@ -14268,7 +22143,7 @@ export default [
     ],
   },
   {
-    id: 888,
+    id: 1451,
     word: 'smattering',
     detail: [
       {
@@ -14290,7 +22165,7 @@ export default [
     ],
   },
   {
-    id: 889,
+    id: 1452,
     word: 'smug',
     detail: [
       {
@@ -14304,7 +22179,7 @@ export default [
     ],
   },
   {
-    id: 890,
+    id: 1453,
     word: 'snide',
     detail: [
       {
@@ -14318,7 +22193,21 @@ export default [
     ],
   },
   {
-    id: 891,
+    id: 1454,
+    word: 'snobbery',
+    detail: [
+      {
+        meaning: {
+          en: 'the character or quality of being a snob',
+          zh_TW: '勢利',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1455,
     word: 'snub',
     detail: [
       {
@@ -14340,7 +22229,7 @@ export default [
     ],
   },
   {
-    id: 892,
+    id: 1456,
     word: 'solecism',
     detail: [
       {
@@ -14354,7 +22243,21 @@ export default [
     ],
   },
   {
-    id: 893,
+    id: 1457,
+    word: 'solicit',
+    detail: [
+      {
+        meaning: {
+          en: 'ask for earnestly; try to obtain (sth)',
+          zh_TW: '懇求、請求、招攬',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1458,
     word: 'solicitous',
     detail: [
       {
@@ -14369,7 +22272,7 @@ export default [
     ],
   },
   {
-    id: 894,
+    id: 1459,
     word: 'solicitude',
     detail: [
       {
@@ -14383,13 +22286,69 @@ export default [
     ],
   },
   {
-    id: 895,
+    id: 1460,
+    word: 'solitary',
+    detail: [
+      {
+        meaning: {
+          en: '(living) alone; without companions',
+          zh_TW: '單獨的、獨自的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1461,
+    word: 'somatic',
+    detail: [
+      {
+        meaning: {
+          en: 'pertaining to the body; physical',
+          zh_TW: '身體的、軀體的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1462,
+    word: 'somnolent',
+    detail: [
+      {
+        meaning: {
+          en: 'almost asleep; sleepy; drowsy',
+          zh_TW: '想睡的、催眠的 [類] lethargic',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1463,
+    word: 'sonorous',
+    detail: [
+      {
+        meaning: {
+          en: 'having a full deep sound',
+          zh_TW: '響亮的、洪亮的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1464,
     word: 'soporific',
     detail: [
       {
         meaning: {
           en: 'inducing mental lethargy; sleep inducing',
-          zh_TW: '',
+          zh_TW: '令人想睡的',
         },
         partsOfSpeech: 'adjective',
         example: 'Although the professor is brilliant, his bland monotone gives his lectures a soporific effect.',
@@ -14397,13 +22356,13 @@ export default [
     ],
   },
   {
-    id: 896,
+    id: 1465,
     word: 'sordid',
     detail: [
       {
         meaning: {
           en: 'involving ignoble actions and motives; arousing moral distaste and contempt',
-          zh_TW: '',
+          zh_TW: '骯髒的、污穢的',
         },
         partsOfSpeech: 'adjective',
         example: 'the story paints a sordid picture of bribes and scams',
@@ -14411,7 +22370,7 @@ export default [
     ],
   },
   {
-    id: 897,
+    id: 1466,
     word: 'spartan',
     detail: [
       {
@@ -14425,13 +22384,13 @@ export default [
     ],
   },
   {
-    id: 898,
+    id: 1467,
     word: 'specious',
     detail: [
       {
         meaning: {
           en: 'superficially plausible, but actually wrong',
-          zh_TW: '',
+          zh_TW: '似是而非的、華而不實的',
         },
         partsOfSpeech: 'adjective',
         example: 'a specious argument',
@@ -14447,7 +22406,35 @@ export default [
     ],
   },
   {
-    id: 899,
+    id: 1468,
+    word: 'speculate',
+    detail: [
+      {
+        meaning: {
+          en: 'form opinions without having definite or complete knowledge or evidence; guess',
+          zh_TW: '沈思、思索、投機',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1469,
+    word: 'speculative',
+    detail: [
+      {
+        meaning: {
+          en: 'concerned with or formed by speculation',
+          zh_TW: '投機的、思索的、推測的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1470,
     word: 'spendthrift',
     detail: [
       {
@@ -14461,7 +22448,7 @@ export default [
     ],
   },
   {
-    id: 900,
+    id: 1471,
     word: 'splenetic',
     detail: [
       {
@@ -14475,13 +22462,27 @@ export default [
     ],
   },
   {
-    id: 901,
+    id: 1472,
+    word: 'spontaneous',
+    detail: [
+      {
+        meaning: {
+          en: 'done, happening, said etc because of a voluntary impulse from within, not caused or suggested by sth/sb outside',
+          zh_TW: '自發的、自主的、自然的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1473,
     word: 'sporadic',
     detail: [
       {
         meaning: {
           en: 'recurring in scattered and irregular or unpredictable instances',
-          zh_TW: '',
+          zh_TW: '零星的 [類]occasional, infrequent, irregular [反]incessant, constant',
         },
         partsOfSpeech: 'adjective',
         example: 'The signals were at first sporadic, but now we detect a clear, consistent pattern of electromagnetic radiation emanating from deep space.',
@@ -14489,13 +22490,13 @@ export default [
     ],
   },
   {
-    id: 902,
+    id: 1474,
     word: 'spurious',
     detail: [
       {
         meaning: {
           en: 'plausible but false',
-          zh_TW: '',
+          zh_TW: '假的、站不住腳的、欺騙性的',
         },
         partsOfSpeech: 'adjective',
         example: 'When listening to a politician speak, it is hard to distinguish the spurious claims from the authentic ones.',
@@ -14503,13 +22504,13 @@ export default [
     ],
   },
   {
-    id: 903,
+    id: 1475,
     word: 'spurn',
     detail: [
       {
         meaning: {
           en: 'reject with contempt',
-          zh_TW: '',
+          zh_TW: '屏棄、藐視',
         },
         partsOfSpeech: 'verb',
         example: 'She spurned all his flattery and proposals, and so he walked off embarrassed and sad.',
@@ -14517,7 +22518,7 @@ export default [
     ],
   },
   {
-    id: 904,
+    id: 1476,
     word: 'squander',
     detail: [
       {
@@ -14531,7 +22532,7 @@ export default [
     ],
   },
   {
-    id: 905,
+    id: 1477,
     word: 'squelch',
     detail: [
       {
@@ -14553,7 +22554,7 @@ export default [
     ],
   },
   {
-    id: 906,
+    id: 1478,
     word: 'staid',
     detail: [
       {
@@ -14567,13 +22568,13 @@ export default [
     ],
   },
   {
-    id: 907,
+    id: 1479,
     word: 'stalwart',
     detail: [
       {
         meaning: {
           en: 'loyal, reliable, and hardworking',
-          zh_TW: '',
+          zh_TW: '堅決的、健壯的',
         },
         partsOfSpeech: 'adjective',
         example: 'he remained a stalwart supporter of the cause',
@@ -14581,7 +22582,21 @@ export default [
     ],
   },
   {
-    id: 908,
+    id: 1480,
+    word: 'static',
+    detail: [
+      {
+        meaning: {
+          en: 'not moving or changing; stationary',
+          zh_TW: '靜止的、呆板的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1481,
     word: 'staunch',
     detail: [
       {
@@ -14595,7 +22610,7 @@ export default [
     ],
   },
   {
-    id: 909,
+    id: 1482,
     word: 'steadfast',
     detail: [
       {
@@ -14609,7 +22624,7 @@ export default [
     ],
   },
   {
-    id: 910,
+    id: 1483,
     word: 'stem',
     detail: [
       {
@@ -14631,7 +22646,35 @@ export default [
     ],
   },
   {
-    id: 911,
+    id: 1484,
+    word: 'sterling',
+    detail: [
+      {
+        meaning: {
+          en: '(of a person or their work, efforts, or qualities) excellent or valuable',
+          zh_TW: '（金屬）高純度的、優秀的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1485,
+    word: 'stilted',
+    detail: [
+      {
+        meaning: {
+          en: '(of a manner of talking, writing, behaving, etc) stiff and unnatural; artificial',
+          zh_TW: '呆板的、生硬的、不自然的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1486,
     word: 'stipend',
     detail: [
       {
@@ -14646,7 +22689,7 @@ export default [
     ],
   },
   {
-    id: 912,
+    id: 1487,
     word: 'stolid',
     detail: [
       {
@@ -14660,7 +22703,21 @@ export default [
     ],
   },
   {
-    id: 913,
+    id: 1488,
+    word: 'stratification',
+    detail: [
+      {
+        meaning: {
+          en: 'the arrangement or classification of something into different groups',
+          zh_TW: '分層、階層',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1489,
     word: 'stringent',
     detail: [
       {
@@ -14674,7 +22731,21 @@ export default [
     ],
   },
   {
-    id: 914,
+    id: 1490,
+    word: 'strip',
+    detail: [
+      {
+        meaning: {
+          en: 'sth (from/off sth/sb); sth/sb (of sth); sth (off) take off (clothes, coverings, parts, etc) from sb/sth',
+          zh_TW: '剝去、剝光',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1491,
     word: 'stultify',
     detail: [
       {
@@ -14688,13 +22759,13 @@ export default [
     ],
   },
   {
-    id: 915,
+    id: 1492,
     word: 'stymie',
     detail: [
       {
         meaning: {
           en: 'prevent or hinder the progress of',
-          zh_TW: '',
+          zh_TW: '阻礙、妨礙 [類] clog, cramp',
         },
         partsOfSpeech: 'verb',
         example: 'the changes must not be allowed to stymie new medical treatments',
@@ -14702,7 +22773,77 @@ export default [
     ],
   },
   {
-    id: 916,
+    id: 1493,
+    word: 'subdue',
+    detail: [
+      {
+        meaning: {
+          en: 'bring under control by force; defeat',
+          zh_TW: '征服、壓制、減輕',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1494,
+    word: 'subordinate',
+    detail: [
+      {
+        meaning: {
+          en: '(to sb) lower in rank or position',
+          zh_TW: '次要的、下級的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1495,
+    word: 'subside',
+    detail: [
+      {
+        meaning: {
+          en: 'sink to a lower or to the normal level',
+          zh_TW: '消退、平息、下沈',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1496,
+    word: 'substantial',
+    detail: [
+      {
+        meaning: {
+          en: 'large in amount; considerable',
+          zh_TW: '大量的、實在的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1497,
+    word: 'substantiate',
+    detail: [
+      {
+        meaning: {
+          en: 'give facts to support (a claim. statement, etc); prove',
+          zh_TW: '證實',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1498,
     word: 'subsume',
     detail: [
       {
@@ -14716,7 +22857,7 @@ export default [
     ],
   },
   {
-    id: 917,
+    id: 1499,
     word: 'subterfuge',
     detail: [
       {
@@ -14730,7 +22871,7 @@ export default [
     ],
   },
   {
-    id: 918,
+    id: 1500,
     word: 'subversive',
     detail: [
       {
@@ -14752,7 +22893,63 @@ export default [
     ],
   },
   {
-    id: 919,
+    id: 1501,
+    word: 'subvert',
+    detail: [
+      {
+        meaning: {
+          en: 'destroy the authority of',
+          zh_TW: '顛覆、推翻',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1502,
+    word: 'succinct',
+    detail: [
+      {
+        meaning: {
+          en: 'expressed briefly and clearly; concise',
+          zh_TW: '簡明的、簡潔的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1503,
+    word: 'succumb',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) stop resisting (temptation, illness, attack, etc); yield',
+          zh_TW: '屈從、因...死亡',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1504,
+    word: 'suffrage',
+    detail: [
+      {
+        meaning: {
+          en: 'right to vote in political elections',
+          zh_TW: '選舉權、投票權',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1505,
     word: 'sullen',
     detail: [
       {
@@ -14766,7 +22963,7 @@ export default [
     ],
   },
   {
-    id: 920,
+    id: 1506,
     word: 'summit',
     detail: [
       {
@@ -14780,13 +22977,13 @@ export default [
     ],
   },
   {
-    id: 921,
+    id: 1507,
     word: 'supercilious',
     detail: [
       {
         meaning: {
           en: 'behaving or looking as though one thinks one is superior to others',
-          zh_TW: '',
+          zh_TW: '目中無人的',
         },
         partsOfSpeech: 'adjective',
         example: "a supercilious lady's maid",
@@ -14794,13 +22991,13 @@ export default [
     ],
   },
   {
-    id: 922,
+    id: 1508,
     word: 'superfluous',
     detail: [
       {
         meaning: {
           en: 'unnecessary, especially through being more than enough',
-          zh_TW: '',
+          zh_TW: '多餘的、累贅的',
         },
         partsOfSpeech: 'adjective',
         example: 'the purchaser should avoid asking for superfluous information',
@@ -14808,13 +23005,27 @@ export default [
     ],
   },
   {
-    id: 923,
+    id: 1509,
+    word: 'supersede',
+    detail: [
+      {
+        meaning: {
+          en: 'take the place of be introduced so as to be used instead of (sth/sb)',
+          zh_TW: '淘汰、取代',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1510,
     word: 'supplant',
     detail: [
       {
         meaning: {
           en: 'take the place or move into the position of',
-          zh_TW: '',
+          zh_TW: '排擠、取代',
         },
         partsOfSpeech: 'verb',
         example: "For many, a cell phone has supplanted a traditional phone; in fact, most 20-somethings don't even have a traditional phone anymore.",
@@ -14822,13 +23033,41 @@ export default [
     ],
   },
   {
-    id: 924,
+    id: 1511,
+    word: 'supplement',
+    detail: [
+      {
+        meaning: {
+          en: 'thing added to sth else to improve or complete it',
+          zh_TW: '補充、增加',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1512,
+    word: 'suppress',
+    detail: [
+      {
+        meaning: {
+          en: 'put an end to (sth), esp by force; crush',
+          zh_TW: '鎮壓、抑制',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1513,
     word: 'surfeit',
     detail: [
       {
         meaning: {
           en: 'an excessive amount of something',
-          zh_TW: '',
+          zh_TW: '過量、過度',
         },
         partsOfSpeech: 'noun',
         example: 'a surfeit of food and drink',
@@ -14844,7 +23083,7 @@ export default [
     ],
   },
   {
-    id: 925,
+    id: 1514,
     word: 'surly',
     detail: [
       {
@@ -14858,13 +23097,41 @@ export default [
     ],
   },
   {
-    id: 926,
+    id: 1515,
+    word: 'surmise',
+    detail: [
+      {
+        meaning: {
+          en: 'suppose (sth) without having evidence that makes it certain; guess',
+          zh_TW: '推測、猜測、臆測 [類] guess',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1516,
+    word: 'surmount',
+    detail: [
+      {
+        meaning: {
+          en: 'deal with (a difficulty, etc); overcome',
+          zh_TW: '克服、戰勝',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1517,
     word: 'surreptitious',
     detail: [
       {
         meaning: {
           en: 'stealthy, taking pains not to be caught or detected',
-          zh_TW: '',
+          zh_TW: '秘密的、偷偷摸摸的、鬼鬼祟祟的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -14873,7 +23140,35 @@ export default [
     ],
   },
   {
-    id: 927,
+    id: 1518,
+    word: 'surrogate',
+    detail: [
+      {
+        meaning: {
+          en: '(fml) person or thing that acts or is used instead of another; substitute',
+          zh_TW: '代替品、代理人',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1519,
+    word: 'susceptible',
+    detail: [
+      {
+        meaning: {
+          en: 'to sth easily influenced or harmed by sth',
+          zh_TW: '易受影寫的、易被感動的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1520,
     word: 'sybarite',
     detail: [
       {
@@ -14888,13 +23183,13 @@ export default [
     ],
   },
   {
-    id: 928,
+    id: 1521,
     word: 'sycophant',
     detail: [
       {
         meaning: {
           en: 'a person who tries to please someone in order to gain a personal advantage',
-          zh_TW: '',
+          zh_TW: '拍馬屁者 [類] fawner; flunky',
         },
         partsOfSpeech: 'noun',
         example:
@@ -14903,13 +23198,69 @@ export default [
     ],
   },
   {
-    id: 929,
+    id: 1522,
+    word: 'symmetry',
+    detail: [
+      {
+        meaning: {
+          en: 'exact match in size and shape between the two halves of sth',
+          zh_TW: '對稱、均衡',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1523,
+    word: 'synoptic',
+    detail: [
+      {
+        meaning: {
+          en: 'of or forming a synopsis',
+          zh_TW: '概要的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1524,
+    word: 'syntax',
+    detail: [
+      {
+        meaning: {
+          en: '(rules for the) arrangement of words into phrases and phrases into sentences',
+          zh_TW: '語法、句法 [類] adj. syntactic 句法的',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1525,
+    word: 'synthesize',
+    detail: [
+      {
+        meaning: {
+          en: 'make (something) by synthesis, especially chemically',
+          zh_TW: '綜合、合成',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1526,
     word: 'taciturn',
     detail: [
       {
         meaning: {
           en: '(of a person) reserved or uncommunicative in speech; saying little',
-          zh_TW: '',
+          zh_TW: '沈默的 [反]loquacious(多話的), prolix(囉唆的)、voluble(多話的)',
         },
         partsOfSpeech: 'adjective',
         example: 'after such gatherings she would be taciturn and morose',
@@ -14917,7 +23268,7 @@ export default [
     ],
   },
   {
-    id: 930,
+    id: 1527,
     word: 'tact',
     detail: [
       {
@@ -14931,13 +23282,13 @@ export default [
     ],
   },
   {
-    id: 931,
+    id: 1528,
     word: 'tantamount',
     detail: [
       {
         meaning: {
           en: 'being essentially equal to something',
-          zh_TW: '',
+          zh_TW: '同等的、相當於',
         },
         partsOfSpeech: 'adjective',
         example: 'In many situations, remaining silent is tantamount to admitting guilt, so speak to prove your innocence.',
@@ -14945,7 +23296,7 @@ export default [
     ],
   },
   {
-    id: 932,
+    id: 1529,
     word: 'tarnish',
     detail: [
       {
@@ -14960,7 +23311,7 @@ export default [
     ],
   },
   {
-    id: 933,
+    id: 1530,
     word: 'tawdry',
     detail: [
       {
@@ -14975,7 +23326,7 @@ export default [
     ],
   },
   {
-    id: 934,
+    id: 1531,
     word: 'taxing',
     detail: [
       {
@@ -14989,7 +23340,21 @@ export default [
     ],
   },
   {
-    id: 935,
+    id: 1532,
+    word: 'tedious',
+    detail: [
+      {
+        meaning: {
+          en: 'tiresome because of being too long, slow or dull; boring',
+          zh_TW: '冗長乏味的、使人厭煩的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1533,
     word: 'telltale',
     detail: [
       {
@@ -15003,13 +23368,13 @@ export default [
     ],
   },
   {
-    id: 936,
+    id: 1534,
     word: 'temerity',
     detail: [
       {
         meaning: {
           en: 'excessive confidence or boldness; audacity',
-          zh_TW: '',
+          zh_TW: '魯莽、冒失、不自量力 [類] recklessness',
         },
         partsOfSpeech: 'noun',
         example: 'no one had the temerity to question his conclusions',
@@ -15017,7 +23382,7 @@ export default [
     ],
   },
   {
-    id: 937,
+    id: 1535,
     word: 'temper',
     detail: [
       {
@@ -15039,7 +23404,7 @@ export default [
     ],
   },
   {
-    id: 938,
+    id: 1536,
     word: 'temperance',
     detail: [
       {
@@ -15053,7 +23418,21 @@ export default [
     ],
   },
   {
-    id: 939,
+    id: 1537,
+    word: 'temperate',
+    detail: [
+      {
+        meaning: {
+          en: 'behaving with temperance; showing self-control',
+          zh_TW: '(氣候)溫和的、(飲食)適度的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1538,
     word: 'tempestuous',
     detail: [
       {
@@ -15067,13 +23446,41 @@ export default [
     ],
   },
   {
-    id: 940,
+    id: 1539,
+    word: 'temporal',
+    detail: [
+      {
+        meaning: {
+          en: 'of worldly affairs, i.e. not spiritual; secular',
+          zh_TW: '時間的、世俗的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1540,
+    word: 'tenable',
+    detail: [
+      {
+        meaning: {
+          en: 'that can be defended successfully against opposition or attack',
+          zh_TW: '站得住腳的、經得起批判的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1541,
     word: 'tenacious',
     detail: [
       {
         meaning: {
           en: 'tending to keep a firm hold of something; clinging or adhering closely',
-          zh_TW: '',
+          zh_TW: '堅持的、頑強的、固執的',
         },
         partsOfSpeech: 'adjective',
         example: 'a tenacious grip',
@@ -15097,13 +23504,13 @@ export default [
     ],
   },
   {
-    id: 941,
+    id: 1542,
     word: 'tendentious',
     detail: [
       {
         meaning: {
           en: 'likely to lean towards a controversial view',
-          zh_TW: '',
+          zh_TW: '有偏見的、傾向性的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -15112,7 +23519,7 @@ export default [
     ],
   },
   {
-    id: 942,
+    id: 1543,
     word: 'tender',
     detail: [
       {
@@ -15126,7 +23533,35 @@ export default [
     ],
   },
   {
-    id: 943,
+    id: 1544,
+    word: 'tenuous',
+    detail: [
+      {
+        meaning: {
+          en: 'thin; slender',
+          zh_TW: '稀薄的、空洞的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1545,
+    word: 'terse',
+    detail: [
+      {
+        meaning: {
+          en: 'using few words; concise; curt',
+          zh_TW: '簡短的、簡明的、簡潔的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1546,
     word: 'thoroughgoing',
     detail: [
       {
@@ -15140,7 +23575,7 @@ export default [
     ],
   },
   {
-    id: 944,
+    id: 1547,
     word: 'thrifty',
     detail: [
       {
@@ -15154,13 +23589,13 @@ export default [
     ],
   },
   {
-    id: 945,
+    id: 1548,
     word: 'thwart',
     detail: [
       {
         meaning: {
           en: 'prevent (someone) from accomplishing something',
-          zh_TW: '',
+          zh_TW: '阻撓、阻礙 [反] foment(煽動), bolster(支持)',
         },
         partsOfSpeech: 'verb',
         example: 'he never did anything to thwart his father',
@@ -15184,7 +23619,7 @@ export default [
     ],
   },
   {
-    id: 946,
+    id: 1549,
     word: 'timorous',
     detail: [
       {
@@ -15198,7 +23633,7 @@ export default [
     ],
   },
   {
-    id: 947,
+    id: 1550,
     word: 'tirade',
     detail: [
       {
@@ -15212,13 +23647,13 @@ export default [
     ],
   },
   {
-    id: 948,
+    id: 1551,
     word: 'torpor',
     detail: [
       {
         meaning: {
           en: 'inactivity resulting from lethargy and lack of vigor or energy',
-          zh_TW: '',
+          zh_TW: '麻木的、無精打采、遲鈍 [反]ardor(熱心、熱情)',
         },
         partsOfSpeech: 'noun',
         example: 'After work, I was expecting my colleagues to be enthusiastic about the outing, but I found them in a state of complete torpor.',
@@ -15226,7 +23661,7 @@ export default [
     ],
   },
   {
-    id: 949,
+    id: 1552,
     word: 'tortuous',
     detail: [
       {
@@ -15241,7 +23676,7 @@ export default [
     ],
   },
   {
-    id: 950,
+    id: 1553,
     word: 'tout',
     detail: [
       {
@@ -15255,13 +23690,13 @@ export default [
     ],
   },
   {
-    id: 951,
+    id: 1554,
     word: 'tractable',
     detail: [
       {
         meaning: {
           en: '(of a person) easy to control or influence',
-          zh_TW: '',
+          zh_TW: '溫順的 [類] docile [反] recalcitrant, intransigent',
         },
         partsOfSpeech: 'adjective',
         example: 'tractable dogs that have had some obedience training',
@@ -15277,7 +23712,49 @@ export default [
     ],
   },
   {
-    id: 952,
+    id: 1555,
+    word: 'tranquil',
+    detail: [
+      {
+        meaning: {
+          en: 'calm, quiet and undisturbed',
+          zh_TW: '平靜的、安靜地、安寧的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1556,
+    word: 'transcendent',
+    detail: [
+      {
+        meaning: {
+          en: 'beyond or above the range of normal or merely physical human experience,',
+          zh_TW: '超越的、卓越的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1557,
+    word: 'transcribe',
+    detail: [
+      {
+        meaning: {
+          en: 'sth copy sth in writing',
+          zh_TW: '抄寫、謄寫',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1558,
     word: 'transient',
     detail: [
       {
@@ -15291,13 +23768,13 @@ export default [
     ],
   },
   {
-    id: 953,
+    id: 1559,
     word: 'transitory',
     detail: [
       {
         meaning: {
           en: 'not permanent',
-          zh_TW: '',
+          zh_TW: '短暫的、瞬息的 [類] temporary',
         },
         partsOfSpeech: 'adjective',
         example: 'transitory periods of medieval greatness',
@@ -15305,7 +23782,7 @@ export default [
     ],
   },
   {
-    id: 954,
+    id: 1560,
     word: 'transmute',
     detail: [
       {
@@ -15319,7 +23796,21 @@ export default [
     ],
   },
   {
-    id: 955,
+    id: 1561,
+    word: 'transparent',
+    detail: [
+      {
+        meaning: {
+          en: 'allowing light to pass through so that objects behind can be seen clearly',
+          zh_TW: '透明的、清澈的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1562,
     word: 'travail',
     detail: [
       {
@@ -15333,7 +23824,7 @@ export default [
     ],
   },
   {
-    id: 956,
+    id: 1563,
     word: 'travesty',
     detail: [
       {
@@ -15347,13 +23838,13 @@ export default [
     ],
   },
   {
-    id: 957,
+    id: 1564,
     word: 'treacherous',
     detail: [
       {
         meaning: {
           en: 'tending to betray',
-          zh_TW: '',
+          zh_TW: '危險的、背叛的、不可靠的 [類] perfidious(背叛的), unreliable(不可靠的)',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -15362,13 +23853,13 @@ export default [
     ],
   },
   {
-    id: 958,
+    id: 1565,
     word: 'trenchant',
     detail: [
       {
         meaning: {
           en: 'characterized by or full of force and vigor; having keenness and forcefulness and penetration in thought, expression, or intellect',
-          zh_TW: '',
+          zh_TW: '(言辭)犀利的、鋒利的 [類] incisive, penetrating',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -15377,7 +23868,21 @@ export default [
     ],
   },
   {
-    id: 959,
+    id: 1566,
+    word: 'trepidation',
+    detail: [
+      {
+        meaning: {
+          en: 'great worry or fear about sth unpleasant that may happen',
+          zh_TW: '恐懼、惶恐',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1567,
     word: 'tribulation',
     detail: [
       {
@@ -15392,7 +23897,21 @@ export default [
     ],
   },
   {
-    id: 960,
+    id: 1568,
+    word: 'trifling',
+    detail: [
+      {
+        meaning: {
+          en: 'unimportant; trivial',
+          zh_TW: '不重要的、微不足道的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1569,
     word: 'trite',
     detail: [
       {
@@ -15406,7 +23925,21 @@ export default [
     ],
   },
   {
-    id: 961,
+    id: 1570,
+    word: 'trivial',
+    detail: [
+      {
+        meaning: {
+          en: 'that has little importance',
+          zh_TW: '瑣碎的、微不足道的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1571,
     word: 'truculence',
     detail: [
       {
@@ -15421,13 +23954,13 @@ export default [
     ],
   },
   {
-    id: 962,
+    id: 1572,
     word: 'truculent',
     detail: [
       {
         meaning: {
           en: 'eager or quick to argue or fight; aggressively defiant',
-          zh_TW: '',
+          zh_TW: '好鬥的、殘酷的',
         },
         partsOfSpeech: 'adjective',
         example: 'his days of truculent defiance were over',
@@ -15435,7 +23968,7 @@ export default [
     ],
   },
   {
-    id: 963,
+    id: 1573,
     word: 'truncate',
     detail: [
       {
@@ -15465,7 +23998,7 @@ export default [
     ],
   },
   {
-    id: 964,
+    id: 1574,
     word: 'tumult',
     detail: [
       {
@@ -15479,7 +24012,21 @@ export default [
     ],
   },
   {
-    id: 965,
+    id: 1575,
+    word: 'tumultuous',
+    detail: [
+      {
+        meaning: {
+          en: 'disorderly or confused; violent',
+          zh_TW: '騷亂的、亂哄哄的、喧嘩的 [反] serene 平靜的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1576,
     word: 'turgid',
     detail: [
       {
@@ -15494,7 +24041,21 @@ export default [
     ],
   },
   {
-    id: 966,
+    id: 1577,
+    word: 'turmoil',
+    detail: [
+      {
+        meaning: {
+          en: 'great disturbance, agitation or confusion',
+          zh_TW: '騷動、混亂',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1578,
     word: 'turpitude',
     detail: [
       {
@@ -15508,7 +24069,21 @@ export default [
     ],
   },
   {
-    id: 967,
+    id: 1579,
+    word: 'tyranny',
+    detail: [
+      {
+        meaning: {
+          en: 'cruel, unjust or oppressive use of power or authority',
+          zh_TW: '暴政、專利',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1580,
     word: 'tyro',
     detail: [
       {
@@ -15522,7 +24097,21 @@ export default [
     ],
   },
   {
-    id: 968,
+    id: 1581,
+    word: 'ubiquitous',
+    detail: [
+      {
+        meaning: {
+          en: '(seeming to be) present everywhere or in several places at the same time',
+          zh_TW: '無所不在的 [類] omnipresent, universal',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1582,
     word: 'umbrage',
     detail: [
       {
@@ -15536,7 +24125,21 @@ export default [
     ],
   },
   {
-    id: 969,
+    id: 1583,
+    word: 'unanimous',
+    detail: [
+      {
+        meaning: {
+          en: '(in sth) all agreeing on a decision or an opinion',
+          zh_TW: '全體一致的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1584,
     word: 'unassailable',
     detail: [
       {
@@ -15550,13 +24153,13 @@ export default [
     ],
   },
   {
-    id: 970,
+    id: 1585,
     word: 'uncanny',
     detail: [
       {
         meaning: {
           en: 'suggesting the operation of supernatural influences; surpassing the ordinary or normal',
-          zh_TW: '',
+          zh_TW: '奇異的、怪異的、難懂的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -15565,7 +24168,7 @@ export default [
     ],
   },
   {
-    id: 971,
+    id: 1586,
     word: 'uncompromising',
     detail: [
       {
@@ -15587,7 +24190,7 @@ export default [
     ],
   },
   {
-    id: 972,
+    id: 1587,
     word: 'unconscionable',
     detail: [
       {
@@ -15602,9 +24205,59 @@ export default [
     ],
   },
   {
-    id: 973,
+    id: 1588,
+    word: 'unctuous',
+    detail: [
+      {
+        meaning: {
+          en: 'insincerely earnest or flattering, esp in an oily way',
+          zh_TW: '假殷勤的、油腔滑調的 [類] insincere',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1589,
+    word: 'undercut',
+    detail: [
+      {
+        meaning: {
+          en: '(meat cut from the ) underside of sirloin',
+          zh_TW: '削弱',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1590,
+    word: 'underline',
+    detail: [
+      {
+        meaning: {
+          en: 'draw a line under (a word or phrase) to give emphasis or indicate special type',
+          zh_TW: '在...之下畫線(表重要)',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1591,
     word: 'undermine',
     detail: [
+      {
+        meaning: {
+          en: 'lessen the effectiveness, power, or ability of, especially gradually or insidiously',
+          zh_TW: '削弱',
+        },
+        partsOfSpeech: 'verb',
+        example: 'this could undermine years of hard work',
+      },
       {
         meaning: {
           en: 'erode the base or foundation of (a rock formation)',
@@ -15621,18 +24274,10 @@ export default [
         partsOfSpeech: 'verb',
         example: "the demolition engineers did eventually undermine two of the tower's six sides",
       },
-      {
-        meaning: {
-          en: 'lessen the effectiveness, power, or ability of, especially gradually or insidiously',
-          zh_TW: '',
-        },
-        partsOfSpeech: 'verb',
-        example: 'this could undermine years of hard work',
-      },
     ],
   },
   {
-    id: 974,
+    id: 1592,
     word: 'underscore',
     detail: [
       {
@@ -15647,7 +24292,21 @@ export default [
     ],
   },
   {
-    id: 975,
+    id: 1593,
+    word: 'understated',
+    detail: [
+      {
+        meaning: {
+          en: 'understate: to state (sth) in restrained terms, often to obtain an ironic effect',
+          zh_TW: '輕描淡寫的、低調的、壓抑的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1594,
     word: 'underwrite',
     detail: [
       {
@@ -15661,7 +24320,21 @@ export default [
     ],
   },
   {
-    id: 976,
+    id: 1595,
+    word: 'undeserved',
+    detail: [
+      {
+        meaning: {
+          en: 'not fair or just',
+          zh_TW: '不應得的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1596,
     word: 'unequivocal',
     detail: [
       {
@@ -15675,7 +24348,7 @@ export default [
     ],
   },
   {
-    id: 977,
+    id: 1597,
     word: 'unflappable',
     detail: [
       {
@@ -15689,7 +24362,7 @@ export default [
     ],
   },
   {
-    id: 978,
+    id: 1598,
     word: 'unforthcoming',
     detail: [
       {
@@ -15703,7 +24376,7 @@ export default [
     ],
   },
   {
-    id: 979,
+    id: 1599,
     word: 'unimpeachable',
     detail: [
       {
@@ -15717,7 +24390,21 @@ export default [
     ],
   },
   {
-    id: 980,
+    id: 1600,
+    word: 'universality',
+    detail: [
+      {
+        meaning: {
+          en: 'the quality of involving or being shared by all people or things in the world or in a particular group',
+          zh_TW: '普遍性',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1601,
     word: 'unnerve',
     detail: [
       {
@@ -15731,7 +24418,7 @@ export default [
     ],
   },
   {
-    id: 981,
+    id: 1602,
     word: 'unorthodox',
     detail: [
       {
@@ -15745,13 +24432,13 @@ export default [
     ],
   },
   {
-    id: 982,
+    id: 1603,
     word: 'unprecedented',
     detail: [
       {
         meaning: {
           en: 'never done or known before',
-          zh_TW: '',
+          zh_TW: '前所未有的',
         },
         partsOfSpeech: 'adjective',
         example: 'the emphasis has been on shaping bold solutions to save lives and livelihoods in these unprecedented times',
@@ -15759,7 +24446,7 @@ export default [
     ],
   },
   {
-    id: 983,
+    id: 1604,
     word: 'unprepossessing',
     detail: [
       {
@@ -15774,7 +24461,7 @@ export default [
     ],
   },
   {
-    id: 984,
+    id: 1605,
     word: 'unpropitious',
     detail: [
       {
@@ -15789,7 +24476,21 @@ export default [
     ],
   },
   {
-    id: 985,
+    id: 1606,
+    word: 'unremitting',
+    detail: [
+      {
+        meaning: {
+          en: 'never relaxing or ceasing; incessant; persistent',
+          zh_TW: '不間斷的、持續的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1607,
     word: 'unruly',
     detail: [
       {
@@ -15803,7 +24504,7 @@ export default [
     ],
   },
   {
-    id: 986,
+    id: 1608,
     word: 'unscrupulous',
     detail: [
       {
@@ -15817,13 +24518,13 @@ export default [
     ],
   },
   {
-    id: 987,
+    id: 1609,
     word: 'unseemly',
     detail: [
       {
         meaning: {
           en: 'not in keeping with accepted standards of what is right or proper in polite society',
-          zh_TW: '',
+          zh_TW: '不得體的',
         },
         partsOfSpeech: 'adjective',
         example: 'He acted in an unseemly manner, insulting the hostess and then speaking ill of her deceased husband.',
@@ -15831,7 +24532,7 @@ export default [
     ],
   },
   {
-    id: 988,
+    id: 1610,
     word: 'unstinting',
     detail: [
       {
@@ -15845,7 +24546,7 @@ export default [
     ],
   },
   {
-    id: 989,
+    id: 1611,
     word: 'untenable',
     detail: [
       {
@@ -15859,7 +24560,7 @@ export default [
     ],
   },
   {
-    id: 990,
+    id: 1612,
     word: 'untoward',
     detail: [
       {
@@ -15874,7 +24575,7 @@ export default [
     ],
   },
   {
-    id: 991,
+    id: 1613,
     word: 'untrammeled',
     detail: [
       {
@@ -15889,7 +24590,7 @@ export default [
     ],
   },
   {
-    id: 992,
+    id: 1614,
     word: 'unviable',
     detail: [
       {
@@ -15903,7 +24604,7 @@ export default [
     ],
   },
   {
-    id: 993,
+    id: 1615,
     word: 'upbraid',
     detail: [
       {
@@ -15917,7 +24618,7 @@ export default [
     ],
   },
   {
-    id: 994,
+    id: 1616,
     word: 'urbane',
     detail: [
       {
@@ -15931,13 +24632,27 @@ export default [
     ],
   },
   {
-    id: 995,
+    id: 1617,
+    word: 'utilitarian',
+    detail: [
+      {
+        meaning: {
+          en: 'designed to be useful rather than luxurious or decorative, etc; severely practical',
+          zh_TW: '功利主義的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1618,
     word: 'vacillate',
     detail: [
       {
         meaning: {
           en: 'alternate or waver between different opinions or actions; be indecisive',
-          zh_TW: '',
+          zh_TW: '猶豫不決 [類] waver, hestitate',
         },
         partsOfSpeech: 'verb',
         example: 'I had for a time vacillated between teaching and journalism',
@@ -15945,13 +24660,13 @@ export default [
     ],
   },
   {
-    id: 996,
+    id: 1619,
     word: 'vacuous',
     detail: [
       {
         meaning: {
           en: 'devoid of intelligence, matter, or significance',
-          zh_TW: '',
+          zh_TW: '發呆的、愚笨的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -15960,7 +24675,7 @@ export default [
     ],
   },
   {
-    id: 997,
+    id: 1620,
     word: 'vanquish',
     detail: [
       {
@@ -15974,7 +24689,21 @@ export default [
     ],
   },
   {
-    id: 998,
+    id: 1621,
+    word: 'vapid',
+    detail: [
+      {
+        meaning: {
+          en: 'dull or uninteresting',
+          zh_TW: '無味的、走了味的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1622,
     word: 'variance',
     detail: [
       {
@@ -15988,7 +24717,7 @@ export default [
     ],
   },
   {
-    id: 999,
+    id: 1623,
     word: 'vaunted',
     detail: [
       {
@@ -16010,7 +24739,7 @@ export default [
     ],
   },
   {
-    id: 1000,
+    id: 1624,
     word: 'vehement',
     detail: [
       {
@@ -16025,7 +24754,7 @@ export default [
     ],
   },
   {
-    id: 1001,
+    id: 1625,
     word: 'venality',
     detail: [
       {
@@ -16040,7 +24769,7 @@ export default [
     ],
   },
   {
-    id: 1002,
+    id: 1626,
     word: 'veneer',
     detail: [
       {
@@ -16055,7 +24784,7 @@ export default [
     ],
   },
   {
-    id: 1003,
+    id: 1627,
     word: 'venerate',
     detail: [
       {
@@ -16069,7 +24798,35 @@ export default [
     ],
   },
   {
-    id: 1004,
+    id: 1628,
+    word: 'veneration',
+    detail: [
+      {
+        meaning: {
+          en: 'regard with deep respect',
+          zh_TW: '尊敬',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1629,
+    word: 'vengeance',
+    detail: [
+      {
+        meaning: {
+          en: 'paying back of an ihjury that one has suffered; revenge',
+          zh_TW: '報仇、報復',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1630,
     word: 'venial',
     detail: [
       {
@@ -16084,13 +24841,13 @@ export default [
     ],
   },
   {
-    id: 1005,
+    id: 1631,
     word: 'veracious',
     detail: [
       {
         meaning: {
           en: 'truthful',
-          zh_TW: '',
+          zh_TW: '誠實的、真實的 [類] n. veracity 誠實、真實',
         },
         partsOfSpeech: 'adjective',
         example: 'While we elect our leaders in the hope that every word they speak  will be veracious, history has shown that such a hope is naive.',
@@ -16098,13 +24855,55 @@ export default [
     ],
   },
   {
-    id: 1006,
+    id: 1632,
+    word: 'verbose',
+    detail: [
+      {
+        meaning: {
+          en: 'using or containing more words than are needed',
+          zh_TW: '囉唆的、冗長的 [類] prolix(囉唆的), superflous(多餘的、過剩的)',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1633,
+    word: 'verdict',
+    detail: [
+      {
+        meaning: {
+          en: 'decision reached by a jury on a question of fact in a law case',
+          zh_TW: '判決、決定',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1634,
+    word: 'verified',
+    detail: [
+      {
+        meaning: {
+          en: 'verify: to prove to be true; confirm; substantiate',
+          zh_TW: '檢驗的、核實的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1635,
     word: 'verisimilitude',
     detail: [
       {
         meaning: {
           en: 'the appearance of being true or real',
-          zh_TW: '',
+          zh_TW: '逼真',
         },
         partsOfSpeech: 'noun',
         example: 'the detail gives the novel some verisimilitude',
@@ -16112,13 +24911,13 @@ export default [
     ],
   },
   {
-    id: 1007,
+    id: 1636,
     word: 'veritable',
     detail: [
       {
         meaning: {
           en: 'truthfully, without a doubt',
-          zh_TW: '',
+          zh_TW: '確實的、名副其實的',
         },
         partsOfSpeech: 'adjective',
         example: 'Frank is a veritable life-saver -- last year, on two different occasions, he revived people using CPR.',
@@ -16126,7 +24925,35 @@ export default [
     ],
   },
   {
-    id: 1008,
+    id: 1637,
+    word: 'versatile',
+    detail: [
+      {
+        meaning: {
+          en: 'turning easily or readily from one subject, skill or occupation to another',
+          zh_TW: '多才多藝的、多用途的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1638,
+    word: 'viable',
+    detail: [
+      {
+        meaning: {
+          en: 'sound and workable; feasible',
+          zh_TW: '可行的、能活下去的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1639,
     word: 'vicarious',
     detail: [
       {
@@ -16140,7 +24967,7 @@ export default [
     ],
   },
   {
-    id: 1009,
+    id: 1640,
     word: 'vicissitude',
     detail: [
       {
@@ -16154,7 +24981,7 @@ export default [
     ],
   },
   {
-    id: 1010,
+    id: 1641,
     word: 'vie',
     detail: [
       {
@@ -16168,13 +24995,27 @@ export default [
     ],
   },
   {
-    id: 1011,
+    id: 1642,
+    word: 'vigilant',
+    detail: [
+      {
+        meaning: {
+          en: 'looking out for possible danger, trouble, etc; watchful or alert',
+          zh_TW: '機警的、警惕的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1643,
     word: 'vilify',
     detail: [
       {
         meaning: {
           en: 'speak or write about in an abusively disparaging manner',
-          zh_TW: '',
+          zh_TW: '辱罵、誹謗',
         },
         partsOfSpeech: 'verb',
         example: 'he has been vilified in the press',
@@ -16182,13 +25023,13 @@ export default [
     ],
   },
   {
-    id: 1012,
+    id: 1644,
     word: 'vindicate',
     detail: [
       {
         meaning: {
           en: 'to clear of accusation, blame, suspicion, or doubt with supporting arguments or proof',
-          zh_TW: '',
+          zh_TW: '為...平反、證明...正確',
         },
         partsOfSpeech: 'verb',
         example:
@@ -16197,7 +25038,7 @@ export default [
     ],
   },
   {
-    id: 1013,
+    id: 1645,
     word: 'vindictive',
     detail: [
       {
@@ -16212,7 +25053,7 @@ export default [
     ],
   },
   {
-    id: 1014,
+    id: 1646,
     word: 'virago',
     detail: [
       {
@@ -16226,7 +25067,35 @@ export default [
     ],
   },
   {
-    id: 1015,
+    id: 1647,
+    word: 'virtuosity',
+    detail: [
+      {
+        meaning: {
+          en: 'skill of a virtuoso',
+          zh_TW: '精湛的技巧、高潮',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1648,
+    word: 'vitiate',
+    detail: [
+      {
+        meaning: {
+          en: 'weaken or spoil the quality or efficiency of (sth)',
+          zh_TW: '削弱、破壞、損害',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1649,
     word: 'vitriol',
     detail: [
       {
@@ -16240,7 +25109,7 @@ export default [
     ],
   },
   {
-    id: 1016,
+    id: 1650,
     word: 'vitriolic',
     detail: [
       {
@@ -16254,7 +25123,7 @@ export default [
     ],
   },
   {
-    id: 1017,
+    id: 1651,
     word: 'vituperate',
     detail: [
       {
@@ -16268,13 +25137,13 @@ export default [
     ],
   },
   {
-    id: 1018,
+    id: 1652,
     word: 'vociferous',
     detail: [
       {
         meaning: {
           en: '(especially of a person or speech) vehement or clamorous',
-          zh_TW: '',
+          zh_TW: '大聲的、激昂的',
         },
         partsOfSpeech: 'adjective',
         example: 'he was a vociferous opponent of the takeover',
@@ -16282,7 +25151,7 @@ export default [
     ],
   },
   {
-    id: 1019,
+    id: 1653,
     word: 'volubility',
     detail: [
       {
@@ -16296,7 +25165,21 @@ export default [
     ],
   },
   {
-    id: 1020,
+    id: 1654,
+    word: 'voluble',
+    detail: [
+      {
+        meaning: {
+          en: '(of a person) speaking a lot; talkative',
+          zh_TW: '健談的、口若懸河般的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1655,
     word: 'voracious',
     detail: [
       {
@@ -16310,7 +25193,21 @@ export default [
     ],
   },
   {
-    id: 1021,
+    id: 1656,
+    word: 'wane',
+    detail: [
+      {
+        meaning: {
+          en: 'show a gradually decreasing area of brightness after being full',
+          zh_TW: '虧缺、摔落、消失 [類] a. waning 衰退的 = declining',
+        },
+        partsOfSpeech: 'verb',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1657,
     word: 'wanting',
     detail: [
       {
@@ -16324,7 +25221,7 @@ export default [
     ],
   },
   {
-    id: 1022,
+    id: 1658,
     word: 'wanton',
     detail: [
       {
@@ -16338,7 +25235,21 @@ export default [
     ],
   },
   {
-    id: 1023,
+    id: 1659,
+    word: 'wary',
+    detail: [
+      {
+        meaning: {
+          en: '(of sb/sth)looking out for possible danger or difficulty; cautious',
+          zh_TW: '謹慎的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1660,
     word: 'wax',
     detail: [
       {
@@ -16360,13 +25271,27 @@ export default [
     ],
   },
   {
-    id: 1024,
+    id: 1661,
+    word: 'welter',
+    detail: [
+      {
+        meaning: {
+          en: 'of sth/sb disorderly mixture of things or people ; general confusion',
+          zh_TW: '雜亂無章 [類] turmoil',
+        },
+        partsOfSpeech: 'noun',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1662,
     word: 'whimsical',
     detail: [
       {
         meaning: {
           en: 'playfully quaint or fanciful, especially in an appealing and amusing way',
-          zh_TW: '',
+          zh_TW: '怪誕的、異想天開的、反覆無常的',
         },
         partsOfSpeech: 'adjective',
         example: 'a whimsical sense of humor',
@@ -16374,7 +25299,7 @@ export default [
     ],
   },
   {
-    id: 1025,
+    id: 1663,
     word: 'winsome',
     detail: [
       {
@@ -16388,7 +25313,21 @@ export default [
     ],
   },
   {
-    id: 1026,
+    id: 1664,
+    word: 'zealous',
+    detail: [
+      {
+        meaning: {
+          en: 'full of zeal; eager',
+          zh_TW: '熱情的、狂熱的',
+        },
+        partsOfSpeech: 'adjective',
+        example: '',
+      },
+    ],
+  },
+  {
+    id: 1665,
     word: 'zeitgeist',
     detail: [
       {
@@ -16397,12 +25336,12 @@ export default [
           zh_TW: '',
         },
         partsOfSpeech: 'noun',
-        example: 'Each decade has its own zeitgeist—the 1990’s was a prosperous time in which the promise of the American Dream never seemed more palpable.',
+        example: 'Each decade has its own zeitgeist—the 1990’s was a prosperous time in which the promise of the American Dream never seemed more palpable',
       },
     ],
   },
   {
-    id: 1027,
+    id: 1666,
     word: 'zenith',
     detail: [
       {
@@ -16411,7 +25350,7 @@ export default [
           zh_TW: '',
         },
         partsOfSpeech: 'noun',
-        example: 'At the zenith of his artistic career, Elvis was outselling any other artist on the charts.',
+        example: 'At the zenith of his artistic career, Elvis was outselling any other artist on the charts',
       },
     ],
   },
