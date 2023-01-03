@@ -4,7 +4,7 @@ The goal of this project is to assist non-native English speakers in preparing f
 
 Users can change the highlight color, the popup window's font size, and the language of the dictionary by clicking the extension icon on the toolbar.
 
-Currently, there are about 1000 most common GRE vocabulary words collected. The collection of words will continue to increase.
+Currently, there are about 1700 most common GRE vocabulary words collected. The collection of words will continue to increase.
 
 ## Demo
 
