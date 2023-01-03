@@ -67,7 +67,7 @@ const PopupView = () => {
     await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: state });
     // 2. Notify other tabs, extension (popup), and background
     // Note: unless open tabs in multiple windows with extension popup opened, otherwise the entire popup in that tab will not be executed
-    // i.e., those tabs won't receive this mesage. They will update their style once the user click the extension icon and load latest config
+    // i.e., those tabs won't receive this mesage. They will update their style once the user click the extension icon then load latest config
     sendMessage({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state, prevState } });
     // 3. Notify current tab's content-script (sends a message to content script running in webpage)
     // Note: when we open extension popup as a webpage, there is no content script running. Hence, we should not send messages

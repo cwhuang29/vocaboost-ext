@@ -7,7 +7,29 @@ import { constructWordExample } from '@shared/utils/highlight';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import { Box, Typography } from '@mui/material';
 
+const Word = ({ word }) => (
+  <Typography variant='h4' component='div' className={HIGHLIGHTER_CLASS} style={{ textTransform: 'capitalize' }}>
+    {word}
+  </Typography>
+);
+
 const Divider = () => <hr style={{ position: 'relative', bottom: '3px', backgroundColor: '#EDEDED', border: '0.8px solid #EDEDED' }} />;
+
+const PartsOfSpeech = ({ partsOfSpeech }) => {
+  const pos = PARTS_OF_SPEECH_SHORTHAND[partsOfSpeech];
+  return pos ? (
+    <span className={HIGHLIGHTER_POS_CLASS} style={{ marginRight: '6px' }}>
+      {pos}
+    </span>
+  ) : null;
+};
+
+const Meaning = ({ language, meaning }) => {
+  const def = meaning[LANGS[language]] || meaning[LANGS.en];
+  return <span className={HIGHLIGHTER_CLASS}>{def}</span>;
+};
+
+const Example = ({ example }) => <span className={HIGHLIGHTER_CLASS}>{constructWordExample(example)}</span>;
 
 const DailyWord = ({ language }) => {
   const { dailyWord = {} } = useExtensionMessageContext(); // This might takes a bit time (get/update daily word -> insert to storage -> update context)
@@ -15,27 +37,24 @@ const DailyWord = ({ language }) => {
   const link = `${ONLINE_DIC_URL[language]}${word}`;
 
   const openExternalLink = () => {
-    window.open(link, '_blank', 'noopener,noreferrer');
+    window.open(link, '_blank', 'noopener, noreferrer');
   };
 
   return word ? (
     <Box style={{ color: 'rgb(27 31 50)' }}>
       <Box style={{ display: 'flex', alignItems: 'center' }}>
-        <Typography variant='h4' component='div' className={HIGHLIGHTER_CLASS} style={{ textTransform: 'capitalize' }}>
-          {word}
-        </Typography>
+        <Word word={word} />
         <Box style={{ width: '20px' }} />
         <MenuBookIcon onClick={openExternalLink} style={{ cursor: 'pointer', fontSize: '36px' }} />
       </Box>
       <Divider />
-      {detail.map(({ meaning, partsOfSpeech, example }) => (
+      {detail.map(({ meaning, partsOfSpeech, example }, idx) => (
         <>
-          <Typography variant='body1' component='div' className={HIGHLIGHTER_CLASS} style={{ fontWeight: 'normal', marginBottom: '5px' }}>
-            <span className={HIGHLIGHTER_POS_CLASS}>{PARTS_OF_SPEECH_SHORTHAND[partsOfSpeech]}&nbsp;&nbsp;</span>
-            {meaning[LANGS.en]} {/* for now only english explanation is supported */}
-          </Typography>
-          <Typography variant='body1' component='div' className={HIGHLIGHTER_CLASS} style={{ fontWeight: 'normal', marginBottom: '5px' }}>
-            {constructWordExample(example)}
+          <Typography variant='body1' component='div' style={{ marginBottom: idx === detail.length - 1 ? '0px' : '6px' }}>
+            <PartsOfSpeech partsOfSpeech={partsOfSpeech} />
+            <Meaning language={language} meaning={meaning} />
+            <br />
+            <Example example={example} />
           </Typography>
           {/* <Link href={link} target='_blank' rel='noopener noreferrer' style={{}}> Check out on dictionary </Link> */}
         </>
@@ -44,6 +63,23 @@ const DailyWord = ({ language }) => {
   ) : (
     <Box>Loading daily word...</Box>
   );
+};
+
+Word.propTypes = {
+  word: PropTypes.string.isRequired,
+};
+
+PartsOfSpeech.propTypes = {
+  partsOfSpeech: PropTypes.string.isRequired,
+};
+
+Meaning.propTypes = {
+  language: PropTypes.string.isRequired,
+  meaning: PropTypes.object.isRequired,
+};
+
+Example.propTypes = {
+  example: PropTypes.string.isRequired,
 };
 
 DailyWord.propTypes = {

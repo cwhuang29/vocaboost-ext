@@ -15,7 +15,7 @@ import { genWordDetailList } from '@shared/utils/word';
 
 const storeDailyWord = word => setStorage({ type: 'sync', key: EXT_STORAGE_DAILY_WORD, value: { word, timestamp: new Date().toJSON() } });
 
-const getDailyWord = async () => {
+const setupDailyWord = async () => {
   const cache = await getStorage({ type: 'sync', key: EXT_STORAGE_DAILY_WORD });
   const { word, timestamp } = cache[EXT_STORAGE_DAILY_WORD] || {};
   if (word && isSameDay(new Date(timestamp), new Date())) {
@@ -24,14 +24,14 @@ const getDailyWord = async () => {
 
   const wordList = genWordDetailList();
   let w = wordList[Math.floor(Math.random() * wordList.length)];
-  while (!w?.detail[0]?.meaning.en) {
+  while (!w?.detail[0]?.meaning?.en) {
     w = wordList[Math.floor(Math.random() * wordList.length)];
   }
   await storeDailyWord(w);
   return w;
 };
 
-const loadDefaultConfigIfNotExist = async () => {
+const setupDefaultConfigIfNotExist = async () => {
   let config = await getStorage({ type: 'sync', key: EXT_STORAGE_CONFIG });
   if (!config || Object.keys(config).length === 0) {
     config = getDefaultConfig();
@@ -44,7 +44,7 @@ const PopupManager = ({ children }) => {
   const [extMessageValue, setExtMessageValue] = useState({});
 
   const handleDailyWord = async () => {
-    const dailyWord = await getDailyWord();
+    const dailyWord = await setupDailyWord();
     if (!extMessageValue.dailyWord?.word !== dailyWord.word) {
       setExtMessageValue(prev => ({ ...prev, dailyWord }));
       // setExtMessageValue({ ...extMessageValue, dailyWord }); // Error: the specify key will update yet other parts will be lost
@@ -59,7 +59,7 @@ const PopupManager = ({ children }) => {
       switch (message.type) {
         case EXT_MSG_TYPE_INIT_SETUP:
           // Triggered by background's onInstall event listener
-          loadDefaultConfigIfNotExist();
+          setupDefaultConfigIfNotExist();
           break;
         case EXT_MSG_TYPE_GET_WORD_LIST:
           // Triggered by context script periodically
