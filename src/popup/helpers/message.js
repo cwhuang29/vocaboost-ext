@@ -1,7 +1,7 @@
 // Both background.js and other tabs receive this message
 // The tab send this message does not receive it
 export const sendMessage = async ({ type = '', payload = {} } = {}) => {
-  console.log(`[popup] going to send message. Message: ${type}`);
+  // console.log(`[popup] going to send message. Message: ${type}`);
 
   const msg = { type, payload };
   const resp = await chrome.runtime.sendMessage(msg).catch(err => console.log(`[popup] Error occurred while sending request. error: ${err}`));
@@ -29,7 +29,7 @@ export const sendMessageToTab = async ({ type = '', payload = {} } = {}) => {
   // ERROR: extension popup can't connect to webpage. Message: "Error handling response: TypeError: Cannot read properties of undefined (reading 'id')"
   // const queryInfo = { active: true, lastFocusedWindow: true };
   const queryInfo = { active: true, currentWindow: true };
-  console.log(`[popup] going to send message to tab. Message: ${type}`);
+  // console.log(`[popup] going to send message to tab. Message: ${type}`);
 
   return new Promise(resolve => {
     chrome.tabs.query(queryInfo, tabs => {

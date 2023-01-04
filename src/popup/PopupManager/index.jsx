@@ -37,7 +37,7 @@ const setupDefaultConfigIfNotExist = async () => {
     config = getDefaultConfig();
     await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: config });
   }
-  console.log(`[popup] get config after installation. Config: ${config}`);
+  // console.log(`[popup] get config after installation. Config: ${config}`);
 };
 
 const PopupManager = ({ children }) => {
@@ -53,8 +53,8 @@ const PopupManager = ({ children }) => {
 
   const handleExtensionMessage = () => {
     chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-      const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
-      console.log(`[popup] message received: ${message.type}. Sender: ${sdr}`);
+      // const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
+      // console.log(`[popup] message received: ${message.type}. Sender: ${sdr}`);
 
       switch (message.type) {
         case EXT_MSG_TYPE_INIT_SETUP:
@@ -77,7 +77,7 @@ const PopupManager = ({ children }) => {
   };
 
   useEffect(() => {
-    console.log('[popup] start execute');
+    // console.log('[popup] start execute');
 
     handleDailyWord();
     handleExtensionMessage();

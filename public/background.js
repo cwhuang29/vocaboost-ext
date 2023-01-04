@@ -6,7 +6,7 @@
  */
 
 const sendMessage = async ({ type = '', payload = {} } = {}) => {
-  console.log(`[background] going to send message to popup. Message: ${type}`);
+  // console.log(`[background] going to send message to popup. Message: ${type}`);
 
   const msg = { type, payload };
   const resp = await chrome.runtime.sendMessage(msg).catch(err => console.log(`[background] Error occurred while sending request. error: ${err}`));
@@ -26,24 +26,24 @@ chrome.runtime.onInstalled.addListener(details => {
   }
 });
 
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
-  console.log(`[background] message received: ${message.type}. Sender: ${sdr}`);
+  // const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
+  // console.log(`[background] message received: ${message.type}. Sender: ${sdr}`);
   return true;
 });
 
 /*
  * Fired when one or more storage items change
  */
-chrome.storage.onChanged.addListener((changes, namespace) => {
-  for (const [key, { oldValue = '<empty>', newValue = '<empty>' }] of Object.entries(changes)) {
-    const oldVal = oldValue.constructor === Object ? JSON.stringify(oldValue) : oldValue;
-    const newVal = newValue.constructor === Object ? JSON.stringify(newValue) : newValue;
-    const msg = `Storage key "${key}" in namespace "${namespace}" changed. Old value was "${oldVal}", new value is "${newVal}"`;
-    console.log(msg);
-  }
-});
+// chrome.storage.onChanged.addListener((changes, namespace) => {
+//   for (const [key, { oldValue = '<empty>', newValue = '<empty>' }] of Object.entries(changes)) {
+//     const oldVal = oldValue.constructor === Object ? JSON.stringify(oldValue) : oldValue;
+//     const newVal = newValue.constructor === Object ? JSON.stringify(newValue) : newValue;
+//     const msg = `Storage key "${key}" in namespace "${namespace}" changed. Old value was "${oldVal}", new value is "${newVal}"`;
+//     console.log(msg);
+//   }
+// });
 
 /*
  * notifications.onButtonClicked: The user pressed a button in the notification
@@ -66,41 +66,41 @@ chrome.notifications.onButtonClicked.addListener(async (notificationId, buttonIn
 /*
  * This won't be fired since we create a popup file (index.html in the manifest.action)
  */
-chrome.action.onClicked.addListener(async tab => {
-  chrome.tabs.create({ url: 'https://www.youtube.com' });
+// chrome.action.onClicked.addListener(async tab => {
+//   chrome.tabs.create({ url: 'https://www.youtube.com' });
 
-  chrome.action.setBadgeText({ text: 'OFF' });
+//   chrome.action.setBadgeText({ text: 'OFF' });
 
-  const injectedFunction = color => {
-    document.body.style.backgroundColor = color;
-  };
-  const color = 'orange';
+//   const injectedFunction = color => {
+//     document.body.style.backgroundColor = color;
+//   };
+//   const color = 'orange';
 
-  // Be aware that the injected function is a copy of the function referenced in the chrome.scripting.executeScript call, not the original function itself
-  chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    func: injectedFunction,
-    args: [color], // If we want to pass arguments to the func
-  });
+//   // Be aware that the injected function is a copy of the function referenced in the chrome.scripting.executeScript call, not the original function itself
+//   chrome.scripting.executeScript({
+//     target: { tabId: tab.id },
+//     func: injectedFunction,
+//     args: [color], // If we want to pass arguments to the func
+//   });
 
-  // Send a message to the active tab
-  chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
-    const activeTab = tabs[0];
-    chrome.tabs.sendMessage(activeTab.id, { message: 'clicked_browser_action' });
-  });
+//   // Send a message to the active tab
+//   chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
+//     const activeTab = tabs[0];
+//     chrome.tabs.sendMessage(activeTab.id, { message: 'clicked_browser_action' });
+//   });
 
-  if (tab.url === 'https://www.abc.com') {
-    const prevState = await chrome.action.getBadgeText({ tabId: tab.id });
-    await chrome.action.setBadgeText({
-      tabId: tab.id,
-      text: `prevState is ${prevState}`,
-    });
-    await chrome.scripting.insertCSS({
-      // insertCSS or removeCSS
-      files: ['focus-mode.css'],
-      target: { tabId: tab.id },
-    });
-  }
-});
+//   if (tab.url === 'https://www.abc.com') {
+//     const prevState = await chrome.action.getBadgeText({ tabId: tab.id });
+//     await chrome.action.setBadgeText({
+//       tabId: tab.id,
+//       text: `prevState is ${prevState}`,
+//     });
+//     await chrome.scripting.insertCSS({
+//       // insertCSS or removeCSS
+//       files: ['focus-mode.css'],
+//       target: { tabId: tab.id },
+//     });
+//   }
+// });
 
 // console.log(`chrome: ${JSON.stringify(chrome)}`);
