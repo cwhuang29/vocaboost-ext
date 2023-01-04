@@ -4,7 +4,7 @@
  * <div> 4 days ago — docile implies a predisposition to ...</div>
  * -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
  *
- * After: (note that span.material-icons will be further transfered by libraries, and data-* are lower cases)
+ * After:
  * -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
  * <div> 4 days ago —
  *   <span class="HIGHLIGHTER_CLASS" tabindex="0">
@@ -31,6 +31,16 @@
  * -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
  *
  * Note:
+ * Text nodes themselves contain values only. Modify their parent nodes to change styling
+ *
+ * Parts of speech's parent node is span.HIGHLIGHTER_POS_CLASS, meaning's parent node is span.HIGHLIGHTER_DEF_CLASS
+ * Since example does not have it's own tag, it's parent node is div.HIGHLIGHTER_DETAIL_ITEM_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_MEDIUM
+ * However, if this vocabulary does not have example, then we'll not changing the font size. Hence, use pos's parent's parent
+ *
+ * span.material-icons will be further transfered by librarie
+ *
+ * data-* attributes are all lower casess
+ *
  * Use a parent element .HIGHLIGHTER_CLASS to contain both the highlighted word and the popup
  * Without the parent element, even if we can show the detail popup by hover/focus events, we can neither select text nor click the link
  * Correct: .HIGHLIGHTER_CLASS:hover > .HIGHLIGHTER_DETAIL_CLASS { visibility: visible !important; }
