@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Vocabulary Highlighter",
-  "description": "Highlight GRE vocabularies and phrases on every web page you visit.",
-  "author": "cwhuang29",
+  "name": "GRE Vocabulary Highlighter",
+  "description": "Highlight GRE vocabulary and phrases on every web page you visit.",
+  "author": "jimmyhuang29@g.ucla.edu",
   "version": "1.0.0",
   "action": {
     "default_popup": "index.html",
