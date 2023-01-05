@@ -107,9 +107,10 @@
 }
 
 .HIGHLIGHTER_ICON_CLASS {
-  margin: -4px 0;
-  line-height: 19px;
-  cursor: pointer;
+  margin: -4px 0 !important;
+  line-height: 0px !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
 }
 
 .HIGHLIGHTER_LINK_CLASS {
