@@ -49,10 +49,10 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
  * notifications.onButtonClicked: The user pressed a button in the notification
  * notifications.onClicked: The user clicked in a non-button area of the notification
  */
-chrome.notifications.onButtonClicked.addListener(async (notificationId, buttonIndex) => {
-  console.log("[background] notification's button clicked", notificationId, buttonIndex); // Button id starts with zero
-  chrome.alarms.create({ delayInMinutes: 1 }); // Chrome limits alarms to at most once every 1 minute but may delay them an arbitrary amount more
-});
+// chrome.notifications.onButtonClicked.addListener(async (notificationId, buttonIndex) => {
+//   console.log("[background] notification's button clicked", notificationId, buttonIndex); // Button id starts with zero
+//   chrome.alarms.create({ delayInMinutes: 1 }); // Chrome limits alarms to at most once every 1 minute but may delay them an arbitrary amount more
+// });
 
 // Fired when an alarm has elapsed
 // chrome.alarms.onAlarm.addListener(() => { });
