@@ -30,7 +30,7 @@
   "icons": {
     "16": "assets/icons/logo16.png",
     "32": "assets/icons/logo32.png",
-    "48": "assets/icons/logo.png",
-    "128": "assets/icons/logo.png"
+    "48": "assets/icons/logo128.png",
+    "128": "assets/icons/logo128.png"
   }
 }
