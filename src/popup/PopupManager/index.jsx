@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 
 import { ExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import { getStorage, setStorage } from '@popup/helpers/storage';
@@ -87,7 +88,7 @@ const PopupManager = ({ children }) => {
 };
 
 PopupManager.propTypes = {
-  children: Proptypes.element.isRequired,
+  children: PropTypes.element.isRequired,
 };
 
 export default PopupManager;
