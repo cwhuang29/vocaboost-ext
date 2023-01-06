@@ -1,0 +1,1 @@
+import{B as e,s as t,o as n,p as a}from"./message.492f0669.js";const r={INSTALL:"install",UPDATE:"update"},o=s=>{e.storage.local.clear(),e.tabs.create({url:e.runtime.getURL("index.html")}),s.reason===r.INSTALL&&setTimeout(()=>t({type:a}),n)},i=(s,L,d)=>!0;e.runtime.onMessage.addListener(i);e.runtime.onInstalled.addListener(o);

@@ -15,3 +15,13 @@ export const genWordDetailList = () => {
   // return new Map(targetList.map(item => [item.word, item.detail]));
   return targetList;
 };
+
+export const getRandomWordFromList = () => {
+  const wordList = genWordDetailList();
+
+  let w = wordList[Math.floor(Math.random() * wordList.length)];
+  while (!w?.detail[0]?.meaning?.en) {
+    w = wordList[Math.floor(Math.random() * wordList.length)];
+  }
+  return w;
+};

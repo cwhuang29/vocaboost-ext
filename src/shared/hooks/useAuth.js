@@ -1,7 +1,7 @@
-import { useSelector } from 'react-redux';
+// import { useSelector } from 'react-redux';
 
-import getAuth from '@selectors/auth';
+// import getAuth from '@selectors/auth';
 
-const useAuth = () => useSelector(state => getAuth(state));
+// const useAuth = () => useSelector(state => getAuth(state));
 
-export default useAuth;
+// export default useAuth;

@@ -1,4 +1,3 @@
-// Set general messages in default
 export default {
   UNKNOWN_ERROR: 'Oops, this is unexpected',
   TRY_AGAIN: 'Please try again',

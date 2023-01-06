@@ -1,17 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
+import { getStorage, setStorage } from '@browsers/storage';
+import { EXT_MSG_TYPE_CONFIG_UPDATE, EXT_MSG_TYPE_GET_WORD_LIST, EXT_MSG_TYPE_INIT_SETUP } from '@constants/messages';
+import { EXT_STORAGE_CONFIG, EXT_STORAGE_DAILY_WORD } from '@constants/storage';
 import { ExtensionMessageContext } from '@hooks/useExtensionMessageContext';
-import { getStorage, setStorage } from '@popup/helpers/storage';
-import { EXT_MSG_TYPE_CONFIG_UPDATE, EXT_MSG_TYPE_GET_WORD_LIST, EXT_MSG_TYPE_INIT_SETUP } from '@shared/constants/messages';
-import { EXT_STORAGE_CONFIG, EXT_STORAGE_DAILY_WORD } from '@shared/constants/storage';
-import { getDefaultConfig } from '@shared/utils/config';
-import { isSameDay } from '@shared/utils/time';
-import { genWordDetailList } from '@shared/utils/word';
+import { getDefaultConfig } from '@utils/config';
+import { isSameDay } from '@utils/time';
+import { genWordDetailList, getRandomWordFromList } from '@utils/word';
+
+import Browser from 'webextension-polyfill';
 
 /*
  * Note: if there's any elements that you don't want to be highlighted, add class="HIGHLIGHTER_CLASS" to it's tag
- * e.g., there is daily word displayed on the extension popup. To prevent it from  being highlighted, the HIGHLIGHTER_CLASS is added
+ * e.g., there is daily word displayed on the extension popup. To prevent it from being highlighted, the HIGHLIGHTER_CLASS is added
  */
 
 const storeDailyWord = word => setStorage({ type: 'sync', key: EXT_STORAGE_DAILY_WORD, value: { word, timestamp: new Date().toJSON() } });
@@ -23,11 +25,7 @@ const setupDailyWord = async () => {
     return word;
   }
 
-  const wordList = genWordDetailList();
-  let w = wordList[Math.floor(Math.random() * wordList.length)];
-  while (!w?.detail[0]?.meaning?.en) {
-    w = wordList[Math.floor(Math.random() * wordList.length)];
-  }
+  const w = getRandomWordFromList();
   await storeDailyWord(w);
   return w;
 };
@@ -52,34 +50,34 @@ const PopupManager = ({ children }) => {
     }
   };
 
-  const handleExtensionMessage = () => {
-    chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-      // const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
-      // console.log(`[popup] message received: ${message.type}. Sender: ${sdr}`);
+  const onMessageListener = (message, sender, sendResponse) => {
+    // const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
+    // console.log(`[popup] message received: ${message.type}. Sender: ${sdr}`);
 
-      switch (message.type) {
-        case EXT_MSG_TYPE_INIT_SETUP:
-          // Triggered by background's onInstall event listener
-          setupDefaultConfigIfNotExist();
-          break;
-        case EXT_MSG_TYPE_GET_WORD_LIST:
-          // Triggered by context script periodically
-          sendResponse({ payload: JSON.stringify(genWordDetailList()) });
-          break;
-        case EXT_MSG_TYPE_CONFIG_UPDATE:
-          // Whenever a tab update the config, it sends a message to notify all other tabs
-          setExtMessageValue(prev => ({ ...prev, config: message.payload.state }));
-          break;
-        default:
-          break;
-      }
-      return true;
-    });
+    switch (message.type) {
+      case EXT_MSG_TYPE_INIT_SETUP:
+        // Triggered by background's onInstall event listener
+        setupDefaultConfigIfNotExist();
+        break;
+      case EXT_MSG_TYPE_GET_WORD_LIST:
+        // Triggered by context script periodically
+        sendResponse({ payload: JSON.stringify(genWordDetailList()) });
+        break;
+      case EXT_MSG_TYPE_CONFIG_UPDATE:
+        // Whenever a tab update the config, it sends a message to notify all other tabs
+        setExtMessageValue(prev => ({ ...prev, config: message.payload.state }));
+        break;
+      default:
+        break;
+    }
+    return true;
+  };
+
+  const handleExtensionMessage = () => {
+    Browser.runtime.onMessage.addListener(onMessageListener);
   };
 
   useEffect(() => {
-    // console.log('[popup] start execute');
-
     handleDailyWord();
     handleExtensionMessage();
   }, []);

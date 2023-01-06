@@ -62,7 +62,7 @@ import {
   LANGS,
   ONLINE_DIC_URL,
   PARTS_OF_SPEECH_SHORTHAND,
-} from '@shared/constants';
+} from '@constants/index';
 
 import { toCapitalize } from './stringHelpers';
 
@@ -107,7 +107,9 @@ export const genHighlightSyntax = ({ config, orgWord, word }) => {
 
   const link = getIcon({ word: word.word, url: `${ONLINE_DIC_URL[language]}${word.word}` });
   const highlightWord = `<span class="${HIGHLIGHTER_ORG_WORD_CLASS} ${highlightColorClass}">${orgWord}</span>`;
-  const targetWord = `<div style="display: flex;"><div class="${HIGHLIGHTER_TARGET_WORD_CLASS} ${fontSizeClass}">${word.word}</div><div style="width: 15px"></div>${link}</div>`;
+  const targetWord = `<div style="display: flex;">
+      <div class="${HIGHLIGHTER_TARGET_WORD_CLASS} ${fontSizeClass}">${word.word}</div><div style="width: 15px"></div>${link}
+    </div>`;
   const highlightDetailItem = items.join('');
   const highlightDetail = `<div class="${HIGHLIGHTER_DETAIL_CLASS} ${detailItemHiddenClass}">${targetWord}${highlightDetailItem}</div>`;
   return `<span class="${HIGHLIGHTER_CLASS}" tabindex="0">${highlightWord}${highlightDetail}</span>`;

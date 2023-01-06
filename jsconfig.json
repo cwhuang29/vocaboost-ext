@@ -13,18 +13,16 @@
     "moduleResolution": "node",
     "paths": {
       "@/*": ["./src/*"],
-      "@pages/*": ["pages/*"],
-      "@components/*": ["components/*"],
-      "@shared/*": ["shared/*"],
+      "@background/*": ["background/*"],
+      "@content/*": ["content/*"],
+      "@popup/*": ["popup/*"],
       "@actions/*": ["shared/actions/*"],
+      "@browsers/*": ["shared/browsers/*"],
       "@constants/*": ["shared/constants/*"],
       "@hooks/*": ["shared/hooks/*"],
-      "@reducers/*": ["shared/reducers/*"],
       "@selectors/*": ["shared/selectors/*"],
       "@services/*": ["shared/services/*"],
-      "@utils/*": ["shared/utils/*"],
-      "@popup/*": ["popup/*"],
-      "@home": ["pages/Home/index.jsx"]
+      "@utils/*": ["shared/utils/*"]
     }
   },
   "include": ["src"],
