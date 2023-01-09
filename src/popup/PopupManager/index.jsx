@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
+import Browser from 'webextension-polyfill';
 
 import { getStorage, setStorage } from '@browsers/storage';
 import { EXT_MSG_TYPE_CONFIG_UPDATE, EXT_MSG_TYPE_GET_WORD_LIST, EXT_MSG_TYPE_INIT_SETUP } from '@constants/messages';
@@ -8,8 +9,6 @@ import { ExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import { getDefaultConfig } from '@utils/config';
 import { isSameDay } from '@utils/time';
 import { genWordDetailList, getRandomWordFromList } from '@utils/word';
-
-import Browser from 'webextension-polyfill';
 
 /*
  * Note: if there's any elements that you don't want to be highlighted, add class="HIGHLIGHTER_CLASS" to it's tag

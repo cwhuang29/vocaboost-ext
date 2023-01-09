@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import Browser from 'webextension-polyfill';
 
 import { getStorage } from '@browsers/storage';
 import { HIGHLIGHTER_CHECK_INTERVAL } from '@constants/index';
@@ -11,8 +12,6 @@ import { updateExtensionNodes } from '@content/Highlighter/updateHighlight';
 import usePrevious from '@hooks/usePrevious';
 import { getDefaultConfig, isConfigEqual } from '@utils/config';
 import { getAllNodesFromDOM } from '@utils/dom';
-
-import Browser from 'webextension-polyfill';
 
 const Highlighter = () => {
   const [config, setConfig] = useState({});
@@ -86,6 +85,7 @@ const Highlighter = () => {
     const interval = setInterval(() => {
       exec();
     }, HIGHLIGHTER_CHECK_INTERVAL);
+    // eslint-disable-next-line consistent-return
     return () => clearInterval(interval);
   }, [config]);
 
