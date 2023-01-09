@@ -17,21 +17,6 @@
   "plugins": ["react", "react-hooks", "simple-import-sort", "import", "prettier"],
   "rules": {
     "no-plusplus": 0,
-    "react/forbid-prop-types": 0,
-    "react/jsx-filename-extension": 0,
-    "react/jsx-space-before-closing": 0,
-    "react/jsx-no-target-blank": 0,
-    "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
-    "react/destructuring-assignment": 0,
-    "jsx-a11y/no-static-element-interactions": 0,
-    "import/extensions": 0, // skip import extensions
-    "import/no-named-as-default": 0,
-    "import/prefer-default-export": 0,
-    "import/no-extraneous-dependencies": 0,
-    "import/no-unresolved": [2, {"commonjs": true, "amd": true, "caseSensitive": false}],
-    "import/named": 2,
-    "import/namespace": 2,
-    "import/default": 2,
     "no-console": 1,
     "no-unreachable": 2,
     "no-unused-vars": 2,
@@ -41,32 +26,45 @@
     "no-restricted-syntax": "off",
     "no-unused-expressions":["error", { "allowShortCircuit": true }],
     "arrow-parens": 0,
-    "prettier/prettier": ["warn", { printWidth: 160, arrowParens: "avoid" }], // To comply with .prettierrc
-    "react-hooks/rules-of-hooks": 'error',
-    "simple-import-sort/exports": "error",
-    "simple-import-sort/imports": ['error', {
-        // https://github.com/lydell/eslint-plugin-simple-import-sort#custom-grouping
-        groups: [
-          // Side effect imports
-          ['^\\u0000'],
-          // React related packages
-          ['^react', '^redux', '^prop-types', '^styled-components', 'formik', 'yup'],
-          // Internal packages
-          ['^(@|@pages|@components|@shared|@actions|@constants|@hooks|@reducers|@selectors|@services|@utils|@home)'],
-          // Style imports
-          ['^@mui', '^.+\.s?css$'],
-          // Other relative imports. Put same-folder imports and `.` last. Parent imports. Put `..` last
-          ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$', '^\\.\\.(?!/?$)', '^\\.\\./?$'],
-          // Absolute imports and other imports such as Vue-style `@/foo`. Anything not matched in another group
-          ['^[^.]'],
-        ]
-      }
-    ],
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-space-before-closing": 0,
+    "react/jsx-no-target-blank": 0,
+    "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
+    "react/destructuring-assignment": 0,
+    "react/function-component-definition": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "jsx-a11y/no-static-element-interactions": 0,
+    "prettier/prettier": ["warn", { "printWidth": 160, "arrowParens": "avoid" }], // To comply with .prettierrc
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
-    // "sort-imports": ["error", { "ignoreDeclarationSort": true, "ignoreCase": false }], // Use simple-import-sort instead
-    "react/jsx-props-no-spreading": "off"
+    "import/extensions": 0,
+    "import/no-named-as-default": 0,
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": [2, {"commonjs": true, "amd": true, "caseSensitive": false}],
+    "import/named": 2,
+    "import/namespace": 2,
+    "import/default": 2,
+    "simple-import-sort/exports": "error",
+    "simple-import-sort/imports": ["error", {
+        // https://github.com/lydell/eslint-plugin-simple-import-sort#custom-grouping
+        "groups": [
+          // Side effect imports
+          ["^\\u0000"],
+          ["^react", "^redux", "^prop-types", "^styled-components", "^formik", "^yup", "^@mui", "^webextension-polyfill"],
+          ["^(@|@pages|@components|@shared|@actions|@constants|@hooks|@reducers|@selectors|@services|@utils|@home)"],
+          // Style imports
+          ['^.+\.s?css$'],
+          // Other relative imports. Put same-folder imports and `.` last. Parent imports. Put `..` last
+          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$", "^\\.\\.(?!/?$)", "^\\.\\./?$"],
+          // Absolute imports and other imports such as Vue-style `@/foo`. Anything not matched in another group
+          ["^[^.]"]
+        ]
+      }
+    ]
   },
   "globals": {
     "jest": false
@@ -74,23 +72,21 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "paths": ["src", "test"]
+        "paths": ["src"]
       },
       "babel-module": {
         "alias": {
           "@": "./src",
-          "@pages": "./src/pages",
-          "@components": "./src/components",
-          "@shared": "./src/shared",
+          "@background": "./src/background",
+          "@browsers": "./src/shared/browsers",
+          "@content": "./src/content",
+          "@popup": "./src/popup",
           "@actions": "./src/shared/actions",
           "@constants": "./src/shared/constants",
           "@hooks": "./src/shared/hooks",
-          "@reducers": "./src/shared/reducers",
           "@selectors": "./src/shared/selectors",
           "@services": "./src/shared/services",
-          "@utils": "./src/shared/utils",
-          "@popup": "./src/popup",
-          "@home": "./src/pages/Home"
+          "@utils": "./src/shared/utils"
         }
       }
     },

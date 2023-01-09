@@ -13,10 +13,10 @@ export default defineConfig({
     alias: [
       { find: '@', replacement: path.resolve(__dirname, 'src') },
       { find: '@background', replacement: path.resolve(__dirname, 'src/background') },
+      { find: '@browsers', replacement: path.resolve(__dirname, 'src/shared/browsers') },
       { find: '@content', replacement: path.resolve(__dirname, 'src/content') },
       { find: '@popup', replacement: path.resolve(__dirname, 'src/popup') },
       { find: '@actions', replacement: path.resolve(__dirname, 'src/shared/actions') },
-      { find: '@browsers', replacement: path.resolve(__dirname, 'src/shared/browsers') },
       { find: '@constants', replacement: path.resolve(__dirname, 'src/shared/constants') },
       { find: '@hooks', replacement: path.resolve(__dirname, 'src/shared/hooks') },
       { find: '@selectors', replacement: path.resolve(__dirname, 'src/shared/selectors') },
