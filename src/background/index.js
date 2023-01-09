@@ -1,9 +1,9 @@
+import Browser from 'webextension-polyfill';
+
 import { sendMessage } from '@browsers/message';
 import { BROWSER_ONINSTALL_REASON } from '@constants/browser';
 import { BACKGROUND_INIT_SETUP_DELAY } from '@constants/index';
 import { EXT_MSG_TYPE_INIT_SETUP } from '@constants/messages';
-
-import Browser from 'webextension-polyfill';
 
 /*
  * See: https://developer.chrome.com/docs/extensions/mv3/user_interface/
