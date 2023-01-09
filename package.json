@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,json}' --config ./.prettierrc --ignore-unknown",
-    "lint": "eslint src/* --fix"
+    "lint": "eslint src --fix"
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.19.1",
@@ -39,20 +39,12 @@
     "webextension-polyfill": "^0.10.0"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "airbnb",
-      "plugin:import/errors",
-      "plugin:import/warnings"
-    ],
+    "extends": ["react-app", "airbnb", "plugin:import/errors", "plugin:import/warnings"],
     "rules": {
       "react/jsx-filename-extension": [
         1,
         {
-          "extensions": [
-            ".js",
-            ".jsx"
-          ]
+          "extensions": [".js", ".jsx"]
         }
       ],
       "react/function-component-definition": [
@@ -65,10 +57,7 @@
     "settings": {
       "import/resolver": {
         "node": {
-          "moduleDirectory": [
-            "node_modules",
-            "src/"
-          ]
+          "moduleDirectory": ["node_modules", "src/"]
         }
       }
     }

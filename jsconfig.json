@@ -14,10 +14,10 @@
     "paths": {
       "@/*": ["./src/*"],
       "@background/*": ["background/*"],
+      "@browsers/*": ["shared/browsers/*"],
       "@content/*": ["content/*"],
       "@popup/*": ["popup/*"],
       "@actions/*": ["shared/actions/*"],
-      "@browsers/*": ["shared/browsers/*"],
       "@constants/*": ["shared/constants/*"],
       "@hooks/*": ["shared/hooks/*"],
       "@selectors/*": ["shared/selectors/*"],
