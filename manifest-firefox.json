@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "name": "GRE Vocabulary Highlighter",
+  "description": "Highlight GRE vocabulary and phrases on every web page you visit.",
+  "author": "jimmyhuang29@g.ucla.edu",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "permissions": ["activeTab", "tabs", "storage", "scripting"],
+  "background": {
+    "scripts": ["service-worker-loader.js"]
+  },
+  "content_scripts": [
+    {
+      "//": "Replace the filename!",
+      "js": ["assets/content-script-loader.index.jsx.70be25e8.80c29fef.js"],
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["assets/index.jsx.ba119cc2.css"]
+    }
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+U",
+        "mac": "Command+U"
+      }
+    }
+  },
+  "icons": {
+    "16": "assets/icons/logo16.png",
+    "32": "assets/icons/logo32.png",
+    "48": "assets/icons/logo128.png",
+    "128": "assets/icons/logo128.png"
+  }
+}
