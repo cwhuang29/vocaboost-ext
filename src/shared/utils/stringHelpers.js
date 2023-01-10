@@ -1,3 +1,5 @@
+export const isString = s => typeof s === 'string';
+
 export const toCapitalize = s => s.charAt(0).toUpperCase() + s.slice(1).toLowerCase();
 
 export const snakeCaseToTitleCase = s =>
