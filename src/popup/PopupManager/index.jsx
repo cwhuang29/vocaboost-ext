@@ -4,9 +4,9 @@ import Browser from 'webextension-polyfill';
 
 import { getStorage, setStorage } from '@browsers/storage';
 import { EXT_MSG_TYPE_CONFIG_UPDATE, EXT_MSG_TYPE_GET_WORD_LIST, EXT_MSG_TYPE_INIT_SETUP } from '@constants/messages';
-import { EXT_STORAGE_CONFIG, EXT_STORAGE_DAILY_WORD } from '@constants/storage';
+import { EXT_STORAGE_DAILY_WORD } from '@constants/storage';
 import { ExtensionMessageContext } from '@hooks/useExtensionMessageContext';
-import { getDefaultConfig } from '@utils/config';
+import { logger } from '@utils/logger';
 import { isSameDay } from '@utils/time';
 import { genWordDetailList, getRandomWordFromList } from '@utils/word';
 
@@ -29,15 +29,6 @@ const setupDailyWord = async () => {
   return w;
 };
 
-const setupDefaultConfigIfNotExist = async () => {
-  let config = await getStorage({ type: 'sync', key: EXT_STORAGE_CONFIG });
-  if (!config || Object.keys(config).length === 0) {
-    config = getDefaultConfig();
-    await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: config });
-  }
-  // console.log(`[popup] get config after installation. Config: ${config}`);
-};
-
 const PopupManager = ({ children }) => {
   const [extMessageValue, setExtMessageValue] = useState({});
 
@@ -50,13 +41,12 @@ const PopupManager = ({ children }) => {
   };
 
   const onMessageListener = (message, sender, sendResponse) => {
-    // const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
-    // console.log(`[popup] message received: ${message.type}. Sender: ${sdr}`);
+    const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
+    logger(`[popup] message received: ${message.type}. Sender: ${sdr}`);
 
     switch (message.type) {
       case EXT_MSG_TYPE_INIT_SETUP:
         // Triggered by background's onInstall event listener
-        setupDefaultConfigIfNotExist();
         break;
       case EXT_MSG_TYPE_GET_WORD_LIST:
         // Triggered by context script periodically

@@ -1,5 +1,7 @@
 import Browser from 'webextension-polyfill';
 
+import { logger } from '@utils/logger';
+
 export const getCurrentTab = async () => {
   const queryInfo = { active: true, currentWindow: true };
   const [tab] = await Browser.tabs.query(queryInfo);
@@ -9,14 +11,14 @@ export const getCurrentTab = async () => {
 // Both background.js and other tabs receive this message
 // The tab send this message does not receive it
 export const sendMessage = async ({ type = '', payload = {} } = {}) => {
-  // console.log(`Going to send message. Message: ${type}`);
+  logger(`Going to send message. Message: ${type}`);
 
   const msg = { type, payload };
-  const resp = await Browser.runtime.sendMessage(msg).catch(err => console.log(`Error occurred while sending request. error: ${err}`));
+  const resp = await Browser.runtime.sendMessage(msg).catch(err => logger(`Error occurred while sending message. error: ${err}`));
   return resp?.payload;
   // return new Promise((resolve, reject) => { // The old way
   //   chrome.runtime.sendMessage(msg, resp => {
-  //     if (!resp) console.log('message error: ', chrome.runtime.lastError.message);
+  //     if (!resp) logger('message error: ', chrome.runtime.lastError.message);
   //     if (resp.payload) { resolve(resp.payload); }
   //     reject(new Error(`Error - payload: ${payload}`));
   //   });
@@ -34,7 +36,7 @@ export const sendMessage = async ({ type = '', payload = {} } = {}) => {
  * See: https://developer.chrome.com/docs/extensions/reference/tabs/
  */
 export const sendMessageToTab = async ({ type = '', payload = {} } = {}) => {
-  // console.log(`Going to send message to tab. Message: ${type}`);
+  logger(`Going to send message to tab. Message: ${type}`);
 
   const tab = await getCurrentTab();
   const msg = { type, payload };

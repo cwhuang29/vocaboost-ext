@@ -1,5 +1,7 @@
 import Browser from 'webextension-polyfill';
 
+// import { logger } from '@utils/logger';
+
 /*
  * The url of the tab to be inserted should match the manifest.content_scripts.matches rules
  * Chrome has removed the ability for content scripts to be injected into chrome-extension:/[>/* pages
@@ -37,7 +39,7 @@ export const insertCSS = css => {
 
 // const wrapper = async () => {
 //   const res = await insertCSS('body { background-color: red; }').catch(err => {
-//     console.log(err);
+//     logger(err);
 //     return false;
 //   });
 //   return res;

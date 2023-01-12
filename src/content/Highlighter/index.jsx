@@ -12,6 +12,7 @@ import { updateExtensionNodes } from '@content/Highlighter/updateHighlight';
 import usePrevious from '@hooks/usePrevious';
 import { getDefaultConfig, isConfigEqual } from '@utils/config';
 import { getAllNodesFromDOM } from '@utils/dom';
+import { logger } from '@utils/logger';
 
 const Highlighter = () => {
   const [config, setConfig] = useState({});
@@ -26,7 +27,7 @@ const Highlighter = () => {
     }
     const words = await getAllWords();
 
-    // console.log(`[content] Start. number of words: ${words.size}, number of text nodes: ${nodes.length}. Config: ${JSON.stringify(config)}`);
+    logger(`[content] Start. number of words: ${words.size}, number of text nodes: ${nodes.length}. Config: ${JSON.stringify(config)}`);
     prevWebNodeCount.current = nodes.length;
     parseAllNodes(nodes, words, config);
   };
@@ -62,11 +63,11 @@ const Highlighter = () => {
   };
 
   const onMessageListener = (message, sender, sendResponse) => {
-    // const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
-    // console.log(`[content] message received: ${message.type}, sender: ${sdr}`);
+    const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
+    logger(`[content] message received: ${message.type}, sender: ${sdr}`);
 
     if (message.type === EXT_MSG_TYPE_CONFIG_UPDATE) {
-      // console.log(`[content] prevState: ${message.payload?.prevState}. state: ${message.payload?.state}`);
+      logger(`[content] prevState: ${message.payload?.prevState}. state: ${message.payload?.state}`);
       onConfigUpdate();
       sendResponse({ payload: true });
     }

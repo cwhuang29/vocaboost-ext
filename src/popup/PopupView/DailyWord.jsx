@@ -34,7 +34,7 @@ const Example = ({ example }) => <span className={HIGHLIGHTER_CLASS}>{constructW
 
 const DailyWord = ({ language }) => {
   const { dailyWord = {} } = useExtensionMessageContext(); // This might takes a bit time (get/update daily word -> insert to storage -> update context)
-  const { word, detail } = dailyWord;
+  const { id, word, detail } = dailyWord;
   const link = `${ONLINE_DIC_URL[language]}${word}`;
 
   const openExternalLink = () => {
@@ -50,7 +50,8 @@ const DailyWord = ({ language }) => {
       </Box>
       <Divider />
       {detail.map(({ meaning, partsOfSpeech, example }, idx) => (
-        <React.Fragment key={idx}>
+        // eslint-disable-next-line react/no-array-index-key
+        <React.Fragment key={`${id}-${idx}`}>
           <Typography variant='body1' component='div' style={{ marginBottom: idx === detail.length - 1 ? '0px' : '6px' }}>
             <PartsOfSpeech partsOfSpeech={partsOfSpeech} />
             <Meaning language={language} meaning={meaning} />

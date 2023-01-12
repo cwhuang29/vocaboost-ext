@@ -9,6 +9,7 @@ import {
   HIGHLIGHTER_TARGET_WORD_CLASS,
 } from '@constants/index';
 import { genHighlightSyntax } from '@utils/highlight';
+import { logger } from '@utils/logger';
 
 export const findWordsInNodes = ({ value, words }) => {
   const parsed = value
@@ -45,6 +46,7 @@ export const shouldAddHighlight = node =>
 export const parseAllNodes = (nodes, words, config) => {
   const map = new Map();
   let cnt = 0;
+
   nodes
     .filter(node => shouldAddHighlight(node))
     .forEach(node => {
@@ -55,7 +57,8 @@ export const parseAllNodes = (nodes, words, config) => {
         map.set(cnt++, { parent: node.parentNode, orgValue: node.nodeValue, newValue: highlightMatchedWords(args) });
       }
     });
-  // console.log(`[content] Update. number of nodes to update: ${map.size}`);
+
+  logger(`[content] Update. number of nodes to update: ${map.size}`);
   for (const { parent, orgValue, newValue } of map.values()) {
     parent.innerHTML = parent.innerHTML.replace(orgValue, newValue);
   }

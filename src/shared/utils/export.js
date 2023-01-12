@@ -9,13 +9,3 @@ export const exportCSV = (csvStr, filename) => {
   document.body.appendChild(downloadLink);
   downloadLink.click();
 };
-
-/*
-const exportCSV = (csvRows) => {
-  const csvContent = `data:text/csv;charset=utf-8,${csvRows.map((e) => e.join(',')).join('\n')}`;
-  const encodedUri = encodeURI(csvContent);
-
-  console.log(encodedUri);
-  window.open(encodedUri); // ERROR
-};
-*/

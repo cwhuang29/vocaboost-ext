@@ -37,7 +37,7 @@
  * Since example does not have it's own tag, it's parent node is div.HIGHLIGHTER_DETAIL_ITEM_CLASS.HIGHLIGHTER_FONT_SIZE_CLASS_MEDIUM
  * However, if this vocabulary does not have example, then we'll not changing the font size. Hence, use pos's parent's parent
  *
- * span.material-icons will be further transfered by librarie
+ * span.material-icons will be further transfered by library
  *
  * data-* attributes are all lower casess
  *

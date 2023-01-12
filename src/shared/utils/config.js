@@ -1,4 +1,7 @@
+import { getStorage, setStorage } from '@browsers/storage';
 import { HIGHLIGHTER_BG_COLORS, HIGHLIGHTER_FONT_SIZE, LANGS } from '@constants/index';
+import { EXT_STORAGE_CONFIG } from '@constants/storage';
+import { logger } from '@utils/logger';
 import { isObject } from '@utils/misc';
 
 export const isConfigEqual = (config1 = {}, config2 = {}) => {
@@ -16,3 +19,13 @@ export const getDefaultConfig = () => ({
   fontSize: HIGHLIGHTER_FONT_SIZE.MEDIUM,
   showDetail: true,
 });
+
+export const setupDefaultConfigIfNotExist = async () => {
+  let config = await getStorage({ type: 'sync', key: EXT_STORAGE_CONFIG });
+
+  if (!config || Object.keys(config).length === 0) {
+    config = getDefaultConfig();
+    await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: config });
+  }
+  logger(`Get config after installation. Config: ${JSON.stringify(config)}`);
+};

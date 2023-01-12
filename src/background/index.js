@@ -1,9 +1,9 @@
 import Browser from 'webextension-polyfill';
 
-import { sendMessage } from '@browsers/message';
 import { BROWSER_ONINSTALL_REASON } from '@constants/browser';
-import { BACKGROUND_INIT_SETUP_DELAY } from '@constants/index';
-import { EXT_MSG_TYPE_INIT_SETUP } from '@constants/messages';
+import { logger } from '@utils/logger';
+
+import { storeEssentialDataOnInstall } from './init';
 
 /*
  * See: https://developer.chrome.com/docs/extensions/mv3/user_interface/
@@ -17,37 +17,35 @@ const onInstalledListener = details => {
   Browser.tabs.create({ url: Browser.runtime.getURL('index.html') }); // e.g. chrome-extension://dgkojjmldclhegjngnibipblnclmohod/index.html
 
   if (details.reason === BROWSER_ONINSTALL_REASON.INSTALL) {
-    // TODO a better way is to let popup notify background whenever it is ready then send this message
-    setTimeout(() => sendMessage({ type: EXT_MSG_TYPE_INIT_SETUP }), BACKGROUND_INIT_SETUP_DELAY);
+    // sendMessage({ type: EXT_MSG_TYPE_INIT_SETUP });
+    storeEssentialDataOnInstall(); // Background is more suitable to perform this job other than popup
   }
 };
 
 // eslint-disable-next-line
 const onMessageListener = (message, sender, sendResponse) => {
-  // const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
-  // console.log(`[background] message received: ${message.type}. Sender: ${sdr}`);
-  return true;
+  const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
+  logger(`[background] message received: ${message.type}. Sender: ${sdr}`);
+  // return true; // Return true means it's asynchronous response, but we're not gonna respond in background
+};
+
+const onStorageChangedListener = (changes, namespace) => {
+  for (const [key, { oldValue = '<empty>', newValue = '<empty>' }] of Object.entries(changes)) {
+    const oldVal = oldValue.constructor === Object ? JSON.stringify(oldValue) : oldValue;
+    const newVal = newValue.constructor === Object ? JSON.stringify(newValue) : newValue;
+    const msg = `Storage key "${key}" in namespace "${namespace}" changed. Old value was "${oldVal}", new value is "${newVal}"`;
+    logger(msg);
+  }
 };
 
 Browser.runtime.onMessage.addListener(onMessageListener);
 Browser.runtime.onInstalled.addListener(onInstalledListener);
-
-/*
- * Fired when one or more storage items change
- */
-// Browser.storage.onChanged.addListener((changes, namespace) => {
-//   for (const [key, { oldValue = '<empty>', newValue = '<empty>' }] of Object.entries(changes)) {
-//     const oldVal = oldValue.constructor === Object ? JSON.stringify(oldValue) : oldValue;
-//     const newVal = newValue.constructor === Object ? JSON.stringify(newValue) : newValue;
-//     const msg = `Storage key "${key}" in namespace "${namespace}" changed. Old value was "${oldVal}", new value is "${newVal}"`;
-//     console.log(msg);
-//   }
-// });
+Browser.storage.onChanged.addListener(onStorageChangedListener);
 
 // notifications.onClicked: The user clicked in a non-button area of the notification
 // notifications.onButtonClicked: The user pressed a button in the notification
 // Browser.notifications.onButtonClicked.addListener(async (notificationId, buttonIndex) => {
-//   console.log("[background] notification's button clicked", notificationId, buttonIndex); // Button id starts with zero
+//   logger("[background] notification's button clicked", notificationId, buttonIndex); // Button id starts with zero
 //   Browser.alarms.create({ delayInMinutes: 1 }); // Chrome limits alarms to at most once every 1 minute but may delay them an arbitrary amount more
 // });
 
