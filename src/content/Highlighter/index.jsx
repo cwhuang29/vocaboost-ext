@@ -63,7 +63,7 @@ const Highlighter = () => {
   };
 
   const onMessageListener = (message, sender, sendResponse) => {
-    const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
+    const sdr = sender.tab ? `from a content script: ${sender.tab.url}` : 'from the extension';
     logger(`[content] message received: ${message.type}, sender: ${sdr}`);
 
     if (message.type === EXT_MSG_TYPE_CONFIG_UPDATE) {
@@ -76,6 +76,7 @@ const Highlighter = () => {
 
   const handleExtensionMessage = () => {
     Browser.runtime.onMessage.addListener(onMessageListener);
+    return () => chrome.runtime.onMessage.removeListener(onMessageListener);
   };
 
   useEffect(() => {
@@ -92,7 +93,10 @@ const Highlighter = () => {
 
   useEffect(() => {
     setup();
-    handleExtensionMessage();
+    const cleanup = handleExtensionMessage();
+    return () => {
+      cleanup();
+    };
   }, []);
 
   return null;
