@@ -41,7 +41,7 @@ const PopupManager = ({ children }) => {
   };
 
   const onMessageListener = (message, sender, sendResponse) => {
-    const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
+    const sdr = sender.tab ? `from a content script :${sender.tab.url}` : 'from the extension';
     logger(`[popup] message received: ${message.type}. Sender: ${sdr}`);
 
     switch (message.type) {

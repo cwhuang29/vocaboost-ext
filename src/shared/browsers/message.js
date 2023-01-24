@@ -8,7 +8,7 @@ export const getCurrentTab = async () => {
   return tab;
 };
 
-// Both background.js and other tabs receive this message
+// Both background, popup, and other tabs receive this message
 // The tab send this message does not receive it
 export const sendMessage = async ({ type = '', payload = {} } = {}) => {
   logger(`Going to send message. Message: ${type}`);
@@ -16,6 +16,7 @@ export const sendMessage = async ({ type = '', payload = {} } = {}) => {
   const msg = { type, payload };
   const resp = await Browser.runtime.sendMessage(msg).catch(err => logger(`Error occurred while sending message. error: ${err}`));
   return resp?.payload;
+
   // return new Promise((resolve, reject) => { // The old way
   //   chrome.runtime.sendMessage(msg, resp => {
   //     if (!resp) logger('message error: ', chrome.runtime.lastError.message);
@@ -42,6 +43,7 @@ export const sendMessageToTab = async ({ type = '', payload = {} } = {}) => {
   const msg = { type, payload };
   const resp = await Browser.tabs.sendMessage(tab.id, msg);
   return resp?.payload;
+
   // const queryInfo = { active: true, currentWindow: true };
   // return new Promise(resolve => {
   //   chrome.tabs.query(queryInfo, tabs => {

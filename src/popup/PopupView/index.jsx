@@ -84,10 +84,10 @@ const PopupView = () => {
   };
 
   const isThisTabNormalWebPage = async () => {
-    // The logic should abide by  the manifest's content_scripts.matches (since content scripts only run in those pages)
+    // The logic should abide by the manifest's content_scripts.matches (since content scripts only run in those pages)
     // window.location.href.startsWith('http') -> always returns the url of popup, e.g., chrome-extension://dgkojjmldclhegjngnibipblnclmohod/index.html
     const tab = await getCurrentTab();
-    setIsNormalWebPage(tab?.url?.startsWith('http'));
+    setIsNormalWebPage(tab.url?.startsWith('http'));
   };
 
   useEffect(() => {

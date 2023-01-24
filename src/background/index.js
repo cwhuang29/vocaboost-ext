@@ -24,7 +24,7 @@ const onInstalledListener = details => {
 
 // eslint-disable-next-line
 const onMessageListener = (message, sender, sendResponse) => {
-  const sdr = sender.tab ? `from a content script:${sender.tab.url}` : 'from the extension';
+  const sdr = sender.tab ? `from a content script: ${sender.tab.url}` : 'from the extension';
   logger(`[background] message received: ${message.type}. Sender: ${sdr}`);
   // return true; // Return true means it's asynchronous response, but we're not gonna respond in background
 };
