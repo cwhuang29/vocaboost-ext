@@ -1,4 +1,4 @@
-export const getAllNodesFromDOM = () => {
+export const getAllTextNodesFromDOM = () => {
   const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
   let currNode = walker.currentNode;
   let nodes = [];

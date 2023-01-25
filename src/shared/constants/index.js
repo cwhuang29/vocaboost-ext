@@ -1,5 +1,4 @@
 export const HIGHLIGHTER_CHECK_INTERVAL = 5000;
-export const BACKGROUND_INIT_SETUP_DELAY = 5000;
 
 export const HIGHLIGHTER_CLASS = 'HIGHLIGHTER_CLASS';
 export const HIGHLIGHTER_DETAIL_CLASS = 'HIGHLIGHTER_DETAIL_CLASS';
@@ -34,15 +33,6 @@ export const ONLINE_DIC_URL = {
   zh_CN: 'https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B0%A1%E9%AB%94/',
 };
 
-export const PARTS_OF_SPEECH_SHORTHAND = {
-  noun: '(n.)',
-  verb: '(v.)',
-  adverb: '(adv.)',
-  adjective: '(adj.)',
-  preposition: '(prep.)',
-  conjunction: '(conj.)',
-};
-
 export const HIGHLIGHTER_FONT_SIZE = {
   SMALL: 'SMALL',
   MEDIUM: 'MEDIUM',
@@ -63,4 +53,13 @@ export const LANGS = {
   es: 'es',
   zh_TW: 'zh_TW',
   zh_CN: 'zh_CN',
+};
+
+export const PARTS_OF_SPEECH_SHORTHAND = {
+  noun: '(n.)',
+  verb: '(v.)',
+  adverb: '(adv.)',
+  adjective: '(adj.)',
+  preposition: '(prep.)',
+  conjunction: '(conj.)',
 };

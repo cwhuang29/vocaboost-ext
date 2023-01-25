@@ -11,7 +11,7 @@ import { insertFontStyles, insertIcons } from '@content/Highlighter/scripts';
 import { updateExtensionNodes } from '@content/Highlighter/updateHighlight';
 import usePrevious from '@hooks/usePrevious';
 import { getDefaultConfig, isConfigEqual } from '@utils/config';
-import { getAllNodesFromDOM } from '@utils/dom';
+import { getAllTextNodesFromDOM } from '@utils/dom';
 import { logger } from '@utils/logger';
 
 const Highlighter = () => {
@@ -21,7 +21,7 @@ const Highlighter = () => {
   const [isSetup, setIsSetup] = useState(true);
 
   const exec = async () => {
-    const nodes = getAllNodesFromDOM();
+    const nodes = getAllTextNodesFromDOM();
     if (nodes.length === prevWebNodeCount.current) {
       return;
     }
@@ -58,7 +58,7 @@ const Highlighter = () => {
   const onConfigUpdate = async () => {
     const latestConfig = await loadConfig();
     if (!isConfigEqual(latestConfig, prevConfig)) {
-      updateExtensionNodes(getAllNodesFromDOM(), latestConfig); // Should pass the latest config and not rely on setState
+      updateExtensionNodes(getAllTextNodesFromDOM(), latestConfig); // Should pass the latest config and not rely on setState
     }
   };
 
