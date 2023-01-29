@@ -2734,11 +2734,11 @@ export default [
     detail: [
       {
         meaning: {
-          en: 'lowest part of sth, esp the part on which it rests or is supported',
-          zh_TW: 'n. 基礎; a. 卑賤的 [反] a. baseless 無事實根據的',
+          en: 'lacking or indicating the lack of higher qualities of mind or spirit; ignoble',
+          zh_TW: '卑賤的',
         },
-        partsOfSpeech: 'noun',
-        example: '',
+        partsOfSpeech: 'adjective',
+        example: 'a base betrayal',
       },
     ],
   },
@@ -5112,20 +5112,6 @@ export default [
     ],
   },
   {
-    id: 333,
-    word: 'configuration',
-    detail: [
-      {
-        meaning: {
-          en: 'arrangement of the parts of sth; shape or outline',
-          zh_TW: '結構、配置、輪廓',
-        },
-        partsOfSpeech: 'noun',
-        example: '',
-      },
-    ],
-  },
-  {
     id: 334,
     word: 'confine',
     detail: [
@@ -5390,20 +5376,6 @@ export default [
         },
         partsOfSpeech: 'adjective',
         example: 'American basketball players are always conspicuous when they go abroad--not only are they American, but some are over seven feet tall',
-      },
-    ],
-  },
-  {
-    id: 352,
-    word: 'constant',
-    detail: [
-      {
-        meaning: {
-          en: 'going on all the time; happening again and again',
-          zh_TW: '固定的、不變的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
       },
     ],
   },
@@ -6951,20 +6923,6 @@ export default [
         },
         partsOfSpeech: 'adjective',
         example: 'a harsh, derisive laugh',
-      },
-    ],
-  },
-  {
-    id: 454,
-    word: 'derivative',
-    detail: [
-      {
-        meaning: {
-          en: 'not original but drawing strongly on something already in existence, especially in reference to a creative product (e.g. music, writing, poetry etc.)',
-          zh_TW: '非原創的、衍生的',
-        },
-        partsOfSpeech: 'adjective',
-        example: 'Because the movies were utterly derivative of other popular movies, they did well at the box office',
       },
     ],
   },
@@ -11242,7 +11200,7 @@ export default [
       {
         meaning: {
           en: '(of a ship) fill with water and sink',
-          zh_TW: '(v) 船沈沒、失敗',
+          zh_TW: '船沈沒、失敗',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -16755,20 +16713,6 @@ export default [
     ],
   },
   {
-    id: 1094,
-    word: 'objective',
-    detail: [
-      {
-        meaning: {
-          en: 'not influenced by personal feelings or opinions; unbiased; fair',
-          zh_TW: '客觀的 [類] n. objectivity',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
-      },
-    ],
-  },
-  {
     id: 1095,
     word: 'objurgate',
     detail: [
@@ -17680,20 +17624,7 @@ export default [
       },
     ],
   },
-  {
-    id: 1154,
-    word: 'partial',
-    detail: [
-      {
-        meaning: {
-          en: 'existing only in part; incomplete',
-          zh_TW: '局部的、偏袒的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
-      },
-    ],
-  },
+  ,
   {
     id: 1155,
     word: 'partisan',
@@ -17934,20 +17865,6 @@ export default [
         },
         partsOfSpeech: 'adjective',
         example: 'The professor had a remarkable ability to make even the most difficult concepts seem pellucid',
-      },
-    ],
-  },
-  {
-    id: 1170,
-    word: 'penalty',
-    detail: [
-      {
-        meaning: {
-          en: 'punishment for breaking a low, rule or contract',
-          zh_TW: '處罰、刑罰',
-        },
-        partsOfSpeech: 'noun',
-        example: '',
       },
     ],
   },
@@ -21172,20 +21089,6 @@ export default [
     ],
   },
   {
-    id: 1385,
-    word: 'respect',
-    detail: [
-      {
-        meaning: {
-          en: 'admiration felt or shown for a person or thing that has good qualities or achievements; regard',
-          zh_TW: '敬重、尊敬、關於、涉及',
-        },
-        partsOfSpeech: 'noun',
-        example: '',
-      },
-    ],
-  },
-  {
     id: 1386,
     word: 'respite',
     detail: [
@@ -23930,20 +23833,6 @@ export default [
         },
         partsOfSpeech: 'adjective',
         example: 'this point may now seem obvious and trite',
-      },
-    ],
-  },
-  {
-    id: 1570,
-    word: 'trivial',
-    detail: [
-      {
-        meaning: {
-          en: 'that has little importance',
-          zh_TW: '瑣碎的、微不足道的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
       },
     ],
   },
