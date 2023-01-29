@@ -58,10 +58,10 @@
           ["^(@|@pages|@components|@shared|@actions|@constants|@hooks|@reducers|@selectors|@services|@utils|@home)"],
           // Style imports
           ['^.+\.s?css$'],
+          // Absolute imports and other imports such as Vue-style `@/foo`. Anything not matched in another group
+          ["^[^.]"],
           // Other relative imports. Put same-folder imports and `.` last. Parent imports. Put `..` last
           ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$", "^\\.\\.(?!/?$)", "^\\.\\./?$"],
-          // Absolute imports and other imports such as Vue-style `@/foo`. Anything not matched in another group
-          ["^[^.]"]
         ]
       }
     ]
