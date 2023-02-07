@@ -23138,20 +23138,6 @@ export default [
     ],
   },
   {
-    id: 1524,
-    word: 'syntax',
-    detail: [
-      {
-        meaning: {
-          en: '(rules for the) arrangement of words into phrases and phrases into sentences',
-          zh_TW: '語法、句法 [類] adj. syntactic 句法的',
-        },
-        partsOfSpeech: 'noun',
-        example: '',
-      },
-    ],
-  },
-  {
     id: 1525,
     word: 'synthesize',
     detail: [
