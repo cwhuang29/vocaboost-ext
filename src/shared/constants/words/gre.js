@@ -9610,20 +9610,6 @@ export default [
     ],
   },
   {
-    id: 625,
-    word: 'err',
-    detail: [
-      {
-        meaning: {
-          en: 'to make an error',
-          zh_TW: '',
-        },
-        partsOfSpeech: 'verb',
-        example: 'He erred in thinking that "indigent" and "indignant" were synonyms',
-      },
-    ],
-  },
-  {
     id: 626,
     word: 'errant',
     detail: [
