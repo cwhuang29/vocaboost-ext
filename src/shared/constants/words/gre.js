@@ -20643,11 +20643,11 @@ export default [
     detail: [
       {
         meaning: {
-          en: 'method or system of government',
+          en: 'a government, especially an authoritarian one',
           zh_TW: '政權、政治制度',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'ideological opponents of the regime',
       },
     ],
   },
@@ -20661,7 +20661,7 @@ export default [
           zh_TW: '重新處理、改寫',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'he contented himself with occasional articles in journals, rehashing his own work',
       },
     ],
   },
@@ -20675,7 +20675,7 @@ export default [
           zh_TW: '重申、反覆說',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'she reiterated that the administration would remain steadfast in its support',
       },
     ],
   },
@@ -20685,11 +20685,19 @@ export default [
     detail: [
       {
         meaning: {
-          en: 'restore youthful appearance, strength, etc to',
-          zh_TW: '使年輕、使恢復精神',
+          en: 'give new energy or vigor to; revitalize',
+          zh_TW: '使恢復精神',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'the exercise and fresh air rejuvenated me',
+      },
+      {
+        meaning: {
+          en: 'restore youthful appearance, strength, etc to',
+          zh_TW: '使年輕',
+        },
+        partsOfSpeech: 'verb',
+        example: 'exfoliation rejuvenates the skin',
       },
     ],
   },
@@ -20700,7 +20708,7 @@ export default [
       {
         meaning: {
           en: 'consign or dismiss to an inferior rank or position',
-          zh_TW: '',
+          zh_TW: '降職、放逐',
         },
         partsOfSpeech: 'verb',
         example: 'they aim to prevent women from being relegated to a secondary role',
@@ -20717,7 +20725,7 @@ export default [
           zh_TW: '放棄、廢除',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'he relinquished his managerial role to become chief executive',
       },
     ],
   },
@@ -20731,7 +20739,7 @@ export default [
           zh_TW: '值得注意的、卓越的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'meeting you here in London is a remarkable coincidence',
       },
     ],
   },
@@ -20745,7 +20753,7 @@ export default [
           zh_TW: '治療、治療法、藥物',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'an effective herbal remedy for headaches',
       },
     ],
   },
@@ -20756,7 +20764,7 @@ export default [
       {
         meaning: {
           en: 'to be negligent in one’s duty',
-          zh_TW: '',
+          zh_TW: '疏忽的',
         },
         partsOfSpeech: 'adjective',
         example: 'Remiss in his duty to keep the school functioning efficiently, the principal was relieved of his position after only three months',
@@ -20770,7 +20778,7 @@ export default [
       {
         meaning: {
           en: 'make a forcefully reproachful protest',
-          zh_TW: '',
+          zh_TW: '抗議、反對',
         },
         partsOfSpeech: 'verb',
         example: 'he turned angrily to remonstrate with Tommy',
@@ -20787,7 +20795,7 @@ export default [
           zh_TW: '懊悔、悔恨',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'they were filled with remorse and shame',
       },
     ],
   },
@@ -20798,7 +20806,7 @@ export default [
       {
         meaning: {
           en: 'go back on a promise, undertaking, or contract',
-          zh_TW: '',
+          zh_TW: '食言、背信',
         },
         partsOfSpeech: 'verb',
         example: 'they have reneged on their promises to us',
@@ -20812,11 +20820,11 @@ export default [
       {
         meaning: {
           en: 'completely stocked or furnished with something',
-          zh_TW: '',
+          zh_TW: '充滿的、詳盡的',
         },
         partsOfSpeech: 'adjective',
         example:
-          'Only weeks after the hurricane made landfall, the local supermarket shelves were replete with goods, so quick was the disaster relief response.',
+          'Only weeks after the hurricane made landfall, the local supermarket shelves were replete with goods, so quick was the disaster relief response',
       },
     ],
   },
@@ -20830,7 +20838,7 @@ export default [
           zh_TW: '摺疊、複製',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'it might be impractical to replicate Eastern culture in the west',
       },
     ],
   },
@@ -20844,7 +20852,7 @@ export default [
           zh_TW: '壓抑、抑制、鎮壓',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: "Isabel couldn't repress a sharp cry of fear",
       },
     ],
   },
@@ -20855,7 +20863,7 @@ export default [
       {
         meaning: {
           en: 'an act of retaliation',
-          zh_TW: '',
+          zh_TW: '報復',
         },
         partsOfSpeech: 'noun',
         example: 'three youths died in the reprisals that followed',
@@ -20869,7 +20877,7 @@ export default [
       {
         meaning: {
           en: 'address (someone) in such a way as to express disapproval or disappointment',
-          zh_TW: '',
+          zh_TW: '責備',
         },
         partsOfSpeech: 'verb',
         example: 'critics reproached him for his failure to tackle the deficiency',
@@ -20877,7 +20885,7 @@ export default [
       {
         meaning: {
           en: 'accuse someone of',
-          zh_TW: '',
+          zh_TW: '責備',
         },
         partsOfSpeech: 'verb',
         example: 'his wife reproached him with cowardice',
@@ -20885,7 +20893,7 @@ export default [
       {
         meaning: {
           en: 'the expression of disapproval or disappointment',
-          zh_TW: '',
+          zh_TW: '責備、指責',
         },
         partsOfSpeech: 'noun',
         example: 'he gave her a look of reproach',
@@ -20899,7 +20907,7 @@ export default [
       {
         meaning: {
           en: 'a person without morals who is disapproved of',
-          zh_TW: '',
+          zh_TW: '責備',
         },
         partsOfSpeech: 'noun',
         example:
@@ -20922,7 +20930,7 @@ export default [
       {
         meaning: {
           en: 'deny the truth or validity of',
-          zh_TW: '',
+          zh_TW: '否認',
         },
         partsOfSpeech: 'verb',
         example: 'the minister repudiated allegations of human rights abuses',
@@ -20930,7 +20938,7 @@ export default [
       {
         meaning: {
           en: '(law) refuse to fulfill or discharge (an agreement, obligation, or debt)',
-          zh_TW: '',
+          zh_TW: '拒絕履行（合約、債務）',
         },
         partsOfSpeech: 'verb',
         example: 'breach of a condition gives the other party the right to repudiate a contract',
@@ -20947,7 +20955,7 @@ export default [
           zh_TW: '厭惡的、反感的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'the thought of going back into the fog was repugnant to him',
       },
     ],
   },
@@ -20961,7 +20969,7 @@ export default [
           zh_TW: '擊退、驅逐、使厭惡、使產生反感',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'rioters tried to storm ministry buildings but were repulsed by police',
       },
     ],
   },
@@ -20972,10 +20980,10 @@ export default [
       {
         meaning: {
           en: 'cancel officially',
-          zh_TW: '',
+          zh_TW: '撤回、廢止',
         },
         partsOfSpeech: 'verb',
-        example: "The man's driver's license was rescinded after his tenth car accident, which meant he would never be allowed to legally drive again.",
+        example: "The man's driver's license was rescinded after his tenth car accident, which meant he would never be allowed to legally drive again",
       },
     ],
   },
@@ -20989,7 +20997,7 @@ export default [
           zh_TW: '與...相似、像',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'some people resemble their dogs',
       },
     ],
   },
@@ -21000,7 +21008,7 @@ export default [
       {
         meaning: {
           en: 'a qualification to an expression of agreement or approval; a doubt',
-          zh_TW: '',
+          zh_TW: '保留（意見）、異議',
         },
         partsOfSpeech: 'noun',
         example: 'some generals voiced reservations about making air strikes',
@@ -21008,18 +21016,10 @@ export default [
       {
         meaning: {
           en: 'the action of reserving something',
-          zh_TW: '',
+          zh_TW: '保留區、保護區',
         },
         partsOfSpeech: 'noun',
         example: 'the reservation of positions for non-Americans',
-      },
-      {
-        meaning: {
-          en: 'an area of land set aside for occupation by North American Indians or Australian Aboriginal people',
-          zh_TW: '',
-        },
-        partsOfSpeech: 'noun',
-        example: "the boy's family live on a reservation",
       },
     ],
   },
@@ -21030,7 +21030,7 @@ export default [
       {
         meaning: {
           en: 'an act of retiring or giving up a position',
-          zh_TW: '',
+          zh_TW: '放棄、辭職',
         },
         partsOfSpeech: 'noun',
         example: 'he announced his resignation',
@@ -21038,7 +21038,7 @@ export default [
       {
         meaning: {
           en: 'the acceptance of something undesirable but inevitable',
-          zh_TW: '',
+          zh_TW: '屈服、聽從',
         },
         partsOfSpeech: 'noun',
         example: 'a shrug of resignation',
@@ -21052,10 +21052,10 @@ export default [
       {
         meaning: {
           en: 'reach a conclusion after a discussion or deliberation',
-          zh_TW: '',
+          zh_TW: '解決、消除',
         },
         partsOfSpeech: 'verb',
-        example: "After much thought, Ted resolved not to travel abroad this summer because he didn't have much money in his bank account.",
+        example: "after much thought, Ted resolved not to travel abroad this summer because he didn't have much money in his bank account",
       },
     ],
   },
@@ -21069,7 +21069,7 @@ export default [
           zh_TW: '宏亮的、共鳴的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'a full-throated and resonant guffaw',
       },
     ],
   },
@@ -21080,7 +21080,7 @@ export default [
       {
         meaning: {
           en: 'a short period of rest or relief from something difficult or unpleasant',
-          zh_TW: '',
+          zh_TW: '暫時的停止、休息',
         },
         partsOfSpeech: 'noun',
         example: 'the refugee encampments will provide some respite from the suffering',
@@ -21088,7 +21088,7 @@ export default [
       {
         meaning: {
           en: 'postpone (a sentence, obligation, etc.)',
-          zh_TW: '',
+          zh_TW: '暫緩',
         },
         partsOfSpeech: 'verb',
         example: 'the execution was only respited a few months',
@@ -21119,7 +21119,7 @@ export default [
           zh_TW: '克制、抑制',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'he had to be restrained from walking out of the meeting',
       },
     ],
   },
@@ -21133,7 +21133,7 @@ export default [
           zh_TW: '再起、復活、復甦',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'fears of a new war in Europe resurge with warnings',
       },
     ],
   },
@@ -21144,7 +21144,7 @@ export default [
       {
         meaning: {
           en: 'increasing or reviving after a period of little activity, popularity, or occurrence',
-          zh_TW: '',
+          zh_TW: '復活的、再起的',
         },
         partsOfSpeech: 'adjective',
         example: "the nation's resurgent economy",
@@ -21157,11 +21157,19 @@ export default [
     detail: [
       {
         meaning: {
-          en: 'bring (sb) back to life again',
-          zh_TW: '使復活、使復甦 [類] reanimate, recharge, regenerate',
+          en: 'revive the practice, use, or memory of (something); bring new vigor to',
+          zh_TW: '使復甦',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'the deal collapsed and has yet to be resurrected',
+      },
+      {
+        meaning: {
+          en: 'bring (sb) back to life again',
+          zh_TW: '使復活',
+        },
+        partsOfSpeech: 'verb',
+        example: 'he was dead, but he was resurrected',
       },
     ],
   },
@@ -21186,7 +21194,7 @@ export default [
       {
         meaning: {
           en: "shy and fond of being on one's own",
-          zh_TW: '',
+          zh_TW: '離群索居的',
         },
         partsOfSpeech: 'adjective',
         example: 'a gentle, retiring person who avoided conflict',
@@ -21225,7 +21233,7 @@ export default [
           zh_TW: '回顧的、追溯的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'our survey was retrospective',
       },
     ],
   },
@@ -21239,7 +21247,7 @@ export default [
           zh_TW: '尊敬、推從',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: "Cézanne's still lifes were revered by his contemporaries",
       },
     ],
   },
@@ -21250,7 +21258,7 @@ export default [
       {
         meaning: {
           en: 'feeling or showing profound respect or veneration',
-          zh_TW: '',
+          zh_TW: '恭敬的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -21268,7 +21276,7 @@ export default [
           zh_TW: '辱罵、謾罵、痛斥',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'he was now reviled by the party that he had helped to lead',
       },
     ],
   },
@@ -21282,7 +21290,7 @@ export default [
           zh_TW: '始恢復生氣、使復活、使復興',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'a package of spending cuts to revitalize the economy',
       },
     ],
   },
@@ -21293,7 +21301,7 @@ export default [
       {
         meaning: {
           en: 'referring to sexual matters in an amusingly coarse or irreverent way',
-          zh_TW: '',
+          zh_TW: '猥褻下流的',
         },
         partsOfSpeech: 'adjective',
         example: 'a ribald comment',
@@ -21310,7 +21318,7 @@ export default [
           zh_TW: '屋脊、山脊',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'the northeast ridge of Everest',
       },
     ],
   },
