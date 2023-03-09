@@ -1,11 +1,11 @@
 import { setStorage } from '@browsers/storage';
 import { EXT_STORAGE_CONFIG, EXT_STORAGE_WORD_LIST } from '@constants/storage';
-import { getDefaultConfig } from '@utils/config';
+import { DEFAULT_CONFIG } from '@utils/config';
 import { logger } from '@utils/logger';
 import { genWordDetailList } from '@utils/word';
 
 export const storeEssentialDataOnInstall = async () => {
-  const config = getDefaultConfig();
+  const config = DEFAULT_CONFIG;
   const words = genWordDetailList();
 
   await Promise.all([

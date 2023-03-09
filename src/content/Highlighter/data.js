@@ -18,5 +18,6 @@ export const getAllWords = async () => {
     return new Map([]);
   }
 
-  return new Map(JSON.parse(wordListStr).map(item => [item.word, item]));
+  const wordList = JSON.parse(wordListStr).filter(item => item);
+  return new Map(wordList.map(item => [item.word, item]));
 };

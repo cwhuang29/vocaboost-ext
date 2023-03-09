@@ -4,14 +4,13 @@ import {
   HIGHLIGHTER_DETAIL_CLASS,
   HIGHLIGHTER_DETAIL_ITEM_CLASS,
   HIGHLIGHTER_ICON_CLASS,
-  // HIGHLIGHTER_LINK_CLASS,
   HIGHLIGHTER_ORG_WORD_CLASS,
   HIGHLIGHTER_TARGET_WORD_CLASS,
 } from '@constants/index';
 import { genHighlightSyntax } from '@utils/highlight';
 import { logger } from '@utils/logger';
 
-export const findWordsInNodes = ({ value, words }) => {
+export const extractWordsFromValues = ({ value, words }) => {
   const parsed = value
     .replace(/[^a-z]/gi, ' ')
     .split(' ')
@@ -19,10 +18,10 @@ export const findWordsInNodes = ({ value, words }) => {
   return [...new Set(parsed)];
 };
 
-export const highlightMatchedWords = ({ config, nodeValue, matchedWords, words }) => {
+export const highlightMatchedWords = ({ config, nodeValue, matchedWords }) => {
   let value = nodeValue;
   matchedWords.forEach(word => {
-    const arg = { config, orgWord: word, word: words.get(word.toLowerCase()) };
+    const arg = { config, orgWord: word };
     value = value.replace(word, genHighlightSyntax(arg)); // TODO if target word is 'the', then 'therefore' will be effected
   });
   return value;
@@ -50,10 +49,10 @@ export const parseAllNodes = (nodes, words, config) => {
   nodes
     .filter(node => shouldAddHighlight(node))
     .forEach(node => {
-      const matchedWords = findWordsInNodes({ value: node.nodeValue, words });
+      const matchedWords = extractWordsFromValues({ value: node.nodeValue, words });
       if (matchedWords.length) {
         // If we update parent node right now, subsequent nodes with same parent node may lose their parent node (node.parentNode becomes null)
-        const args = { config, nodeValue: node.nodeValue, matchedWords, words };
+        const args = { config, nodeValue: node.nodeValue, matchedWords };
         map.set(cnt++, { parent: node.parentNode, orgValue: node.nodeValue, newValue: highlightMatchedWords(args) });
       }
     });

@@ -1,4 +1,4 @@
-/* eslint-disable */
+// eslint-disable-next-line no-sparse-arrays
 export default [
   {
     id: 1,
@@ -17610,7 +17610,6 @@ export default [
       },
     ],
   },
-  ,
   {
     id: 1155,
     word: 'partisan',

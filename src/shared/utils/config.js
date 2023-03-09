@@ -4,12 +4,12 @@ import { EXT_STORAGE_CONFIG } from '@constants/storage';
 import { logger } from '@utils/logger';
 import { isObject } from '@utils/misc';
 
-export const getDefaultConfig = () => ({
+export const DEFAULT_CONFIG = {
   highlightColor: HIGHLIGHTER_BG_COLORS.YELLOW,
   language: LANGS.en,
   fontSize: HIGHLIGHTER_FONT_SIZE.MEDIUM,
   showDetail: true,
-});
+};
 
 export const isConfigEqual = (config1 = {}, config2 = {}) => {
   const c1 = isObject(config1) ? config1 : JSON.parse(config1);
@@ -24,7 +24,7 @@ export const setupDefaultConfigIfNotExist = async () => {
   let config = await getStorage({ type: 'sync', key: EXT_STORAGE_CONFIG });
 
   if (!config || Object.keys(config).length === 0) {
-    config = getDefaultConfig();
+    config = DEFAULT_CONFIG;
     await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: config });
   }
   logger(`Get config after installation. Config: ${JSON.stringify(config)}`);

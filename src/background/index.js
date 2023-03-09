@@ -14,11 +14,11 @@ import { storeEssentialDataOnInstall } from './init';
 
 const onInstalledListener = details => {
   Browser.storage.local.clear();
-  Browser.tabs.create({ url: Browser.runtime.getURL('index.html') }); // e.g. chrome-extension://dgkojjmldclhegjngnibipblnclmohod/index.html
+  // Browser.tabs.create({ url: Browser.runtime.getURL('index.html') }); // A trick to force the execution of popup code on installation. URL: chrome-extension://dgkojjmldclhegjngnibipblnclmohod/index.html
 
   if (details.reason === BROWSER_ONINSTALL_REASON.INSTALL) {
     // sendMessage({ type: EXT_MSG_TYPE_INIT_SETUP });
-    storeEssentialDataOnInstall(); // Background is more suitable to perform this job other than popup
+    storeEssentialDataOnInstall(); // Background is more suitable to perform this job other than popup. Popup will not be executed unless launch it in a new tab or user click the icon
   }
 };
 

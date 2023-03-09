@@ -7,7 +7,7 @@ import { EXT_MSG_TYPE_CONFIG_UPDATE } from '@constants/messages';
 import { EXT_STORAGE_CONFIG } from '@constants/storage';
 import { useExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import usePrevious from '@hooks/usePrevious';
-import { getDefaultConfig, isConfigEqual } from '@utils/config';
+import { DEFAULT_CONFIG, isConfigEqual } from '@utils/config';
 
 import { popupSettingActionType } from './action';
 import BaseWrapper from './BaseWrapper';
@@ -38,12 +38,12 @@ const settingsReducer = (state, action) => {
 
 const PopupView = () => {
   const [isNormalWebPage, setIsNormalWebPage] = useState(false);
-  const [state, dispatch] = useReducer(settingsReducer, getDefaultConfig());
+  const [state, dispatch] = useReducer(settingsReducer, DEFAULT_CONFIG);
   const prevState = usePrevious(state); // Initial value is undefined
   const { config: ctxConfig = {} } = useExtensionMessageContext();
 
   /*
-   * Other tab update config -> send a message to notify other tabs (and background) -> PopupManager (in every tab) recieves the message with latest config
+   * Other tab update config -> send a message to notify other tabs (and background) -> PopupManager (in every tab, if active/open) recieves the message with latest config
    * -> the latest config is passed down through context -> get the latest config here and update accordingly
    */
   useEffect(() => {

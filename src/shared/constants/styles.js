@@ -1,3 +1,5 @@
+export const POPUP_MAX_WIDTH = 400;
+
 export const MAX_Z_INDEX = 2147483647;
 
 export const SLIDE_SHOW_DELAY = 3000;

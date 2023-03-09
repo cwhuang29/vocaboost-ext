@@ -29,8 +29,15 @@
   background-color: rgb(200 178 234 / 80%) !important;
 }
 
+/* .HIGHLIGHTER_CLASS:focus > .HIGHLIGHTER_DETAIL_CLASS { */
+/*   visibility: visible !important; */
+/* } */
+
+/* .HIGHLIGHTER_CLASS:hover > .HIGHLIGHTER_DETAIL_CLASS { */
+/*   visibility: visible !important; */
+/* } */
+
 .HIGHLIGHTER_DETAIL_CLASS {
-  visibility: hidden !important;
   position: absolute !important;
   min-width: 100px !important;
   max-width: 400px !important;
@@ -49,14 +56,6 @@
 
 .HIGHLIGHTER_DETAIL_CLASS > *:not(:last-child) {
   margin: 0 0 6px 0 !important;
-}
-
-.HIGHLIGHTER_CLASS:focus > .HIGHLIGHTER_DETAIL_CLASS {
-  visibility: visible !important;
-}
-
-.HIGHLIGHTER_CLASS:hover > .HIGHLIGHTER_DETAIL_CLASS {
-  visibility: visible !important;
 }
 
 .HIGHLIGHTER_TARGET_WORD_CLASS,
@@ -107,7 +106,7 @@
 }
 
 .HIGHLIGHTER_ICON_CLASS {
-  margin: -4px 0 !important;
+  margin: -5px 0 -5px 12px !important;
   line-height: 0px !important;
   cursor: pointer !important;
   text-decoration: none !important;
