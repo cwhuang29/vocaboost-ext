@@ -8,6 +8,7 @@ export default [
         meaning: {
           en: 'make or become less',
           zh_TW: '減輕、減少 [類]n. abatement',
+          zh_CN: '减轻、减少 [类]n. abatement',
         },
         partsOfSpeech: 'verb',
         example: 'the storm suddenly abated',
@@ -22,6 +23,7 @@ export default [
         meaning: {
           en: 'resign from or formally renounce the throne',
           zh_TW: '正式放棄(權利等)、退(位)、辭(職)',
+          zh_CN: '正式放弃(权利等)、退(位)、辞(职)',
         },
         partsOfSpeech: 'verb',
         example: 'she charged the board with abdicating its responsibilities',
@@ -36,6 +38,7 @@ export default [
         meaning: {
           en: 'departing from an accepted standard',
           zh_TW: '越軌的、異常的',
+          zh_CN: '越轨的、异常的',
         },
         partsOfSpeech: 'adjective',
         example: 'this somewhat aberrant behavior requires an explanation',
@@ -44,6 +47,7 @@ export default [
         meaning: {
           en: '(biology) diverging from the normal type',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'aberrant chromosomes',
@@ -58,6 +62,7 @@ export default [
         meaning: {
           en: 'a departure from what is normal, usual, or expected, typically one that is unwelcome',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'they described the outbreak of violence in the area as an aberration',
@@ -72,6 +77,7 @@ export default [
         meaning: {
           en: 'sb (in sth) help or encourage sb to commit an offence or do sth wrong',
           zh_TW: '教唆、唆使、煽動 [類] foment, instigate, provoke',
+          zh_CN: '教唆、唆使、煽动 [类] foment, instigate, provoke',
         },
         partsOfSpeech: 'verb',
         example: 'he was not guilty of murder but was guilty of aiding and abetting others',
@@ -86,6 +92,7 @@ export default [
         meaning: {
           en: 'a state of temporary disuse or suspension',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'matters were held in abeyance pending further inquiries',
@@ -94,6 +101,7 @@ export default [
         meaning: {
           en: '(law) the position of being without, or of waiting for, an owner or claimant',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -108,6 +116,7 @@ export default [
         meaning: {
           en: 'disgusting; hateful',
           zh_TW: '可恨的、討厭的',
+          zh_CN: '可恨的、討厌的',
         },
         partsOfSpeech: 'adjective',
         example: 'racial discrimination was abhorrent to us all',
@@ -122,6 +131,7 @@ export default [
         meaning: {
           en: 'solemnly renounce (a belief, cause, or claim)',
           zh_TW: '發誓放棄、棄絕',
+          zh_CN: '发誓放弃、弃绝',
         },
         partsOfSpeech: 'verb',
         example: 'his refusal to abjure the Catholic faith',
@@ -136,6 +146,7 @@ export default [
         meaning: {
           en: 'renounce or reject (something desired or valuable)',
           zh_TW: '否認、放棄',
+          zh_CN: '否认、放弃',
         },
         partsOfSpeech: 'verb',
         example: 'he attempts to abnegate personal responsibility',
@@ -150,6 +161,7 @@ export default [
         meaning: {
           en: 'legitimate, honest, and open',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'we felt the judging was all above board and fair',
@@ -164,6 +176,7 @@ export default [
         meaning: {
           en: 'make shorter, esp by using fewer words; condense',
           zh_TW: '縮短、刪節',
+          zh_CN: '缩短、刪节',
         },
         partsOfSpeech: 'verb',
         example: "the introduction is abridged from the author's afterword to the novel",
@@ -172,6 +185,7 @@ export default [
         meaning: {
           en: '(law) curtail (a right or privilege)',
           zh_TW: '限制',
+          zh_CN: '限制',
         },
         partsOfSpeech: 'verb',
         example: 'even the right to free speech can be abridged',
@@ -186,6 +200,7 @@ export default [
         meaning: {
           en: 'repeal or do away with (a law, right, or formal agreement)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'a proposal to abrogate temporarily the right to strike',
@@ -194,6 +209,7 @@ export default [
         meaning: {
           en: 'evade (a responsibility or duty)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'we believe the board is abrogating its responsibilities to its shareholders',
@@ -208,6 +224,7 @@ export default [
         meaning: {
           en: 'choose not to consume or take part in (particularly something enjoyable)',
           zh_TW: '避開、避免、放棄',
+          zh_CN: '避开、避免、放弃',
         },
         partsOfSpeech: 'verb',
         example: 'Considered a health nut, Jessica abstained from anything containing sugar--even chocolate',
@@ -222,6 +239,7 @@ export default [
         meaning: {
           en: 'not self-indulgent, especially when eating and drinking',
           zh_TW: '有節制的、節儉的 abstinence',
+          zh_CN: '有节制的、节俭的 abstinence',
         },
         partsOfSpeech: 'adjective',
         example: 'We only had a bottle.” “Very abstemious of you',
@@ -236,6 +254,7 @@ export default [
         meaning: {
           en: 'refraining from an activity or from the consumption of something, especially alcohol',
           zh_TW: '有節制的',
+          zh_CN: '有节制的',
         },
         partsOfSpeech: 'adjective',
         example: 'the patients are best advised to be totally abstinent from alcohol',
@@ -250,6 +269,7 @@ export default [
         meaning: {
           en: 'difficult to understand; obscure',
           zh_TW: '深奧的、難懂的',
+          zh_CN: '深奥的、难懂的',
         },
         partsOfSpeech: 'adjective',
         example: 'an abstruse philosophical inquiry',
@@ -264,6 +284,7 @@ export default [
         meaning: {
           en: 'unreasonable; not sensible',
           zh_TW: '不合理的、荒謬的',
+          zh_CN: '不合理的、荒谬的',
         },
         partsOfSpeech: 'adjective',
         example: 'the allegations are patently absurd',
@@ -278,6 +299,7 @@ export default [
         meaning: {
           en: 'extremely bad; appalling',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the quality of her work is abysmal',
@@ -286,6 +308,7 @@ export default [
         meaning: {
           en: 'very deep',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'waterfalls that plunge into abysmal depths',
@@ -300,6 +323,7 @@ export default [
         meaning: {
           en: 'make very noticeable or prominent; emphasize',
           zh_TW: '強調、以重音讀出、加重音符號於',
+          zh_CN: '强调、以重音读出、加重音符號於',
         },
         partsOfSpeech: 'verb',
         example: 'his jacket unfortunately accentuated his paunch',
@@ -314,6 +338,7 @@ export default [
         meaning: {
           en: 'an award or praise granted as a special honor',
           zh_TW: '推從、讚揚',
+          zh_CN: '推从、讚扬',
         },
         partsOfSpeech: 'noun',
         example: 'Jean Paul-Sartre was not a fan of accolades, and as such, he refused to accept the Nobel Prize for Literature in 1964',
@@ -328,6 +353,7 @@ export default [
         meaning: {
           en: 'growth or increase by means of gradual additions',
           zh_TW: '增加',
+          zh_CN: '增加',
         },
         partsOfSpeech: 'noun',
         example: 'the accretion of sediments in coastal mangroves',
@@ -342,6 +368,7 @@ export default [
         meaning: {
           en: 'harsh in tone',
           zh_TW: '（味道）辣、苦 （語言）尖酸刻薄的',
+          zh_CN: '（味道）辣、苦 （语言）尖酸刻薄的',
         },
         partsOfSpeech: 'adjective',
         example: 'Most movie critics are acerbic towards summer blockbusters, often referring to them as garbage',
@@ -356,6 +383,7 @@ export default [
         meaning: {
           en: 'the highest point of achievement',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The new Cessna airplanes will be the acme of comfort, offering reclining seats and ample legroom',
@@ -370,6 +398,7 @@ export default [
         meaning: {
           en: 'the reluctant acceptance of something without protest',
           zh_TW: '默認、默許',
+          zh_CN: '默认、默许',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -384,6 +413,7 @@ export default [
         meaning: {
           en: 'keen to acquire things, esp material possessions',
           zh_TW: '貪得無厭的',
+          zh_CN: '贪得无厌的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -398,6 +428,7 @@ export default [
         meaning: {
           en: 'bitter',
           zh_TW: '尖刻的、嚴厲的',
+          zh_CN: '尖刻的、严厉的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -412,6 +443,7 @@ export default [
         meaning: {
           en: 'bitterness and ill will',
           zh_TW: '尖刻、刻薄 [反] civility, comity',
+          zh_CN: '尖刻、刻薄 [反] civility, comity',
         },
         partsOfSpeech: 'noun',
         example: 'The acrimony between the president and vice-president sent a clear signal to voters: the health of the current administration was imperiled',
@@ -426,6 +458,7 @@ export default [
         meaning: {
           en: 'ability to understand and judge things quickly and clearly; shrewdness',
           zh_TW: '精明',
+          zh_CN: '精明',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -440,6 +473,7 @@ export default [
         meaning: {
           en: "refusing to be persuaded or to change one's mind",
           zh_TW: '堅決的、固執的 [類] unyielding, immovable, implacable',
+          zh_CN: '坚决的、固执的 [类] unyielding, immovable, implacable',
         },
         partsOfSpeech: 'adjective',
         example: 'he is adamant that he is not going to resign',
@@ -454,6 +488,7 @@ export default [
         meaning: {
           en: 'characterized by or given to adaptation',
           zh_TW: '適應的',
+          zh_CN: '適应的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -468,6 +503,7 @@ export default [
         meaning: {
           en: '(at/in doing sth) expert or skillful in (doing) sth',
           zh_TW: '熟練的、內行的',
+          zh_CN: '熟练的、內行的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -482,6 +518,7 @@ export default [
         meaning: {
           en: 'satisfactory in quantity or quality; sufficient',
           zh_TW: '足夠的 [反] inadequate',
+          zh_CN: '足够的 [反] inadequate',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -496,6 +533,7 @@ export default [
         meaning: {
           en: 'supporter of a party or doctrine',
           zh_TW: '擁護者、信徒',
+          zh_CN: '拥护者、信徒',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -510,6 +548,7 @@ export default [
         meaning: {
           en: 'make a formal judgment or decision about a problem or disputed matter',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the Committee adjudicates on all betting disputes',
@@ -518,6 +557,7 @@ export default [
         meaning: {
           en: 'act as a judge in a competition',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'we asked him to adjudicate at the local flower show',
@@ -532,6 +572,7 @@ export default [
         meaning: {
           en: 'warn or reprimand someone firmly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'she admonished me for appearing at breakfast unshaven',
@@ -540,6 +581,7 @@ export default [
         meaning: {
           en: 'advise or urge (someone) earnestly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'she admonished him to drink no more than one glass of wine',
@@ -554,6 +596,7 @@ export default [
         meaning: {
           en: 'serving to warn; expressing reproof or reproach especially as a corrective',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -569,6 +612,7 @@ export default [
         meaning: {
           en: 'skillful, clever',
           zh_TW: '靈巧的、熟練的 [類] dexterous, nimble(敏捷的)',
+          zh_CN: '灵巧的、熟练的 [类] dexterous, nimble(敏捷的)',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -583,6 +627,7 @@ export default [
         meaning: {
           en: 'obsequious flattery; excessive admiration or praise',
           zh_TW: '諂媚、奉承 [類] v. adulate [反] n. opprobrium 譴責、咒罵',
+          zh_CN: '諂媚、奉承 [类] v. adulate [反] n. opprobrium 谴责、咒骂',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -597,6 +642,7 @@ export default [
         meaning: {
           en: 'opponent n a contest; enemy',
           zh_TW: '敵手、對手',
+          zh_CN: '敌手、对手',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -611,6 +657,7 @@ export default [
         meaning: {
           en: 'a person who publicly supports or recommends a particular cause or policy',
           zh_TW: '擁護、支持、鼓吹',
+          zh_CN: '拥护、支持、鼓吹',
         },
         partsOfSpeech: 'noun',
         example: 'he was an untiring advocate of economic reform',
@@ -619,6 +666,7 @@ export default [
         meaning: {
           en: 'publicly recommend or support',
           zh_TW: '提倡',
+          zh_CN: '提倡',
         },
         partsOfSpeech: 'verb',
         example: 'they advocated an ethical foreign policy',
@@ -633,6 +681,7 @@ export default [
         meaning: {
           en: 'a person who has or affects to have a special appreciation of art and beauty',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Paris became home to a heady mix of radical thinkers, artists, and aesthetes from all corners of the globe',
@@ -647,6 +696,7 @@ export default [
         meaning: {
           en: 'concerned with the appreciation of beauty',
           zh_TW: '美學的、有審美感的',
+          zh_CN: '美学的、有审美感的',
         },
         partsOfSpeech: 'adjective',
         example: 'The director, not known for his aesthetic sensibilities, decided not to use costumes at all, and put on the play in everyday clothing',
@@ -661,6 +711,7 @@ export default [
         meaning: {
           en: 'likeable; easy to talk to',
           zh_TW: '和藹可親的、容易親近的',
+          zh_CN: '和蔼可亲的、容易亲近的',
         },
         partsOfSpeech: 'adjective',
         example: 'For all his surface affability, Marco was remarkably glum when he wasn’t around other people',
@@ -675,6 +726,7 @@ export default [
         meaning: {
           en: '(especially of a group or area) having a great deal of money; wealthy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the affluent societies of the western world',
@@ -683,6 +735,7 @@ export default [
         meaning: {
           en: '(of water) flowing freely or in great quantity',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -697,6 +750,7 @@ export default [
         meaning: {
           en: 'to make appear great or greater; praise highly',
           zh_TW: '加大、強化',
+          zh_CN: '加大、强化',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -711,6 +765,7 @@ export default [
         meaning: {
           en: 'make worse or more serious',
           zh_TW: '加重、惡化',
+          zh_CN: '加重、恶化',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -725,6 +780,7 @@ export default [
         meaning: {
           en: 'troubled or excited',
           zh_TW: '激動地、不安的',
+          zh_CN: '激动地、不安的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -739,6 +795,7 @@ export default [
         meaning: {
           en: 'extreme mental or physical suffering',
           zh_TW: '極大痛苦的',
+          zh_CN: '极大痛苦的',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -753,6 +810,7 @@ export default [
         meaning: {
           en: 'brisk and cheerful readiness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'she accepted the invitation with alacrity',
@@ -767,6 +825,7 @@ export default [
         meaning: {
           en: 'although',
           zh_TW: '儘管',
+          zh_CN: '儘管',
         },
         partsOfSpeech: 'conjunction',
         example: 'he was making progress, albeit rather slowly',
@@ -781,6 +840,7 @@ export default [
         meaning: {
           en: 'the state or experience of being isolated from a group or an activity to which one should belong or in which one should be involved',
           zh_TW: '疏遠、離間',
+          zh_CN: '疏远、离间',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -795,6 +855,7 @@ export default [
         meaning: {
           en: "make (sth) less' relieve",
           zh_TW: '減輕、使平靜 [類] mitigate',
+          zh_CN: '减轻、使平静 [类] mitigate',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -809,6 +870,7 @@ export default [
         meaning: {
           en: '(to sb/sth) support of or loyalty to a government, ruler, cause, etc',
           zh_TW: '忠誠、忠貞 [類] devotion, fealty, piety',
+          zh_CN: '忠诚、忠贞 [类] devotion, fealty, piety',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -823,6 +885,7 @@ export default [
         meaning: {
           en: 'make (suffering, deficiency, or a problem) less severe',
           zh_TW: '緩和、減輕 [類] mollify,mitigate',
+          zh_CN: '缓和、减轻 [类] mollify,mitigate',
         },
         partsOfSpeech: 'verb',
         example: "he couldn't prevent her pain, only alleviate it",
@@ -837,6 +900,7 @@ export default [
         meaning: {
           en: 'tempt or attract (sb) by the expectation of gaining sth',
           zh_TW: '誘惑、引誘 [類] v. lure 誘惑',
+          zh_CN: '诱惑、引诱 [类] v. lure 诱惑',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -851,6 +915,7 @@ export default [
         meaning: {
           en: '(of a remark or reference) working by suggestion rather than explicit mention',
           zh_TW: '暗指的',
+          zh_CN: '暗指的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -865,6 +930,7 @@ export default [
         meaning: {
           en: 'available in place of sth else; other',
           zh_TW: '輪流的、交替的',
+          zh_CN: '轮流的、交替的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -879,6 +945,7 @@ export default [
         meaning: {
           en: 'the quality of unselfish concern for the welfare of others',
           zh_TW: '利他主義',
+          zh_CN: '利他主义',
         },
         partsOfSpeech: 'noun',
         example:
@@ -894,6 +961,7 @@ export default [
         meaning: {
           en: 'a mixture or blend',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a curious amalgam of the traditional and the modern',
@@ -902,6 +970,7 @@ export default [
         meaning: {
           en: '(chemistry) an alloy of mercury with another metal, especially one used for dental fillings',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'amalgam fillings',
@@ -916,6 +985,7 @@ export default [
         meaning: {
           en: 'combine or unite to form one organization or structure',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he amalgamated his company with another',
@@ -924,6 +994,7 @@ export default [
         meaning: {
           en: '(chemistry) alloy (a metal) with mercury',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'amalgamated zinc',
@@ -938,6 +1009,7 @@ export default [
         meaning: {
           en: 'open to more than one interpretation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -953,6 +1025,7 @@ export default [
         meaning: {
           en: 'the state of having mixed feelings or contradictory ideas about something or someone',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "the law's ambivalence about the importance of a victim's identity",
@@ -967,6 +1040,7 @@ export default [
         meaning: {
           en: 'mixed or conflicting emotions about something',
           zh_TW: '矛盾的',
+          zh_CN: '矛盾的',
         },
         partsOfSpeech: 'adjective',
         example: 'Sam was ambivalent about studying for the exam because doing so ate up a lot of his time, yet he was able to improve his analytical skills',
@@ -981,6 +1055,7 @@ export default [
         meaning: {
           en: 'make something bad better',
           zh_TW: '使改善、改進；減緩（疼痛、癢） [類]v. meliorate 改進、改善',
+          zh_CN: '使改善、改进；减缓（疼痛、痒） [类]v. meliorate 改进、改善',
         },
         partsOfSpeech: 'verb',
         example: '"Three Cups of Tea" tells the story of western man who hopes to ameliorate poverty and the lack of education in Afghanistan',
@@ -995,6 +1070,7 @@ export default [
         meaning: {
           en: 'easily persuaded',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Even though she did not like the outdoors, Shirley was generally amenable and so her brother was able to persuade her to go camping',
@@ -1009,6 +1085,7 @@ export default [
         meaning: {
           en: 'make minor changes in (a text) in order to make it fairer, more accurate, or more up-to-date',
           zh_TW: '修訂、修正',
+          zh_CN: '修订、修正',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -1023,6 +1100,7 @@ export default [
         meaning: {
           en: 'friendly',
           zh_TW: '和藹的、親切的',
+          zh_CN: '和蔼的、亲切的',
         },
         partsOfSpeech: 'adjective',
         example: 'Amy’s name was very apt: she was so amiable that she was twice voted class president',
@@ -1037,6 +1115,7 @@ export default [
         meaning: {
           en: 'behave uncontrollably and disruptively',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the kids are running amok around the house',
@@ -1051,6 +1130,7 @@ export default [
         meaning: {
           en: 'without a clearly defined shape or form',
           zh_TW: '無定型的',
+          zh_CN: '无定型的',
         },
         partsOfSpeech: 'adjective',
         example: 'an amorphous, characterless conurbation',
@@ -1065,6 +1145,7 @@ export default [
         meaning: {
           en: 'enough or more than enough; plentifully',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adverb',
         example: 'the persistent reader is amply rewarded',
@@ -1079,6 +1160,7 @@ export default [
         meaning: {
           en: 'a thing belonging or appropriate to a period other than that in which it exists, especially a thing that is conspicuously old-fashioned',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'everything was as it would have appeared in centuries past apart from one anachronism, a bright yellow construction crane',
@@ -1093,6 +1175,7 @@ export default [
         meaning: {
           en: 'belonging to a period other than that being portrayed',
           zh_TW: '時代錯誤的',
+          zh_CN: '时代错误的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -1107,6 +1190,7 @@ export default [
         meaning: {
           en: 'n. substance that relieves pain',
           zh_TW: '鎮痛劑、止痛的',
+          zh_CN: '镇痛剂、止痛的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -1121,6 +1205,7 @@ export default [
         meaning: {
           en: 'similar in some respects but otherwise different',
           zh_TW: '可類比的、類似的 [類] n. analogy',
+          zh_CN: '可类比的、类似的 [类] n. analogy',
         },
         partsOfSpeech: 'adjective',
         example: "In many ways, the Internet's transformative effect on society has been analogous to that of the printing press.",
@@ -1135,6 +1220,7 @@ export default [
         meaning: {
           en: 'a state of disorder due to absence or nonrecognition of authority or other controlling systems',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -1143,6 +1229,7 @@ export default [
         meaning: {
           en: 'the organization of society on the basis of voluntary cooperation, without political institutions or hierarchical government; anarchism',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -1157,6 +1244,7 @@ export default [
         meaning: {
           en: "a detested person; the source of somebody's hate",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -1172,6 +1260,7 @@ export default [
         meaning: {
           en: 'helping in a subsidiary way',
           zh_TW: '補助的、輔助的 [類] subordinate; auxiliary',
+          zh_CN: '补助的、辅助的 [类] subordinate; auxiliary',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -1186,6 +1275,7 @@ export default [
         meaning: {
           en: 'lacking energy and vigor',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -1201,6 +1291,7 @@ export default [
         meaning: {
           en: '(fml) make (esp critical) remarks about sb/sth',
           zh_TW: '批評、非難',
+          zh_CN: '批评、非难',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -1215,6 +1306,7 @@ export default [
         meaning: {
           en: 'strong hostility',
           zh_TW: '憎惡、仇恨',
+          zh_CN: '憎恶、仇恨',
         },
         partsOfSpeech: 'noun',
         example: 'he no longer felt any animosity toward her',
@@ -1229,6 +1321,7 @@ export default [
         meaning: {
           en: 'annexation',
           zh_TW: '兼併、附加',
+          zh_CN: '兼併、附加',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -1243,6 +1336,7 @@ export default [
         meaning: {
           en: 'destroy completely',
           zh_TW: '殲滅、消滅、徹底擊潰、毀滅',
+          zh_CN: '歼灭、消灭、彻底击溃、毁灭',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -1257,6 +1351,7 @@ export default [
         meaning: {
           en: 'add notes to giving explanation or comment',
           zh_TW: '註解',
+          zh_CN: '註解',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -1271,6 +1366,7 @@ export default [
         meaning: {
           en: 'not likely to provoke dissent or offense; inoffensive, often deliberately so',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'anodyne New Age music',
@@ -1279,6 +1375,7 @@ export default [
         meaning: {
           en: 'a painkilling drug or medicine',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'she had even refused anodynes',
@@ -1293,6 +1390,7 @@ export default [
         meaning: {
           en: 'deviating from what is standard, normal, or expected',
           zh_TW: '反常的、不規則的 [類]aberrant, deviant, heteroclite, preternatural',
+          zh_CN: '反常的、不规则的 [类]aberrant, deviant, heteroclite, preternatural',
         },
         partsOfSpeech: 'adjective',
         example: 'an anomalous situation',
@@ -1307,6 +1405,7 @@ export default [
         meaning: {
           en: 'something that deviates from what is standard, normal, or expected',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'there are a number of anomalies in the present system',
@@ -1321,6 +1420,7 @@ export default [
         meaning: {
           en: 'state of being anonymous',
           zh_TW: '匿名、作者不詳 [類] adj. anonymous',
+          zh_CN: '匿名、作者不详 [类] adj. anonymous',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -1335,6 +1435,7 @@ export default [
         meaning: {
           en: 'showing or feeling active opposition or hostility toward someone or something',
           zh_TW: '敵對的、對抗性的',
+          zh_CN: '敌对的、对抗性的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -1349,6 +1450,7 @@ export default [
         meaning: {
           en: 'precede in time; come before (something) in date',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'a civilization that antedated the Roman Empire',
@@ -1363,6 +1465,7 @@ export default [
         meaning: {
           en: 'grotesque or bizarre',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -1377,6 +1480,7 @@ export default [
         meaning: {
           en: 'substance that acts against the effects of a poison or disease',
           zh_TW: '矯正方法、解毒藥、解毒劑',
+          zh_CN: '矫正方法、解毒药、解毒剂',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -1391,6 +1495,7 @@ export default [
         meaning: {
           en: 'an intense feeling of dislike or aversion',
           zh_TW: '反感、厭惡 [類] animosity, animus, antagonism, rancor [反] affection(友愛)',
+          zh_CN: '反感、厌恶 [类] animosity, animus, antagonism, rancor [反] affection(友爱)',
         },
         partsOfSpeech: 'noun',
         example:
@@ -1406,6 +1511,7 @@ export default [
         meaning: {
           en: 'old-fashioned; belonging to an earlier period in time',
           zh_TW: '過時的、陳舊的、老式的',
+          zh_CN: '过时的、陈旧的、老式的',
         },
         partsOfSpeech: 'adjective',
         example: 'Aunt Betty had antiquated notions about marriage, believing that a man should court a woman for at least a year before receiving a kiss',
@@ -1420,6 +1526,7 @@ export default [
         meaning: {
           en: '(of a collectible object) having a high value because of considerable age',
           zh_TW: '古代的、古董的、古董',
+          zh_CN: '古代的、古董的、古董',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -1434,6 +1541,7 @@ export default [
         meaning: {
           en: 'directly opposed or contrasted; mutually incompatible',
           zh_TW: '相反的、對立的',
+          zh_CN: '相反的、对立的',
         },
         partsOfSpeech: 'adjective',
         example: 'people whose religious beliefs are antithetical to mine',
@@ -1448,6 +1556,7 @@ export default [
         meaning: {
           en: 'marked by a lack of interest',
           zh_TW: '無感情的 [類] n. apathy',
+          zh_CN: '无感情的 [类] n. apathy',
         },
         partsOfSpeech: 'adjective',
         example: 'Mr. Thompson was so talented at teaching math that even normally apathetic students took interest',
@@ -1462,6 +1571,7 @@ export default [
         meaning: {
           en: 'an absence of emotion or enthusiasm',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Widespread apathy among voters led to a very small turnout on election day',
@@ -1476,6 +1586,7 @@ export default [
         meaning: {
           en: 'the top or highest part of something, especially one forming a point',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the living room extends right up into the apex of the roof',
@@ -1490,6 +1601,7 @@ export default [
         meaning: {
           en: "a pithy observation that contains a general truth, such as, “if it ain't broke, don't fix it.”.",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the old aphorism “the child is father to the man',
@@ -1504,6 +1616,7 @@ export default [
         meaning: {
           en: "a pithy observation that contains a general truth, such as, “if it ain't broke, don't fix it.”.",
           zh_TW: '格言、警句、箴言 [類] maxim, adage, axiom, dictum',
+          zh_CN: '格言、警句、箴言 [类] maxim, adage, axiom, dictum',
         },
         partsOfSpeech: 'noun',
         example: 'the old aphorism “the child is father to the man',
@@ -1512,6 +1625,7 @@ export default [
         meaning: {
           en: 'a concise statement of a scientific principle, typically by an ancient classical author',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the opening sentence of the first aphorism of Hippocrates',
@@ -1526,6 +1640,7 @@ export default [
         meaning: {
           en: 'self-confidence or assurance, especially when in a demanding situation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Diana passed the test with aplomb',
@@ -1540,6 +1655,7 @@ export default [
         meaning: {
           en: '(of a story or statement) of doubtful authenticity, although widely circulated as being true',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'there is an apocryphal story about a disgraced rock star who ended up in bankruptcy court',
@@ -1554,6 +1670,7 @@ export default [
         meaning: {
           en: 'the highest point',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The apogee of the Viennese style of music, Mozart’s music continues to mesmerize audiences well into the 21st century',
@@ -1568,6 +1685,7 @@ export default [
         meaning: {
           en: 'person who defends a doctrine by logical argument',
           zh_TW: '辯護者、護教論者',
+          zh_CN: '辩护者、护教论者',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -1582,6 +1700,7 @@ export default [
         meaning: {
           en: "abandoning one's religious beliefs, principles, political party, etc",
           zh_TW: '被叫、脫黨、變節',
+          zh_CN: '被叫、脱党、变节',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -1596,6 +1715,7 @@ export default [
         meaning: {
           en: 'a person who has abandoned a religious faith or cause',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'An apostate of the Republican Party, Sheldon has yet to become affiliated with any party and dubs himself an independent',
@@ -1610,6 +1730,7 @@ export default [
         meaning: {
           en: 'a concise saying or maxim; an aphorism',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the apothegm “tomorrow is another day',
@@ -1624,6 +1745,7 @@ export default [
         meaning: {
           en: 'exaltation to divine status; the highest point of development',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'As difficult as it is to imagine, the apotheosis of Mark Zuckerberg’s career, many believe, is yet to come',
@@ -1638,6 +1760,7 @@ export default [
         meaning: {
           en: 'pacify by acceding to the demands of',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -1653,6 +1776,7 @@ export default [
         meaning: {
           en: 'apt in the circumstances or in relation to something',
           zh_TW: '適當的、貼切的 [類] appropriate, apt, relevant, applicable, pertinent [反] opposite(a.相反的), extraneous(a.無關係的)',
+          zh_CN: '適当的、贴切的 [类] appropriate, apt, relevant, applicable, pertinent [反] opposite(a.相反的), extraneous(a.无关係的)',
         },
         partsOfSpeech: 'adjective',
         example: 'an apposite quotation',
@@ -1667,6 +1791,7 @@ export default [
         meaning: {
           en: 'large or important enough to be noticed',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'tea and coffee both contain appreciable amounts of caffeine',
@@ -1681,6 +1806,7 @@ export default [
         meaning: {
           en: 'seize (sb); arrest',
           zh_TW: '理解、逮捕、恐懼',
+          zh_CN: '理解、逮捕、恐惧',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -1695,6 +1821,7 @@ export default [
         meaning: {
           en: 'anxiety or fear that something bad or unpleasant will happen',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he felt sick with apprehension',
@@ -1703,6 +1830,7 @@ export default [
         meaning: {
           en: 'understanding; grasp',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the pure apprehension of the work of art',
@@ -1711,6 +1839,7 @@ export default [
         meaning: {
           en: 'the action of arresting someone',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'they acted with intent to prevent lawful apprehension',
@@ -1725,6 +1854,7 @@ export default [
         meaning: {
           en: 'inform or tell (someone)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'I thought it right to apprise Chris of what had happened',
@@ -1739,6 +1869,7 @@ export default [
         meaning: {
           en: 'approval or praise',
           zh_TW: '稱讚、認可、批准 [類] a. approbatory [反] disapprobation',
+          zh_CN: '称讚、认可、批准 [类] a. approbatory [反] disapprobation',
         },
         partsOfSpeech: 'noun',
         example: 'the opera met with high approbation',
@@ -1753,6 +1884,7 @@ export default [
         meaning: {
           en: 'expressing praise or approval',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "Although it might not be her best work, Hunter's new novel has received generally approbatory reviews.",
@@ -1767,6 +1899,7 @@ export default [
         meaning: {
           en: 'to give or take something by force',
           zh_TW: 'adj. 適當的、恰當的、相稱的 v. 挪用、盜用 [類] pilferage 行竊、偷盜',
+          zh_CN: 'adj. 適当的、恰当的、相称的 v. 挪用、盗用 [类] pilferage 行窃、偷盗',
         },
         partsOfSpeech: 'verb',
         example: 'The government appropriated land that was occupied by squatters, sending them scurrying for another place to live',
@@ -1781,6 +1914,7 @@ export default [
         meaning: {
           en: 'almost correct or exact but not completely so',
           zh_TW: '大約的、估計的',
+          zh_CN: '大约的、估计的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -1795,6 +1929,7 @@ export default [
         meaning: {
           en: 'supplying added support',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'In hiking Mt. Everest, sherpas are appurtenant, helping climbers both carry gear and navigate treacherous paths',
@@ -1809,6 +1944,7 @@ export default [
         meaning: {
           en: 'adj. appropriate or relevant to what is being said or done',
           zh_TW: '適當的、切題的、中肯的',
+          zh_CN: '適当的、切题的、中肯的',
         },
         partsOfSpeech: 'adverb',
         example: '',
@@ -1823,6 +1959,7 @@ export default [
         meaning: {
           en: 'suitable, appropriate',
           zh_TW: '適合的、易於...的、有...傾向的',
+          zh_CN: '適合的、易於...的、有...倾向的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -1837,6 +1974,7 @@ export default [
         meaning: {
           en: 'based on random choice or personal whim, rather than any reason or system',
           zh_TW: '不理智的',
+          zh_CN: '不理智的',
         },
         partsOfSpeech: 'adjective',
         example: 'his mealtimes were entirely arbitrary',
@@ -1845,6 +1983,7 @@ export default [
         meaning: {
           en: '(of power or a ruling body) unrestrained and autocratic in the use of authority',
           zh_TW: '專橫的',
+          zh_CN: '专横的',
         },
         partsOfSpeech: 'adjective',
         example: 'arbitrary rule by King and bishops has been made impossible',
@@ -1859,6 +1998,7 @@ export default [
         meaning: {
           en: 'understood by few; mysterious or secret',
           zh_TW: '秘密的、深奧難懂的',
+          zh_CN: '秘密的、深奥难懂的',
         },
         partsOfSpeech: 'adjective',
         example: 'modern math and its arcane notation',
@@ -1873,6 +2013,7 @@ export default [
         meaning: {
           en: 'a curved symmetrical structure spanning an opening and typically supporting the weight of a bridge, roof, or wall above it',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -1881,6 +2022,7 @@ export default [
         meaning: {
           en: 'have the curved shape of an arch',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'a beautiful bridge that arched over a canal',
@@ -1895,6 +2037,7 @@ export default [
         meaning: {
           en: 'very old or old-fashioned',
           zh_TW: '古老的、古體的、過時的 [類] ancient',
+          zh_CN: '古老的、古体的、过时的 [类] ancient',
         },
         partsOfSpeech: 'adjective',
         example: 'prisons are run on archaic methods',
@@ -1909,6 +2052,7 @@ export default [
         meaning: {
           en: 'demanding considerable mental effort and skill; testing powers of endurance',
           zh_TW: '費力的、艱難的 [類] difficult, onerous, laborious',
+          zh_CN: '费力的、艰难的 [类] difficult, onerous, laborious',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -1924,6 +2068,7 @@ export default [
         meaning: {
           en: 'member of the aristocracy; nobleman or noblewoman',
           zh_TW: '貴族 [類] n. aristocracy 貴族階層',
+          zh_CN: '贵族 [类] n. aristocracy 贵族阶层',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -1938,6 +2083,7 @@ export default [
         meaning: {
           en: 'complete, utter',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'what arrant nonsense',
@@ -1952,6 +2098,7 @@ export default [
         meaning: {
           en: 'a person who has recently reached a position of power; a social climber',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The city center was aflutter with arrivistes who tried to outdo one another with their ostentatious sports cars and chic evening dress',
@@ -1966,6 +2113,7 @@ export default [
         meaning: {
           en: 'behaving in a proud and superior manner; showing too much pride in oneself and too little consideration for others',
           zh_TW: '傲慢的、自大的',
+          zh_CN: '傲慢的、自大的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -1980,6 +2128,7 @@ export default [
         meaning: {
           en: 'seize and control without authority',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -1995,6 +2144,7 @@ export default [
         meaning: {
           en: 'exhibiting artistic skill',
           zh_TW: '狡猾的',
+          zh_CN: '狡猾的',
         },
         partsOfSpeech: 'adjective',
         example: 'Picasso is generally considered the most artful member of the Cubist movement',
@@ -2009,6 +2159,7 @@ export default [
         meaning: {
           en: "able to express one's ideas clearly in words",
           zh_TW: '清楚表達的、口齒伶俐的',
+          zh_CN: '清楚表达的、口齿伶俐的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -2023,6 +2174,7 @@ export default [
         meaning: {
           en: 'cunning tricks used to deceive others',
           zh_TW: '奸計、詭計',
+          zh_CN: '奸计、诡计',
         },
         partsOfSpeech: 'noun',
         example: 'The mayoral candidates both spent much of the campaign accusing each other of artifices designed to mislead the voting public',
@@ -2037,6 +2189,7 @@ export default [
         meaning: {
           en: 'without cunning or deceit',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "Despite the president's seemingly artless speeches, he was a skilled and ruthless negotiator.",
@@ -2051,6 +2204,7 @@ export default [
         meaning: {
           en: 'the state that exists when one person or group has power over another',
           zh_TW: '優勢的、統治權、支配力量',
+          zh_CN: '优势的、统治权、支配力量',
         },
         partsOfSpeech: 'noun',
         example: 'The ascendancy of the Carlsbad water polo team is clear—they have a decade of championships behind them',
@@ -2065,6 +2219,7 @@ export default [
         meaning: {
           en: 'characterized by or suggesting the practice of severe self-discipline and abstention from all forms of indulgence, typically for religious reasons',
           zh_TW: '禁慾主義者',
+          zh_CN: '禁慾主义者',
         },
         partsOfSpeech: 'adjective',
         example: 'an ascetic life of prayer, fasting, and manual labor',
@@ -2073,6 +2228,7 @@ export default [
         meaning: {
           en: 'a person who practices severe self-discipline and abstention',
           zh_TW: '苦行者',
+          zh_CN: '苦行者',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -2087,6 +2243,7 @@ export default [
         meaning: {
           en: 'attribute something to (a cause)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "he ascribed Jane's short temper to her upset stomach",
@@ -2095,6 +2252,7 @@ export default [
         meaning: {
           en: 'attribute (a text, quotation, or work of art) to a particular person or period',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'a quotation ascribed to Thomas Cooper',
@@ -2109,6 +2267,7 @@ export default [
         meaning: {
           en: 'with an attitude or look of suspicion or disapproval',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adverb',
         example: 'the reformers looked askance at the mystical tradition',
@@ -2123,6 +2282,7 @@ export default [
         meaning: {
           en: 'harshness of tone or manner',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he pointed this out with some asperity',
@@ -2131,6 +2291,7 @@ export default [
         meaning: {
           en: 'harsh qualities or conditions',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the asperities of a harsh and divided society',
@@ -2145,6 +2306,7 @@ export default [
         meaning: {
           en: 'an attack on the reputation or integrity of someone or something',
           zh_TW: '毀謗、重傷 [類] defamation',
+          zh_CN: '毁谤、重伤 [类] defamation',
         },
         partsOfSpeech: 'noun',
         example: "I don't think anyone is casting aspersions on you",
@@ -2159,6 +2321,7 @@ export default [
         meaning: {
           en: 'attack in speech or writing',
           zh_TW: '抨擊、猛攻 [類] adj. assailable 易受攻擊的',
+          zh_CN: '抨击、猛攻 [类] adj. assailable 易受攻击的',
         },
         partsOfSpeech: 'verb',
         example: 'In the weekly paper, the editor assailed the governor for wasting hundreds of thousands of dollars in public projects that quickly failed',
@@ -2173,6 +2336,7 @@ export default [
         meaning: {
           en: '(fml) agreement; approval',
           zh_TW: '同意、贊成',
+          zh_CN: '同意、赞成',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -2187,6 +2351,7 @@ export default [
         meaning: {
           en: 'make others recognize (sth) by behaving firmly and confidently',
           zh_TW: '斷言、主張 [類] n. assertion; a. assertive',
+          zh_CN: '断言、主张 [类] n. assertion; a. assertive',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -2201,6 +2366,7 @@ export default [
         meaning: {
           en: 'showing great care and perseverance',
           zh_TW: '勤勉的、專心的',
+          zh_CN: '勤勉的、专心的',
         },
         partsOfSpeech: 'adjective',
         example: 'she was assiduous in pointing out every feature',
@@ -2215,6 +2381,7 @@ export default [
         meaning: {
           en: 'with care and persistence',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adverb',
         example: 'The top college football program recruits new talent assiduously, only choosing those who were the top in their county',
@@ -2229,6 +2396,7 @@ export default [
         meaning: {
           en: '(cause sth to) become absorbed into the body after digestion',
           zh_TW: '同化、吸收',
+          zh_CN: '同化、吸收',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -2243,6 +2411,7 @@ export default [
         meaning: {
           en: 'make (an unpleasant feeling) less intense',
           zh_TW: '緩和、減輕 [類] lessen, allay, relieve, alleviate, mitigate',
+          zh_CN: '缓和、减轻 [类] lessen, allay, relieve, alleviate, mitigate',
         },
         partsOfSpeech: 'verb',
         example: 'the letter assuaged the fears of most members',
@@ -2251,6 +2420,7 @@ export default [
         meaning: {
           en: 'satisfy (an appetite or desire)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'an opportunity occurred to assuage her desire for knowledge',
@@ -2265,6 +2435,7 @@ export default [
         meaning: {
           en: 'any of many small planets revolving round the sum, esp between the orbits of Mars and Jupiter',
           zh_TW: '小行星',
+          zh_CN: '小行星',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -2279,6 +2450,7 @@ export default [
         meaning: {
           en: 'relating to astronomy',
           zh_TW: '天文學的、龐大的',
+          zh_CN: '天文学的、庞大的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -2293,6 +2465,7 @@ export default [
         meaning: {
           en: 'clever and quick at seeing how to gain an advantage; shrewd',
           zh_TW: '敏銳的、精明的',
+          zh_CN: '敏锐的、精明的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -2307,6 +2480,7 @@ export default [
         meaning: {
           en: 'a reappearance of an earlier characteristic; throwback',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Much of the modern art movement was an atavism to a style of art found only in small villages through Africa and South America',
@@ -2321,6 +2495,7 @@ export default [
         meaning: {
           en: 'to weaken (in terms of intensity); to taper off/become thinner',
           zh_TW: '變薄、變弱 [類] n. attenuation',
+          zh_CN: '变薄、变弱 [类] n. attenuation',
         },
         partsOfSpeech: 'verb',
         example: 'Her animosity towards Bob attenuated over the years, and she even went so far as to invite him to her party',
@@ -2335,6 +2510,7 @@ export default [
         meaning: {
           en: 'willing to be bold in social situations or to take risks',
           zh_TW: '大膽的、無謂的、愚勇的 [類]daredevil',
+          zh_CN: '大胆的、无谓的、愚勇的 [类]daredevil',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -2350,6 +2526,7 @@ export default [
         meaning: {
           en: 'aggressive boldness in social situations',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -2365,6 +2542,7 @@ export default [
         meaning: {
           en: 'make (something) greater by adding to it; increase',
           zh_TW: '增加',
+          zh_CN: '增加',
         },
         partsOfSpeech: 'verb',
         example: 'he augmented his summer income by painting houses',
@@ -2379,6 +2557,7 @@ export default [
         meaning: {
           en: 'to foretell especially from omens',
           zh_TW: '預言、預測',
+          zh_CN: '预言、预测',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -2393,6 +2572,7 @@ export default [
         meaning: {
           en: 'conducive to success; favorable',
           zh_TW: '吉兆的、吉利的 [類] adj. propitious 順利的、吉祥的',
+          zh_CN: '吉兆的、吉利的 [类] adj. propitious 顺利的、吉祥的',
         },
         partsOfSpeech: 'adjective',
         example: 'it was not the most auspicious moment to hold an election',
@@ -2407,6 +2587,7 @@ export default [
         meaning: {
           en: 'severe or strict in manner, attitude, or appearance',
           zh_TW: '嚴厲的、簡樸的',
+          zh_CN: '严厉的、简朴的',
         },
         partsOfSpeech: 'adjective',
         example: 'an austere man, with a rigidly puritanical outlook',
@@ -2415,6 +2596,7 @@ export default [
         meaning: {
           en: '(of living conditions or a way of life) having no comforts or luxuries; harsh or ascetic',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'conditions in the prison could hardly be more austere',
@@ -2423,6 +2605,7 @@ export default [
         meaning: {
           en: 'having an extremely plain and simple style or appearance; unadorned',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the cathedral is impressive in its austere simplicity',
@@ -2437,6 +2620,7 @@ export default [
         meaning: {
           en: 'known to be true or genuine',
           zh_TW: '可信的、真實的、可靠的',
+          zh_CN: '可信的、真实的、可靠的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -2451,6 +2635,7 @@ export default [
         meaning: {
           en: 'having authority; that can be trusted; reliable',
           zh_TW: '權威的、官方的、專斷的',
+          zh_CN: '权威的、官方的、专断的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -2465,6 +2650,7 @@ export default [
         meaning: {
           en: 'government by one person with unlimited power; despotism',
           zh_TW: '獨裁政府',
+          zh_CN: '独裁政府',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -2479,6 +2665,7 @@ export default [
         meaning: {
           en: 'characteristic of an absolute ruler or absolute rule; having absolute sovereignty',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -2494,6 +2681,7 @@ export default [
         meaning: {
           en: 'Acting independently; self-governing (of a country)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adverb',
         example: 'Many of the factory workers are worried about being replaced by machines and computers that will work completely autonomously',
@@ -2508,6 +2696,7 @@ export default [
         meaning: {
           en: 'favoring new and progressive ideas, esp in art and literature',
           zh_TW: '前衛的 [類] vanguard',
+          zh_CN: '前卫的 [类] vanguard',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -2522,6 +2711,7 @@ export default [
         meaning: {
           en: 'greed (one of the seven deadly sins)',
           zh_TW: '貪得無厭、貪婪',
+          zh_CN: '贪得无厌、贪婪',
         },
         partsOfSpeech: 'noun',
         example: 'The Spanish conquistadors were known for their avarice, plundering Incan land and stealing Incan gold',
@@ -2536,6 +2726,7 @@ export default [
         meaning: {
           en: 'excessively greedy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -2551,6 +2742,7 @@ export default [
         meaning: {
           en: 'state or assert to be the case',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he averred that he was innocent of the allegations',
@@ -2559,6 +2751,7 @@ export default [
         meaning: {
           en: '(law) allege as a fact in support of a plea',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the defendant does not aver any performance by himself',
@@ -2573,6 +2766,7 @@ export default [
         meaning: {
           en: 'strong dislike',
           zh_TW: '厭惡、反感',
+          zh_CN: '厌恶、反感',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -2587,6 +2781,7 @@ export default [
         meaning: {
           en: "turn away (one's eyes or thoughts)",
           zh_TW: '移開',
+          zh_CN: '移开',
         },
         partsOfSpeech: 'verb',
         example: 'she averted her eyes during the more violent scenes',
@@ -2595,6 +2790,7 @@ export default [
         meaning: {
           en: 'prevent or ward off (an undesirable occurrence)',
           zh_TW: '避免、防止',
+          zh_CN: '避免、防止',
         },
         partsOfSpeech: 'verb',
         example: 'talks failed to avert a rail strike',
@@ -2609,6 +2805,7 @@ export default [
         meaning: {
           en: 'marked by active interest and enthusiasm',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Martin is an avid birdwatcher, often taking long hikes into remote mountains to see some rare eagle',
@@ -2623,6 +2820,7 @@ export default [
         meaning: {
           en: 'to pester',
           zh_TW: '(不停的)騷擾',
+          zh_CN: '(不停的)骚扰',
         },
         partsOfSpeech: 'verb',
         example: 'Badgered by his parents to find a job, the 30-year-old loafer instead joined a gang of itinerant musicians',
@@ -2637,6 +2835,7 @@ export default [
         meaning: {
           en: 'be too difficult for to understand; puzzle',
           zh_TW: '使困惑、阻撓 [類] confuse, puzzle, confound, balk, bilk, dash, foil, thwart',
+          zh_CN: '使困惑、阻挠 [类] confuse, puzzle, confound, balk, bilk, dash, foil, thwart',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -2651,6 +2850,7 @@ export default [
         meaning: {
           en: 'threatening or foreshadowing evil or tragic developments',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Movies often use storms or rain clouds as a baleful omen of evil events that will soon befall the main character',
@@ -2665,6 +2865,7 @@ export default [
         meaning: {
           en: 'hesitate or be unwilling to accept an idea or undertaking',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'any gardener will at first balk at enclosing the garden',
@@ -2679,6 +2880,7 @@ export default [
         meaning: {
           en: 'repeated too often; overfamiliar through overuse',
           zh_TW: '陳腐的、平庸的 [類] dull, stale, hackneyed, commonplace, insipid, trite, vapid, jejune',
+          zh_CN: '陈腐的、平庸的 [类] dull, stale, hackneyed, commonplace, insipid, trite, vapid, jejune',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -2694,6 +2896,7 @@ export default [
         meaning: {
           en: 'the fact or condition of being banal; unoriginality',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'there is an essential banality to the story he tells',
@@ -2708,6 +2911,7 @@ export default [
         meaning: {
           en: 'expel from a community, residence, or location; drive away',
           zh_TW: '放逐',
+          zh_CN: '放逐',
         },
         partsOfSpeech: 'verb',
         example: 'The most difficult part of the fast was banishing thoughts of food',
@@ -2722,6 +2926,7 @@ export default [
         meaning: {
           en: 'playful, good humored teasing',
           zh_TW: '揶揄、嘲弄',
+          zh_CN: '揶揄、嘲弄',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -2736,6 +2941,7 @@ export default [
         meaning: {
           en: 'lacking or indicating the lack of higher qualities of mind or spirit; ignoble',
           zh_TW: '卑賤的',
+          zh_CN: '卑贱的',
         },
         partsOfSpeech: 'adjective',
         example: 'a base betrayal',
@@ -2750,6 +2956,7 @@ export default [
         meaning: {
           en: 'an act that debases or corrupts',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The movie World War Z is a complete bastardization of the book with little more in common than zombies and a title',
@@ -2764,6 +2971,7 @@ export default [
         meaning: {
           en: 'blissfully happy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a beatific smile',
@@ -2778,6 +2986,7 @@ export default [
         meaning: {
           en: 'envy (someone) the possession or enjoyment of (something)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'she begrudged Martin his affluence',
@@ -2792,6 +3001,7 @@ export default [
         meaning: {
           en: "to be one's duty or obligation",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -2807,6 +3017,7 @@ export default [
         meaning: {
           en: 'to give a false representation to; misrepresent',
           zh_TW: '掩蓋、與...不一致 [類] mask',
+          zh_CN: '掩盖、与...不一致 [类] mask',
         },
         partsOfSpeech: 'verb',
         example: 'The smile on her face belies the pain she must feel after the death of her husband',
@@ -2821,6 +3032,7 @@ export default [
         meaning: {
           en: 'lessen the importance, dignity, or reputation of',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'A good teacher will never belittle his students, but will instead empower them',
@@ -2835,6 +3047,7 @@ export default [
         meaning: {
           en: 'warlike; inclined to quarrel',
           zh_TW: '好戰的、好鬥的',
+          zh_CN: '好战的、好斗的',
         },
         partsOfSpeech: 'adjective',
         example: 'Known for their bellicose ways, the Spartans were once the most feared people from Peloponnesus to Persia',
@@ -2849,6 +3062,7 @@ export default [
         meaning: {
           en: 'hostile and aggressive',
           zh_TW: '發動戰爭的、好鬥的、好挑釁的 [類] n. belligerence',
+          zh_CN: '发动战爭的、好斗的、好挑衅的 [类] n. belligerence',
         },
         partsOfSpeech: 'adjective',
         example: 'a bull-necked, belligerent old man',
@@ -2863,6 +3077,7 @@ export default [
         meaning: {
           en: 'express discontent or a strong regret',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -2878,6 +3093,7 @@ export default [
         meaning: {
           en: 'person who gives money or other help to a school, hospital, charity, etc',
           zh_TW: '行善者、捐助者',
+          zh_CN: '行善者、捐助者',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -2892,6 +3108,7 @@ export default [
         meaning: {
           en: '(of a person) generous or doing good',
           zh_TW: '慈善的、仁愛的',
+          zh_CN: '慈善的、仁爱的',
         },
         partsOfSpeech: 'adjective',
         example: 'a beneficent landowner',
@@ -2900,6 +3117,7 @@ export default [
         meaning: {
           en: 'resulting in good',
           zh_TW: '有益的',
+          zh_CN: '有益的',
         },
         partsOfSpeech: 'adjective',
         example: 'a beneficent democracy',
@@ -2914,6 +3132,7 @@ export default [
         meaning: {
           en: 'being, or wishing to be, kind, friendly, and helpful',
           zh_TW: '善心的、人心的',
+          zh_CN: '善心的、人心的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -2928,6 +3147,7 @@ export default [
         meaning: {
           en: 'in a state of pitiful or contemptible intellectual or moral ignorance, typically owing to a lack of opportunity',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'they saw themselves as bringers of culture to poor benighted peoples',
@@ -2936,6 +3156,7 @@ export default [
         meaning: {
           en: 'overtaken by darkness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a storm developed and we were forced to wait benighted near the summit',
@@ -2950,6 +3171,7 @@ export default [
         meaning: {
           en: 'gentle and kindly',
           zh_TW: '良性的、無害的',
+          zh_CN: '良性的、无害的',
         },
         partsOfSpeech: 'adjective',
         example: 'his benign but firm manner',
@@ -2958,6 +3180,7 @@ export default [
         meaning: {
           en: '(of a climate or environment) mild and favorable',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the climate becomes more benign as we move nearer to the Black Sea',
@@ -2966,6 +3189,7 @@ export default [
         meaning: {
           en: '(of a disease) not harmful in effect',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a benign condition',
@@ -2980,6 +3204,7 @@ export default [
         meaning: {
           en: 'scold sharply',
           zh_TW: '痛罵、訓斥',
+          zh_CN: '痛骂、训斥',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -2994,6 +3219,7 @@ export default [
         meaning: {
           en: 'deprived of or lacking (something)',
           zh_TW: '失去...的',
+          zh_CN: '失去...的',
         },
         partsOfSpeech: 'adjective',
         example: 'her room was stark and bereft of color',
@@ -3002,6 +3228,7 @@ export default [
         meaning: {
           en: "(of a person) sad and lonely, especially through someone's death or departure",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'his death in 1990 left her bereft',
@@ -3016,6 +3243,7 @@ export default [
         meaning: {
           en: 'surround (a place) with armed forces in order to capture it or force its surrender; lay siege to',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the guerrillas continued to besiege other major cities to the north',
@@ -3024,6 +3252,7 @@ export default [
         meaning: {
           en: 'crowd around oppressively; surround and harass',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'she spent the whole day besieged by newsmen',
@@ -3032,6 +3261,7 @@ export default [
         meaning: {
           en: 'inundate with a large number of requests or complaints',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the television station was besieged with calls',
@@ -3046,6 +3276,7 @@ export default [
         meaning: {
           en: 'damage the reputation of (someone or something) in the opinion of others',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he had besmirched the good name of his family',
@@ -3060,6 +3291,7 @@ export default [
         meaning: {
           en: 'strongly infatuated',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "he became besotted with his best friend's sister",
@@ -3074,6 +3306,7 @@ export default [
         meaning: {
           en: 'irritable; always angry',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Rex was bilious all morning, and his face would only take on a look of contentedness when he’d had his morning cup of coffee',
@@ -3088,6 +3321,7 @@ export default [
         meaning: {
           en: 'divide into two parts',
           zh_TW: '把...一分為二、二等分某物',
+          zh_CN: '把...一分为二、二等分某物',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -3102,6 +3336,7 @@ export default [
         meaning: {
           en: 'gentle or casual in manner; showing no strong emotions; suave',
           zh_TW: '無味的、溫和的、和藹的',
+          zh_CN: '无味的、温和的、和蔼的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -3116,6 +3351,7 @@ export default [
         meaning: {
           en: 'without any attempt at concealment; completely obvious',
           zh_TW: '喧鬧的、顯眼的、炫耀的 [類] boisterous, clamorous, obstreperous, vociferant (喧鬧的)',
+          zh_CN: '喧闹的、显眼的、炫耀的 [类] boisterous, clamorous, obstreperous, vociferant (喧闹的)',
         },
         partsOfSpeech: 'adjective',
         example: 'Allen was often punished in school for blatantly disrespecting teachers',
@@ -3130,6 +3366,7 @@ export default [
         meaning: {
           en: 'having a depressing or gloomy outlook',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -3145,6 +3382,7 @@ export default [
         meaning: {
           en: 'have a severely detrimental effect on',
           zh_TW: 'v. 毀掉、破壞、使枯萎',
+          zh_CN: 'v. 毁掉、破坏、使枯萎',
         },
         partsOfSpeech: 'verb',
         example: 'the scandal blighted the careers of several leading politicians',
@@ -3153,6 +3391,7 @@ export default [
         meaning: {
           en: 'disease that withers plants',
           zh_TW: '枯萎病 [類] adj. blighted 枯萎的',
+          zh_CN: '枯萎病 [类] adj. blighted 枯萎的',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3167,6 +3406,7 @@ export default [
         meaning: {
           en: 'having or showing a limited outlook',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a small-minded, blinkered approach',
@@ -3175,6 +3415,7 @@ export default [
         meaning: {
           en: 'cause (someone) to have a narrow or limited outlook on a situation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'college education blinkers researchers so that they see poverty in terms of their own specialization',
@@ -3189,6 +3430,7 @@ export default [
         meaning: {
           en: "happy and carefree' casual",
           zh_TW: '無憂的、快樂的',
+          zh_CN: '无忧的、快乐的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -3203,6 +3445,7 @@ export default [
         meaning: {
           en: 'not genuine; false',
           zh_TW: '假冒的、偽造的 [類] spurious',
+          zh_CN: '假冒的、偽造的 [类] spurious',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -3217,6 +3460,7 @@ export default [
         meaning: {
           en: 'support and strengthen',
           zh_TW: 'v. 支持、鼓勵、增強 n. 長枕',
+          zh_CN: 'v. 支持、鼓励、增强 n. 长枕',
         },
         partsOfSpeech: 'verb',
         example: "The case for the suspect's innocence was bolstered considerably by the fact that neither fingerprints nor DNA were found at the scene.",
@@ -3231,6 +3475,7 @@ export default [
         meaning: {
           en: 'high-sounding but with little meaning; inflated',
           zh_TW: '誇誇其談的、誇大的 [類] pompous',
+          zh_CN: '夸夸其谈的、夸大的 [类] pompous',
         },
         partsOfSpeech: 'adjective',
         example: 'bombastic rhetoric',
@@ -3245,6 +3490,7 @@ export default [
         meaning: {
           en: 'a thing that is helpful or beneficial',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the navigation system will be a boon to both civilian and military users',
@@ -3259,6 +3505,7 @@ export default [
         meaning: {
           en: 'ill-mannered and coarse or contemptible in behavior or appearance',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Bukowski was known for being a boorish drunk and alienating close friends and family',
@@ -3273,6 +3520,7 @@ export default [
         meaning: {
           en: 'remove material that is considered improper or offensive from (a text or account), especially with the result that the text becomes weaker or less effective',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'every edition of his letters and diaries has been bowdlerized',
@@ -3287,6 +3535,7 @@ export default [
         meaning: {
           en: 'person who brags',
           zh_TW: 'n. 吹牛者 adj. 吹牛的 [類] v. brag 自誇',
+          zh_CN: 'n. 吹牛者 adj. 吹牛的 [类] v. brag 自夸',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3301,6 +3550,7 @@ export default [
         meaning: {
           en: 'unrestrained by convention or propriety',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Their large "donations" to the local police department gave the drug cartel the brazen confidence to do their business out in the open',
@@ -3315,6 +3565,7 @@ export default [
         meaning: {
           en: 'shortness or briefness',
           zh_TW: '簡潔、簡練',
+          zh_CN: '简洁、简练',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3329,6 +3580,7 @@ export default [
         meaning: {
           en: 'the act of restraining power or action or limiting excess',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "New curfew laws have bridled people's tendency to go out at night.",
@@ -3343,6 +3595,7 @@ export default [
         meaning: {
           en: 'a stiff animal hair, or a man-made substitute, used to make a brush',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a toothbrush with nylon bristles',
@@ -3351,6 +3604,7 @@ export default [
         meaning: {
           en: '(of hair or fur) stand upright away from the skin, especially in anger or fear',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the hair on the back of his neck bristled',
@@ -3359,6 +3613,7 @@ export default [
         meaning: {
           en: 'be covered with or abundant in',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the roof bristled with antennas',
@@ -3373,6 +3628,7 @@ export default [
         meaning: {
           en: 'a strong verbal attack',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Political broadsides are usually strongest in the weeks leading up to a national election',
@@ -3387,6 +3643,7 @@ export default [
         meaning: {
           en: 'a trite or obvious remark',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Instead of sharing his umbrella, the cheeky stranger offered Martha the following bromide: "Looks like it\'s raining."',
@@ -3401,6 +3658,7 @@ export default [
         meaning: {
           en: 'put up with something or somebody unpleasant',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'While she was at the chalkboard, the teacher did not brook any form of talking--even a tiny peep resulted in afternoon detention',
@@ -3415,6 +3673,7 @@ export default [
         meaning: {
           en: 'be bossy towards; discourage or frighten with threats or a domineering manner',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'During the interrogation, the suspect was browbeaten into signing a false confession',
@@ -3429,6 +3688,7 @@ export default [
         meaning: {
           en: 'in a blunt, direct manner',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adverb',
         example: 'Not one for social pleasantries, the Chief of Staff would brusquely ask his subordinates anything he wanted, even coffee',
@@ -3443,6 +3703,7 @@ export default [
         meaning: {
           en: 'relating to the pleasant aspects of the country',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The noble families of England once owned vast expanses of beautiful, bucolic land',
@@ -3457,6 +3718,7 @@ export default [
         meaning: {
           en: 'lacking physical movement skills, especially with the hands',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Within a week of starting, the bumbling new waiter was unceremoniously fired',
@@ -3471,6 +3733,7 @@ export default [
         meaning: {
           en: '(of an object) able to float',
           zh_TW: '能浮起的、看漲的、繁榮的',
+          zh_CN: '能浮起的、看涨的、繁荣的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -3485,6 +3748,7 @@ export default [
         meaning: {
           en: 'begin to grow or increase rapidly; flourish',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "the city's suburbs have burgeoned, sprawling out from the center",
@@ -3499,6 +3763,7 @@ export default [
         meaning: {
           en: 'polish (something, especially metal) by rubbing',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'to burnish copper, I would probably use a drill with a pad attached to the end',
@@ -3507,6 +3772,7 @@ export default [
         meaning: {
           en: 'enhance or perfect (something such as a reputation or a skill)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'a man who took advantage of any opportunity to burnish his image',
@@ -3515,6 +3781,7 @@ export default [
         meaning: {
           en: 'the shine on a highly polished surface',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3529,6 +3796,7 @@ export default [
         meaning: {
           en: 'make stronger or defensible',
           zh_TW: '支持、加強',
+          zh_CN: '支持、加强',
         },
         partsOfSpeech: 'verb',
         example: "China's economy has been buttressed by a global demand for the electronic parts the country manufactures.",
@@ -3543,6 +3811,7 @@ export default [
         meaning: {
           en: 'intricate and complex',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -3558,6 +3827,7 @@ export default [
         meaning: {
           en: 'involving or producing a harsh, discordant mixture of sounds',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the cacophonous sound of slot machines',
@@ -3572,6 +3842,7 @@ export default [
         meaning: {
           en: 'resembling a corpse in being very pale, thin, or bony',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he had a cadaverous appearance',
@@ -3586,6 +3857,7 @@ export default [
         meaning: {
           en: '(about sth)(infml) cautious about giving information; wary; secretive',
           zh_TW: '謹慎的、機敏的',
+          zh_CN: '谨慎的、机敏的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -3600,6 +3872,7 @@ export default [
         meaning: {
           en: 'serious misfortune or disaster',
           zh_TW: '災難、禍患 [類] disaster, cataclysm',
+          zh_CN: '灾难、祸患 [类] disaster, cataclysm',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3614,6 +3887,7 @@ export default [
         meaning: {
           en: 'cruelly insensitive or unsympathetic',
           zh_TW: '無情的、硬結的 [類] heartless',
+          zh_CN: '无情的、硬结的 [类] heartless',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -3628,6 +3902,7 @@ export default [
         meaning: {
           en: 'young and inexperienced',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Both Los Angeles and New York are known for callow out-of-towners hoping to make it big',
@@ -3642,6 +3917,7 @@ export default [
         meaning: {
           en: '(of a statement) false and defamatory; slanderous',
           zh_TW: '誹謗的、中傷的',
+          zh_CN: '誹谤的、中伤的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -3656,6 +3932,7 @@ export default [
         meaning: {
           en: 'making of a false statement meant to injure a person’s reputation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'With the presidential primaries well under way, the air is thick with calumny, and the mud already waist-high',
@@ -3670,6 +3947,7 @@ export default [
         meaning: {
           en: 'an unfounded rumor or story',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the old canard that LA is a cultural wasteland',
@@ -3678,6 +3956,7 @@ export default [
         meaning: {
           en: 'a small winglike projection attached to an aircraft forward of the main wing to provide extra stability or control, sometimes replacing the tail',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3692,6 +3971,7 @@ export default [
         meaning: {
           en: 'truthful and straightforward; frank',
           zh_TW: '率直的',
+          zh_CN: '率直的',
         },
         partsOfSpeech: 'adjective',
         example: 'his responses were remarkably candid',
@@ -3700,6 +3980,7 @@ export default [
         meaning: {
           en: "(of a photograph of a person) taken informally, especially without the subject's knowledge",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'it is better to let the photographer mingle among the guests and take candid shots',
@@ -3714,6 +3995,7 @@ export default [
         meaning: {
           en: 'the quality of being honest and straightforward in attitude and speech',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Although I was unhappy that the relationship ended, I appreciated her candidness about why she was ready to move on from the relationship',
@@ -3728,6 +4010,7 @@ export default [
         meaning: {
           en: 'hypocritical and sanctimonious talk, typically of a moral, religious, or political nature',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he had no time for the cant of the priests about sin',
@@ -3736,6 +4019,7 @@ export default [
         meaning: {
           en: 'language peculiar to a specified group or profession and regarded with disparagement',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "thieves' cant",
@@ -3744,6 +4028,7 @@ export default [
         meaning: {
           en: 'talk hypocritically and sanctimoniously about something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "if they'd stop canting about “honest work,” they might get somewhere",
@@ -3758,6 +4043,7 @@ export default [
         meaning: {
           en: 'to surrender (usually under agreed conditions)',
           zh_TW: '(有條件)投降',
+          zh_CN: '(有条件)投降',
         },
         partsOfSpeech: 'verb',
         example:
@@ -3773,6 +4059,7 @@ export default [
         meaning: {
           en: 'determined by chance or impulse or whim rather than by necessity or reason',
           zh_TW: '變化無常的、任性的 [類]erratic',
+          zh_CN: '变化无常的、任性的 [类]erratic',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -3788,6 +4075,7 @@ export default [
         meaning: {
           en: 'fond of criticizing or raising objections about unimportant matters; quibbling',
           zh_TW: '吹毛求疵的 [類] carping',
+          zh_CN: '吹毛求疵的 [类] carping',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -3802,6 +4090,7 @@ export default [
         meaning: {
           en: 'of primary importance; fundamental',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Most cultures consider gambling a cardinal sin and thus have outlawed its practice',
@@ -3816,6 +4105,7 @@ export default [
         meaning: {
           en: 'picture, description or imitation of sb/sth that exaggerates certain characteristics in order to amuse or ridicule',
           zh_TW: 'n. 諷刺漫畫 v. 誇張扭曲',
+          zh_CN: 'n. 讽刺漫画 v. 夸张扭曲',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3830,6 +4120,7 @@ export default [
         meaning: {
           en: 'continually complaining or finding fault about trivial matters; difficult to please',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she has silenced the carping critics with a successful debut tour',
@@ -3838,6 +4129,7 @@ export default [
         meaning: {
           en: 'continual complaining or finding fault about trivial matters',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he did not enjoy the constant carping of reviewers',
@@ -3852,6 +4144,7 @@ export default [
         meaning: {
           en: 'to reprimand harshly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Drill sergeants are known to castigate new recruits so mercilessly that the latter often break down during their first week in training',
@@ -3866,6 +4159,7 @@ export default [
         meaning: {
           en: 'severe criticism or harsh scolding; censure',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -3881,6 +4175,7 @@ export default [
         meaning: {
           en: 'an event resulting in great loss and misfortune',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The introduction of smallpox was a cataclysm for Native Americans, killing off more than half of their population',
@@ -3895,6 +4190,7 @@ export default [
         meaning: {
           en: 'a joint formed by one or more tapered projections (tenons) on one piece which interlock with corresponding notches or recesses (mortises) in another',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3903,6 +4199,7 @@ export default [
         meaning: {
           en: 'fit or cause to fit together easily and conveniently',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'plan to enable parents to dovetail their career and family commitments',
@@ -3917,6 +4214,7 @@ export default [
         meaning: {
           en: 'sudden great disaster or misfortune',
           zh_TW: '突如其來的大災難',
+          zh_CN: '突如其来的大灾难',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3931,6 +4229,7 @@ export default [
         meaning: {
           en: 'unconditional; absolute; explicit',
           zh_TW: '絕對的、至上的',
+          zh_CN: '绝对的、至上的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -3945,6 +4244,7 @@ export default [
         meaning: {
           en: 'make a shrill howling or wailing noise like that of a cat',
           zh_TW: '嚎叫、尖叫、貓叫春',
+          zh_CN: '嚎叫、尖叫、猫叫春',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -3959,6 +4259,7 @@ export default [
         meaning: {
           en: 'of broad scope; universal',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -3974,6 +4275,7 @@ export default [
         meaning: {
           en: 'the relationship between cause and effect',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3982,6 +4284,7 @@ export default [
         meaning: {
           en: 'the principle that everything has a cause',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -3996,6 +4299,7 @@ export default [
         meaning: {
           en: 'that can burn or destroy things by chemical action',
           zh_TW: '腐蝕性的、刻薄的',
+          zh_CN: '腐蚀性的、刻薄的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4010,6 +4314,7 @@ export default [
         meaning: {
           en: 'given to haughty disregard of others',
           zh_TW: '騎士、武士、滿不在乎的',
+          zh_CN: '骑士、武士、满不在乎的',
         },
         partsOfSpeech: 'adjective',
         example: 'Percy dismissed the issue with a cavalier wave of his hand',
@@ -4024,6 +4329,7 @@ export default [
         meaning: {
           en: 'give up (power or territory)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he ceded control of the company to his brother',
@@ -4038,6 +4344,7 @@ export default [
         meaning: {
           en: 'speed, rapidity',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "We aim to respond to customers' questions with celerity and accuracy, with no longer than a 24 hour wait time.",
@@ -4052,6 +4359,7 @@ export default [
         meaning: {
           en: 'an official who examines material that is about to be released, such as books, movies, news, and art, and suppresses any parts that are considered obscene, politically unacceptable, or a threat to security',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the report was approved by the military censors',
@@ -4060,6 +4368,7 @@ export default [
         meaning: {
           en: 'examine (a book, movie, etc.) officially and suppress unacceptable parts of it',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'my mail was being censored',
@@ -4074,6 +4383,7 @@ export default [
         meaning: {
           en: 'tending to find faults in people or things; severely critical',
           zh_TW: '好批評的、好吹毛求疵的',
+          zh_CN: '好批评的、好吹毛求疵的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4088,6 +4398,7 @@ export default [
         meaning: {
           en: 'to express strong disapproval',
           zh_TW: '責備、譴責',
+          zh_CN: '责备、谴责',
         },
         partsOfSpeech: 'verb',
         example: 'After being caught in bed with a mistress, the mayor was quickly censured by the city council',
@@ -4102,6 +4413,7 @@ export default [
         meaning: {
           en: 'of the cerebrum of the brain',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a cerebral hemorrhage',
@@ -4116,6 +4428,7 @@ export default [
         meaning: {
           en: 'distress or embarrassment at having failed or been humiliated',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "Jeff, much to his chagrin, wasn't invited",
@@ -4124,6 +4437,7 @@ export default [
         meaning: {
           en: 'feel distressed or humiliated',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he was chagrined when his friend poured scorn on him',
@@ -4138,6 +4452,7 @@ export default [
         meaning: {
           en: 'to fight or speak publicly in support of (a person, belief, cause, etc.)',
           zh_TW: '為...而戰、支持、捍衛',
+          zh_CN: '为...而战、支持、捍卫',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -4152,6 +4467,7 @@ export default [
         meaning: {
           en: 'a flamboyant deceiver; one who attracts customers with tricks or jokes',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'You may call him a "motivational speaker," but I call him a charlatan--he doesn\'t have any idea what he\'s really talking about',
@@ -4166,6 +4482,7 @@ export default [
         meaning: {
           en: 'cautious, suspiciously reluctant to do something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -4181,6 +4498,7 @@ export default [
         meaning: {
           en: 'rebuke or reprimand severely',
           zh_TW: '懲罰、譴責(以保持純潔) [類] n. chastisement',
+          zh_CN: '惩罚、谴责(以保持纯洁) [类] n. chastisement',
         },
         partsOfSpeech: 'verb',
         example: 'he chastised his colleagues for their laziness',
@@ -4195,6 +4513,7 @@ export default [
         meaning: {
           en: "fanatical patriotism; belief that one's group/cause is superior to all other groups/causes",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Vegetarians argue that man is chauvinistic in his belief that animals do not consciously feel the pain we humans do',
@@ -4209,6 +4528,7 @@ export default [
         meaning: {
           en: 'a person who believes in the superiority of their group',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The chauvinist lives on both sides of the political spectrum, outright shunning anybody whose ideas are not consistent with his own',
@@ -4223,6 +4543,7 @@ export default [
         meaning: {
           en: 'having a pattern consisting of alternating squares of different colors',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a blue and white chequered tablecloth',
@@ -4231,6 +4552,7 @@ export default [
         meaning: {
           en: 'marked by periods of varied fortune or discreditable incidents',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the checkered history of postwar Britain',
@@ -4245,6 +4567,7 @@ export default [
         meaning: {
           en: 'the use of trickery to achieve a political, financial, or legal purpose',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'an underhanded person who schemes corruption and political chicanery behind closed doors',
@@ -4259,6 +4582,7 @@ export default [
         meaning: {
           en: "(in Greek mythology) a fire-breathing female monster with a lion's head, a goat's body, and a serpent's tail",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -4267,6 +4591,7 @@ export default [
         meaning: {
           en: 'a thing that is hoped or wished for but in fact is illusory or impossible to achieve',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the economic sovereignty you claim to defend is a chimera',
@@ -4281,6 +4606,7 @@ export default [
         meaning: {
           en: 'courteous and gallant, especially toward women (typically used of a man or his behavior)',
           zh_TW: '武士精神的、對女人彬彬有禮的',
+          zh_CN: '武士精神的、对女人彬彬有礼的',
         },
         partsOfSpeech: 'adjective',
         example: 'shall I be chivalrous and offer you my coat?',
@@ -4295,6 +4621,7 @@ export default [
         meaning: {
           en: 'prone to outbursts of temper; easily angered',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'While a brilliant lecturer, Mr. Dawson came across as choleric and unapproachable—very rarely did students come to his office hours',
@@ -4309,6 +4636,7 @@ export default [
         meaning: {
           en: 'laugh in a breathy, gleeful way; chuckle',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he chortled at his own pun',
@@ -4317,6 +4645,7 @@ export default [
         meaning: {
           en: 'a breathy, gleeful laugh',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Thomas gave a chortle',
@@ -4331,6 +4660,7 @@ export default [
         meaning: {
           en: 'lasting for a long time; continually recurring',
           zh_TW: '慢性的、長期的',
+          zh_CN: '慢性的、长期的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4345,6 +4675,7 @@ export default [
         meaning: {
           en: 'arranged in the order in which they occurred',
           zh_TW: '依時間前後排列而記載的',
+          zh_CN: '依时间前后排列而记载的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4359,6 +4690,7 @@ export default [
         meaning: {
           en: 'rude in a mean-spirited and surly way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'it seems churlish to complain',
@@ -4373,6 +4705,7 @@ export default [
         meaning: {
           en: 'long and indirect; round about',
           zh_TW: '迂迴的、繞圈子的',
+          zh_CN: '迂迴的、绕圈子的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4387,6 +4720,7 @@ export default [
         meaning: {
           en: 'use of many words to say sth that could be said in a few words',
           zh_TW: '迂迴累贅的陳述 [類] adj. circumlocutory 委婉曲折的',
+          zh_CN: '迂迴累赘的陈述 [类] adj. circumlocutory 委婉曲折的',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -4401,6 +4735,7 @@ export default [
         meaning: {
           en: 'restrict or confine',
           zh_TW: '限制',
+          zh_CN: '限制',
         },
         partsOfSpeech: 'verb',
         example: 'Their tour of South America was circumscribed so that they saw only popular destinations and avoided the dangerous parts of cities',
@@ -4415,6 +4750,7 @@ export default [
         meaning: {
           en: 'considering everything carefully before acting; cautious; wary',
           zh_TW: '慎重的、謹慎小心的',
+          zh_CN: '慎重的、谨慎小心的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4429,6 +4765,7 @@ export default [
         meaning: {
           en: 'giving full details',
           zh_TW: '與情況有關的、依情況而定的；詳盡的',
+          zh_CN: '与情况有关的、依情况而定的；详尽的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4443,6 +4780,7 @@ export default [
         meaning: {
           en: 'find a way around (an obstacle)',
           zh_TW: '迴避、用計謀規避',
+          zh_CN: '迴避、用计谋规避',
         },
         partsOfSpeech: 'verb',
         example: 'if you come to an obstruction in a road you can seek to circumvent it',
@@ -4451,6 +4789,7 @@ export default [
         meaning: {
           en: 'overcome (a problem or difficulty), typically in a clever and surreptitious way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'I found it quite easy to circumvent security',
@@ -4465,6 +4804,7 @@ export default [
         meaning: {
           en: 'supposed power of seeing in the mind either future events or things that exist or are happening out of sight',
           zh_TW: '超人的洞察力 [類] a. clairvoyant',
+          zh_CN: '超人的洞察力 [类] a. clairvoyant',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -4479,6 +4819,7 @@ export default [
         meaning: {
           en: 'done secretly, kept secret, surreptitious',
           zh_TW: '祕密的、案中的',
+          zh_CN: '祕密的、案中的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4493,6 +4834,7 @@ export default [
         meaning: {
           en: 'mercy; lenience',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'an appeal for clemency',
@@ -4507,6 +4849,7 @@ export default [
         meaning: {
           en: '(of a fluid, especially blood) change to a solid or semisolid state',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'blood had coagulated around the edges of the wound',
@@ -4515,6 +4858,7 @@ export default [
         meaning: {
           en: 'cause (a fluid) to change to a solid or semisolid state',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'epinephrine coagulates the blood',
@@ -4529,6 +4873,7 @@ export default [
         meaning: {
           en: 'come together to form one mass or whole',
           zh_TW: '聯合、合併',
+          zh_CN: '联合、合併',
         },
         partsOfSpeech: 'verb',
         example: 'the puddles had coalesced into shallow streams',
@@ -4543,6 +4888,7 @@ export default [
         meaning: {
           en: 'arrange (laws, rules, etc) systematically into a code',
           zh_TW: '將法律、規則編成法典 [類] n. codification',
+          zh_CN: '將法律、规则编成法典 [类] n. codification',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -4557,6 +4903,7 @@ export default [
         meaning: {
           en: 'sb (fml) make sb do sth by using force or threats; compel sb to do sth',
           zh_TW: '強制、迫使',
+          zh_CN: '强制、迫使',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -4571,6 +4918,7 @@ export default [
         meaning: {
           en: 'clear and persuasive',
           zh_TW: '令人信服的、有說服力的 [類] convincing, compelling',
+          zh_CN: '令人信服的、有说服力的 [类] convincing, compelling',
         },
         partsOfSpeech: 'adjective',
         example: 'A cogent argument will change the minds of even the most skeptical audience',
@@ -4585,6 +4933,7 @@ export default [
         meaning: {
           en: 'of or relating to cognition',
           zh_TW: '認知的、感知的',
+          zh_CN: '认知的、感知的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4599,6 +4948,7 @@ export default [
         meaning: {
           en: 'connected logically or consistent; easy to understand; clear',
           zh_TW: '一致的、協調的',
+          zh_CN: '一致的、协调的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4613,6 +4963,7 @@ export default [
         meaning: {
           en: 'characterized by or causing cohesion',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'each parish was formerly a cohesive unit',
@@ -4627,6 +4978,7 @@ export default [
         meaning: {
           en: '(of events) occur at the same time or occupy the same period of time as sth else',
           zh_TW: '巧合、一致',
+          zh_CN: '巧合、一致',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -4641,6 +4993,7 @@ export default [
         meaning: {
           en: 'secret or illegal cooperation or conspiracy, especially in order to cheat or deceive others',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the armed forces were working in collusion with drug traffickers',
@@ -4655,6 +5008,7 @@ export default [
         meaning: {
           en: 'extremely large',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a colossal amount of mail',
@@ -4669,6 +5023,7 @@ export default [
         meaning: {
           en: '(formal) friendly social atmosphere; social harmony',
           zh_TW: '禮讓 [類] civility; courtesy [反]enmity(敵意、憎恨)',
+          zh_CN: '礼让 [类] civility; courtesy [反]enmity(敌意、憎恨)',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -4683,6 +5038,7 @@ export default [
         meaning: {
           en: 'deserving praise',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'commendable restraint',
@@ -4697,6 +5053,7 @@ export default [
         meaning: {
           en: 'to be in proportion or corresponding in degree or amount',
           zh_TW: '同樣大小的、相稱的',
+          zh_CN: '同样大小的、相称的',
         },
         partsOfSpeech: 'adjective',
         example: 'The convicted felon’s life sentence was commensurate with the heinousness of his crime',
@@ -4711,6 +5068,7 @@ export default [
         meaning: {
           en: 'for the use of all; shared',
           zh_TW: '全體共有的、共享的',
+          zh_CN: '全体共有的、共享的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4725,6 +5083,7 @@ export default [
         meaning: {
           en: 'showing or feeling compassion; compassionately',
           zh_TW: '有同情心的',
+          zh_CN: '有同情心的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4739,6 +5098,7 @@ export default [
         meaning: {
           en: '(of people, ideas, arguments, principles, etc) suited; that can exist together',
           zh_TW: '和諧共處的、相容的',
+          zh_CN: '和谐共处的、相容的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4753,6 +5113,7 @@ export default [
         meaning: {
           en: 'extremely interesting and exciting, so that one has to pay attention',
           zh_TW: '令人注目的、強制的',
+          zh_CN: '令人注目的、强制的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4767,6 +5128,7 @@ export default [
         meaning: {
           en: 'a collection of concise but detailed information about a particular subject, especially in a book or other publication',
           zh_TW: '簡要、概略 [類] abstract',
+          zh_CN: '简要、概略 [类] abstract',
         },
         partsOfSpeech: 'noun',
         example: 'an invaluable compendium of useful information about language',
@@ -4775,6 +5137,7 @@ export default [
         meaning: {
           en: 'a collection of things, especially one systematically gathered',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the program is a compendium of outtakes from our archives',
@@ -4789,6 +5152,7 @@ export default [
         meaning: {
           en: "contented to a fault with oneself or one's actions",
           zh_TW: '滿足的、自滿的',
+          zh_CN: '满足的、自满的',
         },
         partsOfSpeech: 'adjective',
         example: "After the water polo team won their sixth championship, they became complacent and didn't even make it to the playoffs the next year.",
@@ -4803,6 +5167,7 @@ export default [
         meaning: {
           en: 'showing a cheerful willingness to do favors for others',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'On her first day at the job, Annie was complaisant, fulfilling every request of her new employer and anticipating future requests',
@@ -4817,6 +5182,7 @@ export default [
         meaning: {
           en: 'combining in such a way as to enhance or emphasize the qualities of each other or another',
           zh_TW: '補充的、補足的',
+          zh_CN: '补充的、补足的',
         },
         partsOfSpeech: 'adjective',
         example: 'three guitarists playing interlocking, complementary parts',
@@ -4831,6 +5197,7 @@ export default [
         meaning: {
           en: 'action in accordance with a request or command; obedience',
           zh_TW: '遵從、順從',
+          zh_CN: '遵从、顺从',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -4845,6 +5212,7 @@ export default [
         meaning: {
           en: 'Associated with or participating in an activity, especially one of a questionable nature',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'While the grand jury cleared the senator of all criminal charges, in the public mind he was still complicit in the corruption',
@@ -4859,6 +5227,7 @@ export default [
         meaning: {
           en: "having one's feelings and expression under control; calm",
           zh_TW: '鎮靜的,沈著的',
+          zh_CN: '镇静的,沈著的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4873,6 +5242,7 @@ export default [
         meaning: {
           en: 'make more intense, stronger, or more marked',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Her headache was compounded by the construction crew outside, which had six jackhammers going at the same time',
@@ -4887,6 +5257,7 @@ export default [
         meaning: {
           en: 'that includes everything',
           zh_TW: '全面的、綜合的',
+          zh_CN: '全面的、综合的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4901,6 +5272,7 @@ export default [
         meaning: {
           en: 'gibing up of certain demands by each side in a dispute, so that an agreement may be reached which satisfies both to some extent',
           zh_TW: '妥協、折衷、危急 [類] impair 損害、削弱',
+          zh_CN: '妥协、折衷、危急 [类] impair 损害、削弱',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -4915,6 +5287,7 @@ export default [
         meaning: {
           en: 'that must be done; required by the rules, etc; obligatory',
           zh_TW: '強制性的、命令性的',
+          zh_CN: '强制性的、命令性的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -4929,6 +5302,7 @@ export default [
         meaning: {
           en: "(fml)(usu in negative sentences) feeling of guilt or regret for one's action",
           zh_TW: '懊悔、良心不安',
+          zh_CN: '懊悔、良心不安',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -4943,6 +5317,7 @@ export default [
         meaning: {
           en: 'acknowledge defeat',
           zh_TW: '（不情願）承認/讓步、認輸 [類] n. concession 讓步',
+          zh_CN: '（不情愿）承认/让步、认输 [类] n. concession 让步',
         },
         partsOfSpeech: 'verb',
         example: 'I concede. You win!',
@@ -4957,6 +5332,7 @@ export default [
         meaning: {
           en: 'excessive pride in oneself',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he was puffed up with conceit',
@@ -4965,6 +5341,7 @@ export default [
         meaning: {
           en: 'a fanciful expression in writing or speech; an elaborate metaphor',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "the idea of the wind's singing is a prime romantic conceit",
@@ -4979,6 +5356,7 @@ export default [
         meaning: {
           en: 'to make peace with',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'His opponents believed his gesture to be conciliatory, yet as soon as they put down their weapons, he unsheathed a hidden sword',
@@ -4993,6 +5371,7 @@ export default [
         meaning: {
           en: 'intended or likely to placate or pacify',
           zh_TW: '撫慰的、調和的',
+          zh_CN: '抚慰的、调和的',
         },
         partsOfSpeech: 'adjective',
         example: 'a conciliatory approach',
@@ -5007,6 +5386,7 @@ export default [
         meaning: {
           en: 'describing an event or situation that happens at the same time as or in connection with another',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Concomitant with his desire for nature was a desire for the culture and energy of a big city',
@@ -5021,6 +5401,7 @@ export default [
         meaning: {
           en: 'harmony between people; lack of quarreling and unfriendliness',
           zh_TW: '一致、協調、(國際的)和睦',
+          zh_CN: '一致、协调、(国际的)和睦',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5035,6 +5416,7 @@ export default [
         meaning: {
           en: 'be of the same opinion; agree',
           zh_TW: '意見相同、一致',
+          zh_CN: '意见相同、一致',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5049,6 +5431,7 @@ export default [
         meaning: {
           en: 'sb/sth say that one disapproves of sb/sth',
           zh_TW: '責難、譴責',
+          zh_CN: '责难、谴责',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5063,6 +5446,7 @@ export default [
         meaning: {
           en: 'having or showing a feeling of patronizing superiority',
           zh_TW: '屈尊的',
+          zh_CN: '屈尊的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5077,6 +5461,7 @@ export default [
         meaning: {
           en: 'treat or regard as if it were not serious or wrong, overlook, forgive',
           zh_TW: '原諒、寬恕',
+          zh_CN: '原谅、宽恕',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5091,6 +5476,7 @@ export default [
         meaning: {
           en: 'making a situation or outcome more likely to happen',
           zh_TW: '有助的、有益的、促成的',
+          zh_CN: '有助的、有益的、促成的',
         },
         partsOfSpeech: 'adjective',
         example: 'Studying in a quiet room is conducive to learning; studying in a noisy environment makes learning more difficult',
@@ -5105,6 +5491,7 @@ export default [
         meaning: {
           en: '(to sth/doing sth); (sth) (to sb) say or admit, often formally (that one has done wrong, committed a crime, etc)',
           zh_TW: '承認、公認',
+          zh_CN: '承认、公认',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5119,6 +5506,7 @@ export default [
         meaning: {
           en: 'sb/sth keep (a person or an animal) in a restricted space',
           zh_TW: '限制、使侷限',
+          zh_CN: '限制、使侷限',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5133,6 +5521,7 @@ export default [
         meaning: {
           en: 'an extensive fire which destroys a great deal of land or property',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'tinder-dry conditions sparked fears of a conflagration in many drought-devastated communities',
@@ -5147,6 +5536,7 @@ export default [
         meaning: {
           en: 'combine (two or more texts, ideas, etc.) into one',
           zh_TW: '合併',
+          zh_CN: '合併',
         },
         partsOfSpeech: 'verb',
         example: 'the urban crisis conflates a number of different economic and social issues',
@@ -5161,6 +5551,7 @@ export default [
         meaning: {
           en: 'compliance with standards, rules, or laws',
           zh_TW: '一致、遵從、順從',
+          zh_CN: '一致、遵从、顺从',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5175,6 +5566,7 @@ export default [
         meaning: {
           en: 'cause surprise or confusion in (someone), especially by acting against their expectations',
           zh_TW: '使混亂、使困惑 [類] perplex',
+          zh_CN: '使混乱、使困惑 [类] perplex',
         },
         partsOfSpeech: 'verb',
         example: 'the inflation figure confounded economic analysts',
@@ -5183,6 +5575,7 @@ export default [
         meaning: {
           en: 'mix up (something) with something else so that the individual elements become difficult to distinguish',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "'nuke' is now a cooking technique, as microwave radiation is confounded with nuclear radiation",
@@ -5197,6 +5590,7 @@ export default [
         meaning: {
           en: 'pleasing because of similarities in temperament, interests, etc',
           zh_TW: '意氣相投的、性情好的',
+          zh_CN: '意气相投的、性情好的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5211,6 +5605,7 @@ export default [
         meaning: {
           en: 'having the same size and shape',
           zh_TW: '適合的、一致的',
+          zh_CN: '適合的、一致的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5225,6 +5620,7 @@ export default [
         meaning: {
           en: '(fml) form (and express) an opinion not based on firm evidence; guess',
           zh_TW: '推測、臆測',
+          zh_CN: '推测、臆测',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5239,6 +5635,7 @@ export default [
         meaning: {
           en: 'call upon (a spirit or ghost) to appear, by means of a magic ritual',
           zh_TW: '召喚（神靈）、用魔法魔術變出、使想起',
+          zh_CN: '召唤（神灵）、用魔法魔术变出、使想起',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5253,6 +5650,7 @@ export default [
         meaning: {
           en: 'secretly allow (something considered immoral, illegal, wrong, or harmful) to occur',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'you have it in your power to connive at my escape',
@@ -5261,6 +5659,7 @@ export default [
         meaning: {
           en: 'conspire to do something considered immoral, illegal, or harmful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'they connived with bank officials to launder money',
@@ -5275,6 +5674,7 @@ export default [
         meaning: {
           en: 'given to or involved in conspiring to do something immoral, illegal, or harmful',
           zh_TW: '縱容的、默許的、串通的',
+          zh_CN: '纵容的、默许的、串通的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5289,6 +5689,7 @@ export default [
         meaning: {
           en: 'careful to do what one ought to do, and do it as well as one can',
           zh_TW: '盡責的、合乎道德良心的',
+          zh_CN: '尽责的、合乎道德良心的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5303,6 +5704,7 @@ export default [
         meaning: {
           en: 'make or declare (something, typically a church) sacred; dedicate formally to a religious or divine purpose',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the present Holy Trinity church was consecrated in 1845',
@@ -5317,6 +5719,7 @@ export default [
         meaning: {
           en: 'agreement in opinion; collective opinion',
           zh_TW: '意見一致',
+          zh_CN: '意见一致',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5331,6 +5734,7 @@ export default [
         meaning: {
           en: 'opposed to great or sudden change',
           zh_TW: '保守的、守舊的',
+          zh_CN: '保守的、守旧的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5345,6 +5749,7 @@ export default [
         meaning: {
           en: '(of a person, his behavior, his views, etc) always keeping to the same pattern or style; unchanging',
           zh_TW: '始終如一的、前後一致的',
+          zh_CN: '始终如一的、前后一致的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5359,6 +5764,7 @@ export default [
         meaning: {
           en: 'become more solid, secure, or strong',
           zh_TW: '鞏固、堅強、合併',
+          zh_CN: '巩固、坚强、合併',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5373,6 +5779,7 @@ export default [
         meaning: {
           en: 'without any attempt at concealment; completely obvious',
           zh_TW: '顯著的、顯而易見的',
+          zh_CN: '显著的、显而易见的',
         },
         partsOfSpeech: 'adjective',
         example: 'American basketball players are always conspicuous when they go abroad--not only are they American, but some are over seven feet tall',
@@ -5387,6 +5794,7 @@ export default [
         meaning: {
           en: 'being a part of a whole',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the constituent minerals of the rock',
@@ -5395,6 +5803,7 @@ export default [
         meaning: {
           en: 'being a voting member of a community or organization and having the power to appoint or elect',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the constituent body has a right of veto',
@@ -5403,6 +5812,7 @@ export default [
         meaning: {
           en: 'a member of a constituency',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5411,6 +5821,7 @@ export default [
         meaning: {
           en: 'a component part of something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the essential constituents of the human diet',
@@ -5425,6 +5836,7 @@ export default [
         meaning: {
           en: 'make (sb) do sth by strong (moral) persuasion or by force',
           zh_TW: '強迫、迫使',
+          zh_CN: '强迫、迫使',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5439,6 +5851,7 @@ export default [
         meaning: {
           en: 'something that limits or restricts',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "We don't have many resources, so we'll have to work with some very tight constraints.",
@@ -5453,6 +5866,7 @@ export default [
         meaning: {
           en: 'interpreted in a particular way',
           zh_TW: '解釋、理解為',
+          zh_CN: '解释、理解为',
         },
         partsOfSpeech: 'verb',
         example: "The author's inability to take a side on the issue was construed by both his opponents and supporters as a sign of weakness.",
@@ -5467,6 +5881,7 @@ export default [
         meaning: {
           en: 'having or revealing supreme mastery or skill',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Tyler was the consummate musician: he was able to play the guitar, harmonica, and the drum at the same time',
@@ -5481,6 +5896,7 @@ export default [
         meaning: {
           en: 'look at or consider (sth) thoughtfully',
           zh_TW: '沈思、凝視 [類] n. contemplation adj. contemplative',
+          zh_CN: '沈思、凝视 [类] n. contemplation adj. contemplative',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5495,6 +5911,7 @@ export default [
         meaning: {
           en: '(for sb/sth) feeling that sb/sth is completely worthless and cannot be respected',
           zh_TW: '輕視、蔑視 [類] disregard',
+          zh_CN: '轻视、蔑视 [类] disregard',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5509,6 +5926,7 @@ export default [
         meaning: {
           en: 'showing contempt; scornful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she was intolerant and contemptuous of the majority of the human race',
@@ -5523,6 +5941,7 @@ export default [
         meaning: {
           en: 'likely to argue',
           zh_TW: '具爭議的、愛爭論的 [類]n. contention 爭論、爭辯, v. content 競爭、主張',
+          zh_CN: '具爭议的、爱爭论的 [类]n. contention 爭论、爭辩, v. content 竞爭、主张',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -5538,6 +5957,7 @@ export default [
         meaning: {
           en: 'dispute',
           zh_TW: '比賽、爭論',
+          zh_CN: '比赛、爭论',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5552,6 +5972,7 @@ export default [
         meaning: {
           en: 'a gathering of persons representative of some larger group',
           zh_TW: '依情況而定的、意外事故、偶然事件 [類] n. contingency',
+          zh_CN: '依情况而定的、意外事故、偶然事件 [类] n. contingency',
         },
         partsOfSpeech: 'noun',
         example: 'A small contingent of those loyal to the king have gathered around the castle to defend it',
@@ -5566,6 +5987,7 @@ export default [
         meaning: {
           en: 'act or be contrary to (a law, etc); break',
           zh_TW: '違背(法規、習俗)',
+          zh_CN: '违背(法规、习俗)',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5580,6 +6002,7 @@ export default [
         meaning: {
           en: 'to be remorseful',
           zh_TW: '悔罪的、痛悔的 [類] penitent',
+          zh_CN: '悔罪的、痛悔的 [类] penitent',
         },
         partsOfSpeech: 'adjective',
         example: "Though he stole his little sister’s licorice stick with malevolent glee, Chucky soon became contrite when his sister wouldn't stop crying.",
@@ -5594,6 +6017,7 @@ export default [
         meaning: {
           en: 'the feeling of remorse or guilt that comes from doing something bad',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Those who show contrition during their prison terms--especially when under review by a parole board--often get shortened sentences',
@@ -5608,6 +6032,7 @@ export default [
         meaning: {
           en: 'to pull off a plan or scheme, usually through skill or trickery',
           zh_TW: '設計、圖謀',
+          zh_CN: '设计、图谋',
         },
         partsOfSpeech: 'verb',
         example: 'Despite a low GPA, he contrived to get into college, going so far as to write his own glowing letters of recommendation',
@@ -5622,6 +6047,7 @@ export default [
         meaning: {
           en: 'a difficult problem',
           zh_TW: '難題、複雜問題 [類] enigma',
+          zh_CN: '难题、复杂问题 [类] enigma',
         },
         partsOfSpeech: 'noun',
         example: 'Computers have helped solve some of the mathematical conundrums which have puzzled man for many centuries',
@@ -5636,6 +6062,7 @@ export default [
         meaning: {
           en: 'based on or in accordance with what is generally done or believed',
           zh_TW: '傳統的、習慣的、慣例的',
+          zh_CN: '传统的、习惯的、惯例的',
         },
         partsOfSpeech: 'adjective',
         example: 'a conventional morality had dictated behavior',
@@ -5644,6 +6071,7 @@ export default [
         meaning: {
           en: '(of a work of art or literature) following traditional forms and genres',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'conventional love poetry',
@@ -5652,6 +6080,7 @@ export default [
         meaning: {
           en: '(of weapons or power) nonnuclear',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'agreement on reducing conventional forces in Europe',
@@ -5666,6 +6095,7 @@ export default [
         meaning: {
           en: 'tending to move toward one point or to approach each other; converging',
           zh_TW: '匯聚的',
+          zh_CN: '匯聚的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5680,6 +6110,7 @@ export default [
         meaning: {
           en: 'with sth having knowledge of sth; familiar with sth',
           zh_TW: '熟悉的、精通的',
+          zh_CN: '熟悉的、精通的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5694,6 +6125,7 @@ export default [
         meaning: {
           en: 'the convicting of a person for a crime',
           zh_TW: '判罪、堅信',
+          zh_CN: '判罪、坚信',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5708,6 +6140,7 @@ export default [
         meaning: {
           en: '(of an atmosphere or event) friendly, lively, and enjoyable',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a convivial cocktail party',
@@ -5716,6 +6149,7 @@ export default [
         meaning: {
           en: '(of a person) cheerful and friendly; jovial',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she was relaxed and convivial',
@@ -5730,6 +6164,7 @@ export default [
         meaning: {
           en: '(especially of an argument, story, or sentence) extremely complex and difficult to follow',
           zh_TW: '費解的、旋繞的 [類] coiled, spiraled(費解的), intricate(錯綜複雜的)',
+          zh_CN: '费解的、旋绕的 [类] coiled, spiraled(费解的), intricate(错综复杂的)',
         },
         partsOfSpeech: 'adjective',
         example: 'its convoluted narrative encompasses all manner of digressions',
@@ -5744,6 +6179,7 @@ export default [
         meaning: {
           en: 'abundant in supply or quantity',
           zh_TW: '豐富的、多產的',
+          zh_CN: '丰富的、多產的',
         },
         partsOfSpeech: 'adjective',
         example: 'she took copious notes',
@@ -5758,6 +6194,7 @@ export default [
         meaning: {
           en: 'sincere and friendly',
           zh_TW: '熱忱的、衷心的',
+          zh_CN: '热忱的、衷心的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5772,6 +6209,7 @@ export default [
         meaning: {
           en: "a symbol of plenty consisting of a goat's horn overflowing with flowers, fruit, and corn",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5786,6 +6224,7 @@ export default [
         meaning: {
           en: 'a direct or natural consequence or result',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the huge increases in unemployment were the corollary of expenditure cuts',
@@ -5794,6 +6233,7 @@ export default [
         meaning: {
           en: 'associated or supplementary',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the court did not answer a corollary question',
@@ -5808,6 +6248,7 @@ export default [
         meaning: {
           en: 'to confirm or lend support to (usually an idea or claim)',
           zh_TW: '證實、確證 [類] a. corroborative 確證的',
+          zh_CN: '证实、確证 [类] a. corroborative 確证的',
         },
         partsOfSpeech: 'verb',
         example:
@@ -5823,6 +6264,7 @@ export default [
         meaning: {
           en: 'an account or theory of the origin of the universe',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5837,6 +6279,7 @@ export default [
         meaning: {
           en: 'including or containing people from many different countries',
           zh_TW: '世界性的、國際性的',
+          zh_CN: '世界性的、国际性的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -5845,6 +6288,7 @@ export default [
         meaning: {
           en: 'familiar with and at ease in many different countries and cultures',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'his knowledge of French, Italian, and Spanish made him genuinely cosmopolitan',
@@ -5853,6 +6297,7 @@ export default [
         meaning: {
           en: 'a cosmopolitan person',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'cosmopolitans who spoke both Spanish and English',
@@ -5867,6 +6312,7 @@ export default [
         meaning: {
           en: 'care for and protect in an overindulgent way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "all her life she'd been cosseted by her family",
@@ -5881,6 +6327,7 @@ export default [
         meaning: {
           en: 'having the same boundaries or extent in space, time, or meaning',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he southern frontier was coterminous with the French Congo colon',
@@ -5895,6 +6342,7 @@ export default [
         meaning: {
           en: "(expression on sb's) face",
           zh_TW: '面部表情、面容、贊成、支持',
+          zh_CN: '面部表情、面容、赞成、支持',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5909,6 +6357,7 @@ export default [
         meaning: {
           en: 'adj. made or done so that it is very similar to another thing, in order to deceive; fake',
           zh_TW: '偽造、仿造',
+          zh_CN: '偽造、仿造',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5923,6 +6372,7 @@ export default [
         meaning: {
           en: 'a contrary command cancelling or reversing a previous command',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -5938,6 +6388,7 @@ export default [
         meaning: {
           en: 'person or thing that corresponds to or has the same function as sb or sth else',
           zh_TW: '相對應的人或物',
+          zh_CN: '相对应的人或物',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -5952,6 +6403,7 @@ export default [
         meaning: {
           en: 'want very much to possess (esp sth that belongs to sb else)',
           zh_TW: '貪求、揶揄',
+          zh_CN: '贪求、揶揄',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -5966,6 +6418,7 @@ export default [
         meaning: {
           en: 'contemptibly lacking in courage; cowardly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a craven abdication of his moral duty',
@@ -5980,6 +6433,7 @@ export default [
         meaning: {
           en: 'belief in something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'He placed no credence in psychics, claiming that they offered no special powers beyond the ability to make people part with their money',
@@ -5994,6 +6448,7 @@ export default [
         meaning: {
           en: '(of a performance, effort, or action) deserving public acknowledgment and praise but not necessarily outstanding or successful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a very creditable 2–4 defeat',
@@ -6008,6 +6463,7 @@ export default [
         meaning: {
           en: 'a tendency to be too ready to believe that something is real or true',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'moneylenders prey upon their credulity and inexperience',
@@ -6022,6 +6478,7 @@ export default [
         meaning: {
           en: 'too ready to believe things',
           zh_TW: '輕信的、易信的',
+          zh_CN: '轻信的、易信的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -6036,6 +6493,7 @@ export default [
         meaning: {
           en: 'sad and disappointed',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he came back empty-handed and crestfallen',
@@ -6050,6 +6508,7 @@ export default [
         meaning: {
           en: 'mysterious or vague, usually intentionally',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -6065,6 +6524,7 @@ export default [
         meaning: {
           en: 'cause to take on a definite and clear shape',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "Only after fifteen minutes of brainstorming did Samantha's ideas for the essay crystallize.",
@@ -6079,6 +6539,7 @@ export default [
         meaning: {
           en: 'reach a climax or point of highest development',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the tensions and disorders which culminated in World War II',
@@ -6093,6 +6554,7 @@ export default [
         meaning: {
           en: 'a state of guilt',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "Since John had left his banana peel at the top of the stairwell, he accepted culpability for Martha's broken leg.",
@@ -6107,6 +6569,7 @@ export default [
         meaning: {
           en: 'person who has done sth wrong, offender',
           zh_TW: '禍端、犯罪者',
+          zh_CN: '祸端、犯罪者',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -6121,6 +6584,7 @@ export default [
         meaning: {
           en: 'large or heavy and therefore difficult to carry or use; unwieldy',
           zh_TW: '笨重的',
+          zh_CN: '笨重的',
         },
         partsOfSpeech: 'adjective',
         example: 'cumbersome diving suits',
@@ -6129,6 +6593,7 @@ export default [
         meaning: {
           en: 'slow or complicated and therefore inefficient',
           zh_TW: '難處理的',
+          zh_CN: '难处理的',
         },
         partsOfSpeech: 'adjective',
         example: 'organizations with cumbersome hierarchical structures',
@@ -6143,6 +6608,7 @@ export default [
         meaning: {
           en: 'greed for money or possessions',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'new wealth, however tainted by cupidity and egoism, tends to be favorable for the arts',
@@ -6157,6 +6623,7 @@ export default [
         meaning: {
           en: 'a grouchy, surly person',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -6172,6 +6639,7 @@ export default [
         meaning: {
           en: 'done quickly and not thoroughly; (too) hurried',
           zh_TW: '粗略的、草率的',
+          zh_CN: '粗略的、草率的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -6186,6 +6654,7 @@ export default [
         meaning: {
           en: 'make shorter or less, reduce',
           zh_TW: '縮減、削減',
+          zh_CN: '缩减、削减',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6200,6 +6669,7 @@ export default [
         meaning: {
           en: 'of or like a cynic',
           zh_TW: '憤世忌俗的、自私的',
+          zh_CN: '愤世忌俗的、自私的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -6214,6 +6684,7 @@ export default [
         meaning: {
           en: 'sth splash (hands, feet, etc) around in water',
           zh_TW: '涉獵、淺嚐',
+          zh_CN: '涉猎、浅嚐',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6228,6 +6699,7 @@ export default [
         meaning: {
           en: 'seeming difficult to deal with in anticipation; intimidating',
           zh_TW: '令人氣餒的、令人畏懼的',
+          zh_CN: '令人气馁的、令人畏惧的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -6242,6 +6714,7 @@ export default [
         meaning: {
           en: 'a scarcity or lack of something',
           zh_TW: '缺乏、不足',
+          zh_CN: '缺乏、不足',
         },
         partsOfSpeech: 'noun',
         example: 'there is a dearth of evidence',
@@ -6256,6 +6729,7 @@ export default [
         meaning: {
           en: 'reduce (something) in quality or value; degrade',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the love episodes debase the dignity of the drama',
@@ -6264,6 +6738,7 @@ export default [
         meaning: {
           en: 'lower the value of (coinage) by reducing the content of precious metal',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the King was forced to debase the coinage',
@@ -6278,6 +6753,7 @@ export default [
         meaning: {
           en: 'confident, stylish, and charming (typically used of a man)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'all the men looked debonair and handsome in white tie and tails',
@@ -6292,6 +6768,7 @@ export default [
         meaning: {
           en: 'expose as false ideas and claims, especially while ridiculing',
           zh_TW: '揭穿、拆去...的假面具',
+          zh_CN: '揭穿、拆去...的假面具',
         },
         partsOfSpeech: 'verb',
         example: 'Richard Dawkins tries to debunk religious belief, but his ridicule tends to push people away from his points rather than convince them',
@@ -6306,6 +6783,7 @@ export default [
         meaning: {
           en: 'sb/oneself make sb believe sth that is not true (so as to make him do sth); deliberately mislead sb',
           zh_TW: '欺騙 [類] n. deceit 欺騙、詭計',
+          zh_CN: '欺骗 [类] n. deceit 欺骗、诡计',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6320,6 +6798,7 @@ export default [
         meaning: {
           en: 'kill or destroy a large part of (sth)',
           zh_TW: '大量毀壞',
+          zh_CN: '大量毁坏',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6334,6 +6813,7 @@ export default [
         meaning: {
           en: 'the killing or destruction of a large proportion of a group or species',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'our growing hunger for fish has resulted in the decimation of fish stocks',
@@ -6348,6 +6828,7 @@ export default [
         meaning: {
           en: 'succeed in understanding',
           zh_TW: '解開(謎團)、破譯(密碼)',
+          zh_CN: '解开(谜团)、破译(密码)',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6362,6 +6843,7 @@ export default [
         meaning: {
           en: 'characterized by good taste in manners and conduct',
           zh_TW: '合宜的、高雅的 [反] indecorous 無理的',
+          zh_CN: '合宜的、高雅的 [反] indecorous 无理的',
         },
         partsOfSpeech: 'adjective',
         example: "Sally's parties are decorous affairs, and instead of the usual beer and music, there is tea and intellectual conversation.",
@@ -6376,6 +6858,7 @@ export default [
         meaning: {
           en: 'behavior in keeping with good taste and propriety',
           zh_TW: '端莊、彬彬有禮、合宜',
+          zh_CN: '端庄、彬彬有礼、合宜',
         },
         partsOfSpeech: 'noun',
         example: 'you exhibit remarkable modesty and decorum',
@@ -6390,6 +6873,7 @@ export default [
         meaning: {
           en: 'publicly denounce',
           zh_TW: '責難、誹謗 [類] denigrate, deprecate [反] acclaim, applaud',
+          zh_CN: '责难、誹谤 [类] denigrate, deprecate [反] acclaim, applaud',
         },
         partsOfSpeech: 'verb',
         example: 'they decried human rights abuses',
@@ -6404,6 +6888,7 @@ export default [
         meaning: {
           en: 'sth arrive at (facts, a theory, etc) by reasoning; infer sth',
           zh_TW: '演繹、推斷',
+          zh_CN: '演绎、推断',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6418,6 +6903,7 @@ export default [
         meaning: {
           en: 'sth take away (an amount or a part)',
           zh_TW: '減除、扣除',
+          zh_CN: '减除、扣除',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6432,6 +6918,7 @@ export default [
         meaning: {
           en: 'intended to defame',
           zh_TW: '破壞名譽的、誹謗的',
+          zh_CN: '破坏名誉的、誹谤的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -6446,6 +6933,7 @@ export default [
         meaning: {
           en: 'humble submission and respect',
           zh_TW: '尊敬 [類] respect [反] effrontery (厚顏無恥、放肆)',
+          zh_CN: '尊敬 [类] respect [反] effrontery (厚顏无耻、放肆)',
         },
         partsOfSpeech: 'noun',
         example: 'he addressed her with the deference due to age',
@@ -6460,6 +6948,7 @@ export default [
         meaning: {
           en: 'showing deference; respectful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'people were always deferential to him',
@@ -6474,6 +6963,7 @@ export default [
         meaning: {
           en: '(from sth) (cause sth to) turn from its direction of movement',
           zh_TW: '使偏斜、使轉向、避開',
+          zh_CN: '使偏斜、使转向、避开',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6488,6 +6978,7 @@ export default [
         meaning: {
           en: 'to help pay the cost of, either in part or full',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'In order for Sean to attend the prestigious college, his generous uncle helped defray the excessive tuition with a monthly donation',
@@ -6502,6 +6993,7 @@ export default [
         meaning: {
           en: 'skillful and quick, esp with the hands',
           zh_TW: '靈巧的',
+          zh_CN: '灵巧的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -6516,6 +7008,7 @@ export default [
         meaning: {
           en: 'disobey or refuse to respect (sb, an authority, etc)',
           zh_TW: '反抗、違抗、蔑視 [類] a. defiant 挑釁的、目中無人的',
+          zh_CN: '反抗、违抗、蔑视 [类] a. defiant 挑衅的、目中无人的',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6530,6 +7023,7 @@ export default [
         meaning: {
           en: '(into sth) pass into a worse physical, mental or moral state than one which is considered normal or desirable',
           zh_TW: '惡化、衰退、退化',
+          zh_CN: '恶化、衰退、退化',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6544,6 +7038,7 @@ export default [
         meaning: {
           en: 'reduce in worth or character, usually verbally',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "Jesse had mockingly pointed out all of Nancy's faults in front of their friends, publicly degrading the poor girl.",
@@ -6558,6 +7053,7 @@ export default [
         meaning: {
           en: "do something that one considers to be beneath one's dignity",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "she did not deign to answer the maid's question",
@@ -6572,6 +7068,7 @@ export default [
         meaning: {
           en: 'a person sent or authorized to represent others, in particular an elected representative sent to a conference',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the delegates rejected the proposal',
@@ -6580,6 +7077,7 @@ export default [
         meaning: {
           en: 'entrust (a task or responsibility) to another person, typically one who is less senior than oneself',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the power delegated to him must never be misused',
@@ -6594,6 +7092,7 @@ export default [
         meaning: {
           en: 'causing harm or damage',
           zh_TW: '(對身體)有害的、有毒的(要刪除)',
+          zh_CN: '(对身体)有害的、有毒的(要刪除)',
         },
         partsOfSpeech: 'adjective',
         example: 'divorce is assumed to have deleterious effects on children',
@@ -6608,6 +7107,7 @@ export default [
         meaning: {
           en: 'think about carefully; weigh the pros and cons of an issue',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Emergency situations such as this call for immediate action and leave no room to deliberate over options',
@@ -6622,6 +7122,7 @@ export default [
         meaning: {
           en: 'describe or portray (something) precisely',
           zh_TW: '描繪、描寫',
+          zh_CN: '描绘、描写',
         },
         partsOfSpeech: 'verb',
         example: 'the law should delineate and prohibit behavior that is socially abhorrent',
@@ -6636,6 +7137,7 @@ export default [
         meaning: {
           en: 'sb deliberately mislead sb; deceive sb',
           zh_TW: '欺騙、哄騙',
+          zh_CN: '欺骗、哄骗',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6650,6 +7152,7 @@ export default [
         meaning: {
           en: '(of a person) making others work hard or meet high standards',
           zh_TW: '嚴格的、要求高的',
+          zh_CN: '严格的、要求高的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -6664,6 +7167,7 @@ export default [
         meaning: {
           en: 'cause a severe loss in the dignity of and respect for (someone or something)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'I had demeaned the profession',
@@ -6678,6 +7182,7 @@ export default [
         meaning: {
           en: 'behavior; bearing; behavioral attributes',
           zh_TW: '舉動、行為、風度',
+          zh_CN: '举动、行为、风度',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -6692,6 +7197,7 @@ export default [
         meaning: {
           en: 'death',
           zh_TW: '死亡、財產轉讓',
+          zh_CN: '死亡、財產转让',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -6706,6 +7212,7 @@ export default [
         meaning: {
           en: 'study of statistics of births, deaths, diseases, etc in order to show the state of a community',
           zh_TW: '人口統計、人口學',
+          zh_CN: '人口统计、人口学',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -6720,6 +7227,7 @@ export default [
         meaning: {
           en: 'that can be shown or proved',
           zh_TW: '可證明的、顯而易見的',
+          zh_CN: '可证明的、显而易见的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -6734,6 +7242,7 @@ export default [
         meaning: {
           en: '(of a person) tending to show feelings, especially of affection, openly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'we were a very physically demonstrative family',
@@ -6742,6 +7251,7 @@ export default [
         meaning: {
           en: 'serving as conclusive evidence of something; giving proof',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'demonstrative evidence',
@@ -6756,6 +7266,7 @@ export default [
         meaning: {
           en: 'denoting or relating to the kind of language used by ordinary people; popular or colloquial',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a demotic idiom',
@@ -6764,6 +7275,7 @@ export default [
         meaning: {
           en: 'ordinary colloquial speech',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he blinked in mild surprise at this uncharacteristic leap into the demotic',
@@ -6778,6 +7290,7 @@ export default [
         meaning: {
           en: 'raise doubts or objections or show reluctance',
           zh_TW: '表示異議、反對',
+          zh_CN: '表示异议、反对',
         },
         partsOfSpeech: 'verb',
         example: 'normally she would have accepted the challenge, but she demurred',
@@ -6792,6 +7305,7 @@ export default [
         meaning: {
           en: 'reserved, modest, and shy (typically used of a woman)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a demure young lady',
@@ -6800,6 +7314,7 @@ export default [
         meaning: {
           en: '(of clothing) giving a modest appearance',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a demure knee-length skirt',
@@ -6814,6 +7329,7 @@ export default [
         meaning: {
           en: 'charge falsely or with malicious intent; attack the good name and reputation of someone',
           zh_TW: '污衊、誹謗',
+          zh_CN: '污衊、誹谤',
         },
         partsOfSpeech: 'verb',
         example: 'Count Rumford denigrated the new theory of heat, demonstrating that it was wholly inadequate to explain the observations',
@@ -6828,6 +7344,7 @@ export default [
         meaning: {
           en: 'be a sign of; indicate',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'this mark denotes purity and quality',
@@ -6842,6 +7359,7 @@ export default [
         meaning: {
           en: 'the final resolution of the many strands of a literary or dramatic work; the outcome of a complex sequence of events',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'At the denouement of the movie, all questions were answered, and the true identity of the robber was revealed',
@@ -6856,6 +7374,7 @@ export default [
         meaning: {
           en: 'show (sb/sth) as a picture; portray',
           zh_TW: '描繪、描畫',
+          zh_CN: '描绘、描画',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6870,6 +7389,7 @@ export default [
         meaning: {
           en: 'feel and express disapproval of (sth)',
           zh_TW: '反對、輕視',
+          zh_CN: '反对、轻视',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -6884,6 +7404,7 @@ export default [
         meaning: {
           en: 'in a very poor condition as a result of disuse and neglect',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the cities were derelict and dying',
@@ -6892,6 +7413,7 @@ export default [
         meaning: {
           en: 'a person without a home, job, or property',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'derelicts who could fit all their possessions in a paper bag',
@@ -6906,6 +7428,7 @@ export default [
         meaning: {
           en: 'treat or speak of with contempt',
           zh_TW: '嘲笑、嘲弄',
+          zh_CN: '嘲笑、嘲弄',
         },
         partsOfSpeech: 'verb',
         example: 'The nun derided the students for trying to sneak insects and worms into the classroom',
@@ -6920,6 +7443,7 @@ export default [
         meaning: {
           en: 'expressing contempt or ridicule',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a harsh, derisive laugh',
@@ -6934,6 +7458,7 @@ export default [
         meaning: {
           en: 'obtain something from (a specified source)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'they derived great comfort from this assurance',
@@ -6942,6 +7467,7 @@ export default [
         meaning: {
           en: '(of a word) have (a specified word, usually of another language) as a root or origin',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "the word “punch” derives from the Hindustani 'pancha'",
@@ -6950,6 +7476,7 @@ export default [
         meaning: {
           en: 'base a concept on a logical extension or modification of (another concept)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Eliot derived his poetics from the French Symbolists',
@@ -6964,6 +7491,7 @@ export default [
         meaning: {
           en: 'showing a critical or disrespectful attitude',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "she tells me I'm fat and is always making derogatory remarks",
@@ -6978,6 +7506,7 @@ export default [
         meaning: {
           en: 'to willfully violate or destroy a sacred place',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "After desecrating the pharaoh's tomb, the archaeologist soon fell victim to a horrible illness.",
@@ -6992,6 +7521,7 @@ export default [
         meaning: {
           en: 'remove the moisture from (something); cause to become completely dry',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'both the older growth and the new vegetation were desiccated by months of relentless sun',
@@ -7006,6 +7536,7 @@ export default [
         meaning: {
           en: 'having had all moisture removed; dried out',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the withered, desiccated landscape',
@@ -7014,6 +7545,7 @@ export default [
         meaning: {
           en: 'remove the moisture from (something); cause to become completely dry',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'both the older growth and the new vegetation were desiccated by months of relentless sun',
@@ -7028,6 +7560,7 @@ export default [
         meaning: {
           en: 'something that is needed or wanted',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'integrity was a desideratum',
@@ -7042,6 +7575,7 @@ export default [
         meaning: {
           en: 'feeling or showing great despair and ready to do anything regardless of danger',
           zh_TW: '情急拼命的、鋌而走險的',
+          zh_CN: '情急拼命的、鋌而走险的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -7056,6 +7590,7 @@ export default [
         meaning: {
           en: '(to do sth)deserving to be despised; contemptible',
           zh_TW: '可鄙的、卑劣的',
+          zh_CN: '可鄙的、卑劣的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -7070,6 +7605,7 @@ export default [
         meaning: {
           en: 'a cruel and oppressive dictator',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The Emperor Claudius was regarded as a fair-minded leader; his successor, Nero, was an absolute despot',
@@ -7084,6 +7620,7 @@ export default [
         meaning: {
           en: 'poor enough to need help from others',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Jean Valjean, is at first destitute, but through the grace of a priest, he makes something of his life',
@@ -7098,6 +7635,7 @@ export default [
         meaning: {
           en: 'lacking a plan, purpose, or enthusiasm',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a few people were left, dancing in a desultory fashion',
@@ -7106,6 +7644,7 @@ export default [
         meaning: {
           en: '(of conversation or speech) going constantly from one subject to another in a halfhearted way; unfocused',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the desultory conversation faded',
@@ -7114,6 +7653,7 @@ export default [
         meaning: {
           en: 'occurring randomly or occasionally',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'desultory passengers were appearing',
@@ -7128,6 +7668,7 @@ export default [
         meaning: {
           en: 'not influenced by others; impartial',
           zh_TW: '分開的、超然的、不受影響的 [類] v. detach 分開、拆卸',
+          zh_CN: '分开的、超然的、不受影响的 [类] v. detach 分开、拆卸',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -7142,6 +7683,7 @@ export default [
         meaning: {
           en: 'discourage (someone) from doing something by instilling doubt or fear of the consequences',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'only a health problem would deter him from seeking re-election',
@@ -7150,6 +7692,7 @@ export default [
         meaning: {
           en: 'prevent the occurrence of',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'strategists think not only about how to deter war, but about how war might occur',
@@ -7164,6 +7707,7 @@ export default [
         meaning: {
           en: 'the process of becoming progressively worse',
           zh_TW: '惡化、變壞',
+          zh_CN: '恶化、变坏',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -7178,6 +7722,7 @@ export default [
         meaning: {
           en: 'adj. that deters or is meant to deter',
           zh_TW: '威懾的、遏制的',
+          zh_CN: '威慑的、遏制的',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -7192,6 +7737,7 @@ export default [
         meaning: {
           en: 'dislike very much; hate',
           zh_TW: '厭惡、痛恨',
+          zh_CN: '厌恶、痛恨',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -7206,6 +7752,7 @@ export default [
         meaning: {
           en: 'diminish the worth or value of (a quality or achievement)',
           zh_TW: '貶低、誹謗',
+          zh_CN: '贬低、誹谤',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -7220,6 +7767,7 @@ export default [
         meaning: {
           en: '(sometimes followed by "to") causing harm or injury',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Many know that smoking is detrimental to your health, but processed sugar in large quantities is equally bad',
@@ -7234,6 +7782,7 @@ export default [
         meaning: {
           en: 'depart from an established course',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'you must not deviate from the agreed route',
@@ -7248,6 +7797,7 @@ export default [
         meaning: {
           en: 'cunning; dishonest',
           zh_TW: '狡猾的、不正直的、彎曲的',
+          zh_CN: '狡猾的、不正直的、弯曲的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -7262,6 +7812,7 @@ export default [
         meaning: {
           en: 'of sth without sth; completely lacking in sth',
           zh_TW: '缺乏的、沒有的',
+          zh_CN: '缺乏的、没有的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -7276,6 +7827,7 @@ export default [
         meaning: {
           en: 'transfer or delegate (power) to a lower level, especially from central government to local or regional administration',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'measures to devolve power to the provinces',
@@ -7290,6 +7842,7 @@ export default [
         meaning: {
           en: "skillful with one's hands",
           zh_TW: '靈巧的、熟練的',
+          zh_CN: '灵巧的、熟练的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -7304,6 +7857,7 @@ export default [
         meaning: {
           en: 'characteristic of the Devil, or so evil as to be suggestive of the Devil',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'his diabolical cunning',
@@ -7318,6 +7872,7 @@ export default [
         meaning: {
           en: 'a strong verbal attack against a person or institution',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -7333,6 +7888,7 @@ export default [
         meaning: {
           en: 'a division or contrast between two things that are or are represented as being opposed or entirely different',
           zh_TW: '分裂、二分法',
+          zh_CN: '分裂、二分法',
         },
         partsOfSpeech: 'noun',
         example: 'a rigid dichotomy between science and mysticism',
@@ -7341,6 +7897,7 @@ export default [
         meaning: {
           en: '(botany) repeated branching into two equal parts',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -7355,6 +7912,7 @@ export default [
         meaning: {
           en: '(to sb) say or read aloud (words to be typed, written down or recorded on tape)',
           zh_TW: '口述、命令',
+          zh_CN: '口述、命令',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -7369,6 +7927,7 @@ export default [
         meaning: {
           en: 'of or typical of a ruler with total power',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a dictatorial regime',
@@ -7383,6 +7942,7 @@ export default [
         meaning: {
           en: 'in the manner of a teacher, particularly so as to treat someone in a patronizing way',
           zh_TW: '說教的、教導的',
+          zh_CN: '说教的、教导的',
         },
         partsOfSpeech: 'adjective',
         example: 'slow-paced, didactic lecturing',
@@ -7397,6 +7957,7 @@ export default [
         meaning: {
           en: 'be a distinctive feature, attribute, or trait (sometimes in positive sense)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "Mozart's long melodic lines differentiate his compositions from other works of late 18th century music.",
@@ -7411,6 +7972,7 @@ export default [
         meaning: {
           en: 'modesty or shyness resulting from a lack of self-confidence',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'I say this with some diffidence',
@@ -7425,6 +7987,7 @@ export default [
         meaning: {
           en: 'modest or shy because of a lack of self-confidence',
           zh_TW: '缺乏自信的、懦怯的、羞怯的',
+          zh_CN: '缺乏自信的、懦怯的、羞怯的',
         },
         partsOfSpeech: 'adjective',
         example: 'a diffident youth',
@@ -7439,6 +8002,7 @@ export default [
         meaning: {
           en: 'spread or cause to spread over a wide area or among a large number of people',
           zh_TW: '四散、擴散、雜亂的',
+          zh_CN: '四散、扩散、杂乱的',
         },
         partsOfSpeech: 'verb',
         example: 'technologies diffuse rapidly',
@@ -7447,6 +8011,7 @@ export default [
         meaning: {
           en: '(physics) become or cause (a fluid, gas, individual atom, etc.) to become intermingled with a substance by movement, typically in a specified direction or at specified speed',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'oxygen molecules diffuse across the membrane',
@@ -7455,6 +8020,7 @@ export default [
         meaning: {
           en: 'spread out over a large area; not concentrated',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the diffuse community centered on the church',
@@ -7463,6 +8029,7 @@ export default [
         meaning: {
           en: '(of disease) not localized in the body',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'diffuse hyperplasia',
@@ -7471,6 +8038,7 @@ export default [
         meaning: {
           en: 'lacking clarity or conciseness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the second argument is more diffuse',
@@ -7485,6 +8053,7 @@ export default [
         meaning: {
           en: '(of a building or object) in a state of disrepair or ruin as a result of age or neglect',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'old, dilapidated buildings',
@@ -7499,6 +8068,7 @@ export default [
         meaning: {
           en: 'slow to act',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he had been dilatory in appointing a solicitor',
@@ -7513,6 +8083,7 @@ export default [
         meaning: {
           en: 'situation in which one has to choose between two undesirable things or courses of action',
           zh_TW: '兩難、困境',
+          zh_CN: '两难、困境',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -7527,6 +8098,7 @@ export default [
         meaning: {
           en: 'an amateur who engages in an activity without serious intentions and who pretends to have knowledge',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Fred has no formal medical training; while he likes to claim authority on medical issues, he is little more than a dilettante',
@@ -7541,6 +8113,7 @@ export default [
         meaning: {
           en: "having or showing care and conscientiousness in one's work or duties",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'many caves are located only after a diligent search',
@@ -7555,6 +8128,7 @@ export default [
         meaning: {
           en: 'sth make (a liquid or color) thinner or weaker (by adding water or another liquid)',
           zh_TW: '弄稀、弄淡',
+          zh_CN: '弄稀、弄淡',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -7569,6 +8143,7 @@ export default [
         meaning: {
           en: 'extremely or unusually small',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a diminutive figure dressed in black',
@@ -7583,6 +8158,7 @@ export default [
         meaning: {
           en: 'to persuade somebody that his/her belief is not valid',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -7598,6 +8174,7 @@ export default [
         meaning: {
           en: 'discontented as toward authority',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'After watching his superior take rations from the soldiers, he quickly became disaffected and rebelled',
@@ -7612,6 +8189,7 @@ export default [
         meaning: {
           en: 'see clearly (with the senses or the mind), esp with an effort',
           zh_TW: '(費力地)識別、看出',
+          zh_CN: '(费力地)识別、看出',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -7626,6 +8204,7 @@ export default [
         meaning: {
           en: 'confuse or embarrass (sb)',
           zh_TW: '使窘迫、使尷尬',
+          zh_CN: '使窘迫、使尷尬',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -7640,6 +8219,7 @@ export default [
         meaning: {
           en: 'a distinct break in physical continuity or sequence in time',
           zh_TW: '不連續性、不一致',
+          zh_CN: '不连续性、不一致',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -7654,6 +8234,7 @@ export default [
         meaning: {
           en: 'lack of agreement or harmony',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Despite all their talented players, the team was filled with discord--some players refused to talk to others--and lost most of their games',
@@ -7668,6 +8249,7 @@ export default [
         meaning: {
           en: 'disagreeing or incongruous',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the principle of meritocracy is discordant with claims of inherited worth',
@@ -7676,6 +8258,7 @@ export default [
         meaning: {
           en: '(of sounds) harsh and jarring because of a lack of harmony',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'bombs, guns, and engines mingled in discordant sound',
@@ -7684,6 +8267,7 @@ export default [
         meaning: {
           en: '(biology)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: '(of a matched pair of subjects, especially twins) not having the same trait or disease',
@@ -7698,6 +8282,7 @@ export default [
         meaning: {
           en: 'lengthy and serious treatment of a subject in speech or writing',
           zh_TW: '演講、論述',
+          zh_CN: '演讲、论述',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -7712,6 +8297,7 @@ export default [
         meaning: {
           en: 'damage the good reputation of',
           zh_TW: '使丟臉、敗壞...的名聲',
+          zh_CN: '使丟脸、败坏...的名声',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -7726,6 +8312,7 @@ export default [
         meaning: {
           en: "careful and circumspect in one's speech or actions, especially in order to avoid causing offense or to gain an advantage",
           zh_TW: '謹慎地、慎重的、考慮周到的',
+          zh_CN: '谨慎地、慎重的、考虑周到的',
         },
         partsOfSpeech: 'adjective',
         example: 'we made some discreet inquiries',
@@ -7734,6 +8321,7 @@ export default [
         meaning: {
           en: 'intentionally unobtrusive',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a discreet cough',
@@ -7748,6 +8336,7 @@ export default [
         meaning: {
           en: 'a lack of compatibility or similarity between two or more facts',
           zh_TW: '不同、矛盾',
+          zh_CN: '不同、矛盾',
         },
         partsOfSpeech: 'noun',
         example: "there's a discrepancy between your account and his",
@@ -7762,6 +8351,7 @@ export default [
         meaning: {
           en: 'constituting a separate entity or part',
           zh_TW: '個別的、不連續的',
+          zh_CN: '个別的、不连续的',
         },
         partsOfSpeech: 'adjective',
         example: 'What was once known as Czechoslovakia has since split into two discrete, independent nations',
@@ -7776,6 +8366,7 @@ export default [
         meaning: {
           en: 'quality of being discreet, good judgement',
           zh_TW: '謹慎、斟酌',
+          zh_CN: '谨慎、斟酌',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -7790,6 +8381,7 @@ export default [
         meaning: {
           en: 'make an unjust or prejudicial distinction in the treatment of different categories of people, especially on the grounds of ethnicity, sex, age, or disability',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'existing employment policies discriminate against women',
@@ -7804,6 +8396,7 @@ export default [
         meaning: {
           en: '(of e.g. speech and writing) tending to depart from the main point',
           zh_TW: '散漫的、無層次的、東拉西扯的',
+          zh_CN: '散漫的、无层次的、东拉西扯的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -7819,6 +8412,7 @@ export default [
         meaning: {
           en: "feeling that sb/sth is not good enough to deserve one's respect; contempt",
           zh_TW: '輕蔑、鄙視 [類] scorn, despise, spurnF [反] respect, admire, praise',
+          zh_CN: '轻蔑、鄙视 [类] scorn, despise, spurnF [反] respect, admire, praise',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -7833,6 +8427,7 @@ export default [
         meaning: {
           en: 'deprive (someone) of the right to vote',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the law disenfranchised some 3,000 voters on the basis of a residence qualification',
@@ -7841,6 +8436,7 @@ export default [
         meaning: {
           en: 'deprive (someone) of a right or privilege',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'a measure that would disenfranchise people from access to legal advice',
@@ -7855,6 +8451,7 @@ export default [
         meaning: {
           en: 'having lost determination or confidence; dispirited',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a disheartened tone of voice',
@@ -7869,6 +8466,7 @@ export default [
         meaning: {
           en: 'disappointed in someone or something that one discovers to be less good than one had believed',
           zh_TW: '幻想破滅的、醒悟的',
+          zh_CN: '幻想破灭的、醒悟的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -7883,6 +8481,7 @@ export default [
         meaning: {
           en: '(fml) unwillingness; reluctance',
           zh_TW: '不情願、不願意 [反] inclination 傾向、意願',
+          zh_CN: '不情愿、不愿意 [反] inclination 倾向、意愿',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -7897,6 +8496,7 @@ export default [
         meaning: {
           en: 'not straightforward; giving a false appearance of frankness',
           zh_TW: '不誠實的、虛偽的',
+          zh_CN: '不诚实的、虚偽的',
         },
         partsOfSpeech: 'adjective',
         example: 'Many adults think that they can lie to children, but kids are smart and know when people are disingenuous',
@@ -7911,6 +8511,7 @@ export default [
         meaning: {
           en: 'unbiased; neutral',
           zh_TW: '無私的 [類] impartial [反] prejudiced, factional',
+          zh_CN: '无私的 [类] impartial [反] prejudiced, factional',
         },
         partsOfSpeech: 'adjective',
         example: 'The potential juror knew the defendant, and therefore could not serve on the jury, which must consist only of disinterested members',
@@ -7925,6 +8526,7 @@ export default [
         meaning: {
           en: '(of a conjunction) showing opposition or contrast between tow ideas (db either ... or), either... or',
           zh_TW: '分離的、相反的',
+          zh_CN: '分离的、相反的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -7939,6 +8541,7 @@ export default [
         meaning: {
           en: 'order or allow to leave; send away',
           zh_TW: '讓...離開、把...打發走',
+          zh_CN: '让...离开、把...打发走',
         },
         partsOfSpeech: 'verb',
         example: 'she dismissed the taxi at the corner of the road',
@@ -7947,6 +8550,7 @@ export default [
         meaning: {
           en: 'discharge from employment or office',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'CBS Records dismissed another 120 people',
@@ -7955,6 +8559,7 @@ export default [
         meaning: {
           en: 'treat as unworthy of serious consideration',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'it would be easy to dismiss him as all brawn and no brain',
@@ -7963,6 +8568,7 @@ export default [
         meaning: {
           en: 'deliberately cease to think about',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he suspected a double meaning in her words, but dismissed the thought',
@@ -7971,6 +8577,7 @@ export default [
         meaning: {
           en: '(law) refuse further hearing to (a case)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the judge dismissed the case for lack of evidence',
@@ -7985,6 +8592,7 @@ export default [
         meaning: {
           en: 'regard or represent as being of little worth',
           zh_TW: '貶抑、輕蔑 [類] slight',
+          zh_CN: '贬抑、轻蔑 [类] slight',
         },
         partsOfSpeech: 'verb',
         example: 'he never missed an opportunity to disparage his competitors',
@@ -7999,6 +8607,7 @@ export default [
         meaning: {
           en: 'two things are fundamentally different',
           zh_TW: '不同的、異類的',
+          zh_CN: '不同的、异类的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -8014,6 +8623,7 @@ export default [
         meaning: {
           en: 'not influenced by strong emotion, and so able to be rational and impartial',
           zh_TW: '不被感情所動的、冷靜的',
+          zh_CN: '不被感情所动的、冷静的',
         },
         partsOfSpeech: 'noun',
         example: "she dealt with life's disasters in a calm, dispassionate way",
@@ -8028,6 +8638,7 @@ export default [
         meaning: {
           en: 'the property of being prompt and efficient',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "She finished her thesis with dispatch, amazing her advisors who couldn't believe she had written 60 scholarly pages so quickly.",
@@ -8042,6 +8653,7 @@ export default [
         meaning: {
           en: 'drive (sth) away; cause to vanish',
           zh_TW: '驅散、消除',
+          zh_CN: '驱散、消除',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -8056,6 +8668,7 @@ export default [
         meaning: {
           en: 'exemption from a rule or usual requirement',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'although she was too young, she was given special dispensation to play two matches',
@@ -8064,6 +8677,7 @@ export default [
         meaning: {
           en: 'a system of order, government, or organization of a nation, community, etc., especially as existing at a particular time',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'scholarship is conveyed to a wider audience than under the old dispensation',
@@ -8078,6 +8692,7 @@ export default [
         meaning: {
           en: 'go in different directions; scatter; break up',
           zh_TW: '消散、驅散',
+          zh_CN: '消散、驱散',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -8092,6 +8707,7 @@ export default [
         meaning: {
           en: 'too large or too small in comparison with something else',
           zh_TW: '不成比例的、不相稱的',
+          zh_CN: '不成比例的、不相称的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -8106,6 +8722,7 @@ export default [
         meaning: {
           en: 'cause disorder in',
           zh_TW: '使分裂、使瓦解',
+          zh_CN: '使分裂、使瓦解',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -8120,6 +8737,7 @@ export default [
         meaning: {
           en: "conceal one's true motives, usually through deceit",
           zh_TW: '掩飾、假裝',
+          zh_CN: '掩饰、假装',
         },
         partsOfSpeech: 'verb',
         example:
@@ -8135,6 +8753,7 @@ export default [
         meaning: {
           en: 'cause to become widely known',
           zh_TW: '散步、傳播',
+          zh_CN: '散步、传播',
         },
         partsOfSpeech: 'verb',
         example: 'Before the effects of anesthesia were disseminated, patients had to experience the full pain of a surgery',
@@ -8149,6 +8768,7 @@ export default [
         meaning: {
           en: 'squander or spend money frivolously',
           zh_TW: '使驅散、浪費',
+          zh_CN: '使驱散、浪费',
         },
         partsOfSpeech: 'verb',
         example: 'The recent graduates dissipated their earnings on trips to Las Vegas and cruises in Mexico',
@@ -8163,6 +8783,7 @@ export default [
         meaning: {
           en: 'a living full of debauchery and indulgence in sensual pleasure',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Many Roman emperors were known for their dissolution, indulging in unspeakable desires of the flesh',
@@ -8177,6 +8798,7 @@ export default [
         meaning: {
           en: 'lack of harmony among musical notes',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'an unusual degree of dissonance for such choral styles',
@@ -8185,6 +8807,7 @@ export default [
         meaning: {
           en: 'a tension or clash resulting from the combination of two disharmonious or unsuitable elements',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'dissonance between campaign rhetoric and personal behavior',
@@ -8199,6 +8822,7 @@ export default [
         meaning: {
           en: 'not harmonious; discordant',
           zh_TW: '不和諧的、不一致的',
+          zh_CN: '不和谐的、不一致的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -8213,6 +8837,7 @@ export default [
         meaning: {
           en: 'distorting or being distorted',
           zh_TW: '扭曲、曲解',
+          zh_CN: '扭曲、曲解',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -8227,6 +8852,7 @@ export default [
         meaning: {
           en: 'tending to be different or develop in different directions',
           zh_TW: '分歧的、相異的',
+          zh_CN: '分歧的、相异的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -8241,6 +8867,7 @@ export default [
         meaning: {
           en: 'tending to be different or develop in different directions',
           zh_TW: '分歧的、相異的',
+          zh_CN: '分歧的、相异的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -8255,6 +8882,7 @@ export default [
         meaning: {
           en: 'ready to accept control or instruction; submissive',
           zh_TW: '馴服的、易駕馭的',
+          zh_CN: '驯服的、易驾驭的',
         },
         partsOfSpeech: 'adjective',
         example: 'a cheap and docile workforce',
@@ -8269,6 +8897,7 @@ export default [
         meaning: {
           en: 'seeking to impose a doctrine in all circumstances without regard to practical considerations',
           zh_TW: '教條的、迂腐的',
+          zh_CN: '教条的、迂腐的',
         },
         partsOfSpeech: 'adjective',
         example: 'a doctrinaire economic policy',
@@ -8277,6 +8906,7 @@ export default [
         meaning: {
           en: 'a person who seeks to impose a doctrine without regard to practical considerations',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -8291,6 +8921,7 @@ export default [
         meaning: {
           en: 'highly opinionated, not accepting that your belief may not be correct',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Bryan is dogmatic in his belief that the earth is flat, claiming that all pictures of a spherical earth are computer generated',
@@ -8305,6 +8936,7 @@ export default [
         meaning: {
           en: '(quality of) being dogmatic',
           zh_TW: '教條主義',
+          zh_CN: '教条主义',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -8319,6 +8951,7 @@ export default [
         meaning: {
           en: 'filled with or evoking sadness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -8334,6 +8967,7 @@ export default [
         meaning: {
           en: 'feeling or expressing great sorrow or distress',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a dolorous and repetitive tale of atrocity',
@@ -8348,6 +8982,7 @@ export default [
         meaning: {
           en: 'temporarily inactive',
           zh_TW: '休眠的、靜止的',
+          zh_CN: '休眠的、静止的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -8362,6 +8997,7 @@ export default [
         meaning: {
           en: 'brave and persistent',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'his doughty spirit kept him going',
@@ -8376,6 +9012,7 @@ export default [
         meaning: {
           en: 'fit together tightly, as if by means of an interlocking joint',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "Although Darwin's evolution and Mendel's genetics were developed in isolation from one another, they dovetail very well.",
@@ -8390,6 +9027,7 @@ export default [
         meaning: {
           en: 'debase; lower',
           zh_TW: '將...輕描淡寫',
+          zh_CN: '將...轻描淡写',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -8404,6 +9042,7 @@ export default [
         meaning: {
           en: 'not certain and slightly suspicious about sth; doubtful',
           zh_TW: '懷疑的、不確定的',
+          zh_CN: '怀疑的、不確定的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -8418,6 +9057,7 @@ export default [
         meaning: {
           en: 'deceive; trick',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the newspaper was duped into publishing an untrue story',
@@ -8426,6 +9066,7 @@ export default [
         meaning: {
           en: 'a victim of deception',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'knowing accomplices or unknowing dupes',
@@ -8440,6 +9081,7 @@ export default [
         meaning: {
           en: 'exactly like something else; identical',
           zh_TW: '完全一樣的、複製的、副本的',
+          zh_CN: '完全一样的、复製的、副本的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -8454,6 +9096,7 @@ export default [
         meaning: {
           en: 'deceitful',
           zh_TW: '搞兩面派的、奸詐的 [duplicity:] duplicitous adjective',
+          zh_CN: '搞两面派的、奸诈的 [duplicity:] duplicitous adjective',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -8468,6 +9111,7 @@ export default [
         meaning: {
           en: 'deceitfulness, pretending to want one thing but interested in something else',
           zh_TW: '欺騙行為、奸詐行徑',
+          zh_CN: '欺骗行为、奸诈行径',
         },
         partsOfSpeech: 'noun',
         example: 'A life of espionage is one of duplicity: an agent must pretend to be a totally different person than who she or he actually is',
@@ -8482,6 +9126,7 @@ export default [
         meaning: {
           en: 'threats, violence, constraints, or other action brought to bear on someone to do something against their will or better judgment',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'confessions extracted under duress',
@@ -8496,6 +9141,7 @@ export default [
         meaning: {
           en: 'diminish gradually in size, amount, or strength',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'traffic has dwindled to a trickle',
@@ -8510,6 +9156,7 @@ export default [
         meaning: {
           en: '(of the tide) go out; recede',
           zh_TW: '退潮、衰退',
+          zh_CN: '退潮、衰退',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -8524,6 +9171,7 @@ export default [
         meaning: {
           en: 'cheerful and full of energy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she sounded ebullient and happy',
@@ -8538,6 +9186,7 @@ export default [
         meaning: {
           en: '(of a person or their behavior) unconventional and slightly strange',
           zh_TW: '古怪的、反常的',
+          zh_CN: '古怪的、反常的',
         },
         partsOfSpeech: 'adjective',
         example: 'my favorite aunt is very eccentric',
@@ -8546,6 +9195,7 @@ export default [
         meaning: {
           en: 'a person of unconventional and slightly strange views or behavior',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he enjoys a colorful reputation as an engaging eccentric',
@@ -8560,6 +9210,7 @@ export default [
         meaning: {
           en: 'comprised of a variety of styles',
           zh_TW: '折衷的、綜合性的',
+          zh_CN: '折衷的、综合性的',
         },
         partsOfSpeech: 'adjective',
         example: 'Joey was known for his eclectic tastes in music, one moment dancing to disco the next "air conducting" along to Beethoven\'s 9th symphony',
@@ -8574,6 +9225,7 @@ export default [
         meaning: {
           en: "blocking of the light of the sun or of the moon ( where the earth's shadow falls on it)",
           zh_TW: '日蝕、月蝕、黯然失色、衰退',
+          zh_CN: '日蚀、月蚀、黯然失色、衰退',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -8588,6 +9240,7 @@ export default [
         meaning: {
           en: 'giving good value or service in relation to the amount of money, time, or effort spent',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a small, economical car',
@@ -8602,6 +9255,7 @@ export default [
         meaning: {
           en: 'causing or showing ecstasy',
           zh_TW: '狂喜的、心花怒放的',
+          zh_CN: '狂喜的、心花怒放的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -8616,6 +9270,7 @@ export default [
         meaning: {
           en: 'instruct or improve (someone) morally or intellectually',
           zh_TW: '教化、訓誨 [類] didactic (教化的)',
+          zh_CN: '教化、训诲 [类] didactic (教化的)',
         },
         partsOfSpeech: 'verb',
         example: 'Rachel had edified their childhood with frequent readings from Belloc',
@@ -8630,6 +9285,7 @@ export default [
         meaning: {
           en: 'providing moral or intellectual instruction',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'edifying literature',
@@ -8644,6 +9300,7 @@ export default [
         meaning: {
           en: 'marked by high spirits or excitement',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'After the sales result, the manager was in an effervescent mood, letting several employees leave work early that day',
@@ -8658,6 +9315,7 @@ export default [
         meaning: {
           en: 'affected and overly refined',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'effete trendies from art college',
@@ -8666,6 +9324,7 @@ export default [
         meaning: {
           en: 'no longer capable of effective action',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the authority of an effete aristocracy began to dwindle',
@@ -8680,6 +9339,7 @@ export default [
         meaning: {
           en: '(of something inanimate or abstract) successful in producing a desired or intended result; effective',
           zh_TW: '有效的、靈驗的',
+          zh_CN: '有效的、灵验的',
         },
         partsOfSpeech: 'adjective',
         example: 'the vaccine has proved both efficacious and safe',
@@ -8694,6 +9354,7 @@ export default [
         meaning: {
           en: 'the ability to produce a desired or intended result',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'there is little information on the efficacy of this treatment',
@@ -8708,6 +9369,7 @@ export default [
         meaning: {
           en: 'insolent or impertinent behavior',
           zh_TW: '厚顏無恥、魯莽',
+          zh_CN: '厚顏无耻、鲁莽',
         },
         partsOfSpeech: 'noun',
         example: "one juror had the effrontery to challenge the coroner's decision",
@@ -8722,6 +9384,7 @@ export default [
         meaning: {
           en: 'showing (too much) feeling; too emotional',
           zh_TW: '熱情的、感情洋溢的 [類] gushy [反] reticent(沈默的)',
+          zh_CN: '热情的、感情洋溢的 [类] gushy [反] reticent(沈默的)',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -8736,6 +9399,7 @@ export default [
         meaning: {
           en: 'adj showing or holding a belief in equal rights, benefits, and opportunities for everybody',
           zh_TW: '主張人人平等的',
+          zh_CN: '主张人人平等的',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -8750,6 +9414,7 @@ export default [
         meaning: {
           en: 'a conceited and self-centered person',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'An egotist, Natasha had few friends because of her inability to talk about anything except her dream of becoming the next American Idol',
@@ -8764,6 +9429,7 @@ export default [
         meaning: {
           en: 'outstandingly bad; shocking',
           zh_TW: '惡劣的 [類] flagrant',
+          zh_CN: '恶劣的 [类] flagrant',
         },
         partsOfSpeech: 'adjective',
         example: 'egregious abuses of copyright',
@@ -8778,6 +9444,7 @@ export default [
         meaning: {
           en: 'To live off meager resources, to scrape by',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Stranded in a cabin over the winter, Terry was able to eke out an existence on canned food',
@@ -8792,6 +9459,7 @@ export default [
         meaning: {
           en: 'involving many carefully arranged parts or details; detailed and complicated in design and planning',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'elaborate security precautions',
@@ -8800,6 +9468,7 @@ export default [
         meaning: {
           en: 'develop or present (a theory, policy, or system) in detail',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the key idea of the book is expressed in the title and elaborated in the text',
@@ -8814,6 +9483,7 @@ export default [
         meaning: {
           en: 'expressing sorrow',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Few can listen to the elegiac opening bars of the Moonlight sonata without feeling the urge to cry',
@@ -8828,6 +9498,7 @@ export default [
         meaning: {
           en: 'a poem of serious reflection, typically a lament for the dead',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -8836,6 +9507,7 @@ export default [
         meaning: {
           en: '(in Greek and Roman poetry) a poem written in elegiac couplets, as notably by Catullus and Propertius',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -8850,6 +9522,7 @@ export default [
         meaning: {
           en: "evoke or draw out (a response, answer, or fact) from someone in reaction to one's own actions or questions",
           zh_TW: '引出、誘出、試探出（尤指資訊/反應）',
+          zh_CN: '引出、诱出、试探出（尤指资讯/反应）',
         },
         partsOfSpeech: 'verb',
         example: 'they invariably elicit exclamations of approval from guests',
@@ -8864,6 +9537,7 @@ export default [
         meaning: {
           en: 'expressive language, esp to impress or persuade an audience',
           zh_TW: '雄辯、口才',
+          zh_CN: '雄辩、口才',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -8878,6 +9552,7 @@ export default [
         meaning: {
           en: 'make (something) clear; explain',
           zh_TW: '闡明、說明',
+          zh_CN: '阐明、说明',
         },
         partsOfSpeech: 'verb',
         example: 'work such as theirs will help to elucidate this matter',
@@ -8892,6 +9567,7 @@ export default [
         meaning: {
           en: 'escape understanding',
           zh_TW: '逃避、躲避',
+          zh_CN: '逃避、躲避',
         },
         partsOfSpeech: 'verb',
         example:
@@ -8907,6 +9583,7 @@ export default [
         meaning: {
           en: 'difficult to find, catch, or achieve',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'success will become ever more elusive',
@@ -8921,6 +9598,7 @@ export default [
         meaning: {
           en: 'from sth/sb come or flow from sth/sb',
           zh_TW: '散發、發出',
+          zh_CN: '散发、发出',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -8935,6 +9613,7 @@ export default [
         meaning: {
           en: 'make more attractive by adding ornament, colour, etc.; make more beautiful',
           zh_TW: '美化、裝飾',
+          zh_CN: '美化、装饰',
         },
         partsOfSpeech: 'verb',
         example: 'McCartney would write relatively straightforward lyrics, and Lennon would embellish them with puns and poetic images',
@@ -8949,6 +9628,7 @@ export default [
         meaning: {
           en: 'sth (in sth) (fml) express or give visible form to (ideas, feelings, etc)',
           zh_TW: '具體實現、體現',
+          zh_CN: '具体实现、体现',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -8963,6 +9643,7 @@ export default [
         meaning: {
           en: 'involve (someone) deeply in an argument, conflict, or difficult situation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'she became embroiled in a dispute between two women she hardly knew',
@@ -8977,6 +9658,7 @@ export default [
         meaning: {
           en: 'relating to an embryo',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'slight differences in embryonic development',
@@ -8985,6 +9667,7 @@ export default [
         meaning: {
           en: '(of a system, idea, or organization) in a rudimentary stage with potential for further development',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the plan is still in its embryonic stages',
@@ -8999,6 +9682,7 @@ export default [
         meaning: {
           en: 'remove errors from',
           zh_TW: '校訂、修改',
+          zh_CN: '校订、修改',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -9013,6 +9697,7 @@ export default [
         meaning: {
           en: 'state of being famous or distinguished',
           zh_TW: '卓越、顯赫、著名',
+          zh_CN: '卓越、显赫、著名',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9027,6 +9712,7 @@ export default [
         meaning: {
           en: 'standing above others in quality or position',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Shakespeare is an eminent author in the English language, but I find his writing uninteresting and melodramatic',
@@ -9041,6 +9727,7 @@ export default [
         meaning: {
           en: 'showing an ability to understand and share the feelings of another',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "she's compassionate and empathetic towards her daughter",
@@ -9055,6 +9742,7 @@ export default [
         meaning: {
           en: "ability to imagine and share another person's feelings, experience, etc",
           zh_TW: '同理',
+          zh_CN: '同理',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9069,6 +9757,7 @@ export default [
         meaning: {
           en: 'based on, concerned with, or verifiable by observation or experience rather than theory or pure logic',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'they provided considerable empirical evidence to support their argument',
@@ -9083,6 +9772,7 @@ export default [
         meaning: {
           en: 'the theory that all knowledge is derived from sense-experience. Stimulated by the rise of experimental science',
           zh_TW: '經驗主義、經驗論',
+          zh_CN: '经验主义、经验论',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9097,6 +9787,7 @@ export default [
         meaning: {
           en: 'match or surpass (a person or achievement), typically by imitation',
           zh_TW: '效法',
+          zh_CN: '效法',
         },
         partsOfSpeech: 'verb',
         example: 'lesser men trying to emulate his greatness',
@@ -9105,6 +9796,7 @@ export default [
         meaning: {
           en: 'imitate',
           zh_TW: '模仿',
+          zh_CN: '模仿',
         },
         partsOfSpeech: 'verb',
         example: 'hers is not a hairstyle I wish to emulate',
@@ -9119,6 +9811,7 @@ export default [
         meaning: {
           en: 'be filled with a feeling of love for',
           zh_TW: '迷戀的',
+          zh_CN: '迷恋的',
         },
         partsOfSpeech: 'verb',
         example: 'it is not difficult to see why Edward is enamored of her',
@@ -9133,6 +9826,7 @@ export default [
         meaning: {
           en: 'the action of enclosing something in or as if in a capsule',
           zh_TW: '概括',
+          zh_CN: '概括',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9147,6 +9841,7 @@ export default [
         meaning: {
           en: '(fml) very high praise in speech or writing',
           zh_TW: '誇獎、讚揚 [類] eulogy, panegyric(頌揚的) [反] diatribe(惡罵、誹謗)',
+          zh_CN: '夸奖、讚扬 [类] eulogy, panegyric(颂扬的) [反] diatribe(恶骂、誹谤)',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9161,6 +9856,7 @@ export default [
         meaning: {
           en: 'restrict or burden (someone or something) in such a way that free action or movement is difficult',
           zh_TW: '妨礙、拖累',
+          zh_CN: '妨碍、拖累',
         },
         partsOfSpeech: 'verb',
         example: 'she was encumbered by her heavy skirts',
@@ -9175,6 +9871,7 @@ export default [
         meaning: {
           en: '(of a disease) regularly occurring within an area or community',
           zh_TW: '(疾病等)地方性的、當地的',
+          zh_CN: '(疾病等)地方性的、当地的',
         },
         partsOfSpeech: 'adjective',
         example: 'areas where malaria is endemic',
@@ -9183,6 +9880,7 @@ export default [
         meaning: {
           en: '(of a plant or animal) native and restricted to a certain place',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a marsupial endemic to northeastern Australia',
@@ -9191,6 +9889,7 @@ export default [
         meaning: {
           en: 'an endemic plant or animal',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'there are three types of island endemics',
@@ -9205,6 +9904,7 @@ export default [
         meaning: {
           en: "write one's name on the back of",
           zh_TW: '背書(在支票背面簽名)、贊同',
+          zh_CN: '背书(在支票背面签名)、赞同',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -9219,6 +9919,7 @@ export default [
         meaning: {
           en: 'suffer or undergo patiently',
           zh_TW: '忍受、忍耐',
+          zh_CN: '忍受、忍耐',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -9233,6 +9934,7 @@ export default [
         meaning: {
           en: 'cause (someone) to feel drained of energy or vitality; weaken',
           zh_TW: '使衰弱',
+          zh_CN: '使衰弱',
         },
         partsOfSpeech: 'verb',
         example: 'the heat enervated us all',
@@ -9241,6 +9943,7 @@ export default [
         meaning: {
           en: 'lacking in energy or vitality',
           zh_TW: '使失去活力',
+          zh_CN: '使失去活力',
         },
         partsOfSpeech: 'adjective',
         example: 'the enervate slightness of his frail form',
@@ -9255,6 +9958,7 @@ export default [
         meaning: {
           en: 'restrain (someone) as if with shackles',
           zh_TW: '束縛、上腳鐐',
+          zh_CN: '束缚、上脚镣',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -9269,6 +9973,7 @@ export default [
         meaning: {
           en: 'cause or give rise to (a feeling, situation, or condition)',
           zh_TW: '使產生、引起',
+          zh_CN: '使產生、引起',
         },
         partsOfSpeech: 'verb',
         example: 'the issue engendered continuing controversy',
@@ -9283,6 +9988,7 @@ export default [
         meaning: {
           en: 'question, person, thing, circumstance, etc that is difficult to understand; mystery',
           zh_TW: '難以理解的事物、謎 [類] conundrum',
+          zh_CN: '难以理解的事物、谜 [类] conundrum',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9297,6 +10003,7 @@ export default [
         meaning: {
           en: 'instruct or urge (someone) to do something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the code enjoined members to trade fairly',
@@ -9311,6 +10018,7 @@ export default [
         meaning: {
           en: 'the state or feeling of being actively opposed or hostile to someone or something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'decades of enmity between the two countries',
@@ -9325,6 +10033,7 @@ export default [
         meaning: {
           en: 'the great or extreme scale, seriousness, or extent of something perceived as bad or morally wrong',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a thorough search disclosed the full enormity of the crime',
@@ -9339,6 +10048,7 @@ export default [
         meaning: {
           en: 'capture the fascinated attention of',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'she had been so enthralled by the adventure that she had hardly noticed the cold',
@@ -9353,6 +10063,7 @@ export default [
         meaning: {
           en: 'get someone to do something through (often false or exaggerated) promises',
           zh_TW: '引誘',
+          zh_CN: '引诱',
         },
         partsOfSpeech: 'verb',
         example: 'Harold enticed his wife, Maude, to go on a vacation to Hawaii, with promises of luaus on the beach and all-you-can-eat seafood buffets',
@@ -9367,6 +10078,7 @@ export default [
         meaning: {
           en: 'fixed firmly or securely',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'By the time we reach 60-years old, most of our habits are so entrenched that it is difficult for us to change',
@@ -9381,6 +10093,7 @@ export default [
         meaning: {
           en: 'mention (a number of things) one by one',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'there is not space to enumerate all his works',
@@ -9395,6 +10108,7 @@ export default [
         meaning: {
           en: 'to picture to oneself',
           zh_TW: '想像、預想',
+          zh_CN: '想像、预想',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -9409,6 +10123,7 @@ export default [
         meaning: {
           en: 'lasting for a very short time',
           zh_TW: '朝生暮死的、生命短暫的 [類] transitory, transient',
+          zh_CN: '朝生暮死的、生命短暂的 [类] transitory, transient',
         },
         partsOfSpeech: 'adjective',
         example: 'fashions are ephemeral',
@@ -9417,6 +10132,7 @@ export default [
         meaning: {
           en: 'an ephemeral plant',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'ephemerals avoid the periods of drought as seeds',
@@ -9431,6 +10147,7 @@ export default [
         meaning: {
           en: 'a pithy saying or remark expressing an idea in a clever and amusing way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a Wildean epigram',
@@ -9445,6 +10162,7 @@ export default [
         meaning: {
           en: 'the festival commemorating the Epiphany on January 6',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'many submerge themselves in ice water to celebrate Epiphany',
@@ -9453,6 +10171,7 @@ export default [
         meaning: {
           en: 'a manifestation of a divine or supernatural being',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'many believe this scene to represent an epiphany of the goddess',
@@ -9461,6 +10180,7 @@ export default [
         meaning: {
           en: 'a moment of sudden revelation or insight',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a few years ago, I had an epiphany',
@@ -9475,6 +10195,7 @@ export default [
         meaning: {
           en: 'thing that shows on a small scale all the characteristics of sth much larger',
           zh_TW: '典型、摘要',
+          zh_CN: '典型、摘要',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9489,6 +10210,7 @@ export default [
         meaning: {
           en: 'a person after whom a discovery, invention, place, etc., is named or thought to be named',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9503,6 +10225,7 @@ export default [
         meaning: {
           en: 'calmness of mind or temper',
           zh_TW: '鎮定、沉著 [類]composure, calm, tranquility, imperturbability, aplomb [反]anxiety',
+          zh_CN: '镇定、沉著 [类]composure, calm, tranquility, imperturbability, aplomb [反]anxiety',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9517,6 +10240,7 @@ export default [
         meaning: {
           en: 'state of being balanced',
           zh_TW: '平衡',
+          zh_CN: '平衡',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9531,6 +10255,7 @@ export default [
         meaning: {
           en: 'fair and impartial',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an equitable balance of power',
@@ -9539,6 +10264,7 @@ export default [
         meaning: {
           en: '(law) valid in equity as distinct from law',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the beneficiaries have an equitable interest in the property',
@@ -9553,6 +10279,7 @@ export default [
         meaning: {
           en: 'equal in value, amount, meaning, importance, etc',
           zh_TW: '相等的、等值的',
+          zh_CN: '相等的、等值的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -9567,6 +10294,7 @@ export default [
         meaning: {
           en: 'open to more than one interpretation; ambiguous',
           zh_TW: '模稜兩可的、不明確的',
+          zh_CN: '模稜两可的、不明確的',
         },
         partsOfSpeech: 'adjective',
         example: 'the equivocal nature of her remarks',
@@ -9575,6 +10303,7 @@ export default [
         meaning: {
           en: 'uncertain or questionable in nature',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the results of the investigation were equivocal',
@@ -9589,6 +10318,7 @@ export default [
         meaning: {
           en: 'to speak vaguely, usually with the intention to mislead or deceive',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'After Sharon brought the car home an hour after her curfew, she equivocated when her parents pointedly asked her where she had been',
@@ -9603,6 +10333,7 @@ export default [
         meaning: {
           en: 'destroy completely; put an end to',
           zh_TW: '根除、撲滅',
+          zh_CN: '根除、扑灭',
         },
         partsOfSpeech: 'verb',
         example: 'this disease has been eradicated from the world',
@@ -9617,6 +10348,7 @@ export default [
         meaning: {
           en: 'erring or straying from the proper course or standards',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "he could never forgive his daughter's errant ways",
@@ -9625,6 +10357,7 @@ export default [
         meaning: {
           en: '(ARCHAIC, LITERARY) traveling in search of adventure',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'that same lady errant',
@@ -9639,6 +10372,7 @@ export default [
         meaning: {
           en: 'not even or regular in pattern or movement; unpredictable',
           zh_TW: '反覆無常的、古怪的',
+          zh_CN: '反覆无常的、古怪的',
         },
         partsOfSpeech: 'adjective',
         example: 'her breathing was erratic',
@@ -9653,6 +10387,7 @@ export default [
         meaning: {
           en: 'not real or genuine; phony',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "The car dealer's ersatz laughter was immediately followed by a price quote, one that Shelley found highly inflated.",
@@ -9667,6 +10402,7 @@ export default [
         meaning: {
           en: 'having or showing great knowledge or learning',
           zh_TW: '博學的',
+          zh_CN: '博学的',
         },
         partsOfSpeech: 'adjective',
         example: 'Ken could turn any conversation into an erudite discussion',
@@ -9681,6 +10417,7 @@ export default [
         meaning: {
           en: 'increase or develop by successive stages; become or make (sth) more intense',
           zh_TW: '升級、擴大、上升',
+          zh_CN: '升级、扩大、上升',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -9695,6 +10432,7 @@ export default [
         meaning: {
           en: 'avoid and stay away from deliberately; stay clear of',
           zh_TW: '避開',
+          zh_CN: '避开',
         },
         partsOfSpeech: 'verb',
         example: 'Politicians are the masters of eschewing morals; academics are the masters of <strong>eschewing</strong> clarity',
@@ -9709,6 +10447,7 @@ export default [
         meaning: {
           en: 'confined to and understandable by only an enlightened inner circle',
           zh_TW: '圈內人才明白的、神秘難懂的',
+          zh_CN: '圈內人才明白的、神秘难懂的',
         },
         partsOfSpeech: 'adjective',
         example: 'Map collecting is an esoteric hobby to most, but to geography geeks it is a highly enjoyable pastime',
@@ -9723,6 +10462,7 @@ export default [
         meaning: {
           en: 'adopt or support (a cause, belief, or way of life)',
           zh_TW: '支持、擁護 [類] support, advocate',
+          zh_CN: '支持、拥护 [类] support, advocate',
         },
         partsOfSpeech: 'adjective',
         example: 'he turned his back on the modernism he had espoused in his youth',
@@ -9737,6 +10477,7 @@ export default [
         meaning: {
           en: 'worthy of great respect',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "she was shown into that estimable woman's presence",
@@ -9751,6 +10492,7 @@ export default [
         meaning: {
           en: 'extremely delicate and light in a way that seems too perfect for this world',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'her ethereal beauty',
@@ -9765,6 +10507,7 @@ export default [
         meaning: {
           en: 'use of pleasant, mild or indirect words or phrases in place of more accurate or direct ones',
           zh_TW: '委婉的說法',
+          zh_CN: '委婉的说法',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9779,6 +10522,7 @@ export default [
         meaning: {
           en: 'a feeling or state of intense excitement and happiness',
           zh_TW: '心情愉快、興奮',
+          zh_CN: '心情愉快、兴奋',
         },
         partsOfSpeech: 'noun',
         example: 'the euphoria of success will fuel your desire to continue training',
@@ -9793,6 +10537,7 @@ export default [
         meaning: {
           en: 'get or keep out of the way of',
           zh_TW: '逃避、規避',
+          zh_CN: '逃避、规避',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -9807,6 +10552,7 @@ export default [
         meaning: {
           en: 'soon passing out of sight, memory, or existence; quickly fading or disappearing',
           zh_TW: '逐漸消失的、短暫的 [類] ephemeral, transient, fugacious',
+          zh_CN: '逐渐消失的、短暂的 [类] ephemeral, transient, fugacious',
         },
         partsOfSpeech: 'adjective',
         example: 'a shimmering evanescent bubble',
@@ -9821,6 +10567,7 @@ export default [
         meaning: {
           en: 'avoiding or escaping from difficulty or danger or commitment',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'His responses were clearly evasive; he obviously did not want to take on any responsibility or any new work',
@@ -9835,6 +10582,7 @@ export default [
         meaning: {
           en: 'without partiality',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Teachers often have trouble being evenhanded to all of their varied students',
@@ -9849,6 +10597,7 @@ export default [
         meaning: {
           en: 'show clearly that one has(a feeling, quality, etc); exhibit',
           zh_TW: '表明、顯示出',
+          zh_CN: '表明、显示出',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -9863,6 +10612,7 @@ export default [
         meaning: {
           en: 'make worse',
           zh_TW: '加重、惡化',
+          zh_CN: '加重、恶化',
         },
         partsOfSpeech: 'verb',
         example: 'Her sleeplessness exacerbated her cold--when she woke up the next day, her sinuses were completely blocked',
@@ -9877,6 +10627,7 @@ export default [
         meaning: {
           en: 'requiring and demanding accuracy',
           zh_TW: '需付出極大努力的、嚴格的',
+          zh_CN: '需付出极大努力的、严格的',
         },
         partsOfSpeech: 'adjective',
         example: 'Though his childhood piano teacher was so exacting, Max is thankful now, as a professional pianist',
@@ -9891,6 +10642,7 @@ export default [
         meaning: {
           en: 'over-correctness',
           zh_TW: '正確性、精確性',
+          zh_CN: '正確性、精確性',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -9920,6 +10672,7 @@ export default [
         meaning: {
           en: 'to irritate intensely',
           zh_TW: '激怒、使惱怒',
+          zh_CN: '激怒、使恼怒',
         },
         partsOfSpeech: 'verb',
         example: 'As a child, I exasperated my mother with strings of never-ending questions',
@@ -9934,6 +10687,7 @@ export default [
         meaning: {
           en: 'make (a hole or channel) by digging; remove (soil, etc) by digging',
           zh_TW: '挖掘、挖出',
+          zh_CN: '挖掘、挖出',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -9948,6 +10702,7 @@ export default [
         meaning: {
           en: 'censure or criticize severely',
           zh_TW: '痛責、剝(皮)',
+          zh_CN: '痛责、剥(皮)',
         },
         partsOfSpeech: 'verb',
         example: 'the papers that had been excoriating him were now lauding him',
@@ -9962,6 +10717,7 @@ export default [
         meaning: {
           en: '(of an animal or a plant) pass out (waste matter, sweat, etc) from the system',
           zh_TW: '排泄、分泌',
+          zh_CN: '排泄、分泌',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -9976,6 +10732,7 @@ export default [
         meaning: {
           en: 'extremely painful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "After the boulder rolled a couple of feet, pinning my friend's arm, he experienced excruciating pain.",
@@ -9990,6 +10747,7 @@ export default [
         meaning: {
           en: 'sb (fml) free sb from blame; say that sb is not guilty',
           zh_TW: '開脫、申明無罪',
+          zh_CN: '开脱、申明无罪',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -10004,6 +10762,7 @@ export default [
         meaning: {
           en: 'feel or express great loathing for',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'they were execrated as dangerous and corrupt',
@@ -10018,6 +10777,7 @@ export default [
         meaning: {
           en: 'critical explanation or analysis, especially of a text',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -10033,6 +10793,7 @@ export default [
         meaning: {
           en: 'something to be imitated',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "Lena's homework is on the wall because it is an exemplar of clean, neat, and thoughtful work.",
@@ -10047,6 +10808,7 @@ export default [
         meaning: {
           en: 'be a typical example of',
           zh_TW: '是...的典型',
+          zh_CN: '是...的典型',
         },
         partsOfSpeech: 'verb',
         example: 'rock bands that best exemplify the spirit of the age',
@@ -10061,6 +10823,7 @@ export default [
         meaning: {
           en: 'make feel very happy or lively',
           zh_TW: '使振奮、使高興',
+          zh_CN: '使振奋、使高兴',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -10075,6 +10838,7 @@ export default [
         meaning: {
           en: 'strongly encourage or urge (someone) to do something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Come on, you guys,” exhorted Linda',
@@ -10089,6 +10853,7 @@ export default [
         meaning: {
           en: 'requiring immediate action; urgent',
           zh_TW: '緊急的、要求多的 [類] critical,acute',
+          zh_CN: '紧急的、要求多的 [类] critical,acute',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10103,6 +10868,7 @@ export default [
         meaning: {
           en: 'the quality of being meager',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "After two months at sea, the exiguity of the ship's supplies forced them to search for fresh water and food.",
@@ -10117,6 +10883,7 @@ export default [
         meaning: {
           en: 'very small (in amount); scanty',
           zh_TW: '非常少的 [類] scanty, meager',
+          zh_CN: '非常少的 [类] scanty, meager',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10131,6 +10898,7 @@ export default [
         meaning: {
           en: 'pronounce not guilty of criminal charges',
           zh_TW: '免除責任、宣布無罪',
+          zh_CN: '免除责任、宣布无罪',
         },
         partsOfSpeech: 'verb',
         example: 'The document clearly indicated that Nick was out of the state at the time of the crime, and so served to exonerate him of any charges',
@@ -10145,6 +10913,7 @@ export default [
         meaning: {
           en: '(of a price or amount charged) unreasonably high',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the exorbitant price of tickets',
@@ -10159,6 +10928,7 @@ export default [
         meaning: {
           en: 'drive out evil spirits',
           zh_TW: '驅魔、除去(壞念頭)',
+          zh_CN: '驱魔、除去(坏念头)',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -10173,6 +10943,7 @@ export default [
         meaning: {
           en: 'covering a wide area in terms of space or scope; extensive or wide-ranging',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'deep, expansive canyons',
@@ -10181,6 +10952,7 @@ export default [
         meaning: {
           en: '(of a person or their manner) open, demonstrative, and communicative',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she felt expansive and inclined to talk',
@@ -10195,6 +10967,7 @@ export default [
         meaning: {
           en: 'useful, helpful or advisable for a particular purpose, though not necessarily fair or moral',
           zh_TW: '方便的、權宜的',
+          zh_CN: '方便的、权宜的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10209,6 +10982,7 @@ export default [
         meaning: {
           en: '(of a statement, etc) clearly and fully expressed',
           zh_TW: '詳盡的、清楚的、明確的',
+          zh_CN: '详尽的、清楚的、明確的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10223,6 +10997,7 @@ export default [
         meaning: {
           en: 'present and explain (a theory or idea) systematically and in detail',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he was expounding a powerful argument',
@@ -10231,6 +11006,7 @@ export default [
         meaning: {
           en: 'explain the meaning of (a literary or doctrinal work)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the abbess expounded the scriptures to her nuns',
@@ -10245,6 +11021,7 @@ export default [
         meaning: {
           en: 'erase or remove completely (something unwanted or unpleasant)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'I’ve kind of expunged that period from my CV',
@@ -10259,6 +11036,7 @@ export default [
         meaning: {
           en: 'to remove objectionable material',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "The censor expurgated every reference to sex and drugs, converting the rapper's raunchy flow into a series of bleeps.",
@@ -10273,6 +11051,7 @@ export default [
         meaning: {
           en: '(especially of a document) still in existence; surviving',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the original manuscript is no longer extant',
@@ -10287,6 +11066,7 @@ export default [
         meaning: {
           en: '(of a factor or situation) serving to lessen the seriousness of an offense',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'library staff will waive fines where there are genuine extenuating circumstances',
@@ -10301,6 +11081,7 @@ export default [
         meaning: {
           en: 'sb (as sth) (fml) praise (sb/sth) highly',
           zh_TW: '讚美、頌揚 [類]laud, exalt [反]lambaste(指責), pan(譴責)',
+          zh_CN: '讚美、颂扬 [类]laud, exalt [反]lambaste(指责), pan(谴责)',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -10315,6 +11096,7 @@ export default [
         meaning: {
           en: 'not belonging to or directly connected with the subject or matter being dealt with',
           zh_TW: '多餘的、無直接關係的',
+          zh_CN: '多余的、无直接关係的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10329,6 +11111,7 @@ export default [
         meaning: {
           en: 'extend the application of (a method or conclusion, especially one based on statistics) to an unknown situation by assuming that existing trends will continue or similar methods will be applicable',
           zh_TW: '推斷',
+          zh_CN: '推断',
         },
         partsOfSpeech: 'verb',
         example: 'the results cannot be extrapolated to other patient groups',
@@ -10343,6 +11126,7 @@ export default [
         meaning: {
           en: 'using or spending too much; (of actions) showing this tendency',
           zh_TW: '奢侈的、揮霍的',
+          zh_CN: '奢侈的、挥霍的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10357,6 +11141,7 @@ export default [
         meaning: {
           en: 'overflowing with happiness and excitement; very lively and cheerful',
           zh_TW: '熱情的、豐富的、繁茂的 [類] n. exuberance',
+          zh_CN: '热情的、丰富的、繁茂的 [类] n. exuberance',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10371,6 +11156,7 @@ export default [
         meaning: {
           en: '(sth) (from/through sth) (of drops of liquid, etc) come or pass out slowly; ooze out',
           zh_TW: '散發、流露',
+          zh_CN: '散发、流露',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -10385,6 +11171,7 @@ export default [
         meaning: {
           en: 'treating serious issues with deliberately inappropriate humor; flippant',
           zh_TW: '（不看場合）好開玩笑的、不合時宜的',
+          zh_CN: '（不看场合）好开玩笑的、不合时宜的',
         },
         partsOfSpeech: 'adjective',
         example: 'a facetious remark',
@@ -10399,6 +11186,7 @@ export default [
         meaning: {
           en: '(especially of a theory or argument) appearing neat and comprehensive only by ignoring the true complexities of an issue; superficial',
           zh_TW: '膚淺的',
+          zh_CN: '肤浅的',
         },
         partsOfSpeech: 'adjective',
         example: 'facile generalizations',
@@ -10407,6 +11195,7 @@ export default [
         meaning: {
           en: '(especially of success in sports) easily achieved; effortless',
           zh_TW: '容易做的',
+          zh_CN: '容易做的',
         },
         partsOfSpeech: 'adjective',
         example: 'a facile victory',
@@ -10421,6 +11210,7 @@ export default [
         meaning: {
           en: 'an ability to do or learn something well and easily; a natural aptitude',
           zh_TW: '才能、資質、容易做好事情的能力',
+          zh_CN: '才能、资质、容易做好事情的能力',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -10435,6 +11225,7 @@ export default [
         meaning: {
           en: 'produced by, or characterized by internal dissension',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The controversial bill proved factious, as dissension even within parties resulted',
@@ -10449,6 +11240,7 @@ export default [
         meaning: {
           en: 'artificially created or developed',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a largely factitious national identity',
@@ -10463,6 +11255,7 @@ export default [
         meaning: {
           en: 'based on a mistaken belief',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'fallacious arguments',
@@ -10477,6 +11270,7 @@ export default [
         meaning: {
           en: '(of a person or their thoughts and ideas) overimaginative and unrealistic',
           zh_TW: '幻想的、奇特的',
+          zh_CN: '幻想的、奇特的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10491,6 +11285,7 @@ export default [
         meaning: {
           en: 'very attentive to and concerned about accuracy and detail',
           zh_TW: '挑剔的、過分講究的',
+          zh_CN: '挑剔的、过分讲究的',
         },
         partsOfSpeech: 'adjective',
         example: 'he chooses his words with fastidious care',
@@ -10499,6 +11294,7 @@ export default [
         meaning: {
           en: 'very concerned about matters of cleanliness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the child seemed fastidious about getting her fingers sticky or dirty',
@@ -10513,6 +11309,7 @@ export default [
         meaning: {
           en: 'measure of the depth of water, 61.8',
           zh_TW: '噚(水深單位)、理解、了解原因 [反] a. unfathomable 難以理解的、高深莫測的',
+          zh_CN: '噚(水深单位)、理解、了解原因 [反] a. unfathomable 难以理解的、高深莫测的',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -10527,6 +11324,7 @@ export default [
         meaning: {
           en: 'a young deer in its first year',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a six-month-old roe fawn',
@@ -10535,6 +11333,7 @@ export default [
         meaning: {
           en: '(of a deer) produce young',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the forest was closed for hunting when the does were fawning',
@@ -10549,6 +11348,7 @@ export default [
         meaning: {
           en: 'lazy and irresponsible',
           zh_TW: '無效的、無能的',
+          zh_CN: '无效的、无能的',
         },
         partsOfSpeech: 'adjective',
         example: 'Two years after graduation, Charlie still lived with his parents and had no job, becoming more feckless with each passing day',
@@ -10563,6 +11363,7 @@ export default [
         meaning: {
           en: 'intellectually productive',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The artist had entered a fecund period, producing three masterpieces in the span of two months',
@@ -10577,6 +11378,7 @@ export default [
         meaning: {
           en: 'lacking physical strength, especially as a result of age or illness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'my legs are very feeble after the flu',
@@ -10585,6 +11387,7 @@ export default [
         meaning: {
           en: '(of a sound) faint',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'his voice sounded feeble and far away',
@@ -10593,6 +11396,7 @@ export default [
         meaning: {
           en: 'lacking strength of character',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she overreacted in such a feeble, juvenile way',
@@ -10607,6 +11411,7 @@ export default [
         meaning: {
           en: 'pretend',
           zh_TW: '假裝 [類] dissemble, pretend [反] a. unfeigned 真誠的',
+          zh_CN: '假装 [类] dissemble, pretend [反] a. unfeigned 真诚的',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -10621,6 +11426,7 @@ export default [
         meaning: {
           en: '(esp of words) well-chosen; apt',
           zh_TW: '(話語) 得體的、適當的',
+          zh_CN: '(话语) 得体的、適当的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10635,6 +11441,7 @@ export default [
         meaning: {
           en: 'to search for something persistently',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Ever the resourceful lexicographer, Fenton was able to ferret out the word origin of highly obscure words',
@@ -10649,6 +11456,7 @@ export default [
         meaning: {
           en: 'showing warmth and sincerity of feeling; enthusiastic; passionate',
           zh_TW: '炙熱的、熱情的',
+          zh_CN: '炙热的、热情的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10663,6 +11471,7 @@ export default [
         meaning: {
           en: 'a celebration or festival',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -10671,6 +11480,7 @@ export default [
         meaning: {
           en: 'honor or entertain (someone) lavishly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'she was an instant celebrity, feted by the media',
@@ -10685,6 +11495,7 @@ export default [
         meaning: {
           en: 'liable to sudden unpredictable change, esp. in affections or attachments',
           zh_TW: '易變的、無常的 [類] capricious',
+          zh_CN: '易变的、无常的 [类] capricious',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -10700,6 +11511,7 @@ export default [
         meaning: {
           en: 'imagined or invented; not real',
           zh_TW: '假的、虛構的',
+          zh_CN: '假的、虚构的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10714,6 +11526,7 @@ export default [
         meaning: {
           en: '(of words) used in an imaginative or a metaphorical way rather than literally',
           zh_TW: '比喻的、象徵',
+          zh_CN: '比喻的、象徵',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10728,6 +11541,7 @@ export default [
         meaning: {
           en: 'obtain (something) by devious or dishonest means',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Ted attended all the football games he could finagle tickets for',
@@ -10742,6 +11556,7 @@ export default [
         meaning: {
           en: 'a person who is passionate about a particular cause, typically inciting change and taking radical action',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a political firebrand',
@@ -10756,6 +11571,7 @@ export default [
         meaning: {
           en: 'showy, very confident and extravagant',
           zh_TW: '豔麗的、炫耀的 [類] ornate',
+          zh_CN: '艳丽的、炫耀的 [类] ornate',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10770,6 +11586,7 @@ export default [
         meaning: {
           en: 'young and inexperienced <br>\r\n<strong>noun:</strong> any new participant in some activity',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective\r\n<strong>noun:</strong> any new participant in some activity',
         example: 'Murray has years of experience in family practice, but he is just a fledgling in surgery',
@@ -10784,6 +11601,7 @@ export default [
         meaning: {
           en: 'the woolly covering of a sheep or goat',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'as the sheep came on board, we grabbed their long shaggy fleeces',
@@ -10792,6 +11610,7 @@ export default [
         meaning: {
           en: 'cover as if with a fleece',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the sky was half blue, half fleeced with white clouds',
@@ -10806,6 +11625,7 @@ export default [
         meaning: {
           en: 'passing quickly; lasting only a short time',
           zh_TW: '轉瞬的、短暫的',
+          zh_CN: '转瞬的、短暂的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -10820,6 +11640,7 @@ export default [
         meaning: {
           en: 'not showing a serious or respectful attitude',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a flippant remark',
@@ -10834,6 +11655,7 @@ export default [
         meaning: {
           en: 'behave awkwardly; have difficulties',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Sylvia has excelled at advanced calculus, but ironically, when she has to deal with taxes, she flounders',
@@ -10848,6 +11670,7 @@ export default [
         meaning: {
           en: 'disobey openly and scornfully',
           zh_TW: '藐視、輕蔑、嘲笑',
+          zh_CN: '藐视、轻蔑、嘲笑',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -10862,6 +11685,7 @@ export default [
         meaning: {
           en: '(of a price, number, rate, etc) rise and fall; change irregularly',
           zh_TW: '波動、變動',
+          zh_CN: '波动、变动',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -10876,6 +11700,7 @@ export default [
         meaning: {
           en: 'perplex (someone) greatly; bewilder',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he was completely flummoxed by the question',
@@ -10890,6 +11715,7 @@ export default [
         meaning: {
           en: "(of a person's skin, face, etc.) become red and hot, typically as the result of illness or strong emotion",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Mr. Cunningham flushed angrily',
@@ -10898,6 +11724,7 @@ export default [
         meaning: {
           en: '(something, especially a toilet) by causing large quantities of water to pass through it',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the nurse flushed out the catheter',
@@ -10906,6 +11733,7 @@ export default [
         meaning: {
           en: 'drive (a bird, especially a game bird, or an animal) from its cover',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the grouse were flushed from the woods',
@@ -10914,6 +11742,7 @@ export default [
         meaning: {
           en: 'a reddening of the face, skin, etc., typically caused by illness or strong emotion',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -10922,6 +11751,7 @@ export default [
         meaning: {
           en: 'a sudden rush of intense emotion',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'I was carried away in a flush of enthusiasm',
@@ -10936,6 +11766,7 @@ export default [
         meaning: {
           en: 'the action or process of flowing or flowing out',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the flux of men and women moving back and forth',
@@ -10944,6 +11775,7 @@ export default [
         meaning: {
           en: '(medicine) an abnormal discharge of blood or other matter from or within the body',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -10952,6 +11784,7 @@ export default [
         meaning: {
           en: 'continuous change',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'since the fall of the wall Berlin has been a city in flux',
@@ -10960,6 +11793,7 @@ export default [
         meaning: {
           en: 'treat (a metal object) with a flux to promote melting',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -10974,6 +11808,7 @@ export default [
         meaning: {
           en: 'a behavioral attribute that is distinctive and peculiar to an individual',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -10989,6 +11824,7 @@ export default [
         meaning: {
           en: 'try to stir up public opinion',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'After having his pay cut, Phil spread vicious rumors about his boss, hoping to foment a general feeling of discontent',
@@ -11003,6 +11839,7 @@ export default [
         meaning: {
           en: 'marked by defiant disregard for danger or consequences',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The police regularly face dangerous situations, so for a police officer not to wear his bullet-proof vest is foolhardy',
@@ -11017,6 +11854,7 @@ export default [
         meaning: {
           en: 'food for horses and cattle',
           zh_TW: '糧草、搜尋、掠奪',
+          zh_CN: '粮草、搜寻、掠夺',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -11031,6 +11869,7 @@ export default [
         meaning: {
           en: 'forbearance',
           zh_TW: '忍耐、抑制',
+          zh_CN: '忍耐、抑制',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -11045,6 +11884,7 @@ export default [
         meaning: {
           en: 'looking unfriendly; stern; threatening',
           zh_TW: '可怕的(外貌)',
+          zh_CN: '可怕的(外貌)',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -11059,6 +11899,7 @@ export default [
         meaning: {
           en: 'be a sign or warning of',
           zh_TW: '預示、預兆 [類] presage',
+          zh_CN: '预示、预兆 [类] presage',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -11073,6 +11914,7 @@ export default [
         meaning: {
           en: 'act before so as to prevent him from doing sth',
           zh_TW: '先發制人、預先阻止',
+          zh_CN: '先发制人、预先阻止',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -11087,6 +11929,7 @@ export default [
         meaning: {
           en: 'lose or give up (sth) as a consequence of or punishment for having done sth wrong, or in order to achieve sth',
           zh_TW: '喪失、被罰沒收',
+          zh_CN: '丧失、被罚没收',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -11101,6 +11944,7 @@ export default [
         meaning: {
           en: 'marked by or showing hopelessness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'After her third pet dog died, Marcia was simply forlorn: this time even the possibility of buying a new dog no longer held any joy',
@@ -11115,6 +11959,7 @@ export default [
         meaning: {
           en: "having an important and lasting influence on the development of sb's character",
           zh_TW: '形成的、構成的 [類] n. formulation 規劃、構想、公式化',
+          zh_CN: '形成的、构成的 [类] n. formulation 规划、构想、公式化',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -11129,6 +11974,7 @@ export default [
         meaning: {
           en: 'available when required or as promised',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -11144,6 +11990,7 @@ export default [
         meaning: {
           en: '(of a person or their manner or speech) direct and outspoken; straightforward and honest',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'his most forthright attack yet on the reforms',
@@ -11158,6 +12005,7 @@ export default [
         meaning: {
           en: 'occurring by happy chance; having no cause or apparent cause',
           zh_TW: '偶然的',
+          zh_CN: '偶然的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -11173,6 +12021,7 @@ export default [
         meaning: {
           en: 'help the growth or development of (sth); encourage or promote',
           zh_TW: '促進、鼓勵、養育',
+          zh_CN: '促进、鼓励、养育',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -11187,6 +12036,7 @@ export default [
         meaning: {
           en: '(of a ship) fill with water and sink',
           zh_TW: '船沈沒、失敗',
+          zh_CN: '船沈没、失败',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -11201,6 +12051,7 @@ export default [
         meaning: {
           en: '(typically of children) irritable and quarrelsome',
           zh_TW: '(脾氣)易怒的、好爭吵的',
+          zh_CN: '(脾气)易怒的、好爭吵的',
         },
         partsOfSpeech: 'adjective',
         example: 'they fight and squabble like fractious children',
@@ -11209,6 +12060,7 @@ export default [
         meaning: {
           en: '(of a group or organization) difficult to control; unruly',
           zh_TW: '難以對待的',
+          zh_CN: '难以对待的',
         },
         partsOfSpeech: 'adjective',
         example: 'the notoriously fractious resistance groups are declaring alliances to bolster their collective power',
@@ -11223,6 +12075,7 @@ export default [
         meaning: {
           en: 'deceitful or dishonest',
           zh_TW: '欺騙的、不誠實的',
+          zh_CN: '欺骗的、不诚实的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -11237,6 +12090,7 @@ export default [
         meaning: {
           en: 'not having any serious purpose or value',
           zh_TW: '草率的',
+          zh_CN: '草率的',
         },
         partsOfSpeech: 'adjective',
         example: 'rules to stop frivolous lawsuits',
@@ -11245,6 +12099,7 @@ export default [
         meaning: {
           en: '(of a person) carefree and not serious',
           zh_TW: '輕浮的',
+          zh_CN: '轻浮的',
         },
         partsOfSpeech: 'adjective',
         example: 'the frivolous, fun-loving flappers of the twenties',
@@ -11259,6 +12114,7 @@ export default [
         meaning: {
           en: 'not spending much money (but spending wisely)',
           zh_TW: '節約的、簡樸的 [類] thrifty, economical, sparing [反] profligate, extravagant',
+          zh_CN: '节约的、简朴的 [类] thrifty, economical, sparing [反] profligate, extravagant',
         },
         partsOfSpeech: 'adjective',
         example: 'Monte was no miser, but was simply frugal, wisely spending the little that he earned',
@@ -11273,6 +12129,7 @@ export default [
         meaning: {
           en: 'hinder or prevent (the efforts, plans, or desires) of',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'I thought I would finish writing the paper by lunchtime, but a number of urgent interruptions served to frustrate my plan',
@@ -11287,6 +12144,7 @@ export default [
         meaning: {
           en: 'person who is running away or escaping',
           zh_TW: '短暫的、逃犯',
+          zh_CN: '短暂的、逃犯',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -11301,6 +12159,7 @@ export default [
         meaning: {
           en: 'protest strongly and loudly',
           zh_TW: '大聲斥責',
+          zh_CN: '大声斥责',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -11315,6 +12174,7 @@ export default [
         meaning: {
           en: 'attempting to avoid notice or attention, typically because of guilt or a belief that discovery would lead to trouble; secretive',
           zh_TW: '秘密的、鬼鬼祟祟的 [類] surreptitious, stealthy, sneaky, shifty',
+          zh_CN: '秘密的、鬼鬼祟祟的 [类] surreptitious, stealthy, sneaky, shifty',
         },
         partsOfSpeech: 'adjective',
         example: 'they spent a furtive day together',
@@ -11323,6 +12183,7 @@ export default [
         meaning: {
           en: 'suggestive of guilty nervousness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the look in his eyes became furtive',
@@ -11337,6 +12198,7 @@ export default [
         meaning: {
           en: 'producing no result or effect; unproductive of success',
           zh_TW: '無意的、無用的',
+          zh_CN: '无意的、无用的',
         },
         partsOfSpeech: 'adjective',
         example: 'I thought I could repair the car myself, but after two days of work with no success, I have to admit that my efforts were futile',
@@ -11351,6 +12213,7 @@ export default [
         meaning: {
           en: 'an unintentional act or remark causing embarrassment to its originator; a blunder',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'an unforgivable social gaffe',
@@ -11365,6 +12228,7 @@ export default [
         meaning: {
           en: 'deny or contradict (a fact or statement)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the impact of the railroads cannot be gainsaid',
@@ -11379,6 +12243,7 @@ export default [
         meaning: {
           en: 'the trait of being rude and impertinent',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -11394,6 +12259,7 @@ export default [
         meaning: {
           en: 'shock or excite (someone) into taking action',
           zh_TW: '刺激、激勵、促使、鍍鋅',
+          zh_CN: '刺激、激励、促使、镀锌',
         },
         partsOfSpeech: 'verb',
         example: 'the urgency of his voice galvanized them into action',
@@ -11402,6 +12268,7 @@ export default [
         meaning: {
           en: 'galvanized steel sheeting, as used for roofing or fencing',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "the rain was beating hard against Miss Orilie's galvanize",
@@ -11416,6 +12283,7 @@ export default [
         meaning: {
           en: 'a maneuver or risk in a game or conversation, designed to secure an advantage',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "Randy played a gambit, telling his boss that he would leave at the end of the week if he didn't get a raise.",
@@ -11430,6 +12298,7 @@ export default [
         meaning: {
           en: 'full of trivial conversation',
           zh_TW: '喋喋不休的 [類] talkative, loquacious, voluble, verbose [反] taciturn, reticent, concise',
+          zh_CN: '喋喋不休的 [类] talkative, loquacious, voluble, verbose [反] taciturn, reticent, concise',
         },
         partsOfSpeech: 'adjective',
         example: "Lynne was garrulous: once, she had a fifteen minute conversation with a stranger before she realized the woman didn't speak English.",
@@ -11444,6 +12313,7 @@ export default [
         meaning: {
           en: 'lacking ease or grace; unsophisticated and socially awkward',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a shy and gauche teenager',
@@ -11458,6 +12328,7 @@ export default [
         meaning: {
           en: 'standard measure, esp of width or thickness',
           zh_TW: '標準厚度、標準寬度、測量',
+          zh_CN: '標准厚度、標准宽度、测量',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -11472,6 +12343,7 @@ export default [
         meaning: {
           en: 'shared by or including a whole group or class; not specific',
           zh_TW: '通稱的、種類的',
+          zh_CN: '通称的、种类的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -11486,6 +12358,7 @@ export default [
         meaning: {
           en: 'agreeable, conducive to comfort',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Betty is a genial young woman: everyone she meets is put at ease by her elegance and grace',
@@ -11500,6 +12373,7 @@ export default [
         meaning: {
           en: 'particular style or kind, esp of works of art or literature, grouped according to their form or subject mattěr',
           zh_TW: '文藝作品之類型',
+          zh_CN: '文艺作品之类型',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -11514,6 +12388,7 @@ export default [
         meaning: {
           en: 'polite, refined, or respectable, often in an affected or ostentatious way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'her genteel upbringing',
@@ -11528,6 +12403,7 @@ export default [
         meaning: {
           en: 'relevant and appropriate',
           zh_TW: '有密切關係的、貼切的 [類] fitting',
+          zh_CN: '有密切关係的、贴切的 [类] fitting',
         },
         partsOfSpeech: 'adjective',
         example: "The professor wanted to tell the jury in detail about his new book, but the lawyer said it wasn't germane to the charges in the cases.",
@@ -11542,6 +12418,7 @@ export default [
         meaning: {
           en: 'to manipulate voting districts in order to favor a particular political party',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Years ago, savvy politicians had gerrymandered the city center to ensure their re-election',
@@ -11556,6 +12433,7 @@ export default [
         meaning: {
           en: 'collect information bit by bit',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -11571,6 +12449,7 @@ export default [
         meaning: {
           en: '(of words or the person speaking them) fluent and voluble but insincere and shallow',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she was careful not to let the answer sound too glib',
@@ -11585,6 +12464,7 @@ export default [
         meaning: {
           en: 'an excessively abundant supply of something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'there is a glut of cars on the market',
@@ -11593,6 +12473,7 @@ export default [
         meaning: {
           en: 'supply or fill to excess',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the factories for recycling paper are glutted',
@@ -11607,6 +12488,7 @@ export default [
         meaning: {
           en: 'used to refer to something very light, thin, and insubstantial or delicate',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'in the light from the table lamp, his hair was blond gossamer',
@@ -11621,6 +12503,7 @@ export default [
         meaning: {
           en: 'a shoot or twig inserted into a slit on the trunk or stem of a living plant, from which it receives sap',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -11629,6 +12512,7 @@ export default [
         meaning: {
           en: '(medicine) a piece of living tissue that is transplanted surgically',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -11637,6 +12521,7 @@ export default [
         meaning: {
           en: 'insert (a shoot or twig) as a graft',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'it was common to graft different varieties onto a single tree trunk',
@@ -11645,6 +12530,7 @@ export default [
         meaning: {
           en: '(medicine) transplant (living tissue) as a graft',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'they can graft a new hand onto the arm',
@@ -11659,6 +12545,7 @@ export default [
         meaning: {
           en: 'pompous or extravagant in language, style, or manner, especially in a way that is intended to impress',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a grandiloquent celebration of Spanish glory',
@@ -11673,6 +12560,7 @@ export default [
         meaning: {
           en: 'planned on a large scale; (intended to seem_ imposing',
           zh_TW: '宏偉的、誇大的 [類] pompous 誇大的, grand(壯麗的)',
+          zh_CN: '宏伟的、夸大的 [类] pompous 夸大的, grand(壮丽的)',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -11687,6 +12575,7 @@ export default [
         meaning: {
           en: '(fml) give pleasure or satisfaction to (sb)',
           zh_TW: '使高興、使滿足',
+          zh_CN: '使高兴、使满足',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -11701,6 +12590,7 @@ export default [
         meaning: {
           en: 'to be likely to socialize with others',
           zh_TW: '群居的、愛社交的',
+          zh_CN: '群居的、爱社交的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -11716,6 +12606,7 @@ export default [
         meaning: {
           en: 'feel or cause sudden sharp pain in the stomach or intestines',
           zh_TW: '抱怨',
+          zh_CN: '抱怨',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -11730,6 +12621,7 @@ export default [
         meaning: {
           en: "lie or crawl abjectly on the ground with one's face downward",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'she was groveling on the floor in fear',
@@ -11738,6 +12630,7 @@ export default [
         meaning: {
           en: "act in an obsequious way in order to obtain someone's forgiveness or favor",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'everyone expected me to grovel with gratitude',
@@ -11752,6 +12645,7 @@ export default [
         meaning: {
           en: 'a loud and boisterous laugh',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -11760,6 +12654,7 @@ export default [
         meaning: {
           en: 'laugh in a loud or boisterous way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'both men guffawed at the remark',
@@ -11774,6 +12669,7 @@ export default [
         meaning: {
           en: 'free of deceit',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'At first I thought my niece was guileless, but I then found myself buying her ice cream every time we passed a shop',
@@ -11788,6 +12684,7 @@ export default [
         meaning: {
           en: 'willing to believe anything or anyone; easily deceived',
           zh_TW: '易受騙的 [類] credulous',
+          zh_CN: '易受骗的 [类] credulous',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -11802,6 +12699,7 @@ export default [
         meaning: {
           en: 'shrewd or spirited initiative and resourcefulness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'she had the gumption to put her foot down and head Dan off from those crazy schemes',
@@ -11816,6 +12714,7 @@ export default [
         meaning: {
           en: 'lacking significance through having been overused',
           zh_TW: '陳腐的',
+          zh_CN: '陈腐的',
         },
         partsOfSpeech: 'adjective',
         example: 'Cheryl rolled her eyes when she heard the lecturer\'s hackneyed advice to "be true to yourself."',
@@ -11830,6 +12729,7 @@ export default [
         meaning: {
           en: "excessively flattering toward someone's life or work",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "Most accounts of Tiger Woods's life were hagiographic, until, that is, his affairs made headlines.",
@@ -11844,6 +12744,7 @@ export default [
         meaning: {
           en: 'enthusiastically acclaim or celebrate something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Many college superstar athletes are hailed as the next big thing, but then flop at the professional level',
@@ -11858,6 +12759,7 @@ export default [
         meaning: {
           en: 'denoting a period of time in the past that was idyllically happy and peaceful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the halcyon days of the mid-1980s, when profits were soaring',
@@ -11872,6 +12774,7 @@ export default [
         meaning: {
           en: 'hinder or impede the movement or progress of',
           zh_TW: '妨礙、束縛',
+          zh_CN: '妨碍、束缚',
         },
         partsOfSpeech: 'verb',
         example: 'their work is hampered by lack of funds',
@@ -11886,6 +12789,7 @@ export default [
         meaning: {
           en: 'made ineffective or powerless',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'The FBI has made so many restrictions on the local police that they are absolutely hamstrung, unable to accomplish anything',
@@ -11900,6 +12804,7 @@ export default [
         meaning: {
           en: 'lacking any obvious principle of organization',
           zh_TW: '無計畫的、任意的、偶然的 [類] chance',
+          zh_CN: '无计画的、任意的、偶然的 [类] chance',
         },
         partsOfSpeech: 'adjective',
         example: 'the kitchen drawers contained a haphazard collection of silver souvenir spoons',
@@ -11914,6 +12819,7 @@ export default [
         meaning: {
           en: 'a lengthy and aggressive speech',
           zh_TW: '慷慨激昂的演講',
+          zh_CN: '慷慨激昂的演讲',
         },
         partsOfSpeech: 'noun',
         example: 'they were subjected to a ten-minute harangue by two border guards',
@@ -11922,6 +12828,7 @@ export default [
         meaning: {
           en: 'lecture (someone) at length in an aggressive and critical manner',
           zh_TW: '滔滔不絕的教訓',
+          zh_CN: '滔滔不绝的教训',
         },
         partsOfSpeech: 'verb',
         example: 'the kind of guy who harangued total strangers about PCB levels in whitefish',
@@ -11936,6 +12843,7 @@ export default [
         meaning: {
           en: 'troubled persistently especially with petty annoyances',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'With a team of new hires to train, Martha was constantly harried with little questions and could not focus on her projects',
@@ -11950,6 +12858,7 @@ export default [
         meaning: {
           en: 'arrogantly superior and disdainful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a look of haughty disdain',
@@ -11964,6 +12873,7 @@ export default [
         meaning: {
           en: 'overbearing pride evidenced by a superior manner toward inferiors',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'As soon as she won the lottery, Alice began displaying a hauteur to her friends, calling them dirty-clothed peasants behind their backs',
@@ -11978,6 +12888,7 @@ export default [
         meaning: {
           en: 'to bully or intimidate',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'The boss’s hectoring manner put off many employees, some of whom quit as soon as they found new jobs',
@@ -11992,6 +12903,7 @@ export default [
         meaning: {
           en: 'to limit or qualify a statement; to avoid making a direct statement',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -12007,6 +12919,7 @@ export default [
         meaning: {
           en: 'leadership or dominance, especially by one country or social group over others',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Germany was united under Prussian hegemony after 1871',
@@ -12021,6 +12934,7 @@ export default [
         meaning: {
           en: 'a person who holds unorthodox opinions in any field (not merely religion)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Though everybody at the gym told Mikey to do cardio before weights, Mikey was a heretic and always did the reverse',
@@ -12035,6 +12949,7 @@ export default [
         meaning: {
           en: 'of heresy or heretics',
           zh_TW: '異教的、異端的',
+          zh_CN: '异教的、异端的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12049,6 +12964,7 @@ export default [
         meaning: {
           en: 'not conforming with accepted standards or beliefs',
           zh_TW: '異端的、非正統的 [類]unconventional',
+          zh_CN: '异端的、非正统的 [类]unconventional',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12063,6 +12979,7 @@ export default [
         meaning: {
           en: 'the pinnacle or top of a time period or career',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -12078,6 +12995,7 @@ export default [
         meaning: {
           en: 'system with grades of authority or status from the lowest to the highest',
           zh_TW: '階層、等級制度',
+          zh_CN: '阶层、等级制度',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -12092,6 +13010,7 @@ export default [
         meaning: {
           en: 'picture or symbol of an object, representing a word, syllable or sound, as used in ancient Egyptian and other writing',
           zh_TW: '象形文字、圖畫文字',
+          zh_CN: '象形文字、图画文字',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -12106,6 +13025,7 @@ export default [
         meaning: {
           en: 'overly theatrical or melodramatic in character or style',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a histrionic outburst',
@@ -12114,6 +13034,7 @@ export default [
         meaning: {
           en: 'exaggerated dramatic behavior designed to attract attention',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'discussions around the issue have been based as much in histrionics as in history',
@@ -12128,6 +13049,7 @@ export default [
         meaning: {
           en: 'until now',
           zh_TW: '到目前為止、迄今、至今',
+          zh_CN: '到目前为止、迄今、至今',
         },
         partsOfSpeech: 'adverb',
         example: '',
@@ -12142,6 +13064,7 @@ export default [
         meaning: {
           en: '(of a person) having gray or white hair; aged',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a hoary old fellow with a face of white stubble',
@@ -12150,6 +13073,7 @@ export default [
         meaning: {
           en: 'grayish white',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'hoary cobwebs',
@@ -12164,6 +13088,7 @@ export default [
         meaning: {
           en: 'to hold back  the progress of something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Bad weather has hobbled rescue efforts, making it difficult for crews to find bodies in the wreckage',
@@ -12178,6 +13103,7 @@ export default [
         meaning: {
           en: 'a confused mixture',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "Rob's living room was a hodgepodge of modern furniture and antiques",
@@ -12192,6 +13118,7 @@ export default [
         meaning: {
           en: 'formed of parts that are all of the same type',
           zh_TW: '同種的、同質的',
+          zh_CN: '同种的、同质的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12206,6 +13133,7 @@ export default [
         meaning: {
           en: '(of an office or position) given as a mark of respect, but having few or no duties',
           zh_TW: '表示尊敬的',
+          zh_CN: '表示尊敬的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12220,6 +13148,7 @@ export default [
         meaning: {
           en: 'to deceive or trick someone',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -12235,6 +13164,7 @@ export default [
         meaning: {
           en: 'giving exhortation; advisory',
           zh_TW: '勸告的、獎勵的',
+          zh_CN: '劝告的、奖励的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12249,6 +13179,7 @@ export default [
         meaning: {
           en: 'tending or aiming to exhort',
           zh_TW: '勸告的、忠告的',
+          zh_CN: '劝告的、忠告的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12263,6 +13194,7 @@ export default [
         meaning: {
           en: 'to pursue relentlessly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'An implacable foe of corruption, Eliot Ness hounded out graft in all forms—he even helped nab Al Capone',
@@ -12277,6 +13209,7 @@ export default [
         meaning: {
           en: 'excessive pride or self-confidence',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the self-assured hubris among economists was shaken in the late 1980s',
@@ -12291,6 +13224,7 @@ export default [
         meaning: {
           en: "(of a person or his words or actions) having or showing a low or modest opinion of one's own importance; not proud",
           zh_TW: '卑微的、簡陋的、謙虛的',
+          zh_CN: '卑微的、简陋的、谦虚的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12305,6 +13239,7 @@ export default [
         meaning: {
           en: 'dull and lacking excitement',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Having grown up in a humdrum suburb, Jacob relished life in New York City after moving',
@@ -12319,6 +13254,7 @@ export default [
         meaning: {
           en: 'humble attitude of mind; modesty',
           zh_TW: '謙遜、謙恭',
+          zh_CN: '谦逊、谦恭',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -12333,6 +13269,7 @@ export default [
         meaning: {
           en: 'chemical compound of water with another substance',
           zh_TW: '使成水合物',
+          zh_CN: '使成水合物',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -12347,6 +13284,7 @@ export default [
         meaning: {
           en: 'exaggerated statement that is made for special effect and is not meant to be taken literally',
           zh_TW: '誇張(法)',
+          zh_CN: '夸张(法)',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -12361,6 +13299,7 @@ export default [
         meaning: {
           en: 'somebody who attacks cherished beliefs or institutions',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Lady Gaga, in challenging what it means to be clothed, is an iconoclast for wearing a "meat dress" to a prominent awards show',
@@ -12375,6 +13314,7 @@ export default [
         meaning: {
           en: 'characterized by attack on cherished beliefs or institutions',
           zh_TW: '偶像破壞的、打破舊習的',
+          zh_CN: '偶像破坏的、打破旧习的',
         },
         partsOfSpeech: 'adjective',
         example: 'a fresh, even an iconoclastic, influence could work wonders',
@@ -12389,6 +13329,7 @@ export default [
         meaning: {
           en: 'ideas that form the basis of an economic or political theory or that are held by a particular group or person',
           zh_TW: '意識形態、思想體系',
+          zh_CN: '意识形態、思想体系',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -12403,6 +13344,7 @@ export default [
         meaning: {
           en: 'a behavioral attribute that is distinctive and peculiar to an individual',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "Peggy's numerous idiosyncrasies include wearing mismatched shoes, laughing loudly to herself, and owning a pet aardvark.",
@@ -12417,6 +13359,7 @@ export default [
         meaning: {
           en: 'relating to idiosyncrasy; peculiar or individual',
           zh_TW: '古怪的、有怪僻的',
+          zh_CN: '古怪的、有怪僻的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12431,6 +13374,7 @@ export default [
         meaning: {
           en: 'not honorable in character or purpose',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'ignoble feelings of intense jealousy',
@@ -12445,6 +13389,7 @@ export default [
         meaning: {
           en: '(used of conduct or character) deserving or bringing disgrace or shame',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -12460,6 +13405,7 @@ export default [
         meaning: {
           en: 'forbidden by law, rules, or custom',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'illicit drugs',
@@ -12474,6 +13420,7 @@ export default [
         meaning: {
           en: 'based on or producing illusion: deceptive',
           zh_TW: '幻覺的、夢幻似的、迷惑人的',
+          zh_CN: '幻觉的、梦幻似的、迷惑人的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12488,6 +13435,7 @@ export default [
         meaning: {
           en: 'widely known and esteemed; having or conferring glory',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Einstein was possibly the most illustrious scientist in recent history',
@@ -12502,6 +13450,7 @@ export default [
         meaning: {
           en: 'to drink or absorb as if drinking',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -12517,6 +13466,7 @@ export default [
         meaning: {
           en: 'a confusing and potentially embarrassing situation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -12532,6 +13482,7 @@ export default [
         meaning: {
           en: 'unimportant under the circumstances; irrelevant',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'so long as the band kept the beat, what they played was immaterial',
@@ -12546,6 +13497,7 @@ export default [
         meaning: {
           en: 'about to happen; likely to happen very soon',
           zh_TW: '即將發生的、逼近的',
+          zh_CN: '即將发生的、逼近的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12560,6 +13512,7 @@ export default [
         meaning: {
           en: 'enclose or confine (someone) against their will',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'her brother was immured in a lunatic asylum',
@@ -12574,6 +13527,7 @@ export default [
         meaning: {
           en: 'not able to be changed',
           zh_TW: '不變的',
+          zh_CN: '不变的',
         },
         partsOfSpeech: 'adjective',
         example: 'Taxes are one of the immutable laws of the land, so there is no use arguing about paying them',
@@ -12588,6 +13542,7 @@ export default [
         meaning: {
           en: 'sth (to sth) give (a quality) to sth',
           zh_TW: '分給、給予、傳授、傳達',
+          zh_CN: '分给、给予、传授、传达',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -12602,6 +13557,7 @@ export default [
         meaning: {
           en: 'treating all rivals or disputants equally; fair and just',
           zh_TW: '公平的、無私的',
+          zh_CN: '公平的、无私的',
         },
         partsOfSpeech: 'adjective',
         example: 'independent and impartial advice',
@@ -12616,6 +13572,7 @@ export default [
         meaning: {
           en: 'showing strong deep feeling',
           zh_TW: '充滿激情的、慷慨激昂的、熱烈的 [類] a. impassionate 充滿熱情的',
+          zh_CN: '充满激情的、慷慨激昂的、热烈的 [类] a. impassionate 充满热情的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12630,6 +13587,7 @@ export default [
         meaning: {
           en: 'showing no sign of feeling',
           zh_TW: '不露情感的、無動於衷的、冷漠的 [類] n. impassivity',
+          zh_CN: '不露情感的、无动於衷的、冷漠的 [类] n. impassivity',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12644,6 +13602,7 @@ export default [
         meaning: {
           en: 'deserving or causing impeachment',
           zh_TW: '可指責的',
+          zh_CN: '可指责的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12658,6 +13617,7 @@ export default [
         meaning: {
           en: 'without fault or error',
           zh_TW: '無懈可擊的、無缺點的',
+          zh_CN: '无懈可击的、无缺点的',
         },
         partsOfSpeech: 'adjective',
         example: 'He was impeccably dressed in the latest fashion without a single crease or stain',
@@ -12672,6 +13632,7 @@ export default [
         meaning: {
           en: 'having little or no money',
           zh_TW: '一文不名的、貧困的',
+          zh_CN: '一文不名的、贫困的',
         },
         partsOfSpeech: 'adjective',
         example: 'a titled but impecunious family',
@@ -12686,6 +13647,7 @@ export default [
         meaning: {
           en: 'be a hindrance or obstacle to',
           zh_TW: '妨礙、阻礙、阻止',
+          zh_CN: '妨碍、阻碍、阻止',
         },
         partsOfSpeech: 'verb',
         example: 'Since the police sergeant had to train the pair of new hires, progress in his own case was impeded',
@@ -12700,6 +13662,7 @@ export default [
         meaning: {
           en: '(of an event regarded as threatening or significant) about to happen; forthcoming',
           zh_TW: '即將發生的、逼近的',
+          zh_CN: '即將发生的、逼近的',
         },
         partsOfSpeech: 'adjective',
         example: 'the author had returned to his country ahead of the impending war',
@@ -12714,6 +13677,7 @@ export default [
         meaning: {
           en: 'that cannot be entered, passed through, etc',
           zh_TW: '不能通過的、不能穿透的 [反] penetrable',
+          zh_CN: '不能通过的、不能穿透的 [反] penetrable',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12728,6 +13692,7 @@ export default [
         meaning: {
           en: 'very urgent or important; needing immediate attention',
           zh_TW: '必要的、緊急的、極重要的',
+          zh_CN: '必要的、紧急的、极重要的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12742,6 +13707,7 @@ export default [
         meaning: {
           en: 'very urgent or important; needing immediate attention',
           zh_TW: '必要的、緊急的',
+          zh_CN: '必要的、紧急的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -12756,6 +13722,7 @@ export default [
         meaning: {
           en: '(fml) put (sb/sth) in danger; endanger',
           zh_TW: '使陷於危險、危及',
+          zh_CN: '使陷於危险、危及',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -12770,6 +13737,7 @@ export default [
         meaning: {
           en: 'having or showing arrogant superiority to and disdain of those one views as unworthy',
           zh_TW: '傲慢的、專橫的',
+          zh_CN: '傲慢的、专横的',
         },
         partsOfSpeech: 'adjective',
         example: "Children are imperious with each other before they learn that earning someone's respect is better than demanding.",
@@ -12784,6 +13752,7 @@ export default [
         meaning: {
           en: 'does not allow fluids to pass through',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The sand bags placed on the river formed an impermeable barrier, protecting the town from flooding',
@@ -12798,6 +13767,7 @@ export default [
         meaning: {
           en: 'being disrespectful; improperly forward or bold',
           zh_TW: '粗魯無禮的、不切題的、不中肯的 [類] insolent, impudent',
+          zh_CN: '粗鲁无礼的、不切题的、不中肯的 [类] insolent, impudent',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -12813,6 +13783,7 @@ export default [
         meaning: {
           en: 'not admitting of passage or capable of being affected',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'I am not impervious to your insults; they cause me great pain',
@@ -12827,6 +13798,7 @@ export default [
         meaning: {
           en: 'acting or done quickly and without thought or care',
           zh_TW: '性急的、魯莽的、衝動的',
+          zh_CN: '性急的、鲁莽的、衝动的',
         },
         partsOfSpeech: 'adjective',
         example: 'her friend was headstrong and impetuous',
@@ -12835,6 +13807,7 @@ export default [
         meaning: {
           en: 'moving forcefully or rapidly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an impetuous but controlled flow of water',
@@ -12849,6 +13822,7 @@ export default [
         meaning: {
           en: 'the force or energy with which a body moves',
           zh_TW: '推動力、刺激 [類]boost, encouragement, impulse, incentive, motivation, provocation, spur, stimulus',
+          zh_CN: '推动力、刺激 [类]boost, encouragement, impulse, incentive, motivation, provocation, spur, stimulus',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -12863,6 +13837,7 @@ export default [
         meaning: {
           en: 'unable to be placated',
           zh_TW: '不能安撫的、難和解的',
+          zh_CN: '不能安抚的、难和解的',
         },
         partsOfSpeech: 'adjective',
         example: "he was an implacable enemy of Ted's",
@@ -12877,6 +13852,7 @@ export default [
         meaning: {
           en: 'describing a statement that is not believable',
           zh_TW: '難以置信的、不像真實的',
+          zh_CN: '难以置信的、不像真实的',
         },
         partsOfSpeech: 'adjective',
         example: 'The teacher found it implausible that the student was late to school because he had been kidnapped by outlaws on horseback',
@@ -12891,6 +13867,7 @@ export default [
         meaning: {
           en: 'show (someone) to be involved in a crime',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'police claims implicated him in many more killings',
@@ -12899,6 +13876,7 @@ export default [
         meaning: {
           en: 'convey (a meaning or intention) indirectly through what one says, rather than stating it explicitly; imply',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "by saying that coffee would keep her awake, Mary implicated that she didn't want any",
@@ -12913,6 +13891,7 @@ export default [
         meaning: {
           en: 'a factor that is difficult or impossible to estimate or assess',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'there are too many imponderables for an overall prediction',
@@ -12921,6 +13900,7 @@ export default [
         meaning: {
           en: 'difficult or impossible to estimate, assess, or answer',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an imponderable problem of metaphysics',
@@ -12935,6 +13915,7 @@ export default [
         meaning: {
           en: 'harass (someone) persistently for or to do something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'reporters importuned him with pointed questions',
@@ -12943,6 +13924,7 @@ export default [
         meaning: {
           en: 'approach (someone) to request or offer sexual services, especially as a prostitute',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the girl is charged with loitering in a public place with intent to solicit or importune another person',
@@ -12957,6 +13939,7 @@ export default [
         meaning: {
           en: '(of a fortified position) unable to be captured or broken into',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an impregnable wall of solid sandstone',
@@ -12971,6 +13954,7 @@ export default [
         meaning: {
           en: 'not having or showing foresight; spendthrift or thoughtless',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'improvident and undisciplined behavior',
@@ -12985,6 +13969,7 @@ export default [
         meaning: {
           en: 'compose or play (music), speak or act without previous preparation',
           zh_TW: '即興創作、即興表演 [類] extemporize',
+          zh_CN: '即兴创作、即兴表演 [类] extemporize',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -12999,6 +13984,7 @@ export default [
         meaning: {
           en: 'not wise',
           zh_TW: '不謹慎的、輕率的、魯莽的 [反] prudent',
+          zh_CN: '不谨慎的、轻率的、鲁莽的 [反] prudent',
         },
         partsOfSpeech: 'adjective',
         example: 'Hitler, like Napoleon, made the imprudent move of invading Russia in winter, suffering even more casualties than Napoleon had',
@@ -13013,6 +13999,7 @@ export default [
         meaning: {
           en: 'improperly forward or bold',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'In an impudent move, the defendant spoke out of order to say terribly insulting things to the judge',
@@ -13027,6 +14014,7 @@ export default [
         meaning: {
           en: 'dispute the truth, validity, or honesty of (a statement or motive); call into question',
           zh_TW: '指責、對...表示懷疑',
+          zh_CN: '指责、对...表示怀疑',
         },
         partsOfSpeech: 'verb',
         example: 'the father does not impugn her capacity as a good mother',
@@ -13041,6 +14029,7 @@ export default [
         meaning: {
           en: 'represent (something, especially something undesirable) as being done, caused, or possessed by someone; attribute',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the crimes imputed to Richard',
@@ -13049,6 +14038,7 @@ export default [
         meaning: {
           en: '(finance) assign (a value) to something by inference from the value of the products or processes to which it contributes',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'by imputing the interest rates they potentially introduce a measurement error',
@@ -13063,6 +14053,7 @@ export default [
         meaning: {
           en: 'not resulting from or achieved through deliberate planning',
           zh_TW: '不注意的、怠慢的',
+          zh_CN: '不注意的、怠慢的',
         },
         partsOfSpeech: 'adjective',
         example: 'an inadvertent administrative error occurred that resulted in an overpayment',
@@ -13077,6 +14068,7 @@ export default [
         meaning: {
           en: 'a nonsensical remark or action',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'they utter whatever inanities will get them elected',
@@ -13085,6 +14077,7 @@ export default [
         meaning: {
           en: 'lack of sense or meaning; silliness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "he commented on the breathtaking inanity of the board's decision",
@@ -13099,6 +14092,7 @@ export default [
         meaning: {
           en: 'unable to speak distinctly or express oneself clearly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he was inarticulate with abashment and regret',
@@ -13113,6 +14107,7 @@ export default [
         meaning: {
           en: 'make furious',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'When Herb bought football tickets for a game on the day of their wedding anniversary, Jill was incensed',
@@ -13127,6 +14122,7 @@ export default [
         meaning: {
           en: '(of something regarded as unpleasant) continuing without pause or interruption',
           zh_TW: '不停地、連續的、連續不斷的 [類] constant, unremitting [反] sporadic(偶爾發生的)',
+          zh_CN: '不停地、连续的、连续不断的 [类] constant, unremitting [反] sporadic(偶尔发生的)',
         },
         partsOfSpeech: 'adjective',
         example: 'the incessant beat of the music',
@@ -13141,6 +14137,7 @@ export default [
         meaning: {
           en: 'just begun and so not fully formed or developed; rudimentary',
           zh_TW: '剛開始的、未完的 [類] incipient',
+          zh_CN: '刚开始的、未完的 [类] incipient',
         },
         partsOfSpeech: 'adjective',
         example: 'a still inchoate democracy',
@@ -13149,6 +14146,7 @@ export default [
         meaning: {
           en: 'confused or incoherent',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'inchoate proletarian protest',
@@ -13163,6 +14161,7 @@ export default [
         meaning: {
           en: '(of a person or mental process) intelligently analytical and clear-thinking',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she was an incisive critic',
@@ -13171,6 +14170,7 @@ export default [
         meaning: {
           en: '(of an account) accurate and sharply focused',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the songs offer incisive pictures of American ways',
@@ -13185,6 +14185,7 @@ export default [
         meaning: {
           en: 'impressively direct and decisive (as in manner or presentation)',
           zh_TW: '深刻、敏銳',
+          zh_CN: '深刻、敏锐',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -13199,6 +14200,7 @@ export default [
         meaning: {
           en: '(of the weather) unpleasantly cold or wet',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'walkers should be prepared for inclement weather',
@@ -13213,6 +14215,7 @@ export default [
         meaning: {
           en: 'lacking in harmony or compatibility or appropriateness',
           zh_TW: '不協調的、不一致的',
+          zh_CN: '不协调的、不一致的',
         },
         partsOfSpeech: 'adjective',
         example: "The vast economic inequality of modern society is incongruous with America's ideals.",
@@ -13227,6 +14230,7 @@ export default [
         meaning: {
           en: 'trivial or irrelevant; not important',
           zh_TW: '不重要的、微不足道的',
+          zh_CN: '不重要的、微不足道的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13241,6 +14245,7 @@ export default [
         meaning: {
           en: 'not able to be denied or disputed',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'incontrovertible proof',
@@ -13255,6 +14260,7 @@ export default [
         meaning: {
           en: '(of a person or their tendencies) not able to be corrected, improved, or reformed',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "he's an incorrigible liar",
@@ -13269,6 +14275,7 @@ export default [
         meaning: {
           en: '(of a bird) sit on (eggs) in order to keep them warm and bring them to hatching',
           zh_TW: '孵卵、孵化',
+          zh_CN: '孵卵、孵化',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -13283,6 +14290,7 @@ export default [
         meaning: {
           en: 'necessary for (someone) as a duty or responsibility',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'it is incumbent on all decent people to concentrate on destroying this evil',
@@ -13291,6 +14299,7 @@ export default [
         meaning: {
           en: '(of an official or regime) currently holding office',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an annual event at which the incumbent president traditionally delivers a speech poking fun at himself',
@@ -13299,6 +14308,7 @@ export default [
         meaning: {
           en: 'the holder of an office or post',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the present incumbent will soon be retiring',
@@ -13313,6 +14323,7 @@ export default [
         meaning: {
           en: 'not in keeping with accepted standards of what is right or proper in polite society',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Eating with elbows on the table is considered indecorous in refined circles',
@@ -13327,6 +14338,7 @@ export default [
         meaning: {
           en: 'formally accuse of or charge with a serious crime',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'his former manager was indicted for fraud',
@@ -13341,6 +14353,7 @@ export default [
         meaning: {
           en: 'the trait of seeming not to care',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'In an effort to fight indifference, the president of the college introduced a new, stricter grading system',
@@ -13355,6 +14368,7 @@ export default [
         meaning: {
           en: 'having no interest in sb/sth; neither for nor against sb/sth; not caring about sb/sth',
           zh_TW: '漠不關心的',
+          zh_CN: '漠不关心的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13369,6 +14383,7 @@ export default [
         meaning: {
           en: 'originating in a certain area',
           zh_TW: '土產的、本地的、天生的',
+          zh_CN: '土產的、本地的、天生的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -13384,6 +14399,7 @@ export default [
         meaning: {
           en: 'poor; needy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a charity for the relief of indigent artists',
@@ -13398,6 +14414,7 @@ export default [
         meaning: {
           en: 'feeling or showing anger or annoyance at what is perceived as unfair treatment',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he was indignant at being the object of suspicion',
@@ -13412,6 +14429,7 @@ export default [
         meaning: {
           en: '(in sth) acting without careful judgement',
           zh_TW: '不加區別地、無差別的、不分皂白的 [類] a. discriminating 有辨別能力的、有缺別的',
+          zh_CN: '不加区別地、无差別的、不分皂白的 [类] a. discriminating 有辨別能力的、有缺別的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13426,6 +14444,7 @@ export default [
         meaning: {
           en: 'wanting to avoid activity or exertion; lazy',
           zh_TW: '懶惰的',
+          zh_CN: '懒惰的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13440,6 +14459,7 @@ export default [
         meaning: {
           en: 'inclined to indulge',
           zh_TW: '縱容的、溺愛的',
+          zh_CN: '纵容的、溺爱的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13454,6 +14474,7 @@ export default [
         meaning: {
           en: 'diligent and hard-working',
           zh_TW: '勤奮的、勤勞的',
+          zh_CN: '勤奋的、勤劳的',
         },
         partsOfSpeech: 'adjective',
         example: 'an industrious people striving to make their country prosperous',
@@ -13468,6 +14489,7 @@ export default [
         meaning: {
           en: 'too great or extreme to be expressed or described in words',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the ineffable natural beauty of the Everglades',
@@ -13482,6 +14504,7 @@ export default [
         meaning: {
           en: 'unable to be resisted or avoided; inescapable',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the ineluctable facts of history',
@@ -13496,6 +14519,7 @@ export default [
         meaning: {
           en: '(at sth/doing sth) completely unskillful (at sth)',
           zh_TW: '無能的、不恰當的',
+          zh_CN: '无能的、不恰当的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13510,6 +14534,7 @@ export default [
         meaning: {
           en: 'lack of fairness or justice',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'policies aimed at redressing racial inequity',
@@ -13524,6 +14549,7 @@ export default [
         meaning: {
           en: 'lacking the ability or strength to move',
           zh_TW: '無生命的、呆滯遲緩的',
+          zh_CN: '无生命的、呆滯迟缓的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13538,6 +14564,7 @@ export default [
         meaning: {
           en: 'impossible to stop or prevent',
           zh_TW: '不為所動的、堅決不變的',
+          zh_CN: '不为所动的、坚决不变的',
         },
         partsOfSpeech: 'adjective',
         example: 'the seemingly inexorable march of new technology',
@@ -13546,6 +14573,7 @@ export default [
         meaning: {
           en: '(of a person) impossible to persuade by request or entreaty',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the doctors were inexorable, and there was nothing to be done',
@@ -13560,6 +14588,7 @@ export default [
         meaning: {
           en: 'that cannot be explained',
           zh_TW: '無法說明的、難以理解的、莫名其妙的',
+          zh_CN: '无法说明的、难以理解的、莫名其妙的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13574,6 +14603,7 @@ export default [
         meaning: {
           en: 'unfortunate; inappropriate',
           zh_TW: '不幸的、不適當的 [類] n. infelicity [反] felicitous',
+          zh_CN: '不幸的、不適当的 [类] n. infelicity [反] felicitous',
         },
         partsOfSpeech: 'adjective',
         example: 'his illustration is singularly infelicitous',
@@ -13588,6 +14618,7 @@ export default [
         meaning: {
           en: 'without limits; endless',
           zh_TW: '無限的、無窮的',
+          zh_CN: '无限的、无穷的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13602,6 +14633,7 @@ export default [
         meaning: {
           en: 'relating to or causing inflammation of a part of the body',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'inflammatory cells',
@@ -13610,6 +14642,7 @@ export default [
         meaning: {
           en: '(especially of speech or writing) arousing or intended to arouse angry or violent feelings',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'inflammatory slogans',
@@ -13624,6 +14657,7 @@ export default [
         meaning: {
           en: 'sth (with sth) fill (a tire, balloon, etc) with air or gas',
           zh_TW: '使充氣、使膨脹',
+          zh_CN: '使充气、使膨胀',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -13638,6 +14672,7 @@ export default [
         meaning: {
           en: 'sth into sb/sth; sb/sth with sth put into sb/sth; fill sb/sth with (a quality)',
           zh_TW: '灌輸、鼓勵',
+          zh_CN: '灌输、鼓励',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -13652,6 +14687,7 @@ export default [
         meaning: {
           en: '(at sth/doing sth)(of a person) clever at finding new or simple solutions for complex problems',
           zh_TW: '聰明的、有發明天才的',
+          zh_CN: '聪明的、有发明天才的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13666,6 +14702,7 @@ export default [
         meaning: {
           en: 'the power of creative imagination',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Daedalus was famous for his ingenuity; he was able to fashion his son Icarus with a pair of wings, using wax to hold them together',
@@ -13680,6 +14717,7 @@ export default [
         meaning: {
           en: '(of a person or action) innocent and unsuspecting',
           zh_TW: '胸無城府的、率直的',
+          zh_CN: '胸无城府的、率直的',
         },
         partsOfSpeech: 'adjective',
         example: 'he eyed her with wide, ingenuous eyes',
@@ -13694,6 +14732,7 @@ export default [
         meaning: {
           en: 'take (food, etc) into the body, typically by swallowing',
           zh_TW: '嚥下、吞下',
+          zh_CN: '嚥下、吞下',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -13708,6 +14747,7 @@ export default [
         meaning: {
           en: 'firmly fix or establish (a habit, belief, or attitude) in a person',
           zh_TW: '使...根深蒂固',
+          zh_CN: '使...根深蒂固',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -13722,6 +14762,7 @@ export default [
         meaning: {
           en: 'bring oneself into favor with someone by flattering or trying to please them',
           zh_TW: '使得到...歡心、迎合',
+          zh_CN: '使得到...欢心、迎合',
         },
         partsOfSpeech: 'verb',
         example: 'a social climber who had tried to ingratiate herself with the city gentry',
@@ -13736,6 +14777,7 @@ export default [
         meaning: {
           en: "(of people) unable to relax or express one's feelings in a natural and spontaneous way",
           zh_TW: '拘謹的、綁手綁腳的',
+          zh_CN: '拘谨的、绑手绑脚的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13750,6 +14792,7 @@ export default [
         meaning: {
           en: 'hostile (usually describes conditions or environments)',
           zh_TW: '有敵意的、不合的',
+          zh_CN: '有敌意的、不合的',
         },
         partsOfSpeech: 'adjective',
         example: 'Venus, with a surface temperature that would turn rubber to liquid, is inimical to any form of life',
@@ -13764,6 +14807,7 @@ export default [
         meaning: {
           en: 'so good or unusual as to be impossible to copy; unique',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the inimitable ambience of Hawaii',
@@ -13778,6 +14822,7 @@ export default [
         meaning: {
           en: 'a slight suggestion or vague understanding',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "Lynne speaks four Romance languages, but she doesn't have an inkling about how East Asian languages are structured.",
@@ -13792,6 +14837,7 @@ export default [
         meaning: {
           en: "in one's nature; possessed from birth",
           zh_TW: '與生俱來的、天生的、固有的',
+          zh_CN: '与生俱来的、天生的、固有的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13806,6 +14852,7 @@ export default [
         meaning: {
           en: 'quality or state of being innocent',
           zh_TW: '無辜、清白',
+          zh_CN: '无辜、清白',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -13820,6 +14867,7 @@ export default [
         meaning: {
           en: 'harmless and doesn’t produce any ill effects',
           zh_TW: '(行為、言論)無害的',
+          zh_CN: '(行为、言论)无害的',
         },
         partsOfSpeech: 'adjective',
         example: 'Everyone found Nancy’s banter innocuous—except for Mike, who felt like she was intentionally picking on him',
@@ -13834,6 +14882,7 @@ export default [
         meaning: {
           en: 'introducing or using new ideas, techniques, etc',
           zh_TW: '創新的',
+          zh_CN: '创新的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13848,6 +14897,7 @@ export default [
         meaning: {
           en: "fond of inquiring into other people's affairs",
           zh_TW: '好奇的、愛鑽研的',
+          zh_CN: '好奇的、爱钻研的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13862,6 +14912,7 @@ export default [
         meaning: {
           en: 'that cannot be satisfied; very greedy',
           zh_TW: '不知足的、貪得無厭的',
+          zh_CN: '不知足的、贪得无厌的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -13876,6 +14927,7 @@ export default [
         meaning: {
           en: 'impossible to understand or interpret',
           zh_TW: '高深莫測的、神秘的 [類]mysterious',
+          zh_CN: '高深莫测的、神秘的 [类]mysterious',
         },
         partsOfSpeech: 'adjective',
         example: 'Guy looked blankly inscrutable',
@@ -13890,6 +14942,7 @@ export default [
         meaning: {
           en: 'working in a subtle but destructive way',
           zh_TW: '陰險狡詐的',
+          zh_CN: '阴险狡诈的',
         },
         partsOfSpeech: 'adjective',
         example: 'Plaque is insidious: we cannot see it, but each day it eats away at our enamel, causing cavities and other dental problems',
@@ -13904,6 +14957,7 @@ export default [
         meaning: {
           en: 'dull and uninteresting',
           zh_TW: '沒有味道的、清淡的',
+          zh_CN: '没有味道的、清淡的',
         },
         partsOfSpeech: 'adjective',
         example: 'The movie director was known for hiring beautiful actors in order to deflect attention away from the insipid scripts he would typically use',
@@ -13918,6 +14972,7 @@ export default [
         meaning: {
           en: 'showing a rude and arrogant lack of respect',
           zh_TW: '粗魯無禮的、傲慢的',
+          zh_CN: '粗鲁无礼的、傲慢的',
         },
         partsOfSpeech: 'adjective',
         example: 'showing a rude and arrogant lack of respect',
@@ -13932,6 +14987,7 @@ export default [
         meaning: {
           en: "unable to pay one's bills; bankrupt",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'With credit card bills skyrocketing, a shockingly large number of Americans are truly insolvent',
@@ -13946,6 +15002,7 @@ export default [
         meaning: {
           en: 'lack of concern',
           zh_TW: '無憂無慮、不注意、不在乎 [類] nonchalance',
+          zh_CN: '无忧无虑、不注意、不在乎 [类] nonchalance',
         },
         partsOfSpeech: 'noun',
         example:
@@ -13961,6 +15018,7 @@ export default [
         meaning: {
           en: 'cause to begin or happen; initiate',
           zh_TW: '發起、煽動',
+          zh_CN: '发起、煽动',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -13975,6 +15033,7 @@ export default [
         meaning: {
           en: 'too extreme to bear; intolerable',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the heat would be insufferable by July',
@@ -13983,6 +15042,7 @@ export default [
         meaning: {
           en: 'having or showing unbearable arrogance or conceit',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an insufferable bully',
@@ -13997,6 +15057,7 @@ export default [
         meaning: {
           en: 'of an island',
           zh_TW: '島嶼的、心胸狹窄的',
+          zh_CN: '岛屿的、心胸狭窄的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14011,6 +15072,7 @@ export default [
         meaning: {
           en: 'that can be understood',
           zh_TW: '可理解的',
+          zh_CN: '可理解的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14025,6 +15087,7 @@ export default [
         meaning: {
           en: 'immoderate action or indulgence, as of the appetites',
           zh_TW: '放縱、不節制',
+          zh_CN: '放纵、不节制',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -14039,6 +15102,7 @@ export default [
         meaning: {
           en: 'going on too long, and usu therefore annoying or boring',
           zh_TW: '無盡頭的',
+          zh_CN: '无尽头的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14053,6 +15117,7 @@ export default [
         meaning: {
           en: 'occurring at irregular intervals; not continuous or steady',
           zh_TW: '間歇的、時斷時續的',
+          zh_CN: '间歇的、时断时续的',
         },
         partsOfSpeech: 'adjective',
         example: 'intermittent rain',
@@ -14067,6 +15132,7 @@ export default [
         meaning: {
           en: 'destructive to both sides in a conflict',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "the region's history of savage internecine warfare",
@@ -14081,6 +15147,7 @@ export default [
         meaning: {
           en: 'way in which two or more things have an effect on each other; interaction',
           zh_TW: '交互作用、相互影響',
+          zh_CN: '交互作用、相互影响',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -14095,6 +15162,7 @@ export default [
         meaning: {
           en: 'to suggest something subtly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -14110,6 +15178,7 @@ export default [
         meaning: {
           en: 'an indirect suggestion',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -14125,6 +15194,7 @@ export default [
         meaning: {
           en: 'sb frighten sb (in order to make him do sth)',
           zh_TW: '威嚇、脅迫',
+          zh_CN: '威嚇、胁迫',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -14139,6 +15209,7 @@ export default [
         meaning: {
           en: 'not easily controlled or dealt with; hard to manage',
           zh_TW: '倔強的、難管的 [類] recalcitrant, intransigent [反] tractable, docile',
+          zh_CN: '倔强的、难管的 [类] recalcitrant, intransigent [反] tractable, docile',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14153,6 +15224,7 @@ export default [
         meaning: {
           en: "unwilling or refusing to change one's views or to agree about something",
           zh_TW: '不妥協的',
+          zh_CN: '不妥协的',
         },
         partsOfSpeech: 'adjective',
         example: 'her father had tried persuasion, but she was intransigent',
@@ -14167,6 +15239,7 @@ export default [
         meaning: {
           en: 'fearless; adventurous (often used for rhetorical or humorous effect)',
           zh_TW: '無畏的、剛毅的 [類]bold, rave, courageous, dauntless',
+          zh_CN: '无畏的、刚毅的 [类]bold, rave, courageous, dauntless',
         },
         partsOfSpeech: 'adjective',
         example: 'our intrepid reporter',
@@ -14181,6 +15254,7 @@ export default [
         meaning: {
           en: 'made up of many small parts put together in a complex way, and therefore difficult to follow or understand',
           zh_TW: '複雜難懂的',
+          zh_CN: '复杂难懂的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14195,6 +15269,7 @@ export default [
         meaning: {
           en: '(against sb) make and carry out secret plans or plots to do sth bad',
           zh_TW: '密謀、引起極大興趣',
+          zh_CN: '密谋、引起极大兴趣',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -14209,6 +15284,7 @@ export default [
         meaning: {
           en: 'belonging naturally; existing within, not coming form outside',
           zh_TW: '本質的、固有的',
+          zh_CN: '本质的、固有的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14223,6 +15299,7 @@ export default [
         meaning: {
           en: 'overwhelm (someone) with things or people to be dealt with',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "we've been inundated with complaints from listeners",
@@ -14237,6 +15314,7 @@ export default [
         meaning: {
           en: 'overwhelm (someone) with things or people to be dealt with',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "we've been inundated with complaints from listeners",
@@ -14245,6 +15323,7 @@ export default [
         meaning: {
           en: 'flood',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the islands may be the first to be inundated as sea levels rise',
@@ -14259,6 +15338,7 @@ export default [
         meaning: {
           en: 'accustom (someone) to something, especially something unpleasant',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'these children have been inured to violence',
@@ -14267,6 +15347,7 @@ export default [
         meaning: {
           en: '(law) come into operation; take effect',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'a release given to one of two joint contractors inures to the benefit of both',
@@ -14281,6 +15362,7 @@ export default [
         meaning: {
           en: 'insulting, abusive, or highly critical language',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he let out a stream of invective',
@@ -14295,6 +15377,7 @@ export default [
         meaning: {
           en: 'having a particular habit, activity, or interest that is long-established and unlikely to change',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he was an inveterate gambler',
@@ -14303,6 +15386,7 @@ export default [
         meaning: {
           en: '(of a feeling or habit) long-established and unlikely to change',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the inveterate hostility between the two countries was not easily eradicated',
@@ -14317,6 +15401,7 @@ export default [
         meaning: {
           en: 'likely to cause resentment',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "At a time when many others in the office were about to be laid off, many considered Cheryl's fine clothes that day an invidious display.",
@@ -14331,6 +15416,7 @@ export default [
         meaning: {
           en: 'make feel more lively and healthy',
           zh_TW: '賦予精神、鼓舞',
+          zh_CN: '赋予精神、鼓舞',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -14345,6 +15431,7 @@ export default [
         meaning: {
           en: 'never to be broken, infringed, or dishonored',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an inviolable rule of chastity',
@@ -14359,6 +15446,7 @@ export default [
         meaning: {
           en: 'free or safe from injury or violation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an international memorial which must remain inviolate',
@@ -14373,6 +15461,7 @@ export default [
         meaning: {
           en: 'difficult to comprehend; complicated',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a long, involved conversation',
@@ -14381,6 +15470,7 @@ export default [
         meaning: {
           en: '(of a situation or event) include (something) as a necessary part or result',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'his transfer to another school would involve a lengthy assessment procedure',
@@ -14395,6 +15485,7 @@ export default [
         meaning: {
           en: 'having or showing a tendency to be easily angered',
           zh_TW: '易怒的、暴躁的',
+          zh_CN: '易怒的、暴躁的',
         },
         partsOfSpeech: 'adjective',
         example: 'an irascible man',
@@ -14409,6 +15500,7 @@ export default [
         meaning: {
           en: 'aiming or aimed at peace',
           zh_TW: '和平的',
+          zh_CN: '和平的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14423,6 +15515,7 @@ export default [
         meaning: {
           en: 'irritate; annoy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'it irks her to think of the runaround she received',
@@ -14437,6 +15530,7 @@ export default [
         meaning: {
           en: '(with sb/sth)(of people) that cannot be reconciled',
           zh_TW: '不能調和的、矛盾的',
+          zh_CN: '不能调和的、矛盾的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14451,6 +15545,7 @@ export default [
         meaning: {
           en: 'impossible to deny or disprove',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'irrefutable evidence',
@@ -14465,6 +15560,7 @@ export default [
         meaning: {
           en: 'uncertain how to act or proceed',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'He stood irresolute at the split in the trail, not sure which route would lead back to the camp',
@@ -14479,6 +15575,7 @@ export default [
         meaning: {
           en: 'incapable of being retracted or revoked',
           zh_TW: '不可撤回的、不可取消的',
+          zh_CN: '不可撤回的、不可取消的',
         },
         partsOfSpeech: 'adjective',
         example: 'Once you enter your plea to the court, it is irrevocable so think carefully about what you will say',
@@ -14493,6 +15590,7 @@ export default [
         meaning: {
           en: 'traveling from place to place',
           zh_TW: '巡迴的、遊歷的',
+          zh_CN: '巡迴的、游歷的',
         },
         partsOfSpeech: 'adjective',
         example: 'itinerant traders',
@@ -14507,6 +15605,7 @@ export default [
         meaning: {
           en: 'special words or expressions that are used by a particular profession or group and are difficult for others to understand',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'legal jargon',
@@ -14521,6 +15620,7 @@ export default [
         meaning: {
           en: 'to be biased against due to envy or prejudice',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -14536,6 +15636,7 @@ export default [
         meaning: {
           en: 'dull; lacking flavor',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "Although many top chefs have secured culinary foam's popularity in haute cuisine, Waters criticizes it for being jejune and unfilling.",
@@ -14550,6 +15651,7 @@ export default [
         meaning: {
           en: 'put in danger',
           zh_TW: '危急',
+          zh_CN: '危急',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -14564,6 +15666,7 @@ export default [
         meaning: {
           en: 'extreme patriotism, especially in the form of aggressive or warlike foreign policy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the popular jingoism that swept the lower–middle classes',
@@ -14578,6 +15681,7 @@ export default [
         meaning: {
           en: 'fond of or characterized by joking; humorous or playful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she sounded in a jocular mood',
@@ -14592,6 +15696,7 @@ export default [
         meaning: {
           en: 'cheerful and friendly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she was in a jovial mood',
@@ -14606,6 +15711,7 @@ export default [
         meaning: {
           en: 'feeling or expressing great happiness and triumph',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14620,6 +15726,7 @@ export default [
         meaning: {
           en: 'great happiness, esp because of a success',
           zh_TW: '歡慶、慶祝活動',
+          zh_CN: '欢庆、庆祝活动',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -14634,6 +15741,7 @@ export default [
         meaning: {
           en: 'showing or having good sense',
           zh_TW: '有判斷力的、明智的',
+          zh_CN: '有判断力的、明智的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14648,6 +15756,7 @@ export default [
         meaning: {
           en: 'a force that cannot be stopped',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -14663,6 +15772,7 @@ export default [
         meaning: {
           en: 'a military or political group that rules a country after taking power by force',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "the country's ruling military junta",
@@ -14677,6 +15787,7 @@ export default [
         meaning: {
           en: 'show that (sb/sth) is right, reasonable or just',
           zh_TW: '證明...是正當的、為...辯護、是...的正當理由',
+          zh_CN: '证明...是正当的、为...辩护、是...的正当理由',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -14691,6 +15802,7 @@ export default [
         meaning: {
           en: 'young person who is not yet adult',
           zh_TW: '少年的、似少年的',
+          zh_CN: '少年的、似少年的',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -14705,6 +15817,7 @@ export default [
         meaning: {
           en: 'place or deal with close together for contrasting effect',
           zh_TW: '並排、並置',
+          zh_CN: '並排、並置',
         },
         partsOfSpeech: 'verb',
         example: 'black-and-white photos of slums were starkly juxtaposed with color images',
@@ -14719,6 +15832,7 @@ export default [
         meaning: {
           en: 'to bow or act in a subservient manner',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Paul kowtowed to his boss so often the boss herself became nauseated by his sycophancy',
@@ -14733,6 +15847,7 @@ export default [
         meaning: {
           en: '(especially of a task, process, or journey) requiring considerable effort and time',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'years of laborious training',
@@ -14741,6 +15856,7 @@ export default [
         meaning: {
           en: '(of speech or writing style) showing obvious signs of effort and lacking in fluency',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'his slow, laborious style',
@@ -14755,6 +15871,7 @@ export default [
         meaning: {
           en: 'tear or make deep cuts in (flesh or skin)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the point had lacerated his neck',
@@ -14769,6 +15886,7 @@ export default [
         meaning: {
           en: 'showing sorrow',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Lachrymose and depressed, Alexei Alexandrovich walked two miles home in the rain after learning that his wife was having an affair',
@@ -14783,6 +15901,7 @@ export default [
         meaning: {
           en: 'lacking brilliance or vitality; lacking luster or shine',
           zh_TW: '無光澤的、呆滯的',
+          zh_CN: '无光泽的、呆滯的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14797,6 +15916,7 @@ export default [
         meaning: {
           en: 'one who says very few words',
           zh_TW: '簡短的',
+          zh_CN: '简短的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -14812,6 +15932,7 @@ export default [
         meaning: {
           en: 'criticize severely or angrily',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Showing no patience, the manager utterly lambasted the sales team that lost the big account',
@@ -14826,6 +15947,7 @@ export default [
         meaning: {
           en: 'hit (sb) hard and repeatedly; thrash',
           zh_TW: '痛打、痛罵',
+          zh_CN: '痛打、痛骂',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -14840,6 +15962,7 @@ export default [
         meaning: {
           en: '(for/ over sb/sth) feel or espress great sorrow or regret for (sth/sb)',
           zh_TW: '抱怨、哀悼、悲嘆 [類] mourn, deplore, wail',
+          zh_CN: '抱怨、哀悼、悲嘆 [类] mourn, deplore, wail',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -14854,6 +15977,7 @@ export default [
         meaning: {
           en: 'publicly criticize (someone or something) by using ridicule, irony, or sarcasm',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the actor was lampooned by the press',
@@ -14868,6 +15992,7 @@ export default [
         meaning: {
           en: 'not inclined towards physical exertion or effort; slow and relaxed',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'As the sun beat down and the temperature climbed higher, we spent a languid week lying around the house',
@@ -14882,6 +16007,7 @@ export default [
         meaning: {
           en: 'become feeble',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Stranded in the wilderness for four days, the hiker languished, eating protein bars and nuts',
@@ -14896,6 +16022,7 @@ export default [
         meaning: {
           en: 'generosity in bestowing money or gifts upon others',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'dispensing his money with such largesse',
@@ -14904,6 +16031,7 @@ export default [
         meaning: {
           en: 'money or gifts given generously',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the distribution of largesse to the local population',
@@ -14918,6 +16046,7 @@ export default [
         meaning: {
           en: 'lecherous; sexually perverted',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -14933,6 +16062,7 @@ export default [
         meaning: {
           en: 'existing but not yet active, developed or visible',
           zh_TW: '潛伏的、潛在的',
+          zh_CN: '潜伏的、潜在的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14947,6 +16077,7 @@ export default [
         meaning: {
           en: 'worthy of high praise',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "To say that Gandhi's actions were laudable is the greatest understatement; he overthrew an empire without violence.",
@@ -14961,6 +16092,7 @@ export default [
         meaning: {
           en: '(in doing sth) giving or producing generously or in large quantities',
           zh_TW: '大方的、慷慨給予的',
+          zh_CN: '大方的、慷慨给予的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14975,6 +16107,7 @@ export default [
         meaning: {
           en: 'not sufficiently strict or severe; negligent',
           zh_TW: '鬆散的、不嚴格的',
+          zh_CN: '鬆散的、不严格的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -14989,6 +16122,7 @@ export default [
         meaning: {
           en: 'spend money',
           zh_TW: '花錢',
+          zh_CN: '花钱',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -15003,6 +16137,7 @@ export default [
         meaning: {
           en: 'a nonordained member of a church',
           zh_TW: '門外漢、外行',
+          zh_CN: '门外汉、外行',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15017,6 +16152,7 @@ export default [
         meaning: {
           en: 'openly distrustful and unwilling to confide',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Without checking his references and talking  to previous employers, I am leery of hiring the candidate',
@@ -15031,6 +16167,7 @@ export default [
         meaning: {
           en: 'in accordance with the law or rules; lawful',
           zh_TW: '合法的、正當的',
+          zh_CN: '合法的、正当的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15045,6 +16182,7 @@ export default [
         meaning: {
           en: 'causing or able to cause death',
           zh_TW: '致命的、危險的',
+          zh_CN: '致命的、危险的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15059,6 +16197,7 @@ export default [
         meaning: {
           en: 'lacking energy',
           zh_TW: '瞌睡的、愛睡的',
+          zh_CN: '瞌睡的、爱睡的',
         },
         partsOfSpeech: 'adjective',
         example: 'Nothing can make a person more lethargic than a big turkey dinner',
@@ -15073,6 +16212,7 @@ export default [
         meaning: {
           en: 'lack of proper seriousness or respect',
           zh_TW: '輕率、輕浮',
+          zh_CN: '轻率、轻浮',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15087,6 +16227,7 @@ export default [
         meaning: {
           en: 'having clarity in terms of expression',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Her limpid prose made even the most recondite subjects accessible to all',
@@ -15101,6 +16242,7 @@ export default [
         meaning: {
           en: 'give a lot of public attention and approval to (someone); treat as a celebrity',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'modern athletes are lionized',
@@ -15115,6 +16257,7 @@ export default [
         meaning: {
           en: 'a series of petitions for use in church services or processions, usually recited by the clergy and responded to in a recurring formula by the people',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15123,6 +16266,7 @@ export default [
         meaning: {
           en: 'a tedious recital or repetitive series',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a litany of complaints',
@@ -15137,6 +16281,7 @@ export default [
         meaning: {
           en: 'reluctant; unwilling',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'I was loath to leave',
@@ -15151,6 +16296,7 @@ export default [
         meaning: {
           en: 'feel great hatred or disgust for (sb/sth)',
           zh_TW: '痛恨',
+          zh_CN: '痛恨',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -15165,6 +16311,7 @@ export default [
         meaning: {
           en: 'exact place of sth',
           zh_TW: '地點、所在地',
+          zh_CN: '地点、所在地',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15179,6 +16326,7 @@ export default [
         meaning: {
           en: 'with one side lower or smaller than the other',
           zh_TW: '傾向一邊的、不平衡的；一面倒的',
+          zh_CN: '倾向一边的、不平衡的；一面倒的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15193,6 +16341,7 @@ export default [
         meaning: {
           en: 'fond talking; talkative',
           zh_TW: '多話的、非常健談的 [類] garrulous, talkative [反] laconic, reticent, taciturn',
+          zh_CN: '多话的、非常健谈的 [类] garrulous, talkative [反] laconic, reticent, taciturn',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15207,6 +16356,7 @@ export default [
         meaning: {
           en: 'expressed clearly; easy to understand',
           zh_TW: '清楚易懂的、明晰的、清澈的 [類] limpid',
+          zh_CN: '清楚易懂的、明晰的、清澈的 [类] limpid',
         },
         partsOfSpeech: 'adjective',
         example: 'a lucid account',
@@ -15215,6 +16365,7 @@ export default [
         meaning: {
           en: 'bright or luminous',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'birds dipped their wings in the lucid flow of air',
@@ -15229,6 +16380,7 @@ export default [
         meaning: {
           en: 'producing much money; profitable',
           zh_TW: '賺錢的、有利可圖的',
+          zh_CN: '赚钱的、有利可图的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15243,6 +16395,7 @@ export default [
         meaning: {
           en: 'causing laughter; ridiculous; absurd',
           zh_TW: '滑稽的、荒唐可笑的',
+          zh_CN: '滑稽的、荒唐可笑的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15257,6 +16410,7 @@ export default [
         meaning: {
           en: 'looking or sounding sad and dismal',
           zh_TW: '悲傷的(尤指誇張地)、憂鬱的',
+          zh_CN: '悲伤的(尤指夸张地)、忧鬱的',
         },
         partsOfSpeech: 'adjective',
         example: 'his face looked even more lugubrious than usual',
@@ -15271,6 +16425,7 @@ export default [
         meaning: {
           en: 'having bright glaring colours or combinations of colour',
           zh_TW: '聳人聽聞的、可怕的',
+          zh_CN: '耸人听闻的、可怕的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15285,6 +16440,7 @@ export default [
         meaning: {
           en: 'having bright glaring colors or combinations of color',
           zh_TW: '可怕的、恐怖的、火紅的',
+          zh_CN: '可怕的、恐怖的、火红的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15299,6 +16455,7 @@ export default [
         meaning: {
           en: 'growing thickly and strongly; lush',
           zh_TW: '繁茂的、肥沃的',
+          zh_CN: '繁茂的、肥沃的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15313,6 +16470,7 @@ export default [
         meaning: {
           en: 'disturbing and horrifying because of involvement with or depiction of death and injury',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a macabre series of murders',
@@ -15327,6 +16485,7 @@ export default [
         meaning: {
           en: 'engage in plots and intrigues; scheme',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he machinated against other bishops',
@@ -15341,6 +16500,7 @@ export default [
         meaning: {
           en: 'having or showing great authority',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a magisterial pronouncement',
@@ -15349,6 +16509,7 @@ export default [
         meaning: {
           en: '(of a person) holding the office of a magistrate',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'magisterial officers',
@@ -15363,6 +16524,7 @@ export default [
         meaning: {
           en: 'noble and generous in spirit, especially towards a rival or someone less powerful',
           zh_TW: '寬大的、有雅量的',
+          zh_CN: '宽大的、有雅量的',
         },
         partsOfSpeech: 'adjective',
         example: 'He was a great sportsman: in defeat he was complimentary and in victory he was magnanimous',
@@ -15377,6 +16539,7 @@ export default [
         meaning: {
           en: 'cause or enable (a condition or state of affairs) to continue',
           zh_TW: '堅持、主張',
+          zh_CN: '坚持、主张',
         },
         partsOfSpeech: 'verb',
         example: 'the need to maintain close links between industry and schools',
@@ -15385,6 +16548,7 @@ export default [
         meaning: {
           en: 'provide with necessities for life or existence',
           zh_TW: '維護、維持',
+          zh_CN: '维护、维持',
         },
         partsOfSpeech: 'verb',
         example: 'the allowance covers the basic costs of maintaining a child',
@@ -15399,6 +16563,7 @@ export default [
         meaning: {
           en: 'ineffective or bungling; clumsy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'both men are unhappy about the maladroit way the matter has been handled',
@@ -15413,6 +16578,7 @@ export default [
         meaning: {
           en: 'a disease or ailment',
           zh_TW: '病、疾病',
+          zh_CN: '病、疾病',
         },
         partsOfSpeech: 'noun',
         example: 'an incurable malady',
@@ -15427,6 +16593,7 @@ export default [
         meaning: {
           en: 'the confusion of a word with another word that sounds similar',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -15442,6 +16609,7 @@ export default [
         meaning: {
           en: 'having or showing a wish to do evil to others',
           zh_TW: '有惡意的、惡毒的',
+          zh_CN: '有恶意的、恶毒的',
         },
         partsOfSpeech: 'adjective',
         example: 'the glint of dark, malevolent eyes',
@@ -15456,6 +16624,7 @@ export default [
         meaning: {
           en: 'wrongdoing, especially by a public official',
           zh_TW: '不法行為、瀆職',
+          zh_CN: '不法行为、瀆职',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15470,6 +16639,7 @@ export default [
         meaning: {
           en: 'say unpleasant or untrue things about',
           zh_TW: '(a)惡意的、(v)誹謗',
+          zh_CN: '(a)恶意的、(v)誹谤',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -15484,6 +16654,7 @@ export default [
         meaning: {
           en: 'someone shirking their duty by pretending to be sick or incapacitated',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -15499,6 +16670,7 @@ export default [
         meaning: {
           en: '(of a metal or other material) able to be hammered or pressed permanently out of shape without breaking or cracking',
           zh_TW: '可塑的、展延的',
+          zh_CN: '可塑的、展延的',
         },
         partsOfSpeech: 'adjective',
         example: 'a malleable metal can be beaten into a sheet',
@@ -15513,6 +16685,7 @@ export default [
         meaning: {
           en: 'having an unpleasant smell',
           zh_TW: '惡臭的',
+          zh_CN: '恶臭的',
         },
         partsOfSpeech: 'adjective',
         example: 'Some thermally active fountains spew sulfur fumes--the air around them is sometimes so malodorous that many have to plug their noses',
@@ -15527,6 +16700,7 @@ export default [
         meaning: {
           en: '(to do sth) authority given to a party, trade union, etc by the people who support it',
           zh_TW: '命令、指令 [類] a. mandatory',
+          zh_CN: '命令、指令 [类] a. mandatory',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15541,6 +16715,7 @@ export default [
         meaning: {
           en: 'required by law; compulsory',
           zh_TW: '命令的、強迫的',
+          zh_CN: '命令的、强迫的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15555,6 +16730,7 @@ export default [
         meaning: {
           en: 'control or handle with skill',
           zh_TW: '(熟練的)操作、運用',
+          zh_CN: '(熟练的)操作、运用',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -15569,6 +16745,7 @@ export default [
         meaning: {
           en: 'thing written by hand, not typed or printed',
           zh_TW: '手寫的、原稿的',
+          zh_CN: '手写的、原稿的',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15583,6 +16760,7 @@ export default [
         meaning: {
           en: 'suggesting war or military life',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -15598,6 +16776,7 @@ export default [
         meaning: {
           en: 'a strict disciplinarian, especially in the armed forces',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the woman in charge was a martinet who treated all those beneath her like children',
@@ -15612,6 +16791,7 @@ export default [
         meaning: {
           en: 'self-pityingly or tearfully sentimental, often through drunkenness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the drink made her maudlin',
@@ -15626,6 +16806,7 @@ export default [
         meaning: {
           en: 'talk in a rambling manner',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Dennis maundered on about the wine',
@@ -15634,6 +16815,7 @@ export default [
         meaning: {
           en: 'move or act in a dreamy or idle manner',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he maunders through the bank, composing his thoughts',
@@ -15648,6 +16830,7 @@ export default [
         meaning: {
           en: 'an unorthodox or independent-minded person',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "he's the maverick of the fashion scene",
@@ -15662,6 +16845,7 @@ export default [
         meaning: {
           en: 'sentimental in a feeble or sickly way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a mawkish poem',
@@ -15676,6 +16860,7 @@ export default [
         meaning: {
           en: 'a short saying expressing a general truth',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -15691,6 +16876,7 @@ export default [
         meaning: {
           en: 'to wander aimlessly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -15706,6 +16892,7 @@ export default [
         meaning: {
           en: 'act as a peacemaker or go-between for two or more people, groups, etc who disagree',
           zh_TW: '調停解決',
+          zh_CN: '调停解决',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -15720,6 +16907,7 @@ export default [
         meaning: {
           en: 'not very good; second-rate',
           zh_TW: '平凡的、平庸的 [類] common',
+          zh_CN: '平凡的、平庸的 [类] common',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15734,6 +16922,7 @@ export default [
         meaning: {
           en: 'a feeling of pensive sadness, typically with no obvious cause',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'an air of melancholy surrounded him',
@@ -15742,6 +16931,7 @@ export default [
         meaning: {
           en: 'having a feeling of melancholy; sad and pensive',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she felt a little melancholy',
@@ -15756,6 +16946,7 @@ export default [
         meaning: {
           en: 'a wild, confusing fight or struggle',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'After enduring daily taunts about my name, I became enraged and pummeled the schoolyard bully and his sycophantic friends in a brutal melee',
@@ -15770,6 +16961,7 @@ export default [
         meaning: {
           en: '(of a voice or words) sweet or musical; pleasant to hear',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the voice was mellifluous and smooth',
@@ -15784,6 +16976,7 @@ export default [
         meaning: {
           en: 'suggesting the presence of danger; threatening',
           zh_TW: '威脅的、不詳的',
+          zh_CN: '威胁的、不详的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15798,6 +16991,7 @@ export default [
         meaning: {
           en: 'untruthful; lying',
           zh_TW: '虛偽的、說謊的 [類] n. mendacity 虛偽',
+          zh_CN: '虚偽的、说谎的 [类] n. mendacity 虚偽',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -15812,6 +17006,7 @@ export default [
         meaning: {
           en: 'the tendency to be untruthful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'I can forgive her for her mendacity but only because she is a child and is seeing what she can get away with',
@@ -15826,6 +17021,7 @@ export default [
         meaning: {
           en: 'a pauper who lives by begging',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Tolstoy was an aristocrat, but he strove to understand the Christianity of the Russian peasants by wandering among them as a mendicant',
@@ -15840,6 +17036,7 @@ export default [
         meaning: {
           en: 'experienced and trusted adviser of an inexperienced person',
           zh_TW: '導師',
+          zh_CN: '导师',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15854,6 +17051,7 @@ export default [
         meaning: {
           en: '(of a person) subject to sudden or unpredictable changes of mood or mind',
           zh_TW: '反覆無常的',
+          zh_CN: '反覆无常的',
         },
         partsOfSpeech: 'adjective',
         example: 'his mercurial temperament',
@@ -15862,6 +17060,7 @@ export default [
         meaning: {
           en: 'a drug or other compound containing mercury',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'for twenty years organic mercurials were the most potent diuretics in clinical use',
@@ -15876,6 +17075,7 @@ export default [
         meaning: {
           en: 'to spellbind or enthrall',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -15891,6 +17091,7 @@ export default [
         meaning: {
           en: 'use of a word or phrase to indicate sth different from (though related in some way to) the literal meaning',
           zh_TW: '隱喻 [類] adj. metaphorical',
+          zh_CN: '隱喻 [类] adj. metaphorical',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15905,6 +17106,7 @@ export default [
         meaning: {
           en: 'relating to meteors or meteorites',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'meteoric iron',
@@ -15913,6 +17115,7 @@ export default [
         meaning: {
           en: "(of the development of something, especially a person's career) very rapid",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'her meteoric rise to the top of her profession',
@@ -15927,6 +17130,7 @@ export default [
         meaning: {
           en: 'showing great attention to detail; very careful and precise',
           zh_TW: '小心翼翼地、一絲不苟的',
+          zh_CN: '小心翼翼地、一丝不苟的',
         },
         partsOfSpeech: 'adjective',
         example: 'he had always been so meticulous about his appearance',
@@ -15941,6 +17145,7 @@ export default [
         meaning: {
           en: 'filled with courage or valor',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'For its raid on the Bin Laden’s compound in Abbottabad, Seal Team Six has become, for many Americans, the embodiment of mettle',
@@ -15955,6 +17160,7 @@ export default [
         meaning: {
           en: 'swampy ground or bog; soft deep mud',
           zh_TW: 'n. 泥淖、污泥 v. 使陷入困境',
+          zh_CN: 'n. 泥淖、污泥 v. 使陷入困境',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15969,6 +17175,7 @@ export default [
         meaning: {
           en: 'a hater of mankind',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Kevin is such a misanthrope that he refused to attend the Christmas party, claiming that everyone\'s happiness was "fake" and "annoying."',
@@ -15983,6 +17190,7 @@ export default [
         meaning: {
           en: 'under a misapprehension not understanding correctly',
           zh_TW: '誤會、誤解',
+          zh_CN: '误会、误解',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -15997,6 +17205,7 @@ export default [
         meaning: {
           en: "interpret (something, especially a person's words or actions) wrongly",
           zh_TW: '曲解、誤解',
+          zh_CN: '曲解、误解',
         },
         partsOfSpeech: 'verb',
         example: 'my advice was deliberately misconstrued',
@@ -16011,6 +17220,7 @@ export default [
         meaning: {
           en: 'a person who behaves badly or in a way that breaks the law',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the police are straining every nerve to bring the miscreants to justice',
@@ -16019,6 +17229,7 @@ export default [
         meaning: {
           en: '(of a person) behaving badly or in a way that breaks a law or rule',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'her miscreant husband',
@@ -16033,6 +17244,7 @@ export default [
         meaning: {
           en: 'a person who hoards wealth and spends as little money as possible',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a typical miser, he hid his money in the house in various places',
@@ -16047,6 +17259,7 @@ export default [
         meaning: {
           en: 'wrong use of a name, word or description',
           zh_TW: '人名誤載、寫錯姓名',
+          zh_CN: '人名误载、写错姓名',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -16061,6 +17274,7 @@ export default [
         meaning: {
           en: 'a person who dislikes, despises, or is strongly prejudiced against women',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a bachelor and renowned misogynist',
@@ -16069,6 +17283,7 @@ export default [
         meaning: {
           en: 'relating to or characteristic of a misogynist',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a misogynist attitude',
@@ -16083,6 +17298,7 @@ export default [
         meaning: {
           en: 'a means of easing, lessening or assuaging',
           zh_TW: '緩和的、減輕的',
+          zh_CN: '缓和的、减轻的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16097,6 +17313,7 @@ export default [
         meaning: {
           en: 'make less severe or harsh',
           zh_TW: '使緩和、減輕',
+          zh_CN: '使缓和、减轻',
         },
         partsOfSpeech: 'verb',
         example: 'I can only spend so much time mitigating your disagreements with your wife, and at certain point, you need to do it on your own',
@@ -16111,6 +17328,7 @@ export default [
         meaning: {
           en: 'average in amount, intensity, quality, etc; not extreme',
           zh_TW: '適度的、有節制的',
+          zh_CN: '適度的、有节制的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16125,6 +17343,7 @@ export default [
         meaning: {
           en: 'a small or moderate or token amount',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "If my sister had even a modicum of sense, she wouldn't be engaged to that barbarian.",
@@ -16139,6 +17358,7 @@ export default [
         meaning: {
           en: 'appease the anger or anxiety of (someone)',
           zh_TW: '緩和、減輕、使安靜',
+          zh_CN: '缓和、减轻、使安静',
         },
         partsOfSpeech: 'verb',
         example: 'nature reserves were set up around the power stations to mollify local conservationists',
@@ -16153,6 +17373,7 @@ export default [
         meaning: {
           en: 'lasting for a very short time',
           zh_TW: '瞬間的',
+          zh_CN: '瞬间的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16167,6 +17388,7 @@ export default [
         meaning: {
           en: 'not changing and therefore uninteresting; boring or tedious',
           zh_TW: '單調的、無聊的',
+          zh_CN: '单调的、无聊的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16181,6 +17403,7 @@ export default [
         meaning: {
           en: 'open to argument or debate; undecidable in a meaningless or irrelevant way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -16196,6 +17419,7 @@ export default [
         meaning: {
           en: 'having or showing definite but narrow beliefs and judgements about right and wrong actions',
           zh_TW: '說教的、教訓的',
+          zh_CN: '说教的、教训的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16210,6 +17434,7 @@ export default [
         meaning: {
           en: 'biting and caustic in thought, manner, or style',
           zh_TW: '諷刺的、尖酸的',
+          zh_CN: '讽刺的、尖酸的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -16225,6 +17450,7 @@ export default [
         meaning: {
           en: '(of a person) at the point of death',
           zh_TW: '即將結束的、垂死的',
+          zh_CN: '即將结束的、垂死的',
         },
         partsOfSpeech: 'adjective',
         example: 'on examination she was moribund and dehydrated',
@@ -16233,6 +17459,7 @@ export default [
         meaning: {
           en: '(of a thing) in terminal decline; lacking vitality or vigor',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the moribund commercial property market',
@@ -16247,6 +17474,7 @@ export default [
         meaning: {
           en: 'ill-tempered and not inclined to talk; gloomy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'After Stanley found out he was no longer able to go on vacation with his friends, he sat in his room morosely',
@@ -16261,6 +17489,7 @@ export default [
         meaning: {
           en: 'To undergo dramatic change in a seamless and barely noticeable fashion',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -16276,6 +17505,7 @@ export default [
         meaning: {
           en: 'extract money from (someone) by fine or taxation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'they have turned mulcting taxpayers into an art form',
@@ -16284,6 +17514,7 @@ export default [
         meaning: {
           en: 'deprive someone of (money or possessions) by fraudulent means',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he mulcted Shelly of $75,000',
@@ -16298,6 +17529,7 @@ export default [
         meaning: {
           en: 'having many facets',
           zh_TW: '多面向的',
+          zh_CN: '多面向的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16312,6 +17544,7 @@ export default [
         meaning: {
           en: 'lacking interest or excitement; dull',
           zh_TW: '平凡的、乏味的',
+          zh_CN: '平凡的、乏味的',
         },
         partsOfSpeech: 'adjective',
         example: 'seeking a way out of his mundane, humdrum existence',
@@ -16320,6 +17553,7 @@ export default [
         meaning: {
           en: 'of this earthly world rather than a heavenly or spiritual one',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the boundaries of the mundane world',
@@ -16334,6 +17568,7 @@ export default [
         meaning: {
           en: '(of a gift or sum of money) larger or more generous than is usual or necessary',
           zh_TW: '寬宏的、慷慨的',
+          zh_CN: '宽宏的、慷慨的',
         },
         partsOfSpeech: 'adjective',
         example: 'a munificent gesture',
@@ -16348,6 +17583,7 @@ export default [
         meaning: {
           en: 'softened, subdued',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Helen preferred muted earth colors, such as green and brown, to the bright pinks and red her sister liked',
@@ -16362,6 +17598,7 @@ export default [
         meaning: {
           en: 'lacking foresight or imagination',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "The company ultimately went out of business because the myopic managers couldn't predict the changes in their industry.",
@@ -16376,6 +17613,7 @@ export default [
         meaning: {
           en: 'a countless or extremely great number',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'networks connecting a myriad of computers',
@@ -16384,6 +17622,7 @@ export default [
         meaning: {
           en: 'countless or extremely great in number',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the myriad lights of the city',
@@ -16398,6 +17637,7 @@ export default [
         meaning: {
           en: 'the lowest point',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'For many pop music fans, the rap– and alternative-rock–dominated 90s were the nadir of musical expression',
@@ -16412,6 +17652,7 @@ export default [
         meaning: {
           en: 'beginning to exist; not yet well developed',
           zh_TW: '初生的、萌芽的',
+          zh_CN: '初生的、萌芽的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16426,6 +17667,7 @@ export default [
         meaning: {
           en: "relating to the place or time of one's birth",
           zh_TW: '出生的、出生時的',
+          zh_CN: '出生的、出生时的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16440,6 +17682,7 @@ export default [
         meaning: {
           en: 'cloud like; hazy',
           zh_TW: '模糊的',
+          zh_CN: '模糊的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16454,6 +17697,7 @@ export default [
         meaning: {
           en: 'deny or disprove the existence of (sb/sth)',
           zh_TW: '取消、否認',
+          zh_CN: '取消、否认',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -16468,6 +17712,7 @@ export default [
         meaning: {
           en: 'not giving proper attention or care to sth; careless',
           zh_TW: '疏忽的、粗心的',
+          zh_CN: '疏忽的、粗心的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16482,6 +17727,7 @@ export default [
         meaning: {
           en: 'so small as to be meaningless; insignificant',
           zh_TW: '可以忽略的、微不足道的',
+          zh_CN: '可以忽略的、微不足道的',
         },
         partsOfSpeech: 'adjective',
         example: 'The GRE tests cumulative knowledge, so if you cram the night before it is, at best, likely to only have a negligible impact on your score',
@@ -16496,6 +17742,7 @@ export default [
         meaning: {
           en: 'causing annoyance or difficulty',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'complicated and nettlesome regional disputes',
@@ -16510,6 +17757,7 @@ export default [
         meaning: {
           en: 'not supporting or helping either side in a dispute, contest, war, etc; impartial',
           zh_TW: '中立的、中立國的',
+          zh_CN: '中立的、中立国的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16524,6 +17772,7 @@ export default [
         meaning: {
           en: 'having an extremely bad smell',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Each August, when the winds moved in a south easterly direction, the garbage dump would spread noisome vapors through the small town',
@@ -16538,6 +17787,7 @@ export default [
         meaning: {
           en: '(of a person or manner) feeling or appearing casually calm and relaxed; not displaying anxiety, interest, or enthusiasm',
           zh_TW: '無憂無慮的、漠不關心的',
+          zh_CN: '无忧无虑的、漠不关心的',
         },
         partsOfSpeech: 'adjective',
         example: 'she gave a nonchalant shrug',
@@ -16552,6 +17802,7 @@ export default [
         meaning: {
           en: '(of a person) surprised and confused so much that they are unsure how to react',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he would be completely nonplussed and embarrassed at the idea',
@@ -16566,6 +17817,7 @@ export default [
         meaning: {
           en: 'describing or setting standards or rules of language, behavior, etc, which should be followed',
           zh_TW: '合乎規範的、按規定準則的',
+          zh_CN: '合乎规范的、按规定准则的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16580,6 +17832,7 @@ export default [
         meaning: {
           en: 'sentimental longing for things that are past',
           zh_TW: '思鄉病',
+          zh_CN: '思乡病',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -16594,6 +17847,7 @@ export default [
         meaning: {
           en: 'sentimental longing for things that are past',
           zh_TW: '鄉愁',
+          zh_CN: '乡愁',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -16608,6 +17862,7 @@ export default [
         meaning: {
           en: 'fame for being bad in some way',
           zh_TW: '惡名昭彰、聲名狼藉',
+          zh_CN: '恶名昭彰、声名狼藉',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -16622,6 +17877,7 @@ export default [
         meaning: {
           en: 'quality of being novel; newness; strangeness',
           zh_TW: '新奇、新奇的事物',
+          zh_CN: '新奇、新奇的事物',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -16636,6 +17892,7 @@ export default [
         meaning: {
           en: 'person who is new and inexperienced in a job, situation, etc; beginner',
           zh_TW: '新手、初學者',
+          zh_CN: '新手、初学者',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -16650,6 +17907,7 @@ export default [
         meaning: {
           en: 'harmful; poisonous',
           zh_TW: '有害的、有毒的',
+          zh_CN: '有害的、有毒的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16664,6 +17922,7 @@ export default [
         meaning: {
           en: 'a subtle difference in meaning or opinion or attitude',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Because of the nuances involved in this case, I hired an outside consultant to advice us and help',
@@ -16678,6 +17937,7 @@ export default [
         meaning: {
           en: "stubbornly refusing to change one's opinion or course of action",
           zh_TW: '固執的、頑固的',
+          zh_CN: '固执的、顽固的',
         },
         partsOfSpeech: 'adjective',
         example: 'I argued this point with him, but he was obdurate',
@@ -16692,6 +17952,7 @@ export default [
         meaning: {
           en: '(deliberately) make (sth) confused or difficult to understand',
           zh_TW: '使困惑、使迷糊',
+          zh_CN: '使困惑、使迷糊',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -16706,6 +17967,7 @@ export default [
         meaning: {
           en: 'rebuke severely; scold',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the old man objurgated his son',
@@ -16720,6 +17982,7 @@ export default [
         meaning: {
           en: 'willing to do a service or kindness; helpful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'one of the most obliging stewards',
@@ -16728,6 +17991,7 @@ export default [
         meaning: {
           en: 'make (someone) legally or morally bound to an action or course of action',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'doctors are obliged by law to keep patients alive while there is a chance of recovery',
@@ -16736,6 +18000,7 @@ export default [
         meaning: {
           en: 'do as (someone) asks or desires in order to help or please them',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'oblige me by not being sorry for yourself',
@@ -16744,6 +18009,7 @@ export default [
         meaning: {
           en: 'be indebted or grateful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "if you can give me a few minutes of your time I'll be much obliged",
@@ -16758,6 +18024,7 @@ export default [
         meaning: {
           en: 'neither parallel nor at a right angle to a specified or implied line; slanting',
           zh_TW: '斜的、間接的',
+          zh_CN: '斜的、间接的',
         },
         partsOfSpeech: 'adjective',
         example: 'we sat on the settee oblique to the fireplace',
@@ -16766,6 +18033,7 @@ export default [
         meaning: {
           en: 'not explicit or direct in addressing a point',
           zh_TW: '不坦率的',
+          zh_CN: '不坦率的',
         },
         partsOfSpeech: 'adjective',
         example: 'is he making an oblique attack on his colleague?',
@@ -16780,6 +18048,7 @@ export default [
         meaning: {
           en: 'of/to sth unaware of or not noticing sth; having no memory of sth',
           zh_TW: '未察覺的、健忘的',
+          zh_CN: '未察觉的、健忘的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16794,6 +18063,7 @@ export default [
         meaning: {
           en: 'make unclear',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -16809,6 +18079,7 @@ export default [
         meaning: {
           en: 'obedient or attentive to an excessive or servile degree',
           zh_TW: '逢迎的、諂媚的 [類] fawning',
+          zh_CN: '逢迎的、諂媚的 [类] fawning',
         },
         partsOfSpeech: 'adjective',
         example: 'they were served by obsequious waiters',
@@ -16823,6 +18094,7 @@ export default [
         meaning: {
           en: 'adhering strictly to the rules of a particular religion',
           zh_TW: '嚴格遵守⋯的、注意的、當心的',
+          zh_CN: '严格遵守⋯的、注意的、当心的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16837,6 +18109,7 @@ export default [
         meaning: {
           en: 'becoming out of date,; going out of use',
           zh_TW: '逐漸被廢棄的、即將過時的',
+          zh_CN: '逐渐被废弃的、即將过时的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16851,6 +18124,7 @@ export default [
         meaning: {
           en: 'resistant to guidance or discipline; stubbornly persistent',
           zh_TW: '固執的、倔強的',
+          zh_CN: '固执的、倔强的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -16866,6 +18140,7 @@ export default [
         meaning: {
           en: 'noisily and stubbornly defiant; willfully difficult to control',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -16881,6 +18156,7 @@ export default [
         meaning: {
           en: 'get, acquire, or secure (something)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'an opportunity to obtain advanced degrees',
@@ -16889,6 +18165,7 @@ export default [
         meaning: {
           en: '(formal) be prevalent, customary, or established',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the price of silver fell to that obtaining elsewhere in the ancient world',
@@ -16903,6 +18180,7 @@ export default [
         meaning: {
           en: "(on/upon sb/sth)(fml) force (oneself, one's opinions, ideas, etc) upon sb/sth, esp when unwanted",
           zh_TW: '突出、強加',
+          zh_CN: '突出、强加',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -16917,6 +18195,7 @@ export default [
         meaning: {
           en: 'slow to learn or understand; lacking intellectual acuity; lacking in insight or discernment',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "Jackson was the most obtuse member of the team: the manager's subtle ironies were always lost on him.",
@@ -16931,6 +18210,7 @@ export default [
         meaning: {
           en: 'remove (sth); get rid of',
           zh_TW: '排除、消除(困難)',
+          zh_CN: '排除、消除(困难)',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -16945,6 +18225,7 @@ export default [
         meaning: {
           en: 'giving off an order',
           zh_TW: '有味道的、臭的',
+          zh_CN: '有味道的、臭的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16959,6 +18240,7 @@ export default [
         meaning: {
           en: 'assertive of authority in an annoyingly domineering way, especially with regard to petty or trivial matters',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the security people were very officious',
@@ -16967,6 +18249,7 @@ export default [
         meaning: {
           en: 'intrusively enthusiastic in offering help or advice; interfering',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an officious bystander',
@@ -16981,6 +18264,7 @@ export default [
         meaning: {
           en: 'suggesting that sth bad is about to happen; threatening',
           zh_TW: '預兆的、不詳的',
+          zh_CN: '预兆的、不详的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -16995,6 +18279,7 @@ export default [
         meaning: {
           en: 'having unlimited or very great power',
           zh_TW: '全能的、萬能的',
+          zh_CN: '全能的、万能的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17009,6 +18294,7 @@ export default [
         meaning: {
           en: 'knowing everything',
           zh_TW: '無所不知的、博識的',
+          zh_CN: '无所不知的、博识的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17023,6 +18309,7 @@ export default [
         meaning: {
           en: 'needing effort; burdensome',
           zh_TW: '繁重的、麻煩的',
+          zh_CN: '繁重的、麻烦的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17037,6 +18324,7 @@ export default [
         meaning: {
           en: 'not clearly understood or expressed',
           zh_TW: '不透明的、難懂的',
+          zh_CN: '不透明的、难懂的',
         },
         partsOfSpeech: 'adjective',
         example: "The meaning of the professor's new research was opaque to most people, so no one asked any questions.",
@@ -17051,6 +18339,7 @@ export default [
         meaning: {
           en: '(of time) suitable or favorable for purpose',
           zh_TW: '恰好的、適宜的',
+          zh_CN: '恰好的、適宜的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17065,6 +18354,7 @@ export default [
         meaning: {
           en: 'exploiting chances offered by immediate circumstances without reference to a general plan or moral principle',
           zh_TW: '機會主義的、投機取巧的',
+          zh_CN: '机会主义的、投机取巧的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17079,6 +18369,7 @@ export default [
         meaning: {
           en: 'public disgrace and shame',
           zh_TW: '辱罵',
+          zh_CN: '辱骂',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -17093,6 +18384,7 @@ export default [
         meaning: {
           en: 'best or most favorable; optimum',
           zh_TW: '最佳的、最理想的',
+          zh_CN: '最佳的、最理想的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17107,6 +18399,7 @@ export default [
         meaning: {
           en: 'expecting the best; confident',
           zh_TW: '樂觀的',
+          zh_CN: '乐观的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17121,6 +18414,7 @@ export default [
         meaning: {
           en: 'wealth as evidenced by sumptuous living',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Russian oligarchs are famous for their opulence, living in fancy homes and dining on expensive caviar',
@@ -17135,6 +18429,7 @@ export default [
         meaning: {
           en: 'having or showing signs of great wealth',
           zh_TW: '豐饒的、華麗的、奢侈的',
+          zh_CN: '丰饶的、华丽的、奢侈的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17149,6 +18444,7 @@ export default [
         meaning: {
           en: 'serving or intended as an ornament; decorative',
           zh_TW: '裝飾的、做裝飾用的',
+          zh_CN: '装饰的、做装饰用的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17163,6 +18459,7 @@ export default [
         meaning: {
           en: 'made in an intricate shape or decorated with complex patterns',
           zh_TW: '裝飾華麗的',
+          zh_CN: '装饰华丽的',
         },
         partsOfSpeech: 'adjective',
         example: 'an ornate wrought-iron railing',
@@ -17171,6 +18468,7 @@ export default [
         meaning: {
           en: '(of literary style) using unusual words and complex constructions',
           zh_TW: '過分修飾的',
+          zh_CN: '过分修饰的',
         },
         partsOfSpeech: 'adjective',
         example: 'peculiarly ornate and metaphorical language',
@@ -17185,6 +18483,7 @@ export default [
         meaning: {
           en: 'generally accepted or approved',
           zh_TW: '正統的、傳統的、習俗的、通常的',
+          zh_CN: '正统的、传统的、习俗的、通常的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17199,6 +18498,7 @@ export default [
         meaning: {
           en: 'make rigid and set into a conventional pattern',
           zh_TW: '硬化、骨化、使僵化',
+          zh_CN: '硬化、骨化、使僵化',
         },
         partsOfSpeech: 'verb',
         example:
@@ -17214,6 +18514,7 @@ export default [
         meaning: {
           en: 'stated though perhaps not true; apparent',
           zh_TW: '外表的、假裝的 [類]apparent(表面上的), plausible(似乎是真的), specious(似是而非的) [反] actual',
+          zh_CN: '外表的、假装的 [类]apparent(表面上的), plausible(似乎是真的), specious(似是而非的) [反] actual',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17228,6 +18529,7 @@ export default [
         meaning: {
           en: 'intended to attract notice and impress others; tawdry or vulgar',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -17243,6 +18545,7 @@ export default [
         meaning: {
           en: 'exclude from a community or group',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Later in his life, Leo Tolstoy was ostracized from the Russian Orthodox Church for his writings that contradicted church doctrine',
@@ -17257,6 +18560,7 @@ export default [
         meaning: {
           en: 'natural development or result',
           zh_TW: '自然結果、產物、副產品',
+          zh_CN: '自然结果、產物、副產品',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -17271,6 +18575,7 @@ export default [
         meaning: {
           en: 'no longer fashionable',
           zh_TW: '老式的、過時的',
+          zh_CN: '老式的、过时的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17285,6 +18590,7 @@ export default [
         meaning: {
           en: 'run faster than (sb in a race) and leave him behind',
           zh_TW: '超過、跑過',
+          zh_CN: '超过、跑过',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -17299,6 +18605,7 @@ export default [
         meaning: {
           en: 'forcing others to do what one wants (without caring about their feelings); domineering',
           zh_TW: '專橫的、好指使人的、傲慢的',
+          zh_CN: '专横的、好指使人的、傲慢的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17313,6 +18620,7 @@ export default [
         meaning: {
           en: "disregard or set aside (sb's opinions, etc)",
           zh_TW: '否決、不顧、使無效 [類] trample (踩踏、無視)',
+          zh_CN: '否决、不顾、使无效 [类] trample (踩踏、无视)',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -17327,6 +18635,7 @@ export default [
         meaning: {
           en: 'done or shown openly or publicly; not secret or hidden',
           zh_TW: '明顯的、公然的',
+          zh_CN: '明显的、公然的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17341,6 +18650,7 @@ export default [
         meaning: {
           en: 'showing excessive confidence or pride',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'overweening ambition',
@@ -17355,6 +18665,7 @@ export default [
         meaning: {
           en: 'acceptable to the taste or mind',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "Mikey didn't partake much in his friends' conversations, but found their presence palatable.",
@@ -17369,6 +18680,7 @@ export default [
         meaning: {
           en: 'unnecessarily elaborate or complex procedure',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "there's a lot of palaver involved",
@@ -17377,6 +18689,7 @@ export default [
         meaning: {
           en: 'talk unproductively and at length',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "it's too hot for palavering",
@@ -17391,6 +18704,7 @@ export default [
         meaning: {
           en: 'a manuscript or piece of writing material on which the original writing has been effaced to make room for later writing but of which traces remain',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -17399,6 +18713,7 @@ export default [
         meaning: {
           en: 'something reused or altered but still bearing visible traces of its earlier form',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Sutton Place is a palimpsest of the taste of successive owners',
@@ -17413,6 +18728,7 @@ export default [
         meaning: {
           en: '(of a medicine or form of medical care) relieving symptoms without dealing with the cause of the condition',
           zh_TW: '緩和的、治標不治本的',
+          zh_CN: '缓和的、治標不治本的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17427,6 +18743,7 @@ export default [
         meaning: {
           en: 'that can be felt or touched',
           zh_TW: '可觸知的、可摸到的、極其明瞭的 [類] tangible [反] subtle(難以嘬摸的、微妙的)',
+          zh_CN: '可触知的、可摸到的、极其明瞭的 [类] tangible [反] subtle(难以嘬摸的、微妙的)',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17441,6 +18758,7 @@ export default [
         meaning: {
           en: 'hypothetical remedy for all ills or diseases; a universal solution',
           zh_TW: '萬靈丹',
+          zh_CN: '万灵丹',
         },
         partsOfSpeech: 'noun',
         example:
@@ -17456,6 +18774,7 @@ export default [
         meaning: {
           en: 'distinctive and showy elegance',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Jim, with his typical panache, came to the wedding reception with a top hat and cane',
@@ -17470,6 +18789,7 @@ export default [
         meaning: {
           en: 'a public speech or published text in praise of someone or something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "Vera's panegyric on friendship",
@@ -17484,6 +18804,7 @@ export default [
         meaning: {
           en: 'set of all the different forms of a word',
           zh_TW: '範例、典範',
+          zh_CN: '范例、典范',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -17498,6 +18819,7 @@ export default [
         meaning: {
           en: 'statement that seems to be absurd or contradictory but is or may be true',
           zh_TW: '悖論、似是而非的議論',
+          zh_CN: '悖论、似是而非的议论',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -17512,6 +18834,7 @@ export default [
         meaning: {
           en: 'seemingly contradictory but nonetheless possibly true',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'That light could be both a particle and a wave seems paradoxical, but nonetheless, it is true',
@@ -17526,6 +18849,7 @@ export default [
         meaning: {
           en: 'model of excellence or perfection of a kind; one having no equal',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Even with the rise of Kobe Bryant, many still believe that Michael Jordon is the paragon for basketball players',
@@ -17540,6 +18864,7 @@ export default [
         meaning: {
           en: 'having the greatest importance or significance; supreme',
           zh_TW: '至高無上的、最重要的、主要的',
+          zh_CN: '至高无上的、最重要的、主要的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17554,6 +18879,7 @@ export default [
         meaning: {
           en: 'an outcast',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The once eminent scientist, upon being found guilty of faking his data, has become a pariah in the research community',
@@ -17568,6 +18894,7 @@ export default [
         meaning: {
           en: 'having a limited or narrow outlook or scope',
           zh_TW: '狹義的、地方性的 [類] provincial, narrow',
+          zh_CN: '狭义的、地方性的 [类] provincial, narrow',
         },
         partsOfSpeech: 'adjective',
         example: 'this worldview seems incredibly naive and parochial',
@@ -17576,6 +18903,7 @@ export default [
         meaning: {
           en: 'relating to a church parish',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the parochial church council',
@@ -17590,6 +18918,7 @@ export default [
         meaning: {
           en: '(piece of) speech, writing or music that imitates the style of an author, composer, etc in an amusing and often exaggerated way; comic imitation',
           zh_TW: '模仿性嘲弄文章或表演、拙劣的模仿',
+          zh_CN: '模仿性嘲弄文章或表演、拙劣的模仿',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -17604,6 +18933,7 @@ export default [
         meaning: {
           en: 'unwilling to spend money or use resources; stingy or frugal',
           zh_TW: '吝嗇的、過於儉省的 [反] profligate(肆意揮霍的)',
+          zh_CN: '吝嗇的、过於俭省的 [反] profligate(肆意挥霍的)',
         },
         partsOfSpeech: 'adjective',
         example: 'even the parsimonious Joe paid for drinks all round',
@@ -17618,6 +18948,7 @@ export default [
         meaning: {
           en: 'enthusiastic and often uncritical supporter of a person, group or cause',
           zh_TW: '(黨派)支持者、黨徒',
+          zh_CN: '(党派)支持者、党徒',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -17632,6 +18963,7 @@ export default [
         meaning: {
           en: 'a person of obscure origin who has gained wealth, influence, or celebrity',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the political inexperience of a parvenu',
@@ -17646,6 +18978,7 @@ export default [
         meaning: {
           en: 'passive: not active or not participating perceptibly in an activity, organization, etc',
           zh_TW: '被動、消極',
+          zh_CN: '被动、消极',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -17660,6 +18993,7 @@ export default [
         meaning: {
           en: '(especially of land or a farm) used for or related to the keeping or grazing of sheep or cattle',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'scattered pastoral farms',
@@ -17668,6 +19002,7 @@ export default [
         meaning: {
           en: '(in the Christian Church) concerning or appropriate to the giving of spiritual guidance',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'pastoral and doctrinal issues',
@@ -17676,6 +19011,7 @@ export default [
         meaning: {
           en: 'a work of literature portraying an idealized version of country life',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the story, though a pastoral, has an actual connection with the life of agricultural labor',
@@ -17690,6 +19026,7 @@ export default [
         meaning: {
           en: 'a government authority or license conferring a right or title for a set period, especially the sole right to exclude others from making, using, or selling an invention',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he took out a patent for an improved steam hammer',
@@ -17698,6 +19035,7 @@ export default [
         meaning: {
           en: 'easily recognizable; obvious',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she was smiling with patent insincerity',
@@ -17706,6 +19044,7 @@ export default [
         meaning: {
           en: '(of a vessel, duct, or aperture) open and unobstructed; failing to close',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the patient is usually left with a patent vessel',
@@ -17720,6 +19059,7 @@ export default [
         meaning: {
           en: 'relating to pathology',
           zh_TW: '病理上的、病態的',
+          zh_CN: '病理上的、病態的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17734,6 +19074,7 @@ export default [
         meaning: {
           en: 'treat condescendingly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'She says she genuinely wanted to help me, but instead she patronized me, constantly pointing out how I was inferior to her',
@@ -17748,6 +19089,7 @@ export default [
         meaning: {
           en: 'a lack of something',
           zh_TW: '少數、缺乏 [反] profusion(大量), plethora(過剩)',
+          zh_CN: '少数、缺乏 [反] profusion(大量), plethora(过剩)',
         },
         partsOfSpeech: 'noun',
         example: 'There is a paucity of jobs hiring today that require menial skills, since most such jobs have either been automated or outsourced',
@@ -17762,6 +19104,7 @@ export default [
         meaning: {
           en: 'strange or odd; unusual',
           zh_TW: '奇怪的、罕見的、古怪的',
+          zh_CN: '奇怪的、罕见的、古怪的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17776,6 +19119,7 @@ export default [
         meaning: {
           en: 'relating to or consisting of money',
           zh_TW: '金錢的、錢財方面的',
+          zh_CN: '金钱的、钱財方面的',
         },
         partsOfSpeech: 'adjective',
         example: 'he admitted obtaining a pecuniary advantage by deception',
@@ -17790,6 +19134,7 @@ export default [
         meaning: {
           en: 'of or like a pedant',
           zh_TW: '賣弄學問的',
+          zh_CN: '卖弄学问的',
         },
         partsOfSpeech: 'adjective',
         example: 'many of the essays are long, dense, and too pedantic to hold great appeal',
@@ -17804,6 +19149,7 @@ export default [
         meaning: {
           en: 'lacking imagination',
           zh_TW: '徒步的、缺乏想像的',
+          zh_CN: '徒步的、缺乏想像的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -17819,6 +19165,7 @@ export default [
         meaning: {
           en: 'easily irritated or annoyed',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Our office manager is peevish, so the rest of us tip-toe around him, hoping not to set off another one of his fits',
@@ -17833,6 +19180,7 @@ export default [
         meaning: {
           en: 'expressing disapproval (usu. refers to a term)',
           zh_TW: '貶抑的、輕蔑的',
+          zh_CN: '贬抑的、轻蔑的',
         },
         partsOfSpeech: 'adjective',
         example: 'Most psychologists object to the pejorative term "shrink", believing that they expand the human mind, not limit it',
@@ -17847,6 +19195,7 @@ export default [
         meaning: {
           en: 'transparently clear; easily understandable',
           zh_TW: '清晰的、清澈的 [類]limpid',
+          zh_CN: '清晰的、清澈的 [类]limpid',
         },
         partsOfSpeech: 'adjective',
         example: 'The professor had a remarkable ability to make even the most difficult concepts seem pellucid',
@@ -17861,6 +19210,7 @@ export default [
         meaning: {
           en: 'for sth liking or taste for sth',
           zh_TW: '愛好、嗜好 [反] aversion(厭惡)',
+          zh_CN: '爱好、嗜好 [反] aversion(厌恶)',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -17875,6 +19225,7 @@ export default [
         meaning: {
           en: 'waiting to be decided or settled',
           zh_TW: '未定的、待定的',
+          zh_CN: '未定的、待定的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17889,6 +19240,7 @@ export default [
         meaning: {
           en: 'relating to or expressing penitence or penance',
           zh_TW: '後悔的、懺悔的 [類] contrite (後悔的)',
+          zh_CN: '后悔的、懺悔的 [类] contrite (后悔的)',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17903,6 +19255,7 @@ export default [
         meaning: {
           en: 'thinking deeply about sth, esp in a sad or serious way',
           zh_TW: '沈思的、愁眉苦臉的',
+          zh_CN: '沈思的、愁眉苦脸的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -17917,6 +19270,7 @@ export default [
         meaning: {
           en: 'lacking money; poor',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Truly penurious, Mary had nothing more than a jar full of pennies',
@@ -17931,6 +19285,7 @@ export default [
         meaning: {
           en: '(of a person) having a good understanding of things; perceptive',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he is a percipient interpreter of the public mood',
@@ -17945,6 +19300,7 @@ export default [
         meaning: {
           en: 'travel or wander around from place to place',
           zh_TW: '遊歷、旅行',
+          zh_CN: '游歷、旅行',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -17959,6 +19315,7 @@ export default [
         meaning: {
           en: 'bossy and domineering',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'My sister used to peremptorily tell me to do the dishes, a chore I would either do perfunctorily or avoid doing altogether',
@@ -17973,6 +19330,7 @@ export default [
         meaning: {
           en: 'lasting an indefinitely long time; eternal; everlasting',
           zh_TW: '終年的、不斷發生的',
+          zh_CN: '终年的、不断发生的',
         },
         partsOfSpeech: 'adjective',
         example: 'Even at the old-timers games, Stan Musial would get the loudest cheer: he was a perennial favorite of the fans there',
@@ -17987,6 +19345,7 @@ export default [
         meaning: {
           en: 'an act of deliberate betrayal; a breach of a trust',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -18002,6 +19361,7 @@ export default [
         meaning: {
           en: '(of an action or gesture) carried out with a minimum of effort or reflection',
           zh_TW: '草率的、敷衍的',
+          zh_CN: '草率的、敷衍的',
         },
         partsOfSpeech: 'adjective',
         example: 'he gave a perfunctory nod',
@@ -18016,6 +19376,7 @@ export default [
         meaning: {
           en: 'outer edge of a closed geometric shape',
           zh_TW: '周長',
+          zh_CN: '周长',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -18030,6 +19391,7 @@ export default [
         meaning: {
           en: 'traveling by foot',
           zh_TW: '到處走的、流動的 [類] itinerant',
+          zh_CN: '到处走的、流动的 [类] itinerant',
         },
         partsOfSpeech: 'adjective',
         example: 'Jim always preferred a peripatetic approach to discovering a city: he felt that he could see so many more details while walking',
@@ -18044,6 +19406,7 @@ export default [
         meaning: {
           en: 'of secondary or minor importance (to sth)',
           zh_TW: '外圍的、周邊的、邊緣的',
+          zh_CN: '外围的、周边的、边缘的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18058,6 +19421,7 @@ export default [
         meaning: {
           en: 'exceedingly harmful; working or spreading in a hidden and injurious way',
           zh_TW: '有毒的、致命的',
+          zh_CN: '有毒的、致命的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -18073,6 +19437,7 @@ export default [
         meaning: {
           en: 'cause to continue',
           zh_TW: '使永存不朽、使不朽',
+          zh_CN: '使永存不朽、使不朽',
         },
         partsOfSpeech: 'verb',
         example: 'If you do not let him do things for himself, you are merely perpetuating bad habits that will be even harder to break in the future',
@@ -18087,6 +19452,7 @@ export default [
         meaning: {
           en: "a thing regarded as a special right or privilege enjoyed as a result of one's position",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the wife of a president has all the perquisites of stardom',
@@ -18101,6 +19467,7 @@ export default [
         meaning: {
           en: 'refusing to give up',
           zh_TW: '堅持不懈的',
+          zh_CN: '坚持不懈的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18115,6 +19482,7 @@ export default [
         meaning: {
           en: 'having a ready insight into and understanding of things',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'it offers quite a few facts to the perspicacious reporter',
@@ -18129,6 +19497,7 @@ export default [
         meaning: {
           en: 'expressed clearly',
           zh_TW: '明晰的、明瞭的',
+          zh_CN: '明晰的、明瞭的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18143,6 +19512,7 @@ export default [
         meaning: {
           en: 'to sth (used esp in the continuous tenses) be connected with or relevant to sth',
           zh_TW: '屬於、關於',
+          zh_CN: '属於、关於',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -18157,6 +19527,7 @@ export default [
         meaning: {
           en: 'relevant or applicable to a particular matter; apposite',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'she asked me a lot of very pertinent questions',
@@ -18171,6 +19542,7 @@ export default [
         meaning: {
           en: 'disturb in mind or cause to be worried or alarmed',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Now that Henry is recovering from a major illnesses, he no longer lets the little trivialities, such as late mail, perturb him',
@@ -18185,6 +19557,7 @@ export default [
         meaning: {
           en: 'to read very carefully',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Instead of perusing important documents, people all too often rush to the bottom of the page and plaster their signatures at the bottom',
@@ -18199,6 +19572,7 @@ export default [
         meaning: {
           en: 'present and perceived everywhere; pervading',
           zh_TW: '瀰漫的、遍佈的',
+          zh_CN: '瀰漫的、遍佈的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18213,6 +19587,7 @@ export default [
         meaning: {
           en: '(of a person or their manner) childishly sulky or bad-tempered',
           zh_TW: '暴躁的、壞脾氣的 [類] peevish',
+          zh_CN: '暴躁的、坏脾气的 [类] peevish',
         },
         partsOfSpeech: 'adjective',
         example: 'he was moody and petulant',
@@ -18227,6 +19602,7 @@ export default [
         meaning: {
           en: 'illusive; unreal',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -18242,6 +19618,7 @@ export default [
         meaning: {
           en: 'a person who is hostile or indifferent to culture and the arts, or who has no understanding of them',
           zh_TW: '不懂藝術的人、沒有教養的人',
+          zh_CN: '不懂艺术的人、没有教养的人',
         },
         partsOfSpeech: 'noun',
         example: 'I am a complete philistine when it comes to paintings',
@@ -18250,6 +19627,7 @@ export default [
         meaning: {
           en: 'hostile or indifferent to culture and the arts',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'there were displays to inspire even the most philistine of visitors',
@@ -18264,6 +19642,7 @@ export default [
         meaning: {
           en: '(of a person) having an unemotional and stolidly calm disposition',
           zh_TW: '冷靜的、沈著的',
+          zh_CN: '冷静的、沈著的',
         },
         partsOfSpeech: 'adjective',
         example: 'the phlegmatic British character',
@@ -18278,6 +19657,7 @@ export default [
         meaning: {
           en: 'petty; worthless',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the picayune squabbling of party politicians',
@@ -18292,6 +19672,7 @@ export default [
         meaning: {
           en: 'devotion to God and respect for religious principles; being pious',
           zh_TW: '孝順、孝敬、虔誠',
+          zh_CN: '孝顺、孝敬、虔诚',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -18306,6 +19687,7 @@ export default [
         meaning: {
           en: 'ridicule or expose to public scorn',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -18321,6 +19703,7 @@ export default [
         meaning: {
           en: 'to yearn for',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Standing forlornly by the window, she pined for her lost love',
@@ -18335,6 +19718,7 @@ export default [
         meaning: {
           en: 'the highest point',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -18350,6 +19734,7 @@ export default [
         meaning: {
           en: 'having or showing a deep devotion to religion',
           zh_TW: '虔誠的、盡責的',
+          zh_CN: '虔诚的、尽责的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18364,6 +19749,7 @@ export default [
         meaning: {
           en: 'having a pleasantly sharp taste or appetizing flavor',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a piquant tartare sauce',
@@ -18378,6 +19764,7 @@ export default [
         meaning: {
           en: 'unsuspected danger or difficulty',
           zh_TW: '陷阱、圈套',
+          zh_CN: '陷阱、圈套',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -18392,6 +19779,7 @@ export default [
         meaning: {
           en: 'the most essential part of something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -18407,6 +19795,7 @@ export default [
         meaning: {
           en: '(of language or style) concise and forcefully expressive',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18415,6 +19804,7 @@ export default [
         meaning: {
           en: '(of a fruit or plant) containing much pith',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18429,6 +19819,7 @@ export default [
         meaning: {
           en: 'a small amount (of money)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -18444,6 +19835,7 @@ export default [
         meaning: {
           en: 'make (someone) less angry or hostile',
           zh_TW: '撫慰、平息',
+          zh_CN: '抚慰、平息',
         },
         partsOfSpeech: 'verb',
         example: 'they attempted to placate the students with promises',
@@ -18458,6 +19850,7 @@ export default [
         meaning: {
           en: '(medical) harmless substance given as if it were medicine to clam a patient who mistakenly believes he is ill',
           zh_TW: '安慰劑、寬心丸',
+          zh_CN: '安慰剂、宽心丸',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -18472,6 +19865,7 @@ export default [
         meaning: {
           en: 'not easily irritated',
           zh_TW: '安靜的、和平的',
+          zh_CN: '安静的、和平的',
         },
         partsOfSpeech: 'adjective',
         example: 'Doug is normally placid, so we were all shocked to see him yelling at the television when the Mets lost the game',
@@ -18486,6 +19880,7 @@ export default [
         meaning: {
           en: 'sounding sad; sorrowful',
           zh_TW: '悲傷的、哀傷的 [類] melancholy',
+          zh_CN: '悲伤的、哀伤的 [类] melancholy',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18500,6 +19895,7 @@ export default [
         meaning: {
           en: '(of a substance or material) easily shaped or molded',
           zh_TW: '可塑的、易受影響的',
+          zh_CN: '可塑的、易受影响的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18514,6 +19910,7 @@ export default [
         meaning: {
           en: 'a trite or obvious remark',
           zh_TW: '平凡、陳腔濫調 [類] triteness',
+          zh_CN: '平凡、陈腔滥调 [类] triteness',
         },
         partsOfSpeech: 'noun',
         example: 'The professor argued that many statements regarded as wise in previous times, such as the Golden Rule, are now regarded as mere platitudes',
@@ -18528,6 +19925,7 @@ export default [
         meaning: {
           en: 'seeming to be right or reasonable; believable',
           zh_TW: '貌似真實的、貌似有理的 [反] implausible',
+          zh_CN: '貌似真实的、貌似有理的 [反] implausible',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18542,6 +19940,7 @@ export default [
         meaning: {
           en: 'a full supply',
           zh_TW: '充分、完全 [類] abundance',
+          zh_CN: '充分、完全 [类] abundance',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -18556,6 +19955,7 @@ export default [
         meaning: {
           en: 'slow-moving and unexciting',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a plodding comedy drama',
@@ -18570,6 +19970,7 @@ export default [
         meaning: {
           en: "a cunning plan or action designed to turn a situation to one's own advantage",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'this was widely interpreted as a ploy to buy time in order to consolidate his position',
@@ -18584,6 +19985,7 @@ export default [
         meaning: {
           en: 'having or showing determined courage in the face of difficulties',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the plucky youngster has astounded medical staff',
@@ -18598,6 +20000,7 @@ export default [
         meaning: {
           en: 'evoking a keen sense of sadness or regret',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a poignant reminder of the passing of time',
@@ -18612,6 +20015,7 @@ export default [
         meaning: {
           en: 'a strong verbal or written attack on someone or something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The professor launched into a polemic, claiming that Freudian theory was a pack of lies that absolutely destroyed European literary theory',
@@ -18626,6 +20030,7 @@ export default [
         meaning: {
           en: 'of polemics',
           zh_TW: '爭論的、辯論的 [類]polemic, controversial [反]conciliatory(撫慰調和的)',
+          zh_CN: '爭论的、辩论的 [类]polemic, controversial [反]conciliatory(抚慰调和的)',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18640,6 +20045,7 @@ export default [
         meaning: {
           en: 'feeling or showing that one feels, that one is much more important than other people',
           zh_TW: '浮華的、愛炫耀的 [類] arrogant, bombastic',
+          zh_CN: '浮华的、爱炫耀的 [类] arrogant, bombastic',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18654,6 +20060,7 @@ export default [
         meaning: {
           en: 'think about (sth) carefully and for a long time, esp in trying to reach a decision; consider',
           zh_TW: '仔細考慮、衡量',
+          zh_CN: '仔细考虑、衡量',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -18668,6 +20075,7 @@ export default [
         meaning: {
           en: 'weighed-down; moving slowly',
           zh_TW: '笨重的、笨拙的 [反] lively(輕快活潑的)',
+          zh_CN: '笨重的、笨拙的 [反] lively(轻快活泼的)',
         },
         partsOfSpeech: 'adjective',
         example: 'Laden with 20 kilograms of college text books, the freshman moved ponderously across the campus',
@@ -18682,6 +20090,7 @@ export default [
         meaning: {
           en: "express one's opinions in a way considered annoyingly pompous and dogmatic",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he was pontificating about art and history',
@@ -18696,6 +20105,7 @@ export default [
         meaning: {
           en: 'be a sign or warning of (sth in the future); foreshadow',
           zh_TW: '預示、預先警告',
+          zh_CN: '预示、预先警告',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -18710,6 +20120,7 @@ export default [
         meaning: {
           en: 'of or like a portent',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the envelope and its portentous contents',
@@ -18724,6 +20135,7 @@ export default [
         meaning: {
           en: 'assume as fact',
           zh_TW: '假定、假設；斷定、認為',
+          zh_CN: '假定、假设；断定、认为',
         },
         partsOfSpeech: 'verb',
         example: 'Initially, Einstein posited a repulsive force to balance Gravity, but then rejected that idea as a blunder',
@@ -18738,6 +20150,7 @@ export default [
         meaning: {
           en: '(of drugs, etc) having a strong effect',
           zh_TW: '強而有力的、有影響力的 [反] impotent',
+          zh_CN: '强而有力的、有影响力的 [反] impotent',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18752,6 +20165,7 @@ export default [
         meaning: {
           en: 'guided by practical experience and observation rather than theory',
           zh_TW: '務實的',
+          zh_CN: '务实的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -18767,6 +20181,7 @@ export default [
         meaning: {
           en: 'not securely held or in position; dangerously likely to fall or collapse',
           zh_TW: '不穩的、危險的',
+          zh_CN: '不稳的、危险的',
         },
         partsOfSpeech: 'adjective',
         example: 'a precarious ladder',
@@ -18775,6 +20190,7 @@ export default [
         meaning: {
           en: 'dependent on chance; uncertain',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he made a precarious living as a painter',
@@ -18789,6 +20205,7 @@ export default [
         meaning: {
           en: 'come or go before in time, order, rank, etc',
           zh_TW: '在...之前、早於',
+          zh_CN: '在...之前、早於',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -18803,6 +20220,7 @@ export default [
         meaning: {
           en: 'an example that is used to justify similar occurrences at a later time',
           zh_TW: '在先的、在前的',
+          zh_CN: '在先的、在前的',
         },
         partsOfSpeech: 'noun',
         example:
@@ -18818,6 +20236,7 @@ export default [
         meaning: {
           en: 'cause (an event or situation, typically one that is bad or undesirable) to happen suddenly, unexpectedly, or prematurely',
           zh_TW: '降水、加速',
+          zh_CN: '降水、加速',
         },
         partsOfSpeech: 'verb',
         example: 'the incident precipitated a political crisis',
@@ -18826,6 +20245,7 @@ export default [
         meaning: {
           en: 'done, made, or acting suddenly or without careful consideration',
           zh_TW: '魯莽的',
+          zh_CN: '鲁莽的',
         },
         partsOfSpeech: 'adjective',
         example: 'I must apologize for my staff—their actions were precipitate',
@@ -18840,6 +20260,7 @@ export default [
         meaning: {
           en: 'dangerously high or steep',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the precipitous cliffs of the North Atlantic coast',
@@ -18848,6 +20269,7 @@ export default [
         meaning: {
           en: '(of an action) done suddenly and without careful consideration',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'precipitous intervention',
@@ -18862,6 +20284,7 @@ export default [
         meaning: {
           en: 'prevent from happening; make impossible',
           zh_TW: '避免、阻止、防止、排除',
+          zh_CN: '避免、阻止、防止、排除',
         },
         partsOfSpeech: 'verb',
         example: 'the secret nature of his work precluded official recognition',
@@ -18870,6 +20293,7 @@ export default [
         meaning: {
           en: '(of a situation or condition) prevent someone from doing something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'his difficulties preclude him from leading a normal life',
@@ -18884,6 +20308,7 @@ export default [
         meaning: {
           en: '(of a child) having developed certain abilities or proclivities at an earlier age than usual',
           zh_TW: '早熟的、早成的',
+          zh_CN: '早熟的、早成的',
         },
         partsOfSpeech: 'adjective',
         example: 'he was a precocious, solitary boy',
@@ -18898,6 +20323,7 @@ export default [
         meaning: {
           en: '(of sth) person or thing that comes before sth; forerunner',
           zh_TW: '先驅、先兆',
+          zh_CN: '先驱、先兆',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -18912,6 +20338,7 @@ export default [
         meaning: {
           en: 'a preference or special liking for something; a bias in favor of something',
           zh_TW: '偏袒、愛好',
+          zh_CN: '偏袒、爱好',
         },
         partsOfSpeech: 'noun',
         example: 'my predilection for Asian food',
@@ -18926,6 +20353,7 @@ export default [
         meaning: {
           en: '(to do sth) state of mind or body that makes sb liable to act in a certain way or to suffer from a certain disease',
           zh_TW: '傾向、素質',
+          zh_CN: '倾向、素质',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -18940,6 +20368,7 @@ export default [
         meaning: {
           en: 'having paramount rank, dignity, or importance; outstanding',
           zh_TW: '卓越的、顯著的 [類] outstanding, supreme',
+          zh_CN: '卓越的、显著的 [类] outstanding, supreme',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -18954,6 +20383,7 @@ export default [
         meaning: {
           en: 'take the place of or have precedence over',
           zh_TW: '先發制人；取代；已先買權取得',
+          zh_CN: '先发制人；取代；已先买权取得',
         },
         partsOfSpeech: 'verb',
         example: 'A governmental warning about an imminent terrorist attack would preempt ordinary network programming on television',
@@ -18968,6 +20398,7 @@ export default [
         meaning: {
           en: 'serving or intended to preempt or forestall something, especially to prevent attack by disabling the enemy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a preemptive strike',
@@ -18976,6 +20407,7 @@ export default [
         meaning: {
           en: 'relating to the purchase of goods or shares by one person or party before the opportunity is offered to others',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'preemptive rights',
@@ -18990,6 +20422,7 @@ export default [
         meaning: {
           en: 'represent beforehand (sth that will happen in the future); foreshadow',
           zh_TW: '預示、預想',
+          zh_CN: '预示、预想',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -19004,6 +20437,7 @@ export default [
         meaning: {
           en: 'think out or plan (an action, especially a crime) beforehand',
           zh_TW: '預先考慮、預謀',
+          zh_CN: '预先考虑、预谋',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -19018,6 +20452,7 @@ export default [
         meaning: {
           en: '(infml) required as a condition (for sth)',
           zh_TW: '不可或缺的、事先需要的',
+          zh_CN: '不可或缺的、事先需要的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19032,6 +20467,7 @@ export default [
         meaning: {
           en: 'right or privilege, esp one belonging to a particular person or group',
           zh_TW: '特權',
+          zh_CN: '特权',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19046,6 +20482,7 @@ export default [
         meaning: {
           en: 'sign that sth (esp sth unpleasant) will happen; omen',
           zh_TW: '預言 [類] foretell, predict',
+          zh_CN: '预言 [类] foretell, predict',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19060,6 +20497,7 @@ export default [
         meaning: {
           en: 'the fact of knowing something before it takes place; foreknowledge',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'with extraordinary prescience, Jung actually predicted the Nazi eruption',
@@ -19074,6 +20512,7 @@ export default [
         meaning: {
           en: 'knowing about things before they take place; able to see into the future',
           zh_TW: '有先見的、預知的',
+          zh_CN: '有先见的、预知的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19088,6 +20527,7 @@ export default [
         meaning: {
           en: "doctor's written instruction for the composition and use of a medicine",
           zh_TW: '命令、指示、規定、法規',
+          zh_CN: '命令、指示、规定、法规',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19102,6 +20542,7 @@ export default [
         meaning: {
           en: 'an intuitive feeling about the future, especially one of foreboding',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a presentiment of disaster',
@@ -19116,6 +20557,7 @@ export default [
         meaning: {
           en: 'urgent',
           zh_TW: '緊迫的、迫切的',
+          zh_CN: '紧迫的、迫切的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19130,6 +20572,7 @@ export default [
         meaning: {
           en: 'suppose that something is the case on the basis of probability',
           zh_TW: '相信、推測、自作主張、放肆 [類] suppose, assume',
+          zh_CN: '相信、推测、自作主张、放肆 [类] suppose, assume',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -19144,6 +20587,7 @@ export default [
         meaning: {
           en: 'an assumption that is taken for granted',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -19159,6 +20603,7 @@ export default [
         meaning: {
           en: '(of a person or their behavior) failing to observe the limits of what is permitted or appropriate',
           zh_TW: '專橫的、自以為是的、冒失地、放肆的',
+          zh_CN: '专横的、自以为是的、冒失地、放肆的',
         },
         partsOfSpeech: 'adjective',
         example: "I hope I won't be considered presumptuous if I offer some advice",
@@ -19173,6 +20618,7 @@ export default [
         meaning: {
           en: 'claiming merit or importance; pompous or showy',
           zh_TW: '自命不凡的 [類] n. pretention 自負、做作',
+          zh_CN: '自命不凡的 [类] n. pretention 自负、做作',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19187,6 +20633,7 @@ export default [
         meaning: {
           en: 'prove more powerful than opposing forces; be victorious',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'it is hard for logic to prevail over emotion',
@@ -19195,6 +20642,7 @@ export default [
         meaning: {
           en: 'be widespread in a particular area at a particular time; be current',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'an atmosphere of crisis prevails',
@@ -19209,6 +20657,7 @@ export default [
         meaning: {
           en: 'speak or act in an evasive way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he seemed to prevaricate when journalists asked pointed questions',
@@ -19223,6 +20672,7 @@ export default [
         meaning: {
           en: 'the fact of being primary, preeminent, or more important',
           zh_TW: '卓越、第一位',
+          zh_CN: '卓越、第一位',
         },
         partsOfSpeech: 'noun',
         example: 'the primacy of air power in the modern war',
@@ -19237,6 +20687,7 @@ export default [
         meaning: {
           en: 'of or at an early stage of social development',
           zh_TW: '原始的、遠古的、基本的',
+          zh_CN: '原始的、远古的、基本的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19251,6 +20702,7 @@ export default [
         meaning: {
           en: '(state of) being more important (in rank)',
           zh_TW: '再掀、居前',
+          zh_CN: '再掀、居前',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19265,6 +20717,7 @@ export default [
         meaning: {
           en: 'in its original condition; unspoiled',
           zh_TW: '原始的、清新的、純樸的',
+          zh_CN: '原始的、清新的、纯朴的',
         },
         partsOfSpeech: 'adjective',
         example: 'pristine copies of an early magazine',
@@ -19279,6 +20732,7 @@ export default [
         meaning: {
           en: 'integrity, strong moral principles',
           zh_TW: '誠實、廉潔 [類] honesty, character, decency, goodness',
+          zh_CN: '诚实、廉洁 [类] honesty, character, decency, goodness',
         },
         partsOfSpeech: 'noun',
         example: 'The ideal politician would have the probity to lead, but reality gravely falls short of the ideal of morally upright leaders',
@@ -19293,6 +20747,7 @@ export default [
         meaning: {
           en: 'make known officially or publicily; announce',
           zh_TW: '宣告、宣布',
+          zh_CN: '宣告、宣布',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -19307,6 +20762,7 @@ export default [
         meaning: {
           en: "(fml) natural inclination to do sth (esp sth bad)' tendency",
           zh_TW: '傾向 [類] inclination',
+          zh_CN: '倾向 [类] inclination',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19321,6 +20777,7 @@ export default [
         meaning: {
           en: 'rashly or wastefully extravagant',
           zh_TW: '非常浪費的、揮霍的 [類]extravagant, profligate, spendthrift, squandering [反] economical, frugal, thrifty',
+          zh_CN: '非常浪费的、挥霍的 [类]extravagant, profligate, spendthrift, squandering [反] economical, frugal, thrifty',
         },
         partsOfSpeech: 'adjective',
         example: 'Successful professional athletes who do not fall prey to prodigality seem to be the exception—most live decadent lives',
@@ -19335,6 +20792,7 @@ export default [
         meaning: {
           en: 'remarkably or impressively great in extent, size, or degree',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the stove consumed a prodigious amount of fuel',
@@ -19349,6 +20807,7 @@ export default [
         meaning: {
           en: 'spending resources recklessly or wastefully',
           zh_TW: '非常浪費的 [類] prodigal',
+          zh_CN: '非常浪费的 [类] prodigal',
         },
         partsOfSpeech: 'adjective',
         example: 'The composer Wagner, while living on a limited salary, was so profligate as to line all the walls of his apartment with pure silk',
@@ -19363,6 +20822,7 @@ export default [
         meaning: {
           en: 'deep, intense or far-reaching, very great',
           zh_TW: '深刻的、深奧的',
+          zh_CN: '深刻的、深奥的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19377,6 +20837,7 @@ export default [
         meaning: {
           en: '(especially of something offered or discharged) exuberantly plentiful; abundant',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'I offered my profuse apologies',
@@ -19391,6 +20852,7 @@ export default [
         meaning: {
           en: 'an abundance or large quantity of something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a rich profusion of wildflowers',
@@ -19405,6 +20867,7 @@ export default [
         meaning: {
           en: 'the action of foretelling or prophesying future events',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'an unprecedented amount of soul-searching and prognostication',
@@ -19419,6 +20882,7 @@ export default [
         meaning: {
           en: 'produce new growth or offspring rapidly; multiply',
           zh_TW: '繁殖、激增',
+          zh_CN: '繁殖、激增',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -19433,6 +20897,7 @@ export default [
         meaning: {
           en: '(of a plant, animal, or person) producing much fruit or foliage or many offspring',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'in captivity tigers are prolific breeders',
@@ -19441,6 +20906,7 @@ export default [
         meaning: {
           en: 'present in large numbers or quantities; plentiful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'mahogany was once prolific in the tropical forests',
@@ -19455,6 +20921,7 @@ export default [
         meaning: {
           en: '(of a speech, writer, etc) using too many words and so boring to listen to or read',
           zh_TW: '囉唆的、冗長的 [類] verbose',
+          zh_CN: '囉唆的、冗长的 [类] verbose',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19469,6 +20936,7 @@ export default [
         meaning: {
           en: 'boring verbosity',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'I loved my grandfather dearly, but his prolixity would put me to sleep, regardless of the topic',
@@ -19483,6 +20951,7 @@ export default [
         meaning: {
           en: 'jutting out,; projecting',
           zh_TW: '突出的、顯著的、卓越的',
+          zh_CN: '突出的、显著的、卓越的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19497,6 +20966,7 @@ export default [
         meaning: {
           en: 'promote or make widely known (an idea or cause)',
           zh_TW: '散佈、宣揚',
+          zh_CN: '散佈、宣扬',
         },
         partsOfSpeech: 'verb',
         example: 'these objectives have to be promulgated within the organization',
@@ -19505,6 +20975,7 @@ export default [
         meaning: {
           en: 'put (a law or decree) into effect by official proclamation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'in January 1852 the new Constitution was promulgated',
@@ -19519,6 +20990,7 @@ export default [
         meaning: {
           en: 'very noticeable or marked; conspicuous',
           zh_TW: '明顯的',
+          zh_CN: '明显的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19533,6 +21005,7 @@ export default [
         meaning: {
           en: 'information, especially of a biased or misleading nature, used to promote or publicize a particular political cause or point of view',
           zh_TW: '政治宣傳',
+          zh_CN: '政治宣传',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19547,6 +21020,7 @@ export default [
         meaning: {
           en: '(for doing/to do sth)(fml) inclination or tendency',
           zh_TW: '傾向、習性',
+          zh_CN: '倾向、习性',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19561,6 +21035,7 @@ export default [
         meaning: {
           en: 'win or regain the favor of (a god, spirit, or person) by doing something that pleases them',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the pagans thought it was important to propitiate the gods with sacrifices',
@@ -19575,6 +21050,7 @@ export default [
         meaning: {
           en: 'giving or indicating a good chance of success; favorable',
           zh_TW: '吉祥的、有利的 [類] auspicious, favorable, heartening, upbeat [反] bleak, dark, depressing, desperate',
+          zh_CN: '吉祥的、有利的 [类] auspicious, favorable, heartening, upbeat [反] bleak, dark, depressing, desperate',
         },
         partsOfSpeech: 'adjective',
         example: 'the timing for such a meeting seemed propitious',
@@ -19589,6 +21065,7 @@ export default [
         meaning: {
           en: 'a person who advocates a theory, proposal, or project',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a collection of essays by both critics and proponents of graphology',
@@ -19603,6 +21080,7 @@ export default [
         meaning: {
           en: '(of goods) manufactured and sold by a particular firm, use under patent',
           zh_TW: '私有的',
+          zh_CN: '私有的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19617,6 +21095,7 @@ export default [
         meaning: {
           en: "state of being correct in one's social or moral behavior",
           zh_TW: '禮節、適當',
+          zh_CN: '礼节、適当',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19631,6 +21110,7 @@ export default [
         meaning: {
           en: 'having the style or diction of prose; lacking poetic beauty',
           zh_TW: '乏味的、散文的',
+          zh_CN: '乏味的、散文的',
         },
         partsOfSpeech: 'adjective',
         example: "prosaic language can't convey the experience",
@@ -19639,6 +21119,7 @@ export default [
         meaning: {
           en: 'commonplace; unromantic',
           zh_TW: '普通的、平凡的',
+          zh_CN: '普通的、平凡的',
         },
         partsOfSpeech: 'adjective',
         example: 'the masses were too preoccupied by prosaic day-to-day concerns',
@@ -19653,6 +21134,7 @@ export default [
         meaning: {
           en: 'forbid, especially by law',
           zh_TW: '禁止、剝奪...的公權、放逐',
+          zh_CN: '禁止、剥夺...的公权、放逐',
         },
         partsOfSpeech: 'verb',
         example: 'strikes remained proscribed in the armed forces',
@@ -19661,6 +21143,7 @@ export default [
         meaning: {
           en: 'denounce or condemn',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'certain practices that the Catholic Church proscribed, such as polygyny',
@@ -19675,6 +21158,7 @@ export default [
         meaning: {
           en: 'written or spoken language that is not in verse form',
           zh_TW: '散文、散文體',
+          zh_CN: '散文、散文体',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19689,6 +21173,7 @@ export default [
         meaning: {
           en: 'convert (someone) to another religion, philosophy, or perspective',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -19704,6 +21189,7 @@ export default [
         meaning: {
           en: '(fml) chief character in a drama; hero',
           zh_TW: '主驗、主角、主唱者',
+          zh_CN: '主验、主角、主唱者',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19718,6 +21204,7 @@ export default [
         meaning: {
           en: 'readily taking on different roles; versatile',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -19733,6 +21220,7 @@ export default [
         meaning: {
           en: 'make (sth) last a long time or longer; lengthen or prolong',
           zh_TW: '延長、拖長',
+          zh_CN: '延长、拖长',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -19747,6 +21235,7 @@ export default [
         meaning: {
           en: 'careful in regard to your own interests; providing carefully for the future',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -19762,6 +21251,7 @@ export default [
         meaning: {
           en: 'characteristic of a limited perspective; not fashionable or sophisticated',
           zh_TW: '偏狹的 [類] parochial, insular',
+          zh_CN: '偏狭的 [类] parochial, insular',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -19777,6 +21267,7 @@ export default [
         meaning: {
           en: 'arranged or existing for the present, possibly to be changed later',
           zh_TW: '臨時的、暫時性的',
+          zh_CN: '临时的、暂时性的',
         },
         partsOfSpeech: 'adjective',
         example: 'a provisional construction permit',
@@ -19791,6 +21282,7 @@ export default [
         meaning: {
           en: '(to sth) nearness in space or time; closeness',
           zh_TW: '接近、鄰近',
+          zh_CN: '接近、邻近',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19805,6 +21297,7 @@ export default [
         meaning: {
           en: 'childishly silly and trivial',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "you're making puerile excuses",
@@ -19819,6 +21312,7 @@ export default [
         meaning: {
           en: 'eager or quick to argue, quarrel, or fight',
           zh_TW: '愛爭吵的、愛鬥爭的',
+          zh_CN: '爱爭吵的、爱斗爭的',
         },
         partsOfSpeech: 'adjective',
         example: 'his public statements became increasingly pugnacious',
@@ -19833,6 +21327,7 @@ export default [
         meaning: {
           en: 'having great power or influence',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he would become a puissant man',
@@ -19847,6 +21342,7 @@ export default [
         meaning: {
           en: 'marked by precise accordance with details',
           zh_TW: '精密細心的、一絲不苟的',
+          zh_CN: '精密细心的、一丝不苟的',
         },
         partsOfSpeech: 'adjective',
         example: 'The colonel was so punctilious about enforcing regulations that men feel compelled to polish even the soles of their shoes',
@@ -19861,6 +21357,7 @@ export default [
         meaning: {
           en: 'an expert in a particular subject or field who is frequently called on to give opinions about it to the public',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a globe-trotting financial pundit',
@@ -19875,6 +21372,7 @@ export default [
         meaning: {
           en: '(fml) general meaning or intention (of sth)',
           zh_TW: '聲稱、意旨',
+          zh_CN: '声称、意旨',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -19889,6 +21387,7 @@ export default [
         meaning: {
           en: 'cowardly; timid',
           zh_TW: '膽小的',
+          zh_CN: '胆小的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -19903,6 +21402,7 @@ export default [
         meaning: {
           en: 'describing a victory that comes at such a great cost that the victory is not worthwhile',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -19918,6 +21418,7 @@ export default [
         meaning: {
           en: 'draw back, as with fear or pain',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -19933,6 +21434,7 @@ export default [
         meaning: {
           en: 'be entitled to a particular benefit or privilege by fulfilling a necessary condition',
           zh_TW: '使有資格、限制',
+          zh_CN: '使有资格、限制',
         },
         partsOfSpeech: 'verb',
         example: 'they do not qualify for compensation payments',
@@ -19941,6 +21443,7 @@ export default [
         meaning: {
           en: 'officially recognize or establish (someone) as a practitioner of a particular profession or activity',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the courses qualify you as an instructor of the sport',
@@ -19949,6 +21452,7 @@ export default [
         meaning: {
           en: 'make (a statement or assertion) less absolute; add reservations to',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'she felt obliged to qualify her first short answer',
@@ -19963,6 +21467,7 @@ export default [
         meaning: {
           en: 'uneasiness about the fitness of an action',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "While he could articulate no clear reason why Harkner's plan would fail, he nevertheless felt qualms about committing any resources to it.",
@@ -19977,6 +21482,7 @@ export default [
         meaning: {
           en: 'state of uncertainty or perplexity especially as requiring a choice between equally unfavorable options',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -19992,6 +21498,7 @@ export default [
         meaning: {
           en: 'habitually complaining',
           zh_TW: '愛發牢騷的、愛抱怨的',
+          zh_CN: '爱发牢骚的、爱抱怨的',
         },
         partsOfSpeech: 'adjective',
         example: 'The querulous old woman was beginning to wear down even the happier members of the staff with her ceaseless complaining',
@@ -20006,6 +21513,7 @@ export default [
         meaning: {
           en: 'inactive; passive; quiet',
           zh_TW: '靜止的、沈默的',
+          zh_CN: '静止的、沈默的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -20020,6 +21528,7 @@ export default [
         meaning: {
           en: 'representing the most perfect or typical example of a quality or class',
           zh_TW: '精髓的、典型的',
+          zh_CN: '精髓的、典型的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -20034,6 +21543,7 @@ export default [
         meaning: {
           en: 'a witty remark',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Peter ate heartily with a quip about being a condemned man',
@@ -20042,6 +21552,7 @@ export default [
         meaning: {
           en: 'make a witty remark',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: '“Flattery will get you nowhere,” she quipped',
@@ -20056,6 +21567,7 @@ export default [
         meaning: {
           en: 'characterized by peculiar or unexpected traits',
           zh_TW: '離奇的、古怪的',
+          zh_CN: '离奇的、古怪的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -20070,6 +21582,7 @@ export default [
         meaning: {
           en: 'a traitor who collaborates with an enemy force occupying their country',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'he had the Quisling owner of the factory arrested',
@@ -20084,6 +21597,7 @@ export default [
         meaning: {
           en: 'wildly idealistic; impractical',
           zh_TW: '不切實際的、空想的 [類] impractical',
+          zh_CN: '不切实际的、空想的 [类] impractical',
         },
         partsOfSpeech: 'adjective',
         example: 'For every thousand startups with quixotic plans to be the next big name in e-commerce, only a handful ever become profitable',
@@ -20098,6 +21612,7 @@ export default [
         meaning: {
           en: 'found in the ordinary course of events',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -20113,6 +21628,7 @@ export default [
         meaning: {
           en: 'a person skilled in telling anecdotes',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -20128,6 +21644,7 @@ export default [
         meaning: {
           en: 'unconventional and slightly disreputable, especially in an attractive manner',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'his raffish air',
@@ -20142,6 +21659,7 @@ export default [
         meaning: {
           en: 'a large number of something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Despite a raft of city ordinances passed by an overzealous council, noise pollution continued unabated in the megalopolis',
@@ -20156,6 +21674,7 @@ export default [
         meaning: {
           en: 'light teasing',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The new recruit was not bothered by the raillery, finding most of it light-hearted and good-natured',
@@ -20170,6 +21689,7 @@ export default [
         meaning: {
           en: 'marked by a carefree unconventionality or disreputableness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'As soon as he arrived in the city, the rakish young man bought some drugs and headed straight for the seedy parts of town',
@@ -20184,6 +21704,7 @@ export default [
         meaning: {
           en: 'part of a complex structure; secondary consequence, esp one that complicates',
           zh_TW: '後果、影響 [類] consequence',
+          zh_CN: '后果、影响 [类] consequence',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -20198,6 +21719,7 @@ export default [
         meaning: {
           en: 'bitter deep-seated ill will',
           zh_TW: '仇恨、激烈的憎惡',
+          zh_CN: '仇恨、激烈的憎恶',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -20212,6 +21734,7 @@ export default [
         meaning: {
           en: '(of a comment, event, or fact) cause annoyance or resentment that persists',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the casual manner of his dismissal still rankles',
@@ -20226,6 +21749,7 @@ export default [
         meaning: {
           en: 'greedy, esp for money ; grasping',
           zh_TW: '強奪的、貪婪的',
+          zh_CN: '强夺的、贪婪的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -20240,6 +21764,7 @@ export default [
         meaning: {
           en: '(especially in international relations) an establishment or resumption of harmonious relations',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'there were signs of a growing rapprochement between the two countries',
@@ -20254,6 +21779,7 @@ export default [
         meaning: {
           en: '(of air, especially that at high altitudes) of lower pressure than usual; thin',
           zh_TW: '稀薄的',
+          zh_CN: '稀薄的',
         },
         partsOfSpeech: 'adjective',
         example: "every ounce carried counts triple when you're trudging uphill in beneficent rarefied air",
@@ -20262,6 +21788,7 @@ export default [
         meaning: {
           en: 'distant from the lives and concerns of ordinary people',
           zh_TW: '只有一小群人知道的',
+          zh_CN: '只有一小群人知道的',
         },
         partsOfSpeech: 'adjective',
         example: 'debates about the nature of knowledge can seem very rarefied',
@@ -20276,6 +21803,7 @@ export default [
         meaning: {
           en: 'marked by defiant disregard for danger or consequences; imprudently incurring risk',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Although Bruce was able to make the delivery in time with a nighttime motorcycle ride in the rain, Susan criticized his actions as rash',
@@ -20290,6 +21818,7 @@ export default [
         meaning: {
           en: 'fundamental reason for or logical basis of sth',
           zh_TW: '根本原因、邏輯依據',
+          zh_CN: '根本原因、逻辑依据',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -20304,6 +21833,7 @@ export default [
         meaning: {
           en: 'extremely hungry; devouring or craving food in great quantities',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -20319,6 +21849,7 @@ export default [
         meaning: {
           en: 'adj opposing (esp political) progress or reform',
           zh_TW: '保守的、反動的',
+          zh_CN: '保守的、反动的',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -20333,6 +21864,7 @@ export default [
         meaning: {
           en: 'showing a desire to rebel; not easily controlled',
           zh_TW: '反抗的、難控制的',
+          zh_CN: '反抗的、难控制的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -20347,6 +21879,7 @@ export default [
         meaning: {
           en: 'unkind or contemptuous refusal or rejection (of an offer, request, friendly gesture, etc); snub',
           zh_TW: '回絕、斷然拒絕 [類] snub, reject, sharply',
+          zh_CN: '回绝、断然拒绝 [类] snub, reject, sharply',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -20361,6 +21894,7 @@ export default [
         meaning: {
           en: 'express sharp disapproval or criticism of (someone) because of their behavior or actions',
           zh_TW: '斥責、指責 [類] reprimand, admonish, chide [反] commend, endorse',
+          zh_CN: '斥责、指责 [类] reprimand, admonish, chide [反] commend, endorse',
         },
         partsOfSpeech: 'verb',
         example: 'she had rebuked him for drinking too much',
@@ -20369,6 +21903,7 @@ export default [
         meaning: {
           en: 'an expression of sharp disapproval or criticism',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "he hadn't meant it as a rebuke, but Neil flinched",
@@ -20383,6 +21918,7 @@ export default [
         meaning: {
           en: 'claim or prove that (evidence or an accusation) is false',
           zh_TW: '駁斥、反駁 [類] repel, refute',
+          zh_CN: '驳斥、反驳 [类] repel, refute',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -20397,6 +21933,7 @@ export default [
         meaning: {
           en: 'resisting authority or discipline; disobedient',
           zh_TW: '頑抗的、難以控制的 [類] unruly, intransigent, refractory [反] docile, tractable',
+          zh_CN: '顽抗的、难以控制的 [类] unruly, intransigent, refractory [反] docile, tractable',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -20411,6 +21948,7 @@ export default [
         meaning: {
           en: 'state again or summarize the main points of',
           zh_TW: '扼要重述、蓋誇',
+          zh_CN: '扼要重述、盖夸',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -20425,6 +21963,7 @@ export default [
         meaning: {
           en: 'an act or instance of summarizing and restating the main points of something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'his recapitulation of the argument',
@@ -20439,6 +21978,7 @@ export default [
         meaning: {
           en: 'principle or practice of mutual exchange, esp of making concessions or granting privileges, etc in return for concessions or privileges received',
           zh_TW: '相互性、互惠',
+          zh_CN: '相互性、互惠',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -20453,6 +21993,7 @@ export default [
         meaning: {
           en: 'restore friendly relations between',
           zh_TW: '和解、調和',
+          zh_CN: '和解、调和',
         },
         partsOfSpeech: 'verb',
         example: 'she wanted to be reconciled with her father',
@@ -20461,6 +22002,7 @@ export default [
         meaning: {
           en: 'make someone accept (a disagreeable or unwelcome thing)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he could not reconcile himself to the thought of his mother stocking shelves',
@@ -20475,6 +22017,7 @@ export default [
         meaning: {
           en: 'difficult to penetrate; incomprehensible to one of ordinary understanding or knowledge',
           zh_TW: '深奧的、不易懂的',
+          zh_CN: '深奥的、不易懂的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -20490,6 +22033,7 @@ export default [
         meaning: {
           en: 'mutual accusations',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "The two brothers sat and cried, pointing fingers and making elaborate recriminations of the other's guilt",
@@ -20504,6 +22048,7 @@ export default [
         meaning: {
           en: 'to break out or happen again',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -20519,6 +22064,7 @@ export default [
         meaning: {
           en: 'moral correctness or straightforwardness; honesty',
           zh_TW: '正直、公正',
+          zh_CN: '正直、公正',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -20533,6 +22079,7 @@ export default [
         meaning: {
           en: 'sth (from sb/sth) buy back sth by paying the required sum; recover sth',
           zh_TW: '贖回',
+          zh_CN: '赎回',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -20547,6 +22094,7 @@ export default [
         meaning: {
           en: '(of a person) formidable, especially as an opponent',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he was a redoubtable debater',
@@ -20561,6 +22109,7 @@ export default [
         meaning: {
           en: 'an act of making something right',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "Barry's redress for forgetting his wife's birthday two years in a row was surprising her with a trip to Tahiti.",
@@ -20575,6 +22124,7 @@ export default [
         meaning: {
           en: 'not needed; superfluous; unnecessary',
           zh_TW: '多餘的、累贅的',
+          zh_CN: '多余的、累赘的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -20589,6 +22139,7 @@ export default [
         meaning: {
           en: 'stubborn or unmanageable',
           zh_TW: '難醫治的、倔強的、反應遲鈍的',
+          zh_CN: '难医治的、倔强的、反应迟钝的',
         },
         partsOfSpeech: 'adjective',
         example: 'his refractory pony',
@@ -20603,6 +22154,7 @@ export default [
         meaning: {
           en: 'a person who has been forced to leave their country in order to escape war, persecution, or natural disaster',
           zh_TW: '難民、流亡者',
+          zh_CN: '难民、流亡者',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -20617,6 +22169,7 @@ export default [
         meaning: {
           en: 'able to be refuted, or shown to be false',
           zh_TW: '可駁倒的',
+          zh_CN: '可驳倒的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -20631,6 +22184,7 @@ export default [
         meaning: {
           en: 'prove to be false or incorrect',
           zh_TW: '反駁、駁斥',
+          zh_CN: '反驳、驳斥',
         },
         partsOfSpeech: 'verb',
         example: 'No one could refute his theories or propositions, and that is why he was esteemed by all his colleagues in the philosophy department',
@@ -20645,6 +22199,7 @@ export default [
         meaning: {
           en: 'a government, especially an authoritarian one',
           zh_TW: '政權、政治制度',
+          zh_CN: '政权、政治制度',
         },
         partsOfSpeech: 'noun',
         example: 'ideological opponents of the regime',
@@ -20659,6 +22214,7 @@ export default [
         meaning: {
           en: 'sth (infml derog) put (ideas, material, etc) into a new form with no great change or improvement',
           zh_TW: '重新處理、改寫',
+          zh_CN: '重新处理、改写',
         },
         partsOfSpeech: 'verb',
         example: 'he contented himself with occasional articles in journals, rehashing his own work',
@@ -20673,6 +22229,7 @@ export default [
         meaning: {
           en: 'say or do (sth) again or repeatedly',
           zh_TW: '重申、反覆說',
+          zh_CN: '重申、反覆说',
         },
         partsOfSpeech: 'verb',
         example: 'she reiterated that the administration would remain steadfast in its support',
@@ -20687,6 +22244,7 @@ export default [
         meaning: {
           en: 'give new energy or vigor to; revitalize',
           zh_TW: '使恢復精神',
+          zh_CN: '使恢復精神',
         },
         partsOfSpeech: 'verb',
         example: 'the exercise and fresh air rejuvenated me',
@@ -20695,6 +22253,7 @@ export default [
         meaning: {
           en: 'restore youthful appearance, strength, etc to',
           zh_TW: '使年輕',
+          zh_CN: '使年轻',
         },
         partsOfSpeech: 'verb',
         example: 'exfoliation rejuvenates the skin',
@@ -20709,6 +22268,7 @@ export default [
         meaning: {
           en: 'consign or dismiss to an inferior rank or position',
           zh_TW: '降職、放逐',
+          zh_CN: '降职、放逐',
         },
         partsOfSpeech: 'verb',
         example: 'they aim to prevent women from being relegated to a secondary role',
@@ -20723,6 +22283,7 @@ export default [
         meaning: {
           en: 'give up or cease to practice, feel, etc (sth); abandon',
           zh_TW: '放棄、廢除',
+          zh_CN: '放弃、废除',
         },
         partsOfSpeech: 'verb',
         example: 'he relinquished his managerial role to become chief executive',
@@ -20737,6 +22298,7 @@ export default [
         meaning: {
           en: 'worth noticing or unusual; exceptional',
           zh_TW: '值得注意的、卓越的',
+          zh_CN: '值得注意的、卓越的',
         },
         partsOfSpeech: 'adjective',
         example: 'meeting you here in London is a remarkable coincidence',
@@ -20751,6 +22313,7 @@ export default [
         meaning: {
           en: '(fml) treatment, medicine, etc that cures or relieves a disease or pain',
           zh_TW: '治療、治療法、藥物',
+          zh_CN: '治疗、治疗法、药物',
         },
         partsOfSpeech: 'noun',
         example: 'an effective herbal remedy for headaches',
@@ -20765,6 +22328,7 @@ export default [
         meaning: {
           en: 'to be negligent in one’s duty',
           zh_TW: '疏忽的',
+          zh_CN: '疏忽的',
         },
         partsOfSpeech: 'adjective',
         example: 'Remiss in his duty to keep the school functioning efficiently, the principal was relieved of his position after only three months',
@@ -20779,6 +22343,7 @@ export default [
         meaning: {
           en: 'make a forcefully reproachful protest',
           zh_TW: '抗議、反對',
+          zh_CN: '抗议、反对',
         },
         partsOfSpeech: 'verb',
         example: 'he turned angrily to remonstrate with Tommy',
@@ -20793,6 +22358,7 @@ export default [
         meaning: {
           en: 'sense of deep and bitter regret for having done sth wrong',
           zh_TW: '懊悔、悔恨',
+          zh_CN: '懊悔、悔恨',
         },
         partsOfSpeech: 'noun',
         example: 'they were filled with remorse and shame',
@@ -20807,6 +22373,7 @@ export default [
         meaning: {
           en: 'go back on a promise, undertaking, or contract',
           zh_TW: '食言、背信',
+          zh_CN: '食言、背信',
         },
         partsOfSpeech: 'verb',
         example: 'they have reneged on their promises to us',
@@ -20821,6 +22388,7 @@ export default [
         meaning: {
           en: 'completely stocked or furnished with something',
           zh_TW: '充滿的、詳盡的',
+          zh_CN: '充满的、详尽的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -20836,6 +22404,7 @@ export default [
         meaning: {
           en: 'be or make a copy of (sth); reproduce',
           zh_TW: '摺疊、複製',
+          zh_CN: '摺叠、复製',
         },
         partsOfSpeech: 'verb',
         example: 'it might be impractical to replicate Eastern culture in the west',
@@ -20850,6 +22419,7 @@ export default [
         meaning: {
           en: 'restrain or suppress (an impulse); check',
           zh_TW: '壓抑、抑制、鎮壓',
+          zh_CN: '压抑、抑制、镇压',
         },
         partsOfSpeech: 'verb',
         example: "Isabel couldn't repress a sharp cry of fear",
@@ -20864,6 +22434,7 @@ export default [
         meaning: {
           en: 'an act of retaliation',
           zh_TW: '報復',
+          zh_CN: '报復',
         },
         partsOfSpeech: 'noun',
         example: 'three youths died in the reprisals that followed',
@@ -20878,6 +22449,7 @@ export default [
         meaning: {
           en: 'address (someone) in such a way as to express disapproval or disappointment',
           zh_TW: '責備',
+          zh_CN: '责备',
         },
         partsOfSpeech: 'verb',
         example: 'critics reproached him for his failure to tackle the deficiency',
@@ -20886,6 +22458,7 @@ export default [
         meaning: {
           en: 'accuse someone of',
           zh_TW: '責備',
+          zh_CN: '责备',
         },
         partsOfSpeech: 'verb',
         example: 'his wife reproached him with cowardice',
@@ -20894,6 +22467,7 @@ export default [
         meaning: {
           en: 'the expression of disapproval or disappointment',
           zh_TW: '責備、指責',
+          zh_CN: '责备、指责',
         },
         partsOfSpeech: 'noun',
         example: 'he gave her a look of reproach',
@@ -20908,6 +22482,7 @@ export default [
         meaning: {
           en: 'a person without morals who is disapproved of',
           zh_TW: '責備',
+          zh_CN: '责备',
         },
         partsOfSpeech: 'noun',
         example:
@@ -20923,6 +22498,7 @@ export default [
         meaning: {
           en: 'refuse to accept or be associated with',
           zh_TW: '否認、拒絕、拋棄 [類] reject(拒絕), recant(撤回自己主張)',
+          zh_CN: '否认、拒绝、拋弃 [类] reject(拒绝), recant(撤回自己主张)',
         },
         partsOfSpeech: 'verb',
         example: 'she has repudiated policies associated with previous party leaders',
@@ -20931,6 +22507,7 @@ export default [
         meaning: {
           en: 'deny the truth or validity of',
           zh_TW: '否認',
+          zh_CN: '否认',
         },
         partsOfSpeech: 'verb',
         example: 'the minister repudiated allegations of human rights abuses',
@@ -20939,6 +22516,7 @@ export default [
         meaning: {
           en: '(law) refuse to fulfill or discharge (an agreement, obligation, or debt)',
           zh_TW: '拒絕履行（合約、債務）',
+          zh_CN: '拒绝履行（合约、债务）',
         },
         partsOfSpeech: 'verb',
         example: 'breach of a condition gives the other party the right to repudiate a contract',
@@ -20953,6 +22531,7 @@ export default [
         meaning: {
           en: '(fml) causing a feeling of strong opposition or dislike; abhorrent',
           zh_TW: '厭惡的、反感的',
+          zh_CN: '厌恶的、反感的',
         },
         partsOfSpeech: 'adjective',
         example: 'the thought of going back into the fog was repugnant to him',
@@ -20967,6 +22546,7 @@ export default [
         meaning: {
           en: 'drive back (an attacker or an attack) by fighting; repel',
           zh_TW: '擊退、驅逐、使厭惡、使產生反感',
+          zh_CN: '击退、驱逐、使厌恶、使產生反感',
         },
         partsOfSpeech: 'verb',
         example: 'rioters tried to storm ministry buildings but were repulsed by police',
@@ -20981,6 +22561,7 @@ export default [
         meaning: {
           en: 'cancel officially',
           zh_TW: '撤回、廢止',
+          zh_CN: '撤回、废止',
         },
         partsOfSpeech: 'verb',
         example: "The man's driver's license was rescinded after his tenth car accident, which meant he would never be allowed to legally drive again",
@@ -20995,6 +22576,7 @@ export default [
         meaning: {
           en: 'have qualities or features, especially those of appearance, in common with (someone or something); look or seem like',
           zh_TW: '與...相似、像',
+          zh_CN: '与...相似、像',
         },
         partsOfSpeech: 'verb',
         example: 'some people resemble their dogs',
@@ -21009,6 +22591,7 @@ export default [
         meaning: {
           en: 'a qualification to an expression of agreement or approval; a doubt',
           zh_TW: '保留（意見）、異議',
+          zh_CN: '保留（意见）、异议',
         },
         partsOfSpeech: 'noun',
         example: 'some generals voiced reservations about making air strikes',
@@ -21017,6 +22600,7 @@ export default [
         meaning: {
           en: 'the action of reserving something',
           zh_TW: '保留區、保護區',
+          zh_CN: '保留区、保护区',
         },
         partsOfSpeech: 'noun',
         example: 'the reservation of positions for non-Americans',
@@ -21031,6 +22615,7 @@ export default [
         meaning: {
           en: 'an act of retiring or giving up a position',
           zh_TW: '放棄、辭職',
+          zh_CN: '放弃、辞职',
         },
         partsOfSpeech: 'noun',
         example: 'he announced his resignation',
@@ -21039,6 +22624,7 @@ export default [
         meaning: {
           en: 'the acceptance of something undesirable but inevitable',
           zh_TW: '屈服、聽從',
+          zh_CN: '屈服、听从',
         },
         partsOfSpeech: 'noun',
         example: 'a shrug of resignation',
@@ -21053,6 +22639,7 @@ export default [
         meaning: {
           en: 'reach a conclusion after a discussion or deliberation',
           zh_TW: '解決、消除',
+          zh_CN: '解决、消除',
         },
         partsOfSpeech: 'verb',
         example: "after much thought, Ted resolved not to travel abroad this summer because he didn't have much money in his bank account",
@@ -21067,6 +22654,7 @@ export default [
         meaning: {
           en: 'continuing to echo; resounding',
           zh_TW: '宏亮的、共鳴的',
+          zh_CN: '宏亮的、共鸣的',
         },
         partsOfSpeech: 'adjective',
         example: 'a full-throated and resonant guffaw',
@@ -21081,6 +22669,7 @@ export default [
         meaning: {
           en: 'a short period of rest or relief from something difficult or unpleasant',
           zh_TW: '暫時的停止、休息',
+          zh_CN: '暂时的停止、休息',
         },
         partsOfSpeech: 'noun',
         example: 'the refugee encampments will provide some respite from the suffering',
@@ -21089,6 +22678,7 @@ export default [
         meaning: {
           en: 'postpone (a sentence, obligation, etc.)',
           zh_TW: '暫緩',
+          zh_CN: '暂缓',
         },
         partsOfSpeech: 'verb',
         example: 'the execution was only respited a few months',
@@ -21103,6 +22693,7 @@ export default [
         meaning: {
           en: '(of a person) unable to keep still or silent and becoming increasingly difficult to control, especially because of impatience, dissatisfaction, or boredom',
           zh_TW: '不安寧的、焦躁不安的',
+          zh_CN: '不安寧的、焦躁不安的',
         },
         partsOfSpeech: 'adjective',
         example: 'the crowd had been waiting for hours and many were becoming restive',
@@ -21117,6 +22708,7 @@ export default [
         meaning: {
           en: 'sb/sth hole back sb/sth from movement action; keep sb/sth under control or in cheek',
           zh_TW: '克制、抑制',
+          zh_CN: '克制、抑制',
         },
         partsOfSpeech: 'verb',
         example: 'he had to be restrained from walking out of the meeting',
@@ -21131,6 +22723,7 @@ export default [
         meaning: {
           en: 'rare',
           zh_TW: '再起、復活、復甦',
+          zh_CN: '再起、復活、復甦',
         },
         partsOfSpeech: 'verb',
         example: 'fears of a new war in Europe resurge with warnings',
@@ -21145,6 +22738,7 @@ export default [
         meaning: {
           en: 'increasing or reviving after a period of little activity, popularity, or occurrence',
           zh_TW: '復活的、再起的',
+          zh_CN: '復活的、再起的',
         },
         partsOfSpeech: 'adjective',
         example: "the nation's resurgent economy",
@@ -21159,6 +22753,7 @@ export default [
         meaning: {
           en: 'revive the practice, use, or memory of (something); bring new vigor to',
           zh_TW: '使復甦',
+          zh_CN: '使復甦',
         },
         partsOfSpeech: 'verb',
         example: 'the deal collapsed and has yet to be resurrected',
@@ -21167,6 +22762,7 @@ export default [
         meaning: {
           en: 'bring (sb) back to life again',
           zh_TW: '使復活',
+          zh_CN: '使復活',
         },
         partsOfSpeech: 'verb',
         example: 'he was dead, but he was resurrected',
@@ -21181,6 +22777,7 @@ export default [
         meaning: {
           en: "not revealing one's thoughts or feelings readily",
           zh_TW: '無言的、沈默的',
+          zh_CN: '无言的、沈默的',
         },
         partsOfSpeech: 'adjective',
         example: 'she was extremely reticent about her personal affairs',
@@ -21195,6 +22792,7 @@ export default [
         meaning: {
           en: "shy and fond of being on one's own",
           zh_TW: '離群索居的',
+          zh_CN: '离群索居的',
         },
         partsOfSpeech: 'adjective',
         example: 'a gentle, retiring person who avoided conflict',
@@ -21209,6 +22807,7 @@ export default [
         meaning: {
           en: 'draw back',
           zh_TW: '縮回',
+          zh_CN: '缩回',
         },
         partsOfSpeech: 'verb',
         example: "she retracted her hand as if she'd been burnt",
@@ -21217,6 +22816,7 @@ export default [
         meaning: {
           en: 'withdraw (a statement or accusation) as untrue or unjustified',
           zh_TW: '收回',
+          zh_CN: '收回',
         },
         partsOfSpeech: 'verb',
         example: 'he retracted his allegations',
@@ -21231,6 +22831,7 @@ export default [
         meaning: {
           en: 'looking back on the past',
           zh_TW: '回顧的、追溯的',
+          zh_CN: '回顾的、追溯的',
         },
         partsOfSpeech: 'adjective',
         example: 'our survey was retrospective',
@@ -21245,6 +22846,7 @@ export default [
         meaning: {
           en: 'sb/sth (for sth)(fml) feel deep respect or (esp religious) veneration for sb/sth',
           zh_TW: '尊敬、推從',
+          zh_CN: '尊敬、推从',
         },
         partsOfSpeech: 'verb',
         example: "Cézanne's still lifes were revered by his contemporaries",
@@ -21259,6 +22861,7 @@ export default [
         meaning: {
           en: 'feeling or showing profound respect or veneration',
           zh_TW: '恭敬的',
+          zh_CN: '恭敬的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -21274,6 +22877,7 @@ export default [
         meaning: {
           en: 'criticize (sb/sth), in angry and abusive language',
           zh_TW: '辱罵、謾罵、痛斥',
+          zh_CN: '辱骂、谩骂、痛斥',
         },
         partsOfSpeech: 'verb',
         example: 'he was now reviled by the party that he had helped to lead',
@@ -21288,6 +22892,7 @@ export default [
         meaning: {
           en: 'restore strength; give new life or vigor to',
           zh_TW: '始恢復生氣、使復活、使復興',
+          zh_CN: '始恢復生气、使復活、使復兴',
         },
         partsOfSpeech: 'verb',
         example: 'a package of spending cuts to revitalize the economy',
@@ -21302,6 +22907,7 @@ export default [
         meaning: {
           en: 'referring to sexual matters in an amusingly coarse or irreverent way',
           zh_TW: '猥褻下流的',
+          zh_CN: '猥褻下流的',
         },
         partsOfSpeech: 'adjective',
         example: 'a ribald comment',
@@ -21316,6 +22922,7 @@ export default [
         meaning: {
           en: 'raised line where two sloping surfaces meet; narrow raised strip',
           zh_TW: '屋脊、山脊',
+          zh_CN: '屋脊、山脊',
         },
         partsOfSpeech: 'noun',
         example: 'the northeast ridge of Everest',
@@ -21330,6 +22937,7 @@ export default [
         meaning: {
           en: 'making sb/sth appear foolish or absurd; scorn',
           zh_TW: '奚落、嘲笑',
+          zh_CN: '奚落、嘲笑',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -21344,6 +22952,7 @@ export default [
         meaning: {
           en: 'deserving to be laughed at; absurd',
           zh_TW: '荒謬的、可笑的',
+          zh_CN: '荒谬的、可笑的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21358,6 +22967,7 @@ export default [
         meaning: {
           en: 'stiff; not bending or yielding',
           zh_TW: '嚴格的、剛硬的',
+          zh_CN: '严格的、刚硬的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21372,6 +22982,7 @@ export default [
         meaning: {
           en: 'severity',
           zh_TW: '嚴格、嚴苛、精確',
+          zh_CN: '严格、严苛、精確',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -21386,6 +22997,7 @@ export default [
         meaning: {
           en: 'severe; strict',
           zh_TW: '嚴格的、嚴峻的',
+          zh_CN: '严格的、严峻的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21400,6 +23012,7 @@ export default [
         meaning: {
           en: 'cause annoyance in; disturb, especially by minor irritations',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Dan is usually calm and balanced, but it takes only one intense glare from Sabrina to rile him',
@@ -21414,6 +23027,7 @@ export default [
         meaning: {
           en: 'that holds the attention; enthralling',
           zh_TW: '有吸引力的、引人入勝的 [類] engrossing',
+          zh_CN: '有吸引力的、引人入胜的 [类] engrossing',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21428,6 +23042,7 @@ export default [
         meaning: {
           en: 'strong and healthy; vigorous',
           zh_TW: '強健的、茁壯的',
+          zh_CN: '强健的、茁壮的',
         },
         partsOfSpeech: 'adjective',
         example: 'the Caplans are a robust, healthy lot',
@@ -21436,6 +23051,7 @@ export default [
         meaning: {
           en: '(of an object) sturdy in construction',
           zh_TW: '健全的',
+          zh_CN: '健全的',
         },
         partsOfSpeech: 'adjective',
         example: 'a robust metal cabinet',
@@ -21450,6 +23066,7 @@ export default [
         meaning: {
           en: 'involving or limited to basic principles',
           zh_TW: '基本的、初步的',
+          zh_CN: '基本的、初步的',
         },
         partsOfSpeech: 'adjective',
         example: 'he received a rudimentary education',
@@ -21464,6 +23081,7 @@ export default [
         meaning: {
           en: 'characteristic of rural life; awkwardly simple and provincial',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The vacation cabin had no electricity and no indoor plumbing, but despite these inconveniences, Nigel adored its rustic charm',
@@ -21478,6 +23096,7 @@ export default [
         meaning: {
           en: 'considered too important to be changed, argued about, etc',
           zh_TW: '神聖不可侵犯的',
+          zh_CN: '神圣不可侵犯的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21492,6 +23111,7 @@ export default [
         meaning: {
           en: 'having good judgement and acute insight',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Steve Jobs is surely one of the most sagacious CEOs, making Apple one of the most recognizable and valuable companies in the world',
@@ -21506,6 +23126,7 @@ export default [
         meaning: {
           en: 'most noticeable or important; main',
           zh_TW: '顯著的、突出的 [類] conspicuous',
+          zh_CN: '显著的、突出的 [类] conspicuous',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21520,6 +23141,7 @@ export default [
         meaning: {
           en: '(esp of the climate) health-giving',
           zh_TW: '有益健康的、清爽的',
+          zh_CN: '有益健康的、清爽的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21534,6 +23156,7 @@ export default [
         meaning: {
           en: 'having a good effect',
           zh_TW: '有益的、有益健康的 [反] a. salubrious',
+          zh_CN: '有益的、有益健康的 [反] a. salubrious',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21548,6 +23171,7 @@ export default [
         meaning: {
           en: 'making a show of being pious; holier-than-thou',
           zh_TW: '假裝虔誠的、假裝聖潔的',
+          zh_CN: '假装虔诚的、假装圣洁的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -21563,6 +23187,7 @@ export default [
         meaning: {
           en: 'a threatened penalty for disobeying a law or rule',
           zh_TW: '認可、批准、國際制裁',
+          zh_CN: '认可、批准、国际制裁',
         },
         partsOfSpeech: 'noun',
         example: 'a range of sanctions aimed at deterring insider abuse',
@@ -21577,6 +23202,7 @@ export default [
         meaning: {
           en: 'composure or coolness, sometimes excessive, as shown in danger or under trying circumstances',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -21591,6 +23217,7 @@ export default [
         meaning: {
           en: 'cheerful; optimistic',
           zh_TW: '自信樂觀的 [類]confident, optimistic',
+          zh_CN: '自信乐观的 [类]confident, optimistic',
         },
         partsOfSpeech: 'adjective',
         example: 'With the prospect of having to learn 3,000 words during the course of the summer, Paul was anything but sanguine',
@@ -21605,6 +23232,7 @@ export default [
         meaning: {
           en: 'of or using sarcasm',
           zh_TW: '諷刺的、挖苦的',
+          zh_CN: '讽刺的、挖苦的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21619,6 +23247,7 @@ export default [
         meaning: {
           en: 'disdainfully or ironically humorous; scornful and mocking',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -21634,6 +23263,7 @@ export default [
         meaning: {
           en: 'related to fashion or clothes',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -21649,6 +23279,7 @@ export default [
         meaning: {
           en: '(of a person or their manner) slow and gloomy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a saturnine temperament',
@@ -21657,6 +23288,7 @@ export default [
         meaning: {
           en: '(of a person or their features) dark in coloring and moody or mysterious',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'his saturnine face and dark, watchful eyes',
@@ -21665,6 +23297,7 @@ export default [
         meaning: {
           en: '(of a place or an occasion) gloomy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a saturnine setting',
@@ -21679,6 +23312,7 @@ export default [
         meaning: {
           en: 'enjoy; have a distinctive flavor, smell, or quality',
           zh_TW: 'v. 細細品嚐 n. 風味',
+          zh_CN: 'v. 细细品嚐 n. 风味',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -21693,6 +23327,7 @@ export default [
         meaning: {
           en: 'shrewd and knowledgeable; having common sense and good judgment',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Bob is a savvy veteran who knows all the tricks',
@@ -21701,6 +23336,7 @@ export default [
         meaning: {
           en: '(informal) shrewdness and practical knowledge; the ability to make good judgments',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the financiers lacked the necessary political savvy',
@@ -21715,6 +23351,7 @@ export default [
         meaning: {
           en: 'severe, harsh',
           zh_TW: '刻薄的、嚴厲的',
+          zh_CN: '刻薄的、严厉的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21729,6 +23366,7 @@ export default [
         meaning: {
           en: 'joy from watching the suffering of others',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'From his warm apartment window, Stanley reveled in schadenfreude as he laughed at the figures below, huddled together in the arctic chill',
@@ -21743,6 +23381,7 @@ export default [
         meaning: {
           en: 'in the form of a diagram or chart',
           zh_TW: '概要的、圖解的',
+          zh_CN: '概要的、图解的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21757,6 +23396,7 @@ export default [
         meaning: {
           en: 'strong disagreement, esp in a religious organization over doctrine, in which one group stops recognizing the authority of the other',
           zh_TW: '分裂',
+          zh_CN: '分裂',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -21771,6 +23411,7 @@ export default [
         meaning: {
           en: 'describes someone who is brilliant and lively',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -21786,6 +23427,7 @@ export default [
         meaning: {
           en: 'a long speech or piece of writing, typically one regarded as tedious',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'her criticism appeared in the form of screeds in a local film magazine',
@@ -21800,6 +23442,7 @@ export default [
         meaning: {
           en: 'feeling that prevents one from doing or allowing sth that one thinks may be wrong',
           zh_TW: '謹慎小心、顧忌猶豫',
+          zh_CN: '谨慎小心、顾忌犹豫',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -21814,6 +23457,7 @@ export default [
         meaning: {
           en: '(of a person or process) diligent, thorough, and extremely attentive to details',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the research has been carried out with scrupulous attention to detail',
@@ -21828,6 +23472,7 @@ export default [
         meaning: {
           en: 'examine closely and critically',
           zh_TW: '詳細檢查、細讀',
+          zh_CN: '详细检查、细读',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -21842,6 +23487,7 @@ export default [
         meaning: {
           en: 'tending to seduce, charm or tempt sb; attractive',
           zh_TW: '誘惑的、引人注意的、有魅力的',
+          zh_CN: '诱惑的、引人注意的、有魅力的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21856,6 +23502,7 @@ export default [
         meaning: {
           en: '(of a person or action) showing dedication and diligence',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he watched himself with the most sedulous care',
@@ -21870,6 +23517,7 @@ export default [
         meaning: {
           en: 'reluctant to draw attention to yourself',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -21885,6 +23533,7 @@ export default [
         meaning: {
           en: 'an outward or token appearance or form that is deliberately misleading',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'While the banker maintained a semblance of respectability in public, those who knew him well were familiar with his many crimes',
@@ -21899,6 +23548,7 @@ export default [
         meaning: {
           en: 'to be moralizing, usually in a pompous sense',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The old man, casting his nose up in the air at the group of adolescents, intoned sententiously, “Youth is wasted on the young.”',
@@ -21913,6 +23563,7 @@ export default [
         meaning: {
           en: 'effusively or insincerely emotional, especially in art, music, and literature',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "I don't like romanticism for the same reason I don't like melodramatic acting and soap operas—overly sentimental.",
@@ -21927,6 +23578,7 @@ export default [
         meaning: {
           en: 'occurring or discovered by chance in a happy or beneficial way',
           zh_TW: '意外發現的',
+          zh_CN: '意外发现的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21941,6 +23593,7 @@ export default [
         meaning: {
           en: 'the instance in which an accidental, fortunate discovery is made',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -21956,6 +23609,7 @@ export default [
         meaning: {
           en: 'calm and peaceful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "I'd never seen him so serene; usually, he was a knot of stress and anxiety from hours of trading on the stock exchange.",
@@ -21970,6 +23624,7 @@ export default [
         meaning: {
           en: 'having or showing good judgement and common sense; astute',
           zh_TW: '善於判斷的、精明的、敏銳的',
+          zh_CN: '善於判断的、精明的、敏锐的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -21984,6 +23639,7 @@ export default [
         meaning: {
           en: "raise (one's shoulders) slightly to express doubt, indifference, ignorance, etc",
           zh_TW: '聳肩',
+          zh_CN: '耸肩',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -21998,6 +23654,7 @@ export default [
         meaning: {
           en: 'keep away from (sth/sb); avoid',
           zh_TW: '避開、躲開 [類] avoid, dodge, duck',
+          zh_CN: '避开、躲开 [类] avoid, dodge, duck',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22012,6 +23669,7 @@ export default [
         meaning: {
           en: 'an image or representation of someone or something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a small-scale simulacrum of a skyscraper',
@@ -22026,6 +23684,7 @@ export default [
         meaning: {
           en: 'a position requiring little or no work but giving the holder status or financial benefit',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'political sinecures for the supporters of ministers',
@@ -22040,6 +23699,7 @@ export default [
         meaning: {
           en: 'carelessly and hastily put together',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -22055,6 +23715,7 @@ export default [
         meaning: {
           en: 'a slight superficial knowledge of a language or subject',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Edward had only a smattering of Spanish',
@@ -22063,6 +23724,7 @@ export default [
         meaning: {
           en: 'a small amount of something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a smattering of snow',
@@ -22077,6 +23739,7 @@ export default [
         meaning: {
           en: "having or showing an excessive pride in oneself or one's achievements",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he was feeling smug after his win',
@@ -22091,6 +23754,7 @@ export default [
         meaning: {
           en: 'derogatory or mocking in an indirect way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'snide remarks about my mother',
@@ -22105,6 +23769,7 @@ export default [
         meaning: {
           en: 'the character or quality of being a snob',
           zh_TW: '勢利',
+          zh_CN: '势利',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -22119,6 +23784,7 @@ export default [
         meaning: {
           en: 'rebuff, ignore, or spurn disdainfully',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he snubbed faculty members and students alike',
@@ -22127,6 +23793,7 @@ export default [
         meaning: {
           en: 'an act of showing disdain or a lack of cordiality by rebuffing or ignoring someone or something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "he couldn't help thinking that the whole thing was meant to be taken as a snub",
@@ -22141,6 +23808,7 @@ export default [
         meaning: {
           en: 'a grammatical mistake in speech or writing',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -22155,6 +23823,7 @@ export default [
         meaning: {
           en: 'ask for earnestly; try to obtain (sth)',
           zh_TW: '懇求、請求、招攬',
+          zh_CN: '恳求、请求、招揽',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22169,6 +23838,7 @@ export default [
         meaning: {
           en: 'showing hovering attentiveness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -22184,6 +23854,7 @@ export default [
         meaning: {
           en: 'care or concern for someone or something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'I was touched by his solicitude',
@@ -22198,6 +23869,7 @@ export default [
         meaning: {
           en: '(living) alone; without companions',
           zh_TW: '單獨的、獨自的',
+          zh_CN: '单独的、独自的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22212,6 +23884,7 @@ export default [
         meaning: {
           en: 'pertaining to the body; physical',
           zh_TW: '身體的、軀體的',
+          zh_CN: '身体的、躯体的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22226,6 +23899,7 @@ export default [
         meaning: {
           en: 'almost asleep; sleepy; drowsy',
           zh_TW: '想睡的、催眠的 [類] lethargic',
+          zh_CN: '想睡的、催眠的 [类] lethargic',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22240,6 +23914,7 @@ export default [
         meaning: {
           en: 'having a full deep sound',
           zh_TW: '響亮的、洪亮的',
+          zh_CN: '响亮的、洪亮的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22254,6 +23929,7 @@ export default [
         meaning: {
           en: 'inducing mental lethargy; sleep inducing',
           zh_TW: '令人想睡的',
+          zh_CN: '令人想睡的',
         },
         partsOfSpeech: 'adjective',
         example: 'Although the professor is brilliant, his bland monotone gives his lectures a soporific effect',
@@ -22268,6 +23944,7 @@ export default [
         meaning: {
           en: 'involving ignoble actions and motives; arousing moral distaste and contempt',
           zh_TW: '骯髒的、污穢的',
+          zh_CN: '骯脏的、污秽的',
         },
         partsOfSpeech: 'adjective',
         example: 'the story paints a sordid picture of bribes and scams',
@@ -22282,6 +23959,7 @@ export default [
         meaning: {
           en: 'showing the indifference to comfort or luxury traditionally associated with ancient Sparta',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'spartan but adequate rooms',
@@ -22296,6 +23974,7 @@ export default [
         meaning: {
           en: 'superficially plausible, but actually wrong',
           zh_TW: '似是而非的、華而不實的',
+          zh_CN: '似是而非的、华而不实的',
         },
         partsOfSpeech: 'adjective',
         example: 'a specious argument',
@@ -22304,6 +23983,7 @@ export default [
         meaning: {
           en: 'misleading in appearance, especially misleadingly attractive',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the music trade gives Golden Oldies a specious appearance of novelty',
@@ -22318,6 +23998,7 @@ export default [
         meaning: {
           en: 'form opinions without having definite or complete knowledge or evidence; guess',
           zh_TW: '沈思、思索、投機',
+          zh_CN: '沈思、思索、投机',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22332,6 +24013,7 @@ export default [
         meaning: {
           en: 'concerned with or formed by speculation',
           zh_TW: '投機的、思索的、推測的',
+          zh_CN: '投机的、思索的、推测的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22346,6 +24028,7 @@ export default [
         meaning: {
           en: 'a person who spends money in an extravagant, irresponsible way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Putt was a spendthrift and a heavy gambler',
@@ -22360,6 +24043,7 @@ export default [
         meaning: {
           en: 'bad-tempered; spiteful',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a splenetic outburst',
@@ -22374,6 +24058,7 @@ export default [
         meaning: {
           en: 'done, happening, said etc because of a voluntary impulse from within, not caused or suggested by sth/sb outside',
           zh_TW: '自發的、自主的、自然的',
+          zh_CN: '自发的、自主的、自然的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22388,6 +24073,7 @@ export default [
         meaning: {
           en: 'recurring in scattered and irregular or unpredictable instances',
           zh_TW: '零星的 [類]occasional, infrequent, irregular [反]incessant, constant',
+          zh_CN: '零星的 [类]occasional, infrequent, irregular [反]incessant, constant',
         },
         partsOfSpeech: 'adjective',
         example: 'The signals were at first sporadic, but now we detect a clear, consistent pattern of electromagnetic radiation emanating from deep space',
@@ -22402,6 +24088,7 @@ export default [
         meaning: {
           en: 'plausible but false',
           zh_TW: '假的、站不住腳的、欺騙性的',
+          zh_CN: '假的、站不住脚的、欺骗性的',
         },
         partsOfSpeech: 'adjective',
         example: 'When listening to a politician speak, it is hard to distinguish the spurious claims from the authentic ones',
@@ -22416,6 +24103,7 @@ export default [
         meaning: {
           en: 'reject with contempt',
           zh_TW: '屏棄、藐視',
+          zh_CN: '屏弃、藐视',
         },
         partsOfSpeech: 'verb',
         example: 'She spurned all his flattery and proposals, and so he walked off embarrassed and sad',
@@ -22430,6 +24118,7 @@ export default [
         meaning: {
           en: 'waste (something, especially money or time) in a reckless and foolish manner',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'entrepreneurs squander their profits on expensive cars',
@@ -22444,6 +24133,7 @@ export default [
         meaning: {
           en: 'make a soft sucking sound such as that made by walking heavily through mud',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'bedraggled guests squelched across the lawn to seek shelter',
@@ -22452,6 +24142,7 @@ export default [
         meaning: {
           en: 'a soft sucking sound made when pressure is applied to liquid or mud',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the squelch of their feet',
@@ -22466,6 +24157,7 @@ export default [
         meaning: {
           en: 'characterized by dignity and propriety',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Frank came from a staid environment, so he was shocked that his college roommate sold narcotics',
@@ -22480,6 +24172,7 @@ export default [
         meaning: {
           en: 'loyal, reliable, and hardworking',
           zh_TW: '堅決的、健壯的',
+          zh_CN: '坚决的、健壮的',
         },
         partsOfSpeech: 'adjective',
         example: 'he remained a stalwart supporter of the cause',
@@ -22494,6 +24187,7 @@ export default [
         meaning: {
           en: 'not moving or changing; stationary',
           zh_TW: '靜止的、呆板的',
+          zh_CN: '静止的、呆板的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22508,6 +24202,7 @@ export default [
         meaning: {
           en: 'firm and dependable especially in loyalty',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'No longer a staunch supporter of the movement, Todd now will openly question whether its goals are worthwhile',
@@ -22522,6 +24217,7 @@ export default [
         meaning: {
           en: 'marked by firm determination or resolution; not shakable',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'A good captain needs to be steadfast, continuing to hold the wheel and stay the course even during the most violent storm',
@@ -22536,6 +24232,7 @@ export default [
         meaning: {
           en: 'originate in or be caused by',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "many of the universities' problems stem from rapid expansion",
@@ -22544,6 +24241,7 @@ export default [
         meaning: {
           en: 'remove the stems from (fruit or tobacco leaves)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'her aunt and her mother were stemming currants on the side porch',
@@ -22558,6 +24256,7 @@ export default [
         meaning: {
           en: '(of a person or their work, efforts, or qualities) excellent or valuable',
           zh_TW: '（金屬）高純度的、優秀的',
+          zh_CN: '（金属）高纯度的、优秀的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22572,6 +24271,7 @@ export default [
         meaning: {
           en: '(of a manner of talking, writing, behaving, etc) stiff and unnatural; artificial',
           zh_TW: '呆板的、生硬的、不自然的',
+          zh_CN: '呆板的、生硬的、不自然的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22586,6 +24286,7 @@ export default [
         meaning: {
           en: 'a regular allowance (of money)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -22601,6 +24302,7 @@ export default [
         meaning: {
           en: '(of a person) calm, dependable, and showing little emotion or animation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a stolid bourgeois gent',
@@ -22615,6 +24317,7 @@ export default [
         meaning: {
           en: 'the arrangement or classification of something into different groups',
           zh_TW: '分層、階層',
+          zh_CN: '分层、阶层',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -22629,6 +24332,7 @@ export default [
         meaning: {
           en: '(of regulations, requirements, or conditions) strict, precise, and exacting',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "California's air pollution guidelines are stringent",
@@ -22643,6 +24347,7 @@ export default [
         meaning: {
           en: 'sth (from/off sth/sb); sth/sb (of sth); sth (off) take off (clothes, coverings, parts, etc) from sb/sth',
           zh_TW: '剝去、剝光',
+          zh_CN: '剥去、剥光',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22657,6 +24362,7 @@ export default [
         meaning: {
           en: 'cause (someone) to appear foolish or absurd',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "Counsel is not expected to stultify himself in an attempt to advance his client's interests",
@@ -22671,6 +24377,7 @@ export default [
         meaning: {
           en: 'prevent or hinder the progress of',
           zh_TW: '阻礙、妨礙 [類] clog, cramp',
+          zh_CN: '阻碍、妨碍 [类] clog, cramp',
         },
         partsOfSpeech: 'verb',
         example: 'the changes must not be allowed to stymie new medical treatments',
@@ -22685,6 +24392,7 @@ export default [
         meaning: {
           en: 'bring under control by force; defeat',
           zh_TW: '征服、壓制、減輕',
+          zh_CN: '征服、压制、减轻',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22699,6 +24407,7 @@ export default [
         meaning: {
           en: '(to sb) lower in rank or position',
           zh_TW: '次要的、下級的',
+          zh_CN: '次要的、下级的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22713,6 +24422,7 @@ export default [
         meaning: {
           en: 'sink to a lower or to the normal level',
           zh_TW: '消退、平息、下沈',
+          zh_CN: '消退、平息、下沈',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22727,6 +24437,7 @@ export default [
         meaning: {
           en: 'large in amount; considerable',
           zh_TW: '大量的、實在的',
+          zh_CN: '大量的、实在的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22741,6 +24452,7 @@ export default [
         meaning: {
           en: 'give facts to support (a claim. statement, etc); prove',
           zh_TW: '證實',
+          zh_CN: '证实',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22755,6 +24467,7 @@ export default [
         meaning: {
           en: 'include or absorb (something) in something else',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'most of these phenomena can be subsumed under two broad categories',
@@ -22769,6 +24482,7 @@ export default [
         meaning: {
           en: 'something intended to misrepresent the true nature of an activity',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Finally deciding to abandon all subterfuge, Arthur revealed to Cindy everything about his secret affair over the past two years',
@@ -22783,6 +24497,7 @@ export default [
         meaning: {
           en: 'seeking or intended to subvert an established system or institution',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'subversive literature',
@@ -22791,6 +24506,7 @@ export default [
         meaning: {
           en: 'a subversive person',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'they and their companions were identified as subversives',
@@ -22805,6 +24521,7 @@ export default [
         meaning: {
           en: 'destroy the authority of',
           zh_TW: '顛覆、推翻',
+          zh_CN: '顛覆、推翻',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22819,6 +24536,7 @@ export default [
         meaning: {
           en: 'expressed briefly and clearly; concise',
           zh_TW: '簡明的、簡潔的',
+          zh_CN: '简明的、简洁的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -22833,6 +24551,7 @@ export default [
         meaning: {
           en: '(fml) stop resisting (temptation, illness, attack, etc); yield',
           zh_TW: '屈從、因...死亡',
+          zh_CN: '屈从、因...死亡',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22847,6 +24566,7 @@ export default [
         meaning: {
           en: 'right to vote in political elections',
           zh_TW: '選舉權、投票權',
+          zh_CN: '选举权、投票权',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -22861,6 +24581,7 @@ export default [
         meaning: {
           en: 'showing a brooding ill humor',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Herbert took board games too seriously, often appearing sullen after losing',
@@ -22875,6 +24596,7 @@ export default [
         meaning: {
           en: 'the peak or highest point',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'After hiking for two days, the climbers finally reached the summit of Mount Kilimanjaro',
@@ -22889,6 +24611,7 @@ export default [
         meaning: {
           en: 'behaving or looking as though one thinks one is superior to others',
           zh_TW: '目中無人的',
+          zh_CN: '目中无人的',
         },
         partsOfSpeech: 'adjective',
         example: "a supercilious lady's maid",
@@ -22903,6 +24626,7 @@ export default [
         meaning: {
           en: 'unnecessary, especially through being more than enough',
           zh_TW: '多餘的、累贅的',
+          zh_CN: '多余的、累赘的',
         },
         partsOfSpeech: 'adjective',
         example: 'the purchaser should avoid asking for superfluous information',
@@ -22917,6 +24641,7 @@ export default [
         meaning: {
           en: 'take the place of be introduced so as to be used instead of (sth/sb)',
           zh_TW: '淘汰、取代',
+          zh_CN: '淘汰、取代',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22931,6 +24656,7 @@ export default [
         meaning: {
           en: 'take the place or move into the position of',
           zh_TW: '排擠、取代',
+          zh_CN: '排挤、取代',
         },
         partsOfSpeech: 'verb',
         example: "For many, a cell phone has supplanted a traditional phone; in fact, most 20-somethings don't even have a traditional phone anymore.",
@@ -22945,6 +24671,7 @@ export default [
         meaning: {
           en: 'thing added to sth else to improve or complete it',
           zh_TW: '補充、增加',
+          zh_CN: '补充、增加',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -22959,6 +24686,7 @@ export default [
         meaning: {
           en: 'put an end to (sth), esp by force; crush',
           zh_TW: '鎮壓、抑制',
+          zh_CN: '镇压、抑制',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -22973,6 +24701,7 @@ export default [
         meaning: {
           en: 'an excessive amount of something',
           zh_TW: '過量、過度',
+          zh_CN: '过量、过度',
         },
         partsOfSpeech: 'noun',
         example: 'a surfeit of food and drink',
@@ -22981,6 +24710,7 @@ export default [
         meaning: {
           en: 'cause (someone) to desire no more of something as a result of having consumed or done it to excess',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'I am surfeited with shopping',
@@ -22995,6 +24725,7 @@ export default [
         meaning: {
           en: 'inclined to anger or bad feelings with overtones of menace',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Every morning, Bhavin was a surly, unhappy person, but once he ate breakfast, he became loving, laughing, and a joy to be around',
@@ -23009,6 +24740,7 @@ export default [
         meaning: {
           en: 'suppose (sth) without having evidence that makes it certain; guess',
           zh_TW: '推測、猜測、臆測 [類] guess',
+          zh_CN: '推测、猜测、臆测 [类] guess',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -23023,6 +24755,7 @@ export default [
         meaning: {
           en: 'deal with (a difficulty, etc); overcome',
           zh_TW: '克服、戰勝',
+          zh_CN: '克服、战胜',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -23037,6 +24770,7 @@ export default [
         meaning: {
           en: 'stealthy, taking pains not to be caught or detected',
           zh_TW: '秘密的、偷偷摸摸的、鬼鬼祟祟的',
+          zh_CN: '秘密的、偷偷摸摸的、鬼鬼祟祟的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -23052,6 +24786,7 @@ export default [
         meaning: {
           en: '(fml) person or thing that acts or is used instead of another; substitute',
           zh_TW: '代替品、代理人',
+          zh_CN: '代替品、代理人',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -23066,6 +24801,7 @@ export default [
         meaning: {
           en: 'to sth easily influenced or harmed by sth',
           zh_TW: '易受影寫的、易被感動的',
+          zh_CN: '易受影写的、易被感动的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23080,6 +24816,7 @@ export default [
         meaning: {
           en: 'a person who indulges in luxury',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -23095,6 +24832,7 @@ export default [
         meaning: {
           en: 'a person who tries to please someone in order to gain a personal advantage',
           zh_TW: '拍馬屁者 [類] fawner; flunky',
+          zh_CN: '拍马屁者 [类] fawner; flunky',
         },
         partsOfSpeech: 'noun',
         example:
@@ -23110,6 +24848,7 @@ export default [
         meaning: {
           en: 'exact match in size and shape between the two halves of sth',
           zh_TW: '對稱、均衡',
+          zh_CN: '对称、均衡',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -23124,6 +24863,7 @@ export default [
         meaning: {
           en: 'of or forming a synopsis',
           zh_TW: '概要的',
+          zh_CN: '概要的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23138,6 +24878,7 @@ export default [
         meaning: {
           en: 'make (something) by synthesis, especially chemically',
           zh_TW: '綜合、合成',
+          zh_CN: '综合、合成',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -23152,6 +24893,7 @@ export default [
         meaning: {
           en: '(of a person) reserved or uncommunicative in speech; saying little',
           zh_TW: '沈默的 [反]loquacious(多話的), prolix(囉唆的)、voluble(多話的)',
+          zh_CN: '沈默的 [反]loquacious(多话的), prolix(囉唆的)、voluble(多话的)',
         },
         partsOfSpeech: 'adjective',
         example: 'after such gatherings she would be taciturn and morose',
@@ -23166,6 +24908,7 @@ export default [
         meaning: {
           en: 'adroitness and sensitivity in dealing with others or with difficult issues',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the inspector broke the news to me with tact and consideration',
@@ -23180,6 +24923,7 @@ export default [
         meaning: {
           en: 'being essentially equal to something',
           zh_TW: '同等的、相當於',
+          zh_CN: '同等的、相当於',
         },
         partsOfSpeech: 'adjective',
         example: 'In many situations, remaining silent is tantamount to admitting guilt, so speak to prove your innocence',
@@ -23194,6 +24938,7 @@ export default [
         meaning: {
           en: 'make dirty or spotty, as by exposure to air; also used metaphorically',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -23209,6 +24954,7 @@ export default [
         meaning: {
           en: 'tastelessly showy; cheap and shoddy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -23224,6 +24970,7 @@ export default [
         meaning: {
           en: 'use to the limit; exhaust',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The hike to the summit of Mt. Whitney was so taxing that I could barely speak or stand up',
@@ -23238,6 +24985,7 @@ export default [
         meaning: {
           en: 'tiresome because of being too long, slow or dull; boring',
           zh_TW: '冗長乏味的、使人厭煩的',
+          zh_CN: '冗长乏味的、使人厌烦的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23252,6 +25000,7 @@ export default [
         meaning: {
           en: 'revealing',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The many telltale signs of chronic smoking include yellow teeth, and a persistent, hacking cough',
@@ -23266,6 +25015,7 @@ export default [
         meaning: {
           en: 'excessive confidence or boldness; audacity',
           zh_TW: '魯莽、冒失、不自量力 [類] recklessness',
+          zh_CN: '鲁莽、冒失、不自量力 [类] recklessness',
         },
         partsOfSpeech: 'noun',
         example: 'no one had the temerity to question his conclusions',
@@ -23280,6 +25030,7 @@ export default [
         meaning: {
           en: 'improve the hardness and elasticity of (steel or other metal) by reheating and then cooling it',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the way a smith would temper a sword',
@@ -23288,6 +25039,7 @@ export default [
         meaning: {
           en: 'act as a neutralizing or counterbalancing force to (something)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'their idealism is tempered with realism',
@@ -23302,6 +25054,7 @@ export default [
         meaning: {
           en: 'the trait of avoiding excesses',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "Welles wasn't known for his temperance--he usually ate enough for two and drank enough for three.",
@@ -23316,6 +25069,7 @@ export default [
         meaning: {
           en: 'behaving with temperance; showing self-control',
           zh_TW: '(氣候)溫和的、(飲食)適度的',
+          zh_CN: '(气候)温和的、(饮食)適度的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23330,6 +25084,7 @@ export default [
         meaning: {
           en: 'as if driven by turbulent or conflicting emotions; highly energetic and wildly changing or fluctuating',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Chuck and Kathy had always been stable and agreeable people on their own, but when they got involved, it was a tempestuous relationship',
@@ -23344,6 +25099,7 @@ export default [
         meaning: {
           en: 'of worldly affairs, i.e. not spiritual; secular',
           zh_TW: '時間的、世俗的',
+          zh_CN: '时间的、世俗的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23358,6 +25114,7 @@ export default [
         meaning: {
           en: 'that can be defended successfully against opposition or attack',
           zh_TW: '站得住腳的、經得起批判的',
+          zh_CN: '站得住脚的、经得起批判的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23372,6 +25129,7 @@ export default [
         meaning: {
           en: 'tending to keep a firm hold of something; clinging or adhering closely',
           zh_TW: '堅持的、頑強的、固執的',
+          zh_CN: '坚持的、顽强的、固执的',
         },
         partsOfSpeech: 'adjective',
         example: 'a tenacious grip',
@@ -23380,6 +25138,7 @@ export default [
         meaning: {
           en: 'not readily relinquishing a position, principle, or course of action; determined',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "you're tenacious and you get at the truth",
@@ -23388,6 +25147,7 @@ export default [
         meaning: {
           en: 'persisting in existence; not easily dispelled',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a tenacious local legend',
@@ -23402,6 +25162,7 @@ export default [
         meaning: {
           en: 'likely to lean towards a controversial view',
           zh_TW: '有偏見的、傾向性的',
+          zh_CN: '有偏见的、倾向性的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -23417,6 +25178,7 @@ export default [
         meaning: {
           en: 'offer up something formally',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'The government was loath to tender more money in the fear that it might set off inflation',
@@ -23431,6 +25193,7 @@ export default [
         meaning: {
           en: 'thin; slender',
           zh_TW: '稀薄的、空洞的',
+          zh_CN: '稀薄的、空洞的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23445,6 +25208,7 @@ export default [
         meaning: {
           en: 'using few words; concise; curt',
           zh_TW: '簡短的、簡明的、簡潔的',
+          zh_CN: '简短的、简明的、简洁的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23459,6 +25223,7 @@ export default [
         meaning: {
           en: 'involving or attending to every detail or aspect of something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a thoroughgoing reform of the whole economy',
@@ -23473,6 +25238,7 @@ export default [
         meaning: {
           en: 'spending money wisely',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'He was economical, spending his money thriftily and on items considered essential',
@@ -23487,6 +25253,7 @@ export default [
         meaning: {
           en: 'prevent (someone) from accomplishing something',
           zh_TW: '阻撓、阻礙 [反] foment(煽動), bolster(支持)',
+          zh_CN: '阻挠、阻碍 [反] foment(煽动), bolster(支持)',
         },
         partsOfSpeech: 'verb',
         example: 'he never did anything to thwart his father',
@@ -23495,6 +25262,7 @@ export default [
         meaning: {
           en: 'a structural crosspiece sometimes forming a seat for a rower in a boat',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -23503,6 +25271,7 @@ export default [
         meaning: {
           en: 'from one side to another side of (an area); across',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'preposition',
         example: '',
@@ -23517,6 +25286,7 @@ export default [
         meaning: {
           en: 'showing or suffering from nervousness, fear, or a lack of confidence',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a timorous voice',
@@ -23531,6 +25301,7 @@ export default [
         meaning: {
           en: 'a long, angry speech of criticism or accusation',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'a tirade of abuse',
@@ -23545,6 +25316,7 @@ export default [
         meaning: {
           en: 'inactivity resulting from lethargy and lack of vigor or energy',
           zh_TW: '麻木的、無精打采、遲鈍 [反]ardor(熱心、熱情)',
+          zh_CN: '麻木的、无精打采、迟钝 [反]ardor(热心、热情)',
         },
         partsOfSpeech: 'noun',
         example: 'After work, I was expecting my colleagues to be enthusiastic about the outing, but I found them in a state of complete torpor',
@@ -23559,6 +25331,7 @@ export default [
         meaning: {
           en: 'marked by repeated turns and bends; not straightforward',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -23574,6 +25347,7 @@ export default [
         meaning: {
           en: 'advertize in strongly positive terms; show off',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "At the conference, the CEO touted the extraordinary success of his company's Research & Development division.",
@@ -23588,6 +25362,7 @@ export default [
         meaning: {
           en: '(of a person) easy to control or influence',
           zh_TW: '溫順的 [類] docile [反] recalcitrant, intransigent',
+          zh_CN: '温顺的 [类] docile [反] recalcitrant, intransigent',
         },
         partsOfSpeech: 'adjective',
         example: 'tractable dogs that have had some obedience training',
@@ -23596,6 +25371,7 @@ export default [
         meaning: {
           en: '(of a situation or problem) easy to deal with',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'trying to make the mathematics tractable',
@@ -23610,6 +25386,7 @@ export default [
         meaning: {
           en: 'calm, quiet and undisturbed',
           zh_TW: '平靜的、安靜地、安寧的',
+          zh_CN: '平静的、安静地、安寧的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23624,6 +25401,7 @@ export default [
         meaning: {
           en: 'beyond or above the range of normal or merely physical human experience,',
           zh_TW: '超越的、卓越的',
+          zh_CN: '超越的、卓越的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23638,6 +25416,7 @@ export default [
         meaning: {
           en: 'sth copy sth in writing',
           zh_TW: '抄寫、謄寫',
+          zh_CN: '抄写、誊写',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -23652,6 +25431,7 @@ export default [
         meaning: {
           en: 'lasting a very short time',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The unpredictable and transient nature of deja vu makes it a very difficult phenomenon to study properly',
@@ -23666,6 +25446,7 @@ export default [
         meaning: {
           en: 'not permanent',
           zh_TW: '短暫的、瞬息的 [類] temporary',
+          zh_CN: '短暂的、瞬息的 [类] temporary',
         },
         partsOfSpeech: 'adjective',
         example: 'transitory periods of medieval greatness',
@@ -23680,6 +25461,7 @@ export default [
         meaning: {
           en: 'change in form, nature, or substance',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the raw material of his experience was transmuted into stories',
@@ -23694,6 +25476,7 @@ export default [
         meaning: {
           en: 'allowing light to pass through so that objects behind can be seen clearly',
           zh_TW: '透明的、清澈的',
+          zh_CN: '透明的、清澈的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23708,6 +25491,7 @@ export default [
         meaning: {
           en: 'use of physical or mental energy; hard work; agony or anguish',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'While they experienced nothing but travails in refinishing the kitchen, they completed the master bedroom in less than a weekend',
@@ -23722,6 +25506,7 @@ export default [
         meaning: {
           en: 'an absurd presentation of something; a mockery',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'What I expected to be an intelligent, nuanced historical documentary turned out to be a poorly-produced travesty of the form',
@@ -23736,6 +25521,7 @@ export default [
         meaning: {
           en: 'tending to betray',
           zh_TW: '危險的、背叛的、不可靠的 [類] perfidious(背叛的), unreliable(不可靠的)',
+          zh_CN: '危险的、背叛的、不可靠的 [类] perfidious(背叛的), unreliable(不可靠的)',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -23751,6 +25537,7 @@ export default [
         meaning: {
           en: 'characterized by or full of force and vigor; having keenness and forcefulness and penetration in thought, expression, or intellect',
           zh_TW: '(言辭)犀利的、鋒利的 [類] incisive, penetrating',
+          zh_CN: '(言辞)犀利的、锋利的 [类] incisive, penetrating',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -23766,6 +25553,7 @@ export default [
         meaning: {
           en: 'great worry or fear about sth unpleasant that may happen',
           zh_TW: '恐懼、惶恐',
+          zh_CN: '恐惧、惶恐',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -23780,6 +25568,7 @@ export default [
         meaning: {
           en: 'something, especially an event, that causes difficulty and suffering',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -23795,6 +25584,7 @@ export default [
         meaning: {
           en: 'unimportant; trivial',
           zh_TW: '不重要的、微不足道的',
+          zh_CN: '不重要的、微不足道的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23809,6 +25599,7 @@ export default [
         meaning: {
           en: '(of a remark, opinion, or idea) overused and consequently of little import; lacking originality or freshness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'this point may now seem obvious and trite',
@@ -23823,6 +25614,7 @@ export default [
         meaning: {
           en: 'defiant aggressiveness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -23838,6 +25630,7 @@ export default [
         meaning: {
           en: 'eager or quick to argue or fight; aggressively defiant',
           zh_TW: '好鬥的、殘酷的',
+          zh_CN: '好斗的、残酷的',
         },
         partsOfSpeech: 'adjective',
         example: 'his days of truculent defiance were over',
@@ -23852,6 +25645,7 @@ export default [
         meaning: {
           en: 'shorten the duration or extent of',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he was a sensational player whose career was truncated by injuries',
@@ -23860,6 +25654,7 @@ export default [
         meaning: {
           en: 'shorten by cutting off the top or end',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the torso has been truncated just below the neck line',
@@ -23868,6 +25663,7 @@ export default [
         meaning: {
           en: '(of a leaf, feather, or other part) ending abruptly as if cut off across the base or tip',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23882,6 +25678,7 @@ export default [
         meaning: {
           en: 'a state of chaos, noise and confusion',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Riots broke out just in front of our apartment building, and the tumult continued late into the night',
@@ -23896,6 +25693,7 @@ export default [
         meaning: {
           en: 'disorderly or confused; violent',
           zh_TW: '騷亂的、亂哄哄的、喧嘩的 [反] serene 平靜的',
+          zh_CN: '骚乱的、乱哄哄的、喧哗的 [反] serene 平静的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23910,6 +25708,7 @@ export default [
         meaning: {
           en: '(of language) pompous and tedious',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -23925,6 +25724,7 @@ export default [
         meaning: {
           en: 'great disturbance, agitation or confusion',
           zh_TW: '騷動、混亂',
+          zh_CN: '骚动、混乱',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -23939,6 +25739,7 @@ export default [
         meaning: {
           en: 'depravity; wickedness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'acts of moral turpitude',
@@ -23953,6 +25754,7 @@ export default [
         meaning: {
           en: 'cruel, unjust or oppressive use of power or authority',
           zh_TW: '暴政、專利',
+          zh_CN: '暴政、专利',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -23967,6 +25769,7 @@ export default [
         meaning: {
           en: 'a beginner or novice',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -23981,6 +25784,7 @@ export default [
         meaning: {
           en: '(seeming to be) present everywhere or in several places at the same time',
           zh_TW: '無所不在的 [類] omnipresent, universal',
+          zh_CN: '无所不在的 [类] omnipresent, universal',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -23995,6 +25799,7 @@ export default [
         meaning: {
           en: 'a feeling of anger caused by being offended',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'Since he was so in love with her, he took umbrage at her comments, even though she had only meant to gently tease him',
@@ -24009,6 +25814,7 @@ export default [
         meaning: {
           en: '(in sth) all agreeing on a decision or an opinion',
           zh_TW: '全體一致的',
+          zh_CN: '全体一致的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24023,6 +25829,7 @@ export default [
         meaning: {
           en: 'unable to be attacked, questioned, or defeated',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an unassailable lead',
@@ -24037,6 +25844,7 @@ export default [
         meaning: {
           en: 'suggesting the operation of supernatural influences; surpassing the ordinary or normal',
           zh_TW: '奇異的、怪異的、難懂的',
+          zh_CN: '奇异的、怪异的、难懂的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24052,6 +25860,7 @@ export default [
         meaning: {
           en: "showing an unwillingness to make concessions to others, especially by changing one's ways or opinions",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'his uncompromising stance on the issue',
@@ -24060,6 +25869,7 @@ export default [
         meaning: {
           en: 'harsh or relentless',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "the uncompromising ugliness of the era's buildings",
@@ -24074,6 +25884,7 @@ export default [
         meaning: {
           en: 'unreasonable; unscrupulous; excessive',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24089,6 +25900,7 @@ export default [
         meaning: {
           en: 'insincerely earnest or flattering, esp in an oily way',
           zh_TW: '假殷勤的、油腔滑調的 [類] insincere',
+          zh_CN: '假殷勤的、油腔滑调的 [类] insincere',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24103,6 +25915,7 @@ export default [
         meaning: {
           en: '(meat cut from the ) underside of sirloin',
           zh_TW: '削弱',
+          zh_CN: '削弱',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -24117,6 +25930,7 @@ export default [
         meaning: {
           en: 'draw a line under (a word or phrase) to give emphasis or indicate special type',
           zh_TW: '在...之下畫線(表重要)',
+          zh_CN: '在...之下画线(表重要)',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -24131,6 +25945,7 @@ export default [
         meaning: {
           en: 'lessen the effectiveness, power, or ability of, especially gradually or insidiously',
           zh_TW: '削弱',
+          zh_CN: '削弱',
         },
         partsOfSpeech: 'verb',
         example: 'this could undermine years of hard work',
@@ -24139,6 +25954,7 @@ export default [
         meaning: {
           en: 'erode the base or foundation of (a rock formation)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the flow of water had undermined pillars supporting the roof',
@@ -24147,6 +25963,7 @@ export default [
         meaning: {
           en: 'dig or excavate beneath (a building or fortification) so as to make it collapse',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: "the demolition engineers did eventually undermine two of the tower's six sides",
@@ -24161,6 +25978,7 @@ export default [
         meaning: {
           en: 'give extra weight to (a communication)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example:
@@ -24176,6 +25994,7 @@ export default [
         meaning: {
           en: 'understate: to state (sth) in restrained terms, often to obtain an ironic effect',
           zh_TW: '輕描淡寫的、低調的、壓抑的',
+          zh_CN: '轻描淡写的、低调的、压抑的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24190,6 +26009,7 @@ export default [
         meaning: {
           en: 'to support financially',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'The latest symphony broadcast was made possible with underwriting from the Carnegie Endowment',
@@ -24204,6 +26024,7 @@ export default [
         meaning: {
           en: 'not fair or just',
           zh_TW: '不應得的',
+          zh_CN: '不应得的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24218,6 +26039,7 @@ export default [
         meaning: {
           en: 'leaving no doubt; unambiguous',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an unequivocal answer',
@@ -24232,6 +26054,7 @@ export default [
         meaning: {
           en: 'not easily perturbed or excited or upset; marked by extreme calm and composure',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The house shook and the ground quaked, but my dad was unflappable and comforted the family',
@@ -24246,6 +26069,7 @@ export default [
         meaning: {
           en: 'uncooperative, not willing to give up information',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'The teacher demanded to know who broke the window while he was out of the room, but the students understandably were unforthcoming',
@@ -24260,6 +26084,7 @@ export default [
         meaning: {
           en: 'not able to be doubted, questioned, or criticized; entirely trustworthy',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'an unimpeachable witness',
@@ -24274,6 +26099,7 @@ export default [
         meaning: {
           en: 'the quality of involving or being shared by all people or things in the world or in a particular group',
           zh_TW: '普遍性',
+          zh_CN: '普遍性',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -24288,6 +26114,7 @@ export default [
         meaning: {
           en: 'make (someone) lose courage or confidence',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'the journey over the bridge had unnerved me',
@@ -24302,6 +26129,7 @@ export default [
         meaning: {
           en: 'contrary to what is usual, traditional, or accepted; not orthodox',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he frequently upset other scholars with his unorthodox views',
@@ -24316,6 +26144,7 @@ export default [
         meaning: {
           en: 'never done or known before',
           zh_TW: '前所未有的',
+          zh_CN: '前所未有的',
         },
         partsOfSpeech: 'adjective',
         example: 'the emphasis has been on shaping bold solutions to save lives and livelihoods in these unprecedented times',
@@ -24330,6 +26159,7 @@ export default [
         meaning: {
           en: 'creating an unfavorable or neutral first impression',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24345,6 +26175,7 @@ export default [
         meaning: {
           en: '(of a circumstance) with little chance of success',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24360,6 +26191,7 @@ export default [
         meaning: {
           en: 'never relaxing or ceasing; incessant; persistent',
           zh_TW: '不間斷的、持續的',
+          zh_CN: '不间断的、持续的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24374,6 +26206,7 @@ export default [
         meaning: {
           en: '(of persons) noisy and lacking in restraint or discipline; unwilling to submit to authority',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "Walk in to any preschool and I am sure that you will find an unruly and chaotic scene—unless it's nap time.",
@@ -24388,6 +26221,7 @@ export default [
         meaning: {
           en: 'having or showing no moral principles; not honest or fair',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'unscrupulous landlords might be tempted to harass existing tenants',
@@ -24402,6 +26236,7 @@ export default [
         meaning: {
           en: 'not in keeping with accepted standards of what is right or proper in polite society',
           zh_TW: '不得體的',
+          zh_CN: '不得体的',
         },
         partsOfSpeech: 'adjective',
         example: 'He acted in an unseemly manner, insulting the hostess and then speaking ill of her deceased husband',
@@ -24416,6 +26251,7 @@ export default [
         meaning: {
           en: 'very generous',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Helen is unstinting with her time, often spending hours at the house of a sick friend',
@@ -24430,6 +26266,7 @@ export default [
         meaning: {
           en: '(especially of a position or view) not able to be maintained or defended against attack or objection',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'this argument is clearly untenable',
@@ -24444,6 +26281,7 @@ export default [
         meaning: {
           en: 'unfavorable; inconvenient',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24459,6 +26297,7 @@ export default [
         meaning: {
           en: 'not confined or limited',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24474,6 +26313,7 @@ export default [
         meaning: {
           en: 'not capable of working successfully; not feasible',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the commission found the plan to be financially unviable',
@@ -24488,6 +26328,7 @@ export default [
         meaning: {
           en: 'find fault with (someone); scold',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he was upbraided for his slovenly appearance',
@@ -24502,6 +26343,7 @@ export default [
         meaning: {
           en: 'courteous and refined in manner (typically used of a man)',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'the supposedly urbane, restrained English gentleman',
@@ -24516,6 +26358,7 @@ export default [
         meaning: {
           en: 'designed to be useful rather than luxurious or decorative, etc; severely practical',
           zh_TW: '功利主義的',
+          zh_CN: '功利主义的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24530,6 +26373,7 @@ export default [
         meaning: {
           en: 'alternate or waver between different opinions or actions; be indecisive',
           zh_TW: '猶豫不決 [類] waver, hestitate',
+          zh_CN: '犹豫不决 [类] waver, hestitate',
         },
         partsOfSpeech: 'verb',
         example: 'I had for a time vacillated between teaching and journalism',
@@ -24544,6 +26388,7 @@ export default [
         meaning: {
           en: 'devoid of intelligence, matter, or significance',
           zh_TW: '發呆的、愚笨的',
+          zh_CN: '发呆的、愚笨的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24559,6 +26404,7 @@ export default [
         meaning: {
           en: 'defeat thoroughly',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Mexican forces vanquished the French army in a battle in Puebla',
@@ -24573,6 +26419,7 @@ export default [
         meaning: {
           en: 'dull or uninteresting',
           zh_TW: '無味的、走了味的',
+          zh_CN: '无味的、走了味的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24587,6 +26434,7 @@ export default [
         meaning: {
           en: 'the quality of being different',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'The cynic quipped, “There is not much variance in politicians; they all seem to lie”',
@@ -24601,6 +26449,7 @@ export default [
         meaning: {
           en: 'praised or boasted about, especially in an excessive way',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'they have utterly eclipsed their vaunted American rivals',
@@ -24609,6 +26458,7 @@ export default [
         meaning: {
           en: 'boast about or praise (something), especially excessively',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'he was initially vaunted by the West for his leadership of the country',
@@ -24623,6 +26473,7 @@ export default [
         meaning: {
           en: 'marked by extreme intensity of emotions or convictions',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24638,6 +26489,7 @@ export default [
         meaning: {
           en: 'the condition of being susceptible to bribes or corruption',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -24653,6 +26505,7 @@ export default [
         meaning: {
           en: 'covering consisting of a thin superficial layer that hides the underlying substance',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example:
@@ -24668,6 +26521,7 @@ export default [
         meaning: {
           en: 'regard with great respect; revere',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'Mother Teresa is venerated as a saint',
@@ -24682,6 +26536,7 @@ export default [
         meaning: {
           en: 'regard with deep respect',
           zh_TW: '尊敬',
+          zh_CN: '尊敬',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -24696,6 +26551,7 @@ export default [
         meaning: {
           en: 'paying back of an ihjury that one has suffered; revenge',
           zh_TW: '報仇、報復',
+          zh_CN: '报仇、报復',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -24710,6 +26566,7 @@ export default [
         meaning: {
           en: 'easily excused or forgiven; pardonable',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24725,6 +26582,7 @@ export default [
         meaning: {
           en: 'truthful',
           zh_TW: '誠實的、真實的 [類] n. veracity 誠實、真實',
+          zh_CN: '诚实的、真实的 [类] n. veracity 诚实、真实',
         },
         partsOfSpeech: 'adjective',
         example: 'While we elect our leaders in the hope that every word they speak  will be veracious, history has shown that such a hope is naive',
@@ -24739,6 +26597,7 @@ export default [
         meaning: {
           en: 'using or containing more words than are needed',
           zh_TW: '囉唆的、冗長的 [類] prolix(囉唆的), superflous(多餘的、過剩的)',
+          zh_CN: '囉唆的、冗长的 [类] prolix(囉唆的), superflous(多余的、过剩的)',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24753,6 +26612,7 @@ export default [
         meaning: {
           en: 'decision reached by a jury on a question of fact in a law case',
           zh_TW: '判決、決定',
+          zh_CN: '判决、决定',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -24767,6 +26627,7 @@ export default [
         meaning: {
           en: 'verify: to prove to be true; confirm; substantiate',
           zh_TW: '檢驗的、核實的',
+          zh_CN: '检验的、核实的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24781,6 +26642,7 @@ export default [
         meaning: {
           en: 'the appearance of being true or real',
           zh_TW: '逼真',
+          zh_CN: '逼真',
         },
         partsOfSpeech: 'noun',
         example: 'the detail gives the novel some verisimilitude',
@@ -24795,6 +26657,7 @@ export default [
         meaning: {
           en: 'truthfully, without a doubt',
           zh_TW: '確實的、名副其實的',
+          zh_CN: '確实的、名副其实的',
         },
         partsOfSpeech: 'adjective',
         example: 'Frank is a veritable life-saver -- last year, on two different occasions, he revived people using CPR',
@@ -24809,6 +26672,7 @@ export default [
         meaning: {
           en: 'turning easily or readily from one subject, skill or occupation to another',
           zh_TW: '多才多藝的、多用途的',
+          zh_CN: '多才多艺的、多用途的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24823,6 +26687,7 @@ export default [
         meaning: {
           en: 'sound and workable; feasible',
           zh_TW: '可行的、能活下去的',
+          zh_CN: '可行的、能活下去的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24837,6 +26702,7 @@ export default [
         meaning: {
           en: 'experienced in the imagination through the feelings or actions of another person',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'I could glean vicarious pleasure from the struggles of my imaginary film friends',
@@ -24851,6 +26717,7 @@ export default [
         meaning: {
           en: 'a change of circumstances or fortune, typically one that is unwelcome or unpleasant',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: "her husband's sharp vicissitudes of fortune",
@@ -24865,6 +26732,7 @@ export default [
         meaning: {
           en: 'compete eagerly with someone in order to do or achieve something',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'rival mobs vying for control of the liquor business',
@@ -24879,6 +26747,7 @@ export default [
         meaning: {
           en: 'looking out for possible danger, trouble, etc; watchful or alert',
           zh_TW: '機警的、警惕的',
+          zh_CN: '机警的、警惕的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -24893,6 +26762,7 @@ export default [
         meaning: {
           en: 'speak or write about in an abusively disparaging manner',
           zh_TW: '辱罵、誹謗',
+          zh_CN: '辱骂、誹谤',
         },
         partsOfSpeech: 'verb',
         example: 'he has been vilified in the press',
@@ -24907,6 +26777,7 @@ export default [
         meaning: {
           en: 'to clear of accusation, blame, suspicion, or doubt with supporting arguments or proof',
           zh_TW: '為...平反、證明...正確',
+          zh_CN: '为...平反、证明...正確',
         },
         partsOfSpeech: 'verb',
         example:
@@ -24922,6 +26793,7 @@ export default [
         meaning: {
           en: 'to have a very strong desire for revenge',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24937,6 +26809,7 @@ export default [
         meaning: {
           en: 'a domineering, violent, or bad-tempered woman',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'the campaigns of these indignant viragoes will come to naught',
@@ -24951,6 +26824,7 @@ export default [
         meaning: {
           en: 'skill of a virtuoso',
           zh_TW: '精湛的技巧、高潮',
+          zh_CN: '精湛的技巧、高潮',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -24965,6 +26839,7 @@ export default [
         meaning: {
           en: 'weaken or spoil the quality or efficiency of (sth)',
           zh_TW: '削弱、破壞、損害',
+          zh_CN: '削弱、破坏、损害',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -24979,6 +26854,7 @@ export default [
         meaning: {
           en: 'abusive or venomous language used to express blame or bitter deep-seated ill will',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'His vitriol spewed forth from a deep-seated racism that consumed his whole life',
@@ -24993,6 +26869,7 @@ export default [
         meaning: {
           en: 'filled with bitter criticism or malice',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'vitriolic attacks on the politicians',
@@ -25007,6 +26884,7 @@ export default [
         meaning: {
           en: 'blame or insult (someone) in strong or violent language',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: '',
@@ -25021,6 +26899,7 @@ export default [
         meaning: {
           en: '(especially of a person or speech) vehement or clamorous',
           zh_TW: '大聲的、激昂的',
+          zh_CN: '大声的、激昂的',
         },
         partsOfSpeech: 'adjective',
         example: 'he was a vociferous opponent of the takeover',
@@ -25035,6 +26914,7 @@ export default [
         meaning: {
           en: 'the quality of talking fluently, readily, or incessantly; talkativeness',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: 'her legendary volubility deserted her',
@@ -25049,6 +26929,7 @@ export default [
         meaning: {
           en: '(of a person) speaking a lot; talkative',
           zh_TW: '健談的、口若懸河般的',
+          zh_CN: '健谈的、口若悬河般的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -25063,6 +26944,7 @@ export default [
         meaning: {
           en: 'wanting or devouring great quantities of food',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'he had a voracious appetite',
@@ -25077,6 +26959,7 @@ export default [
         meaning: {
           en: '(especially of a condition or feeling) decrease in vigor, power, or extent; become weaker',
           zh_TW: '虧缺、摔落、消失 [類] a. waning 衰退的 = declining',
+          zh_CN: '亏缺、摔落、消失 [类] a. waning 衰退的 = declining',
         },
         partsOfSpeech: 'verb',
         example: 'confidence in the dollar waned',
@@ -25091,6 +26974,7 @@ export default [
         meaning: {
           en: 'lacking',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: "She did not think her vocabulary was wanting, yet there were so many words that inevitably she found a few she didn't know.",
@@ -25105,6 +26989,7 @@ export default [
         meaning: {
           en: "without check or limitation; showing no moral restraints to one's anger, desire, or appetites",
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'Due to wanton behavior and crude language, the drunk man was thrown out of the bar and asked to never return',
@@ -25119,6 +27004,7 @@ export default [
         meaning: {
           en: '(of sb/sth)looking out for possible danger or difficulty; cautious',
           zh_TW: '謹慎的',
+          zh_CN: '谨慎的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -25133,6 +27019,7 @@ export default [
         meaning: {
           en: 'a sticky yellowish moldable substance secreted by honeybees as the material of honeycomb; beeswax',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -25141,6 +27028,7 @@ export default [
         meaning: {
           en: 'cover or treat (something) with wax or a similar substance, typically to polish or protect it',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'verb',
         example: 'I washed and waxed the floor',
@@ -25155,6 +27043,7 @@ export default [
         meaning: {
           en: 'of sth/sb disorderly mixture of things or people ; general confusion',
           zh_TW: '雜亂無章 [類] turmoil',
+          zh_CN: '杂乱无章 [类] turmoil',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -25169,6 +27058,7 @@ export default [
         meaning: {
           en: 'playfully quaint or fanciful, especially in an appealing and amusing way',
           zh_TW: '怪誕的、異想天開的、反覆無常的',
+          zh_CN: '怪诞的、异想天开的、反覆无常的',
         },
         partsOfSpeech: 'adjective',
         example: 'a whimsical sense of humor',
@@ -25183,6 +27073,7 @@ export default [
         meaning: {
           en: 'attractive or appealing in appearance or character',
           zh_TW: '',
+          zh_CN: '',
         },
         partsOfSpeech: 'adjective',
         example: 'a winsome smile',
@@ -25197,23 +27088,10 @@ export default [
         meaning: {
           en: 'full of zeal; eager',
           zh_TW: '熱情的、狂熱的',
+          zh_CN: '热情的、狂热的',
         },
         partsOfSpeech: 'adjective',
         example: '',
-      },
-    ],
-  },
-  {
-    id: 1665,
-    word: 'zeitgeist',
-    detail: [
-      {
-        meaning: {
-          en: 'spirit of the times',
-          zh_TW: '',
-        },
-        partsOfSpeech: 'noun',
-        example: 'Each decade has its own zeitgeist—the 1990’s was a prosperous time in which the promise of the American Dream never seemed more palpable',
       },
     ],
   },
@@ -25224,7 +27102,8 @@ export default [
       {
         meaning: {
           en: 'the highest point; culmination',
-          zh_TW: '',
+          zh_TW: '最高點',
+          zh_CN: '最高点',
         },
         partsOfSpeech: 'noun',
         example: 'At the zenith of his artistic career, Elvis was outselling any other artist on the charts',
