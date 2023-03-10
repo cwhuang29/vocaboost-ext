@@ -2,10 +2,31 @@ import Browser from 'webextension-polyfill';
 
 import { logger } from '@utils/logger';
 
+/*
+ * Note that Browser.tabs API is not available for content-scripts
+ * To send message from one content-script to other content-script(s), the message has to be redirected by popup/background
+ * Background is a good choice since it is always running (only inactive when nothing to do)
+ */
+
 export const getCurrentTab = async () => {
   const queryInfo = { active: true, currentWindow: true };
   const [tab] = await Browser.tabs.query(queryInfo);
   return tab;
+};
+
+// This function sends message to all other tabs except itself
+export const sendMessageToOtherContentScripts = async ({ type = '', payload = {} } = {}) => {
+  logger(`Going to send message to tab. Message: ${type}`);
+
+  const tabs1 = await Browser.tabs.query({ active: false }); // Tabs in all windows but not the active (i.e., displayed) ones
+  const tabs2 = await Browser.tabs.query({ currentWindow: false }); // Tabs in other windows and are the active ones
+  [...tabs1, ...tabs2].forEach(tab => {
+    if (!tab.url.startsWith('http')) {
+      return;
+    }
+    const msg = { type, payload };
+    Browser.tabs.sendMessage(tab.id, msg);
+  });
 };
 
 // Both background, popup, and other tabs receive this message

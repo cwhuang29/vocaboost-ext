@@ -8,12 +8,12 @@ import { useExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import { constructWordExample } from '@utils/highlight';
 
 const Word = ({ word }) => (
-  <Typography variant='h4' component='div' className={HIGHLIGHTER_CLASS} style={{ textTransform: 'capitalize' }}>
+  <Typography variant='h5' component='div' className={HIGHLIGHTER_CLASS} style={{ textTransform: 'capitalize' }}>
     {word}
   </Typography>
 );
 
-const Divider = () => <hr style={{ position: 'relative', bottom: '3px', backgroundColor: '#EDEDED', border: '0.8px solid #EDEDED' }} />;
+const Divider = () => <hr style={{ position: 'relative', bottom: '2.5px', backgroundColor: '#EDEDED', border: '0.8px solid #EDEDED' }} />;
 
 const PartsOfSpeech = ({ partsOfSpeech }) => {
   const pos = PARTS_OF_SPEECH_SHORTHAND[partsOfSpeech];
@@ -25,8 +25,7 @@ const PartsOfSpeech = ({ partsOfSpeech }) => {
 };
 
 const Meaning = ({ language, meaning }) => {
-  const l = language === LANGS.zh_CN ? LANGS.zh_TW : language; // For now use zh_TW's value for zh_CN
-  const def = meaning[LANGS[l]] || meaning[LANGS.en];
+  const def = meaning[LANGS[language]] || meaning[LANGS.en];
   return <span className={HIGHLIGHTER_CLASS}>{def}</span>;
 };
 
@@ -42,17 +41,17 @@ const DailyWord = ({ language }) => {
   };
 
   return word ? (
-    <Box style={{ color: 'rgb(27 31 50)' }}>
+    <Box>
       <Box style={{ display: 'flex', alignItems: 'center' }}>
         <Word word={word} />
         <Box style={{ width: '20px' }} />
-        <MenuBookIcon onClick={openExternalLink} style={{ cursor: 'pointer', fontSize: '36px' }} />
+        <MenuBookIcon onClick={openExternalLink} style={{ cursor: 'pointer', fontSize: '32px' }} />
       </Box>
       <Divider />
       {detail.map(({ meaning, partsOfSpeech, example }, idx) => (
         // eslint-disable-next-line react/no-array-index-key
         <React.Fragment key={`${id}-${idx}`}>
-          <Typography variant='body1' component='div' style={{ marginBottom: idx === detail.length - 1 ? '0px' : '6px' }}>
+          <Typography variant='body1' component='div' style={{ lineHeight: '22px', marginBottom: idx === detail.length - 1 ? '0px' : '5px' }}>
             <PartsOfSpeech partsOfSpeech={partsOfSpeech} />
             <Meaning language={language} meaning={meaning} />
             <br />

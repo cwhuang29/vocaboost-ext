@@ -1,16 +1,11 @@
 import Browser from 'webextension-polyfill';
 
+import { sendMessageToOtherContentScripts } from '@browsers/message';
 import { BROWSER_ONINSTALL_REASON } from '@constants/browser';
+import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE } from '@constants/messages';
 import { logger } from '@utils/logger';
 
 import { storeEssentialDataOnInstall } from './init';
-
-/*
- * See: https://developer.chrome.com/docs/extensions/mv3/user_interface/
- * To use the Action API, the extension's manifest must contain an "action" key
- * The Action API controls the extension's action (toolbar icon). It can either open a popup or trigger some functionality when it's clicked.
- * It's possible to register an OnClicked handler for when the user clicks the action item. However, this won't fire if the action has a popup (default or otherwise).
- */
 
 const onInstalledListener = details => {
   Browser.storage.local.clear();
@@ -23,10 +18,18 @@ const onInstalledListener = details => {
 };
 
 // eslint-disable-next-line
-const onMessageListener = (message, sender, sendResponse) => {
+const onMessageListener = async (message, sender, sendResponse) => {
   const sdr = sender.tab ? `from a content script: ${sender.tab.url}` : 'from the extension';
   logger(`[background] message received: ${message.type}. Sender: ${sdr}`);
-  // return true; // Return true means it's asynchronous response, but we're not gonna respond in background
+
+  switch (message.type) {
+    case EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE:
+      // Since content-script cannot access the Browser.tabs API, use background to notify other tabs
+      sendMessageToOtherContentScripts(message);
+      break;
+    default:
+      break;
+  }
 };
 
 const onStorageChangedListener = (changes, namespace) => {

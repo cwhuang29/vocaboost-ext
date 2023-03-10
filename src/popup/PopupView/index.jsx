@@ -11,6 +11,7 @@ import { DEFAULT_CONFIG, isConfigEqual } from '@utils/config';
 
 import { popupSettingActionType } from './action';
 import BaseWrapper from './BaseWrapper';
+import CollectedWords from './CollectedWords';
 import DailyWord from './DailyWord';
 import Palette from './Palette';
 import Section from './Section';
@@ -97,12 +98,18 @@ const PopupView = () => {
   const handleChange = value => {
     dispatch(value);
   };
+
   return (
     <BaseWrapper>
       <Stack spacing={2}>
         <Section className='daily-word'>
           <SectionTitle>Daily word</SectionTitle>
           <DailyWord language={state.language} />
+        </Section>
+
+        <Section className='collected-words'>
+          <SectionTitle>Your collection</SectionTitle>
+          <CollectedWords config={state} handleChange={handleChange} />
         </Section>
 
         <Section className='palette'>

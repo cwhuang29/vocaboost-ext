@@ -24,6 +24,7 @@
     "no-use-before-define": 1,
     "no-extra-semi": 1,
     "no-restricted-syntax": "off",
+    "no-case-declarations": "off",
     "no-unused-expressions":["error", { "allowShortCircuit": true }],
     "arrow-parens": 0,
     "react/forbid-prop-types": 0,

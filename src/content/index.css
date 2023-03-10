@@ -116,3 +116,11 @@
   color: rgba(14, 235, 246, 88%) !important;
   text-decoration: underline !important;
 }
+
+img.HIGHLIGHTER_COLLECTED {
+  filter: invert(82%) sepia(47%) saturate(2207%) hue-rotate(356deg) brightness(102%) contrast(107%);
+}
+
+img.HIGHLIGHTER_NOT_COLLECTED {
+  filter: invert(94%);
+}
