@@ -96,7 +96,7 @@ const Highlighter = () => {
     if (toShow) {
       showPopup({
         type: evtType,
-        word: evt.target.innerHTML,
+        word: evt.target.innerHTML.toLowerCase(),
         x: evt.clientX,
         y: evt.clientY,
         offsetX: window.pageXOffset,
