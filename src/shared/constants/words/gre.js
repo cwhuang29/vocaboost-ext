@@ -1947,7 +1947,7 @@ export default [
           zh_CN: '適当的、切题的、中肯的',
         },
         partsOfSpeech: 'adverb',
-        example: '',
+        example: "the composer's reference to child's play is apropos",
       },
     ],
   },
@@ -1962,7 +1962,7 @@ export default [
           zh_CN: '適合的、易於...的、有...倾向的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'an apt description of her nature',
       },
     ],
   },
@@ -7200,7 +7200,7 @@ export default [
           zh_CN: '死亡、財產转让',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: "Mr. Grisenthwaite's tragic demise",
       },
     ],
   },
@@ -10540,7 +10540,7 @@ export default [
           zh_CN: '逃避、规避',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'friends helped him to evade capture for a time',
       },
     ],
   },
@@ -11414,7 +11414,7 @@ export default [
           zh_CN: '假装 [类] dissemble, pretend [反] a. unfeigned 真诚的',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'she feigned nervousness',
       },
     ],
   },
@@ -11424,12 +11424,21 @@ export default [
     detail: [
       {
         meaning: {
-          en: '(esp of words) well-chosen; apt',
+          en: 'suited to the circumstances; apt',
           zh_TW: '(話語) 得體的、適當的',
           zh_CN: '(话语) 得体的、適当的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'a felicitous phrase',
+      },
+      {
+        meaning: {
+          en: 'pleasing and fortunate',
+          zh_TW: '幸福的',
+          zh_CN: '幸福的',
+        },
+        partsOfSpeech: 'adjective',
+        example: "the view was the room's only felicitous feature",
       },
     ],
   },
@@ -11440,8 +11449,8 @@ export default [
       {
         meaning: {
           en: 'to search for something persistently',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '搜尋',
+          zh_CN: '搜寻',
         },
         partsOfSpeech: 'verb',
         example: 'Ever the resourceful lexicographer, Fenton was able to ferret out the word origin of highly obscure words',
@@ -11470,17 +11479,17 @@ export default [
       {
         meaning: {
           en: 'a celebration or festival',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '節日',
+          zh_CN: '节日',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'the village fete',
       },
       {
         meaning: {
           en: 'honor or entertain (someone) lavishly',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '盛宴款待',
+          zh_CN: '盛宴款待',
         },
         partsOfSpeech: 'verb',
         example: 'she was an instant celebrity, feted by the media',
@@ -12034,12 +12043,21 @@ export default [
     detail: [
       {
         meaning: {
-          en: '(of a ship) fill with water and sink',
-          zh_TW: '船沈沒、失敗',
-          zh_CN: '船沈没、失败',
+          en: '(of a plan or undertaking) fail or break down, typically as a result of a particular problem or setback',
+          zh_TW: '失敗',
+          zh_CN: '失败',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'the talks foundered on the issue of reform',
+      },
+      {
+        meaning: {
+          en: '(of a ship) fill with water and sink',
+          zh_TW: '船沈沒',
+          zh_CN: '船沈没',
+        },
+        partsOfSpeech: 'verb',
+        example: 'six drowned when the yacht foundered off the Florida coast',
       },
     ],
   },
@@ -12227,8 +12245,8 @@ export default [
       {
         meaning: {
           en: 'deny or contradict (a fact or statement)',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '否認、反駁',
+          zh_CN: '否认、反驳',
         },
         partsOfSpeech: 'verb',
         example: 'the impact of the railroads cannot be gainsaid',
@@ -12242,8 +12260,8 @@ export default [
       {
         meaning: {
           en: 'the trait of being rude and impertinent',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '魯莽、無禮',
+          zh_CN: '鲁莽、无礼',
         },
         partsOfSpeech: 'noun',
         example:
@@ -13332,22 +13350,7 @@ export default [
           zh_CN: '意识形態、思想体系',
         },
         partsOfSpeech: 'noun',
-        example: '',
-      },
-    ],
-  },
-  {
-    id: 807,
-    word: 'idiosyncrasy',
-    detail: [
-      {
-        meaning: {
-          en: 'a behavioral attribute that is distinctive and peculiar to an individual',
-          zh_TW: '',
-          zh_CN: '',
-        },
-        partsOfSpeech: 'noun',
-        example: "Peggy's numerous idiosyncrasies include wearing mismatched shoes, laughing loudly to herself, and owning a pet aardvark.",
+        example: 'the ideology of democracy',
       },
     ],
   },
@@ -13362,7 +13365,7 @@ export default [
           zh_CN: '古怪的、有怪僻的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'she emerged as one of the idiosyncratic, great talents of the nineties',
       },
     ],
   },
@@ -13373,8 +13376,8 @@ export default [
       {
         meaning: {
           en: 'not honorable in character or purpose',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '卑鄙的、不光彩的',
+          zh_CN: '卑鄙的、不光彩的',
         },
         partsOfSpeech: 'adjective',
         example: 'ignoble feelings of intense jealousy',
@@ -14188,7 +14191,7 @@ export default [
           zh_CN: '深刻、敏锐',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'the presentation was delivered with wit and incisiveness',
       },
     ],
   },
@@ -14199,8 +14202,8 @@ export default [
       {
         meaning: {
           en: '(of the weather) unpleasantly cold or wet',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '天氣險惡的',
+          zh_CN: '天气险恶的',
         },
         partsOfSpeech: 'adjective',
         example: 'walkers should be prepared for inclement weather',
@@ -14233,7 +14236,7 @@ export default [
           zh_CN: '不重要的、微不足道的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'they talked about inconsequential things',
       },
     ],
   },
@@ -14244,8 +14247,8 @@ export default [
       {
         meaning: {
           en: 'not able to be denied or disputed',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '無疑的、明白的',
+          zh_CN: '无疑的、明白的',
         },
         partsOfSpeech: 'adjective',
         example: 'incontrovertible proof',
@@ -14259,8 +14262,8 @@ export default [
       {
         meaning: {
           en: '(of a person or their tendencies) not able to be corrected, improved, or reformed',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '屢教不改的、根深蒂固的',
+          zh_CN: '屡教不改的、根深蒂固的',
         },
         partsOfSpeech: 'adjective',
         example: "he's an incorrigible liar",
@@ -14278,7 +14281,7 @@ export default [
           zh_CN: '孵卵、孵化',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'the samples were incubated at 80 degrees for three minutes',
       },
     ],
   },
@@ -14289,8 +14292,8 @@ export default [
       {
         meaning: {
           en: 'necessary for (someone) as a duty or responsibility',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '富有職責的',
+          zh_CN: '富有职责的',
         },
         partsOfSpeech: 'adjective',
         example: 'it is incumbent on all decent people to concentrate on destroying this evil',
@@ -14298,20 +14301,11 @@ export default [
       {
         meaning: {
           en: '(of an official or regime) currently holding office',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '現任的、在職的',
+          zh_CN: '现任的、在职的',
         },
         partsOfSpeech: 'adjective',
         example: 'an annual event at which the incumbent president traditionally delivers a speech poking fun at himself',
-      },
-      {
-        meaning: {
-          en: 'the holder of an office or post',
-          zh_TW: '',
-          zh_CN: '',
-        },
-        partsOfSpeech: 'noun',
-        example: 'the present incumbent will soon be retiring',
       },
     ],
   },
@@ -14322,8 +14316,8 @@ export default [
       {
         meaning: {
           en: 'not in keeping with accepted standards of what is right or proper in polite society',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '無禮的',
+          zh_CN: '无礼的',
         },
         partsOfSpeech: 'adjective',
         example: 'Eating with elbows on the table is considered indecorous in refined circles',
@@ -16833,7 +16827,7 @@ export default [
           zh_CN: '',
         },
         partsOfSpeech: 'noun',
-        example: "he's the maverick of the fashion scene",
+        example: 'he is the maverick of the fashion scene',
       },
     ],
   },
@@ -19526,8 +19520,8 @@ export default [
       {
         meaning: {
           en: 'relevant or applicable to a particular matter; apposite',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '恰當的、貼切的',
+          zh_CN: '恰当的、贴切的',
         },
         partsOfSpeech: 'adjective',
         example: 'she asked me a lot of very pertinent questions',
@@ -19541,8 +19535,8 @@ export default [
       {
         meaning: {
           en: 'disturb in mind or cause to be worried or alarmed',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '煩擾、使不安',
+          zh_CN: '烦扰、使不安',
         },
         partsOfSpeech: 'verb',
         example: 'Now that Henry is recovering from a major illnesses, he no longer lets the little trivialities, such as late mail, perturb him',
@@ -19898,7 +19892,7 @@ export default [
           zh_CN: '可塑的、易受影响的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'rendering the material more plastic',
       },
     ],
   },
@@ -22447,7 +22441,7 @@ export default [
     detail: [
       {
         meaning: {
-          en: 'address (someone) in such a way as to express disapproval or disappointment',
+          en: 'address someone in such a way as to express disapproval or disappointment',
           zh_TW: '責備',
           zh_CN: '责备',
         },
@@ -22940,7 +22934,7 @@ export default [
           zh_CN: '奚落、嘲笑',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'he is held up as an object of ridicule',
       },
     ],
   },
@@ -22955,7 +22949,7 @@ export default [
           zh_CN: '荒谬的、可笑的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'when you realize how ridiculous these scenarios are, you will have to laugh',
       },
     ],
   },
@@ -22970,7 +22964,7 @@ export default [
           zh_CN: '严格的、刚硬的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'teachers are being asked to unlearn rigid rules for labeling children',
       },
     ],
   },
@@ -25727,7 +25721,7 @@ export default [
           zh_CN: '骚动、混乱',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'the country was in turmoil',
       },
     ],
   },
