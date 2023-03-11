@@ -13,5 +13,3 @@ Currently, there are about 1500 most common GRE vocabulary words collected.
 ## Demo
 
 ![Screenshot 01](demo/demo01.png)
-
-![Screenshot 02](demo/demo02.png)
