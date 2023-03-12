@@ -9756,8 +9756,8 @@ export default [
       {
         meaning: {
           en: 'based on, concerned with, or verifiable by observation or experience rather than theory or pure logic',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '經驗主義的',
+          zh_CN: '经验主义的',
         },
         partsOfSpeech: 'adjective',
         example: 'they provided considerable empirical evidence to support their argument',
@@ -24778,12 +24778,12 @@ export default [
     detail: [
       {
         meaning: {
-          en: '(fml) person or thing that acts or is used instead of another; substitute',
+          en: 'Person or thing that acts or is used instead of another; substitute',
           zh_TW: '代替品、代理人',
           zh_CN: '代替品、代理人',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'He could not attend the meeting, so he sent his surrogate',
       },
     ],
   },
@@ -24794,11 +24794,11 @@ export default [
       {
         meaning: {
           en: 'to sth easily influenced or harmed by sth',
-          zh_TW: '易受影寫的、易被感動的',
-          zh_CN: '易受影写的、易被感动的',
+          zh_TW: '易受影響的、易被感動的',
+          zh_CN: '易受影响的、易被感动的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'patients with liver disease may be susceptible to infection',
       },
     ],
   },
@@ -24809,12 +24809,12 @@ export default [
       {
         meaning: {
           en: 'a person who indulges in luxury',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '奢侈享樂的人',
+          zh_CN: '奢侈享乐的人',
         },
         partsOfSpeech: 'noun',
         example:
-          'Despite the fact that he’d maxed out fifteen credit cards, Max was still a sybarite at heart: when the police found him, he was at a $1,000 an hour spa in Manhattan, getting a facial treatment.',
+          'Despite the fact that he’d maxed out fifteen credit cards, Max was still a sybarite at heart: when the police found him, he was at a $1,000 an hour spa in Manhattan, getting a facial treatment',
       },
     ],
   },
@@ -24830,7 +24830,7 @@ export default [
         },
         partsOfSpeech: 'noun',
         example:
-          'The CEO was unaware of the damaging consequences of his choices, largely because he surrounded himself with sycophants who would never dare criticize him.',
+          'The CEO was unaware of the damaging consequences of his choices, largely because he surrounded himself with sycophants who would never dare criticize him',
       },
     ],
   },
@@ -24845,7 +24845,7 @@ export default [
           zh_CN: '对称、均衡',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'this series has a line of symmetry through its center',
       },
     ],
   },
@@ -24860,7 +24860,7 @@ export default [
           zh_CN: '概要的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'a synoptic outline of the contents',
       },
     ],
   },
@@ -24875,7 +24875,7 @@ export default [
           zh_CN: '综合、合成',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'the drug was first synthesized in 1929',
       },
     ],
   },
@@ -24901,8 +24901,8 @@ export default [
       {
         meaning: {
           en: 'adroitness and sensitivity in dealing with others or with difficult issues',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '機智',
+          zh_CN: '机智',
         },
         partsOfSpeech: 'noun',
         example: 'the inspector broke the news to me with tact and consideration',
@@ -24931,12 +24931,12 @@ export default [
       {
         meaning: {
           en: 'make dirty or spotty, as by exposure to air; also used metaphorically',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '敗壞、玷污、失去光澤',
+          zh_CN: '败坏、玷污、失去光泽',
         },
         partsOfSpeech: 'verb',
         example:
-          'Pete Rose was one of the best baseball players of his generation, but his involvement with gambling on baseball games has tarnished his image in the eyes of many.',
+          'Pete Rose was one of the best baseball players of his generation, but his involvement with gambling on baseball games has tarnished his image in the eyes of many',
       },
     ],
   },
