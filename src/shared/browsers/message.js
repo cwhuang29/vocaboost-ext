@@ -14,30 +14,16 @@ export const getCurrentTab = async () => {
   return tab;
 };
 
-// This function sends message to all other tabs except itself
-export const sendMessageToOtherContentScripts = async ({ type = '', payload = {} } = {}) => {
-  logger(`Going to send message to tab. Message: ${type}`);
-
-  const tabs1 = await Browser.tabs.query({ active: false }); // Tabs in all windows but not the active (i.e., displayed) ones
-  const tabs2 = await Browser.tabs.query({ currentWindow: false }); // Tabs in other windows and are the active ones
-  [...tabs1, ...tabs2].forEach(tab => {
-    if (!tab.url.startsWith('http')) {
-      return;
-    }
-    const msg = { type, payload };
-    Browser.tabs.sendMessage(tab.id, msg);
-  });
-};
-
-// Both background, popup, and other tabs receive this message
-// The tab send this message does not receive it
+/*
+ * Both background, popup, and other tabs receive this message
+ * The tab send this message does not receive it
+ */
 export const sendMessage = async ({ type = '', payload = {} } = {}) => {
   logger(`Going to send message. Message: ${type}`);
 
   const msg = { type, payload };
-  const resp = await Browser.runtime.sendMessage(msg).catch(err => logger(`Error occurred while sending message. error: ${err}`));
+  const resp = await Browser.runtime.sendMessage(msg).catch(err => logger(`Error occurred in sendMessage. error: ${err}`));
   return resp?.payload;
-
   // return new Promise((resolve, reject) => { // The old way
   //   chrome.runtime.sendMessage(msg, resp => {
   //     if (!resp) logger('message error: ', chrome.runtime.lastError.message);
@@ -45,6 +31,23 @@ export const sendMessage = async ({ type = '', payload = {} } = {}) => {
   //     reject(new Error(`Error - payload: ${payload}`));
   //   });
   // });
+};
+
+/*
+ * This function sends message to all other tabs except itself
+ */
+export const sendMessageToOtherContentScripts = async ({ type = '', payload = {} } = {}) => {
+  logger(`Going to send message to tab. Message: ${type}`);
+
+  const tabs1 = await Browser.tabs.query({ active: false }); // Tabs in all windows but not the active (i.e., displayed) ones
+  const tabs2 = await Browser.tabs.query({ currentWindow: false }); // Tabs in other windows and are the active ones
+  new Set([...tabs1, ...tabs2]).forEach(tab => {
+    if (!tab.url.startsWith('http')) {
+      return;
+    }
+    const msg = { type, payload };
+    Browser.tabs.sendMessage(tab.id, msg).catch(err => logger(`Error occurred in sendMessageToOtherContentScripts. error: ${err}`));
+  });
 };
 
 /*
@@ -62,7 +65,7 @@ export const sendMessageToTab = async ({ type = '', payload = {} } = {}) => {
 
   const tab = await getCurrentTab();
   const msg = { type, payload };
-  const resp = await Browser.tabs.sendMessage(tab.id, msg);
+  const resp = await Browser.tabs.sendMessage(tab.id, msg).catch(err => logger(`Error occurred in sendMessageToTab. error: ${err}`));
   return resp?.payload;
 
   // const queryInfo = { active: true, currentWindow: true };

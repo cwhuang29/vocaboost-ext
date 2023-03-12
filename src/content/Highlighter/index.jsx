@@ -143,7 +143,7 @@ const Highlighter = () => {
       default:
         break;
     }
-    return true;
+    // return true;
   };
 
   const handleExtensionMessage = () => {
@@ -167,18 +167,20 @@ const Highlighter = () => {
       res(true);
     });
 
-  const loadWords = async () => {
-    // The word list was prepared and stored into browser storage by background. Processing such a large amount of data in content script can paralyze it
-    words.current = await getAllWords();
-  };
-
   const registerGlobalEventHandler = () => {
     document.addEventListener('click', globalListener(EVENT_TYPE.CLICK));
     document.addEventListener('mousemove', globalListener(EVENT_TYPE.HOVER));
   };
 
+  const loadWords = async () => {
+    // The word list was prepared and stored into browser storage by background. Processing such a large amount of data in content script can paralyze it
+    words.current = await getAllWords();
+  };
+
   const setup = async () => {
-    await Promise.all([handleExtensionMessage(), loadConfig(), insertCSS(), loadWords(), registerGlobalEventHandler()]);
+    loadWords();
+    registerGlobalEventHandler();
+    await Promise.all([handleExtensionMessage(), loadConfig(), insertCSS()]);
     setIsInit(false);
   };
 
@@ -248,9 +250,7 @@ const Highlighter = () => {
                 key={`${partsOfSpeech}-${example.slice(0, 10)}`}
               >
                 <span className={HIGHLIGHTER_POS_CLASS}>{PARTS_OF_SPEECH_SHORTHAND[partsOfSpeech]}</span>
-                <span className={HIGHLIGHTER_DEF_CLASS}>
-                  {meaning[LANGS[config.language]] || (LANGS[config.language].startsWith('zh') ? meaning[LANGS.zh_TW] : meaning[LANGS.en])}
-                </span>
+                <span className={HIGHLIGHTER_DEF_CLASS}>{meaning[LANGS[config.language]] || meaning[LANGS.en]}</span>
                 <br />
                 {constructWordExample(example)}
               </div>
