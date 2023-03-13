@@ -57,7 +57,6 @@ const DailyWord = ({ language }) => {
             <br />
             <Example example={example} />
           </Typography>
-          {/* <Link href={link} target='_blank' rel='noopener noreferrer' style={{}}> Check out on dictionary </Link> */}
         </React.Fragment>
       ))}
     </Box>

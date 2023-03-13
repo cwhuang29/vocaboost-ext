@@ -43,22 +43,26 @@ const Setting = ({ language: cfgLang, fontSize: cfgFontSize, showDetail: cfgShow
     handleChange({ type: popupSettingActionType.CHANGE_SHOW_DETAIL, payload });
   };
 
+  const textFieldStyles = { width: '46%' };
+  const textInputProps = { fontSize: '0.96rem' };
+  const menuItemStyles = { fontSize: '0.92rem' };
+
   return (
     <Box>
       <Box style={{ display: 'flex', justifyContent: 'space-between', margin: '0 0 4px 0' }}>
         <TextField
           select
           name='language'
-          label='Languages'
+          label='Language'
           size='small'
           value={language}
           onChange={languageOnChange}
-          style={{ width: '46%' }}
-          InputLabelProps={{ style: { fontSize: '0.96rem' } }}
-          InputProps={{ style: { fontSize: '0.96rem' } }}
+          style={textFieldStyles}
+          InputLabelProps={{ style: textInputProps }}
+          InputProps={{ style: textInputProps }}
         >
           {Object.keys(LANGS).map(lang => (
-            <MenuItem key={lang} value={lang} style={{ fontSize: '0.92rem' }}>
+            <MenuItem key={lang} value={lang} style={menuItemStyles}>
               {LANGS_DISPLAY[lang]}
             </MenuItem>
           ))}
@@ -70,12 +74,12 @@ const Setting = ({ language: cfgLang, fontSize: cfgFontSize, showDetail: cfgShow
           size='small'
           value={fontSize}
           onChange={fontSizeOnChange}
-          style={{ width: '46%' }}
-          InputLabelProps={{ style: { fontSize: '0.96rem' } }}
-          InputProps={{ style: { fontSize: '0.96rem' } }}
+          style={textFieldStyles}
+          InputLabelProps={{ style: textInputProps }}
+          InputProps={{ style: textInputProps }}
         >
           {Object.values(HIGHLIGHTER_FONT_SIZE).map(size => (
-            <MenuItem key={size} value={size} style={{ fontSize: '0.92rem' }}>
+            <MenuItem key={size} value={size} style={menuItemStyles}>
               {toCapitalize(size)}
             </MenuItem>
           ))}
@@ -83,7 +87,7 @@ const Setting = ({ language: cfgLang, fontSize: cfgFontSize, showDetail: cfgShow
       </Box>
       <FormControlLabel
         control={<Checkbox checked={showDetail} onChange={showDetailOnChange} />}
-        label={<span style={{ fontSize: '15px' }}>Show definition and examples on hover</span>}
+        label={<span style={{ fontSize: '15px' }}>Show definitions and examples on hover</span>}
       />
     </Box>
   );
