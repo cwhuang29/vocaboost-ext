@@ -12,7 +12,6 @@ import { genWordDetailList, getRandomWordFromList } from '@utils/word';
 
 /*
  * Note: if there's any elements that you don't want to be highlighted, add class="HIGHLIGHTER_CLASS" to it's tag
- * e.g., there is daily word displayed on the extension popup. To prevent it from being highlighted, the HIGHLIGHTER_CLASS is added
  */
 
 const storeDailyWord = word => setStorage({ type: 'sync', key: EXT_STORAGE_DAILY_WORD, value: { word, timestamp: new Date().toJSON() } });

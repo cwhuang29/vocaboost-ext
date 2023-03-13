@@ -44,13 +44,15 @@ const PopupView = () => {
   const { config: ctxConfig = {} } = useExtensionMessageContext();
 
   /*
-   * Other tab update config -> send a message to notify other tabs (and background) -> PopupManager (in every tab, if active/open) recieves the message with latest config
-   * -> the latest config is passed down through context -> get the latest config here and update accordingly
+   * One tab updates config
+   * -> Send a message to notify other tabs (background receives this message as well)
+   * -> PopupManager (in every tab, if active/open) recieves the message with latest config, and passed it down through context
+   * -> Get the latest config from the following function. Update accordingly and notify current tab's content-script
    */
   useEffect(() => {
     if (Object.keys(ctxConfig).length > 0 && !isConfigEqual(state, ctxConfig)) {
       dispatch({ type: popupSettingActionType.OVERRIDE_ALL, payload: ctxConfig });
-      sendMessageToTab({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state: ctxConfig, prevState: state } }); // Notify current tab's content-script
+      sendMessageToTab({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state: ctxConfig, prevState: state } });
     }
   }, [ctxConfig]);
 
@@ -62,12 +64,11 @@ const PopupView = () => {
       // 1. Update the latest config to cache
       await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: state });
       // 2. Notify other tabs, extension (popup), and background
-      // Note: unless open tabs in multiple windows with extension popup opened, otherwise the entire popup in that tab will not be executed
-      // i.e., those tabs won't receive this mesage. They will update their style once the user click the extension icon then load latest config
+      // Note: the extension popups only receive the message if they are active/open.
+      //       If they are closed, they will miss the message, and will load the latest config from storage once user clicks ext icon (on browser toolbar)
       sendMessage({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state, prevState } });
-      // 3. Notify current tab's content-script (sends a message to content script running in webpage)
+      // 3. Notify current tab's content-script
       // Note: when we open extension popup as a webpage, there is no content script running. Hence, we should not send messages
-      // Otherwise it raises error: "Unchecked runtime.lastError: Could not establish connection. Receiving end does not exist."
       if (isNormalWebPage) {
         sendMessageToTab({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state, prevState } });
       }

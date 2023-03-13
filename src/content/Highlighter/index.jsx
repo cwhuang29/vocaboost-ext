@@ -27,21 +27,14 @@ import {
 import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, EXT_MSG_TYPE_CONFIG_UPDATE } from '@constants/messages';
 import { EXT_STORAGE_CONFIG } from '@constants/storage';
 import { POPUP_MAX_WIDTH } from '@constants/styles';
-import { getAllWords } from '@content/Highlighter/data';
 import { parseAllNodes } from '@content/Highlighter/injectHighlight';
+import { getAllWords, getDisplayPos } from '@content/Highlighter/misc';
 import { insertFontStyles } from '@content/Highlighter/scripts';
 import { tryUpdateWebContent } from '@content/Highlighter/updateHighlight';
 import { DEFAULT_CONFIG, isConfigEqual } from '@utils/config';
 import { getAllTextNodesFromDOM } from '@utils/dom';
 import { constructWordExample } from '@utils/highlight';
 import { logger } from '@utils/logger';
-
-const getDisplayPos = ({ x, y, offsetX, offsetY, maxX, width }) => {
-  const delta = 12;
-  const xx = Math.max(0, x + offsetX + delta - Math.max(0, x + offsetX + delta + width - maxX));
-  const yy = y + offsetY + delta;
-  return { x: xx, y: yy };
-};
 
 const Highlighter = () => {
   const [config, setConfig] = useState({});
