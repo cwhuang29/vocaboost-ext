@@ -46,8 +46,8 @@ export default [
       {
         meaning: {
           en: '(biology) diverging from the normal type',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '畸變的',
+          zh_CN: '畸变的',
         },
         partsOfSpeech: 'adjective',
         example: 'aberrant chromosomes',
@@ -61,8 +61,8 @@ export default [
       {
         meaning: {
           en: 'a departure from what is normal, usual, or expected, typically one that is unwelcome',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '脫離常軌、離開正道',
+          zh_CN: '脱离常轨、离开正道',
         },
         partsOfSpeech: 'noun',
         example: 'they described the outbreak of violence in the area as an aberration',
@@ -91,8 +91,8 @@ export default [
       {
         meaning: {
           en: 'a state of temporary disuse or suspension',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '中止、暫緩',
+          zh_CN: '中止、暂缓',
         },
         partsOfSpeech: 'noun',
         example: 'matters were held in abeyance pending further inquiries',
@@ -100,8 +100,8 @@ export default [
       {
         meaning: {
           en: '(law) the position of being without, or of waiting for, an owner or claimant',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '歸屬待定',
+          zh_CN: '归属待定',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -160,8 +160,8 @@ export default [
       {
         meaning: {
           en: 'legitimate, honest, and open',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '光明正大的、公開的',
+          zh_CN: '光明正大的、公开的',
         },
         partsOfSpeech: 'adjective',
         example: 'we felt the judging was all above board and fair',
@@ -1912,12 +1912,21 @@ export default [
     detail: [
       {
         meaning: {
+          en: 'close to the actual, but not completely accurate or exact',
+          zh_TW: '接近、近似',
+          zh_CN: '接近、近似',
+        },
+        partsOfSpeech: 'adjective',
+        example: 'a leasing agreement approximating to ownership',
+      },
+      {
+        meaning: {
           en: 'almost correct or exact but not completely so',
           zh_TW: '大約的、估計的',
           zh_CN: '大约的、估计的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'the calculations are very approximate',
       },
     ],
   },
@@ -2924,12 +2933,21 @@ export default [
     detail: [
       {
         meaning: {
+          en: 'talk or exchange remarks in a good-humored teasing way',
+          zh_TW: '取笑、逗弄',
+          zh_CN: '取笑、逗弄',
+        },
+        partsOfSpeech: 'verb',
+        example: 'the men bantered with the waitresses',
+      },
+      {
+        meaning: {
           en: 'playful, good humored teasing',
-          zh_TW: '揶揄、嘲弄',
-          zh_CN: '揶揄、嘲弄',
+          zh_TW: '揶揄',
+          zh_CN: '揶揄',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'there was much singing and good-natured banter',
       },
     ],
   },
@@ -5241,8 +5259,8 @@ export default [
       {
         meaning: {
           en: 'make more intense, stronger, or more marked',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '增加、加重',
+          zh_CN: '增加、加重',
         },
         partsOfSpeech: 'verb',
         example: 'Her headache was compounded by the construction crew outside, which had six jackhammers going at the same time',
@@ -5255,12 +5273,12 @@ export default [
     detail: [
       {
         meaning: {
-          en: 'that includes everything',
+          en: 'complete; including all or nearly all elements or aspects of something',
           zh_TW: '全面的、綜合的',
           zh_CN: '全面的、综合的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'a comprehensive list of sources',
       },
     ],
   },
@@ -5735,21 +5753,6 @@ export default [
           en: 'opposed to great or sudden change',
           zh_TW: '保守的、守舊的',
           zh_CN: '保守的、守旧的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
-      },
-    ],
-  },
-  {
-    id: 349,
-    word: 'consistent',
-    detail: [
-      {
-        meaning: {
-          en: '(of a person, his behavior, his views, etc) always keeping to the same pattern or style; unchanging',
-          zh_TW: '始終如一的、前後一致的',
-          zh_CN: '始终如一的、前后一致的',
         },
         partsOfSpeech: 'adjective',
         example: '',
@@ -6282,13 +6285,13 @@ export default [
           zh_CN: '世界性的、国际性的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'immigration transformed the city into a cosmopolitan metropolis',
       },
       {
         meaning: {
           en: 'familiar with and at ease in many different countries and cultures',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '世界主義的、四海為家的',
+          zh_CN: '世界主义的、四海为家的',
         },
         partsOfSpeech: 'adjective',
         example: 'his knowledge of French, Italian, and Spanish made him genuinely cosmopolitan',
@@ -6296,8 +6299,8 @@ export default [
       {
         meaning: {
           en: 'a cosmopolitan person',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '世界主義者、四海為家者',
+          zh_CN: '世界主义者、四海为家者',
         },
         partsOfSpeech: 'noun',
         example: 'cosmopolitans who spoke both Spanish and English',
@@ -6311,8 +6314,8 @@ export default [
       {
         meaning: {
           en: 'care for and protect in an overindulgent way',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '珍愛、縱容',
+          zh_CN: '珍爱、纵容',
         },
         partsOfSpeech: 'verb',
         example: "all her life she'd been cosseted by her family",
@@ -6326,8 +6329,8 @@ export default [
       {
         meaning: {
           en: 'having the same boundaries or extent in space, time, or meaning',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '相接的',
+          zh_CN: '相接的',
         },
         partsOfSpeech: 'adjective',
         example: 'he southern frontier was coterminous with the French Congo colon',
@@ -8855,22 +8858,7 @@ export default [
           zh_CN: '分歧的、相异的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
-      },
-    ],
-  },
-  {
-    id: 536,
-    word: 'divergent',
-    detail: [
-      {
-        meaning: {
-          en: 'tending to be different or develop in different directions',
-          zh_TW: '分歧的、相異的',
-          zh_CN: '分歧的、相异的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
+        example: 'divergent interpretations',
       },
     ],
   },
@@ -8905,8 +8893,8 @@ export default [
       {
         meaning: {
           en: 'a person who seeks to impose a doctrine without regard to practical considerations',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '教條主義者',
+          zh_CN: '教条主义者',
         },
         partsOfSpeech: 'noun',
         example: '',
@@ -8950,8 +8938,8 @@ export default [
       {
         meaning: {
           en: 'filled with or evoking sadness',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '悲傷的',
+          zh_CN: '悲伤的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -8966,8 +8954,8 @@ export default [
       {
         meaning: {
           en: 'feeling or expressing great sorrow or distress',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '悲痛的',
+          zh_CN: '悲痛的',
         },
         partsOfSpeech: 'adjective',
         example: 'a dolorous and repetitive tale of atrocity',
@@ -8985,7 +8973,7 @@ export default [
           zh_CN: '休眠的、静止的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'the seeds will remain dormant until the spring',
       },
     ],
   },
@@ -8996,8 +8984,8 @@ export default [
       {
         meaning: {
           en: 'brave and persistent',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '勇敢的',
+          zh_CN: '勇敢的',
         },
         partsOfSpeech: 'adjective',
         example: 'his doughty spirit kept him going',
@@ -9011,11 +8999,11 @@ export default [
       {
         meaning: {
           en: 'fit together tightly, as if by means of an interlocking joint',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '使吻合',
+          zh_CN: '使吻合',
         },
         partsOfSpeech: 'verb',
-        example: "Although Darwin's evolution and Mendel's genetics were developed in isolation from one another, they dovetail very well.",
+        example: "Although Darwin's evolution and Mendel's genetics were developed in isolation from one another, they dovetail very well",
       },
     ],
   },
@@ -9030,7 +9018,7 @@ export default [
           zh_CN: '將...轻描淡写',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'the government is trying to downplay the violence',
       },
     ],
   },
@@ -9045,7 +9033,7 @@ export default [
           zh_CN: '怀疑的、不確定的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'this claim seems to us to be rather dubious',
       },
     ],
   },
@@ -9056,8 +9044,8 @@ export default [
       {
         meaning: {
           en: 'deceive; trick',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '欺騙',
+          zh_CN: '欺骗',
         },
         partsOfSpeech: 'verb',
         example: 'the newspaper was duped into publishing an untrue story',
@@ -9065,8 +9053,8 @@ export default [
       {
         meaning: {
           en: 'a victim of deception',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '易受騙的人',
+          zh_CN: '易受骗的人',
         },
         partsOfSpeech: 'noun',
         example: 'knowing accomplices or unknowing dupes',
@@ -9084,7 +9072,7 @@ export default [
           zh_CN: '完全一样的、复製的、副本的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: "the man's duplicate license replaced the original that he lost",
       },
     ],
   },
@@ -9099,7 +9087,7 @@ export default [
           zh_CN: '搞两面派的、奸诈的 [duplicity:] duplicitous adjective',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'the judge found her controlling, manipulative, duplicitous and obstructive',
       },
     ],
   },
@@ -9114,7 +9102,7 @@ export default [
           zh_CN: '欺骗行为、奸诈行径',
         },
         partsOfSpeech: 'noun',
-        example: 'A life of espionage is one of duplicity: an agent must pretend to be a totally different person than who she or he actually is',
+        example: 'a life of espionage is one of duplicity: an agent must pretend to be a totally different person than who she or he actually is',
       },
     ],
   },
@@ -9125,8 +9113,8 @@ export default [
       {
         meaning: {
           en: 'threats, violence, constraints, or other action brought to bear on someone to do something against their will or better judgment',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '脅迫',
+          zh_CN: '胁迫',
         },
         partsOfSpeech: 'noun',
         example: 'confessions extracted under duress',
@@ -9140,8 +9128,8 @@ export default [
       {
         meaning: {
           en: 'diminish gradually in size, amount, or strength',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '漸漸減少',
+          zh_CN: '渐渐减少',
         },
         partsOfSpeech: 'verb',
         example: 'traffic has dwindled to a trickle',
@@ -10386,8 +10374,8 @@ export default [
       {
         meaning: {
           en: 'not real or genuine; phony',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '假冒的、代用的',
+          zh_CN: '假冒的、代用的',
         },
         partsOfSpeech: 'adjective',
         example: "The car dealer's ersatz laughter was immediately followed by a price quote, one that Shelley found highly inflated.",
@@ -11065,8 +11053,8 @@ export default [
       {
         meaning: {
           en: '(of a factor or situation) serving to lessen the seriousness of an offense',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '情由可原的',
+          zh_CN: '情由可原的',
         },
         partsOfSpeech: 'adjective',
         example: 'library staff will waive fines where there are genuine extenuating circumstances',
@@ -11084,7 +11072,7 @@ export default [
           zh_CN: '讚美、颂扬 [类]laud, exalt [反]lambaste(指责), pan(谴责)',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'he extolled the virtues of the Russian peoples',
       },
     ],
   },
@@ -11099,7 +11087,7 @@ export default [
           zh_CN: '多余的、无直接关係的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'one is obliged to wade through many pages of extraneous material',
       },
     ],
   },
@@ -11129,7 +11117,7 @@ export default [
           zh_CN: '奢侈的、挥霍的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'it was rather extravagant to buy both',
       },
     ],
   },
@@ -11144,7 +11132,7 @@ export default [
           zh_CN: '热情的、丰富的、繁茂的 [类] n. exuberance',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'giddily exuberant crowds',
       },
     ],
   },
@@ -11159,7 +11147,7 @@ export default [
           zh_CN: '散发、流露',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'the beetle exudes a caustic liquid',
       },
     ],
   },
@@ -13226,26 +13214,11 @@ export default [
       {
         meaning: {
           en: 'excessive pride or self-confidence',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '驕傲、傲慢',
+          zh_CN: '骄傲、傲慢',
         },
         partsOfSpeech: 'noun',
         example: 'the self-assured hubris among economists was shaken in the late 1980s',
-      },
-    ],
-  },
-  {
-    id: 799,
-    word: 'humble',
-    detail: [
-      {
-        meaning: {
-          en: "(of a person or his words or actions) having or showing a low or modest opinion of one's own importance; not proud",
-          zh_TW: '卑微的、簡陋的、謙虛的',
-          zh_CN: '卑微的、简陋的、谦虚的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
       },
     ],
   },
@@ -13256,8 +13229,8 @@ export default [
       {
         meaning: {
           en: 'dull and lacking excitement',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '單調無聊的',
+          zh_CN: '单调无聊的',
         },
         partsOfSpeech: 'adjective',
         example: 'Having grown up in a humdrum suburb, Jacob relished life in New York City after moving',
@@ -14869,21 +14842,6 @@ export default [
     ],
   },
   {
-    id: 902,
-    word: 'innovative',
-    detail: [
-      {
-        meaning: {
-          en: 'introducing or using new ideas, techniques, etc',
-          zh_TW: '創新的',
-          zh_CN: '创新的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
-      },
-    ],
-  },
-  {
     id: 903,
     word: 'inquisitive',
     detail: [
@@ -14894,7 +14852,7 @@ export default [
           zh_CN: '好奇的、爱钻研的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'he was very chatty and inquisitive about everything',
       },
     ],
   },
@@ -15825,8 +15783,8 @@ export default [
       {
         meaning: {
           en: 'to bow or act in a subservient manner',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '卑躬屈膝',
+          zh_CN: '卑躬屈膝',
         },
         partsOfSpeech: 'verb',
         example: 'Paul kowtowed to his boss so often the boss herself became nauseated by his sycophancy',
@@ -15840,8 +15798,8 @@ export default [
       {
         meaning: {
           en: '(especially of a task, process, or journey) requiring considerable effort and time',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '勤勉的',
+          zh_CN: '勤勉的',
         },
         partsOfSpeech: 'adjective',
         example: 'years of laborious training',
@@ -15849,8 +15807,8 @@ export default [
       {
         meaning: {
           en: '(of speech or writing style) showing obvious signs of effort and lacking in fluency',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '費力的、吃力的',
+          zh_CN: '费力的、吃力的',
         },
         partsOfSpeech: 'adjective',
         example: 'his slow, laborious style',
@@ -15864,8 +15822,8 @@ export default [
       {
         meaning: {
           en: 'tear or make deep cuts in (flesh or skin)',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '撕裂、傷害（感情）',
+          zh_CN: '撕裂、伤害（感情）',
         },
         partsOfSpeech: 'verb',
         example: 'the point had lacerated his neck',
@@ -15879,8 +15837,8 @@ export default [
       {
         meaning: {
           en: 'showing sorrow',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '催淚的、易落淚的',
+          zh_CN: '催泪的、易落泪的',
         },
         partsOfSpeech: 'adjective',
         example: 'Lachrymose and depressed, Alexei Alexandrovich walked two miles home in the rain after learning that his wife was having an affair',
@@ -15898,7 +15856,7 @@ export default [
           zh_CN: '无光泽的、呆滯的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: "no excuses were made for the team's lackluster performance",
       },
     ],
   },
@@ -15914,7 +15872,7 @@ export default [
         },
         partsOfSpeech: 'adjective',
         example:
-          'While Martha always swooned over the hunky, laconic types in romantic comedies, her boyfriends inevitably were very talkative—and not very hunky.',
+          'while Martha always swooned over the hunky, laconic types in romantic comedies, her boyfriends inevitably were very talkative—and not very hunky',
       },
     ],
   },
@@ -15925,11 +15883,11 @@ export default [
       {
         meaning: {
           en: 'criticize severely or angrily',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '嚴責、痛罵',
+          zh_CN: '严责、痛骂',
         },
         partsOfSpeech: 'verb',
-        example: 'Showing no patience, the manager utterly lambasted the sales team that lost the big account',
+        example: 'showing no patience, the manager utterly lambasted the sales team that lost the big account',
       },
     ],
   },
@@ -15944,7 +15902,7 @@ export default [
           zh_CN: '痛打、痛骂',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'they lambasted the report as a gross distortion of the truth',
       },
     ],
   },
@@ -15959,7 +15917,7 @@ export default [
           zh_CN: '抱怨、哀悼、悲嘆 [类] mourn, deplore, wail',
         },
         partsOfSpeech: 'verb',
-        example: '',
+        example: 'he was lamenting the death of his infant daughter',
       },
     ],
   },
@@ -15970,8 +15928,8 @@ export default [
       {
         meaning: {
           en: 'publicly criticize (someone or something) by using ridicule, irony, or sarcasm',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '諷刺',
+          zh_CN: '讽刺',
         },
         partsOfSpeech: 'verb',
         example: 'the actor was lampooned by the press',
@@ -15985,8 +15943,8 @@ export default [
       {
         meaning: {
           en: 'not inclined towards physical exertion or effort; slow and relaxed',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '軟弱無力的、怠倦的',
+          zh_CN: '软弱无力的、怠倦的',
         },
         partsOfSpeech: 'adjective',
         example: 'As the sun beat down and the temperature climbed higher, we spent a languid week lying around the house',
@@ -16000,8 +15958,8 @@ export default [
       {
         meaning: {
           en: 'become feeble',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '衰弱',
+          zh_CN: '衰弱',
         },
         partsOfSpeech: 'verb',
         example: 'Stranded in the wilderness for four days, the hiker languished, eating protein bars and nuts',
@@ -16015,20 +15973,11 @@ export default [
       {
         meaning: {
           en: 'generosity in bestowing money or gifts upon others',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '慷慨的贈與',
+          zh_CN: '慷慨的赠与',
         },
         partsOfSpeech: 'noun',
         example: 'dispensing his money with such largesse',
-      },
-      {
-        meaning: {
-          en: 'money or gifts given generously',
-          zh_TW: '',
-          zh_CN: '',
-        },
-        partsOfSpeech: 'noun',
-        example: 'the distribution of largesse to the local population',
       },
     ],
   },
@@ -16039,8 +15988,8 @@ export default [
       {
         meaning: {
           en: 'lecherous; sexually perverted',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '淫蕩好色的',
+          zh_CN: '淫荡好色的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -16059,7 +16008,7 @@ export default [
           zh_CN: '潜伏的、潜在的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'discovering her latent talent for diplomacy',
       },
     ],
   },
@@ -16070,8 +16019,8 @@ export default [
       {
         meaning: {
           en: 'worthy of high praise',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '值得讚賞的',
+          zh_CN: '值得讚赏的',
         },
         partsOfSpeech: 'adjective',
         example: "To say that Gandhi's actions were laudable is the greatest understatement; he overthrew an empire without violence.",
@@ -16089,7 +16038,7 @@ export default [
           zh_CN: '大方的、慷慨给予的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'a lavish banquet',
       },
     ],
   },
@@ -16104,7 +16053,7 @@ export default [
           zh_CN: '鬆散的、不严格的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'lax security arrangements at the airport',
       },
     ],
   },
@@ -17014,26 +16963,11 @@ export default [
       {
         meaning: {
           en: 'a pauper who lives by begging',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '乞丐',
+          zh_CN: '乞丐',
         },
         partsOfSpeech: 'noun',
         example: 'Tolstoy was an aristocrat, but he strove to understand the Christianity of the Russian peasants by wandering among them as a mendicant',
-      },
-    ],
-  },
-  {
-    id: 1037,
-    word: 'mentor',
-    detail: [
-      {
-        meaning: {
-          en: 'experienced and trusted adviser of an inexperienced person',
-          zh_TW: '導師',
-          zh_CN: '导师',
-        },
-        partsOfSpeech: 'noun',
-        example: '',
       },
     ],
   },
@@ -17053,8 +16987,8 @@ export default [
       {
         meaning: {
           en: 'a drug or other compound containing mercury',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '含汞製品',
+          zh_CN: '含汞製品',
         },
         partsOfSpeech: 'noun',
         example: 'for twenty years organic mercurials were the most potent diuretics in clinical use',
@@ -17068,8 +17002,8 @@ export default [
       {
         meaning: {
           en: 'to spellbind or enthrall',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '迷惑、迷住',
+          zh_CN: '迷惑、迷住',
         },
         partsOfSpeech: 'verb',
         example:
@@ -18336,7 +18270,7 @@ export default [
           zh_CN: '恰好的、適宜的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: "he couldn't have arrived at a less opportune moment",
       },
     ],
   },
@@ -18351,7 +18285,7 @@ export default [
           zh_CN: '机会主义的、投机取巧的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'the change was cynical and opportunistic',
       },
     ],
   },
@@ -18366,40 +18300,11 @@ export default [
           zh_CN: '辱骂',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'his films and the critical opprobrium they have generated',
       },
     ],
   },
-  {
-    id: 1119,
-    word: 'optimal',
-    detail: [
-      {
-        meaning: {
-          en: 'best or most favorable; optimum',
-          zh_TW: '最佳的、最理想的',
-          zh_CN: '最佳的、最理想的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
-      },
-    ],
-  },
-  {
-    id: 1120,
-    word: 'optimistic',
-    detail: [
-      {
-        meaning: {
-          en: 'expecting the best; confident',
-          zh_TW: '樂觀的',
-          zh_CN: '乐观的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
-      },
-    ],
-  },
+
   {
     id: 1121,
     word: 'opulence',
@@ -18407,8 +18312,8 @@ export default [
       {
         meaning: {
           en: 'wealth as evidenced by sumptuous living',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '財富',
+          zh_CN: '財富',
         },
         partsOfSpeech: 'noun',
         example: 'Russian oligarchs are famous for their opulence, living in fancy homes and dining on expensive caviar',
@@ -19067,8 +18972,8 @@ export default [
       {
         meaning: {
           en: 'treat condescendingly',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '資助、對...以恩人自居',
+          zh_CN: '资助、对...以恩人自居',
         },
         partsOfSpeech: 'verb',
         example: 'She says she genuinely wanted to help me, but instead she patronized me, constantly pointing out how I was inferior to her',
@@ -19207,22 +19112,7 @@ export default [
           zh_CN: '爱好、嗜好 [反] aversion(厌恶)',
         },
         partsOfSpeech: 'noun',
-        example: '',
-      },
-    ],
-  },
-  {
-    id: 1172,
-    word: 'pending',
-    detail: [
-      {
-        meaning: {
-          en: 'waiting to be decided or settled',
-          zh_TW: '未定的、待定的',
-          zh_CN: '未定的、待定的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
+        example: 'he has a penchant for adopting stray dogs',
       },
     ],
   },
@@ -19237,7 +19127,7 @@ export default [
           zh_CN: '后悔的、懺悔的 [类] contrite (后悔的)',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'penitential tears',
       },
     ],
   },
@@ -19252,7 +19142,7 @@ export default [
           zh_CN: '沈思的、愁眉苦脸的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'a pensive mood',
       },
     ],
   },
@@ -20320,7 +20210,7 @@ export default [
           zh_CN: '先驱、先兆',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'a three-stringed precursor of the violin',
       },
     ],
   },
@@ -20350,7 +20240,7 @@ export default [
           zh_CN: '倾向、素质',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'a liability or tendency to suffer from a particular condition, hold a particular attitude, or act in a particular way',
       },
     ],
   },
@@ -20679,30 +20569,25 @@ export default [
     detail: [
       {
         meaning: {
-          en: 'of or at an early stage of social development',
+          en: 'relating to, denoting, or preserving the character of an early stage in the evolutionary or historical development of something',
           zh_TW: '原始的、遠古的、基本的',
           zh_CN: '原始的、远古的、基本的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'primitive mammals',
       },
-    ],
-  },
-  {
-    id: 1265,
-    word: 'priority',
-    detail: [
       {
         meaning: {
-          en: '(state of) being more important (in rank)',
-          zh_TW: '再掀、居前',
-          zh_CN: '再掀、居前',
+          en: 'having a quality or style that offers an extremely basic level of comfort, convenience, or efficiency',
+          zh_TW: '基本的',
+          zh_CN: '基本的',
         },
-        partsOfSpeech: 'noun',
-        example: '',
+        partsOfSpeech: 'adjective',
+        example: 'the accommodations at the camp were a bit primitive',
       },
     ],
   },
+
   {
     id: 1266,
     word: 'pristine',
@@ -22046,7 +21931,7 @@ export default [
         },
         partsOfSpeech: 'verb',
         example:
-          "After years of gamblers anonymous, Tony thought he'd broken his compulsive slot machine playing, but it took only one trip to the Atlantic City for a full recrudescence--he lost $5k on the one armed bandit.",
+          "after years of gamblers anonymous, Tony thought he'd broken his compulsive slot machine playing, but it took only one trip to the Atlantic City for a full recrudescence--he lost $5k on the one armed bandit",
       },
     ],
   },
@@ -22061,22 +21946,7 @@ export default [
           zh_CN: '正直、公正',
         },
         partsOfSpeech: 'noun',
-        example: '',
-      },
-    ],
-  },
-  {
-    id: 1350,
-    word: 'redeem',
-    detail: [
-      {
-        meaning: {
-          en: 'sth (from sb/sth) buy back sth by paying the required sum; recover sth',
-          zh_TW: '贖回',
-          zh_CN: '赎回',
-        },
-        partsOfSpeech: 'verb',
-        example: '',
+        example: 'maddie is a model of rectitude',
       },
     ],
   },
@@ -22087,8 +21957,8 @@ export default [
       {
         meaning: {
           en: '(of a person) formidable, especially as an opponent',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '可怕的、令人敬畏的',
+          zh_CN: '可怕的、令人敬畏的',
         },
         partsOfSpeech: 'adjective',
         example: 'he was a redoubtable debater',
@@ -22102,8 +21972,8 @@ export default [
       {
         meaning: {
           en: 'an act of making something right',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '糾正、矯正',
+          zh_CN: '纠正、矫正',
         },
         partsOfSpeech: 'noun',
         example: "Barry's redress for forgetting his wife's birthday two years in a row was surprising her with a trip to Tahiti.",
@@ -22121,7 +21991,7 @@ export default [
           zh_CN: '多余的、累赘的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'many of the old skills had become redundant',
       },
     ],
   },
@@ -24174,29 +24044,14 @@ export default [
     ],
   },
   {
-    id: 1480,
-    word: 'static',
-    detail: [
-      {
-        meaning: {
-          en: 'not moving or changing; stationary',
-          zh_TW: '靜止的、呆板的',
-          zh_CN: '静止的、呆板的',
-        },
-        partsOfSpeech: 'adjective',
-        example: '',
-      },
-    ],
-  },
-  {
     id: 1481,
     word: 'staunch',
     detail: [
       {
         meaning: {
           en: 'firm and dependable especially in loyalty',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '堅定的、可靠的',
+          zh_CN: '坚定的、可靠的',
         },
         partsOfSpeech: 'adjective',
         example: 'No longer a staunch supporter of the movement, Todd now will openly question whether its goals are worthwhile',
@@ -24210,8 +24065,8 @@ export default [
       {
         meaning: {
           en: 'marked by firm determination or resolution; not shakable',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '固定不動的、不動搖的',
+          zh_CN: '固定不动的、不动摇的',
         },
         partsOfSpeech: 'adjective',
         example: 'A good captain needs to be steadfast, continuing to hold the wheel and stay the course even during the most violent storm',
@@ -24330,21 +24185,6 @@ export default [
         },
         partsOfSpeech: 'adjective',
         example: "California's air pollution guidelines are stringent",
-      },
-    ],
-  },
-  {
-    id: 1490,
-    word: 'strip',
-    detail: [
-      {
-        meaning: {
-          en: 'sth (from/off sth/sb); sth/sb (of sth); sth (off) take off (clothes, coverings, parts, etc) from sb/sth',
-          zh_TW: '剝去、剝光',
-          zh_CN: '剥去、剥光',
-        },
-        partsOfSpeech: 'verb',
-        example: '',
       },
     ],
   },
@@ -24947,8 +24787,8 @@ export default [
       {
         meaning: {
           en: 'tastelessly showy; cheap and shoddy',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '花俏庸俗的、俗氣的',
+          zh_CN: '花俏庸俗的、俗气的',
         },
         partsOfSpeech: 'adjective',
         example:
@@ -24963,8 +24803,8 @@ export default [
       {
         meaning: {
           en: 'use to the limit; exhaust',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '負擔重的、費勁的',
+          zh_CN: '负担重的、费劲的',
         },
         partsOfSpeech: 'adjective',
         example: 'The hike to the summit of Mt. Whitney was so taxing that I could barely speak or stand up',
@@ -24982,7 +24822,7 @@ export default [
           zh_CN: '冗长乏味的、使人厌烦的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'a tedious journey',
       },
     ],
   },
@@ -24993,8 +24833,8 @@ export default [
       {
         meaning: {
           en: 'revealing',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '洩漏秘密的',
+          zh_CN: '泄漏秘密的',
         },
         partsOfSpeech: 'adjective',
         example: 'The many telltale signs of chronic smoking include yellow teeth, and a persistent, hacking cough',
@@ -25023,8 +24863,8 @@ export default [
       {
         meaning: {
           en: 'improve the hardness and elasticity of (steel or other metal) by reheating and then cooling it',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '鍛鍊（金屬）',
+          zh_CN: '锻链（金属）',
         },
         partsOfSpeech: 'verb',
         example: 'the way a smith would temper a sword',
@@ -25032,8 +24872,8 @@ export default [
       {
         meaning: {
           en: 'act as a neutralizing or counterbalancing force to (something)',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '使緩和、變溫和',
+          zh_CN: '使缓和、变温和',
         },
         partsOfSpeech: 'verb',
         example: 'their idealism is tempered with realism',
@@ -25047,11 +24887,11 @@ export default [
       {
         meaning: {
           en: 'the trait of avoiding excesses',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '節制、節慾',
+          zh_CN: '节制、节慾',
         },
         partsOfSpeech: 'noun',
-        example: "Welles wasn't known for his temperance--he usually ate enough for two and drank enough for three.",
+        example: "Welles wasn't known for his temperance--he usually ate enough for two and drank enough for three",
       },
     ],
   },
@@ -25061,12 +24901,21 @@ export default [
     detail: [
       {
         meaning: {
-          en: 'behaving with temperance; showing self-control',
-          zh_TW: '(氣候)溫和的、(飲食)適度的',
-          zh_CN: '(气候)温和的、(饮食)適度的',
+          en: 'behaving with temperance',
+          zh_TW: '(氣候)溫和的',
+          zh_CN: '(气候)温和的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'sage can be grown outdoors in cool, temperate climates',
+      },
+      {
+        meaning: {
+          en: 'showing self-control',
+          zh_TW: '(飲食)適度的',
+          zh_CN: '(饮食)適度的',
+        },
+        partsOfSpeech: 'adjective',
+        example: 'Charles was temperate in his consumption of both food and drink',
       },
     ],
   },
@@ -25077,8 +24926,8 @@ export default [
       {
         meaning: {
           en: 'as if driven by turbulent or conflicting emotions; highly energetic and wildly changing or fluctuating',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '狂暴的、劇烈的',
+          zh_CN: '狂暴的、剧烈的',
         },
         partsOfSpeech: 'adjective',
         example: 'Chuck and Kathy had always been stable and agreeable people on their own, but when they got involved, it was a tempestuous relationship',
@@ -25096,7 +24945,7 @@ export default [
           zh_CN: '时间的、世俗的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'the Church did not imitate the secular rulers who thought only of temporal gain',
       },
     ],
   },
@@ -25111,7 +24960,7 @@ export default [
           zh_CN: '站得住脚的、经得起批判的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'such a simplistic approach is no longer tenable',
       },
     ],
   },
@@ -25131,20 +24980,11 @@ export default [
       {
         meaning: {
           en: 'not readily relinquishing a position, principle, or course of action; determined',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '緊握（權力、職位）',
+          zh_CN: '紧握（权力、职位）',
         },
         partsOfSpeech: 'adjective',
         example: "you're tenacious and you get at the truth",
-      },
-      {
-        meaning: {
-          en: 'persisting in existence; not easily dispelled',
-          zh_TW: '',
-          zh_CN: '',
-        },
-        partsOfSpeech: 'adjective',
-        example: 'a tenacious local legend',
       },
     ],
   },
@@ -25160,7 +25000,7 @@ export default [
         },
         partsOfSpeech: 'adjective',
         example:
-          'Because political mudslinging has become a staple of the 24-hour media cycle, most of us, despite protestations to the contrary, are tendentious on many of today’s pressing issues.',
+          'Because political mudslinging has become a staple of the 24-hour media cycle, most of us, despite protestations to the contrary, are tendentious on many of today’s pressing issues',
       },
     ],
   },
@@ -25171,8 +25011,8 @@ export default [
       {
         meaning: {
           en: 'offer up something formally',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '（正式）提出 ',
+          zh_CN: '（正式）提出 ',
         },
         partsOfSpeech: 'verb',
         example: 'The government was loath to tender more money in the fear that it might set off inflation',
@@ -25751,7 +25591,7 @@ export default [
           zh_CN: '暴政、专利',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'people who survive war and escape tyranny',
       },
     ],
   },
@@ -25762,11 +25602,11 @@ export default [
       {
         meaning: {
           en: 'a beginner or novice',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '初學者、新手',
+          zh_CN: '初学者、新手',
         },
         partsOfSpeech: 'noun',
-        example: '',
+        example: 'She was still a tyro in ballet, but her enthusiasm to learn was inspiring',
       },
     ],
   },
@@ -25781,7 +25621,7 @@ export default [
           zh_CN: '无所不在的 [类] omnipresent, universal',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'his ubiquitous influence was felt by all the family',
       },
     ],
   },
@@ -25792,11 +25632,11 @@ export default [
       {
         meaning: {
           en: 'a feeling of anger caused by being offended',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '（因冒犯而感到）憤怒',
+          zh_CN: '（因冒犯而感到）愤怒',
         },
         partsOfSpeech: 'noun',
-        example: 'Since he was so in love with her, he took umbrage at her comments, even though she had only meant to gently tease him',
+        example: 'since he was so in love with her, he took umbrage at her comments, even though she had only meant to gently tease him',
       },
     ],
   },
@@ -25811,7 +25651,7 @@ export default [
           zh_CN: '全体一致的',
         },
         partsOfSpeech: 'adjective',
-        example: '',
+        example: 'this requires the unanimous approval of all member states',
       },
     ],
   },
@@ -25822,8 +25662,8 @@ export default [
       {
         meaning: {
           en: 'unable to be attacked, questioned, or defeated',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '無懈可擊的',
+          zh_CN: '无懈可击的',
         },
         partsOfSpeech: 'adjective',
         example: 'an unassailable lead',
@@ -25842,7 +25682,7 @@ export default [
         },
         partsOfSpeech: 'adjective',
         example:
-          'Reggie has an uncanny ability to connect with animals: feral cats will readily approach him, and sometimes even wild birds will land on his finger.',
+          'reggie has an uncanny ability to connect with animals: feral cats will readily approach him, and sometimes even wild birds will land on his finger',
       },
     ],
   },
@@ -25853,8 +25693,8 @@ export default [
       {
         meaning: {
           en: "showing an unwillingness to make concessions to others, especially by changing one's ways or opinions",
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '不妥協的、不讓步的',
+          zh_CN: '不妥协的、不让步的',
         },
         partsOfSpeech: 'adjective',
         example: 'his uncompromising stance on the issue',
@@ -25862,8 +25702,8 @@ export default [
       {
         meaning: {
           en: 'harsh or relentless',
-          zh_TW: '',
-          zh_CN: '',
+          zh_TW: '堅定的',
+          zh_CN: '坚定的',
         },
         partsOfSpeech: 'adjective',
         example: "the uncompromising ugliness of the era's buildings",
