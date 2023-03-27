@@ -1,40 +1,32 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Browser from 'webextension-polyfill';
 
-import menuBookIcon from '@/../assets/svgs/menu_book.svg';
-import starIcon from '@/../assets/svgs/star.svg';
 import { sendMessage } from '@browsers/message';
 import { getStorage, setStorage } from '@browsers/storage';
 import { EVENT_TYPE } from '@constants/browser';
 import {
   CONTENT_SCRIPT_ROOT_CLASS,
   HIGHLIGHTER_CHECK_INTERVAL,
-  HIGHLIGHTER_COLLECTED,
-  HIGHLIGHTER_DEF_CLASS,
   HIGHLIGHTER_DETAIL_CLASS,
-  HIGHLIGHTER_DETAIL_ITEM_CLASS,
-  HIGHLIGHTER_FONT_SIZE_CLASS,
-  HIGHLIGHTER_ICON_CLASS,
-  HIGHLIGHTER_NOT_COLLECTED,
   HIGHLIGHTER_ORG_WORD_CLASS,
   HIGHLIGHTER_POPUP_IS_SHOWING_CLASS,
-  HIGHLIGHTER_POS_CLASS,
-  HIGHLIGHTER_TARGET_WORD_CLASS,
-  LANGS,
-  ONLINE_DIC_URL,
-  PARTS_OF_SPEECH_SHORTHAND,
 } from '@constants/index';
 import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, EXT_MSG_TYPE_CONFIG_UPDATE } from '@constants/messages';
 import { EXT_STORAGE_CONFIG } from '@constants/storage';
 import { POPUP_MAX_WIDTH } from '@constants/styles';
 import { parseAllNodes } from '@content/Highlighter/injectHighlight';
-import { getAllWords, getDisplayPos } from '@content/Highlighter/misc';
 import { insertFontStyles } from '@content/Highlighter/scripts';
 import { tryUpdateWebContent } from '@content/Highlighter/updateHighlight';
-import { DEFAULT_CONFIG, isConfigEqual } from '@utils/config';
+import { DEFAULT_CONFIG, isConfigEqual, setURLToConfigFormat } from '@utils/config';
 import { getAllTextNodesFromDOM } from '@utils/dom';
-import { constructWordExample } from '@utils/highlight';
+import { getAllWords, getDetailDisplayPos } from '@utils/highlight';
 import { logger } from '@utils/logger';
+
+import Detail from './Detail';
+
+/*
+ * Note that all customizations set by user except collecting words are passively updated, i.e., only the collect words operation is immediately reflected on other tabs
+ */
 
 const Highlighter = () => {
   const [config, setConfig] = useState({});
@@ -47,8 +39,17 @@ const Highlighter = () => {
   const prevConfig = useRef({});
   const prevWebNodeCount = useRef(-1);
 
+  const closePopup = type => {
+    if (type === EVENT_TYPE.CLICK) {
+      document.getElementById(CONTENT_SCRIPT_ROOT_CLASS).classList.remove(HIGHLIGHTER_POPUP_IS_SHOWING_CLASS);
+      setShowPopupClick(false);
+    } else {
+      setShowPopupHover(false);
+    }
+  };
+
   const showPopup = ({ type, word, ...posInfo }) => {
-    const displayPos = getDisplayPos({ ...posInfo, width: POPUP_MAX_WIDTH });
+    const displayPos = getDetailDisplayPos({ ...posInfo, width: POPUP_MAX_WIDTH });
     setPosStyle({ left: `${displayPos.x}px`, top: `${displayPos.y}px` });
     setWordData(words.current.get(word));
 
@@ -60,19 +61,10 @@ const Highlighter = () => {
     }
   };
 
-  const closePopup = type => {
-    if (type === EVENT_TYPE.CLICK) {
-      document.getElementById(CONTENT_SCRIPT_ROOT_CLASS).classList.remove(HIGHLIGHTER_POPUP_IS_SHOWING_CLASS);
-      setShowPopupClick(false);
-    } else {
-      setShowPopupHover(false);
-    }
-  };
-
   const shouldShowPopup = ({ evtType, evt }) => {
     const isTarget = evt.target.classList.contains(HIGHLIGHTER_ORG_WORD_CLASS);
     const hasClicked = document.getElementById(CONTENT_SCRIPT_ROOT_CLASS).classList.contains(HIGHLIGHTER_POPUP_IS_SHOWING_CLASS);
-    // evtType === 'click' || (evtType === 'hover' && !showPopupClick) -> ERROR. Due to showPopupClick will always be false (due to toclosure):
+    // evtType === 'click' || (evtType === 'hover' && !showPopupClick) -> ERROR. Due to showPopupClick will always be false (due to closure):
     return isTarget && (evtType === EVENT_TYPE.CLICK || (evtType === EVENT_TYPE.HOVER && !hasClicked));
   };
 
@@ -104,18 +96,42 @@ const Highlighter = () => {
     }
   };
 
-  const exec = async () => {
+  const exec = () => {
     const nodes = getAllTextNodesFromDOM();
-    if (nodes.length === prevWebNodeCount.current) {
+    if (nodes.length !== prevWebNodeCount.current) {
+      logger(`[content] Start. number of words: ${words.current.size}, number of text nodes: ${nodes.length}. Config: ${JSON.stringify(config)}`);
+      prevWebNodeCount.current = nodes.length;
+      parseAllNodes(nodes, words.current, config);
+    }
+  };
+
+  useEffect(() => {
+    if (isInit) {
       return;
     }
-    logger(`[content] Start. number of words: ${words.current.size}, number of text nodes: ${nodes.length}. Config: ${JSON.stringify(config)}`);
-    prevWebNodeCount.current = nodes.length;
-    parseAllNodes(nodes, words.current, config);
+    prevConfig.current = { ...config }; // By now, tryUpdateWebContent() had executed
+    if (config.suspendedPages.includes(setURLToConfigFormat(window.location))) {
+      return;
+    }
+    exec();
+    const interval = setInterval(() => exec(), HIGHLIGHTER_CHECK_INTERVAL);
+    // eslint-disable-next-line consistent-return
+    return () => clearInterval(interval);
+  }, [config]);
+
+  const loadConfig = async () => {
+    const cache = await getStorage({ type: 'sync', key: EXT_STORAGE_CONFIG });
+    const c = cache[EXT_STORAGE_CONFIG] || DEFAULT_CONFIG;
+    if (!isConfigEqual(c, config)) {
+      setConfig(c);
+      return c;
+    }
+    return null;
   };
 
   const onConfigUpdate = async () => {
     const latestConfig = await loadConfig();
+    // if (latestConfig.suspendedPages.includes(setURLToConfigFormat(window.location))) { return; } // If the words are highlighted, just keep it
     tryUpdateWebContent(latestConfig, prevConfig.current);
   };
 
@@ -136,22 +152,11 @@ const Highlighter = () => {
       default:
         break;
     }
-    // return true;
   };
 
   const handleExtensionMessage = () => {
     Browser.runtime.onMessage.addListener(onMessageListener);
     return () => chrome.runtime.onMessage.removeListener(onMessageListener);
-  };
-
-  const loadConfig = async () => {
-    const cache = await getStorage({ type: 'sync', key: EXT_STORAGE_CONFIG });
-    const c = cache[EXT_STORAGE_CONFIG] || DEFAULT_CONFIG;
-    if (!isConfigEqual(c, config)) {
-      setConfig(c);
-      return c;
-    }
-    return null;
   };
 
   const insertCSS = async () =>
@@ -178,23 +183,12 @@ const Highlighter = () => {
   };
 
   useEffect(() => {
-    if (isInit) {
-      return;
-    }
-    prevConfig.current = { ...config }; // usePrevious is not working properly in content-script
-    exec();
-    const interval = setInterval(() => exec(), HIGHLIGHTER_CHECK_INTERVAL);
-    // eslint-disable-next-line consistent-return
-    return () => clearInterval(interval);
-  }, [config]);
-
-  useEffect(() => {
     setup();
     const cleanup = handleExtensionMessage();
     return () => cleanup();
   }, []);
 
-  const starIconOnClick =
+  const onCollectWord =
     ({ id, isCollected }) =>
     async () => {
       // Background and all the currently opened popups receive this message. Also, background will redirect this message to other content-scripts
@@ -206,52 +200,24 @@ const Highlighter = () => {
       setConfig(newConfig);
     };
 
-  const isCollected = config?.collectedWords?.includes(wordData?.id); // Note that config takes a while to load in the beginning
+  const isCollected = config.collectedWords?.includes(wordData?.id); // Note that config takes a while to load in the beginning
 
-  const displayPopup = (showPopupHover || showPopupClick) && config.showDetail && wordData;
+  const suspendThisPage = config.suspendedPages?.includes(setURLToConfigFormat(window.location));
+
+  const displayPopup = !suspendThisPage && config.showDetail && wordData && (showPopupHover || showPopupClick);
 
   return (
-    displayPopup && (
-      <div className={HIGHLIGHTER_DETAIL_CLASS} style={{ ...posStyle }}>
-        <div style={{ display: 'flex', alignItems: 'center' }}>
-          <div className={`${HIGHLIGHTER_TARGET_WORD_CLASS} ${HIGHLIGHTER_FONT_SIZE_CLASS[config.fontSize]}`}>{wordData.word}</div>
-          <a
-            className={HIGHLIGHTER_ICON_CLASS}
-            href={`${ONLINE_DIC_URL[config.language]}${wordData.word}`}
-            data-word={wordData.word}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src={Browser.runtime.getURL(menuBookIcon)} alt='' width={26} style={{ filter: 'invert(94%)' }} />
-          </a>
-          <button
-            className={HIGHLIGHTER_ICON_CLASS}
-            onClick={starIconOnClick({ id: wordData.id, isCollected })}
-            type='button'
-            style={{ backgroundColor: 'inherit', border: '0px' }}
-            /* CSS '!important' is not working properly. See: https://github.com/facebook/react/issues/1881#issuecomment-262257503 */
-            ref={node => node && node.style.setProperty('margin-left', 'auto', 'important')}
-          >
-            <img className={isCollected ? HIGHLIGHTER_COLLECTED : HIGHLIGHTER_NOT_COLLECTED} src={Browser.runtime.getURL(starIcon)} alt='' width={24} />
-          </button>
-        </div>
-        {wordData.detail.map(
-          ({ meaning, partsOfSpeech, example }) =>
-            partsOfSpeech && (
-              <div
-                className={`${HIGHLIGHTER_DETAIL_ITEM_CLASS} ${HIGHLIGHTER_FONT_SIZE_CLASS[config.fontSize]}`}
-                key={`${partsOfSpeech}-${example.slice(0, 10)}`}
-              >
-                <span className={HIGHLIGHTER_POS_CLASS}>{PARTS_OF_SPEECH_SHORTHAND[partsOfSpeech]}</span>
-                <span className={HIGHLIGHTER_DEF_CLASS}>{meaning[LANGS[config.language]] || meaning[LANGS.en]}</span>
-                <br />
-                {constructWordExample(example)}
-              </div>
-            )
-        )}
-      </div>
+    !isInit && (
+      <Detail
+        display={displayPopup}
+        posStyle={posStyle}
+        wordData={wordData}
+        language={config.language}
+        fontSize={config.fontSize}
+        isCollected={isCollected}
+        onCollectWord={onCollectWord}
+      />
     )
   );
 };
-
 export default Highlighter;

@@ -10,6 +10,7 @@ export const DEFAULT_CONFIG = {
   fontSize: HIGHLIGHTER_FONT_SIZE.MEDIUM,
   showDetail: true,
   collectedWords: [],
+  suspendedPages: [],
 };
 
 export const NUM_OF_CONFIG_OPTIONS = Object.keys(DEFAULT_CONFIG).length;
@@ -33,4 +34,9 @@ export const setupDefaultConfigIfNotExist = async () => {
     await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: config });
   }
   logger(`Get config after installation. Config: ${JSON.stringify(config)}`);
+};
+
+export const setURLToConfigFormat = url => {
+  const u = typeof url === 'string' ? new URL(url) : url;
+  return `${u.protocol}-${u.host}`;
 };

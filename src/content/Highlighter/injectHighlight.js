@@ -3,6 +3,7 @@ import {
   HIGHLIGHTER_DEF_CLASS,
   HIGHLIGHTER_DETAIL_CLASS,
   HIGHLIGHTER_DETAIL_ITEM_CLASS,
+  HIGHLIGHTER_EXAMPLE_CLASS,
   HIGHLIGHTER_ICON_CLASS,
   HIGHLIGHTER_ORG_WORD_CLASS,
   HIGHLIGHTER_TARGET_WORD_CLASS,
@@ -35,10 +36,11 @@ export const shouldAddHighlight = node =>
   !node.parentNode.classList.contains(HIGHLIGHTER_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_ORG_WORD_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_TARGET_WORD_CLASS) &&
+  !node.parentNode.classList.contains(HIGHLIGHTER_ICON_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_DETAIL_ITEM_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_DETAIL_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_DEF_CLASS) &&
-  !node.parentNode.classList.contains(HIGHLIGHTER_ICON_CLASS) &&
+  !node.parentNode.classList.contains(HIGHLIGHTER_EXAMPLE_CLASS) &&
   node.nodeValue &&
   node.nodeValue.trim().length;
 

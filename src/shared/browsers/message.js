@@ -5,7 +5,7 @@ import { logger } from '@utils/logger';
 /*
  * Note that Browser.tabs API is not available for content-scripts
  * To send message from one content-script to other content-script(s), the message has to be redirected by popup/background
- * Background is a good choice since it is always running (only inactive when nothing to do)
+ * Background is a good choice since it is always running (only idle when nothing to do)
  */
 
 export const getCurrentTab = async () => {
@@ -34,7 +34,7 @@ export const sendMessage = async ({ type = '', payload = {} } = {}) => {
 };
 
 /*
- * This function sends message to all other tabs except itself
+ * This function sends message to all the tabs except the active tab in current focused window
  */
 export const sendMessageToOtherContentScripts = async ({ type = '', payload = {} } = {}) => {
   logger(`Going to send message to tab. Message: ${type}`);

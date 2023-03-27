@@ -1,4 +1,4 @@
-import { setStorage } from '@browsers/storage';
+import { getStorage, setStorage } from '@browsers/storage';
 import { EXT_STORAGE_CONFIG, EXT_STORAGE_WORD_LIST } from '@constants/storage';
 import { DEFAULT_CONFIG } from '@utils/config';
 import { logger } from '@utils/logger';
@@ -14,4 +14,15 @@ export const storeEssentialDataOnInstall = async () => {
   ]);
 
   logger('[background] Init storage settings done!');
+};
+
+// Note: this function should be updated everytime
+export const updateIfNeeded = async () => {
+  const cfg = await getStorage({ type: 'sync', key: EXT_STORAGE_CONFIG });
+
+  if (!cfg[EXT_STORAGE_CONFIG].suspendedPages) {
+    const newCfg = { ...cfg[EXT_STORAGE_CONFIG], suspendedPages: [] };
+    await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: newCfg });
+    logger('[background] config is updated (added the suspendedPages attr)!');
+  }
 };
