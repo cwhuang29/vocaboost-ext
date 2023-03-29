@@ -1,6 +1,6 @@
 # Vocabulary Highlighter
 
-Install it on [chrome web store](https://chrome.google.com/webstore/detail/gre-vocabulary-highlighte/gfkmbmplhjdoejicgmaldndkcnnpplho).
+Install this extension on [chrome web store](https://chrome.google.com/webstore/detail/gre-vocabulary-highlighte/gfkmbmplhjdoejicgmaldndkcnnpplho).
 
 The goal of this project is to assist non-native English speakers in preparing for the GRE exam. When a user is browsing webpages, all the GRE vocabularies are highlighted. A popup window with definitions, examples, and a link to the Cambridge Dictionary is displayed when the mouse hovers/clicks the highlighted word.
 
