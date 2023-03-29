@@ -14,7 +14,7 @@
   "overrides": [
     { "files": ["*.jsx", "*.js"] }
   ],
-  "plugins": ["react", "react-hooks", "simple-import-sort", "import", "prettier"],
+  "plugins": ["react", "react-hooks", "simple-import-sort", "prettier"],
   "rules": {
     "no-plusplus": 0,
     "no-console": 1,
@@ -28,7 +28,7 @@
     "no-unused-expressions":["error", { "allowShortCircuit": true }],
     "arrow-parens": 0,
     "react/forbid-prop-types": 0,
-    "react/jsx-filename-extension": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-space-before-closing": 0,
     "react/jsx-no-target-blank": 0,
     "react/jsx-tag-spacing": ["error", { "beforeSelfClosing": "always" }],
