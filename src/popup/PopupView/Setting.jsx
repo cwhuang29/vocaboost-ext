@@ -98,7 +98,7 @@ const Setting = ({ language: cfgLang, fontSize: cfgFontSize, showDetail: cfgShow
         <Dropdown name='fs' label='Font size' value={fontSize} onChange={fontSizeOnChange} options={HIGHLIGHTER_FONT_SIZE} displayFunc={s => toCapitalize(s)} />
       </Box>
       <Checkbox checked={showDetail} onChange={showDetailOnChange} text='Show definitions and examples on hover' />
-      <Checkbox checked={isSuspended} onChange={suspendedOnPagesOnChange} text='Disable on this page' />
+      <Checkbox checked={isSuspended} onChange={suspendedOnPagesOnChange} text={`Disable on this page (${urlInfo})`} />
     </Box>
   );
 };

@@ -9,7 +9,7 @@ export const storeEssentialDataOnInstall = async () => {
   const words = genWordDetailList();
 
   await Promise.all([
-    setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: config }),
+    setStorage({ type: 'local', key: EXT_STORAGE_CONFIG, value: config }),
     setStorage({ type: 'local', key: EXT_STORAGE_WORD_LIST, value: JSON.stringify(words) }),
   ]);
 
@@ -18,11 +18,11 @@ export const storeEssentialDataOnInstall = async () => {
 
 // Note: this function should be updated everytime
 export const updateIfNeeded = async () => {
-  const cfg = await getStorage({ type: 'sync', key: EXT_STORAGE_CONFIG });
+  const cfg = await getStorage({ type: 'local', key: EXT_STORAGE_CONFIG });
 
   if (!cfg[EXT_STORAGE_CONFIG].suspendedPages) {
     const newCfg = { ...cfg[EXT_STORAGE_CONFIG], suspendedPages: [] };
-    await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: newCfg });
+    await setStorage({ type: 'local', key: EXT_STORAGE_CONFIG, value: newCfg });
     logger('[background] config is updated (added the suspendedPages attr)!');
   }
 };

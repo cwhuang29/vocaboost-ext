@@ -14,10 +14,10 @@ import { genWordDetailList, getRandomWordFromList } from '@utils/word';
  * Note: if there's any elements that you don't want to be highlighted, add class="HIGHLIGHTER_CLASS" to it's tag
  */
 
-const storeDailyWord = word => setStorage({ type: 'sync', key: EXT_STORAGE_DAILY_WORD, value: { word, timestamp: new Date().toJSON() } });
+const storeDailyWord = word => setStorage({ type: 'local', key: EXT_STORAGE_DAILY_WORD, value: { word, timestamp: new Date().toJSON() } });
 
 const setupDailyWord = async () => {
-  const cache = await getStorage({ type: 'sync', key: EXT_STORAGE_DAILY_WORD });
+  const cache = await getStorage({ type: 'local', key: EXT_STORAGE_DAILY_WORD });
   const { word, timestamp } = cache[EXT_STORAGE_DAILY_WORD] || {};
   if (word && isSameDay(new Date(timestamp), new Date())) {
     return word;

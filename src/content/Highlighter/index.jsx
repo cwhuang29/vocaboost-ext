@@ -120,7 +120,7 @@ const Highlighter = () => {
   }, [config]);
 
   const loadConfig = async () => {
-    const cache = await getStorage({ type: 'sync', key: EXT_STORAGE_CONFIG });
+    const cache = await getStorage({ type: 'local', key: EXT_STORAGE_CONFIG });
     const c = cache[EXT_STORAGE_CONFIG] || DEFAULT_CONFIG;
     if (!isConfigEqual(c, config)) {
       setConfig(c);
@@ -195,7 +195,7 @@ const Highlighter = () => {
       const collectedWords = isCollected ? config.collectedWords.filter(wordId => wordId !== id) : [...config.collectedWords, id];
       const newConfig = { ...config, collectedWords };
 
-      await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: newConfig });
+      await setStorage({ type: 'local', key: EXT_STORAGE_CONFIG, value: newConfig });
       sendMessage({ type: EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, payload: { state: newConfig, prevState: config } });
       setConfig(newConfig);
     };

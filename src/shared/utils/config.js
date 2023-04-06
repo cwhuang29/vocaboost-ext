@@ -27,16 +27,16 @@ export const isConfigEqual = (config1 = {}, config2 = {}) => {
 };
 
 export const setupDefaultConfigIfNotExist = async () => {
-  let config = await getStorage({ type: 'sync', key: EXT_STORAGE_CONFIG });
+  let config = await getStorage({ type: 'local', key: EXT_STORAGE_CONFIG });
 
   if (!config || Object.keys(config).length === 0) {
     config = DEFAULT_CONFIG;
-    await setStorage({ type: 'sync', key: EXT_STORAGE_CONFIG, value: config });
+    await setStorage({ type: 'local', key: EXT_STORAGE_CONFIG, value: config });
   }
   logger(`Get config after installation. Config: ${JSON.stringify(config)}`);
 };
 
 export const setURLToConfigFormat = url => {
   const u = typeof url === 'string' ? new URL(url) : url;
-  return `${u.protocol}-${u.host}`;
+  return `${u.protocol}://${u.host}`;
 };

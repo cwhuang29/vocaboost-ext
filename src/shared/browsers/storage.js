@@ -25,7 +25,7 @@ export const setStorage = async ({ type, key, value }) => {
     return;
   }
   if (type !== 'sync' && type !== 'local') {
-    logger(`Error! Type is not correct. type: ${type}`);
+    logger(`Error! Type should be either "sync" or "local". type: ${type}`);
     return;
   }
 
@@ -38,7 +38,7 @@ export const getStorage = async ({ type, key }) => {
     return;
   }
   if (type !== 'sync' && type !== 'local') {
-    logger(`Error! Type is not correct. type: ${type}`);
+    logger(`Error! Type should be either "sync" or "local". type: ${type}`);
     return;
   }
 
