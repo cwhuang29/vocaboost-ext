@@ -85,6 +85,7 @@
           "@actions": "./src/shared/actions",
           "@constants": "./src/shared/constants",
           "@hooks": "./src/shared/hooks",
+          "@oauth": "./src/shared/oauth",
           "@selectors": "./src/shared/selectors",
           "@services": "./src/shared/services",
           "@utils": "./src/shared/utils"

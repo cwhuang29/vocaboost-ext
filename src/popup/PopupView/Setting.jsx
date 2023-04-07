@@ -37,7 +37,7 @@ const Checkbox = ({ checked, onChange, text }) => (
   <FormControlLabel
     control={<MuiCheckBox checked={checked} onChange={onChange} />}
     label={<span style={{ fontSize: '15px' }}>{text}</span>}
-    style={{ margin: '0 -11px -7px' }}
+    style={{ margin: '0 -11px -9px' }}
   />
 );
 

@@ -1,11 +1,6 @@
-export const COOKIE_NAMES = {
-  IS_ADMIN: 'is_admin',
-};
+export const EXT_STORAGE_AUTH_TOKEN = 'EXT_STORAGE_AUTH_TOKEN';
 
-export const LOCAL_STORAGE_NAME = {
-  AUTH: 'auth',
-  JWT_TOKEN: 'jwt',
-};
+export const EXT_STORAGE_USER = 'EXT_STORAGE_USER';
 
 export const EXT_STORAGE_CONFIG = 'EXT_STORAGE_CONFIG';
 

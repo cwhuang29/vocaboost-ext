@@ -2,46 +2,21 @@ import React, { useEffect, useReducer, useState } from 'react';
 import { Stack } from '@mui/material';
 
 import { getCurrentTab, sendMessage, sendMessageToTab } from '@browsers/message';
-import { getStorage, setStorage } from '@browsers/storage';
 import { EXT_MSG_TYPE_CONFIG_UPDATE } from '@constants/messages';
-import { EXT_STORAGE_CONFIG } from '@constants/storage';
 import { useExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import usePrevious from '@hooks/usePrevious';
-import { DEFAULT_CONFIG, isConfigEqual, setURLToConfigFormat } from '@utils/config';
+import { DEFAULT_CONFIG, getConfig, isConfigEqual, setURLToConfigFormat, storeConfig, syncUpConfigToServer } from '@utils/config';
 
 import { popupSettingActionType } from './action';
 import BaseWrapper from './BaseWrapper';
 import CollectedWords from './CollectedWords';
 import DailyWord from './DailyWord';
 import Palette from './Palette';
+import Profile from './Profile';
+import { settingsReducer } from './reducer';
 import Section from './Section';
 import SectionTitle from './SectionTitle';
 import Setting from './Setting';
-
-const RELOAD_CONFIG_INTERVAL = 600;
-
-const settingsReducer = (state, action) => {
-  const { type, payload } = action;
-
-  switch (type) {
-    case popupSettingActionType.CHANGE_HIGHLIGHT_COLOR:
-      return { ...state, highlightColor: payload };
-    case popupSettingActionType.CHANGE_LANGUAGE:
-      return { ...state, language: payload };
-    case popupSettingActionType.CHANGE_FONT_SIZE:
-      return { ...state, fontSize: payload };
-    case popupSettingActionType.CHANGE_SHOW_DETAIL:
-      return { ...state, showDetail: payload };
-    case popupSettingActionType.ADD_SUSPENDED_PAGES:
-      return { ...state, suspendedPages: [...state.suspendedPages, payload] };
-    case popupSettingActionType.DEL_SUSPENDED_PAGES:
-      return { ...state, suspendedPages: state.suspendedPages.filter(p => p !== payload) };
-    case popupSettingActionType.OVERRIDE_ALL:
-      return { ...payload };
-    default:
-      return state;
-  }
-};
 
 const PopupView = () => {
   const [urlInfo, setURLInfo] = useState('');
@@ -67,25 +42,24 @@ const PopupView = () => {
       if (!prevState || isConfigEqual(state, prevState)) {
         return;
       }
-      // 1. Update the latest config to cache
-      await setStorage({ type: 'local', key: EXT_STORAGE_CONFIG, value: state });
-      // 2. Notify other tabs, extension (popup), and background. Note that extension popups only receive messages if they are active/open
-      sendMessage({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state, prevState } });
-      // 3. Notify current tab's content-script. When opening extension popup as a webpage, there is no content script running. Hence, skip sending the message
+      // 1. Sync up to backend (ext popup only runs when user open it, and immediately stop after mouse clicking elsewhere, so the benefit of using websocket is slim)
+      const latestState = await syncUpConfigToServer(state);
+      // 2. Update the latest config to cache
+      await storeConfig(latestState);
+      // 3. Notify other tabs, extension (popup), and background. Note that extension popups only receive messages if they are active/open
+      sendMessage({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state: latestState, prevState } });
+      // 4. Notify current tab's content-script. When opening extension popup as a webpage, there is no content script running. Hence, skip sending the message
       if (urlInfo.startsWith('http')) {
-        sendMessageToTab({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state, prevState } });
+        sendMessageToTab({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state: latestState, prevState } });
       }
     };
     stateOnChange();
   }, [state]);
 
   const loadConfig = async () => {
-    const cfg = await getStorage({ type: 'local', key: EXT_STORAGE_CONFIG });
-    if (!cfg || Object.keys(cfg).length === 0) {
-      setTimeout(loadConfig, RELOAD_CONFIG_INTERVAL);
-    } else {
-      dispatch({ type: popupSettingActionType.OVERRIDE_ALL, payload: cfg[EXT_STORAGE_CONFIG] });
-    }
+    const cfg = await getConfig();
+    const latestCfg = await syncUpConfigToServer(cfg ?? DEFAULT_CONFIG);
+    dispatch({ type: popupSettingActionType.OVERRIDE_ALL, payload: latestCfg });
   };
 
   const prepareURLInfo = async () => {
@@ -119,6 +93,10 @@ const PopupView = () => {
         <Section className='palette'>
           <SectionTitle>Highlight color</SectionTitle>
           <Palette color={state.highlightColor} handleChange={handleChange} />
+        </Section>
+
+        <Section className='profile'>
+          <Profile numCollectedWords={state.collectedWords.length} />
         </Section>
 
         <Section className='setting'>

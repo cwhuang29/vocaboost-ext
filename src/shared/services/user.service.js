@@ -1,20 +1,19 @@
 import apis from '@constants/apis';
-import authHeader from '@services/auth-header';
 import fetch from '@services/roots';
 
-const getCurrentUserData = (token = authHeader()) =>
+const getMe = (header = {}) =>
   fetch
-    .get(apis.V2.ME, { headers: token })
-    .then(response => response)
+    .get(apis.V1.ME, { headers: header })
+    .then(resp => resp.data)
     .catch(err => Promise.reject(err));
 
-const getAllUsers = (token = authHeader()) =>
+const updateUserSetting = payload =>
   fetch
-    .get(apis.V2.USERS_OVERVIEW, { headers: token })
-    .then(response => Promise.resolve(response.data))
+    .put(apis.V1.SETTING, payload)
+    .then(resp => resp.data)
     .catch(err => Promise.reject(err));
 
 export default {
-  getCurrentUserData,
-  getAllUsers,
+  getMe,
+  updateUserSetting,
 };

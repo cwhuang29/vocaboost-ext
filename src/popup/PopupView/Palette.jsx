@@ -7,7 +7,7 @@ import { HIGHLIGHTER_BG_COLORS_CODE } from '@constants/styles';
 import { popupSettingActionType } from './action';
 
 const Palette = ({ color: cfgColor, handleChange }) => {
-  const size = 36;
+  const size = 35;
   const baseStyle = { cursor: 'pointer' };
   const selectedStyle = { border: '2.7px solid rgb(93 93 93)', filter: 'saturate(2.8)' };
 
@@ -16,20 +16,18 @@ const Palette = ({ color: cfgColor, handleChange }) => {
   };
 
   return (
-    <Box>
-      <Box style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
-        {Object.entries(HIGHLIGHTER_BG_COLORS_CODE).map(([colorName, colorCode]) => (
-          <Skeleton
-            variant='circular'
-            animation='wave'
-            width={size}
-            height={size}
-            key={colorName}
-            style={{ ...baseStyle, ...(cfgColor === colorName ? selectedStyle : {}), backgroundColor: colorCode }}
-            onClick={onClick(colorName)}
-          />
-        ))}
-      </Box>
+    <Box style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', margin: '10px 0 -5px' }}>
+      {Object.entries(HIGHLIGHTER_BG_COLORS_CODE).map(([colorName, colorCode]) => (
+        <Skeleton
+          variant='circular'
+          animation='wave'
+          width={size}
+          height={size}
+          key={colorName}
+          style={{ ...baseStyle, ...(cfgColor === colorName ? selectedStyle : {}), backgroundColor: colorCode }}
+          onClick={onClick(colorName)}
+        />
+      ))}
     </Box>
   );
 };

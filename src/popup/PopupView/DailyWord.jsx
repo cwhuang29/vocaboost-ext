@@ -8,7 +8,7 @@ import { useExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import { constructWordExample } from '@utils/highlight';
 
 const Word = ({ word }) => (
-  <Typography variant='h5' component='div' className={HIGHLIGHTER_CLASS} style={{ textTransform: 'capitalize' }}>
+  <Typography variant='h6' component='div' className={HIGHLIGHTER_CLASS} style={{ textTransform: 'capitalize' }}>
     {word}
   </Typography>
 );
@@ -51,7 +51,11 @@ const DailyWord = ({ language }) => {
       {detail.map(({ meaning, partsOfSpeech, example }, idx) => (
         // eslint-disable-next-line react/no-array-index-key
         <React.Fragment key={`${id}-${idx}`}>
-          <Typography variant='body1' component='div' style={{ lineHeight: '22px', marginBottom: idx === detail.length - 1 ? '0px' : '5px' }}>
+          <Typography
+            variant='body1'
+            component='div'
+            style={{ lineHeight: '21px', marginBottom: idx === detail.length - 1 ? '0px' : '5px', fontSize: '15.5px' }}
+          >
             <PartsOfSpeech partsOfSpeech={partsOfSpeech} />
             <Meaning language={language} meaning={meaning} />
             <br />

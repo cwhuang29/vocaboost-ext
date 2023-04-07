@@ -6,7 +6,7 @@ const Section = ({ children }) => (
   <Box
     sx={{
       backgroundColor: 'rgb(253 253 253)',
-      padding: '14px',
+      padding: '16px',
       borderRadius: '6px',
       border: '0px',
     }}
