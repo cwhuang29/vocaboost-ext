@@ -1,3 +1,5 @@
+import { isDate } from './misc';
+
 export const getTodayDate = () => {
   const date = new Date();
   return `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`;
@@ -17,3 +19,19 @@ export const getTodayWithoutTime = () => {
 };
 
 export const isSameDay = (d1, d2) => d1.getDate() === d2.getDate();
+
+export const getLocalDate = () => new Date();
+
+export const getUTCDate = () => {
+  const d = new Date();
+  return new Date(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(), d.getUTCHours(), d.getUTCMinutes(), d.getUTCSeconds(), d.getUTCMilliseconds());
+};
+
+export const convertUTCToLocalTime = date => {
+  const d = isDate(date) ? date : new Date(date);
+  const offset = new Date().getTimezoneOffset();
+  d.setMinutes(d.getMinutes() - offset);
+  return d;
+};
+
+export const hasWaitedLongEnough = ({ now, then, intervalSecs }) => (now.getTime() - then.getTime()) / 1000 > intervalSecs;

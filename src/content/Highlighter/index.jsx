@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import Browser from 'webextension-polyfill';
 
 import { sendMessage } from '@browsers/message';
-import { getStorage, setStorage } from '@browsers/storage';
 import { EVENT_TYPE } from '@constants/browser';
 import {
   CONTENT_SCRIPT_ROOT_CLASS,
@@ -12,15 +11,15 @@ import {
   HIGHLIGHTER_POPUP_IS_SHOWING_CLASS,
 } from '@constants/index';
 import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, EXT_MSG_TYPE_CONFIG_UPDATE } from '@constants/messages';
-import { EXT_STORAGE_CONFIG } from '@constants/storage';
 import { POPUP_MAX_WIDTH } from '@constants/styles';
 import { parseAllNodes } from '@content/Highlighter/injectHighlight';
 import { insertFontStyles } from '@content/Highlighter/scripts';
-import { tryUpdateWebContent } from '@content/Highlighter/updateHighlight';
-import { DEFAULT_CONFIG, isConfigEqual, setURLToConfigFormat } from '@utils/config';
+import { updateWebContent } from '@content/Highlighter/updateHighlight';
+import { DEFAULT_CONFIG, getConfig, setURLToConfigFormat, shouldUpdateConfig, storeConfig, trySyncUpConfigToServer } from '@utils/config';
 import { getAllTextNodesFromDOM } from '@utils/dom';
 import { getAllWords, getDetailDisplayPos } from '@utils/highlight';
 import { logger } from '@utils/logger';
+import { getLocalDate } from '@utils/time';
 
 import Detail from './Detail';
 
@@ -119,20 +118,31 @@ const Highlighter = () => {
     return () => clearInterval(interval);
   }, [config]);
 
-  const loadConfig = async () => {
-    const cache = await getStorage({ type: 'local', key: EXT_STORAGE_CONFIG });
-    const c = cache[EXT_STORAGE_CONFIG] || DEFAULT_CONFIG;
-    if (!isConfigEqual(c, config)) {
-      setConfig(c);
-      return c;
+  const loadConfig = async ({ syncToBackend = false } = {}) => {
+    const cache = await getConfig();
+    const isEmpty = !cache;
+    let latestConfig = isEmpty ? DEFAULT_CONFIG : cache;
+
+    let isStale = null;
+    if (syncToBackend && !isEmpty) {
+      const result = await trySyncUpConfigToServer(cache);
+      latestConfig = result.latestConfig;
+      isStale = result.isStale;
+    }
+
+    if (isStale || shouldUpdateConfig({ currConfig: latestConfig, prevConfig: config })) {
+      if (!isStale) {
+        await storeConfig(latestConfig);
+      }
+      setConfig(latestConfig);
+      return latestConfig;
     }
     return null;
   };
 
   const onConfigUpdate = async () => {
     const latestConfig = await loadConfig();
-    // if (latestConfig.suspendedPages.includes(setURLToConfigFormat(window.location))) { return; } // If the words are highlighted, just keep it
-    tryUpdateWebContent(latestConfig, prevConfig.current);
+    updateWebContent(latestConfig, prevConfig.current);
   };
 
   const onMessageListener = (message, sender, sendResponse) => {
@@ -178,7 +188,7 @@ const Highlighter = () => {
   const setup = async () => {
     loadWords();
     registerGlobalEventHandler();
-    await Promise.all([handleExtensionMessage(), loadConfig(), insertCSS()]);
+    await Promise.all([handleExtensionMessage(), loadConfig({ syncToBackend: true }), insertCSS()]);
     setIsInit(false);
   };
 
@@ -191,13 +201,19 @@ const Highlighter = () => {
   const onCollectWord =
     ({ id, isCollected }) =>
     async () => {
-      // Background and all the currently opened popups receive this message. Also, background will redirect this message to other content-scripts
-      const collectedWords = isCollected ? config.collectedWords.filter(wordId => wordId !== id) : [...config.collectedWords, id];
-      const newConfig = { ...config, collectedWords };
-
-      await setStorage({ type: 'local', key: EXT_STORAGE_CONFIG, value: newConfig });
-      sendMessage({ type: EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, payload: { state: newConfig, prevState: config } });
-      setConfig(newConfig);
+      // Background and all the currently opened popups receive this message directly
+      // Background syncs up latest config with server, stores to storage, and redirects message to other content-scripts
+      const newConfig = {
+        ...config,
+        collectedWords: isCollected ? config.collectedWords.filter(wordId => wordId !== id) : [...config.collectedWords, id],
+        updatedAt: getLocalDate(),
+      };
+      const { latestConfig, isStale } = await trySyncUpConfigToServer(newConfig);
+      if (!isStale) {
+        await storeConfig(latestConfig);
+      }
+      await sendMessage({ type: EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, payload: { state: newConfig, prevState: config } });
+      setConfig(latestConfig);
     };
 
   const isCollected = config.collectedWords?.includes(wordData?.id); // Note that config takes a while to load in the beginning

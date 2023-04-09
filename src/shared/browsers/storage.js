@@ -20,8 +20,8 @@ const store = {
 };
 
 export const setStorage = async ({ type, key, value }) => {
-  if (!key || !value) {
-    logger(`Error! Both key and value should not be empty. Key: ${key}, Value: ${value}`);
+  if (!key) {
+    logger(`Error! Key should not be empty. Key: ${key}, Value: ${value}`);
     return;
   }
   if (type !== 'sync' && type !== 'local') {

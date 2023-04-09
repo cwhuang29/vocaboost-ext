@@ -1,28 +1,24 @@
-import { getStorage, setStorage } from '@browsers/storage';
-import { EXT_STORAGE_CONFIG, EXT_STORAGE_WORD_LIST } from '@constants/storage';
-import { DEFAULT_CONFIG, storeConfig } from '@utils/config';
+import { setStorage } from '@browsers/storage';
+import { EXT_STORAGE_WORD_LIST } from '@constants/storage';
+import { DEFAULT_CONFIG, getConfig, storeConfig } from '@utils/config';
 import { logger } from '@utils/logger';
+import { getLocalDate } from '@utils/time';
 import { genWordDetailList } from '@utils/word';
 
 export const storeEssentialDataOnInstall = async () => {
-  const config = DEFAULT_CONFIG;
   const words = genWordDetailList();
 
-  await Promise.all([
-    setStorage({ type: 'local', key: EXT_STORAGE_CONFIG, value: config }),
-    setStorage({ type: 'local', key: EXT_STORAGE_WORD_LIST, value: JSON.stringify(words) }),
-  ]);
+  await Promise.all([storeConfig(DEFAULT_CONFIG), setStorage({ type: 'local', key: EXT_STORAGE_WORD_LIST, value: JSON.stringify(words) })]);
 
   logger('[background] Init storage settings done!');
 };
 
 // Note: this function should be updated everytime
 export const updateIfNeeded = async () => {
-  const cfg = await getStorage({ type: 'local', key: EXT_STORAGE_CONFIG });
+  const config = await getConfig();
 
-  if (!cfg[EXT_STORAGE_CONFIG].suspendedPages) {
-    const newCfg = { ...cfg[EXT_STORAGE_CONFIG], suspendedPages: [], updatedAt: new Date() };
-    await storeConfig(newCfg);
+  if (!config.suspendedPages) {
+    await storeConfig({ ...config, suspendedPages: [], updatedAt: getLocalDate() });
     logger('[background] config is updated (added the suspendedPages attr)!');
   }
 };

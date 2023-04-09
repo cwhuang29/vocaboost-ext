@@ -5,6 +5,7 @@ import StarIcon from '@mui/icons-material/Star';
 import { Box, Typography } from '@mui/material';
 
 import { HIGHLIGHTER_CLASS, HIGHLIGHTER_POS_CLASS, LANGS, ONLINE_DIC_URL, PARTS_OF_SPEECH_SHORTHAND } from '@constants/index';
+import { getLocalDate } from '@utils/time';
 import { genWordDetailList } from '@utils/word';
 
 import { popupSettingActionType } from './action';
@@ -40,7 +41,10 @@ const CollectedWords = ({ config, handleChange }) => {
   };
 
   const starIconOnClick = id => () => {
-    handleChange({ type: popupSettingActionType.OVERRIDE_ALL, payload: { ...config, collectedWords: config.collectedWords.filter(wordId => wordId !== id) } });
+    handleChange({
+      type: popupSettingActionType.OVERRIDE_ALL,
+      payload: { ...config, collectedWords: config.collectedWords.filter(wordId => wordId !== id), updatedAt: getLocalDate() },
+    });
   };
 
   const iconStyle = { cursor: 'pointer', fontSize: '20px', marginLeft: '6%' };

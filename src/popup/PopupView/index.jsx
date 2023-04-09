@@ -5,7 +5,7 @@ import { getCurrentTab, sendMessage, sendMessageToTab } from '@browsers/message'
 import { EXT_MSG_TYPE_CONFIG_UPDATE } from '@constants/messages';
 import { useExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import usePrevious from '@hooks/usePrevious';
-import { DEFAULT_CONFIG, getConfig, isConfigEqual, setURLToConfigFormat, storeConfig, syncUpConfigToServer } from '@utils/config';
+import { DEFAULT_CONFIG, getConfig, setURLToConfigFormat, shouldUpdateConfig, storeConfig, trySyncUpConfigToServer } from '@utils/config';
 
 import { popupSettingActionType } from './action';
 import BaseWrapper from './BaseWrapper';
@@ -31,7 +31,7 @@ const PopupView = () => {
    * 4. Get the latest config from the following function. Update accordingly and notify current tab's content-script
    */
   useEffect(() => {
-    if (Object.keys(ctxConfig).length > 0 && !isConfigEqual(state, ctxConfig)) {
+    if (shouldUpdateConfig({ currConfig: ctxConfig, prevConfig: state })) {
       dispatch({ type: popupSettingActionType.OVERRIDE_ALL, payload: ctxConfig });
       sendMessageToTab({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state: ctxConfig, prevState: state } });
     }
@@ -39,13 +39,15 @@ const PopupView = () => {
 
   useEffect(() => {
     const stateOnChange = async () => {
-      if (!prevState || isConfigEqual(state, prevState)) {
+      if (!prevState || !shouldUpdateConfig({ currConfig: state, prevConfig: prevState })) {
         return;
       }
       // 1. Sync up to backend (ext popup only runs when user open it, and immediately stop after mouse clicking elsewhere, so the benefit of using websocket is slim)
-      const latestState = await syncUpConfigToServer(state);
+      const { latestConfig: latestState, isStale } = await trySyncUpConfigToServer(state);
       // 2. Update the latest config to cache
-      await storeConfig(latestState);
+      if (!isStale) {
+        await storeConfig(latestState);
+      }
       // 3. Notify other tabs, extension (popup), and background. Note that extension popups only receive messages if they are active/open
       sendMessage({ type: EXT_MSG_TYPE_CONFIG_UPDATE, payload: { state: latestState, prevState } });
       // 4. Notify current tab's content-script. When opening extension popup as a webpage, there is no content script running. Hence, skip sending the message
@@ -58,8 +60,8 @@ const PopupView = () => {
 
   const loadConfig = async () => {
     const cfg = await getConfig();
-    const latestCfg = await syncUpConfigToServer(cfg ?? DEFAULT_CONFIG);
-    dispatch({ type: popupSettingActionType.OVERRIDE_ALL, payload: latestCfg });
+    const { latestConfig } = await trySyncUpConfigToServer(cfg ?? DEFAULT_CONFIG);
+    dispatch({ type: popupSettingActionType.OVERRIDE_ALL, payload: latestConfig });
   };
 
   const prepareURLInfo = async () => {
@@ -96,7 +98,7 @@ const PopupView = () => {
         </Section>
 
         <Section className='profile'>
-          <Profile numCollectedWords={state.collectedWords.length} />
+          <Profile numCollectedWords={state.collectedWords.length} handleChange={handleChange} />
         </Section>
 
         <Section className='setting'>

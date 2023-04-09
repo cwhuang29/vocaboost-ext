@@ -28,10 +28,6 @@ export const validateMsg = {
   },
 };
 
-export const formMsg = {
-  ACCESS_VIA_LINK: 'You can only access this page via links',
-};
-
 export const EXT_MSG_TYPE_INIT_SETUP = 'EXT_MSG_TYPE_INIT_SETUP';
 export const EXT_MSG_TYPE_GET_WORD_LIST = 'EXT_MSG_TYPE_GET_WORD_LIST';
 export const EXT_MSG_TYPE_INSERT_CSS = 'EXT_MSG_TYPE_INSERT_CSS';

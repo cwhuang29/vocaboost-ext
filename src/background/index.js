@@ -1,10 +1,10 @@
 import Browser from 'webextension-polyfill';
 
-import { sendMessageToOtherContentScripts } from '@browsers/message';
 import { BROWSER_ONINSTALL_REASON } from '@constants/browser';
 import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE } from '@constants/messages';
 import { logger } from '@utils/logger';
 
+import { onCollectedWordsUpdate } from './helper';
 import { storeEssentialDataOnInstall, updateIfNeeded } from './init';
 
 const onInstalledListener = details => {
@@ -18,16 +18,15 @@ const onInstalledListener = details => {
   }
 };
 
-// eslint-disable-next-line
-const onMessageListener = async (message, sender, sendResponse) => {
+// eslint-disable-next-line consistent-return
+const onMessageListener = async (message, sender) => {
   const sdr = sender.tab ? `from a content script: ${sender.tab.url}` : 'from the extension';
   logger(`[background] message received: ${message.type}. Sender: ${sdr}`);
 
   switch (message.type) {
     case EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE:
-      // Since content-script cannot access the Browser.tabs API, use background to notify (redirect to) other tabs
-      sendMessageToOtherContentScripts(message);
-      break;
+      await onCollectedWordsUpdate(message);
+      return true;
     default:
       break;
   }
@@ -35,8 +34,10 @@ const onMessageListener = async (message, sender, sendResponse) => {
 
 const onStorageChangedListener = (changes, namespace) => {
   for (const [key, { oldValue = '<empty>', newValue = '<empty>' }] of Object.entries(changes)) {
-    const oldVal = oldValue.constructor === Object ? JSON.stringify(oldValue) : oldValue;
-    const newVal = newValue.constructor === Object ? JSON.stringify(newValue) : newValue;
+    let oldVal = oldValue ?? '<empty>';
+    let newVal = oldValue ?? '<empty>';
+    oldVal = oldVal.constructor === Object ? JSON.stringify(oldVal) : oldValue;
+    newVal = newVal.constructor === Object ? JSON.stringify(newVal) : newValue;
     const msg = `Storage key "${key}" in namespace "${namespace}" changed. Old value was "${oldVal}", new value is "${newVal}"`;
     logger(msg);
   }

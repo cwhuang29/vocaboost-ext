@@ -7,15 +7,15 @@ const login = async payload =>
   fetch
     .post(API.V1.LOGIN, payload)
     .then(async resp => {
-      const { accessToken } = resp.data;
+      const { token, isNewUser } = resp.data;
       let userData = {};
 
-      if (accessToken) {
-        const header = { Authorization: `Bearer ${accessToken}` };
+      if (token.accessToken) {
+        const header = { Authorization: `Bearer ${token.accessToken}` };
         const data = await userService.getMe(header).catch(error => Promise.reject(error));
         userData = { ...data };
       }
-      return { token: accessToken, user: userData };
+      return { token: token.accessToken, isNewUser, user: userData };
     })
     .catch(err => Promise.reject(extractErrorMessage(err)));
 

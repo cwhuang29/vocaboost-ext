@@ -27,9 +27,9 @@ const shouldClearStyle = config => config.suspendedPages.includes(setURLToConfig
 
 const shouldUpdateStyle = (config, prevConfig) => {
   const url = setURLToConfigFormat(window.location);
-  const currSuspense = config.suspendedPages.includes(url);
-  const prevSuspense = prevConfig.suspendedPages.includes(url);
-  if (!currSuspense && prevSuspense) {
+  const nowSuspending = config.suspendedPages.includes(url);
+  const prevSuspended = prevConfig.suspendedPages.includes(url);
+  if (!nowSuspending && prevSuspended) {
     return true;
   }
 
@@ -37,7 +37,7 @@ const shouldUpdateStyle = (config, prevConfig) => {
   return keys.some(key => config[key] !== prevConfig[key]);
 };
 
-export const tryUpdateWebContent = (config, prevConfig = {}) => {
+export const updateWebContent = (config, prevConfig = {}) => {
   if (!config) {
     return;
   }

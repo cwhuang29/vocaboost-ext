@@ -17,6 +17,7 @@ const getGoogleUserInfoHeader = ({ token }) => ({
 });
 
 const getGoogleUserNameCb = json => ({
+  accountId: json.resourceName.split('/')[1],
   firstName: json[GOOGLE_PERSON_FIELDS.NAME][0].givenName,
   lastName: json[GOOGLE_PERSON_FIELDS.NAME][0].familyName,
 });
