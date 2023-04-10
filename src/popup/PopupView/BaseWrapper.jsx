@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 const BaseWrapper = ({ children }) => (
   <Box
     sx={{
-      padding: '12px',
+      padding: '10px',
       backgroundColor: '#f1f3f4',
     }}
   >

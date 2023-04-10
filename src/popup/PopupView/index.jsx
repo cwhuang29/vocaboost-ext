@@ -81,7 +81,7 @@ const PopupView = () => {
 
   return (
     <BaseWrapper>
-      <Stack spacing={2}>
+      <Stack spacing={1.5}>
         <Section className='daily-word'>
           <SectionTitle>Daily word</SectionTitle>
           <DailyWord language={state.language} />

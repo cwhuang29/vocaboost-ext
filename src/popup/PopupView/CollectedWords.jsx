@@ -50,7 +50,7 @@ const CollectedWords = ({ config, handleChange }) => {
   const iconStyle = { cursor: 'pointer', fontSize: '20px', marginLeft: '6%' };
 
   return (
-    <Box style={{ maxHeight: '442px', overflowY: 'auto' }}>
+    <Box style={{ maxHeight: '245px', overflowY: 'auto' }}>
       {words.map(({ id, word, detail }, wordIdx) => (
         <Box key={id}>
           <Box style={{ display: 'flex', alignItems: 'center' }}>
