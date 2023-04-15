@@ -46,6 +46,10 @@ export const HIGHLIGHTER_FONT_SIZE = {
   LARGE: 'LARGE',
 };
 
+export const HIGHLIGHTER_FONT_STYLE = {
+  ROBOTO: 'ROBOTO',
+};
+
 export const HIGHLIGHTER_BG_COLORS = {
   PINK: 'PINK',
   ORANGE: 'ORANGE',

@@ -15,7 +15,7 @@ export const storeEssentialDataOnInstall = async () => {
 
 // Note: this function should be updated everytime
 export const updateIfNeeded = async () => {
-  const config = await getConfig();
+  const config = (await getConfig()) || DEFAULT_CONFIG;
 
   if (!config.suspendedPages) {
     await storeConfig({ ...config, suspendedPages: [], updatedAt: getLocalDate() });

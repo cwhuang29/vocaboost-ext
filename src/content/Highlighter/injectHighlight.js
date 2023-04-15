@@ -11,7 +11,7 @@ import {
 import { genHighlightSyntax } from '@utils/highlight';
 import { logger } from '@utils/logger';
 
-export const extractWordsFromValues = ({ value, words }) => {
+export const extractWordsFromNode = ({ value, words }) => {
   const parsed = value
     .replace(/[^a-z]/gi, ' ')
     .split(' ')
@@ -33,6 +33,7 @@ export const shouldAddHighlight = node =>
   node.parentNode.tagName !== 'STYLE' &&
   node.parentNode.tagName !== 'SCRIPT' &&
   node.parentNode.tagName !== 'NOSCRIPT' &&
+  node.parentNode.tagName !== 'TEXTAREA' &&
   !node.parentNode.classList.contains(HIGHLIGHTER_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_ORG_WORD_CLASS) &&
   !node.parentNode.classList.contains(HIGHLIGHTER_TARGET_WORD_CLASS) &&
@@ -51,7 +52,7 @@ export const parseAllNodes = (nodes, words, config) => {
   nodes
     .filter(node => shouldAddHighlight(node))
     .forEach(node => {
-      const matchedWords = extractWordsFromValues({ value: node.nodeValue, words });
+      const matchedWords = extractWordsFromNode({ value: node.nodeValue, words });
       if (matchedWords.length) {
         // If we update parent node right now, subsequent nodes with same parent node may lose their parent node (node.parentNode becomes null)
         const args = { config, nodeValue: node.nodeValue, matchedWords };

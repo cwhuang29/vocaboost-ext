@@ -1,5 +1,5 @@
 import { getStorage, setStorage } from '@browsers/storage';
-import { HIGHLIGHTER_BG_COLORS, HIGHLIGHTER_FONT_SIZE, LANGS } from '@constants/index';
+import { HIGHLIGHTER_BG_COLORS, HIGHLIGHTER_FONT_SIZE, HIGHLIGHTER_FONT_STYLE, LANGS } from '@constants/index';
 import { EXT_SYNC_UP_CONFIG_INTERVAL } from '@constants/network';
 import { EXT_STORAGE_CONFIG, EXT_STORAGE_LAST_SYNC_UP_TIME } from '@constants/storage';
 import userService from '@services/user.service';
@@ -13,10 +13,16 @@ export const DEFAULT_CONFIG = {
   highlightColor: HIGHLIGHTER_BG_COLORS.YELLOW,
   language: LANGS.en,
   fontSize: HIGHLIGHTER_FONT_SIZE.MEDIUM,
+  fontStyle: HIGHLIGHTER_FONT_STYLE.ROBOTO,
   showDetail: true,
   collectedWords: [],
   suspendedPages: [],
   updatedAt: new Date('Wed Apr 05 2000 00:00:00'),
+};
+
+export const storeConfig = config => {
+  const serialize = { ...config, updatedAt: config.updatedAt.toString() };
+  setStorage({ type: 'local', key: EXT_STORAGE_CONFIG, value: serialize });
 };
 
 export const getConfig = async () => {
@@ -28,23 +34,23 @@ export const getConfig = async () => {
   return config;
 };
 
-export const storeConfig = config => {
-  const serialize = { ...config, updatedAt: config.updatedAt.toString() };
-  setStorage({ type: 'local', key: EXT_STORAGE_CONFIG, value: serialize });
+export const storeLastSyncUpTime = () => setStorage({ type: 'sync', key: EXT_STORAGE_LAST_SYNC_UP_TIME, value: getLocalDate().toString() });
+
+export const getLastSyncUpTime = async () => {
+  const cache = await getStorage({ type: 'sync', key: EXT_STORAGE_LAST_SYNC_UP_TIME });
+  const lastSyncUpTime = cache[EXT_STORAGE_LAST_SYNC_UP_TIME] ?? null;
+  return lastSyncUpTime ? new Date(lastSyncUpTime) : null;
 };
 
 const canSyncUpAgain = async () => {
-  const token = await getAuthTokenFromStorage();
+  const [token, lastSyncUpTime] = await Promise.all([getAuthTokenFromStorage(), getLastSyncUpTime()]);
   if (!token) {
     return false;
   }
-
-  const cache = await getStorage({ type: 'sync', key: EXT_STORAGE_LAST_SYNC_UP_TIME });
-  const lastSyncUpTimeStr = cache[EXT_STORAGE_LAST_SYNC_UP_TIME] ?? null;
-  if (!lastSyncUpTimeStr) {
+  if (!lastSyncUpTime) {
     return true;
   }
-  return hasWaitedLongEnough({ now: getLocalDate(), then: new Date(lastSyncUpTimeStr), intervalSecs: EXT_SYNC_UP_CONFIG_INTERVAL });
+  return hasWaitedLongEnough({ now: getLocalDate(), then: lastSyncUpTime, intervalSecs: EXT_SYNC_UP_CONFIG_INTERVAL });
 };
 
 const syncUpConfigToServer = async config => {
@@ -63,7 +69,7 @@ const syncUpConfigToServer = async config => {
       logger(`Ext config is outdated. Store latest config from backend: ${latestConfig}`);
       await storeConfig(latestConfig);
     }
-    await setStorage({ type: 'sync', key: EXT_STORAGE_LAST_SYNC_UP_TIME, value: getLocalDate().toString() });
+    await storeLastSyncUpTime();
   } catch (err) {
     // do nothing
   }
@@ -73,16 +79,13 @@ const syncUpConfigToServer = async config => {
 export const trySyncUpConfigToServer = async config => {
   const canSyncUp = await canSyncUpAgain();
   if (!canSyncUp) {
-    logger('Cannot sync up due to lack of token or querying to frequently');
+    logger('Cannot sync up due to lack of token or querying too frequently');
     return { latestConfig: config, isStale: false };
   }
   return syncUpConfigToServer(config);
 };
 
-export const getLatestConfigFromServerOnLogin = async (config = null) => {
-  const c = isObjectEmpty(config) ? DEFAULT_CONFIG : config;
-  return syncUpConfigToServer(c);
-};
+export const getLatestConfigFromServerOnLogin = async () => syncUpConfigToServer(DEFAULT_CONFIG);
 
 export const isConfigEqual = (config1 = {}, config2 = {}) => {
   const c1 = isObject(config1) ? config1 : JSON.parse(config1);
@@ -107,7 +110,6 @@ export const shouldUpdateConfig = ({ currConfig, prevConfig }) => {
   if (isObjectEmpty(currConfig)) {
     return false;
   }
-
   if (!currConfig.updatedAt) {
     return false;
   }
