@@ -3,7 +3,7 @@
   "name": "VocaBoost - GRE Vocabulary Highlighter",
   "description": "Highlight GRE vocabulary on every web page you visit.",
   "author": "jimmyhuang29@g.ucla.edu",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAowcsVmkdKJnq7bQL+tBi1K9idUhv2AGW+MTQEUgJNRDX3+0SutsERee7EeZ9PsItwRRl9RmVHCj5HsQYu9hQ6sO8k7WdRFI3qRlbS2TN4GWJM4TsQi1lDhLtEUBgeZtb/N4IvBWJWL6Gn2xhhswp7bFnTmzusnmXDeTk4IsyC/e/PO2faULsEJO23wZs0+aPOfivmLNwvwiugARXNNzJT7JLyslREkap7eezUeSWoBGHVfppWrVxuoCL3L0U8+qWIhkhaD6NRgl4E98UcuKGkHrci+60+EhmzKB46g3uLBGgKkaXpSRKTwoVGVcCgOOlTNSayvyoyFZEyITF96w3SwIDAQAB",
   "oauth2": {
     "client_id": "246466308749-caiulv5e45ccpt9f55aeogkc05s9tbje.apps.googleusercontent.com",
