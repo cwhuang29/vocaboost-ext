@@ -1,16 +1,27 @@
 # VocaBoost - GRE Vocabulary Highlighter
 
-Install this extension on [chrome web store](https://chrome.google.com/webstore/detail/gre-vocabulary-highlighte/gfkmbmplhjdoejicgmaldndkcnnpplho).
+View VocaBoost official website on [here](https://www.vocabularyboost.com/).
 
-The goal of this project is to assist non-native English speakers in preparing for the GRE exam. When a user is browsing webpages, all the GRE vocabularies are highlighted. A popup window with definitions, examples, and a link to the Cambridge Dictionary is displayed when the mouse hovers/clicks the highlighted word.
+Install VocaBoost extension on [Chrome Web Store](https://chrome.google.com/webstore/detail/gre-vocabulary-highlighte/gfkmbmplhjdoejicgmaldndkcnnpplho).
 
-Users can add/remove words from their collection by clicking the star icon, and review their word list by clicking the extension's icon in the browser toolbar.
+Install VocaBoost app on [App Store](https://apps.apple.com/app/vocabboost/id6447704480).
 
-Users can login with Google account (just click the button and they are good to go) to save all the collected words and setting!
+VocaBoost is designed to help non-native English speakers improve their language skills and prepare for the GRE exam. With over 1500 of the most commonly used GRE vocabulary and phrases, VocaBoost is an essential tool for anyone looking to boost their English proficiency.
 
-Users can also change the highlight color, the popup window's font size, and the language of the dictionary by clicking the extension icon on the toolbar.
+This browser extension that highlights 1500 GRE words on every web page you visit. When you hover mouse over a highlighted word, a popup window appears with its definition, examples, and a link to an online dictionary for further reference.
 
-There are about 1500 most common GRE vocabulary words collected.
+If you come across an unfamiliar word, simply add it to your list and review it later on our app or by clicking the icon in browser toolbar.
+
+With VocaBoost, you can expand your English vocabulary and enhance your language skills no matter where you are or what you're doing.
+
+
+### Features
+
+* Login with Google account to save all the collected words, and synchronize with the app!
+
+* Add/remove words from their collection by clicking the star icon, and review their word list by clicking the extension's icon in the browser toolbar.
+
+* Change the highlight color, the popup window's font size, and the language of the dictionary by clicking the extension icon on the toolbar.
 
 ## Demo
 
