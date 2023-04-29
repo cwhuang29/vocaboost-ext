@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Box } from '@mui/material';
 import Browser from 'webextension-polyfill';
 
 import menuBookIcon from '@/../assets/svgs/menu_book.svg';
+import speakerIcon from '@/../assets/svgs/speaker.svg';
 import starIcon from '@/../assets/svgs/star.svg';
 import {
   HIGHLIGHTER_COLLECTED,
@@ -19,6 +21,7 @@ import {
   ONLINE_DIC_URL,
   PARTS_OF_SPEECH_SHORTHAND,
 } from '@constants/index';
+import { DEFAULT_SPEECH_RATE } from '@constants/styles';
 import { constructWordExample } from '@utils/highlight';
 
 const Word = ({ word, fontSize }) => <div className={`${HIGHLIGHTER_TARGET_WORD_CLASS} ${HIGHLIGHTER_FONT_SIZE_CLASS[fontSize]}`}>{word}</div>;
@@ -26,9 +29,24 @@ const Word = ({ word, fontSize }) => <div className={`${HIGHLIGHTER_TARGET_WORD_
 // Note that width attribute of img tag might be override. It is better to set by using style
 const Link = ({ word, href, img }) => (
   <a className={HIGHLIGHTER_ICON_CLASS} href={href} data-word={word} target='_blank' rel='noopener noreferrer'>
-    <img src={img} alt='link to online dict' width={26} style={{ width: '26px', filter: 'invert(94%)' }} />
+    <img className={HIGHLIGHTER_NOT_COLLECTED} src={img} alt='link to online dict' width={26} style={{ width: '26px' }} />
   </a>
 );
+
+const SpeakerButton = ({ img, word }) => {
+  const msg = new SpeechSynthesisUtterance();
+  msg.rate = DEFAULT_SPEECH_RATE;
+  msg.text = word;
+
+  const onClick = () => {
+    window.speechSynthesis.speak(msg);
+  };
+  return (
+    <button className={HIGHLIGHTER_ICON_CLASS} onClick={onClick} type='button' style={{ backgroundColor: 'inherit', border: '0px' }}>
+      <img className={HIGHLIGHTER_NOT_COLLECTED} src={img} alt='speaker button' width={24} style={{ width: '24px' }} />
+    </button>
+  );
+};
 
 // CSS '!important' is not working properly. See: https://github.com/facebook/react/issues/1881#issuecomment-262257503
 const StarButton = ({ id, isCollected, img, onClick }) => (
@@ -53,12 +71,13 @@ const Example = ({ example }) => <span className={HIGHLIGHTER_EXAMPLE_CLASS}>{co
 
 const Detail = ({ display, posStyle, wordData, language, fontSize, isCollected, onCollectWord }) =>
   display && (
-    <div className={HIGHLIGHTER_DETAIL_CLASS} style={posStyle}>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
+    <Box className={HIGHLIGHTER_DETAIL_CLASS} style={posStyle}>
+      <Box style={{ display: 'flex', alignItems: 'center' }}>
         <Word word={wordData.word} fontSize={fontSize} />
-        <Link word={wordData.word} href={`${ONLINE_DIC_URL[language]}${wordData.word}`} img={Browser.runtime.getURL(menuBookIcon)} />
-        <StarButton id={wordData.id} isCollected={isCollected} img={Browser.runtime.getURL(starIcon)} onClick={onCollectWord} />
-      </div>
+        <Link img={Browser.runtime.getURL(menuBookIcon)} word={wordData.word} href={`${ONLINE_DIC_URL[language]}${wordData.word}`} />
+        <SpeakerButton img={Browser.runtime.getURL(speakerIcon)} word={wordData.word} />
+        <StarButton img={Browser.runtime.getURL(starIcon)} id={wordData.id} isCollected={isCollected} onClick={onCollectWord} />
+      </Box>
       {wordData.detail.map(
         ({ meaning, partsOfSpeech, example }) =>
           partsOfSpeech && (
@@ -70,7 +89,7 @@ const Detail = ({ display, posStyle, wordData, language, fontSize, isCollected, 
             </DetailItem>
           )
       )}
-    </div>
+    </Box>
   );
 
 Word.propTypes = {
@@ -89,6 +108,11 @@ StarButton.propTypes = {
   isCollected: PropTypes.bool.isRequired,
   img: PropTypes.string.isRequired,
   onClick: PropTypes.func.isRequired,
+};
+
+SpeakerButton.propTypes = {
+  img: PropTypes.string.isRequired,
+  word: PropTypes.string.isRequired,
 };
 
 DetailItem.propTypes = {

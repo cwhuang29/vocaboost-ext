@@ -6,6 +6,8 @@ export const SLIDE_SHOW_DELAY = 3000;
 
 export const HIGHLIGHTER_POPUP_DISPLAY_DELTA = 12;
 
+export const DEFAULT_SPEECH_RATE = 0.96;
+
 export const GLOBAL_MESSAGE_SERVERITY = {
   ERROR: 'error',
   WARNING: 'warning',

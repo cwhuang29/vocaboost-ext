@@ -2,9 +2,11 @@ import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import StarIcon from '@mui/icons-material/Star';
+import VolumeUpIcon from '@mui/icons-material/VolumeUp';
 import { Box, Typography } from '@mui/material';
 
 import { HIGHLIGHTER_CLASS, HIGHLIGHTER_POS_CLASS, LANGS, ONLINE_DIC_URL, PARTS_OF_SPEECH_SHORTHAND } from '@constants/index';
+import { DEFAULT_SPEECH_RATE } from '@constants/styles';
 import { getLocalDate } from '@utils/time';
 import { genWordDetailList } from '@utils/word';
 
@@ -34,10 +36,17 @@ const CollectedWords = ({ config, handleChange }) => {
   const { language, collectedWords } = config;
   const wordListMapping = useMemo(() => new Map(genWordDetailList().map(item => [item.id, item])), []);
   const words = collectedWords.map(wordId => wordListMapping.get(wordId)).filter(word => word);
+  const msg = new SpeechSynthesisUtterance();
+  msg.rate = DEFAULT_SPEECH_RATE;
 
   const menuBookIconOnClick = word => () => {
     const link = `${ONLINE_DIC_URL[language]}${word}`;
     window.open(link, '_blank', 'noopener, noreferrer');
+  };
+
+  const speakerIconOnClick = word => () => {
+    msg.text = word;
+    window.speechSynthesis.speak(msg);
   };
 
   const starIconOnClick = id => () => {
@@ -57,6 +66,7 @@ const CollectedWords = ({ config, handleChange }) => {
             <Word word={word} />
             <Box style={{ marginLeft: 'auto' }} />
             <MenuBookIcon onClick={menuBookIconOnClick(word)} style={iconStyle} />
+            <VolumeUpIcon onClick={speakerIconOnClick(word)} style={iconStyle} />
             <StarIcon
               onClick={starIconOnClick(id)}
               style={{ ...iconStyle, filter: 'invert(82%) sepia(47%) saturate(2207%) hue-rotate(356deg) brightness(102%) contrast(107%)' }}
