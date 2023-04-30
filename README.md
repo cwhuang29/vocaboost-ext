@@ -12,16 +12,20 @@ This browser extension that highlights 1500 GRE words on every web page you visi
 
 If you come across an unfamiliar word, simply add it to your list and review it later on our app or by clicking the icon in browser toolbar.
 
-With VocaBoost, you can expand your English vocabulary and enhance your language skills no matter where you are or what you're doing.
-
 
 ### Features
 
-* Login with Google account to save all the collected words, and synchronize with the app!
+* Integrate with external Oauth services to perform authentication
 
-* Add/remove words from their collection by clicking the star icon, and review their word list by clicking the extension's icon in the browser toolbar.
+* Once you login, your collected words and settings will be synchronized with the app and store in the database
 
-* Change the highlight color, the popup window's font size, and the language of the dictionary by clicking the extension icon on the toolbar.
+* Add/remove words from collection by clicking the icon, and review word list by clicking the extension's icon in the browser toolbar or on mobile app
+
+* Change the highlight color, the popup window's font size, and the language of the dictionary by clicking the extension icon on the toolbar
+
+## System Architecture
+
+![System Architecture](demo/vocaboost-system-architecture.jpg)
 
 ## Demo
 
