@@ -27,6 +27,11 @@ import Detail from './Detail';
  * Note that all customizations set by user except collecting words are passively updated, i.e., only the collect words operation is immediately reflected on other tabs
  */
 
+const registerGlobalEventHandler = listener => {
+  document.addEventListener('click', listener(EVENT_TYPE.CLICK));
+  document.addEventListener('mousemove', listener(EVENT_TYPE.HOVER));
+};
+
 const Highlighter = () => {
   const [config, setConfig] = useState({});
   const [isInit, setIsInit] = useState(true);
@@ -34,7 +39,7 @@ const Highlighter = () => {
   const [posStyle, setPosStyle] = useState({});
   const [showPopupHover, setShowPopupHover] = useState(false);
   const [showPopupClick, setShowPopupClick] = useState(false);
-  const words = useRef({});
+  const wordList = useRef({});
   const prevConfig = useRef({});
   const prevWebNodeCount = useRef(-1);
 
@@ -50,7 +55,7 @@ const Highlighter = () => {
   const showPopup = ({ type, word, ...posInfo }) => {
     const displayPos = getDetailDisplayPos({ ...posInfo, width: POPUP_MAX_WIDTH });
     setPosStyle({ left: `${displayPos.x}px`, top: `${displayPos.y}px` });
-    setWordData(words.current.get(word));
+    setWordData(wordList.current.get(word));
 
     if (type === EVENT_TYPE.CLICK) {
       document.getElementById(CONTENT_SCRIPT_ROOT_CLASS).classList.add(HIGHLIGHTER_POPUP_IS_SHOWING_CLASS);
@@ -98,13 +103,13 @@ const Highlighter = () => {
   const exec = () => {
     const nodes = getAllTextNodesFromDOM();
     if (nodes.length !== prevWebNodeCount.current) {
-      logger(`[content] Start. number of words: ${words.current.size}, number of text nodes: ${nodes.length}. Config: ${JSON.stringify(config)}`);
+      logger(`[content] Start. number of words: ${wordList.current.size}, number of text nodes: ${nodes.length}. Config: ${JSON.stringify(config)}`);
       prevWebNodeCount.current = nodes.length;
-      parseAllNodes(nodes, words.current, config);
+      parseAllNodes(nodes, wordList.current, config);
     }
   };
 
-  useEffect(() => {
+  const entrypoint = () => {
     if (isInit) {
       return;
     }
@@ -116,7 +121,25 @@ const Highlighter = () => {
     const interval = setInterval(() => exec(), HIGHLIGHTER_CHECK_INTERVAL);
     // eslint-disable-next-line consistent-return
     return () => clearInterval(interval);
-  }, [config]);
+  };
+
+  useEffect(() => {
+    const cleanup = entrypoint();
+    return cleanup;
+  }, [JSON.stringify(config)]);
+
+  const loadWordList = async language => {
+    // Word lists were prepared and stored into browser storage by service worker. Processing such a large amount of data in content script can paralyze it
+    wordList.current = await getAllWords(language);
+  };
+
+  const updateWordListAndWordData = async ({ language }) => {
+    await loadWordList(language);
+    const newWordData = wordList.current.get(wordData.word);
+    if (newWordData) {
+      setWordData(newWordData);
+    }
+  };
 
   const loadConfig = async ({ syncToBackend = false } = {}) => {
     const cache = await getConfig();
@@ -140,9 +163,14 @@ const Highlighter = () => {
     return null;
   };
 
-  const onConfigUpdate = async () => {
-    const latestConfig = await loadConfig();
-    updateWebContent(latestConfig, prevConfig.current);
+  const updateConfig = async ({ isFirstTime = false } = {}) => {
+    const latestConfig = await loadConfig({ syncToBackend: isFirstTime });
+    if (!isFirstTime) {
+      updateWebContent(latestConfig, prevConfig.current);
+    }
+    if (config?.language !== latestConfig.language) {
+      updateWordListAndWordData({ language: latestConfig.language });
+    }
   };
 
   const onMessageListener = (message, sender, sendResponse) => {
@@ -151,9 +179,8 @@ const Highlighter = () => {
 
     switch (message.type) {
       case EXT_MSG_TYPE_CONFIG_UPDATE:
-        // This message is sent by the popup on the same browser window
-        logger(`[content] prevState: ${message.payload?.prevState}. state: ${message.payload?.state}`);
-        onConfigUpdate();
+        logger(`[content] prevState: ${JSON.stringify(message.payload?.prevState)}. state: ${JSON.stringify(message.payload?.state)}`);
+        updateConfig();
         sendResponse({ payload: true });
         break;
       case EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE:
@@ -164,10 +191,11 @@ const Highlighter = () => {
     }
   };
 
-  const handleExtensionMessage = () => {
+  useEffect(() => {
+    // Re-register browser event listener every time the config changes or wordData changes (initial value is {}) to retrieve latest values in callback functions
     Browser.runtime.onMessage.addListener(onMessageListener);
-    return () => chrome.runtime.onMessage.removeListener(onMessageListener);
-  };
+    return () => Browser.runtime.onMessage.removeListener(onMessageListener);
+  }, [JSON.stringify(config), wordData.word]);
 
   const insertCSS = async () =>
     new Promise(res => {
@@ -175,27 +203,15 @@ const Highlighter = () => {
       res(true);
     });
 
-  const registerGlobalEventHandler = () => {
-    document.addEventListener('click', globalListener(EVENT_TYPE.CLICK));
-    document.addEventListener('mousemove', globalListener(EVENT_TYPE.HOVER));
-  };
-
-  const loadWords = async () => {
-    // The word list was prepared and stored into browser storage by background. Processing such a large amount of data in content script can paralyze it
-    words.current = await getAllWords();
-  };
-
   const setup = async () => {
-    loadWords();
-    registerGlobalEventHandler();
-    await Promise.all([handleExtensionMessage(), loadConfig({ syncToBackend: true }), insertCSS()]);
+    registerGlobalEventHandler(globalListener);
+    await loadWordList(DEFAULT_CONFIG.language); // Later when we load the config, the word list might change if necessary
+    await Promise.all([updateConfig({ isFirstTime: true }), insertCSS()]);
     setIsInit(false);
   };
 
   useEffect(() => {
     setup();
-    const cleanup = handleExtensionMessage();
-    return () => cleanup();
   }, []);
 
   const onCollectWord =

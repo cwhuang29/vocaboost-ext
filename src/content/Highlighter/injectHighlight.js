@@ -54,7 +54,7 @@ export const parseAllNodes = (nodes, words, config) => {
     .forEach(node => {
       const matchedWords = extractWordsFromNode({ value: node.nodeValue, words });
       if (matchedWords.length) {
-        // If we update parent node right now, subsequent nodes with same parent node may lose their parent node (node.parentNode becomes null)
+        // If update parent node right now, subsequent nodes with same parent node may lose their parent node (node.parentNode becomes null)
         const args = { config, nodeValue: node.nodeValue, matchedWords };
         map.set(cnt++, { parent: node.parentNode, orgValue: node.nodeValue, newValue: highlightMatchedWords(args) });
       }

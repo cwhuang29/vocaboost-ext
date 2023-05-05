@@ -6,6 +6,7 @@ import Browser from 'webextension-polyfill';
 import menuBookIcon from '@/../assets/svgs/menu_book.svg';
 import speakerIcon from '@/../assets/svgs/speaker.svg';
 import starIcon from '@/../assets/svgs/star.svg';
+import { LANGS_SUPPORTED } from '@constants/i18n';
 import {
   HIGHLIGHTER_COLLECTED,
   HIGHLIGHTER_DEF_CLASS,
@@ -17,7 +18,6 @@ import {
   HIGHLIGHTER_NOT_COLLECTED,
   HIGHLIGHTER_POS_CLASS,
   HIGHLIGHTER_TARGET_WORD_CLASS,
-  LANGS,
   ONLINE_DIC_URL,
   PARTS_OF_SPEECH_SHORTHAND,
 } from '@constants/index';
@@ -26,7 +26,7 @@ import { constructWordExample } from '@utils/highlight';
 
 const Word = ({ word, fontSize }) => <div className={`${HIGHLIGHTER_TARGET_WORD_CLASS} ${HIGHLIGHTER_FONT_SIZE_CLASS[fontSize]}`}>{word}</div>;
 
-// Note that width attribute of img tag might be override. It is better to set by using style
+// Note that width attribute of img tag might be override. It is better to set both
 const Link = ({ word, href, img }) => (
   <a className={HIGHLIGHTER_ICON_CLASS} href={href} data-word={word} target='_blank' rel='noopener noreferrer'>
     <img className={HIGHLIGHTER_NOT_COLLECTED} src={img} alt='link to online dict' width={26} style={{ width: '26px' }} />
@@ -65,7 +65,7 @@ const DetailItem = ({ fontSize, children }) => <div className={`${HIGHLIGHTER_DE
 
 const PartsOfSpeech = ({ partsOfSpeech }) => <span className={HIGHLIGHTER_POS_CLASS}>{PARTS_OF_SPEECH_SHORTHAND[partsOfSpeech]}</span>;
 
-const Definition = ({ language, meaning }) => <span className={HIGHLIGHTER_DEF_CLASS}>{meaning[LANGS[language]] || meaning[LANGS.en]}</span>;
+const Definition = ({ language, meaning }) => <span className={HIGHLIGHTER_DEF_CLASS}>{meaning[LANGS_SUPPORTED[language]]}</span>;
 
 const Example = ({ example }) => <span className={HIGHLIGHTER_EXAMPLE_CLASS}>{constructWordExample(example)}</span>;
 

@@ -1,5 +1,6 @@
 import { getStorage, setStorage } from '@browsers/storage';
-import { HIGHLIGHTER_BG_COLORS, HIGHLIGHTER_FONT_SIZE, HIGHLIGHTER_FONT_STYLE, LANGS } from '@constants/index';
+import { LANGS_SUPPORTED } from '@constants/i18n';
+import { HIGHLIGHTER_BG_COLORS, HIGHLIGHTER_FONT_SIZE, HIGHLIGHTER_FONT_STYLE } from '@constants/index';
 import { EXT_SYNC_UP_CONFIG_INTERVAL } from '@constants/network';
 import { EXT_STORAGE_CONFIG, EXT_STORAGE_LAST_SYNC_UP_TIME } from '@constants/storage';
 import userService from '@services/user.service';
@@ -11,7 +12,7 @@ import { convertUTCToLocalTime, getLocalDate, hasWaitedLongEnough } from './time
 
 export const DEFAULT_CONFIG = {
   highlightColor: HIGHLIGHTER_BG_COLORS.YELLOW,
-  language: LANGS.en,
+  language: LANGS_SUPPORTED.en,
   fontSize: HIGHLIGHTER_FONT_SIZE.MEDIUM,
   fontStyle: HIGHLIGHTER_FONT_STYLE.ROBOTO,
   showDetail: true,

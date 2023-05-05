@@ -8,7 +8,7 @@ import { EXT_STORAGE_DAILY_WORD } from '@constants/storage';
 import { ExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import { logger } from '@utils/logger';
 import { getLocalDate, isSameDay } from '@utils/time';
-import { genWordDetailList, getRandomWordFromList } from '@utils/word';
+import { getRandomWordFromList } from '@utils/word';
 
 /*
  * Note: if there's any elements that you don't want to be highlighted, add class="HIGHLIGHTER_CLASS" to it's tag
@@ -33,9 +33,8 @@ const PopupManager = ({ children }) => {
 
   const handleDailyWord = async () => {
     const dailyWord = await setupDailyWord();
-    if (!extMessageValue.dailyWord?.word !== dailyWord.word) {
+    if (extMessageValue.dailyWord?.word !== dailyWord.word) {
       setExtMessageValue(prev => ({ ...prev, dailyWord }));
-      // setExtMessageValue({ ...extMessageValue, dailyWord }); // Error: the specify key will update yet other parts will be lost
     }
   };
 
@@ -51,19 +50,15 @@ const PopupManager = ({ children }) => {
       case EXT_MSG_TYPE_INIT_SETUP:
         // Triggered by background's onInstall event listener
         break;
-      case EXT_MSG_TYPE_GET_WORD_LIST:
-        // Triggered by context script to setup wordlist
-        sendResponse({ payload: JSON.stringify(genWordDetailList()) });
-        break;
       case EXT_MSG_TYPE_CONFIG_UPDATE:
       case EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE:
         // Whenever a tab update the config, it sends a message to notify all other tabs
         setExtMessageValue(prev => ({ ...prev, config: message.payload.state }));
         break;
-      // case EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE:
-      //   // Note that the config value of prev will ALWAYS EQUAL TO THE INITIAL VALUE of extMessageValue!
-      //   setExtMessageValue(prev => ({ ...prev, config: { ...prev.config, collectedWords: [...(prev.config?.collectedWords || []), message.payload.id] } }));
-      //   break;
+      case EXT_MSG_TYPE_GET_WORD_LIST:
+        // Triggered by context script to setup wordlist. Not workable since popup only runs when user open it
+        // sendResponse({ payload: JSON.stringify(genWordDetailList()) });
+        break;
       default:
         break;
     }

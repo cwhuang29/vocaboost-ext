@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Box, Checkbox as MuiCheckBox, FormControlLabel, MenuItem, TextField } from '@mui/material';
 
-import { LANGS_DISPLAY } from '@constants/i18n';
-import { HIGHLIGHTER_FONT_SIZE, LANGS } from '@constants/index';
+import { LANGS_DISPLAY, LANGS_SUPPORTED } from '@constants/i18n';
+import { HIGHLIGHTER_FONT_SIZE } from '@constants/index';
 import { toCapitalize } from '@utils/stringHelpers';
 
 import { popupSettingActionType } from './action';
@@ -42,7 +42,7 @@ const Checkbox = ({ checked, onChange, text }) => (
 );
 
 const Setting = ({ language: cfgLang, fontSize: cfgFontSize, showDetail: cfgShowDetail, suspendedPages: cfgSuspendedPages, urlInfo, handleChange }) => {
-  const [language, setLanguage] = useState(cfgLang); // The key of LANGS_DISPLAY
+  const [language, setLanguage] = useState(cfgLang);
   const [fontSize, setFontSize] = useState(cfgFontSize);
   const [showDetail, setShowDetail] = useState(cfgShowDetail);
   const [suspendedPages, setSuspendedPages] = useState(cfgSuspendedPages);
@@ -94,7 +94,7 @@ const Setting = ({ language: cfgLang, fontSize: cfgFontSize, showDetail: cfgShow
   return (
     <Box>
       <Box style={{ display: 'flex', justifyContent: 'space-between', margin: '0 0 4px 0' }}>
-        <Dropdown name='lang' label='Language' value={language} onChange={languageOnChange} options={LANGS} displayFunc={l => LANGS_DISPLAY[l]} />
+        <Dropdown name='lang' label='Language' value={language} onChange={languageOnChange} options={LANGS_SUPPORTED} displayFunc={l => LANGS_DISPLAY[l]} />
         <Dropdown name='fs' label='Font size' value={fontSize} onChange={fontSizeOnChange} options={HIGHLIGHTER_FONT_SIZE} displayFunc={s => toCapitalize(s)} />
       </Box>
       <Checkbox checked={showDetail} onChange={showDetailOnChange} text='Show definitions and examples on hover' />

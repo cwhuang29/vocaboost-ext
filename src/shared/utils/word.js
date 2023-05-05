@@ -1,11 +1,10 @@
-import { WORD_LIST } from '@constants/words';
+import { LANGS_SUPPORTED } from '@constants/i18n';
+import { GRE } from '@constants/words';
 
-export const genWordList = () => [...WORD_LIST.GRE, ...WORD_LIST.TOEFL].map(item => item.word);
+export const genWordDetailList = (locale = LANGS_SUPPORTED.en) => GRE[locale];
 
-export const genWordDetailList = () => [...WORD_LIST.GRE, ...WORD_LIST.TOEFL];
-
-export const getRandomWordFromList = () => {
-  const wordList = genWordDetailList();
+export const getRandomWordFromList = (locale = LANGS_SUPPORTED.en) => {
+  const wordList = genWordDetailList(locale);
 
   let w = wordList[Math.floor(Math.random() * wordList.length)];
   while (!w?.detail[0]?.meaning?.en) {

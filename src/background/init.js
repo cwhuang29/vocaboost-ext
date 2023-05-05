@@ -1,14 +1,18 @@
 import { setStorage } from '@browsers/storage';
-import { EXT_STORAGE_WORD_LIST } from '@constants/storage';
+import { LANGS_SUPPORTED } from '@constants/i18n';
 import { DEFAULT_CONFIG, getConfig, storeConfig } from '@utils/config';
 import { logger } from '@utils/logger';
+import { getWordListStorageKey } from '@utils/storage';
 import { getLocalDate } from '@utils/time';
 import { genWordDetailList } from '@utils/word';
 
 export const storeEssentialDataOnInstall = async () => {
-  const words = genWordDetailList();
-
-  await Promise.all([storeConfig(DEFAULT_CONFIG), setStorage({ type: 'local', key: EXT_STORAGE_WORD_LIST, value: JSON.stringify(words) })]);
+  const storeWordLists = Object.values(LANGS_SUPPORTED).map(locale => {
+    const key = getWordListStorageKey(locale);
+    const wordList = genWordDetailList(locale);
+    return setStorage({ type: 'local', key, value: wordList });
+  });
+  await Promise.all([storeConfig(DEFAULT_CONFIG), ...storeWordLists]);
 
   logger('[background] Init storage settings done!');
 };

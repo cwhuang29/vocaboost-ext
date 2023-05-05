@@ -1,11 +1,12 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import PropTypes from 'prop-types';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import StarIcon from '@mui/icons-material/Star';
 import VolumeUpIcon from '@mui/icons-material/VolumeUp';
 import { Box, Typography } from '@mui/material';
 
-import { HIGHLIGHTER_CLASS, HIGHLIGHTER_POS_CLASS, LANGS, ONLINE_DIC_URL, PARTS_OF_SPEECH_SHORTHAND } from '@constants/index';
+import { LANGS_SUPPORTED } from '@constants/i18n';
+import { HIGHLIGHTER_CLASS, HIGHLIGHTER_POS_CLASS, ONLINE_DIC_URL, PARTS_OF_SPEECH_SHORTHAND } from '@constants/index';
 import { DEFAULT_SPEECH_RATE } from '@constants/styles';
 import { getLocalDate } from '@utils/time';
 import { genWordDetailList } from '@utils/word';
@@ -27,17 +28,19 @@ const PartsOfSpeech = ({ partsOfSpeech }) => {
   ) : null;
 };
 
-const Meaning = ({ language, meaning }) => {
-  const def = meaning[LANGS[language]] || meaning[LANGS.en];
-  return <span className={HIGHLIGHTER_CLASS}>{def}</span>;
-};
+const Meaning = ({ language, meaning }) => <span className={HIGHLIGHTER_CLASS}>{meaning[LANGS_SUPPORTED[language]]}</span>;
 
 const CollectedWords = ({ config, handleChange }) => {
   const { language, collectedWords } = config;
-  const wordListMapping = useMemo(() => new Map(genWordDetailList().map(item => [item.id, item])), []);
+  const [msg, setMsg] = useState(null);
+  const wordListMapping = useMemo(() => new Map(genWordDetailList(config.language).map(item => [item.id, item])), [config.language]);
   const words = collectedWords.map(wordId => wordListMapping.get(wordId)).filter(word => word);
-  const msg = new SpeechSynthesisUtterance();
-  msg.rate = DEFAULT_SPEECH_RATE;
+
+  useEffect(() => {
+    const m = new SpeechSynthesisUtterance();
+    m.rate = DEFAULT_SPEECH_RATE;
+    setMsg(m);
+  }, []);
 
   const menuBookIconOnClick = word => () => {
     const link = `${ONLINE_DIC_URL[language]}${word}`;

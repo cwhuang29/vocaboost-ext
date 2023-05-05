@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import { Box, Typography } from '@mui/material';
 
-import { HIGHLIGHTER_CLASS, HIGHLIGHTER_POS_CLASS, LANGS, ONLINE_DIC_URL, PARTS_OF_SPEECH_SHORTHAND } from '@constants/index';
+import LANGS from '@constants/i18n';
+import { HIGHLIGHTER_CLASS, HIGHLIGHTER_POS_CLASS, ONLINE_DIC_URL, PARTS_OF_SPEECH_SHORTHAND } from '@constants/index';
 import { useExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import { constructWordExample } from '@utils/highlight';
 

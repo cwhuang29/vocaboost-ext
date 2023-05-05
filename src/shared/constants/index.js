@@ -38,6 +38,9 @@ export const ONLINE_DIC_URL = {
   es: 'https://dictionary.cambridge.org/dictionary/english-spanish/',
   zh_TW: 'https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/',
   zh_CN: 'https://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B0%A1%E9%AB%94/',
+  ja: 'https://dictionary.cambridge.org/us/dictionary/english-japanese/',
+  ko: 'https://dictionary.cambridge.org/us/dictionary/english-korean/',
+  th: 'https://dictionary.cambridge.org/us/dictionary/english-thai/',
 };
 
 export const HIGHLIGHTER_FONT_SIZE = {
@@ -57,13 +60,6 @@ export const HIGHLIGHTER_BG_COLORS = {
   GREEN: 'GREEN',
   BLUE: 'BLUE',
   PURPLE: 'PURPLE',
-};
-
-export const LANGS = {
-  en: 'en',
-  es: 'es',
-  zh_TW: 'zh_TW',
-  zh_CN: 'zh_CN',
 };
 
 export const PARTS_OF_SPEECH_SHORTHAND = {
