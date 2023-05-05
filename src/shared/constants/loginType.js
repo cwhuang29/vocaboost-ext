@@ -3,4 +3,5 @@ export const LOGIN_METHOD = {
   GOOGLE: 1,
   APPLE: 2,
   TWITTER: 3,
+  AZURE: 4,
 };

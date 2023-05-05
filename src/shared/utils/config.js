@@ -86,7 +86,7 @@ export const trySyncUpConfigToServer = async config => {
   return syncUpConfigToServer(config);
 };
 
-export const getLatestConfigFromServerOnLogin = async () => syncUpConfigToServer(DEFAULT_CONFIG);
+export const fetchLatestConfigOnLogin = async () => syncUpConfigToServer(DEFAULT_CONFIG);
 
 export const isConfigEqual = (config1 = {}, config2 = {}) => {
   const c1 = isObject(config1) ? config1 : JSON.parse(config1);

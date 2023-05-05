@@ -2,9 +2,9 @@ import config from '@/config.js';
 
 const GOOGLE_PERSON_FIELDS = { NAME: 'names', EMAIL: 'emailAddresses', PHOTO: 'photos' };
 
-const GOOGLE_PEOPLE_API = 'https://people.googleapis.com/v1/people/me';
+const GOOGLE_PEOPLE_ENDPOINT = 'https://people.googleapis.com/v1/people/me';
 
-const constructGoogleAPIURL = ({ field, key }) => `${GOOGLE_PEOPLE_API}?personFields=${field}&key=${key}`;
+const constructGoogleAPIURL = ({ field, key }) => `${GOOGLE_PEOPLE_ENDPOINT}?personFields=${field}&key=${key}`;
 
 const getGoogleUserInfoHeader = ({ token }) => ({
   method: 'GET',
