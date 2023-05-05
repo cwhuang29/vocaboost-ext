@@ -20,7 +20,6 @@ export default defineConfig({
       { find: '@constants', replacement: path.resolve(__dirname, 'src/shared/constants') },
       { find: '@hooks', replacement: path.resolve(__dirname, 'src/shared/hooks') },
       { find: '@oauth', replacement: path.resolve(__dirname, 'src/shared/oauth') },
-      { find: '@selectors', replacement: path.resolve(__dirname, 'src/shared/selectors') },
       { find: '@services', replacement: path.resolve(__dirname, 'src/shared/services') },
       { find: '@utils', replacement: path.resolve(__dirname, 'src/shared/utils') },
     ],

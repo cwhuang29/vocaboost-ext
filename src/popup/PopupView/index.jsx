@@ -1,4 +1,5 @@
 import React, { useEffect, useReducer, useState } from 'react';
+
 import { Stack } from '@mui/material';
 
 import { getCurrentTab, sendMessage, sendMessageToTab } from '@browsers/message';

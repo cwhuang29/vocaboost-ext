@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+
 import { Box, Checkbox as MuiCheckBox, FormControlLabel, MenuItem, TextField } from '@mui/material';
 
 import { LANGS_DISPLAY, LANGS_SUPPORTED } from '@constants/i18n';

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
 import Browser from 'webextension-polyfill';
+import PropTypes from 'prop-types';
 
 import { getStorage, setStorage } from '@browsers/storage';
 import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, EXT_MSG_TYPE_CONFIG_UPDATE, EXT_MSG_TYPE_GET_WORD_LIST, EXT_MSG_TYPE_INIT_SETUP } from '@constants/messages';
@@ -42,6 +42,7 @@ const PopupManager = ({ children }) => {
    * Since this function is registered to the listener in the beginning, the setExtMessageValue becomes a "stale" version
    * Even if using the callback function syntax cannot let us get the latest value
    */
+  // eslint-disable-next-line no-unused-vars
   const onMessageListener = (message, sender, sendResponse) => {
     const sdr = sender.tab ? `from a content script :${sender.tab.url}` : 'from the extension';
     logger(`[popup] message received: ${message.type}. Sender: ${sdr}`);

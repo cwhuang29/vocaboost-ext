@@ -21,7 +21,6 @@
       "@constants/*": ["shared/constants/*"],
       "@hooks/*": ["shared/hooks/*"],
       "@oauth/*": ["shared/oauth/*"],
-      "@selectors/*": ["shared/selectors/*"],
       "@services/*": ["shared/services/*"],
       "@utils/*": ["shared/utils/*"]
     }

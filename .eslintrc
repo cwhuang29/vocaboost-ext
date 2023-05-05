@@ -55,8 +55,9 @@
         "groups": [
           // Side effect imports
           ["^\\u0000"],
-          ["^react", "^redux", "^prop-types", "^styled-components", "^formik", "^yup", "^@mui", "^webextension-polyfill"],
-          ["^(@|@pages|@components|@shared|@actions|@constants|@hooks|@reducers|@selectors|@services|@utils|@home)"],
+          ["^react", "^webextension-polyfill", "^prop-types", "^formik", "^yup", "^buffer", "^jwt"],
+          ["^@mui", "^styled-components"],
+          ["^(@|@background|@popup|@content|@pages|@components|@shared|@actions|@constants|@hooks|@oauth|@services|@utils)"],
           // Style imports
           ['^.+\.s?css$'],
           // Absolute imports and other imports such as Vue-style `@/foo`. Anything not matched in another group
@@ -86,7 +87,6 @@
           "@constants": "./src/shared/constants",
           "@hooks": "./src/shared/hooks",
           "@oauth": "./src/shared/oauth",
-          "@selectors": "./src/shared/selectors",
           "@services": "./src/shared/services",
           "@utils": "./src/shared/utils"
         }

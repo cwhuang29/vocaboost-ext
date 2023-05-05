@@ -1,7 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Box } from '@mui/material';
 import Browser from 'webextension-polyfill';
+import PropTypes from 'prop-types';
+
+import { Box } from '@mui/material';
 
 import menuBookIcon from '@/../assets/svgs/menu_book.svg';
 import speakerIcon from '@/../assets/svgs/speaker.svg';

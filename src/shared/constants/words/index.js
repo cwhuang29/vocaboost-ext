@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { LANGS_SUPPORTED } from '@constants/i18n';
 
 import GRE_en from './gre/en';

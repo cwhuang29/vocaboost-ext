@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+
 import { Box, Skeleton } from '@mui/material';
 
 import { HIGHLIGHTER_BG_COLORS_CODE } from '@constants/styles';

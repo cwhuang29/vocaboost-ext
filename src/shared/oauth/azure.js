@@ -1,11 +1,11 @@
+import { Buffer } from 'buffer';
+import jwtDecode from 'jwt-decode';
+
 import config from '@/config.js';
 import { getOauthRedirectUrl, getOauthScopes, launchWebAuthFlow } from '@browsers/identity';
 import oauthService from '@services/oauth.service';
 import { logger } from '@utils/logger';
 import { genShortRandomString } from '@utils/misc';
-
-import { Buffer } from 'buffer';
-import jwtDecode from 'jwt-decode';
 
 const AZURE_OAUTH_ENDPOINT = 'https://login.microsoftonline.com';
 
