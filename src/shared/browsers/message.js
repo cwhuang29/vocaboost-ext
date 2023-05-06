@@ -24,13 +24,6 @@ export const sendMessage = async ({ type = '', payload = {} } = {}) => {
   const msg = { type, payload };
   const resp = await Browser.runtime.sendMessage(msg).catch(err => logger(`Error occurred in sendMessage. error: ${err}`));
   return resp?.payload;
-  // return new Promise((resolve, reject) => { // The old way
-  //   chrome.runtime.sendMessage(msg, resp => {
-  //     if (!resp) logger('message error: ', chrome.runtime.lastError.message);
-  //     if (resp.payload) { resolve(resp.payload); }
-  //     reject(new Error(`Error - payload: ${payload}`));
-  //   });
-  // });
 };
 
 /*
@@ -67,15 +60,4 @@ export const sendMessageToTab = async ({ type = '', payload = {} } = {}) => {
   const msg = { type, payload };
   const resp = await Browser.tabs.sendMessage(tab.id, msg).catch(err => logger(`Error occurred in sendMessageToTab. error: ${err}`));
   return resp?.payload;
-
-  // const queryInfo = { active: true, currentWindow: true };
-  // return new Promise(resolve => {
-  //   chrome.tabs.query(queryInfo, tabs => {
-  //     const tabId = tabs[0].id;
-  //     const msg = { type, payload };
-  //     chrome.tabs.sendMessage(tabId, msg, resp => {
-  //       resolve(resp?.payload);
-  //     });
-  //   });
-  // });
 };

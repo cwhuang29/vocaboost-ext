@@ -1,25 +1,24 @@
 import Browser from 'webextension-polyfill';
 
 import { BROWSER_ONINSTALL_REASON } from '@constants/browser';
-import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE } from '@constants/messages';
+import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, EXT_MSG_TYPE_OAUTH_LOGIN } from '@constants/messages';
 import { logger } from '@utils/logger';
 
-import { onCollectedWordsUpdate } from './helper';
+import { oauthLogin, onCollectedWordsUpdate } from './helper';
 import { storeEssentialDataOnInstall, updateIfNeeded } from './init';
 
 const onInstalledListener = details => {
   // Browser.tabs.create({ url: Browser.runtime.getURL('index.html') }); // A trick to force the execution of popup code on installation
 
   if (details.reason === BROWSER_ONINSTALL_REASON.INSTALL) {
-    // sendMessage({ type: EXT_MSG_TYPE_INIT_SETUP });
-    storeEssentialDataOnInstall(); // Background is more suitable to perform this job other than popup. Popup will not be executed unless launch it in a new tab or user click the icon
+    storeEssentialDataOnInstall(); // Background is more suitable to perform this setup job other than popup. Popup will not be executed unless launch it in a new tab or user click the icon
   } else if (details.reason === BROWSER_ONINSTALL_REASON.UPDATE) {
     updateIfNeeded();
   }
 };
 
 // eslint-disable-next-line consistent-return
-const onMessageListener = async (message, sender) => {
+const onMessageListener = async (message, sender, sendResponse) => {
   const sdr = sender.tab ? `from a content script: ${sender.tab.url}` : 'from the extension';
   logger(`[background] message received: ${message.type}. Sender: ${sdr}`);
 
@@ -27,6 +26,9 @@ const onMessageListener = async (message, sender) => {
     case EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE:
       await onCollectedWordsUpdate(message);
       return true;
+    case EXT_MSG_TYPE_OAUTH_LOGIN:
+      const resp = await oauthLogin(message, sendResponse);
+      return resp;
     default:
       break;
   }

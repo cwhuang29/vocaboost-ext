@@ -6,16 +6,16 @@ import LogoutIcon from '@mui/icons-material/Logout';
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
 import { Box, Button, Typography } from '@mui/material';
 
-import { getAuthToken } from '@browsers/identity';
+import { sendMessage } from '@browsers/message';
+import { LOGIN_METHOD } from '@constants/loginType';
+import { EXT_MSG_TYPE_OAUTH_LOGIN } from '@constants/messages';
 import { faMicrosoft } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { getAzureUserInfo, getOauthAzureAccessToken, getOauthAzureAuthorization } from '@oauth/azure';
-import { getGoogleUserInfo } from '@oauth/google';
+import { oauthGoogleSignIn } from '@oauth/google';
 import authService from '@services/auth.service';
 import { clearAuthDataFromStorage, getUserInfoFromStorage, storeAuthDataToStorage } from '@utils/auth';
 import { fetchLatestConfigOnLogin } from '@utils/config';
 import { logger } from '@utils/logger';
-import { transformAzureLoginResp, transformGoogleLoginResp } from '@utils/loginFormatter';
 
 import { popupSettingActionType } from './action';
 import SectionTitle from './SectionTitle';
@@ -58,19 +58,16 @@ const Profile = ({ numCollectedWords, handleChange }) => {
     setUserInfo(user);
   };
 
-  const oauthGoogleSignIn = async () => {
-    const { token, scopes } = await getAuthToken();
-    const uInfo = await getGoogleUserInfo({ token });
-    const loginPayload = transformGoogleLoginResp({ ...uInfo, scopes });
+  const onGoogleSignIn = async () => {
+    // Since Google OAuth login does not require user enter credentials on a separate popup window, there's no need to run on background. Also, we can redraw popup immediately
+    const loginPayload = await oauthGoogleSignIn();
     await login(loginPayload);
   };
 
-  const oauthAzureSignIn = async () => {
-    const { code } = await getOauthAzureAuthorization();
-    const { accessToken, idToken, scope } = await getOauthAzureAccessToken({ code });
-    const uInfo = await getAzureUserInfo({ accessToken, idToken, scope });
-    const loginPayload = transformAzureLoginResp(uInfo);
-    await login(loginPayload);
+  const onAzureSignIn = async () => {
+    // There is a bug on launchWebAuthFlow which cause extension popup page to close unexpectedly. Add this code to make sure every user's popup pages close
+    await sendMessage({ type: EXT_MSG_TYPE_OAUTH_LOGIN, payload: { loginMethod: LOGIN_METHOD.AZURE } });
+    window.close();
   };
 
   const signOut = async () => {
@@ -86,8 +83,8 @@ const Profile = ({ numCollectedWords, handleChange }) => {
       {isSignedIn ? (
         <>
           <SectionTitle>Profile (sign in to keep your collected words safely)</SectionTitle>
-          <IconButton Icon={<GoogleIcon />} onClick={oauthGoogleSignIn} text='Sign in with Google' style={{ marginRight: '3.2px' }} />
-          <IconButton Icon={<FontAwesomeIcon icon={faMicrosoft} style={{ fontSize: '19px' }} />} onClick={oauthAzureSignIn} text='Sign in with Microsoft' />
+          <IconButton Icon={<GoogleIcon />} onClick={onGoogleSignIn} text='Sign in with Google' style={{ marginRight: '3.2px' }} />
+          <IconButton Icon={<FontAwesomeIcon icon={faMicrosoft} style={{ fontSize: '19px' }} />} onClick={onAzureSignIn} text='Sign in with Microsoft' />
         </>
       ) : (
         <>

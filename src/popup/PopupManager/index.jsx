@@ -3,7 +3,7 @@ import Browser from 'webextension-polyfill';
 import PropTypes from 'prop-types';
 
 import { getStorage, setStorage } from '@browsers/storage';
-import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, EXT_MSG_TYPE_CONFIG_UPDATE, EXT_MSG_TYPE_GET_WORD_LIST, EXT_MSG_TYPE_INIT_SETUP } from '@constants/messages';
+import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, EXT_MSG_TYPE_CONFIG_UPDATE, EXT_MSG_TYPE_GET_WORD_LIST } from '@constants/messages';
 import { EXT_STORAGE_DAILY_WORD } from '@constants/storage';
 import { ExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import { logger } from '@utils/logger';
@@ -42,15 +42,11 @@ const PopupManager = ({ children }) => {
    * Since this function is registered to the listener in the beginning, the setExtMessageValue becomes a "stale" version
    * Even if using the callback function syntax cannot let us get the latest value
    */
-  // eslint-disable-next-line no-unused-vars
-  const onMessageListener = (message, sender, sendResponse) => {
+  const onMessageListener = (message, sender) => {
     const sdr = sender.tab ? `from a content script :${sender.tab.url}` : 'from the extension';
     logger(`[popup] message received: ${message.type}. Sender: ${sdr}`);
 
     switch (message.type) {
-      case EXT_MSG_TYPE_INIT_SETUP:
-        // Triggered by background's onInstall event listener
-        break;
       case EXT_MSG_TYPE_CONFIG_UPDATE:
       case EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE:
         // Whenever a tab update the config, it sends a message to notify all other tabs

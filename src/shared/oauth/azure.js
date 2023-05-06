@@ -5,6 +5,7 @@ import config from '@/config.js';
 import { getOauthRedirectUrl, getOauthScopes, launchWebAuthFlow } from '@browsers/identity';
 import oauthService from '@services/oauth.service';
 import { logger } from '@utils/logger';
+import { transformAzureLoginResp } from '@utils/loginFormatter';
 import { genShortRandomString } from '@utils/misc';
 
 const AZURE_OAUTH_ENDPOINT = 'https://login.microsoftonline.com';
@@ -51,17 +52,30 @@ export const getOauthAzureAccessToken = async ({ code }) => {
   const payload = await fetch(`${AZURE_OAUTH_ENDPOINT}${AZURE_OAUTH_ACESS_TOKEN_PATH}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: searchParams, // This won't work: JSON.stringify({})
+    body: searchParams, // JSON.stringify() will not work
   }).then(resp => resp.json());
   return { accessToken: payload.access_token, idToken: payload.id_token, scope: payload.scope };
 };
 
-export const getAzureUserInfo = async ({ accessToken, idToken, scope }) => {
-  const userData = jwtDecode(idToken);
-  logger(`MS Oauth get user data result: ${JSON.stringify(userData)}`);
-
+export const getAzureUserAvatar = async ({ accessToken }) => {
   const avatarBinary = await oauthService.getAzureUserPhoto({ accessToken });
   const avatarString = Buffer.from(avatarBinary, 'binary').toString('base64'); // Convert binary image to base64 string
   const avatar = `data:image/png;base64,${avatarString}`;
-  return { ...userData, idToken, scope, avatar };
+  return avatar;
+};
+
+export const getAzureUserInfo = async ({ accessToken, idToken, scope }) => {
+  const userData = jwtDecode(idToken);
+  return { ...userData, accessToken, idToken, scope };
+};
+
+export const oauthAzureLogin = async () => {
+  const { code } = await getOauthAzureAuthorization();
+  const { accessToken, idToken, scope } = await getOauthAzureAccessToken({ code });
+  const uInfo = await getAzureUserInfo({ accessToken, idToken, scope });
+  const avatar = await getAzureUserAvatar({ accessToken: uInfo.accessToken });
+  const loginPayload = transformAzureLoginResp({ ...uInfo, avatar });
+
+  logger(`Azure Oauth login payload: ${JSON.stringify(loginPayload)}`);
+  return loginPayload;
 };

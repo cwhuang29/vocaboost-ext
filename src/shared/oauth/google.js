@@ -1,4 +1,7 @@
 import config from '@/config.js';
+import { getAuthToken } from '@browsers/identity';
+import { logger } from '@utils/logger';
+import { transformGoogleLoginResp } from '@utils/loginFormatter';
 
 const GOOGLE_PERSON_FIELDS = { NAME: 'names', EMAIL: 'emailAddresses', PHOTO: 'photos' };
 
@@ -47,4 +50,13 @@ export const getGoogleUserInfo = async ({ token }) => {
   ]);
 
   return { ...dataName, ...dataEmail, ...dataPhoto };
+};
+
+export const oauthGoogleSignIn = async () => {
+  const { token, scopes } = await getAuthToken();
+  const uInfo = await getGoogleUserInfo({ token });
+  const loginPayload = transformGoogleLoginResp({ ...uInfo, scopes });
+
+  logger(`Google Oauth login payload: ${JSON.stringify(loginPayload)}`);
+  return loginPayload;
 };

@@ -13,7 +13,7 @@ export const extractErrorMessage = err => {
     errMsg = { title: msg.UNKNOWN_ERROR, content: msg.SERVER_CRASH };
   } else {
     // Something happened in setting up the request that triggered an Error
-    errMsg = { title: `${msg.UNKNOWN_ERROR} (${err.message})`, content: msg.TRY_AGAIN };
+    errMsg = { title: msg.UNKNOWN_ERROR, content: err.message };
   }
 
   return errMsg;

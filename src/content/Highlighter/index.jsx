@@ -19,6 +19,7 @@ import { DEFAULT_CONFIG, getConfig, setURLToConfigFormat, shouldUpdateConfig, st
 import { getAllTextNodesFromDOM } from '@utils/dom';
 import { getAllWords, getDetailDisplayPos } from '@utils/highlight';
 import { logger } from '@utils/logger';
+import { isObjectEmpty } from '@utils/misc';
 import { getLocalDate } from '@utils/time';
 
 import Detail from './Detail';
@@ -168,7 +169,7 @@ const Highlighter = () => {
     if (!isFirstTime) {
       updateWebContent(latestConfig, prevConfig.current);
     }
-    if (config?.language !== latestConfig.language) {
+    if (!isObjectEmpty(latestConfig) && config?.language !== latestConfig.language) {
       updateWordListAndWordData({ language: latestConfig.language });
     }
   };
