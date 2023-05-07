@@ -1036,8 +1036,7 @@ export default [
           ko: '혐오스러운 사람; 누군가의 증오의 근원',
         },
         partsOfSpeech: 'noun',
-        example:
-          'Hundreds of years ago, Galileo was anathema to the church; today the church is <strong>anathema</strong> to some on the left side of the political spectrum.',
+        example: 'For older employees, the new system is an anathema',
       },
     ],
   },
@@ -8329,7 +8328,7 @@ export default [
           ko: '의도적으로 피하고 멀리하십시오. 피하십시오',
         },
         partsOfSpeech: 'verb',
-        example: 'Politicians are the masters of eschewing morals; academics are the masters of <strong>eschewing</strong> clarity',
+        example: 'They now eschew the violence of their past',
       },
     ],
   },
@@ -11549,8 +11548,7 @@ export default [
           ko: '특정 지역에서 시작됩니다',
         },
         partsOfSpeech: 'adjective',
-        example:
-          'The plants and animals indigenous to Australia are notably different from those <strong>indigenous</strong> to the U.S—one look at a duckbill platypus and you know you’re not dealing with an opossum.',
+        example: 'Conflict between the indigenous people and settlers is inevitable',
       },
     ],
   },
