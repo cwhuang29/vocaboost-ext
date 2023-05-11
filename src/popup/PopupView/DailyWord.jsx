@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
 import MenuBookIcon from '@mui/icons-material/MenuBook';
+import VolumeUpIcon from '@mui/icons-material/VolumeUp';
 import { Box, Typography } from '@mui/material';
 
 import LANGS from '@constants/i18n';
 import { HIGHLIGHTER_CLASS, HIGHLIGHTER_POS_CLASS, ONLINE_DIC_URL, PARTS_OF_SPEECH_SHORTHAND } from '@constants/index';
+import { DEFAULT_SPEECH_RATE } from '@constants/styles';
 import { useExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import { constructWordExample } from '@utils/highlight';
 
@@ -34,25 +36,38 @@ const Meaning = ({ language, meaning }) => {
 const Example = ({ example }) => <span className={HIGHLIGHTER_CLASS}>{constructWordExample(example)}</span>;
 
 const DailyWord = ({ language }) => {
+  const [msg, setMsg] = useState(null);
   const { dailyWord = {} } = useExtensionMessageContext(); // This might takes a bit time (get/update daily word -> insert to storage -> update context)
   const { id, word, detail } = dailyWord;
   const link = `${ONLINE_DIC_URL[language]}${word}`;
+
+  useEffect(() => {
+    const m = new SpeechSynthesisUtterance();
+    m.rate = DEFAULT_SPEECH_RATE;
+    setMsg(m);
+  }, []);
+
+  const speakerIconOnClick = w => () => {
+    msg.text = w;
+    window.speechSynthesis.speak(msg);
+  };
 
   const openExternalLink = () => {
     window.open(link, '_blank', 'noopener, noreferrer');
   };
 
+  const iconStyle = { cursor: 'pointer', fontSize: '25px', marginLeft: '3%' };
+
   return word ? (
-    <Box>
+    <Box style={{ marginTop: '-10px' }}>
       <Box style={{ display: 'flex', alignItems: 'center' }}>
         <Word word={word} />
-        <Box style={{ width: '20px' }} />
-        <MenuBookIcon onClick={openExternalLink} style={{ cursor: 'pointer', fontSize: '32px' }} />
+        <MenuBookIcon onClick={openExternalLink} style={iconStyle} />
+        <VolumeUpIcon onClick={speakerIconOnClick(word)} style={iconStyle} />
       </Box>
       <Divider />
       {detail.map(({ meaning, partsOfSpeech, example }, idx) => (
-        // eslint-disable-next-line react/no-array-index-key
-        <React.Fragment key={`${id}-${idx}`}>
+        <React.Fragment key={`${partsOfSpeech}-${example.slice(0, 10)}`}>
           <Typography
             variant='body1'
             component='div'

@@ -11,8 +11,8 @@ import { popupSettingActionType } from './action';
 
 const Dropdown = ({ value, onChange, options, displayFunc, name, label }) => {
   const textFieldStyles = { width: '46%' };
-  const textInputProps = { fontSize: '0.96rem' };
-  const menuItemStyles = { fontSize: '0.92rem' };
+  const textInputProps = { fontSize: '0.96rem', fontFamily: 'Cera' };
+  const menuItemStyles = { fontSize: '0.92rem', fontFamily: 'Cera' };
   return (
     <TextField
       select
@@ -37,8 +37,8 @@ const Dropdown = ({ value, onChange, options, displayFunc, name, label }) => {
 const Checkbox = ({ checked, onChange, text }) => (
   <FormControlLabel
     control={<MuiCheckBox checked={checked} onChange={onChange} />}
-    label={<span style={{ fontSize: '15px' }}>{text}</span>}
-    style={{ margin: '0 -11px -9px' }}
+    label={<span style={{ fontSize: '15px', fontFamily: 'Cera' }}>{text}</span>}
+    style={{ margin: '0 -8px -12px' }}
   />
 );
 

@@ -19,7 +19,7 @@ import { popupSettingActionType } from './action';
 import SectionTitle from './SectionTitle';
 
 const IconButton = ({ Icon, loading, text, onClick, style }) => (
-  <Button variant='outlined' onClick={onClick} startIcon={Icon} style={{ fontSize: '98%', margin: '4px 0 -3px', opacity: loading ? 0.3 : 1, ...style }}>
+  <Button variant='outlined' onClick={onClick} startIcon={Icon} style={{ fontSize: '98%', fontFamily: 'Cera', opacity: loading ? 0.3 : 1, ...style }}>
     {text}
   </Button>
 );
@@ -85,19 +85,15 @@ const Profile = ({ numCollectedWords, handleChange }) => {
       {!isSignedIn ? (
         <>
           <SectionTitle>Profile (sign in to keep your collected words safely)</SectionTitle>
-          <IconButton
-            Icon={<GoogleIcon />}
-            loading={loading}
-            onClick={onSignIn(LOGIN_METHOD.GOOGLE)}
-            text='Sign in with Google'
-            style={{ marginRight: '3.2px' }}
-          />
-          <IconButton
-            Icon={<FontAwesomeIcon icon={faMicrosoft} style={{ fontSize: '19px' }} />}
-            loading={loading}
-            onClick={onSignIn(LOGIN_METHOD.AZURE)}
-            text='Sign in with Microsoft'
-          />
+          <Box style={{ display: 'flex', justifyContent: 'space-between', margin: '0px 0 -1px' }}>
+            <IconButton Icon={<GoogleIcon />} loading={loading} onClick={onSignIn(LOGIN_METHOD.GOOGLE)} text='Sign in with Google' />
+            <IconButton
+              Icon={<FontAwesomeIcon icon={faMicrosoft} style={{ fontSize: '19px' }} />}
+              loading={loading}
+              onClick={onSignIn(LOGIN_METHOD.AZURE)}
+              text='Sign in with Microsoft'
+            />
+          </Box>
         </>
       ) : (
         <>
@@ -105,13 +101,13 @@ const Profile = ({ numCollectedWords, handleChange }) => {
             Hello&nbsp;{userInfo.firstName}&nbsp;
             <SentimentSatisfiedAltIcon style={{ marginBottom: '-4.5px', fontSize: '18px' }} />
           </SectionTitle>
-          <Box style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <Typography variant='body1' component='div'>
+          <Box style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '-6px' }}>
+            <Typography variant='body1' component='div' fontFamily='Cera'>
               You have collected
               <span style={{ fontWeight: 'bold' }}>&nbsp;{numCollectedWords}&nbsp;</span>
               words!
             </Typography>
-            <Button variant='outlined' size='small' onClick={signOut} startIcon={<LogoutIcon />} style={{ fontSize: '90%' }}>
+            <Button variant='outlined' size='small' onClick={signOut} startIcon={<LogoutIcon />} style={{ fontSize: '90%', fontFamily: 'Cera' }}>
               Sign out
             </Button>
           </Box>

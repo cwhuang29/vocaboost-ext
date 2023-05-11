@@ -1,2 +1,17 @@
-.App {
+@font-face {
+  font-family: 'Cera';
+  font-weight: 100 300;
+  src: local('ceraLight'), url(./assets/fonts/ceraLight.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Cera';
+  font-weight: 400 600;
+  src: local('ceraMedium'), url(./assets/fonts/ceraMedium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Cera';
+  font-weight: 700 1000;
+  src: local('ceraBold'), url(./assets/fonts/ceraBold.otf) format('opentype');
 }

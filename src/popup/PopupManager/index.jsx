@@ -75,7 +75,7 @@ const PopupManager = ({ children }) => {
 };
 
 PopupManager.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default PopupManager;
