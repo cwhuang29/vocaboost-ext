@@ -110,25 +110,6 @@ const Highlighter = () => {
     }
   };
 
-  const entrypoint = () => {
-    if (isInit) {
-      return;
-    }
-    prevConfig.current = { ...config }; // By now, tryUpdateWebContent() had executed
-    if (config.suspendedPages.includes(setURLToConfigFormat(window.location))) {
-      return;
-    }
-    exec();
-    const interval = setInterval(() => exec(), HIGHLIGHTER_CHECK_INTERVAL);
-    // eslint-disable-next-line consistent-return
-    return () => clearInterval(interval);
-  };
-
-  useEffect(() => {
-    const cleanup = entrypoint();
-    return cleanup;
-  }, [JSON.stringify(config)]);
-
   const loadWordList = async language => {
     // Word lists were prepared and stored into browser storage by service worker. Processing such a large amount of data in content script can paralyze it
     wordList.current = await getAllWords(language);
@@ -141,6 +122,30 @@ const Highlighter = () => {
       setWordData(newWordData);
     }
   };
+
+  const entrypoint = () => {
+    if (isInit) {
+      return;
+    }
+
+    if (!isObjectEmpty(config) && config.language !== prevConfig.current?.language) {
+      updateWordListAndWordData({ language: config.language });
+    }
+    if (config.suspendedPages.includes(setURLToConfigFormat(window.location))) {
+      return;
+    }
+    updateWebContent(config, prevConfig.current);
+    exec();
+    prevConfig.current = { ...config };
+    const interval = setInterval(() => exec(), HIGHLIGHTER_CHECK_INTERVAL);
+    // eslint-disable-next-line consistent-return
+    return () => clearInterval(interval);
+  };
+
+  useEffect(() => {
+    const cleanup = entrypoint();
+    return cleanup;
+  }, [JSON.stringify(config)]);
 
   const loadConfig = async ({ syncToBackend = false } = {}) => {
     const cache = await getConfig();
@@ -164,16 +169,6 @@ const Highlighter = () => {
     return null;
   };
 
-  const updateConfig = async ({ isFirstTime = false } = {}) => {
-    const latestConfig = await loadConfig({ syncToBackend: isFirstTime });
-    if (!isFirstTime) {
-      updateWebContent(latestConfig, prevConfig.current);
-    }
-    if (!isObjectEmpty(latestConfig) && config?.language !== latestConfig.language) {
-      updateWordListAndWordData({ language: latestConfig.language });
-    }
-  };
-
   const onMessageListener = (message, sender, sendResponse) => {
     const sdr = sender.tab ? `from a content script: ${sender.tab.url}` : 'from the extension';
     logger(`[content] message received: ${message.type}, sender: ${sdr}`);
@@ -181,7 +176,7 @@ const Highlighter = () => {
     switch (message.type) {
       case EXT_MSG_TYPE_CONFIG_UPDATE:
         logger(`[content] prevState: ${JSON.stringify(message.payload?.prevState)}. state: ${JSON.stringify(message.payload?.state)}`);
-        updateConfig();
+        setConfig(message.payload.state);
         sendResponse({ payload: true });
         break;
       case EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE:
@@ -204,10 +199,17 @@ const Highlighter = () => {
       res(true);
     });
 
+  const setupConfigAndWordData = async () => {
+    const latestConfig = await loadConfig({ syncToBackend: true });
+    if (!isObjectEmpty(latestConfig) && config?.language !== latestConfig.language) {
+      updateWordListAndWordData({ language: latestConfig.language });
+    }
+  };
+
   const setup = async () => {
     registerGlobalEventHandler(globalListener);
     await loadWordList(DEFAULT_CONFIG.language); // Later when we load the config, the word list might change if necessary
-    await Promise.all([updateConfig({ isFirstTime: true }), insertCSS()]);
+    await Promise.all([setupConfigAndWordData(), insertCSS()]);
     setIsInit(false);
   };
 

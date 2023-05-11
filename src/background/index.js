@@ -3,6 +3,7 @@ import Browser from 'webextension-polyfill';
 import { BROWSER_ONINSTALL_REASON } from '@constants/browser';
 import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, EXT_MSG_TYPE_OAUTH_LOGIN } from '@constants/messages';
 import { logger } from '@utils/logger';
+import { isArray, isObject } from '@utils/misc';
 
 import { oauthLogin, onCollectedWordsUpdate } from './helper';
 import { storeEssentialDataOnInstall, updateIfNeeded } from './init';
@@ -11,7 +12,7 @@ const onInstalledListener = details => {
   // Browser.tabs.create({ url: Browser.runtime.getURL('index.html') }); // A trick to force the execution of popup code on installation
 
   if (details.reason === BROWSER_ONINSTALL_REASON.INSTALL) {
-    storeEssentialDataOnInstall(); // Background is more suitable to perform this setup job other than popup. Popup will not be executed unless launch it in a new tab or user click the icon
+    storeEssentialDataOnInstall(); // Background is more suitable to perform setup than popup. Popup will not be executed unless it get launched in a new tab or user clicks the icon
   } else if (details.reason === BROWSER_ONINSTALL_REASON.UPDATE) {
     updateIfNeeded();
   }
@@ -37,9 +38,9 @@ const onMessageListener = async (message, sender, sendResponse) => {
 const onStorageChangedListener = (changes, namespace) => {
   for (const [key, { oldValue = '<empty>', newValue = '<empty>' }] of Object.entries(changes)) {
     let oldVal = oldValue ?? '<empty>';
-    let newVal = oldValue ?? '<empty>';
-    oldVal = oldVal.constructor === Object ? JSON.stringify(oldVal) : oldValue;
-    newVal = newVal.constructor === Object ? JSON.stringify(newVal) : newValue;
+    let newVal = newValue ?? '<empty>';
+    oldVal = isObject(oldVal) || isArray(oldVal) ? JSON.stringify(oldVal) : oldValue;
+    newVal = isObject(newVal) || isArray(newVal) ? JSON.stringify(newVal) : newValue;
     const msg = `Storage key "${key}" in namespace "${namespace}" changed. Old value was "${oldVal}", new value is "${newVal}"`;
     logger(msg);
   }

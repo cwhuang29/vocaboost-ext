@@ -11,30 +11,22 @@ import { LOGIN_METHOD } from '@constants/loginType';
 import { EXT_MSG_TYPE_OAUTH_LOGIN } from '@constants/messages';
 import { faMicrosoft } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { oauthGoogleSignIn } from '@oauth/google';
 import authService from '@services/auth.service';
-import { clearAuthDataFromStorage, getUserInfoFromStorage, storeAuthDataToStorage } from '@utils/auth';
-import { fetchLatestConfigOnLogin } from '@utils/config';
-import { logger } from '@utils/logger';
+import { clearAuthDataFromStorage, getUserInfoFromStorage } from '@utils/auth';
+import { isObjectEmpty } from '@utils/misc';
 
 import { popupSettingActionType } from './action';
 import SectionTitle from './SectionTitle';
 
-const IconButton = ({ Icon, text, onClick, style }) => (
-  <Button variant='outlined' onClick={onClick} startIcon={Icon} style={{ fontSize: '98%', margin: '4px 0 -3px', ...style }}>
+const IconButton = ({ Icon, loading, text, onClick, style }) => (
+  <Button variant='outlined' onClick={onClick} startIcon={Icon} style={{ fontSize: '98%', margin: '4px 0 -3px', opacity: loading ? 0.3 : 1, ...style }}>
     {text}
   </Button>
 );
 
 const Profile = ({ numCollectedWords, handleChange }) => {
   const [userInfo, setUserInfo] = useState({});
-
-  const forcePopupRedraw = config => {
-    handleChange({
-      type: popupSettingActionType.OVERRIDE_ALL,
-      payload: config,
-    });
-  };
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const setup = async () => {
@@ -46,28 +38,38 @@ const Profile = ({ numCollectedWords, handleChange }) => {
     setup();
   }, []);
 
-  const login = async loginPayload => {
-    const { token, isNewUser, user } = await authService.login(loginPayload).catch(err => {
-      logger(`Login error: ${JSON.stringify(err)}`); // TODO Popup error message
+  const forcePopupRedraw = config => {
+    handleChange({
+      type: popupSettingActionType.OVERRIDE_ALL,
+      payload: config,
     });
-    await storeAuthDataToStorage({ token, user });
-    if (!isNewUser) {
-      const { latestConfig } = await fetchLatestConfigOnLogin();
-      forcePopupRedraw(latestConfig);
-    }
-    setUserInfo(user);
   };
 
   const onGoogleSignIn = async () => {
-    // Since Google OAuth login does not require user enter credentials on a separate popup window, there's no need to run on background. Also, we can redraw popup immediately
-    const loginPayload = await oauthGoogleSignIn();
-    await login(loginPayload);
+    const resp = await sendMessage({ type: EXT_MSG_TYPE_OAUTH_LOGIN, payload: { loginMethod: LOGIN_METHOD.GOOGLE } });
+    const { isNewUser, user, config } = resp || {};
+    if (!isNewUser && !isObjectEmpty(config)) {
+      forcePopupRedraw(config);
+    }
+    if (!isObjectEmpty(user)) {
+      setUserInfo(user);
+    }
   };
 
   const onAzureSignIn = async () => {
-    // There is a bug on launchWebAuthFlow which cause extension popup page to close unexpectedly. Add this code to make sure every user's popup pages close
+    // There is a bug on launchWebAuthFlow which cause extension popup page to close after signing in through Microsoft OAuth popup window
     await sendMessage({ type: EXT_MSG_TYPE_OAUTH_LOGIN, payload: { loginMethod: LOGIN_METHOD.AZURE } });
-    window.close();
+  };
+
+  const onSignIn = loginMethod => async () => {
+    setLoading(true);
+    if (loginMethod === LOGIN_METHOD.GOOGLE) {
+      await onGoogleSignIn();
+    }
+    if (loginMethod === LOGIN_METHOD.AZURE) {
+      await onAzureSignIn();
+    }
+    setLoading(false);
   };
 
   const signOut = async () => {
@@ -76,15 +78,26 @@ const Profile = ({ numCollectedWords, handleChange }) => {
     setUserInfo({});
   };
 
-  const isSignedIn = Object.keys(userInfo).length === 0;
+  const isSignedIn = Object.keys(userInfo).length !== 0;
 
   return (
     <Box>
-      {isSignedIn ? (
+      {!isSignedIn ? (
         <>
           <SectionTitle>Profile (sign in to keep your collected words safely)</SectionTitle>
-          <IconButton Icon={<GoogleIcon />} onClick={onGoogleSignIn} text='Sign in with Google' style={{ marginRight: '3.2px' }} />
-          <IconButton Icon={<FontAwesomeIcon icon={faMicrosoft} style={{ fontSize: '19px' }} />} onClick={onAzureSignIn} text='Sign in with Microsoft' />
+          <IconButton
+            Icon={<GoogleIcon />}
+            loading={loading}
+            onClick={onSignIn(LOGIN_METHOD.GOOGLE)}
+            text='Sign in with Google'
+            style={{ marginRight: '3.2px' }}
+          />
+          <IconButton
+            Icon={<FontAwesomeIcon icon={faMicrosoft} style={{ fontSize: '19px' }} />}
+            loading={loading}
+            onClick={onSignIn(LOGIN_METHOD.AZURE)}
+            text='Sign in with Microsoft'
+          />
         </>
       ) : (
         <>
@@ -110,12 +123,14 @@ const Profile = ({ numCollectedWords, handleChange }) => {
 
 IconButton.propTypes = {
   Icon: PropTypes.element.isRequired,
+  loading: PropTypes.bool,
   onClick: PropTypes.func.isRequired,
   text: PropTypes.string.isRequired,
   style: PropTypes.object,
 };
 
 IconButton.defaultProps = {
+  loading: false,
   style: {},
 };
 

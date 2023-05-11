@@ -1,9 +1,6 @@
 import { HIGHLIGHTER_BG_COLOR_CLASS, HIGHLIGHTER_ORG_WORD_CLASS } from '@constants/index';
 import { setURLToConfigFormat } from '@utils/config';
-
-/*
- * Note: the complexity of this file is greatly reduced by moving the impl. of the detial popup to react component
- */
+import { isObjectEmpty } from '@utils/misc';
 
 const getAllHighlightWordNodes = () => [...document.getElementsByClassName(HIGHLIGHTER_ORG_WORD_CLASS)];
 
@@ -26,6 +23,10 @@ const updateNodeStyle = (node, { highlightColor }) => {
 const shouldClearStyle = config => config.suspendedPages.includes(setURLToConfigFormat(window.location));
 
 const shouldUpdateStyle = (config, prevConfig) => {
+  if (isObjectEmpty(prevConfig)) {
+    return true;
+  }
+
   const url = setURLToConfigFormat(window.location);
   const nowSuspending = config.suspendedPages.includes(url);
   const prevSuspended = prevConfig.suspendedPages.includes(url);

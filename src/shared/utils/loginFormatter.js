@@ -1,25 +1,28 @@
 import { LOGIN_METHOD } from '@constants/loginType';
 
-export const transformGoogleLoginResp = ({ accountId, email, firstName, lastName, avatar, scopes }) => ({
+// See https://developers.google.com/identity/openid-connect/openid-connect#obtainuserinfo
+export const transformGoogleLoginResp = data => ({
   loginMethod: LOGIN_METHOD.GOOGLE,
-  accountId,
+  idToken: data.idToken,
+  accountId: data.sub,
   detail: {
-    email,
-    firstName,
-    lastName,
-    scopes: JSON.stringify(scopes),
-    avatar,
+    email: data.email,
+    firstName: data.given_name,
+    lastName: data.family_name,
+    scopes: data.scope,
+    avatar: data.picture, // A https url
   },
 });
 
 export const transformAzureLoginResp = data => ({
   loginMethod: LOGIN_METHOD.AZURE,
+  idToken: data.idToken,
   accountId: data.oid,
   detail: {
     email: data.email,
     firstName: data.given_name,
     lastName: data.family_name,
     scopes: data.scope,
-    avatar: data.avatar,
+    avatar: data.avatar, // A base64 encoded string
   },
 });
