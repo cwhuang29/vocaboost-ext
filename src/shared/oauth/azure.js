@@ -22,6 +22,7 @@ const extractAuthResult = ({ result }) => {
   return { code, idToken };
 };
 
+// Get authorization code. Note the id_token is only provided if openid scope was requested
 // See https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow
 const authorize = async ({ nonce }) => {
   const url = new URL(AZURE_OAUTH_AUTH_PATH, AZURE_OAUTH_ENDPOINT);
