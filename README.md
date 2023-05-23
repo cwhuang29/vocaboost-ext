@@ -25,7 +25,7 @@ If you come across an unfamiliar word, simply add it to your list and review it 
 
 ## System Architecture
 
-![System Architecture](demo/vocaboost-system-architecture.jpg)
+![System Architecture](demo/vocaboost-system-architecture.png)
 
 ## Demo
 
