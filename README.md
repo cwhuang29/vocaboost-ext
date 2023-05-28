@@ -4,7 +4,7 @@ View VocaBoost official website on [here](https://www.vocabularyboost.com/).
 
 Install VocaBoost extension on [Chrome Web Store](https://chrome.google.com/webstore/detail/gre-vocabulary-highlighte/gfkmbmplhjdoejicgmaldndkcnnpplho).
 
-Install VocaBoost app on [App Store](https://apps.apple.com/app/vocabboost/id6447704480).
+Install VocaBoost app on [App Store](https://apps.apple.com/app/vocabboost/id6447704480) or [Google Play Store](https://play.google.com/store/apps/details?id=vocaboost.com).
 
 VocaBoost is designed to help non-native English speakers improve their language skills and prepare for the GRE exam. With over 1500 of the most commonly used GRE vocabulary and phrases, VocaBoost is an essential tool for anyone looking to boost their English proficiency.
 
