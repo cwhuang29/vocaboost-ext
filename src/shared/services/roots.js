@@ -11,7 +11,7 @@ const httpConfig = {
   xsrfCookieName: 'csrftoken', // The name of the cookie to use as a value for xsrf token
   timeout: 30000, // If the request takes longer than `timeout`, the request will be aborted (Error: timeout of 1000ms exceeded)
   transformResponse: [data => ({ ...JSON.parse(data) })], // Changes to the response to be made before it is passed to then/catch
-  headers: { 'X-VH-Source': 'extension' }, // Custom headers to be sent
+  headers: { 'X-VH-Platform': 'web', 'X-VH-Source': 'extension' },
 };
 
 const fetch = axios.create(httpConfig);

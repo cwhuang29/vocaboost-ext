@@ -2,7 +2,7 @@ import config from '@/config';
 
 import { getAuthTokenFromStorage } from './auth';
 
-export const headers = { 'Content-Type': 'application/json', 'X-VH-Source': 'extension' };
+export const headers = { 'Content-Type': 'application/json', 'X-VH-Source': 'extension', 'X-VH-Platform': 'web' };
 
 export const getEndpointUrl = ({ path }) => `${config.backendURL}${path}`;
 
