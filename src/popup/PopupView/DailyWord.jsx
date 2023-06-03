@@ -38,7 +38,7 @@ const Example = ({ example }) => <span className={HIGHLIGHTER_CLASS}>{constructW
 const DailyWord = ({ language }) => {
   const [msg, setMsg] = useState(null);
   const { dailyWord = {} } = useExtensionMessageContext(); // This might takes a bit time (get/update daily word -> insert to storage -> update context)
-  const { id, word, detail } = dailyWord;
+  const { word, detail } = dailyWord;
   const link = `${ONLINE_DIC_URL[language]}${word}`;
 
   useEffect(() => {

@@ -3,7 +3,7 @@ import Browser from 'webextension-polyfill';
 import PropTypes from 'prop-types';
 
 import { getStorage, setStorage } from '@browsers/storage';
-import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, EXT_MSG_TYPE_CONFIG_UPDATE, EXT_MSG_TYPE_GET_WORD_LIST } from '@constants/messages';
+import { EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE, EXT_MSG_TYPE_CONFIG_UPDATE } from '@constants/messages';
 import { EXT_STORAGE_DAILY_WORD } from '@constants/storage';
 import { ExtensionMessageContext } from '@hooks/useExtensionMessageContext';
 import { logger } from '@utils/logger';
@@ -51,10 +51,6 @@ const PopupManager = ({ children }) => {
       case EXT_MSG_TYPE_COLLECTED_WORD_LIST_UPDATE:
         // Whenever a tab update the config, it sends a message to notify all other tabs
         setExtMessageValue(prev => ({ ...prev, config: message.payload.state }));
-        break;
-      case EXT_MSG_TYPE_GET_WORD_LIST:
-        // Triggered by context script to setup wordlist. Not workable since popup only runs when user open it
-        // sendResponse({ payload: JSON.stringify(genWordDetailList()) });
         break;
       default:
         break;
