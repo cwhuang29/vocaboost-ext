@@ -12,7 +12,7 @@
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./*"],
       "@background/*": ["background/*"],
       "@browsers/*": ["shared/browsers/*"],
       "@content/*": ["content/*"],
