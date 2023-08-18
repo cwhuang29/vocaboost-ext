@@ -40,7 +40,7 @@ const PopupManager = ({ children }) => {
 
   /*
    * Since this function is registered to the listener in the beginning, the setExtMessageValue becomes a "stale" version
-   * Even if using the callback function syntax cannot let us get the latest value
+   * Even using the callback function syntax cannot let us get the latest value
    */
   const onMessageListener = (message, sender) => {
     const sdr = sender.tab ? `from a content script :${sender.tab.url}` : 'from the extension';

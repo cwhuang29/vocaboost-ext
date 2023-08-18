@@ -95,6 +95,7 @@ export const isConfigEqual = (config1 = {}, config2 = {}) => {
   if (Object.keys(c1).length !== Object.keys(c2).length) {
     return false;
   }
+
   const misMatches = Object.entries(c1).filter(([key, val]) => {
     if (isArray(val)) {
       return val.length !== c2[key].length; // Not accurate but acceptable
